@@ -7,9 +7,10 @@ export interface Show {
 export interface Episode {
   episodeNumber: number | null;
   id: string;
-  sortKey: string;
   img: string;
+  mediaId: string | undefined;
   seasonNumber: number | null;
+  sortKey: string;
   title: string;
   url: string;
 }

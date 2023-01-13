@@ -2,11 +2,7 @@
   import shows from './assets/shows.json';
   import { pattern, path, goto, back } from 'svelte-pathfinder';
   import type { Show } from '../scripts/shared-types.js';
-  import { Parser } from 'm3u8-parser';
-  import videojsImport from 'video.js';
-
-  const videojs = videojsImport as any as typeof videojsImport.default;
-  const m3u8Parser = new Parser();
+  import Episode from './Episode.svelte';
 
   function gotoShow(showTitle: string) {
     goto(`sending/${showTitle}`);
@@ -37,16 +33,6 @@
     const title = $path.params.episodeTitle;
     return show.episodes.find((e) => e.title === decodeURIComponent(title));
   }
-
-  function parseManifest(manifest: string) {
-    m3u8Parser.push(manifest);
-    m3u8Parser.end();
-
-    var parsedManifest = m3u8Parser.manifest;
-    return parseManifest;
-  }
-
-  const player = videojs('barnasendingar-video-player');
 </script>
 
 <main>
@@ -71,9 +57,7 @@
     <div class="episode">
       <h3>{episode?.title}</h3>
       <p>Sesong: {episode?.seasonNumber} Partur: {episode?.episodeNumber}</p>
-      <img src={episode?.img} alt="Partur" />
-      <!-- svelte-ignore a11y-media-has-caption -->
-      <video id="barnasendingar-video-player" class="video-js" />
+      <Episode {episode} />
     </div>
   </modal>
 {/if}

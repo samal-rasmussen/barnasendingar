@@ -8,6 +8,7 @@ var collator = new Intl.Collator(undefined, {
   sensitivity: 'base',
 });
 const urlPrefix = 'https://kvf.fo';
+const regex = new RegExp(`(var media = ')(.+)';`);
 
 function pretty(html: string): string {
   return prettier.format(html, { parser: 'html' });
@@ -36,15 +37,23 @@ async function parseEpisode(el, i): Promise<Episode | undefined> {
       ? Number(seasonNumberElement.textContent)
       : null;
   const id = a.href.split('/vit/sjonvarp/')[1];
+  const url = urlPrefix + a.href;
+
+  const episodePage = await fetch(url);
+  const episodePageHtml = await episodePage.text();
+
+  const result = regex.exec(episodePageHtml);
+  const mediaId = result?.[2];
 
   const episode: Episode = {
     episodeNumber,
     id,
     img: img.src,
+    mediaId,
     seasonNumber,
     sortKey: `s: ${seasonNumber} e: ${episodeNumber} id: ${id}`,
     title: a.textContent ?? '',
-    url: urlPrefix + a.href,
+    url,
   };
 
   // const showPage = await fetch(episode.url);
