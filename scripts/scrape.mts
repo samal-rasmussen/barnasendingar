@@ -1,84 +1,109 @@
-import { writeFileSync } from "fs";
-import { JSDOM } from "jsdom";
-import prettier from "prettier";
+import { writeFileSync } from 'fs';
+import { JSDOM } from 'jsdom';
+import prettier from 'prettier';
+import { Show, Episode } from './shared-types.js';
 
-const urlPrefix = "https://kvf.fo";
-
-interface Sending {
-  img: string;
-  title: string;
-  url: string;
-  partar: Partur[];
-}
-interface Partur {
-  episode: number | null;
-  img: string;
-  season: number | null;
-  title: string;
-  url: string;
-}
+var collator = new Intl.Collator(undefined, {
+  numeric: true,
+  sensitivity: 'base',
+});
+const urlPrefix = 'https://kvf.fo';
 
 function pretty(html: string): string {
-  return prettier.format(html, { parser: "html" });
+  return prettier.format(html, { parser: 'html' });
+}
+
+async function parseEpisode(el, i): Promise<Episode | undefined> {
+  if (el.children.length === 0) {
+    return;
+  }
+  // console.log(pretty(el.innerHTML));
+
+  const img = el.querySelector('img') as HTMLImageElement;
+  const a = el.querySelector('.views-field-title a') as HTMLAnchorElement;
+  const seasonNumberElement = el.querySelector(
+    '.views-field-field-n-season .field-content',
+  ) as HTMLElement;
+  const episodeNumberElement = el.querySelector(
+    '.views-field-field-ra-tal .field-content',
+  ) as HTMLElement;
+  const episodeNumber =
+    episodeNumberElement != null
+      ? Number(episodeNumberElement.textContent)
+      : null;
+  const seasonNumber =
+    seasonNumberElement != null
+      ? Number(seasonNumberElement.textContent)
+      : null;
+  const id = a.href.split('/vit/sjonvarp/')[1];
+
+  const episode: Episode = {
+    episodeNumber,
+    id,
+    img: img.src,
+    seasonNumber,
+    sortKey: `s: ${seasonNumber} e: ${episodeNumber} id: ${id}`,
+    title: a.textContent ?? '',
+    url: urlPrefix + a.href,
+  };
+
+  // const showPage = await fetch(episode.url);
+  // const showPageHtml = await showPage.text();
+  // console.log(showPageHtml);
+  return episode;
+}
+
+async function parseShow(showUrl: string): Promise<Episode[]> {
+  const showResult = await fetch(showUrl);
+  const showHtml = await showResult.text();
+  const showDom = new JSDOM(showHtml);
+  // console.log(showHtml);
+
+  const episodes: Episode[] = [];
+  const cells = showDom.window.document.querySelectorAll('td');
+  for (let i = 0; i < cells.length; i++) {
+    const e = cells[i];
+    const episode = await parseEpisode(e, i);
+    if (episode != null) {
+      episodes.push(episode);
+    }
+  }
+
+  return episodes.sort((a, b) => collator.compare(a.sortKey, b.sortKey));
 }
 
 async function run() {
-  const sendingarResult = await fetch("https://kvf.fo/vit/sjonvarp/sendingar");
-  const sendingarHtml = await sendingarResult.text();
-  const sendingarDom = new JSDOM(sendingarHtml);
+  const showsResult = await fetch('https://kvf.fo/vit/sjonvarp/sendingar');
+  const showsHtml = await showsResult.text();
+  const showsDom = new JSDOM(showsHtml);
 
-  const sendingar: Sending[] = [];
-  sendingarDom.window.document
-    .querySelectorAll(".view-content .views-row")
+  const shows: Show[] = [];
+  showsDom.window.document
+    .querySelectorAll('.view-content .views-row')
     .forEach((el) => {
-      const img = el.querySelector("img") as HTMLImageElement;
-      const a = el.querySelector(".views-field-title a") as HTMLAnchorElement;
-      const sending = {
+      const img = el.querySelector('img') as HTMLImageElement;
+      const a = el.querySelector('.views-field-title a') as HTMLAnchorElement;
+      const show: Show = {
         img: img.src,
-        title: a.textContent ?? "",
+        title: a.textContent ?? '',
         url: urlPrefix + a.href,
-        partar: [],
+        episodes: [],
       };
-      sendingar.push(sending);
+      shows.push(show);
     });
 
-  for await (const sending of sendingar) {
-    const sendingResult = await fetch(sending.url);
-    const sendingHtml = await sendingResult.text();
-    const sendingDom = new JSDOM(sendingHtml);
-    // console.log(sendingHtml);
+  shows.sort((a, b) => collator.compare(a.title, b.title));
 
-    const partar: Partur[] = [];
-    sendingDom.window.document.querySelectorAll("td").forEach((el) => {
-      if (el.children.length === 0) {
-        return;
-      }
-      // console.log(pretty(el.innerHTML));
+  // const show = shows[1];
+  // const episodes = await parseShow(show.url);
+  // show.episodes = episodes;
 
-      const img = el.querySelector("img") as HTMLImageElement;
-      const a = el.querySelector(".views-field-title a") as HTMLAnchorElement;
-      const seasonNumber = el.querySelector(
-        ".views-field-field-n-season .field-content"
-      ) as HTMLElement;
-      const episodeNumber = el.querySelector(
-        ".views-field-field-ra-tal .field-content"
-      ) as HTMLElement;
-
-      const partur = {
-        episode:
-          episodeNumber != null ? Number(episodeNumber.textContent) : null,
-        img: img.src,
-        season: seasonNumber != null ? Number(seasonNumber.textContent) : null,
-        title: a.textContent ?? "",
-        url: urlPrefix + a.href,
-      };
-      partar.push(partur);
-    });
-
-    sending.partar = partar.reverse();
+  for await (const show of shows) {
+    const episodes = await parseShow(show.url);
+    show.episodes = episodes;
   }
 
-  writeFileSync("public/sendingar.json", JSON.stringify(sendingar, null, 2));
+  writeFileSync('src/assets/shows.json', JSON.stringify(shows, null, 2));
 }
 
 run();

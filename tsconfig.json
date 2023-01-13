@@ -4,6 +4,7 @@
     "strict": true,
     "target": "ESNext",
     "useDefineForClassFields": true,
+    "moduleResolution": "NodeNext",
     "module": "ESNext",
     "resolveJsonModule": true,
     /**
