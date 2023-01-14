@@ -53,12 +53,9 @@
 
 {#if $pattern('/sending/:showTitle/partur/:episodeTitle')}
   {@const episode = getEpisode()}
+  {@const show = getShow()}
   <modal style="z-index: 99">
-    <div class="episode">
-      <h3>{episode?.title}</h3>
-      <p>Sesong: {episode?.seasonNumber} Partur: {episode?.episodeNumber}</p>
-      <Episode {episode} />
-    </div>
+    <Episode {episode} {show} />
   </modal>
 {/if}
 
