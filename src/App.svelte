@@ -1,8 +1,10 @@
 <script lang="ts">
   import shows from './assets/shows.json';
   import { pattern, path, goto, back } from 'svelte-pathfinder';
-  import type { Show } from '../scripts/shared-types.js';
-  import Episode from './Episode.svelte';
+  import type { Episode, Show } from '../scripts/shared-types.js';
+  import Player from './Player.svelte';
+
+  $: showPlayer = $pattern('/sending/:showTitle/partur/:episodeTitle');
 
   function gotoShow(showTitle: string) {
     goto(`sending/${showTitle}`);
@@ -25,13 +27,16 @@
     return titleToShow[$path.params.showTitle];
   }
 
-  function getEpisode() {
+  function getEpisodes(): Episode[] {
     const show = getShow();
     if (typeof $path.params.episodeTitle !== 'string') {
       throw new Error('episodeTitle had incorrect type');
     }
     const title = $path.params.episodeTitle;
-    return show.episodes.find((e) => e.title === decodeURIComponent(title));
+    const index = show.episodes.findIndex(
+      (e) => e.title === decodeURIComponent(title),
+    );
+    return show.episodes.slice(index);
   }
 </script>
 
@@ -51,11 +56,11 @@
   </div>
 </main>
 
-{#if $pattern('/sending/:showTitle/partur/:episodeTitle')}
-  {@const episode = getEpisode()}
+{#if showPlayer}
+  {@const episodes = getEpisodes()}
   {@const show = getShow()}
   <modal style="z-index: 99">
-    <Episode {episode} {show} />
+    <Player {episodes} {show} />
   </modal>
 {/if}
 
