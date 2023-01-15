@@ -9,6 +9,8 @@
   export let show: Show | undefined;
   export let episodes: Episode[] | undefined;
 
+  const videojs = videojsImport as any as typeof videojsImport.default;
+
   let currentIndex = 0;
   let current: Episode | undefined;
 
@@ -23,11 +25,11 @@
   }
 
   function onCurrentChange(current: Episode) {
-    console.log('watman,', episodes, currentIndex, history.state);
     redirect(`sending/${$path.params.showTitle}/partur/${current.title}`);
     const manifestUrl = `https://play.kringvarp.fo/redirect/video/_definst_/smil:${current?.mediaId}.smil?type=m3u8`;
     fetch(manifestUrl).then(async (manifestResponse) => {
       const manifest = await manifestResponse.text();
+      console.log('banana 2', manifest);
       const parsed = parseManifest(manifest);
       playlist = parsed.playlists[0].uri;
       if (typeof playlist !== 'string') {
@@ -59,10 +61,8 @@
     }
   }
 
-  const videojs = videojsImport as any as typeof videojsImport.default;
-  const m3u8Parser = new Parser();
-
   function parseManifest(manifest: string) {
+    const m3u8Parser = new Parser();
     m3u8Parser.push(manifest);
     m3u8Parser.end();
     var parsedManifest = m3u8Parser.manifest;

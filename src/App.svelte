@@ -50,7 +50,7 @@
         on:keypress={() => gotoShow(show.title)}
       >
         <h2>{show.title}</h2>
-        <img src={show.img} width="500" alt="Sending" />
+        <img src={show.img} alt="Sending" />
       </div>
     {/each}
   </div>
@@ -84,6 +84,21 @@
   .shows {
     white-space: pre;
     text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 2em 2em;
+    box-sizing: border-box;
+  }
+  .show {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-right: 2em;
+  }
+  .show h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
   }
 
   modal {
@@ -95,5 +110,28 @@
     background-color: #1a1a1a;
     overscroll-behavior: none;
     overflow: scroll;
+  }
+
+  @media only screen and (max-width: 696px) {
+    h1 {
+      font-size: 2.6em;
+    }
+    h2 {
+      font-size: 1.3em;
+    }
+
+    .shows {
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding: 0;
+    }
+    .show {
+      padding: 0;
+    }
+    .show img {
+      width: 100%;
+    }
   }
 </style>

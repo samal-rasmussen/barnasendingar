@@ -37,15 +37,16 @@ h1 {
   line-height: 1.1;
 }
 
-.card {
-  padding: 2em;
+#app {
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@media only screen and (max-width: 600px) {
+  #app {
+    width: 100vw;
+  }
 }
 
 button {
