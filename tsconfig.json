@@ -2,7 +2,7 @@
   "extends": "@tsconfig/svelte/tsconfig.json",
   "compilerOptions": {
     "strict": true,
-    "target": "ESNext",
+    "target": "ES5",
     "useDefineForClassFields": true,
     "moduleResolution": "NodeNext",
     "module": "ESNext",
