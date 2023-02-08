@@ -83,6 +83,46 @@
         "sortKey": "s: 1 e: 8 id: 2023/01/08/albi-vil-ves",
         "title": "Albi vil á ves",
         "url": "https://kvf.fo/vit/sjonvarp/2023/01/08/albi-vil-ves"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/01/16/albi-ger-eina-song",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00009_ut355_albi_kavamadur_9_07022019_0035.jpg?itok=RqxrmvtX",
+        "mediaId": "ALB00009_UT355_Albi_kavamadur_9_07022019",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/01/16/albi-ger-eina-song",
+        "title": "Albi ger eina song",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/16/albi-ger-eina-song"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/01/23/albi-ger-eitt-bord",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00010_ut355_albi_kavamadur_10_08022019_0078.jpg?itok=ihU7w-fX",
+        "mediaId": "ALB00010_UT355_Albi_kavamadur_10_08022019",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2023/01/23/albi-ger-eitt-bord",
+        "title": "Albi ger eitt borð",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/23/albi-ger-eitt-bord"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/01/17/albi-vil-hava-ein-hund",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00023_ut356_albi_kavamadur_10_27022019_0067.jpg?itok=NfK1tpqb",
+        "mediaId": "ALB00023_UT356_Albi_kavamadur_10_27022019",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/01/17/albi-vil-hava-ein-hund",
+        "title": "Albi vil hava ein hund",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/17/albi-vil-hava-ein-hund"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/02/07/albi-ger-eitt-sjonvarp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00011_ut355_albi_kavamadur_11_11022019_0026.jpg?itok=qnrsnybU",
+        "mediaId": "ALB00011_UT355_Albi_kavamadur_11_11022019",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/02/07/albi-ger-eitt-sjonvarp",
+        "title": "Albi ger eitt sjónvarp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/02/07/albi-ger-eitt-sjonvarp"
       }
     ]
   },
@@ -2468,6 +2508,46 @@
         "sortKey": "s: 1 e: 8 id: 2023/01/09/hur00009bl1586hurliverd92012",
         "title": "Mórálvur Megnarmenni",
         "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00009bl1586hurliverd92012"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/01/09/hur00010bl1586hurliverd102012",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00010_bl1586_hurliverd_10_2012_0053.jpg?itok=33M16L8q",
+        "mediaId": "HUR00010_BL1586_Hurliverd_10_2012",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/01/09/hur00010bl1586hurliverd102012",
+        "title": "Ofta býr fals undir fríum skinni",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00010bl1586hurliverd102012"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/01/09/hur00011bl1586hurliverd112012",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00011_bl1586_hurliverd_11_2012_0044.jpg?itok=MHfOXYFV",
+        "mediaId": "HUR00011_BL1586_Hurliverd_11_2012",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2023/01/09/hur00011bl1586hurliverd112012",
+        "title": "Rúnálvur missir minnið",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00011bl1586hurliverd112012"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/01/09/hur00012bl1586hurliverd122012",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00012bl1586_hurliverd_12_2012_0023.jpg?itok=AUCmJLAp",
+        "mediaId": "HUR00012BL1586_Hurliverd_12_2012",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/01/09/hur00012bl1586hurliverd122012",
+        "title": "Ongin Norbert",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00012bl1586hurliverd122012"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2023/01/09/hur00013bl1587hurliverd132013",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00013_bl1587_hurliverd_13_2013_0019.jpg?itok=mprKKVTj",
+        "mediaId": "HUR00013_BL1587_Hurliverd_13_2013",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2023/01/09/hur00013bl1587hurliverd132013",
+        "title": "Ástardrykkur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00013bl1587hurliverd132013"
       }
     ]
   },
@@ -2946,23 +3026,6 @@
         "sortKey": "s: 1 e: 7 id: 2022/11/09/bta00125bl1550lottaibrakarastrati71999",
         "title": "Víst er Lotta glað",
         "url": "https://kvf.fo/vit/sjonvarp/2022/11/09/bta00125bl1550lottaibrakarastrati71999"
-      }
-    ]
-  },
-  {
-    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/medan_vit_bida.png?itok=egrZMajs",
-    "title": "Meðan vit bíða",
-    "url": "https://kvf.fo/vit/sending/sv/medan-vit-bida",
-    "episodes": [
-      {
-        "episodeNumber": 0,
-        "id": "2022/12/24/medan-vit-bida",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/medan_vit_bida_mynd_0.png?itok=Pjs6Djw-",
-        "mediaId": "BAR00138",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 0 id: 2022/12/24/medan-vit-bida",
-        "title": "Meðan vit bíða",
-        "url": "https://kvf.fo/vit/sjonvarp/2022/12/24/medan-vit-bida"
       }
     ]
   },
@@ -4141,6 +4204,53 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/ronja_ransmannadottir.png?itok=jdtiaRzl",
+    "title": "Ronja Ránsmansdóttir",
+    "url": "https://kvf.fo/vit/sending/sv/ronja-ransmansdottir",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2020/05/10/bta00103bl1621ronjaransmansdottir1vidteksti",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/rr1.png?itok=wz97vEmb",
+        "mediaId": "BTA00103_BL1621_Ronja_Ransmansdottir_1_vid_teksti",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2020/05/10/bta00103bl1621ronjaransmansdottir1vidteksti",
+        "title": "Ronja Ránsmansdóttir (1:6)",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/05/10/bta00103bl1621ronjaransmansdottir1vidteksti"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2020/05/18/bta00104bl1621ronjaransmansdottir2",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/rr2.png?itok=RHpXCOm6",
+        "mediaId": "BTA00104_BL1621_Ronja_Ransmansdottir_2_vid_teksti",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2020/05/18/bta00104bl1621ronjaransmansdottir2",
+        "title": "Ronja Ránsmansdóttir (2:6)",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/05/18/bta00104bl1621ronjaransmansdottir2"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2023/01/25/bta00105bl1621ronjaransmansdottir3vidteksti",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bta00105_bl1621_ronja_ransmansdottir_3_vid_teksti_0026.jpg?itok=J4S4_aGS",
+        "mediaId": "BTA00105_BL1621_Ronja_Ransmansdottir_3_vid_teksti",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2023/01/25/bta00105bl1621ronjaransmansdottir3vidteksti",
+        "title": "Ronja Ránsmansdóttir (3:6)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/25/bta00105bl1621ronjaransmansdottir3vidteksti"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2020/06/03/bta00106bl1621ronjaransmansdottir4vidteksti",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bta00106_bl1621_ronja_ransmansdottir_4_vid_teksti_0017.jpg?itok=nTFUij45",
+        "mediaId": "BTA00106_BL1621_Ronja_Ransmansdottir_4_vid_teksti",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2020/06/03/bta00106bl1621ronjaransmansdottir4vidteksti",
+        "title": "Ronja Ránsmansdóttir (4:6)",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/06/03/bta00106bl1621ronjaransmansdottir4vidteksti"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bar00081_0081.jpg?itok=RUBhEBGq",
     "title": "Sakin",
     "url": "https://kvf.fo/vit/sakin",
@@ -5204,6 +5314,46 @@
         "url": "https://kvf.fo/vit/sjonvarp/2022/11/30/snipp-snapp"
       },
       {
+        "episodeNumber": 0,
+        "id": "2023/01/18/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ludvik_og_tinna.png?itok=-e1P24FY",
+        "mediaId": "SNI00297_SnippSnapp_01",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 0 id: 2023/01/18/snipp-snapp",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/18/snipp-snapp"
+      },
+      {
+        "episodeNumber": 0,
+        "id": "2023/01/25/sni00298bl1812snippsnapp22023",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ella_og_eiri.png?itok=7L95K8w6",
+        "mediaId": "SNI00298_BL1812_Snipp_Snapp_2_2023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 0 id: 2023/01/25/sni00298bl1812snippsnapp22023",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/25/sni00298bl1812snippsnapp22023"
+      },
+      {
+        "episodeNumber": 0,
+        "id": "2023/02/02/sni00299bl1812snippsnapp32023",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/nora_og_edvard.png?itok=jXzHLs4q",
+        "mediaId": "SNI00299_BL1812_Snipp_Snapp_3_2023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 0 id: 2023/02/02/sni00299bl1812snippsnapp32023",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/02/02/sni00299bl1812snippsnapp32023"
+      },
+      {
+        "episodeNumber": 0,
+        "id": "2023/02/08/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/debora_og_heini.png?itok=7DJtbUsJ",
+        "mediaId": "SNI00300_BL1812_Snipp_Snapp_4_2023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 0 id: 2023/02/08/snipp-snapp",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/02/08/snipp-snapp"
+      },
+      {
         "episodeNumber": 1,
         "id": "2019/10/01/snipp-snapp",
         "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/talita_-_snipp_snapp_3._partur.png?itok=XCc0QjWr",
@@ -5806,6 +5956,36 @@
         "sortKey": "s: 1 e: 9 id: 2023/01/09/tim00011ut308timmytid11",
         "title": "Timmy spælir dukkusjónleik",
         "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/tim00011ut308timmytid11"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/01/09/tim00012ut308timmytid12",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/tim00012_ut308_timmy_tid_12_0060.jpg?itok=S6g4rSZ4",
+        "mediaId": "TIM00012_UT308_Timmy_tid_12",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2023/01/09/tim00012ut308timmytid12",
+        "title": "Timmy byggir eina smáttu",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/tim00012ut308timmytid12"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/01/09/tim00014ut308timmytid14",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/timmytid.png?itok=nUvjhNry",
+        "mediaId": "TIM00014_UT308_Timmy_tid_14",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/01/09/tim00014ut308timmytid14",
+        "title": "Maskan hjá Timmy",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/tim00014ut308timmytid14"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2023/01/09/tim00015ut308timmytid15",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/tt13.png?itok=XqpPQrMq",
+        "mediaId": "TIM00015_UT308_Timmy_tid_15",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2023/01/09/tim00015ut308timmytid15",
+        "title": "Várblómurnar hjá Timmy",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/tim00015ut308timmytid15"
       }
     ]
   },
