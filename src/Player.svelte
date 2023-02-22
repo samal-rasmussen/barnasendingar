@@ -26,13 +26,15 @@
   function onCurrentChange(current: Episode) {
     redirect(`sending/${$path.params.showTitle}/partur/${current.title}`);
     const playlist = `https://play.kringvarp.fo/redirect/video/_definst_/smil:${current?.mediaId}.smil?type=m3u8`;
-    player?.src([
-      {
-        type: 'application/x-mpegURL',
-        src: playlist,
-      },
-    ]);
-    player?.play();
+    setTimeout(() => {
+      player?.src([
+        {
+          type: 'application/x-mpegURL',
+          src: playlist,
+        },
+      ]);
+      player?.play();
+    });
   }
 
   $: {
