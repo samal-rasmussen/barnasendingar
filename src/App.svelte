@@ -92,9 +92,11 @@
   .show {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 169px;
     padding-right: 2em;
+  }
+  .show img {
+    width: 300px;
+    height: 168.783px;
   }
   .show h2 {
     overflow: hidden;
