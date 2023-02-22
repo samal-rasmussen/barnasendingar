@@ -1,7 +1,6 @@
 <script lang="ts">
   import { path, redirect } from 'svelte-pathfinder';
   import type { Episode, Show } from '../scripts/shared-types.js';
-  import { Parser } from 'm3u8-parser';
   import videojsImport, { type VideoJsPlayer } from 'video.js';
   import { onDestroy, onMount } from 'svelte';
   import 'video.js/dist/video-js.min.css';
@@ -27,22 +26,16 @@
   function onCurrentChange(current: Episode) {
     redirect(`sending/${$path.params.showTitle}/partur/${current.title}`);
     const manifestUrl = `https://play.kringvarp.fo/redirect/video/_definst_/smil:${current?.mediaId}.smil?type=m3u8`;
-    fetch(manifestUrl).then(async (manifestResponse) => {
-      const manifest = await manifestResponse.text();
-      console.log('banana 2', manifest);
-      const parsed = parseManifest(manifest);
-      playlist = parsed.playlists[0].uri;
-      if (typeof playlist !== 'string') {
-        throw new Error('playlist not found');
-      }
-      player?.src([
-        {
-          src: playlist,
-          type: 'application/x-mpegURL',
-        },
-      ]);
-      player?.play();
-    });
+    if (typeof playlist !== 'string') {
+      throw new Error('playlist not found');
+    }
+    player?.src([
+      {
+        src: manifestUrl,
+        type: 'application/x-mpegURL',
+      },
+    ]);
+    player?.play();
   }
 
   $: {
@@ -59,14 +52,6 @@
     if (current != null) {
       onCurrentChange(current);
     }
-  }
-
-  function parseManifest(manifest: string) {
-    const m3u8Parser = new Parser();
-    m3u8Parser.push(manifest);
-    m3u8Parser.end();
-    var parsedManifest = m3u8Parser.manifest;
-    return parsedManifest;
   }
 
   let playlist: string | undefined;

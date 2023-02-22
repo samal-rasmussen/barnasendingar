@@ -93,6 +93,7 @@
     display: flex;
     flex-direction: column;
     width: 300px;
+    height: 169px;
     padding-right: 2em;
   }
   .show h2 {
