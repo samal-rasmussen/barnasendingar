@@ -25,14 +25,11 @@
 
   function onCurrentChange(current: Episode) {
     redirect(`sending/${$path.params.showTitle}/partur/${current.title}`);
-    const manifestUrl = `https://play.kringvarp.fo/redirect/video/_definst_/smil:${current?.mediaId}.smil?type=m3u8`;
-    if (typeof playlist !== 'string') {
-      throw new Error('playlist not found');
-    }
+    const playlist = `https://play.kringvarp.fo/redirect/video/_definst_/smil:${current?.mediaId}.smil?type=m3u8`;
     player?.src([
       {
-        src: manifestUrl,
         type: 'application/x-mpegURL',
+        src: playlist,
       },
     ]);
     player?.play();
@@ -54,7 +51,6 @@
     }
   }
 
-  let playlist: string | undefined;
   let player: VideoJsPlayer | undefined;
 
   onMount(async () => {
