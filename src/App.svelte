@@ -121,6 +121,10 @@
     margin-top: 0px;
     margin-bottom: 4px;
   }
+  .episode img {
+    width: 300px;
+    height: 168.783px;
+  }
 
   modal {
     position: fixed;
