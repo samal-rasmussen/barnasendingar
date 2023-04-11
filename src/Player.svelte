@@ -109,6 +109,18 @@
   .header p {
     line-height: 2rem;
   }
+  .episode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .episode h3 {
+    margin-bottom: 0;
+  }
+  .episode p {
+    margin-top: 0px;
+    margin-bottom: 4px;
+  }
   .episode video-js {
     background-color: initial;
     height: 95vh;
