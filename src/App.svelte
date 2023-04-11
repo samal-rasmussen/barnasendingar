@@ -104,6 +104,19 @@
     margin-bottom: 8px;
   }
 
+  .episode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .episode h3 {
+    margin-bottom: 0;
+  }
+  .episode p {
+    margin-top: 0px;
+    margin-bottom: 4px;
+  }
+
   modal {
     position: fixed;
     width: 100vw;
