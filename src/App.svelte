@@ -66,7 +66,7 @@
 
 {#if $pattern('/sending/:showTitle')}
   <modal>
-    <div class="episodes"">
+    <div class="episodes">
         {#each getShow().episodes as episode}
           <div
             class="episode"
