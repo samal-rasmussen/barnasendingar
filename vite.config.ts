@@ -8,7 +8,7 @@ export default defineConfig({
     target: 'chrome58',
     minify: false,
   },
-  base: './',
+  // base: './',
   plugins: [
     svelte(),
     // splitVendorChunkPlugin()
