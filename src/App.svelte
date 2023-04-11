@@ -66,17 +66,19 @@
 
 {#if $pattern('/sending/:showTitle')}
   <modal>
-    {#each getShow().episodes as episode}
-      <div
-        class="episode"
-        on:click={() => playEpisode(episode.title)}
-        on:keypress={() => playEpisode(episode.title)}
-      >
-        <h3>{episode.title}</h3>
-        <p>Sesong: {episode.seasonNumber} Partur: {episode.episodeNumber}</p>
-        <img src={episode.img} alt="Partur" />
-      </div>
-    {/each}
+    <div class="episodes"">
+        {#each getShow().episodes as episode}
+          <div
+            class="episode"
+            on:click={() => playEpisode(episode.title)}
+            on:keypress={() => playEpisode(episode.title)}
+          >
+            <h3>{episode.title}</h3>
+            <p>Sesong: {episode.seasonNumber} Partur: {episode.episodeNumber}</p>
+            <img src={episode.img} alt="Partur" />
+          </div>
+        {/each}
+    </div>
   </modal>
 {/if}
 
@@ -107,6 +109,10 @@
     overflow: hidden;
     text-overflow: ellipsis;
     margin-bottom: 8px;
+  }
+
+  .episodes {
+    padding-bottom: 2em;
   }
 
   .episode {
