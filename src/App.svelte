@@ -82,7 +82,7 @@
 
 <style>
   main {
-    padding-left; 2em;
+    padding-left: 2em;
   }
 
   .shows {
