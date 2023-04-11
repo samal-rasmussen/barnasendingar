@@ -81,12 +81,16 @@
 {/if}
 
 <style>
+  main {
+    padding-left; 2em;
+  }
+
   .shows {
     white-space: pre;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0 2em 2em;
+    padding: 0 0 2em 0;
     box-sizing: border-box;
   }
   .show {
