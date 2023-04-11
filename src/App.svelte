@@ -93,6 +93,7 @@
     display: flex;
     flex-direction: column;
     padding-right: 2em;
+    width: 300px;
   }
   .show img {
     width: 300px;
