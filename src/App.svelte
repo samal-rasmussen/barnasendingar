@@ -113,9 +113,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2em;
   }
   .episode h3 {
-    margin-bottom: 0;
+    margin: 0;
   }
   .episode p {
     margin-top: 0px;
