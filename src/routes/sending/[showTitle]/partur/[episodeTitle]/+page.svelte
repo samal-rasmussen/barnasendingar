@@ -20,7 +20,7 @@
 	let current = show.episodes[currentIndex!];
 
 	function playEpisode() {
-		if (currentIndex >= show.episodes.length - 1) {
+		if (currentIndex >= show.episodes.length) {
 			return;
 		}
 		current = show.episodes[currentIndex];
@@ -52,6 +52,7 @@
 			currentIndex++;
 			playEpisode();
 		});
+		player.requestFullscreen();
 		playEpisode();
 	});
 
