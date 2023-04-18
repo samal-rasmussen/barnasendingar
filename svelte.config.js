@@ -15,7 +15,7 @@ const config = {
 			assets: 'build',
 			precompress: false,
 			strict: true,
-			fallback: '200.html',
+			fallback: 'index.html',
 		}),
 	},
 };
