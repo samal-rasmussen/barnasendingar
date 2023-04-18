@@ -5,7 +5,9 @@
 	import type { Show } from '../../../../scripts/shared-types.js';
 
 	function playEpisode(episodeTitle: string) {
-		goto(`${$page.params.showTitle}/partur/${episodeTitle}`);
+		const url = `${$page.params.showTitle}/partur/${episodeTitle}`;
+		console.log('banana', url);
+		goto(url);
 	}
 
 	const titleToShow = {} as Record<string, Show>;
@@ -17,14 +19,16 @@
 
 <div class="episodes">
 	{#each show.episodes as episode}
-		<div
-			class="episode"
-			on:click={() => playEpisode(episode.title)}
-			on:keypress={() => playEpisode(episode.title)}
-		>
-			<h3>{episode.title}</h3>
-			<p>Sesong: {episode.seasonNumber} Partur: {episode.episodeNumber}</p>
-			<img src={episode.img} alt="Partur" />
+		<div class="episode-container">
+			<div
+				class="episode"
+				on:click={() => playEpisode(episode.title)}
+				on:keypress={() => playEpisode(episode.title)}
+			>
+				<h3>{episode.title}</h3>
+				<p>Sesong: {episode.seasonNumber} Partur: {episode.episodeNumber}</p>
+				<img src={episode.img} alt="Partur" />
+			</div>
 		</div>
 	{/each}
 </div>
@@ -32,6 +36,11 @@
 <style>
 	.episodes {
 		padding-bottom: 2em;
+		width: 100%;
+	}
+	episode-container {
+		display: flex;
+		justify-content: center;
 	}
 	.episode {
 		display: flex;

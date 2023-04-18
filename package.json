@@ -27,5 +27,8 @@
 		"typescript": "5.0.4",
 		"vite": "4.2.1"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"video.js": "8.0.4"
+	}
 }
