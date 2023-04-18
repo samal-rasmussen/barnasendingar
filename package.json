@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "m3u8-parser": "6.0.0",
-    "svelte-pathfinder": "3.4.0",
+    "svelte-pathfinder": "4.7.0",
     "video.js": "7.20.3"
   }
 }

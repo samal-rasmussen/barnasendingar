@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { path, redirect } from 'svelte-pathfinder';
+  import { back, goto, path, pattern, redirect } from 'svelte-pathfinder';
   import type { Episode, Show } from '../scripts/shared-types.js';
   import videojsImport, { type VideoJsPlayer } from 'video.js';
   import { onDestroy, onMount } from 'svelte';
@@ -23,8 +23,20 @@
     }
   }
 
+  function getShowFromParams() {
+    const params = $pattern('sending/:showTitle/partur/:episodeTitle');
+    if (typeof params?.episodeTitle !== 'string') {
+      throw new Error('episodeTitle had incorrect type');
+    }
+    if (typeof params?.showTitle !== 'string') {
+      throw new Error('showTitle had incorrect type');
+    }
+    return params.showTitle;
+  }
+
   function onCurrentChange(current: Episode) {
-    redirect(`sending/${$path.params.showTitle}/partur/${current.title}`);
+    const showTitle = getShowFromParams();
+    redirect(`sending/${showTitle}/partur/${current.title}`);
     const playlist = `https://play.kringvarp.fo/redirect/video/_definst_/smil:${current?.mediaId}.smil?type=m3u8`;
     setTimeout(() => {
       player?.src([
@@ -68,6 +80,18 @@
     player.on('ended', function () {
       if (episodes != null && currentIndex < episodes.length - 1) {
         currentIndex++;
+      }
+    });
+    player.requestFullscreen();
+    player.on('fullscreenchange', function () {
+      if (player?.isFullscreen() === false && show != null) {
+        const url = `sending/${show.title}`;
+        console.log(
+          'banana exit fullscreen',
+          player?.isFullscreen(),
+          $path.toString(),
+        );
+        back(url);
       }
     });
   });

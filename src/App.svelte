@@ -1,6 +1,6 @@
 <script lang="ts">
   import shows from './assets/shows.json';
-  import { pattern, path, goto, back } from 'svelte-pathfinder';
+  import { pattern, path, goto } from 'svelte-pathfinder';
   import type { Episode, Show } from '../scripts/shared-types.js';
   import Player from './Player.svelte';
 
@@ -12,7 +12,8 @@
 
   function playEpisode(episodeTitle: string) {
     console.log('banana');
-    goto(`sending/${$path.params.showTitle}/partur/${episodeTitle}`);
+    const showTitle = getShowFromParams();
+    goto(`sending/${showTitle}/partur/${episodeTitle}`);
   }
 
   const titleToShow = {} as Record<string, Show>;
@@ -21,22 +22,41 @@
   }
 
   function getShow() {
-    if (typeof $path.params.showTitle !== 'string') {
-      throw new Error('showTitle had incorrect type');
-    }
-    return titleToShow[$path.params.showTitle];
+    const showTitle = getShowFromParams();
+    const show = titleToShow[encodeURIComponent(showTitle)];
+    console.log('banana getShow', showTitle, show);
+    return show;
   }
 
-  function getEpisodes(): Episode[] {
-    const show = getShow();
-    if (typeof $path.params.episodeTitle !== 'string') {
+  function getShowFromParams() {
+    const params = $pattern('sending/:showTitle');
+    if (typeof params?.showTitle !== 'string') {
+      throw new Error('showTitle had incorrect type');
+    }
+    return params.showTitle;
+  }
+
+  function getEpisodeFromParams() {
+    const params = $pattern('sending/:showTitle/partur/:episodeTitle');
+    if (typeof params?.episodeTitle !== 'string') {
       throw new Error('episodeTitle had incorrect type');
     }
-    const title = $path.params.episodeTitle;
+    if (typeof params?.showTitle !== 'string') {
+      throw new Error('showTitle had incorrect type');
+    }
+    return {
+      showTitle: params.showTitle as string,
+      episodeTitle: params.episodeTitle as string,
+    };
+  }
+
+  function getEpisodes(): { episodes: Episode[]; show: Show } {
+    const { showTitle, episodeTitle } = getEpisodeFromParams();
+    const show = titleToShow[encodeURIComponent(showTitle)];
     const index = show.episodes.findIndex(
-      (e) => e.title === decodeURIComponent(title),
+      (e) => e.title === decodeURIComponent(episodeTitle),
     );
-    return show.episodes.slice(index);
+    return { episodes: show.episodes.slice(index), show };
   }
 </script>
 
@@ -57,8 +77,7 @@
 </main>
 
 {#if showPlayer}
-  {@const episodes = getEpisodes()}
-  {@const show = getShow()}
+  {@const { episodes, show } = getEpisodes()}
   <modal style="z-index: 99">
     <Player {episodes} {show} />
   </modal>
@@ -67,17 +86,17 @@
 {#if $pattern('/sending/:showTitle')}
   <modal>
     <div class="episodes">
-        {#each getShow().episodes as episode}
-          <div
-            class="episode"
-            on:click={() => playEpisode(episode.title)}
-            on:keypress={() => playEpisode(episode.title)}
-          >
-            <h3>{episode.title}</h3>
-            <p>Sesong: {episode.seasonNumber} Partur: {episode.episodeNumber}</p>
-            <img src={episode.img} alt="Partur" />
-          </div>
-        {/each}
+      {#each getShow()?.episodes as episode}
+        <div
+          class="episode"
+          on:click={() => playEpisode(episode.title)}
+          on:keypress={() => playEpisode(episode.title)}
+        >
+          <h3>{episode.title}</h3>
+          <p>Sesong: {episode.seasonNumber} Partur: {episode.episodeNumber}</p>
+          <img src={episode.img} alt="Partur" />
+        </div>
+      {/each}
     </div>
   </modal>
 {/if}
