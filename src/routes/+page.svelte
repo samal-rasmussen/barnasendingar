@@ -45,14 +45,13 @@
 	.show {
 		display: flex;
 		flex-direction: column;
-		width: 300px;
+		width: 345px;
 		cursor: pointer;
 		margin-right: 2em;
 		margin-bottom: 2em;
 	}
 	.show img {
-		width: 300px;
-		height: 168.783px;
+		width: 100%;
 	}
 	.show h2 {
 		overflow: hidden;
