@@ -76,7 +76,6 @@
 			align-items: center;
 		}
 		.show {
-			margin-right: 0;
 			flex-direction: row;
 			width: auto;
 			justify-content: space-between;

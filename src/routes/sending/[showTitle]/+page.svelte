@@ -38,7 +38,7 @@
 		padding-bottom: 2em;
 		width: 100%;
 	}
-	episode-container {
+	.episode-container {
 		display: flex;
 		justify-content: center;
 	}
@@ -47,6 +47,7 @@
 		flex-direction: column;
 		align-items: center;
 		margin-top: 2em;
+		cursor: pointer;
 	}
 	.episode h3 {
 		margin: 0;
