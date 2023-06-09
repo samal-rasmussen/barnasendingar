@@ -3,15 +3,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
 	build: {
-		target: 'es2016',
-		minify: false,
-		rollupOptions: {
-			output: {
-				esModule: false,
-				inlineDynamicImports: false,
-				format: 'umd'
-			},
-		}
+		target: ['es2017', 'chrome69'],
 	},
 	plugins: [sveltekit()],
 });
