@@ -36,11 +36,10 @@
 
 	.shows {
 		white-space: pre;
-		text-align: left;
 		display: flex;
 		flex-wrap: wrap;
-		padding: 0 0 2em 0;
 		box-sizing: border-box;
+		justify-content: center;
 	}
 	.show {
 		display: flex;
@@ -60,7 +59,7 @@
 		margin-bottom: 8px;
 	}
 
-	@media only screen and (max-width: 696px) {
+	@media only screen and (max-width: 785px) {
 		main {
 			padding: 0;
 			display: flex;
@@ -71,18 +70,28 @@
 			font-size: 2.6em;
 			margin-bottom: 1em;
 		}
-		h2 {
-			font-size: 1.3em;
-		}
+
 		.shows {
 			flex-direction: column;
 			align-items: center;
 		}
 		.show {
 			margin-right: 0;
+			flex-direction: row;
+			width: auto;
+			justify-content: space-between;
+			margin: 0 2em 2em 2em;
+			align-items: center;
+			white-space: initial;
+		}
+		.show h2 {
+			font-size: 1.3em;
+			padding-right: 2em;
+			flex: 1;
+			text-align: center;
 		}
 		.show img {
-			width: 100%;
+			width: 50%;
 		}
 	}
 </style>
