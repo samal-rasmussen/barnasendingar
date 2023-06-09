@@ -1,5 +1,0 @@
-node_modules
-scripts/scrape.mjs
-scripts/shared-types.js
-.DS_Store
-dist
