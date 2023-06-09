@@ -94,4 +94,16 @@
 			width: 50%;
 		}
 	}
+
+	@media only screen and (max-width: 520px) {
+		.show h2 {
+			font-size: 1.1em;
+		}
+	}
+
+	@media only screen and (max-width: 420px) {
+		.show h2 {
+			font-size: 1em;
+		}
+	}
 </style>
