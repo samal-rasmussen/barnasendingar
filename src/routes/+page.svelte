@@ -14,12 +14,12 @@
 <h1>Barnasendingar</h1>
 <div class="grid">
 	{#each shows as show}
-		<div
-			class="grid-item"
-			on:click={() => gotoShow(show.title)}
-			on:keypress={() => gotoShow(show.title)}
-		>
-			<div class="grid-container">
+		<div class="grid-item">
+			<div
+				class="grid-container"
+				on:click={() => gotoShow(show.title)}
+				on:keypress={() => gotoShow(show.title)}
+			>
 				<h2>{show.title}</h2>
 				<img src={show.img} alt="Sending" />
 			</div>

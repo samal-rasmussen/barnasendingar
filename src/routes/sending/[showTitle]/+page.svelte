@@ -19,12 +19,12 @@
 <h1>{show.title}</h1>
 <div class="grid">
 	{#each show.episodes as episode}
-		<div
-			class="grid-item"
-			on:click={() => playEpisode(episode.title)}
-			on:keypress={() => playEpisode(episode.title)}
-		>
-			<div class="grid-container">
+		<div class="grid-item">
+			<div
+				class="grid-container"
+				on:click={() => playEpisode(episode.title)}
+				on:keypress={() => playEpisode(episode.title)}
+			>
 				<div class="header">
 					<h2>{episode.title}</h2>
 					<p>Sesong: {episode.seasonNumber} Partur: {episode.episodeNumber}</p>
@@ -39,6 +39,7 @@
 	.grid .grid-item h2 {
 		text-align: center;
 		padding-right: 0;
+		margin-bottom: 0;
 	}
 	.grid .grid-item p {
 		margin-top: 0px;
