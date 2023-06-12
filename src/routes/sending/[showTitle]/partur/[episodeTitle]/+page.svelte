@@ -85,22 +85,26 @@
 		height: 100%;
 	}
 	.episode > div {
-		max-height: 100%;
+		height: 100%;
 	}
 	.header {
 		display: flex;
 		justify-content: center;
+		height: 3rem;
+	}
+	.header > * {
+		margin-top: 0.8rem;
+		margin-bottom: 0;
 	}
 	.header h3 {
 		margin-right: 2rem;
 	}
 	.header p {
-		line-height: 2rem;
 		margin-left: 2rem;
 	}
 	.episode video-js {
 		background-color: initial;
-		height: 95vh;
+		height: calc(100% - 3rem);
 	}
 	.episode video-js :global(.vjs-big-play-button) {
 		left: 50%;
