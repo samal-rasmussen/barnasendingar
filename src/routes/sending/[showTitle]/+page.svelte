@@ -6,7 +6,6 @@
 
 	function playEpisode(episodeTitle: string) {
 		const url = `${$page.params.showTitle}/partur/${episodeTitle}`;
-		console.log('banana', url);
 		goto(url);
 	}
 
@@ -17,16 +16,19 @@
 	const show = titleToShow[$page.params.showTitle];
 </script>
 
-<div class="episodes">
+<h1>{show.title}</h1>
+<div class="grid">
 	{#each show.episodes as episode}
-		<div class="episode-container">
-			<div
-				class="episode"
-				on:click={() => playEpisode(episode.title)}
-				on:keypress={() => playEpisode(episode.title)}
-			>
-				<h3>{episode.title}</h3>
-				<p>Sesong: {episode.seasonNumber} Partur: {episode.episodeNumber}</p>
+		<div
+			class="grid-item"
+			on:click={() => playEpisode(episode.title)}
+			on:keypress={() => playEpisode(episode.title)}
+		>
+			<div class="grid-container">
+				<div class="header">
+					<h2>{episode.title}</h2>
+					<p>Sesong: {episode.seasonNumber} Partur: {episode.episodeNumber}</p>
+				</div>
 				<img src={episode.img} alt="Partur" />
 			</div>
 		</div>
@@ -34,30 +36,33 @@
 </div>
 
 <style>
-	.episodes {
-		padding-bottom: 2em;
-		width: 100%;
+	.grid .grid-item h2 {
+		text-align: center;
+		padding-right: 0;
 	}
-	.episode-container {
-		display: flex;
-		justify-content: center;
-	}
-	.episode {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		margin-top: 2em;
-		cursor: pointer;
-	}
-	.episode h3 {
-		margin: 0;
-	}
-	.episode p {
+	.grid .grid-item p {
 		margin-top: 0px;
 		margin-bottom: 4px;
+		text-align: center;
 	}
-	.episode img {
-		width: 300px;
-		height: 168.783px;
+
+	@media screen and (max-width: 785px) {
+		.header {
+			width: 50%;
+			padding-right: 2em;
+		}
+		.grid .grid-item p {
+			font-size: 0.9em;
+		}
+	}
+	@media screen and (max-width: 520px) {
+		.grid .grid-item p {
+			font-size: 0.8em;
+		}
+	}
+	@media screen and (max-width: 420px) {
+		.grid .grid-item p {
+			font-size: 0.7em;
+		}
 	}
 </style>
