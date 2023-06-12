@@ -5,6 +5,7 @@
 	import videojs from 'video.js';
 	import { onDestroy, onMount } from 'svelte';
 	import 'video.js/dist/video-js.min.css';
+	import { setWatched } from '$lib/watched';
 
 	const titleToShow = {} as Record<string, Show>;
 	for (const show of shows) {
@@ -49,6 +50,7 @@
 			this.play();
 		});
 		player.on('ended', function () {
+			setWatched(show, current);
 			currentIndex++;
 			playEpisode();
 		});

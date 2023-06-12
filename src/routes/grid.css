@@ -3,7 +3,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
-	justify-content: center;
 	width: 100%;
 	padding-left: 2em;
 }
@@ -16,6 +15,7 @@
 	flex-direction: column;
 	width: 345px;
 	cursor: pointer;
+	position: relative;
 }
 .grid .grid-item img {
 	width: 100%;
