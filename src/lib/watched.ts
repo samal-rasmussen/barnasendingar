@@ -34,4 +34,5 @@ export function clearWatched(show: Show) {
 	}
 	delete watched[show.title];
 	localStorage.setItem('watched', JSON.stringify(watched));
+	return watched;
 }

@@ -25,10 +25,6 @@
 	};
 
 	let watched = getWatched();
-	function clearWatchedAndRefetch() {
-		clearWatched(show);
-		watched = getWatched();
-	}
 
 	const titleToShow = {} as Record<string, Show>;
 	for (const show of shows) {
@@ -41,7 +37,7 @@
 <div class="grid">
 	<actions>
 		<button class="icon" on:click={() => goBack()}>&#8678</button>
-		<button on:click={() => clearWatchedAndRefetch()}>Nulstilla "Sæð"</button>
+		<button on:click={() => (watched = clearWatched(show))}>Nulstilla "Sæð"</button>
 	</actions>
 	{#each show.episodes as episode}
 		<div class="grid-item">
