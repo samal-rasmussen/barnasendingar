@@ -68,7 +68,7 @@ async function parseShow(showUrl: string): Promise<Episode[]> {
 	for (let i = 0; i < cells.length; i++) {
 		const e = cells[i];
 		const episode = await parseEpisode(e, i);
-		console.log(episode);
+		console.log(episode?.sortKey);
 		if (episode != null) {
 			episodes.push(episode);
 		}
@@ -92,7 +92,7 @@ async function run() {
 			url: urlPrefix + a.href,
 			episodes: [],
 		};
-		console.log(show);
+		console.log(show.title, show.url);
 		shows.push(show);
 	});
 
@@ -103,6 +103,7 @@ async function run() {
 	// show.episodes = episodes;
 
 	for await (const show of shows) {
+		console.log(show.title);
 		const episodes = await parseShow(show.url);
 		show.episodes = episodes;
 	}
