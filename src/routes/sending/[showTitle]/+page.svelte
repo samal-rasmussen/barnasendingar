@@ -2,7 +2,7 @@
 	import shows from '$lib/assets/shows.json';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
-	import type { Show } from '../../../../scripts/shared-types.js';
+	import type { Show } from '../../../../scripts/shared-types';
 
 	function playEpisode(episodeTitle: string) {
 		const url = `${$page.params.showTitle}/partur/${episodeTitle}`;

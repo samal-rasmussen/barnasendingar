@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import shows from '$lib/assets/shows.json';
-	import type { Show } from '../../../../../../scripts/shared-types.js';
+	import type { Show } from '../../../../../../scripts/shared-types';
 	import videojs from 'video.js';
 	import { onDestroy, onMount } from 'svelte';
 	import 'video.js/dist/video-js.min.css';

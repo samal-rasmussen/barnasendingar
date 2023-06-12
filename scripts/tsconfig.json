@@ -1,0 +1,6 @@
+{
+	"compilerOptions": {
+		"lib": ["DOM", "DOM.Iterable", "esnext", "ScriptHost"],
+		"moduleResolution": "node"
+	}
+}
