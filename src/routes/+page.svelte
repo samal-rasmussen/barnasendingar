@@ -17,6 +17,8 @@
 		<div class="grid-item">
 			<div
 				class="grid-container"
+				role="button"
+				tabindex="0"
 				on:click={() => gotoShow(show.title)}
 				on:keypress={() => gotoShow(show.title)}
 			>
@@ -25,4 +27,17 @@
 			</div>
 		</div>
 	{/each}
+	<!-- hack to make the last row left align with the grid -->
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
 </div>

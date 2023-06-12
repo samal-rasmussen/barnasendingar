@@ -41,12 +41,14 @@
 <div class="grid">
 	<actions>
 		<button class="icon" on:click={() => goBack()}>&#8678</button>
-		<button on:click={() => clearWatchedAndRefetch()}>Nulstilla Sæddar</button>
+		<button on:click={() => clearWatchedAndRefetch()}>Nulstilla "Sæð"</button>
 	</actions>
 	{#each show.episodes as episode}
 		<div class="grid-item">
 			<div
 				class="grid-container"
+				role="button"
+				tabindex="0"
 				on:click={() => playEpisode(episode.title)}
 				on:keypress={() => playEpisode(episode.title)}
 			>
@@ -61,6 +63,19 @@
 			</div>
 		</div>
 	{/each}
+	<!-- hack to make the last row left align with the grid -->
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
+	<div class="grid-spacer" />
 </div>
 
 <style>
@@ -76,9 +91,9 @@
 	}
 	actions {
 		display: flex;
-		width: 100%;
 		box-sizing: border-box;
 		margin-bottom: 2rem;
+		width: 100%;
 	}
 	actions > * {
 		margin-right: 1rem;
@@ -89,9 +104,35 @@
 		right: 1rem;
 		bottom: 1rem;
 		font-size: 2rem;
-		/* text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000; */
 		background: rgba(0, 0, 0, 0.5);
 		padding: 6px 3px 3px 3px;
+	}
+
+	/* A bunch of media queries that make sure the the actions left align with the grid items */
+	@media screen and (max-width: 2670px) {
+		actions {
+			width: 2262px;
+		}
+	}
+	@media screen and (max-width: 2293px) {
+		actions {
+			width: 1885px;
+		}
+	}
+	@media screen and (max-width: 1916px) {
+		actions {
+			width: 1508px;
+		}
+	}
+	@media screen and (max-width: 1539px) {
+		actions {
+			width: 1131px;
+		}
+	}
+	@media screen and (max-width: 1162px) {
+		actions {
+			width: 754px;
+		}
 	}
 
 	@media screen and (max-width: 785px) {
@@ -101,6 +142,9 @@
 		}
 		.grid .grid-item p {
 			font-size: 0.9em;
+		}
+		actions {
+			padding-left: 2rem;
 		}
 	}
 	@media screen and (max-width: 520px) {

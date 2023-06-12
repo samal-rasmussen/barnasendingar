@@ -90,11 +90,13 @@
 	.header {
 		display: flex;
 		justify-content: center;
-		gap: 48px;
-		height: 5vh;
+	}
+	.header h3 {
+		margin-right: 2rem;
 	}
 	.header p {
 		line-height: 2rem;
+		margin-left: 2rem;
 	}
 	.episode video-js {
 		background-color: initial;
