@@ -3,8 +3,10 @@
 	import shows from '$lib/assets/shows.json';
 	import type { Show } from '../../../../../../scripts/shared-types';
 	import videojs from 'video.js';
-	import { onDestroy, onMount } from 'svelte';
 	import 'video.js/dist/video-js.min.css';
+	import 'videojs-mobile-ui/dist/videojs-mobile-ui.css';
+	import 'videojs-mobile-ui';
+	import { onDestroy, onMount } from 'svelte';
 	import { setWatched } from '$lib/watched';
 
 	const titleToShow = {} as Record<string, Show>;
@@ -46,6 +48,7 @@
 			autoplay: false,
 			fill: true,
 		});
+		player.mobileUi();
 		player.ready(function onPlayerReady(this: any) {
 			this.play();
 		});
