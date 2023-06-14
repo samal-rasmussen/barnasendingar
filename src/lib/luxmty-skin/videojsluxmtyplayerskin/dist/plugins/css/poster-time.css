@@ -1,0 +1,30 @@
+/*! @name @misterben/videojs-poster-time @version 1.0.0 @license MIT */
+.vjs-luxmty .vjs-poster-duration {
+    position: absolute;
+    right: .8em;
+    bottom: .7em;
+    height: 1.7em;
+    line-height: 1;
+    font-size: .9rem;
+    font-weight: bold;
+    padding: .4em;
+    background-color: #d11507;
+    width: auto;
+    animation: posterAnimation .6s 0s both;
+    transform-origin: center;
+}
+
+.vjs-luxmty.vjs-has-started.vjs-audio-poster-mode {
+    display: none;
+}
+
+@keyframes posterAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

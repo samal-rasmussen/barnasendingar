@@ -2,7 +2,7 @@
 	import shows from '$lib/assets/shows.json';
 	import { afterNavigate, goto } from '$app/navigation';
 	import { page } from '$app/stores';
-	import type { Episode, Show } from '../../../../scripts/shared-types';
+	import type { Show } from '../../../../scripts/shared-types';
 	import { clearWatched, getWatched } from '$lib/watched';
 
 	function playEpisode(episodeTitle: string) {

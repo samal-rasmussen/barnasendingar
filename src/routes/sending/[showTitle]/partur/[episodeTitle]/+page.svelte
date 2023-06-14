@@ -5,7 +5,10 @@
 	import videojs from 'video.js';
 	import 'video.js/dist/video-js.min.css';
 	import 'videojs-mobile-ui/dist/videojs-mobile-ui.css';
+	import '$lib/luxmty-skin/videojsluxmtyplayerskin/dist/plugins/css/quality-selector.css';
+	import '$lib/luxmty-skin/videojsluxmtyplayerskin/dist/vjs-luxmty.css';
 	import 'videojs-mobile-ui';
+	import './quality-selector/plugin';
 	import { onDestroy, onMount } from 'svelte';
 	import { setWatched } from '$lib/watched';
 
@@ -28,6 +31,10 @@
 		}
 		current = show.episodes[currentIndex];
 		const playlist = `https://play.kringvarp.fo/redirect/video/_definst_/smil:${current?.mediaId}.smil?type=m3u8`;
+		player.titleBar.update({
+			title: show.title,
+			description: `${current.title}\nSesong: ${current.seasonNumber} Partur: ${current.episodeNumber}`,
+		});
 		setTimeout(() => {
 			player?.src([
 				{
@@ -43,12 +50,50 @@
 
 	onMount(async () => {
 		player = videojs('barnasendingar-video-player', {
+			controlBar: {
+				children: [
+					'playToggle',
+					'volumePanel',
+					'currentTimeDisplay',
+					'timeDivider',
+					'durationDisplay',
+					'progressControl',
+					'remainingTimeDisplay',
+					'customControlSpacer',
+					'hlsQualitySelector',
+					'pictureInPictureToggle',
+					'fullscreenToggle',
+				],
+				skipButtons: {
+					forward: 10,
+					backward: 10,
+				},
+			},
+			preload: 'metadata',
 			controls: true,
-			// preload: 'auto',
-			autoplay: false,
+			// responsive: true,
 			fill: true,
+			// fluid: true,
+			// preferFullWindow: true,
+			playbackRates: [0.1, 0.25, 0.5, 1, 1.5, 2],
+			techOrder: ['html5'],
+			html5: {
+				vhs: {
+					enableLowInitialPlaylist: true,
+					fastQualityChange: true,
+					overrideNative: true,
+					useDevicePixelRatio: false,
+					limitRenditionByPlayerDimensions: false,
+				},
+			},
 		});
 		player.mobileUi();
+		player.hlsQualitySelector({
+			autoPlacement: 'bottom',
+			displayCurrentQuality: true,
+			getCurrentQuality: 'auto',
+			sortAscending: false,
+		});
 		player.ready(function onPlayerReady(this: any) {
 			this.play();
 		});
@@ -70,12 +115,8 @@
 
 <div class="episode">
 	<div>
-		<div class="header">
-			<h3>{show?.title} - {current?.title}</h3>
-			<p>Sesong: {current?.seasonNumber} Partur: {current?.episodeNumber}</p>
-		</div>
 		<!-- svelte-ignore a11y-media-has-caption -->
-		<video-js id="barnasendingar-video-player" class="video-js" />
+		<video-js id="barnasendingar-video-player" class="video-js vjs-luxmty vjs-16-9" />
 	</div>
 </div>
 
@@ -90,29 +131,21 @@
 	.episode > div {
 		height: 100%;
 	}
-	.header {
-		display: flex;
-		justify-content: center;
-		height: 3rem;
-	}
-	.header > * {
-		margin-top: 0.8rem;
-		margin-bottom: 0;
-	}
-	.header h3 {
-		margin-right: 2rem;
-	}
-	.header p {
-		margin-left: 2rem;
-	}
 	.episode video-js {
-		background-color: initial;
-		height: calc(100vh - 3rem);
+		/* background-color: initial; */
+		height: 100vh;
+		width: 100vw;
 	}
-	.episode video-js :global(.vjs-big-play-button) {
-		left: 50%;
-		top: 50%;
-		margin-left: calc(1.5em / -2);
-		margin-top: calc(1.63332em / -2);
+	:root {
+		--secondary-hsl: 237, 86%, 64%;
+		--tertiary-hsl: 0 0% 10%;
+	}
+	.episode video-js :global(.vjs-title-bar-description) {
+		white-space: pre-wrap;
+	}
+	.episode
+		video-js
+		:global(.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button.vjs-quality-selector) {
+		width: auto;
 	}
 </style>

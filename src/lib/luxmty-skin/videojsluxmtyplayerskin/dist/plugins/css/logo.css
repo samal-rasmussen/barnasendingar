@@ -1,0 +1,15 @@
+/*! @name videojs-logo @version 3.0.0 @license MIT */
+.vjs-luxmty.vjs-logo {
+  display: block;
+}
+
+.vjs-luxmty.vjs-logo .vjs-logo-content {
+  position: absolute;
+  opacity: 1;
+  transition: cubic-bezier(.29, .35, .77, .73), visibility 1.5s, opacity 1.5s;
+}
+
+.vjs-luxmty.vjs-logo .vjs-logo-content.vjs-logo-hide {
+  visibility: hidden;
+  opacity: 0;
+}

@@ -1,0 +1,9 @@
+.vjs-luxmty .vjs-quality-selector .vjs-menu ul li.vjs-menu-title::before {
+  position: absolute;
+  font-family: "VideoJS", "bootstrap-icons";
+  content: "\f514";
+  color: hsl(var(--secondary-hsl));
+  left: 0;
+  margin-left: 1em;
+  text-align: left;
+}

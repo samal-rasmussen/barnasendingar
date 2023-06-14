@@ -1,0 +1,60 @@
+/*! @name videojs-contextmenu-ui @version 7.0.0 @license Apache-2.0 */
+.vjs-luxmty .vjs-contextmenu-ui-menu {
+  position: absolute;
+  font-weight: 600;
+  color: hsl(var(--primary-hsl));
+  animation: menuAnimation 0.43s 0s both;
+  transform-origin: center;
+}
+
+.vjs-luxmty .vjs-contextmenu-ui-menu .vjs-menu-item:last-child {
+  border-top: .15em outset hsl(var(--secondary-hsl));
+}
+
+.vjs-luxmty .vjs-contextmenu-ui-menu .vjs-menu-content {
+  background-color: hsl(var(--tertiary-hsl) / .8);
+  border-radius: .8em;
+  padding: 0em;
+  width: 180px;
+  animation: hideAnimation 0s ease-in 5s;
+  animation-fill-mode: forwards;
+}
+
+.vjs-luxmty .vjs-contextmenu-ui-menu .vjs-menu-item {
+  cursor: pointer;
+  margin: .2em 0  .2em;
+  padding: 1em;
+  font-size: 1em;
+  line-height: 1;
+  text-transform: none;
+  animation: menuAnimation 0.6s 0s both;
+  transform-origin: center;
+  text-align: left;
+}
+
+.vjs-luxmty .vjs-contextmenu-ui-menu .vjs-menu-item:active,
+.vjs-luxmty .vjs-contextmenu-ui-menu .vjs-menu-item:hover {
+  background-color: hsl(var(--tertiary-hsl) / .8);
+  text-shadow: 0 0 1em transparent;
+}
+
+@keyframes menuAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  100% {
+    height: auto;
+    opacity: 1;
+    border-radius: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes hideAnimation {
+  to {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
