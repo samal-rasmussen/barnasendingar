@@ -135,12 +135,14 @@
 		.header {
 			width: 50%;
 			padding-right: 2em;
+			overflow: hidden;
 		}
 		.grid .grid-item p {
 			font-size: 0.9em;
 		}
 		actions {
 			padding-left: 2rem;
+			width: inherit;
 		}
 	}
 	@media screen and (max-width: 520px) {

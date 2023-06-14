@@ -12,5 +12,13 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		width: 100vw;
+		height: 100vh;
+	}
+	@media screen and (max-width: 520px) {
+		main {
+			width: initial;
+			height: initial;
+		}
 	}
 </style>

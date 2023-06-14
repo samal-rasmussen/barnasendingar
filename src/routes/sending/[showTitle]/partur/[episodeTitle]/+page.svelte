@@ -107,7 +107,7 @@
 	}
 	.episode video-js {
 		background-color: initial;
-		height: calc(100% - 3rem);
+		height: calc(100vh - 3rem);
 	}
 	.episode video-js :global(.vjs-big-play-button) {
 		left: 50%;
