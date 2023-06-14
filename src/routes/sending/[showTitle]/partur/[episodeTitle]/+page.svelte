@@ -53,6 +53,8 @@
 			controlBar: {
 				children: [
 					'playToggle',
+					'skipBackward',
+					'skipForward',
 					'volumePanel',
 					'currentTimeDisplay',
 					'timeDivider',
@@ -71,10 +73,9 @@
 			},
 			preload: 'metadata',
 			controls: true,
-			// responsive: true,
-			fill: true,
-			// fluid: true,
-			// preferFullWindow: true,
+			responsive: true,
+			fluid: true,
+			preferFullWindow: true,
 			playbackRates: [0.1, 0.25, 0.5, 1, 1.5, 2],
 			techOrder: ['html5'],
 			html5: {
