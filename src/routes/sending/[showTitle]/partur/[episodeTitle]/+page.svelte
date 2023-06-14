@@ -4,10 +4,10 @@
 	import type { Show } from '../../../../../../scripts/shared-types';
 	import videojs from 'video.js';
 	import 'video.js/dist/video-js.min.css';
-	import 'videojs-mobile-ui/dist/videojs-mobile-ui.css';
+	// import 'videojs-mobile-ui/dist/videojs-mobile-ui.css';
 	import '$lib/luxmty-skin/videojsluxmtyplayerskin/dist/plugins/css/quality-selector.css';
 	import '$lib/luxmty-skin/videojsluxmtyplayerskin/dist/vjs-luxmty.css';
-	import 'videojs-mobile-ui';
+	// import 'videojs-mobile-ui';
 	import './quality-selector/plugin';
 	import { onDestroy, onMount } from 'svelte';
 	import { setWatched } from '$lib/watched';
@@ -87,7 +87,7 @@
 				},
 			},
 		});
-		player.mobileUi();
+		// player.mobileUi();
 		player.hlsQualitySelector({
 			autoPlacement: 'bottom',
 			displayCurrentQuality: true,
