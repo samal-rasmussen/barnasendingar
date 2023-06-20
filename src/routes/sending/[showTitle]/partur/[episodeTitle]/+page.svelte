@@ -74,9 +74,8 @@
 			preload: 'metadata',
 			controls: true,
 			responsive: true,
-			fluid: true,
+			fluid: false,
 			preferFullWindow: true,
-			playbackRates: [0.1, 0.25, 0.5, 1, 1.5, 2],
 			techOrder: ['html5'],
 			html5: {
 				vhs: {
@@ -117,7 +116,7 @@
 <div class="episode">
 	<div>
 		<!-- svelte-ignore a11y-media-has-caption -->
-		<video-js id="barnasendingar-video-player" class="video-js vjs-luxmty vjs-16-9" />
+		<video-js id="barnasendingar-video-player" class="video-js vjs-luxmty" />
 	</div>
 </div>
 
