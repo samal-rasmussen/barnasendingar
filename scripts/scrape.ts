@@ -119,9 +119,9 @@ async function run() {
 	partialShows.sort((a, b) => collator.compare(a.title, b.title));
 
 	console.log(`Scraping shows`);
-	const showPromises: Array<() => Promise<void>> = [];
 	const bar1 = progressBar();
 	bar1.start(partialShows.length, 0);
+	const showPromises: Array<() => Promise<void>> = [];
 	let showCount = 0;
 	for (const show of partialShows) {
 		showPromises.push(async () => {
@@ -136,11 +136,11 @@ async function run() {
 	bar1.stop();
 
 	console.log(`Scraping episodes`);
-	const episodePromises: Array<() => Promise<void>> = [];
 	const bar2 = progressBar();
+	bar2.start(episodesCount, 0);
+	const episodePromises: Array<() => Promise<void>> = [];
 	const showsMap = new Map<string, Episode[]>();
 	partialShows.forEach((show) => showsMap.set(show.title, []));
-	bar2.start(episodesCount, 0);
 	for (const partialShow of partialShows) {
 		for (const [index, partialEpisode] of Array.from(partialShow.episodes.entries())) {
 			episodePromises.push(async () => {
