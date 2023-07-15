@@ -2037,6 +2037,73 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/elias_3.jpg?itok=N1iv-Xb1",
+    "title": "Elias",
+    "url": "https://kvf.fo/vit/sending/sv/elias",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/06/13/eli00001bl1492elias12007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00001_bl1492_elias_1_2007_0037.jpg?itok=l-6UGm9S",
+        "mediaId": "ELI00001_BL1492_Elias_1_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/06/13/eli00001bl1492elias12007",
+        "title": "Vælkomin til Lundavágs",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00001bl1492elias12007"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/06/13/eli00002bl1492elias22007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00002_bl1492_elias_2_2007_0022.jpg?itok=_9pn_iZy",
+        "mediaId": "ELI00002_BL1492_Elias_2_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2023/06/13/eli00002bl1492elias22007",
+        "title": "Stóra blunk",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00002bl1492elias22007"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2023/06/13/eli00003bl1492elias32007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00003_bl1492_elias_3_2007_0027.jpg?itok=Yi7geQ8Q",
+        "mediaId": "ELI00003_BL1492_Elias_3_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2023/06/13/eli00003bl1492elias32007",
+        "title": "Skeggvoks",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00003bl1492elias32007"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2023/06/13/eli00004bl1492elias42007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00004_bl1492_elias_4_2007_0037.jpg?itok=dfGy6DvD",
+        "mediaId": "ELI00004_BL1492_Elias_4_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2023/06/13/eli00004bl1492elias42007",
+        "title": "Krússi krútperla",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00004bl1492elias42007"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2023/06/13/eli00005bl1492elias52007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00005_bl1492_elias_5_2007_0007.jpg?itok=QCa2W5-G",
+        "mediaId": "ELI00005_BL1492_Elias_5_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: 2023/06/13/eli00005bl1492elias52007",
+        "title": "Troli hevur trupulleikar",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00005bl1492elias52007"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "2023/06/13/eli00006bl1492elias62007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00006_bl1492_elias_6_2007_0014.jpg?itok=r69tEB36",
+        "mediaId": "ELI00006_BL1492_Elias_6_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 6 id: 2023/06/13/eli00006bl1492elias62007",
+        "title": "Troli á skipasmiðju",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00006bl1492elias62007"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/emil_1.jpg?itok=BFnstEEu",
     "title": "Emil úr Lønnebergi",
     "url": "https://kvf.fo/vit/sending/sv/emil-ur-lonnebergi",
@@ -2170,273 +2237,6 @@
         "sortKey": "s: 1 e: 13 id: 2020/04/01/bta00032bl1495emililonnebergi132009ok",
         "title": "Tann stóra kavaódnin",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00032bl1495emililonnebergi132009ok"
-      }
-    ]
-  },
-  {
-    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/enyo.jpg?itok=UM96RURT",
-    "title": "Enyo",
-    "url": "https://kvf.fo/vit/sending/sv/enyo",
-    "episodes": [
-      {
-        "episodeNumber": 1,
-        "id": "2019/09/18/enyo-1partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ein_nyggj_leid_-_enyo_1.png?itok=IQT_JmUL",
-        "mediaId": "ENY00001_BL1582_Enyo_1_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 1 id: 2019/09/18/enyo-1partur",
-        "title": "Ein nýggj leið",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/09/18/enyo-1partur"
-      },
-      {
-        "episodeNumber": 2,
-        "id": "2019/10/11/enyo-2-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jordin_skelvur_-_enyo_2.png?itok=M1Byzo7r",
-        "mediaId": "ENY00002_BL1582_Enyo_2_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 2 id: 2019/10/11/enyo-2-partur",
-        "title": "Jørðin skelvur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/10/11/enyo-2-partur"
-      },
-      {
-        "episodeNumber": 3,
-        "id": "2019/10/02/enyo-3-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/mjorkin_-_enyo_3_1.jpg?itok=nN3YoMVh",
-        "mediaId": "ENY00003_BL1582_Enyo_3_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 3 id: 2019/10/02/enyo-3-partur",
-        "title": "Mjørkin",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/10/02/enyo-3-partur"
-      },
-      {
-        "episodeNumber": 4,
-        "id": "2019/10/10/enyo-4-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/odjorid.png?itok=1VQCGYe-",
-        "mediaId": "ENY00004_BL1582_Enyo_4_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 4 id: 2019/10/10/enyo-4-partur",
-        "title": "Ódjórið",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/10/10/enyo-4-partur"
-      },
-      {
-        "episodeNumber": 5,
-        "id": "2019/10/17/enyo-5partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vilstir_synir_-_enyo_5_0.png?itok=SqmeKZTO",
-        "mediaId": "ENY00005_BL1582_Enyo_5_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 5 id: 2019/10/17/enyo-5partur",
-        "title": "Vilstir synir",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/10/17/enyo-5partur"
-      },
-      {
-        "episodeNumber": 7,
-        "id": "2019/11/05/enyo-7-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/flugvandi_steinar_-_enyo_7_0.png?itok=8pJcECPk",
-        "mediaId": "ENY00007_BL1583_Enyo_7_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 7 id: 2019/11/05/enyo-7-partur",
-        "title": "Flúgvandi steinar",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/11/05/enyo-7-partur"
-      },
-      {
-        "episodeNumber": 8,
-        "id": "2015/10/19/eny00008bl1583enyo82013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eny00008_bl1583_enyo_8_2013_519.jpg?itok=YThAXzXh",
-        "mediaId": "ENY00008_BL1583_Enyo_8_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 8 id: 2015/10/19/eny00008bl1583enyo82013",
-        "title": "Frælsisgávan",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/10/19/eny00008bl1583enyo82013"
-      },
-      {
-        "episodeNumber": 8,
-        "id": "2019/11/07/enyo-8-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/fraelsisgavan_-_enyo_8_0.png?itok=lEuWFEL5",
-        "mediaId": "ENY00008_BL1583_Enyo_8_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 8 id: 2019/11/07/enyo-8-partur",
-        "title": "Frælsisgávan",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/11/07/enyo-8-partur"
-      },
-      {
-        "episodeNumber": 9,
-        "id": "2019/11/14/enyo-9-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/minnir_i_myrkri_-_enyo_9_0.png?itok=mM8Y4fqJ",
-        "mediaId": "ENY00009_BL1583_Enyo_9_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 9 id: 2019/11/14/enyo-9-partur",
-        "title": "Minnir í myrkri",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/11/14/enyo-9-partur"
-      },
-      {
-        "episodeNumber": 10,
-        "id": "2019/11/20/enyo-10partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eny00010_bl1583_enyo_10_2013_882.jpg?itok=pItbM5hU",
-        "mediaId": "ENY00010_BL1583_Enyo_10_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 10 id: 2019/11/20/enyo-10partur",
-        "title": "Skipið",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/11/20/enyo-10partur"
-      },
-      {
-        "episodeNumber": 11,
-        "id": "2020/01/21/enyo-11-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/fraelsisgavan_-_enyo_11_0.png?itok=QDgEVQ1w",
-        "mediaId": "ENY00011_BL1583_Enyo_11_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 11 id: 2020/01/21/enyo-11-partur",
-        "title": "Vindríkið",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/01/21/enyo-11-partur"
-      },
-      {
-        "episodeNumber": 12,
-        "id": "2020/01/21/enyo-12-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/tann_osjonligi_figgindin_-_enyo_12_0.png?itok=KxIUWOTt",
-        "mediaId": "ENY00012_BL1583_Enyo_12_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 12 id: 2020/01/21/enyo-12-partur",
-        "title": "Tann ósjónligi fíggindin",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/01/21/enyo-12-partur"
-      },
-      {
-        "episodeNumber": 13,
-        "id": "2020/01/14/enyo-13-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/langt_fra_alfaravegi_-_enyo_13_0.png?itok=abmo88aV",
-        "mediaId": "ENY00013_BL1584_Enyo_13_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 13 id: 2020/01/14/enyo-13-partur",
-        "title": "Langt frá alfaravegi",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/01/14/enyo-13-partur"
-      },
-      {
-        "episodeNumber": 14,
-        "id": "2020/01/16/enyo-14-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/tann_fullkomni_dalurin_-_enyo_14.png?itok=nNQ4nABj",
-        "mediaId": "ENY00014_BL1584_Enyo_14_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 14 id: 2020/01/16/enyo-14-partur",
-        "title": "Tann fullkomni dalurin",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/01/16/enyo-14-partur"
-      },
-      {
-        "episodeNumber": 15,
-        "id": "2020/01/23/enyo-15-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/argolarnir_-_enyo_15_0.png?itok=XGlbckN-",
-        "mediaId": "ENY00015_BL1584_Enyo_15_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 15 id: 2020/01/23/enyo-15-partur",
-        "title": "Argolarnir",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/01/23/enyo-15-partur"
-      },
-      {
-        "episodeNumber": 16,
-        "id": "2020/01/30/enyo-16-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hvirlan_-_enyo_16_0.png?itok=UN5plGE9",
-        "mediaId": "ENY00016_BL1584_Enyo_16_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 16 id: 2020/01/30/enyo-16-partur",
-        "title": "Hvirlan",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/01/30/enyo-16-partur"
-      },
-      {
-        "episodeNumber": 17,
-        "id": "2020/02/06/enyo-17partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/varenarnir_-_enyo_17_0.png?itok=LaSLJeqd",
-        "mediaId": "ENY00017_BL1584_Enyo_17_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 17 id: 2020/02/06/enyo-17partur",
-        "title": "Varenarnir",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/02/06/enyo-17partur"
-      },
-      {
-        "episodeNumber": 18,
-        "id": "2020/02/14/enyo-18",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ghalararnir_-_enyo_18.png?itok=FWLwod31",
-        "mediaId": "ENY00018_BL1591_Enyo_18_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 18 id: 2020/02/14/enyo-18",
-        "title": "Ghalararnir",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/02/14/enyo-18"
-      },
-      {
-        "episodeNumber": 19,
-        "id": "2020/02/24/enyo-19-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/kwahgum_-_enyo_19_0.png?itok=yDKCxcP0",
-        "mediaId": "ENY00019_BL1591_Enyo_19_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 19 id: 2020/02/24/enyo-19-partur",
-        "title": "Kwahgum",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/02/24/enyo-19-partur"
-      },
-      {
-        "episodeNumber": 20,
-        "id": "2020/02/27/enyo-20-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/fjallid_-_enyo_20_0.png?itok=6RT05S96",
-        "mediaId": "ENY00020_BL1591_Enyo_20_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 20 id: 2020/02/27/enyo-20-partur",
-        "title": "Fjallið",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/02/27/enyo-20-partur"
-      },
-      {
-        "episodeNumber": 21,
-        "id": "2020/03/05/enyo-21-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eitt_ringt_tekin_-_enyo_21_0.png?itok=AdT11nC3",
-        "mediaId": "ENY00021_BL1591_Enyo_21_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 21 id: 2020/03/05/enyo-21-partur",
-        "title": "Eitt ringt tekin",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/03/05/enyo-21-partur"
-      },
-      {
-        "episodeNumber": 22,
-        "id": "2020/03/12/enyo-22-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eny00022_bl1591_enyo_22_2013_113.jpg?itok=QjG4UB0G",
-        "mediaId": "ENY00022_BL1591_Enyo_22_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 22 id: 2020/03/12/enyo-22-partur",
-        "title": "Ilt-trøini",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/03/12/enyo-22-partur"
-      },
-      {
-        "episodeNumber": 23,
-        "id": "2020/03/19/enyo-23-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/tann_gatufori_dalurin_-_enyo_23_0.png?itok=GdYgR46I",
-        "mediaId": "ENY00023_BL1591_Enyo_23_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 23 id: 2020/03/19/enyo-23-partur",
-        "title": "Tann gátuføri dalurin",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/03/19/enyo-23-partur"
-      },
-      {
-        "episodeNumber": 24,
-        "id": "2020/03/25/enyo-24-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/verloggfellan_-_enyo_24_0.png?itok=6bKidptD",
-        "mediaId": "ENY00024_BL1592_Enyo_24_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 24 id: 2020/03/25/enyo-24-partur",
-        "title": "Verloggfellan",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/03/25/enyo-24-partur"
-      },
-      {
-        "episodeNumber": 25,
-        "id": "2020/04/02/enyo-25-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ain_til_fortidina_-_enyo_25_0.png?itok=NzGDUICx",
-        "mediaId": "ENY00025_BL1592_Enyo_25_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 25 id: 2020/04/02/enyo-25-partur",
-        "title": "Áin til fortíðina",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/02/enyo-25-partur"
-      },
-      {
-        "episodeNumber": 26,
-        "id": "2016/02/25/eny00026bl1592enyo262013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eny00026_bl1592_enyo_26_2013_189.jpg?itok=w2ZXuZsg",
-        "mediaId": "ENY00026_BL1592_Enyo_26_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 26 id: 2016/02/25/eny00026bl1592enyo262013",
-        "title": "Tann gloymdi dalurin",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/02/25/eny00026bl1592enyo262013"
       }
     ]
   },
@@ -3089,259 +2889,39 @@
     ]
   },
   {
-    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/factory_muddleearth_largeimage_1350x760_01.jpg?itok=YxI87UQ5",
-    "title": "Hurliverð",
-    "url": "https://kvf.fo/vit/sending/sv/hurliverd",
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/hygg_vit.png?itok=Blldnl75",
+    "title": "Hygg VIT!",
+    "url": "https://kvf.fo/vit/sending/sv/hygg-vit-0",
     "episodes": [
       {
         "episodeNumber": 1,
-        "id": "2023/01/09/hur00001bl1586hurliverd12012",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00001_bl1586_hurliverd_1_2012_0023.jpg?itok=xbb-WSIo",
-        "mediaId": "HUR00001_BL1586_Hurliverd_1_2012",
+        "id": "2023/06/21/grind-i-vestmanna",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/dreingir_-_grind_i_vestmanna.png?itok=-y820ub6",
+        "mediaId": "20230615_Grind_i_Vestmanna",
         "seasonNumber": 1,
-        "sortKey": "s: 1 e: 1 id: 2023/01/09/hur00001bl1586hurliverd12012",
-        "title": "Skógvar á ferð",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00001bl1586hurliverd12012"
+        "sortKey": "s: 1 e: 1 id: 2023/06/21/grind-i-vestmanna",
+        "title": "Grind í Vestmanna",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/21/grind-i-vestmanna"
       },
       {
         "episodeNumber": 2,
-        "id": "2023/01/09/hur00002bl1586hurliverd22012",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00002_bl1586_hurliverd_2_2012_0055.jpg?itok=7wGLLoLW",
-        "mediaId": "HUR00002_BL1586_Hurliverd_2_2012",
+        "id": "2023/06/21/kassabilakoyring-i-skulanum-flotum",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/min_film_0039.jpg?itok=cdxCIo0p",
+        "mediaId": "Min_film",
         "seasonNumber": 1,
-        "sortKey": "s: 1 e: 2 id: 2023/01/09/hur00002bl1586hurliverd22012",
-        "title": "Ísakalt í Hurliverð",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00002bl1586hurliverd22012"
+        "sortKey": "s: 1 e: 2 id: 2023/06/21/kassabilakoyring-i-skulanum-flotum",
+        "title": "Kassabilakoyring í Skúlanum á Fløtum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/21/kassabilakoyring-i-skulanum-flotum"
       },
       {
         "episodeNumber": 3,
-        "id": "2023/01/09/hur00003bl1586hurliverd32012",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00003_bl1586_hurliverd_3_2012_0036.jpg?itok=4v5GWShH",
-        "mediaId": "HUR00003_BL1586_Hurliverd_3_2012",
+        "id": "2023/06/22/slim-nokkso-noktandi",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/img_7360.jpg?itok=qAy0yDig",
+        "mediaId": "Slim",
         "seasonNumber": 1,
-        "sortKey": "s: 1 e: 3 id: 2023/01/09/hur00003bl1586hurliverd32012",
-        "title": "Um dalar og trøll",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00003bl1586hurliverd32012"
-      },
-      {
-        "episodeNumber": 4,
-        "id": "2023/01/09/hur00004bl1586hurliverd42012",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00004_bl1586_hurliverd_4_2012_0027.jpg?itok=BhWkguWe",
-        "mediaId": "HUR00004_BL1586_Hurliverd_4_2012",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 4 id: 2023/01/09/hur00004bl1586hurliverd42012",
-        "title": "Hurl í Hurliverð",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00004bl1586hurliverd42012"
-      },
-      {
-        "episodeNumber": 5,
-        "id": "2023/01/09/hur00006bl1586hurliverd62012",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00006_bl1586_hurliverd_6_2012_0010.jpg?itok=5O7cgHnB",
-        "mediaId": "HUR00006_BL1586_Hurliverd_6_2012",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 5 id: 2023/01/09/hur00006bl1586hurliverd62012",
-        "title": "Minnilig rót",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00006bl1586hurliverd62012"
-      },
-      {
-        "episodeNumber": 6,
-        "id": "2023/01/09/hur00007bl1586hurliverd72012",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00007_bl1586_hurliverd_7_2012_0009.jpg?itok=vI6js7TK",
-        "mediaId": "HUR00007_BL1586_Hurliverd_7_2012",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 6 id: 2023/01/09/hur00007bl1586hurliverd72012",
-        "title": "Ramar ristir hann rúnirnar",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00007bl1586hurliverd72012"
-      },
-      {
-        "episodeNumber": 7,
-        "id": "2023/01/09/hur00008bl1586hurliverd82012",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00008_bl1586_hurliverd_8_2012_0047.jpg?itok=Q3i6Fm_M",
-        "mediaId": "HUR00008_BL1586_Hurliverd_8_2012",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 7 id: 2023/01/09/hur00008bl1586hurliverd82012",
-        "title": "Drekavindur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00008bl1586hurliverd82012"
-      },
-      {
-        "episodeNumber": 8,
-        "id": "2023/01/09/hur00009bl1586hurliverd92012",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00009_bl1586_hurliverd_9_2012_0014.jpg?itok=PcIZMVRO",
-        "mediaId": "HUR00009_BL1586_Hurliverd_9_2012",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 8 id: 2023/01/09/hur00009bl1586hurliverd92012",
-        "title": "Mórálvur Megnarmenni",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00009bl1586hurliverd92012"
-      },
-      {
-        "episodeNumber": 9,
-        "id": "2023/01/09/hur00010bl1586hurliverd102012",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00010_bl1586_hurliverd_10_2012_0053.jpg?itok=33M16L8q",
-        "mediaId": "HUR00010_BL1586_Hurliverd_10_2012",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 9 id: 2023/01/09/hur00010bl1586hurliverd102012",
-        "title": "Ofta býr fals undir fríum skinni",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00010bl1586hurliverd102012"
-      },
-      {
-        "episodeNumber": 10,
-        "id": "2023/01/09/hur00011bl1586hurliverd112012",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00011_bl1586_hurliverd_11_2012_0044.jpg?itok=MHfOXYFV",
-        "mediaId": "HUR00011_BL1586_Hurliverd_11_2012",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 10 id: 2023/01/09/hur00011bl1586hurliverd112012",
-        "title": "Rúnálvur missir minnið",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00011bl1586hurliverd112012"
-      },
-      {
-        "episodeNumber": 11,
-        "id": "2023/01/09/hur00012bl1586hurliverd122012",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00012bl1586_hurliverd_12_2012_0023.jpg?itok=AUCmJLAp",
-        "mediaId": "HUR00012BL1586_Hurliverd_12_2012",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 11 id: 2023/01/09/hur00012bl1586hurliverd122012",
-        "title": "Ongin Norbert",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00012bl1586hurliverd122012"
-      },
-      {
-        "episodeNumber": 13,
-        "id": "2023/01/09/hur00013bl1587hurliverd132013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00013_bl1587_hurliverd_13_2013_0019.jpg?itok=mprKKVTj",
-        "mediaId": "HUR00013_BL1587_Hurliverd_13_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 13 id: 2023/01/09/hur00013bl1587hurliverd132013",
-        "title": "Ástardrykkur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00013bl1587hurliverd132013"
-      },
-      {
-        "episodeNumber": 13,
-        "id": "2023/01/09/hur00014bl1587hurliverd142013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00014_bl1587_hurliverd_14_2013_0018.jpg?itok=pf0pKgWq",
-        "mediaId": "HUR00014_BL1587_Hurliverd_14_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 13 id: 2023/01/09/hur00014bl1587hurliverd142013",
-        "title": "Trøllini koma",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00014bl1587hurliverd142013"
-      },
-      {
-        "episodeNumber": 14,
-        "id": "2023/01/09/hur00015bl1587hurliverd152013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00015_bl1587_hurliverd_15_2013_0036.jpg?itok=-1Mt5Jfv",
-        "mediaId": "HUR00015_BL1587_Hurliverd_15_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 14 id: 2023/01/09/hur00015bl1587hurliverd152013",
-        "title": "Tað vóru tey...",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00015bl1587hurliverd152013"
-      },
-      {
-        "episodeNumber": 15,
-        "id": "2023/01/09/hur00016bl1587hurliverd162013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00016_bl1587_hurliverd_16_2013_0009.jpg?itok=rG8u34CD",
-        "mediaId": "HUR00016_BL1587_Hurliverd_16_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 15 id: 2023/01/09/hur00016bl1587hurliverd162013",
-        "title": "Skeiðkappingin",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00016bl1587hurliverd162013"
-      },
-      {
-        "episodeNumber": 16,
-        "id": "2023/01/09/hur00017bl1587hurliverd172013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00017_bl1587_hurliverd_17_2013_0020.jpg?itok=DCiJR5WC",
-        "mediaId": "HUR00017_BL1587_Hurliverd_17_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 16 id: 2023/01/09/hur00017bl1587hurliverd172013",
-        "title": "Minnilig nátt",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00017bl1587hurliverd172013"
-      },
-      {
-        "episodeNumber": 17,
-        "id": "2023/01/09/hur00018bl1587hurliverd182013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00018_bl1587_hurliverd_18_2013_0053.jpg?itok=PROfjNCZ",
-        "mediaId": "HUR00018_BL1587_Hurliverd_18_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 17 id: 2023/01/09/hur00018bl1587hurliverd182013",
-        "title": "Best man vera sum er",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00018bl1587hurliverd182013"
-      },
-      {
-        "episodeNumber": 18,
-        "id": "2023/01/09/hur00019bl1587hurliverd192013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00019_bl1587_hurliverd_19_2013_0020.jpg?itok=KXVn5nlD",
-        "mediaId": "HUR00019_BL1587_Hurliverd_19_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 18 id: 2023/01/09/hur00019bl1587hurliverd192013",
-        "title": "Yvir háls og herðar",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00019bl1587hurliverd192013"
-      },
-      {
-        "episodeNumber": 19,
-        "id": "2023/01/09/hur00020bl1587hurliverd202013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00020_bl1587_hurliverd_20_2013_0018.jpg?itok=HvvDs-c0",
-        "mediaId": "HUR00020_BL1587_Hurliverd_20_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 19 id: 2023/01/09/hur00020bl1587hurliverd202013",
-        "title": "Eitra og prinsurin",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00020bl1587hurliverd202013"
-      },
-      {
-        "episodeNumber": 20,
-        "id": "2023/01/09/hur00021bl1587hurliverd212013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00021_bl1587_hurliverd_21_2013_0043.jpg?itok=kygME7uh",
-        "mediaId": "HUR00021_BL1587_Hurliverd_21_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 20 id: 2023/01/09/hur00021bl1587hurliverd212013",
-        "title": "Stinkskaddan",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00021bl1587hurliverd212013"
-      },
-      {
-        "episodeNumber": 21,
-        "id": "2023/01/09/hur00022bl1587hurliverd222013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00022_bl1587_hurliverd_22_2013_0007.jpg?itok=_qbcs9FD",
-        "mediaId": "HUR00022_BL1587_Hurliverd_22_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 21 id: 2023/01/09/hur00022bl1587hurliverd222013",
-        "title": "Spælisoldátar",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00022bl1587hurliverd222013"
-      },
-      {
-        "episodeNumber": 22,
-        "id": "2023/01/09/hur00023bl1587hurliverd232013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00023_bl1587_hurliverd_23_2013_0026.jpg?itok=cNo80px9",
-        "mediaId": "HUR00023_BL1587_Hurliverd_23_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 22 id: 2023/01/09/hur00023bl1587hurliverd232013",
-        "title": "Álvurnar",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00023bl1587hurliverd232013"
-      },
-      {
-        "episodeNumber": 23,
-        "id": "2023/01/09/hur00024bl1587hurliverd242013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00024_bl1587_hurliverd_24_2013_0024.jpg?itok=eXsSKnn9",
-        "mediaId": "HUR00024_BL1587_Hurliverd_24_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 23 id: 2023/01/09/hur00024bl1587hurliverd242013",
-        "title": "Nortbert og Gullseðilin",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00024bl1587hurliverd242013"
-      },
-      {
-        "episodeNumber": 24,
-        "id": "2023/01/09/hur00025bl1587hurliverd252013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00025_bl1587_hurliverd_25_2013_0029.jpg?itok=8cVA-NT8",
-        "mediaId": "HUR00025_BL1587_Hurliverd_25_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 24 id: 2023/01/09/hur00025bl1587hurliverd252013",
-        "title": "Hornahertogin",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00025bl1587hurliverd252013"
-      },
-      {
-        "episodeNumber": 25,
-        "id": "2023/01/09/hur00026bl1587hurliverd262013",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hur00026_bl1587_hurliverd_26_2013_0020.jpg?itok=Y0joP7ti",
-        "mediaId": "HUR00026_BL1587_Hurliverd_26_2013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 25 id: 2023/01/09/hur00026bl1587hurliverd262013",
-        "title": "Avgerandi dystur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/hur00026bl1587hurliverd262013"
+        "sortKey": "s: 1 e: 3 id: 2023/06/22/slim-nokkso-noktandi",
+        "title": "Slím - nokk so nøktandi",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/22/slim-nokkso-noktandi"
       }
     ]
   },
@@ -3526,6 +3106,46 @@
         "sortKey": "s: 1 e: 4 id: 2023/06/05/dre00004bl1553idreymagardi42011",
         "title": "Vinir Makka pakka",
         "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00004bl1553idreymagardi42011"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2023/06/05/dre00005bl1553idreymagardi52011",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/dre00005_bl1553_i_dreymagardi_5_2011_0016.jpg?itok=h7LhTuFL",
+        "mediaId": "DRE00005_BL1553_I_Dreymagardi_5_2011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: 2023/06/05/dre00005bl1553idreymagardi52011",
+        "title": "Nógv ponk í Pinki ponkinum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00005bl1553idreymagardi52011"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2023/06/05/dre00007bl1554idreymagardi72011",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/dre00007_bl1554_i_dreymagardi_7_2011_0051.jpg?itok=o824bshN",
+        "mediaId": "DRE00007_BL1554_I_Dreymagardi_7_2011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: 2023/06/05/dre00007bl1554idreymagardi72011",
+        "title": "Obsi deysi gloymir steinin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00007bl1554idreymagardi72011"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2023/06/05/dre00008bl1554idreymagardi82011",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/dre00008_bl1554_i_dreymagardi_8_2011_0041.jpg?itok=EkqWi_nc",
+        "mediaId": "DRE00008_BL1554_I_Dreymagardi_8_2011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: 2023/06/05/dre00008bl1554idreymagardi82011",
+        "title": "Ein bóltur, sum vil sova",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00008bl1554idreymagardi82011"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/06/05/dre00009bl1554idreymagardi92011",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/dre00009_bl1554_i_dreymagardi_9_2011_0062.jpg?itok=zrQjSgK3",
+        "mediaId": "DRE00009_BL1554_I_Dreymagardi_9_2011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/06/05/dre00009bl1554idreymagardi92011",
+        "title": "Obsi deysi dansar við Pontipinarunum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00009bl1554idreymagardi92011"
       }
     ]
   },
@@ -4268,6 +3888,12 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/leypa_haegst_0.jpg?itok=DMu7LOqO",
+    "title": "Leypa hægst",
+    "url": "https://kvf.fo/vit/sending/sv/leypa-haegst",
+    "episodes": []
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/likkulikku.png?itok=K9MkhCn6",
     "title": "Likkulikkuleia",
     "url": "https://kvf.fo/vit/sending/sv/likkulikkuleia",
@@ -4431,6 +4057,106 @@
         "sortKey": "s: 4 e: 16 id: 2023/06/01/likkulikkuleia-16",
         "title": "Likkulikkuleia 16",
         "url": "https://kvf.fo/vit/sjonvarp/2023/06/01/likkulikkuleia-16"
+      },
+      {
+        "episodeNumber": 1,
+        "id": "2023/07/01/likkulikkuleia-1",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1280_likkulikkuleia_65_0030.jpg?itok=jxl-QTvW",
+        "mediaId": "BL1280_Likkulikkuleia_65",
+        "seasonNumber": 5,
+        "sortKey": "s: 5 e: 1 id: 2023/07/01/likkulikkuleia-1",
+        "title": "Likkulikkuleia 1",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/01/likkulikkuleia-1"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/07/01/likkulikkuleia-2",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1281_likkulikkuleia_66_0042.jpg?itok=_HPWuLvr",
+        "mediaId": "BL1281_Likkulikkuleia_66",
+        "seasonNumber": 5,
+        "sortKey": "s: 5 e: 2 id: 2023/07/01/likkulikkuleia-2",
+        "title": "Likkulikkuleia 2",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/01/likkulikkuleia-2"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2023/07/01/likkulikkuleia-3",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1282_likkulikkuleia_67_0039.jpg?itok=sWpivHDP",
+        "mediaId": "BL1282_Likkulikkuleia_67",
+        "seasonNumber": 5,
+        "sortKey": "s: 5 e: 3 id: 2023/07/01/likkulikkuleia-3",
+        "title": "Likkulikkuleia 3",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/01/likkulikkuleia-3"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2023/07/01/likkulikkuleia-4",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1283_likkulikkuleia_68_0023.jpg?itok=3rs8eY8e",
+        "mediaId": "BL1283_Likkulikkuleia_68",
+        "seasonNumber": 5,
+        "sortKey": "s: 5 e: 4 id: 2023/07/01/likkulikkuleia-4",
+        "title": "Likkulikkuleia 4",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/01/likkulikkuleia-4"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2023/07/01/likkulikkuleia-5",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1284_likkulikkuleia_69_0044.jpg?itok=9fayt0xr",
+        "mediaId": "BL1284_Likkulikkuleia_69",
+        "seasonNumber": 5,
+        "sortKey": "s: 5 e: 5 id: 2023/07/01/likkulikkuleia-5",
+        "title": "Likkulikkuleia 5",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/01/likkulikkuleia-5"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "2023/07/01/likkulikkuleia-6-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1285_likkulikkuleia_70_0007.jpg?itok=tecsz-ns",
+        "mediaId": "BL1285_Likkulikkuleia_70",
+        "seasonNumber": 5,
+        "sortKey": "s: 5 e: 6 id: 2023/07/01/likkulikkuleia-6-0",
+        "title": "Likkulikkuleia 6",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/01/likkulikkuleia-6-0"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2023/07/01/likkulikkuleia-7",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1286_likkulikkuleia_71_0091.jpg?itok=oPpEUCxE",
+        "mediaId": "BL1286_Likkulikkuleia_71",
+        "seasonNumber": 5,
+        "sortKey": "s: 5 e: 7 id: 2023/07/01/likkulikkuleia-7",
+        "title": "Likkulikkuleia 7",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/01/likkulikkuleia-7"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2023/07/01/likkulikkuleia-8",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1287_likkulikkuleia_72_0035.jpg?itok=rjgtobH7",
+        "mediaId": "BL1287_Likkulikkuleia_72",
+        "seasonNumber": 5,
+        "sortKey": "s: 5 e: 8 id: 2023/07/01/likkulikkuleia-8",
+        "title": "Likkulikkuleia 8",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/01/likkulikkuleia-8"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/07/01/likkulikkuleia-9",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1288_likkulikkuleia_73_0060.jpg?itok=s_WMcXTw",
+        "mediaId": "BL1288_Likkulikkuleia_73",
+        "seasonNumber": 5,
+        "sortKey": "s: 5 e: 9 id: 2023/07/01/likkulikkuleia-9",
+        "title": "Likkulikkuleia 9",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/01/likkulikkuleia-9"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/07/01/likkulikkuleia-10",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1289_likkulikkuleia_74_0017.jpg?itok=UH8XL43L",
+        "mediaId": "BL1289_Likkulikkuleia_74",
+        "seasonNumber": 5,
+        "sortKey": "s: 5 e: 10 id: 2023/07/01/likkulikkuleia-10",
+        "title": "Likkulikkuleia 10",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/01/likkulikkuleia-10"
       }
     ]
   },
@@ -6013,6 +5739,36 @@
         "sortKey": "s: 1 e: 9 id: 2020/10/26/pet00010bl1581pettsonogfindus10",
         "title": "Kattonauturin",
         "url": "https://kvf.fo/vit/sjonvarp/2020/10/26/pet00010bl1581pettsonogfindus10"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2020/10/26/pet00011bl1581pettsonogfindus11",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/pet11.png?itok=Rb0n03qb",
+        "mediaId": "PET00011_BL1581_PETTSON_OG_FINDUS_11",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2020/10/26/pet00011bl1581pettsonogfindus11",
+        "title": "Kongur vitjar",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/10/26/pet00011bl1581pettsonogfindus11"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2020/10/26/pet00012bl1581pettsonogfindus12",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/pet12.png?itok=qXtvgQpL",
+        "mediaId": "PET00012_BL1581_PETTSON_OG_FINDUS_12",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2020/10/26/pet00012bl1581pettsonogfindus12",
+        "title": "Sirkustikarin",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/10/26/pet00012bl1581pettsonogfindus12"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2020/10/26/pet00013bl1581pettsonogfindus13",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/pet13.png?itok=tD7wy6pk",
+        "mediaId": "PET00013_BL1581_PETTSON_OG_FINDUS_13",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2020/10/26/pet00013bl1581pettsonogfindus13",
+        "title": "Veltan",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/10/26/pet00013bl1581pettsonogfindus13"
       }
     ]
   },
@@ -6100,233 +5856,6 @@
         "sortKey": "s: 1 e: 8 id: 2019/04/26/pipp-papp-hey-8-partur",
         "title": "Sirkusdalur og pappklovnar",
         "url": "https://kvf.fo/vit/sjonvarp/2019/04/26/pipp-papp-hey-8-partur"
-      }
-    ]
-  },
-  {
-    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=VToXygNH",
-    "title": "Rógvi og drekin",
-    "url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin",
-    "episodes": [
-      {
-        "episodeNumber": 1,
-        "id": "rgvi-og-drekin-1-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00001",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 1 id: rgvi-og-drekin-1-partur",
-        "title": "Rógvi og drekin (1:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-1-partur"
-      },
-      {
-        "episodeNumber": 2,
-        "id": "rgvi-og-drekin-2-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00002",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 2 id: rgvi-og-drekin-2-partur",
-        "title": "Rógvi og drekin (2:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-2-partur"
-      },
-      {
-        "episodeNumber": 3,
-        "id": "rgvi-og-drekin-3-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00003",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 3 id: rgvi-og-drekin-3-partur",
-        "title": "Rógvi og drekin (3:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-3-partur"
-      },
-      {
-        "episodeNumber": 4,
-        "id": "rgvi-og-drekin-4-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00004",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 4 id: rgvi-og-drekin-4-partur",
-        "title": "Rógvi og drekin (4:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-4-partur"
-      },
-      {
-        "episodeNumber": 5,
-        "id": "rgvi-og-drekin-5-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00005",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 5 id: rgvi-og-drekin-5-partur",
-        "title": "Rógvi og drekin (5:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-5-partur"
-      },
-      {
-        "episodeNumber": 6,
-        "id": "rgvi-og-drekin-6-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00006",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 6 id: rgvi-og-drekin-6-partur",
-        "title": "Rógvi og drekin (6:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-6-partur"
-      },
-      {
-        "episodeNumber": 7,
-        "id": "rgvi-og-drekin-7-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00007",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 7 id: rgvi-og-drekin-7-partur",
-        "title": "Rógvi og drekin (7:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-7-partur"
-      },
-      {
-        "episodeNumber": 8,
-        "id": "rgvi-og-drekin-8-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00008",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 8 id: rgvi-og-drekin-8-partur",
-        "title": "Rógvi og drekin (8:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-8-partur"
-      },
-      {
-        "episodeNumber": 9,
-        "id": "rgvi-og-drekin-9-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00009",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 9 id: rgvi-og-drekin-9-partur",
-        "title": "Rógvi og drekin (9:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-9-partur"
-      },
-      {
-        "episodeNumber": 10,
-        "id": "rgvi-og-drekin-10-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00010",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 10 id: rgvi-og-drekin-10-partur",
-        "title": "Rógvi og drekin (10:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-10-partur"
-      },
-      {
-        "episodeNumber": 11,
-        "id": "rgvi-og-drekin-11-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00011",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 11 id: rgvi-og-drekin-11-partur",
-        "title": "Rógvi og drekin (11:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-11-partur"
-      },
-      {
-        "episodeNumber": 12,
-        "id": "rgvi-og-drekin-12-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00012",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 12 id: rgvi-og-drekin-12-partur",
-        "title": "Rógvi og drekin (12:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-12-partur"
-      },
-      {
-        "episodeNumber": 13,
-        "id": "rgvi-og-drekin-13-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00013",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 13 id: rgvi-og-drekin-13-partur",
-        "title": "Rógvi og drekin (13:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-13-partur"
-      },
-      {
-        "episodeNumber": 14,
-        "id": "rgvi-og-drekin-14-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00014",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 14 id: rgvi-og-drekin-14-partur",
-        "title": "Rógvi og drekin (14:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-14-partur"
-      },
-      {
-        "episodeNumber": 15,
-        "id": "rgvi-og-drekin-15-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00015",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 15 id: rgvi-og-drekin-15-partur",
-        "title": "Rógvi og drekin (15:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-15-partur"
-      },
-      {
-        "episodeNumber": 16,
-        "id": "rgvi-og-drekin-16-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00016",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 16 id: rgvi-og-drekin-16-partur",
-        "title": "Rógvi og drekin (16:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-16-partur"
-      },
-      {
-        "episodeNumber": 17,
-        "id": "rgvi-og-drekin-17-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00017",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 17 id: rgvi-og-drekin-17-partur",
-        "title": "Rógvi og drekin (17:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-17-partur"
-      },
-      {
-        "episodeNumber": 18,
-        "id": "rgvi-og-drekin-18-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00018",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 18 id: rgvi-og-drekin-18-partur",
-        "title": "Rógvi og drekin (18:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-18-partur"
-      },
-      {
-        "episodeNumber": 19,
-        "id": "rgvi-og-drekin-19-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 19 id: rgvi-og-drekin-19-partur",
-        "title": "Rógvi og drekin (19:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-19-partur"
-      },
-      {
-        "episodeNumber": 20,
-        "id": "rgvi-og-drekin-20-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00020",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 20 id: rgvi-og-drekin-20-partur",
-        "title": "Rógvi og drekin (20:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-20-partur"
-      },
-      {
-        "episodeNumber": 21,
-        "id": "rgvi-og-drekin-21-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00021",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 21 id: rgvi-og-drekin-21-partur",
-        "title": "Rógvi og drekin (21:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-21-partur"
-      },
-      {
-        "episodeNumber": 22,
-        "id": "rgvi-og-drekin-22-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=RHu9BR5c",
-        "mediaId": "ROD00022",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 22 id: rgvi-og-drekin-22-partur",
-        "title": "Rógvi og drekin (22:22)",
-        "url": "https://kvf.fo/vit/sjonvarp/rgvi-og-drekin-22-partur"
       }
     ]
   },
@@ -7296,6 +6825,12 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/ser00002_bl1250_serlingar_2_20092002_0003.jpg?itok=SlHfoZrg",
+    "title": "Serlingar",
+    "url": "https://kvf.fo/vit/sending/sv/serlingar",
+    "episodes": []
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/smabornstill_2.1.1.png?itok=Ckx0m7eJ",
     "title": "Smábørn",
     "url": "https://kvf.fo/vit/sending/sv/smaborn",
@@ -8174,6 +7709,56 @@
         "sortKey": "s: 1 e: 11 id: 2023/06/07/regnskjolid",
         "title": "Regnskjólið",
         "url": "https://kvf.fo/vit/sjonvarp/2023/06/07/regnskjolid"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/06/14/fotaspor",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1613_uki_12_0052.jpg?itok=QHCGfxkM",
+        "mediaId": "BL1613_UKI_12",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2023/06/14/fotaspor",
+        "title": "Fótaspor",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/14/fotaspor"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2023/06/21/kanin-vil-flog",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1613_uki_13_0058.jpg?itok=dpJ_NaTS",
+        "mediaId": "BL1613_UKI_13",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2023/06/21/kanin-vil-flog",
+        "title": "Kanin vil á flog",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/21/kanin-vil-flog"
+      },
+      {
+        "episodeNumber": 14,
+        "id": "2023/06/28/brugvin",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1613_uki_14_0059.jpg?itok=7qljvj95",
+        "mediaId": "BL1613_UKI_14",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 14 id: 2023/06/28/brugvin",
+        "title": "Brúgvin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/28/brugvin"
+      },
+      {
+        "episodeNumber": 15,
+        "id": "2023/07/05/skuggin",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1613_uki_15_0061.jpg?itok=1ZHlk5mo",
+        "mediaId": "BL1613_UKI_15",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 15 id: 2023/07/05/skuggin",
+        "title": "Skuggin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/05/skuggin"
+      },
+      {
+        "episodeNumber": 16,
+        "id": "2023/07/12/smattan",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1613_uki_16_0111_0.jpg?itok=K3sx0kim",
+        "mediaId": "BL1613_UKI_16",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 16 id: 2023/07/12/smattan",
+        "title": "Smáttan",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/12/smattan"
       }
     ]
   },
