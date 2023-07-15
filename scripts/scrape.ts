@@ -1,5 +1,6 @@
 import { writeFileSync } from 'fs';
 import { JSDOM } from 'jsdom';
+import PQueue from 'p-queue';
 import prettier from 'prettier';
 import type { Show, Episode } from './shared-types';
 import * as CliProgress from 'cli-progress';
@@ -7,7 +8,6 @@ import * as CliProgress from 'cli-progress';
 type PartialEpisode = Omit<Episode, 'mediaId'>;
 type PartialShow = Omit<Show, 'episodes'> & { episodes: PartialEpisode[] };
 
-const progressFormat = 'progress {bar} {percentage}% | ETA: {eta}s | {value}/{total} {title}';
 const collator = new Intl.Collator(undefined, {
 	numeric: true,
 	sensitivity: 'base',
@@ -15,10 +15,19 @@ const collator = new Intl.Collator(undefined, {
 const urlPrefix = 'https://kvf.fo';
 const regex = new RegExp(`(var media = ')(.+)';`);
 let episodesCount = 0;
-let currentEpisode = 0;
+let episodeCount = 0;
 
 function pretty(html: string): string {
 	return prettier.format(html, { parser: 'html' });
+}
+
+function progressBar() {
+	return new CliProgress.SingleBar(
+		{
+			format: 'progress {bar} {percentage}% | ETA: {eta}s | {value}/{total} {title}',
+		},
+		CliProgress.Presets.shades_classic,
+	);
 }
 
 function parseEpisodeElement(el: HTMLElement): PartialEpisode {
@@ -56,7 +65,7 @@ function parseEpisodeElement(el: HTMLElement): PartialEpisode {
 }
 
 async function scrapeEpisode(episode: PartialEpisode): Promise<{ mediaId: string } | undefined> {
-	currentEpisode += 1;
+	episodeCount += 1;
 
 	const episodePage = await fetch(episode.url);
 	const episodePageHtml = await episodePage.text();
@@ -104,67 +113,66 @@ async function run() {
 			url: urlPrefix + a.href,
 			episodes: [],
 		};
-		// console.log(show.title, show.url);
 		partialShows.push(show);
 	});
 
 	partialShows.sort((a, b) => collator.compare(a.title, b.title));
 
-	// const show = shows[1];
-	// const episodes = await parseShow(show.url);
-	// show.episodes = episodes;
-
 	console.log(`Scraping shows`);
-	const bar1 = new CliProgress.SingleBar(
-		{
-			format: progressFormat,
-		},
-		CliProgress.Presets.shades_classic,
-	);
+	const showPromises: Array<() => Promise<void>> = [];
+	const bar1 = progressBar();
 	bar1.start(partialShows.length, 0);
-	for await (const [index, show] of partialShows.entries()) {
-		// console.log(`Scraping show: ${index + 1} of ${partialShows.length} ${show.title}`);
-		const episodes = await scrapeShow(show.url);
-		bar1.update(index + 1, { title: show.title });
-		show.episodes = episodes;
-		episodesCount += show.episodes.length;
+	let showCount = 0;
+	for (const show of partialShows) {
+		showPromises.push(async () => {
+			const episodes = await scrapeShow(show.url);
+			bar1.update(++showCount, { title: show.title });
+			show.episodes = episodes;
+			episodesCount += show.episodes.length;
+		});
 	}
+	const showQueue = new PQueue({ concurrency: 6 });
+	await showQueue.addAll(showPromises);
 	bar1.stop();
 
-	const shows: Show[] = [];
 	console.log(`Scraping episodes`);
-	const bar2 = new CliProgress.SingleBar(
-		{
-			format: progressFormat,
-		},
-		CliProgress.Presets.shades_classic,
-	);
+	const episodePromises: Array<() => Promise<void>> = [];
+	const bar2 = progressBar();
+	const showsMap = new Map<string, Episode[]>();
+	partialShows.forEach((show) => showsMap.set(show.title, []));
 	bar2.start(episodesCount, 0);
-	for await (const partialShow of partialShows) {
-		const episodes: Episode[] = [];
-		for await (const [index, partialEpisode] of partialShow.episodes.entries()) {
-			const { mediaId } = await scrapeEpisode(partialEpisode);
-			bar2.update(currentEpisode, {
-				title: `${partialShow.title} s${partialEpisode.seasonNumber} e${partialEpisode.episodeNumber} ${partialEpisode.title}}`,
+	for (const partialShow of partialShows) {
+		for (const [index, partialEpisode] of Array.from(partialShow.episodes.entries())) {
+			episodePromises.push(async () => {
+				const { mediaId } = await scrapeEpisode(partialEpisode);
+				bar2.update(episodeCount, {
+					title: `${partialShow.title} s${partialEpisode.seasonNumber} e${partialEpisode.episodeNumber} ${partialEpisode.title}}`,
+				});
+				const episode: Episode = {
+					episodeNumber: partialEpisode.episodeNumber,
+					id: partialEpisode.id,
+					img: partialEpisode.img,
+					mediaId,
+					seasonNumber: partialEpisode.seasonNumber,
+					sortKey: partialEpisode.sortKey,
+					title: partialEpisode.title,
+					url: partialEpisode.url,
+				};
+				showsMap.get(partialShow.title)[index] = episode;
 			});
-			const episode: Episode = {
-				episodeNumber: partialEpisode.episodeNumber,
-				id: partialEpisode.id,
-				img: partialEpisode.img,
-				mediaId,
-				seasonNumber: partialEpisode.seasonNumber,
-				sortKey: partialEpisode.sortKey,
-				title: partialEpisode.title,
-				url: partialEpisode.url,
-			};
-			episodes[index] = episode;
 		}
+	}
+	const episodesQueue = new PQueue({ concurrency: 6 });
+	await episodesQueue.addAll(episodePromises);
+	const shows: Show[] = [];
+	partialShows.forEach((partialShow) => {
+		const episodes = showsMap.get(partialShow.title);
 		const show: Show = {
 			...partialShow,
 			episodes,
 		};
 		shows.push(show);
-	}
+	});
 
 	bar2.stop();
 	// console.log(JSON.stringify(shows));
