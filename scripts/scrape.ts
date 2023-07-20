@@ -15,10 +15,20 @@ const collator = new Intl.Collator(undefined, {
 const urlPrefix = 'https://kvf.fo';
 const regex = new RegExp(`(var media = ')(.+)';`);
 let episodesCount = 0;
-let episodeCount = 0;
 
 function pretty(html: string): string {
 	return prettier.format(html, { parser: 'html' });
+}
+
+async function fetchHtml(url: string): Promise<string> {
+	try {
+		const response = await fetch(url);
+		const html = await response.text();
+		return html;
+	} catch (error) {
+		console.error(`Failed to fetch HTML from ${url}`, error);
+		throw error;
+	}
 }
 
 function progressBar() {
@@ -65,12 +75,8 @@ function parseEpisodeElement(el: HTMLElement): PartialEpisode {
 }
 
 async function scrapeEpisode(episode: PartialEpisode): Promise<{ mediaId: string } | undefined> {
-	episodeCount += 1;
-
-	const episodePage = await fetch(episode.url);
-	const episodePageHtml = await episodePage.text();
-
-	const result = regex.exec(episodePageHtml);
+	const episodeHtml = await fetchHtml(episode.url);
+	const result = regex.exec(episodeHtml);
 	const mediaId = result?.[2];
 
 	// const showPage = await fetch(episode.url);
@@ -80,8 +86,7 @@ async function scrapeEpisode(episode: PartialEpisode): Promise<{ mediaId: string
 }
 
 async function scrapeShow(showUrl: string): Promise<PartialEpisode[]> {
-	const showResult = await fetch(showUrl);
-	const showHtml = await showResult.text();
+	const showHtml = await fetchHtml(showUrl);
 	const showDom = new JSDOM(showHtml);
 	// console.log(showHtml);
 
@@ -98,9 +103,8 @@ async function scrapeShow(showUrl: string): Promise<PartialEpisode[]> {
 	return episodes.sort((a, b) => collator.compare(a.sortKey, b.sortKey));
 }
 
-async function run() {
-	const showsResult = await fetch('https://kvf.fo/vit/sjonvarp/sendingar');
-	const showsHtml = await showsResult.text();
+async function scrapeShowsList(): Promise<PartialShow[]> {
+	const showsHtml = await fetchHtml('https://kvf.fo/vit/sjonvarp/sendingar');
 	const showsDom = new JSDOM(showsHtml);
 
 	const partialShows: PartialShow[] = [];
@@ -117,6 +121,11 @@ async function run() {
 	});
 
 	partialShows.sort((a, b) => collator.compare(a.title, b.title));
+	return partialShows;
+}
+
+async function run() {
+	const partialShows = await scrapeShowsList();
 
 	console.log(`Scraping shows`);
 	const bar1 = progressBar();
@@ -141,11 +150,12 @@ async function run() {
 	const episodePromises: Array<() => Promise<void>> = [];
 	const showsMap = new Map<string, Episode[]>();
 	partialShows.forEach((show) => showsMap.set(show.title, []));
+	let currentEpisode = 0;
 	for (const partialShow of partialShows) {
 		for (const [index, partialEpisode] of Array.from(partialShow.episodes.entries())) {
 			episodePromises.push(async () => {
 				const { mediaId } = await scrapeEpisode(partialEpisode);
-				bar2.update(episodeCount, {
+				bar2.update(++currentEpisode, {
 					title: `${partialShow.title} s${partialEpisode.seasonNumber} e${partialEpisode.episodeNumber} ${partialEpisode.title}}`,
 				});
 				const episode: Episode = {
