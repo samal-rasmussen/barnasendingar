@@ -17,263 +17,6 @@
     ]
   },
   {
-    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/albi_kavamadur.jpeg?itok=uGzh3qCc",
-    "title": "Albi kavamaður",
-    "url": "https://kvf.fo/vit/sending/sv/albi-kavamadur",
-    "episodes": [
-      {
-        "episodeNumber": 1,
-        "id": "2023/01/02/albi-vil-sita",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00001_ut355_albi_kavamadur1_28012019_0020.jpg?itok=VXTEUP-V",
-        "mediaId": "ALB00001_UT355_Albi_kavamadur1_28012019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 1 id: 2023/01/02/albi-vil-sita",
-        "title": "Albi vil sita",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/02/albi-vil-sita"
-      },
-      {
-        "episodeNumber": 2,
-        "id": "2023/01/03/albi-elskar-tonleik",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00002_ut355_albi_kavamadur_2_29012019_0045.jpg?itok=iMOYzP_X",
-        "mediaId": "ALB00002_UT355_Albi_kavamadur_2_29012019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 2 id: 2023/01/03/albi-elskar-tonleik",
-        "title": "Albi elskar tónleik",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/03/albi-elskar-tonleik"
-      },
-      {
-        "episodeNumber": 3,
-        "id": "2023/01/04/albi-vil-dansa",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00003_ut355_albi_kavamadur_3_30012019_0023.jpg?itok=fox3MFXM",
-        "mediaId": "ALB00003_UT355_Albi_kavamadur_3_30012019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 3 id: 2023/01/04/albi-vil-dansa",
-        "title": "Albi vil dansa",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/04/albi-vil-dansa"
-      },
-      {
-        "episodeNumber": 4,
-        "id": "2023/01/05/albi-ger-eina-lampu",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00004_ut355_albi_kavamadur_4_31012019_0092.jpg?itok=MjGpCoiv",
-        "mediaId": "ALB00004_UT355_Albi_kavamadur_4_31012019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 4 id: 2023/01/05/albi-ger-eina-lampu",
-        "title": "Albi ger eina lampu",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/05/albi-ger-eina-lampu"
-      },
-      {
-        "episodeNumber": 5,
-        "id": "2023/01/05/albi-ger-eitt-spegl",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00005_ut355_albi_kavamadur_5_01022019_0030.jpg?itok=2z-BCEps",
-        "mediaId": "ALB00005_UT355_Albi_kavamadur_5_01022019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 5 id: 2023/01/05/albi-ger-eitt-spegl",
-        "title": "Albi ger eitt spegl",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/05/albi-ger-eitt-spegl"
-      },
-      {
-        "episodeNumber": 6,
-        "id": "2023/01/06/albi-ger-eina-klokku",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00006_ut355_albi_kavamadur_6_04022019_0061.jpg?itok=VxKFTdNO",
-        "mediaId": "ALB00006_UT355_Albi_kavamadur_6_04022019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 6 id: 2023/01/06/albi-ger-eina-klokku",
-        "title": "Albi ger eina klokku",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/06/albi-ger-eina-klokku"
-      },
-      {
-        "episodeNumber": 7,
-        "id": "2023/01/07/albi-ruddar",
-        "img": "https://kvf.fo/system/files/styles/media-thumb-vit/private/alb00007_ut355_albi_kavamadur_7_05022019_0075.jpg?itok=amY0R-t0",
-        "mediaId": "ALB00007_UT355_Albi_kavamadur_7_05022019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 7 id: 2023/01/07/albi-ruddar",
-        "title": "Albi ruddar",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/07/albi-ruddar"
-      },
-      {
-        "episodeNumber": 8,
-        "id": "2023/01/08/albi-vil-ves",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00008_ut355_albi_kavamadur_8_06022019_0083.jpg?itok=aQn2NkbK",
-        "mediaId": "ALB00008_UT355_Albi_kavamadur_8_06022019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 8 id: 2023/01/08/albi-vil-ves",
-        "title": "Albi vil á ves",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/08/albi-vil-ves"
-      },
-      {
-        "episodeNumber": 9,
-        "id": "2023/01/23/albi-ger-eina-song",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00009_ut355_albi_kavamadur_9_07022019_0035.jpg?itok=RqxrmvtX",
-        "mediaId": "ALB00009_UT355_Albi_kavamadur_9_07022019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 9 id: 2023/01/23/albi-ger-eina-song",
-        "title": "Albi ger eina song",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/23/albi-ger-eina-song"
-      },
-      {
-        "episodeNumber": 10,
-        "id": "2023/01/23/albi-ger-eitt-bord",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00010_ut355_albi_kavamadur_10_08022019_0078.jpg?itok=ihU7w-fX",
-        "mediaId": "ALB00010_UT355_Albi_kavamadur_10_08022019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 10 id: 2023/01/23/albi-ger-eitt-bord",
-        "title": "Albi ger eitt borð",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/23/albi-ger-eitt-bord"
-      },
-      {
-        "episodeNumber": 11,
-        "id": "2023/02/07/albi-ger-eitt-sjonvarp",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00011_ut355_albi_kavamadur_11_11022019_0026.jpg?itok=qnrsnybU",
-        "mediaId": "ALB00011_UT355_Albi_kavamadur_11_11022019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 11 id: 2023/02/07/albi-ger-eitt-sjonvarp",
-        "title": "Albi ger eitt sjónvarp",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/02/07/albi-ger-eitt-sjonvarp"
-      },
-      {
-        "episodeNumber": 12,
-        "id": "2023/02/14/albi-ger-eina-hurd",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00012_ut355_albi_kavamadur_12_12022019_0067.jpg?itok=CckZ1RPY",
-        "mediaId": "ALB00012_UT355_Albi_kavamadur_12_12022019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 12 id: 2023/02/14/albi-ger-eina-hurd",
-        "title": "Albi ger eina hurð",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/02/14/albi-ger-eina-hurd"
-      },
-      {
-        "episodeNumber": 13,
-        "id": "2023/02/21/albi-ger-eitt-slott",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00013_ut355_albi_kavamadur_13_13022019_0065.jpg?itok=Q5qT330F",
-        "mediaId": "ALB00013_UT355_Albi_kavamadur_13_13022019",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 13 id: 2023/02/21/albi-ger-eitt-slott",
-        "title": "Albi ger eitt slott",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/02/21/albi-ger-eitt-slott"
-      },
-      {
-        "episodeNumber": 1,
-        "id": "2023/02/28/albi-ger-eina-telefon",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00014_ut356_albi_kavamadur_1_14022019_0084.jpg?itok=MTxjOSBj",
-        "mediaId": "ALB00014_UT356_Albi_kavamadur_1_14022019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 1 id: 2023/02/28/albi-ger-eina-telefon",
-        "title": "Albi ger eina telefon",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/02/28/albi-ger-eina-telefon"
-      },
-      {
-        "episodeNumber": 2,
-        "id": "2023/03/07/albi-ger-ein-dreka",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00015_ut356_albi_kavamadur_2_15022019_0069.jpg?itok=QnqD74oE",
-        "mediaId": "ALB00015_UT356_Albi_kavamadur_2_15022019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 2 id: 2023/03/07/albi-ger-ein-dreka",
-        "title": "Albi ger ein dreka",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/03/07/albi-ger-ein-dreka"
-      },
-      {
-        "episodeNumber": 3,
-        "id": "2023/03/14/albi-ger-eitt-spaeliplass",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00016_ut356_albi_kavamadur_3_18022019_0065.jpg?itok=UvPoHCDd",
-        "mediaId": "ALB00016_UT356_Albi_kavamadur_3_18022019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 3 id: 2023/03/14/albi-ger-eitt-spaeliplass",
-        "title": "Albi ger eitt spælipláss",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/03/14/albi-ger-eitt-spaeliplass"
-      },
-      {
-        "episodeNumber": 4,
-        "id": "2023/01/09/albi-ger-eitt-rumdarskip",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00017_ut356_albi_kavamadur_4_19022019_0066.jpg?itok=lqzktz2r",
-        "mediaId": "ALB00017_UT356_Albi_kavamadur_4_19022019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 4 id: 2023/01/09/albi-ger-eitt-rumdarskip",
-        "title": "Albi ger eitt rúmdarskip",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/albi-ger-eitt-rumdarskip"
-      },
-      {
-        "episodeNumber": 5,
-        "id": "2023/01/09/albi-ger-ein-bil",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00018_ut356_albi_kavamadur_5_20022019_0057.jpg?itok=1LOCB_eS",
-        "mediaId": "ALB00018_UT356_Albi_kavamadur_5_20022019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 5 id: 2023/01/09/albi-ger-ein-bil",
-        "title": "Albi ger ein bil",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/albi-ger-ein-bil"
-      },
-      {
-        "episodeNumber": 6,
-        "id": "2023/01/09/albi-ger-ambod",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00019_ut356_albi_kavamadur_6_21022019_0051.jpg?itok=PdXT-rfS",
-        "mediaId": "ALB00019_UT356_Albi_kavamadur_6_21022019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 6 id: 2023/01/09/albi-ger-ambod",
-        "title": "Albi ger amboð",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/albi-ger-ambod"
-      },
-      {
-        "episodeNumber": 7,
-        "id": "2023/01/09/albi-vil-vera-gandakallur",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00020_ut356_albi_kavamadur_7_22022019_0078.jpg?itok=JILSS_Ys",
-        "mediaId": "ALB00020_UT356_Albi_kavamadur_7_22022019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 7 id: 2023/01/09/albi-vil-vera-gandakallur",
-        "title": "Albi vil vera gandakallur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/albi-vil-vera-gandakallur"
-      },
-      {
-        "episodeNumber": 8,
-        "id": "2023/01/09/albi-stendur-ski",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00021_ut356_albi_kavamadur_8_25022019_0063.jpg?itok=hvDHeaqb",
-        "mediaId": "ALB00021_UT356_Albi_kavamadur_8_25022019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 8 id: 2023/01/09/albi-stendur-ski",
-        "title": "Albi stendur á skí",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/albi-stendur-ski"
-      },
-      {
-        "episodeNumber": 9,
-        "id": "2023/01/09/albi-veltir-gronmeti",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00022_ut356_albi_kavamadur_9_26022019_0140.jpg?itok=aGF15NbE",
-        "mediaId": "ALB00022_UT356_Albi_kavamadur_9_26022019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 9 id: 2023/01/09/albi-veltir-gronmeti",
-        "title": "Albi veltir grønmeti",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/albi-veltir-gronmeti"
-      },
-      {
-        "episodeNumber": 10,
-        "id": "2023/01/17/albi-vil-hava-ein-hund",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00023_ut356_albi_kavamadur_10_27022019_0067.jpg?itok=NfK1tpqb",
-        "mediaId": "ALB00023_UT356_Albi_kavamadur_10_27022019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 10 id: 2023/01/17/albi-vil-hava-ein-hund",
-        "title": "Albi vil hava ein hund",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/17/albi-vil-hava-ein-hund"
-      },
-      {
-        "episodeNumber": 11,
-        "id": "2023/01/09/albi-ger-ein-svimjihyl",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00024_ut356_albi_kavamadur_11_28022019_0083.jpg?itok=8RETKG-s",
-        "mediaId": "ALB00024_UT356_Albi_kavamadur_11_28022019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 11 id: 2023/01/09/albi-ger-ein-svimjihyl",
-        "title": "Albi ger ein svimjihyl",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/albi-ger-ein-svimjihyl"
-      },
-      {
-        "episodeNumber": 12,
-        "id": "2023/01/09/albi-vil-hava-ein-bat",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/alb00025_ut356_albi_kavamadur_12_04032019_0015.jpg?itok=bo0RJNER",
-        "mediaId": "ALB00025_UT356_Albi_kavamadur_12_04032019",
-        "seasonNumber": 2,
-        "sortKey": "s: 2 e: 12 id: 2023/01/09/albi-vil-hava-ein-bat",
-        "title": "Albi vil hava ein bát",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/albi-vil-hava-ein-bat"
-      }
-    ]
-  },
-  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/alti1um-new_1.png?itok=pvWVQ8lg",
     "title": "Alt í 1um",
     "url": "https://kvf.fo/vit/sending/sv/alt-i-1um",
@@ -1395,6 +1138,63 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/brodurnir_leyvuhjarta_1920x1080.jpg?itok=2D8kMZoh",
+    "title": "Brøðurnir Leyvuhjarta",
+    "url": "https://kvf.fo/vit/sending/sv/brodurnir-leyvuhjarta",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2021/04/12/bta00098ut234brodurnirleyvuhjarta12007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/brodurnir_lovuhjarta.jpg?itok=p24WVeoV",
+        "mediaId": "BTA00098_UT234_Brodurnir_Leyvuhjarta_1_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2021/04/12/bta00098ut234brodurnirleyvuhjarta12007",
+        "title": "Beiggi mín Jónatan",
+        "url": "https://kvf.fo/vit/sjonvarp/2021/04/12/bta00098ut234brodurnirleyvuhjarta12007"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2022/03/25/brodurnir-leyvuhjarta-2",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/broderna_lejonhjarta_1.jpg?itok=w99GOF1o",
+        "mediaId": "BTA00099_UT234_Brodurnir_Leyvuhjarta_2_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2022/03/25/brodurnir-leyvuhjarta-2",
+        "title": "Um villuni fjøll",
+        "url": "https://kvf.fo/vit/sjonvarp/2022/03/25/brodurnir-leyvuhjarta-2"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2022/03/25/brodurnir-leyvuhjarta-3",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/brlo3.png?itok=wH-HI1Ut",
+        "mediaId": "BTA00100_UT234_Brodurnir_Leyvuhjarta_3_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2022/03/25/brodurnir-leyvuhjarta-3",
+        "title": "Í Tornurósudalinum",
+        "url": "https://kvf.fo/vit/sjonvarp/2022/03/25/brodurnir-leyvuhjarta-3"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2022/03/25/brodurnir-leyvuhjarta-3-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/brlo4.png?itok=l9Cfk6RN",
+        "mediaId": "BTA00101_UT234_Brodurnir_Leyvuhjarta_4_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2022/03/25/brodurnir-leyvuhjarta-3-0",
+        "title": "Fangin í Køtlugjónni",
+        "url": "https://kvf.fo/vit/sjonvarp/2022/03/25/brodurnir-leyvuhjarta-3-0"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2022/03/25/brodurnir-leyvuhjarta-5",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/brlo5.png?itok=hRd7MBYk",
+        "mediaId": "BTA00102_UT234_Brodurnir_Leyvuhjarta_5_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: 2022/03/25/brodurnir-leyvuhjarta-5",
+        "title": "Stríðsdagar",
+        "url": "https://kvf.fo/vit/sjonvarp/2022/03/25/brodurnir-leyvuhjarta-5"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bornini_i_dundurdali_1920x1080.jpg?itok=nwcvVKwy",
     "title": "Børnini í Dundurdali",
     "url": "https://kvf.fo/vit/sending/sv/bornini-i-dundurdali",
@@ -1799,63 +1599,6 @@
     ]
   },
   {
-    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/brodurnir_leyvuhjarta_1920x1080.jpg?itok=2D8kMZoh",
-    "title": "Brøðurnir Leyvuhjarta",
-    "url": "https://kvf.fo/vit/sending/sv/brodurnir-leyvuhjarta",
-    "episodes": [
-      {
-        "episodeNumber": 1,
-        "id": "2021/04/12/bta00098ut234brodurnirleyvuhjarta12007",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/brodurnir_lovuhjarta.jpg?itok=p24WVeoV",
-        "mediaId": "BTA00098_UT234_Brodurnir_Leyvuhjarta_1_2007",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 1 id: 2021/04/12/bta00098ut234brodurnirleyvuhjarta12007",
-        "title": "Beiggi mín Jónatan",
-        "url": "https://kvf.fo/vit/sjonvarp/2021/04/12/bta00098ut234brodurnirleyvuhjarta12007"
-      },
-      {
-        "episodeNumber": 2,
-        "id": "2022/03/25/brodurnir-leyvuhjarta-2",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/broderna_lejonhjarta_1.jpg?itok=w99GOF1o",
-        "mediaId": "BTA00099_UT234_Brodurnir_Leyvuhjarta_2_2007",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 2 id: 2022/03/25/brodurnir-leyvuhjarta-2",
-        "title": "Um villuni fjøll",
-        "url": "https://kvf.fo/vit/sjonvarp/2022/03/25/brodurnir-leyvuhjarta-2"
-      },
-      {
-        "episodeNumber": 3,
-        "id": "2022/03/25/brodurnir-leyvuhjarta-3",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/brlo3.png?itok=wH-HI1Ut",
-        "mediaId": "BTA00100_UT234_Brodurnir_Leyvuhjarta_3_2007",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 3 id: 2022/03/25/brodurnir-leyvuhjarta-3",
-        "title": "Í Tornurósudalinum",
-        "url": "https://kvf.fo/vit/sjonvarp/2022/03/25/brodurnir-leyvuhjarta-3"
-      },
-      {
-        "episodeNumber": 4,
-        "id": "2022/03/25/brodurnir-leyvuhjarta-3-0",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/brlo4.png?itok=l9Cfk6RN",
-        "mediaId": "BTA00101_UT234_Brodurnir_Leyvuhjarta_4_2007",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 4 id: 2022/03/25/brodurnir-leyvuhjarta-3-0",
-        "title": "Fangin í Køtlugjónni",
-        "url": "https://kvf.fo/vit/sjonvarp/2022/03/25/brodurnir-leyvuhjarta-3-0"
-      },
-      {
-        "episodeNumber": 5,
-        "id": "2022/03/25/brodurnir-leyvuhjarta-5",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/brlo5.png?itok=hRd7MBYk",
-        "mediaId": "BTA00102_UT234_Brodurnir_Leyvuhjarta_5_2007",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 5 id: 2022/03/25/brodurnir-leyvuhjarta-5",
-        "title": "Stríðsdagar",
-        "url": "https://kvf.fo/vit/sjonvarp/2022/03/25/brodurnir-leyvuhjarta-5"
-      }
-    ]
-  },
-  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/dikka_sendingamynd.png?itok=GSM79o9W",
     "title": "Dikka á Junifløtti",
     "url": "https://kvf.fo/vit/sending/sv/dikka-juniflotti",
@@ -2110,6 +1853,66 @@
         "sortKey": "s: 1 e: 7 id: 2023/06/13/eli00007bl1492elias72007",
         "title": "Snar kemur til Lundavágs",
         "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00007bl1492elias72007"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2023/06/13/eli00008bl1492elias82007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00008_bl1492_elias_8_2007_0016.jpg?itok=_uhH5nJw",
+        "mediaId": "ELI00008_BL1492_Elias_8_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: 2023/06/13/eli00008bl1492elias82007",
+        "title": "Nógvur vindur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00008bl1492elias82007"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/06/13/eli00009bl1492elias92007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00009_bl1492_elias_9_2007_0050.jpg?itok=zx8pq4IE",
+        "mediaId": "ELI00009_BL1492_Elias_9_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/06/13/eli00009bl1492elias92007",
+        "title": "Sjakki og likkan",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00009bl1492elias92007"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/06/13/eli00010bl1492elias102007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00010_bl1492_elias_10_2007_0053_0.jpg?itok=N1x-Vbm1",
+        "mediaId": "ELI00010_BL1492_Elias_10_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2023/06/13/eli00010bl1492elias102007",
+        "title": "Nýggja peran hjá Stórablunk",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00010bl1492elias102007"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/06/13/eli00011bl1492elias112007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00011_bl1492_elias_11_2007_0028.jpg?itok=UThrnKXz",
+        "mediaId": "ELI00011_BL1492_Elias_11_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/06/13/eli00011bl1492elias112007",
+        "title": "Krússi á royndartúri",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00011bl1492elias112007"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/06/13/eli00012bl1492elias122007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00012_bl1492_elias_12_2007_0013.jpg?itok=0Ff8YCD5",
+        "mediaId": "ELI00012_BL1492_Elias_12_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2023/06/13/eli00012bl1492elias122007",
+        "title": "Stóra kappsiglingin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00012bl1492elias122007"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2023/06/13/eli00013bl1492elias132007",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/eli00013_bl1492_elias_13_2007_0026.jpg?itok=_EhnLFv4",
+        "mediaId": "ELI00013_BL1492_Elias_13_2007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2023/06/13/eli00013bl1492elias132007",
+        "title": "Sjakki í mjørka",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00013bl1492elias132007"
       }
     ]
   },
@@ -3166,6 +2969,66 @@
         "sortKey": "s: 1 e: 10 id: 2023/06/05/dre00010bl1554idreymagardi102011",
         "title": "Ansa eftir Haurunum",
         "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00010bl1554idreymagardi102011"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/06/05/dre00011bl1554idreymagardi112011",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/dre00011_bl1554_i_dreymagardi_11_2011_0055.jpg?itok=z8twaRDn",
+        "mediaId": "DRE00011_BL1554_I_Dreymagardi_11_2011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/06/05/dre00011bl1554idreymagardi112011",
+        "title": "Bólturin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00011bl1554idreymagardi112011"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/06/05/dre00012bl1554idreymagardi122011",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/dre00012_bl1554_i_dreymagardi_12_2011_0124.jpg?itok=STmNR_8s",
+        "mediaId": "DRE00012_BL1554_I_Dreymagardi_12_2011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2023/06/05/dre00012bl1554idreymagardi122011",
+        "title": "Vottingarnir krógva seg",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00012bl1554idreymagardi122011"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2023/06/05/dre00013bl1555idreymagardi132011",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/dre00013_bl1555_i_dreymagardi_13_2011_0032.jpg?itok=QizkJq-U",
+        "mediaId": "DRE00013_BL1555_I_Dreymagardi_13_2011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2023/06/05/dre00013bl1555idreymagardi132011",
+        "title": "Obsi deysi tímur bara at syngja",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00013bl1555idreymagardi132011"
+      },
+      {
+        "episodeNumber": 14,
+        "id": "2023/06/05/dre00014bl1555idreymagardi142011",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/dre00014_bl1555_i_dreymagardi_14_2011_0047.jpg?itok=zsS5fRdM",
+        "mediaId": "DRE00014_BL1555_I_Dreymagardi_14_2011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 14 id: 2023/06/05/dre00014bl1555idreymagardi142011",
+        "title": "Ninki nonk-dagurin hjá Tomblibunum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00014bl1555idreymagardi142011"
+      },
+      {
+        "episodeNumber": 15,
+        "id": "2023/06/05/dre00015bl1555idreymagardi152011",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/dre00015_bl1555_i_dreymagardi_15_2011_0099.jpg?itok=mR2yZgcK",
+        "mediaId": "DRE00015_BL1555_I_Dreymagardi_15_2011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 15 id: 2023/06/05/dre00015bl1555idreymagardi152011",
+        "title": "Pinki ponkur og bólturin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00015bl1555idreymagardi152011"
+      },
+      {
+        "episodeNumber": 16,
+        "id": "2023/06/05/dre00016bl1555idreymagardi162011",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/dre00016_bl1555_i_dreymagardi_16_2011_0089.jpg?itok=w3V3t2yR",
+        "mediaId": "DRE00016_BL1555_I_Dreymagardi_16_2011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 16 id: 2023/06/05/dre00016bl1555idreymagardi162011",
+        "title": "Atju!",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/05/dre00016bl1555idreymagardi162011"
       }
     ]
   },
@@ -3520,6 +3383,273 @@
         "sortKey": "s: 1 e: 8 id: kl-8-partur",
         "title": "Klú! 8",
         "url": "https://kvf.fo/vit/sjonvarp/kl-8-partur"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/klumparnir.jpg?itok=HHVtRw46",
+    "title": "Klumparnir",
+    "url": "https://kvf.fo/vit/sending/sv/klumparnir",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/08/01/stori-pippepla-sunnudagur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_1_hd_klumparnir_2016_0025.jpg?itok=sCes5BpO",
+        "mediaId": "UT285_1_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/08/01/stori-pippepla-sunnudagur-0",
+        "title": "Stóri Pippepla-sunnudagur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/stori-pippepla-sunnudagur-0"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/08/01/natturudagur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_2_hd_klumparnir_2016_0076.jpg?itok=bVb05vth",
+        "mediaId": "UT285_2_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2023/08/01/natturudagur",
+        "title": "Náttúrudagur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/natturudagur"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2023/08/01/klumpar-i-mjorka",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_3_hd_klumparnir_2016_0029.jpg?itok=ulYQNlmm",
+        "mediaId": "UT285_3_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2023/08/01/klumpar-i-mjorka",
+        "title": "Klumpar í mjørka",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/klumpar-i-mjorka"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2023/08/01/nattkjolaball",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_4_hd_klumparnir_2016_0101.jpg?itok=XAGXD24i",
+        "mediaId": "UT285_4_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2023/08/01/nattkjolaball",
+        "title": "Náttkjólaball",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/nattkjolaball"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2023/08/01/bartal-hevur-fodingardag",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_5_hd_klumparnir_2016_0091.jpg?itok=qiwj3UuJ",
+        "mediaId": "UT285_5_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: 2023/08/01/bartal-hevur-fodingardag",
+        "title": "Bartal hevur føðingardag",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/bartal-hevur-fodingardag"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "2023/08/01/fiolkongur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_6_hd_klumparnir_2016_0038.jpg?itok=jXqz_5i0",
+        "mediaId": "UT285_6_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 6 id: 2023/08/01/fiolkongur",
+        "title": "Fiólkongur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/fiolkongur"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2023/08/01/smilandi-pipp-bollar",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_7_hd_klumparnir_2016_0103.jpg?itok=GpzSGcxv",
+        "mediaId": "UT285_7_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: 2023/08/01/smilandi-pipp-bollar",
+        "title": "Smílandi pipp-bollar",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/smilandi-pipp-bollar"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2023/08/01/super-klumpibumpurin",
+        "img": "https://kvf.fo/system/files/styles/media-thumb-vit/private/ut285_8_hd_klumparnir_2016_0028.jpg?itok=75RQZ0eW",
+        "mediaId": "UT285_8_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: 2023/08/01/super-klumpibumpurin",
+        "title": "Super klumpibumpurin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/super-klumpibumpurin"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/08/01/klumpfarsott",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_9_hd_klumparnir_2016_0048.jpg?itok=S-fHPfLW",
+        "mediaId": "UT285_9_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/08/01/klumpfarsott",
+        "title": "Klumpfarsótt",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/klumpfarsott"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/08/01/grava-eftir-pippeplum",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_10_hd_klumparnir_2016_0085.jpg?itok=AmKSucBP",
+        "mediaId": "UT285_10_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2023/08/01/grava-eftir-pippeplum",
+        "title": "Grava eftir pippeplum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/grava-eftir-pippeplum"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/08/01/gandur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_11_hd_klumparnir_2016_0037.jpg?itok=MfhthTU_",
+        "mediaId": "UT285_11_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/08/01/gandur",
+        "title": "Gandur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/gandur"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/08/01/prinsessan-og-pippeplid",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_12_hd_klumparnir_2016_0138.jpg?itok=9qkoF5WV",
+        "mediaId": "UT285_12_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2023/08/01/prinsessan-og-pippeplid",
+        "title": "Prinsessan og pippeplið",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/prinsessan-og-pippeplid"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2023/08/01/ein-skattur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_13_hd_klumparnir_2016_0042.jpg?itok=ohX_9Z-r",
+        "mediaId": "UT285_13_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2023/08/01/ein-skattur",
+        "title": "Ein skattur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/ein-skattur"
+      },
+      {
+        "episodeNumber": 14,
+        "id": "2023/08/01/blida-og-tyda",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_14_hd_klumparnir_2016_0051.jpg?itok=58GZYZ2J",
+        "mediaId": "UT285_14_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 14 id: 2023/08/01/blida-og-tyda",
+        "title": "Blíði og Týða",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/blida-og-tyda"
+      },
+      {
+        "episodeNumber": 15,
+        "id": "2023/08/01/veitslan",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_15_hd_klumparnir_2016_0046.jpg?itok=voF4IJV8",
+        "mediaId": "UT285_15_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 15 id: 2023/08/01/veitslan",
+        "title": "Veitslan",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/veitslan"
+      },
+      {
+        "episodeNumber": 16,
+        "id": "2023/08/01/fidrikkur-i-frisutum-lag",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_16_hd_klumparnir_2016_0026.jpg?itok=aY8GbrfJ",
+        "mediaId": "UT285_16_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 16 id: 2023/08/01/fidrikkur-i-frisutum-lag",
+        "title": "Fíðrikkur í frísutum lag",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/fidrikkur-i-frisutum-lag"
+      },
+      {
+        "episodeNumber": 17,
+        "id": "2023/08/01/klumpalott-riddari",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_17_hd_klumparnir_2016_0089.jpg?itok=3K4TOjFX",
+        "mediaId": "UT285_17_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 17 id: 2023/08/01/klumpalott-riddari",
+        "title": "Klumpalott riddari",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/klumpalott-riddari"
+      },
+      {
+        "episodeNumber": 18,
+        "id": "2023/08/01/dumbul-kongur-og-dimbul-drotning",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_18_hd_klumparnir_2016_0099.jpg?itok=Jj7Rcdkf",
+        "mediaId": "UT285_18_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 18 id: 2023/08/01/dumbul-kongur-og-dimbul-drotning",
+        "title": "Dumbul kongur og dimbul drotning",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/dumbul-kongur-og-dimbul-drotning"
+      },
+      {
+        "episodeNumber": 19,
+        "id": "2023/08/01/kulur-pipphylur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_19_hd_klumparnir_2016_0038.jpg?itok=l-0WZmpM",
+        "mediaId": "UT285_19_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 19 id: 2023/08/01/kulur-pipphylur",
+        "title": "Kulur pipphylur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/kulur-pipphylur"
+      },
+      {
+        "episodeNumber": 20,
+        "id": "2023/08/01/smukkurnar",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_20_hd_klumparnir_2016_0129.jpg?itok=ASMvelLD",
+        "mediaId": "UT285_20_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 20 id: 2023/08/01/smukkurnar",
+        "title": "Smúkkurnar",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/smukkurnar"
+      },
+      {
+        "episodeNumber": 21,
+        "id": "2023/08/01/misljod",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_21_hd_klumparnir_2016_0028.jpg?itok=qmbQ_ewc",
+        "mediaId": "UT285_21_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 21 id: 2023/08/01/misljod",
+        "title": "Misljóð",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/misljod"
+      },
+      {
+        "episodeNumber": 22,
+        "id": "2023/08/01/stjornuskot",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_22_hd_klumparnir_2016_0041.jpg?itok=7b8uJMMa",
+        "mediaId": "UT285_22_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 22 id: 2023/08/01/stjornuskot",
+        "title": "Stjørnuskot",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/stjornuskot"
+      },
+      {
+        "episodeNumber": 23,
+        "id": "2023/08/01/pipp-lympiada",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_23_hd_klumparnir_2016_0091.jpg?itok=-pNewyoA",
+        "mediaId": "UT285_23_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 23 id: 2023/08/01/pipp-lympiada",
+        "title": "Pipp-lympiada",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/pipp-lympiada"
+      },
+      {
+        "episodeNumber": 24,
+        "id": "2023/08/01/dinsmoredagur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_24_hd_klumparnir_2016_0064.jpg?itok=XY_v1pVN",
+        "mediaId": "UT285_24_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 24 id: 2023/08/01/dinsmoredagur",
+        "title": "Dinsmoredagur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/dinsmoredagur"
+      },
+      {
+        "episodeNumber": 25,
+        "id": "2023/08/01/loyniveitslan",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_25_hd_klumparnir_2016_0058.jpg?itok=dXfr0Zhd",
+        "mediaId": "UT285_25_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 25 id: 2023/08/01/loyniveitslan",
+        "title": "Loyniveitslan",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/loyniveitslan"
+      },
+      {
+        "episodeNumber": 26,
+        "id": "2023/08/01/kipp-ordnar",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut285_26_hd_klumparnir_2016_0107.jpg?itok=USCX6r1D",
+        "mediaId": "UT285_26_HD_Klumparnir_2016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 26 id: 2023/08/01/kipp-ordnar",
+        "title": "Kipp orðnar",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/kipp-ordnar"
       }
     ]
   },
@@ -3911,7 +4041,18 @@
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/leypa_haegst_0.jpg?itok=DMu7LOqO",
     "title": "Leypa hægst",
     "url": "https://kvf.fo/vit/sending/sv/leypa-haegst",
-    "episodes": []
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/07/11/leypa-haegst",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/svs00002_bl1622_leypa_haegst_0075.jpg?itok=XL1tP3h2",
+        "mediaId": "SVS00002_BL1622_LEYPA_HAEGST",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/07/11/leypa-haegst",
+        "title": "Leypa hægst",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/11/leypa-haegst"
+      }
+    ]
   },
   {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/likkulikku.png?itok=K9MkhCn6",
@@ -6848,7 +6989,128 @@
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/ser00002_bl1250_serlingar_2_20092002_0003.jpg?itok=SlHfoZrg",
     "title": "Serlingar",
     "url": "https://kvf.fo/vit/sending/sv/serlingar",
-    "episodes": []
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/07/10/ser00001bl1249serlingar113092002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00001_bl1249_serlingar_1_13092002_0020.jpg?itok=HVryzbNb",
+        "mediaId": "SER00001_BL1249_Serlingar_1_13092002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/07/10/ser00001bl1249serlingar113092002",
+        "title": "Serlingar (1:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00001bl1249serlingar113092002"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/07/10/ser00002bl1250serlingar220092002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00002_bl1250_serlingar_2_20092002_0011.jpg?itok=z6lTA314",
+        "mediaId": "SER00002_BL1250_Serlingar_2_20092002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2023/07/10/ser00002bl1250serlingar220092002",
+        "title": "Serlingar (2:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00002bl1250serlingar220092002"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2023/07/10/ser00003bl1251serlingar327092002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00003_bl1251_serlingar_3_27092002_0054.jpg?itok=Zxk8S0lj",
+        "mediaId": "SER00003_BL1251_Serlingar_3_27092002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2023/07/10/ser00003bl1251serlingar327092002",
+        "title": "Serlingar (3:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00003bl1251serlingar327092002"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2023/07/10/ser00004bl1252serlingar404102002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00004_bl1252_serlingar_4_04102002_0024.jpg?itok=YoHC5Fb-",
+        "mediaId": "SER00004_BL1252_Serlingar_4_04102002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2023/07/10/ser00004bl1252serlingar404102002",
+        "title": "Serlingar (4:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00004bl1252serlingar404102002"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2023/07/10/ser00005bl1253serlingar511102002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00005_bl1253_serlingar_5_11102002_0021.jpg?itok=iYx39zYi",
+        "mediaId": "SER00005_BL1253_Serlingar_5_11102002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: 2023/07/10/ser00005bl1253serlingar511102002",
+        "title": "Serlingar (5:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00005bl1253serlingar511102002"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "2023/07/10/ser00006bl1254serlingar618102002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00006_bl1254_serlingar_6_18102002_0066.jpg?itok=hf0fiMwO",
+        "mediaId": "SER00006_BL1254_Serlingar_6_18102002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 6 id: 2023/07/10/ser00006bl1254serlingar618102002",
+        "title": "Serlingar (6:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00006bl1254serlingar618102002"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2023/07/10/ser00007bl1255serlingar725102002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00007_bl1255_serlingar_7_25102002_0074.jpg?itok=jzhhxY2A",
+        "mediaId": "SER00007_BL1255_Serlingar_7_25102002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: 2023/07/10/ser00007bl1255serlingar725102002",
+        "title": "Serlingar (7:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00007bl1255serlingar725102002"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2023/07/10/ser00008bl1256serlingar801112002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00008_bl1256_serlingar_8_01112002_0018.jpg?itok=DRn9NCft",
+        "mediaId": "SER00008_BL1256_Serlingar_8_01112002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: 2023/07/10/ser00008bl1256serlingar801112002",
+        "title": "Serlingar (8:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00008bl1256serlingar801112002"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/07/10/ser00009bl1257serlingar908112002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00009_bl1257_serlingar_9_08112002_0029.jpg?itok=7CJt6wDQ",
+        "mediaId": "SER00009_BL1257_Serlingar_9_08112002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/07/10/ser00009bl1257serlingar908112002",
+        "title": "Serlingar (9:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00009bl1257serlingar908112002"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/07/10/ser00010bl1258serlingar1015112002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00010_bl1258_serlingar_10_15112002_0053.jpg?itok=MRHJCBme",
+        "mediaId": "SER00010_BL1258_Serlingar_10_15112002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2023/07/10/ser00010bl1258serlingar1015112002",
+        "title": "Serlingar (10:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00010bl1258serlingar1015112002"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/07/10/ser00011bl1259serlingar1122112002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00011_bl1259_serlingar_11_22112002_0029.jpg?itok=pCyK7DPN",
+        "mediaId": "SER00011_BL1259_Serlingar_11_22112002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/07/10/ser00011bl1259serlingar1122112002",
+        "title": "Serlingar (11:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00011bl1259serlingar1122112002"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/07/10/ser00012bl1260serlingar1229112002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ser00012_bl1260_serlingar_12_29112002_0045.jpg?itok=UHudMvFq",
+        "mediaId": "SER00012_BL1260_Serlingar_12_29112002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2023/07/10/ser00012bl1260serlingar1229112002",
+        "title": "Serlingar (12:12)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/10/ser00012bl1260serlingar1229112002"
+      }
+    ]
   },
   {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/smabornstill_2.1.1.png?itok=Ckx0m7eJ",
@@ -7789,6 +8051,36 @@
         "sortKey": "s: 1 e: 17 id: 2023/07/19/krogva-og-blunda",
         "title": "Krógva og blunda",
         "url": "https://kvf.fo/vit/sjonvarp/2023/07/19/krogva-og-blunda"
+      },
+      {
+        "episodeNumber": 18,
+        "id": "2023/07/26/uki-vil-eisini-hava-eitt-skjoldur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1613_uki_18_0060.jpg?itok=qoPzvAFI",
+        "mediaId": "BL1613_UKI_18",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 18 id: 2023/07/26/uki-vil-eisini-hava-eitt-skjoldur",
+        "title": "Uki vil eisini hava eitt skjøldur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/07/26/uki-vil-eisini-hava-eitt-skjoldur"
+      },
+      {
+        "episodeNumber": 19,
+        "id": "2023/08/02/russjibanin",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1613_uki_19_0048.jpg?itok=_nsxumcs",
+        "mediaId": "BL1613_UKI_19",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 19 id: 2023/08/02/russjibanin",
+        "title": "Russjibanin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/02/russjibanin"
+      },
+      {
+        "episodeNumber": 20,
+        "id": "2023/08/09/tad-horvna-sureplid",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1613_uki_20_0056.jpg?itok=dHeMwSlU",
+        "mediaId": "BL1613_UKI_20",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 20 id: 2023/08/09/tad-horvna-sureplid",
+        "title": "Tað horvna súreplið",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/09/tad-horvna-sureplid"
       }
     ]
   },
