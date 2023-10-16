@@ -172,7 +172,7 @@ async function run() {
 			});
 		}
 	}
-	const episodesQueue = new PQueue({ concurrency: 6 });
+	const episodesQueue = new PQueue({ concurrency: 25 });
 	await episodesQueue.addAll(episodePromises);
 	const shows: Show[] = [];
 	partialShows.forEach((partialShow) => {
