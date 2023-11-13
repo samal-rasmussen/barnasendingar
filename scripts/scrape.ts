@@ -156,7 +156,7 @@ async function run() {
 			episodePromises.push(async () => {
 				const { mediaId } = await scrapeEpisode(partialEpisode);
 				bar2.update(++currentEpisode, {
-					title: `${partialShow.title} s${partialEpisode.seasonNumber} e${partialEpisode.episodeNumber} ${partialEpisode.title}}`,
+					title: `${partialShow.title} s${partialEpisode.seasonNumber} e${partialEpisode.episodeNumber} ${partialEpisode.title}`,
 				});
 				const episode: Episode = {
 					episodeNumber: partialEpisode.episodeNumber,

@@ -1,5 +1,22 @@
 [
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/sammy_mynd.jpg?itok=onCQaKgs",
+    "title": "Ævintýrið hjá Sammy",
+    "url": "https://kvf.fo/vit/sending/sv/sammy",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2020/01/24/sammy",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/sammy_mynd_0.jpg?itok=FG67cj6x",
+        "mediaId": "SAMMY_NYTT",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2020/01/24/sammy",
+        "title": "Sammy",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/01/24/sammy"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/220502_net_barnadox_matur_reyp_0014.jpg?itok=sbwvNR94",
     "title": "Aftur mett í dag",
     "url": "https://kvf.fo/vit/sending/sv/aftur-mett-i-dag",
@@ -2768,6 +2785,36 @@
         "sortKey": "s: 1 e: 6 id: 2023/10/13/bar00152bl1815hvorveit613102023",
         "title": "Hvør veit? (6:10)",
         "url": "https://kvf.fo/vit/sjonvarp/2023/10/13/bar00152bl1815hvorveit613102023"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2023/10/20/hvr-veit-710",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hvor_veit_7.png?itok=X3qVurHj",
+        "mediaId": "BAR00153",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: 2023/10/20/hvr-veit-710",
+        "title": "Hvør veit? (7:10)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/10/20/hvr-veit-710"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2023/10/27/hvr-veit-810",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hvor_veit_8.png?itok=6IgZExZf",
+        "mediaId": "BAR00154",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: 2023/10/27/hvr-veit-810",
+        "title": "Hvør veit 8:10",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/10/27/hvr-veit-810"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/11/10/hvr-veit-910",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/hvor_veit_9.png?itok=J5Zuo69c",
+        "mediaId": "BAR00155",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/11/10/hvr-veit-910",
+        "title": "Hvør veit 9:10",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/10/hvr-veit-910"
       },
       {
         "episodeNumber": 1,
@@ -7340,7 +7387,7 @@
     ]
   },
   {
-    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/slokki_sam.png?itok=83KgL5E6",
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/slokkisam.jpg?itok=MdGXikxK",
     "title": "Sløkki Sam",
     "url": "https://kvf.fo/vit/sending/sv/slokki-sam",
     "episodes": [
@@ -7425,14 +7472,54 @@
         "url": "https://kvf.fo/vit/sjonvarp/2023/10/11/revurin-er-leysur"
       },
       {
-        "episodeNumber": 10,
+        "episodeNumber": 9,
         "id": "2023/10/11/hurlivasi-i-gryluveistluni",
         "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut502_slokkisam_9_2023_0025.jpg?itok=9r7zQVGn",
         "mediaId": "UT502_SlokkiSam_9_2023",
         "seasonNumber": 1,
-        "sortKey": "s: 1 e: 10 id: 2023/10/11/hurlivasi-i-gryluveistluni",
+        "sortKey": "s: 1 e: 9 id: 2023/10/11/hurlivasi-i-gryluveistluni",
         "title": "Hurlivasi í grýluveistluni",
         "url": "https://kvf.fo/vit/sjonvarp/2023/10/11/hurlivasi-i-gryluveistluni"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/11/01/klandur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut502_slokkisam_10_2023_0052.jpg?itok=cB-cM-Rx",
+        "mediaId": "UT502_SlokkiSam_10_2023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2023/11/01/klandur",
+        "title": "Klandur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/01/klandur"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/11/01/brennandi-fotboltur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut502_slokkisam_11_2023_0023.jpg?itok=F_m9bU4C",
+        "mediaId": "UT502_SlokkiSam_11_2023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/11/01/brennandi-fotboltur",
+        "title": "Brennandi fótbóltur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/01/brennandi-fotboltur"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/11/01/horvin-i-hellinum",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut502_slokkisam_12_2023_0021.jpg?itok=kTDykx5_",
+        "mediaId": "UT502_SlokkiSam_12_2023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2023/11/01/horvin-i-hellinum",
+        "title": "Horvin í hellinum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/01/horvin-i-hellinum"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2023/11/01/sterk-stinn-og-snogg",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut502_slokkisam_13_2023_0035.jpg?itok=jMlVJcma",
+        "mediaId": "UT502_SlokkiSam_13_2023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2023/11/01/sterk-stinn-og-snogg",
+        "title": "Sterk, stinn og snøgg",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/01/sterk-stinn-og-snogg"
       }
     ]
   },
@@ -7609,14 +7696,24 @@
     "url": "https://kvf.fo/vit/sending/sv/snipp-snapp",
     "episodes": [
       {
-        "episodeNumber": 6,
-        "id": "2023/10/11/sni00323bl1816snippsnapp11102023",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_6.png?itok=RStdTWOZ",
-        "mediaId": "SNI00323_BL1816_Snipp_Snapp_11102023",
+        "episodeNumber": 4,
+        "id": "2023/09/27/sni00321bl1816snippsnapp27092023",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_heyst_23_4.png?itok=888YP1mz",
+        "mediaId": "SNI00321_BL1816_Snipp_Snapp_27092023",
         "seasonNumber": 1,
-        "sortKey": "s: 1 e: 6 id: 2023/10/11/sni00323bl1816snippsnapp11102023",
+        "sortKey": "s: 1 e: 4 id: 2023/09/27/sni00321bl1816snippsnapp27092023",
         "title": "Snipp snapp",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/10/11/sni00323bl1816snippsnapp11102023"
+        "url": "https://kvf.fo/vit/sjonvarp/2023/09/27/sni00321bl1816snippsnapp27092023"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/11/09/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_9.png?itok=qv-wh0Qr",
+        "mediaId": "SNI00327_BL1816_Snipp_Snapp_08112023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/11/09/snipp-snapp",
+        "title": "Snipp snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/09/snipp-snapp"
       },
       {
         "episodeNumber": 1,
@@ -7649,16 +7746,6 @@
         "url": "https://kvf.fo/vit/sjonvarp/2023/09/20/snipp-snapp"
       },
       {
-        "episodeNumber": 4,
-        "id": "2023/09/27/sni00321bl1816snippsnapp27092023",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_heyst_23_4.png?itok=888YP1mz",
-        "mediaId": "SNI00321_BL1816_Snipp_Snapp_27092023",
-        "seasonNumber": 12,
-        "sortKey": "s: 12 e: 4 id: 2023/09/27/sni00321bl1816snippsnapp27092023",
-        "title": "Snipp snapp",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/09/27/sni00321bl1816snippsnapp27092023"
-      },
-      {
         "episodeNumber": 5,
         "id": "2023/10/04/sni00322bl1816snippsnapp04102023",
         "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_5.png?itok=QJhN-hSk",
@@ -7667,6 +7754,46 @@
         "sortKey": "s: 12 e: 5 id: 2023/10/04/sni00322bl1816snippsnapp04102023",
         "title": "Snipp snapp",
         "url": "https://kvf.fo/vit/sjonvarp/2023/10/04/sni00322bl1816snippsnapp04102023"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "2023/10/11/sni00323bl1816snippsnapp11102023",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_6.png?itok=RStdTWOZ",
+        "mediaId": "SNI00323_BL1816_Snipp_Snapp_11102023",
+        "seasonNumber": 12,
+        "sortKey": "s: 12 e: 6 id: 2023/10/11/sni00323bl1816snippsnapp11102023",
+        "title": "Snipp snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/10/11/sni00323bl1816snippsnapp11102023"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2023/10/18/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_okt.png?itok=kRmqxpRI",
+        "mediaId": "SNI00324_BL1816_Snipp_Snapp_18102023",
+        "seasonNumber": 12,
+        "sortKey": "s: 12 e: 7 id: 2023/10/18/snipp-snapp",
+        "title": "Snipp snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/10/18/snipp-snapp"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2023/10/25/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_7.png?itok=H3oFouIZ",
+        "mediaId": "SNI00325_BL1816_Snipp_Snapp_25102023",
+        "seasonNumber": 12,
+        "sortKey": "s: 12 e: 8 id: 2023/10/25/snipp-snapp",
+        "title": "Snipp snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/10/25/snipp-snapp"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/11/02/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_8.png?itok=vLApdE0K",
+        "mediaId": "SNI00326_BL1816_Snipp_Snapp_01112023",
+        "seasonNumber": 12,
+        "sortKey": "s: 12 e: 9 id: 2023/11/02/snipp-snapp",
+        "title": "Snipp snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/02/snipp-snapp"
       }
     ]
   },
