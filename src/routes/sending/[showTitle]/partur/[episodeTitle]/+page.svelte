@@ -30,7 +30,7 @@
 			return;
 		}
 		current = show.episodes[currentIndex];
-		const playlist = `https://play.kringvarp.fo/redirect/video/_definst_/smil:${current?.mediaId}.smil?type=m3u8`;
+		const playlist = `https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/${current?.mediaId}.smil?type=m3u8`;
 		player.titleBar.update({
 			title: show.title,
 			description: `${current.title}\nSesong: ${current.seasonNumber} Partur: ${current.episodeNumber}`,
