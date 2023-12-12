@@ -22,7 +22,7 @@ function pretty(html: string): string {
 
 async function fetchHtml(url: string): Promise<string> {
 	try {
-		const response = await fetch(url);
+		const response = await fetch(url + `?date=${Date.now()}`);
 		const html = await response.text();
 		return html;
 	} catch (error) {
@@ -34,7 +34,9 @@ async function fetchHtml(url: string): Promise<string> {
 function progressBar() {
 	return new CliProgress.SingleBar(
 		{
+			etaBuffer: 90,
 			format: 'progress {bar} {percentage}% | ETA: {eta}s | {value}/{total} {title}',
+			fps: 5,
 		},
 		CliProgress.Presets.shades_classic,
 	);
@@ -131,11 +133,10 @@ async function run() {
 	const bar1 = progressBar();
 	bar1.start(partialShows.length, 0);
 	const showPromises: Array<() => Promise<void>> = [];
-	let showCount = 0;
 	for (const show of partialShows) {
 		showPromises.push(async () => {
 			const episodes = await scrapeShow(show.url);
-			bar1.update(++showCount, { title: show.title });
+			bar1.increment({ title: show.title });
 			show.episodes = episodes;
 			episodesCount += show.episodes.length;
 		});
@@ -150,12 +151,11 @@ async function run() {
 	const episodePromises: Array<() => Promise<void>> = [];
 	const showsMap = new Map<string, Episode[]>();
 	partialShows.forEach((show) => showsMap.set(show.title, []));
-	let currentEpisode = 0;
 	for (const partialShow of partialShows) {
 		for (const [index, partialEpisode] of Array.from(partialShow.episodes.entries())) {
 			episodePromises.push(async () => {
 				const { mediaId } = await scrapeEpisode(partialEpisode);
-				bar2.update(++currentEpisode, {
+				bar2.increment({
 					title: `${partialShow.title} s${partialEpisode.seasonNumber} e${partialEpisode.episodeNumber} ${partialEpisode.title}`,
 				});
 				const episode: Episode = {
