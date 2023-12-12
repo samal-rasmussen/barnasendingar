@@ -34,6 +34,23 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/raettad_bragi_luka_vanligt_format_vid_logo_0044.jpg?itok=drWuEeIz",
+    "title": "Afturum jólakalendaran",
+    "url": "https://kvf.fo/vit/sending/sv/afturum-jolakalendaran",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/12/06/bragi-er-luka",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bragi_luka_vanligt_format_vid_logo_0016.jpg?itok=kdWj9-Gq",
+        "mediaId": "Raettad_Bragi_Luka_Vanligt_format_vid_logo",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/12/06/bragi-er-luka",
+        "title": "Bragi er Luka",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/06/bragi-er-luka"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/alti1um-new_1.png?itok=pvWVQ8lg",
     "title": "Alt í 1um",
     "url": "https://kvf.fo/vit/sending/sv/alt-i-1um",
@@ -1780,6 +1797,203 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/dolgarnir.jpg?itok=4-V78v4j",
+    "title": "Dólgarnir",
+    "url": "https://kvf.fo/vit/sending/sv/dolgarnir",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "dlgarnir-1-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00001",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: dlgarnir-1-partur",
+        "title": "Dólgarnir (01:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-1-partur"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "dlgarnir-2-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: dlgarnir-2-partur",
+        "title": "Dólgarnir (02:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-2-partur"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "dlgarnir-3-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00003",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: dlgarnir-3-partur",
+        "title": "Dólgarnir (03:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-3-partur"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "dlgarnir-4-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: dlgarnir-4-partur",
+        "title": "Dólgarnir (04:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-4-partur"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "dlgarnir-5-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: dlgarnir-5-partur",
+        "title": "Dólgarnir (05:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-5-partur"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "dlgarnir-6-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 6 id: dlgarnir-6-partur",
+        "title": "Dólgarnir (06:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-6-partur"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "dlgarnir-7-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: dlgarnir-7-partur",
+        "title": "Dólgarnir (07:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-7-partur"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "dlgarnir-8-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00008",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: dlgarnir-8-partur",
+        "title": "Dólgarnir (08:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-8-partur"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "dlgarnir-9-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00009",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: dlgarnir-9-partur",
+        "title": "Dólgarnir (09:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-9-partur"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "dlgarnir-10-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00010",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: dlgarnir-10-partur",
+        "title": "Dólgarnir (10:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-10-partur"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "dlgarnir-11-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: dlgarnir-11-partur",
+        "title": "Dólgarnir (11:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-11-partur"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "dlgarnir-12-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00012",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: dlgarnir-12-partur",
+        "title": "Dólgarnir (12:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-12-partur"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "dlgarnir-13-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00013",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: dlgarnir-13-partur",
+        "title": "Dólgarnir (13:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-13-partur"
+      },
+      {
+        "episodeNumber": 14,
+        "id": "dlgarnir-14-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00014",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 14 id: dlgarnir-14-partur",
+        "title": "Dólgarnir (14:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-14-partur"
+      },
+      {
+        "episodeNumber": 15,
+        "id": "dlgarnir-15-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00015",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 15 id: dlgarnir-15-partur",
+        "title": "Dólgarnir (15:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-15-partur"
+      },
+      {
+        "episodeNumber": 16,
+        "id": "dlgarnir-16-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00016",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 16 id: dlgarnir-16-partur",
+        "title": "Dólgarnir (16:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-16-partur"
+      },
+      {
+        "episodeNumber": 17,
+        "id": "dlgarnir-17-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00017",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 17 id: dlgarnir-17-partur",
+        "title": "Dólgarnir (17:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-17-partur"
+      },
+      {
+        "episodeNumber": 18,
+        "id": "dlgarnir-18-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00018",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 18 id: dlgarnir-18-partur",
+        "title": "Dólgarnir (18:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-18-partur"
+      },
+      {
+        "episodeNumber": 19,
+        "id": "dlgarnir-19-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/29bf09938a637a90c152c897e3e22841.png?itok=PbsqMj4v",
+        "mediaId": "DOL00019",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 19 id: dlgarnir-19-partur",
+        "title": "Dólgarnir (19:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-19-partur"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bar00112_dreymurin_um_eitt_hondboltsliv0_0013_0.jpg?itok=KkIeZRwM",
     "title": "Dreymurin um eitt hondbóltslív",
     "url": "https://kvf.fo/vit/sending/sv/dreymurin-um-eitt-hondboltsliv",
@@ -1793,6 +2007,40 @@
         "sortKey": "s: 1 e: 1 id: 2022/04/23/dreymurin-um-eitt-hondboltsliv",
         "title": "Dreymurin um eitt hondbóltslív",
         "url": "https://kvf.fo/vit/sjonvarp/2022/04/23/dreymurin-um-eitt-hondboltsliv"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1478_drongurin_og_joladinosaururin_2006_0119.jpg?itok=9KSUofir",
+    "title": "Drongurin og jóladinosaururin",
+    "url": "https://kvf.fo/vit/sending/sv/drongurin-og-joladinosaururin",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/23/drongurin-og-joladinosaururin",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1478_drongurin_og_joladinosaururin_2006_0010.jpg?itok=13m9sfEO",
+        "mediaId": "BL1478_Drongurin_og_joladinosaururin_2006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/23/drongurin-og-joladinosaururin",
+        "title": "Drongurin og jóladinosaururin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/23/drongurin-og-joladinosaururin"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bta00013_bl1633_elmar_bjargar_jolunum_2002_0009.jpg?itok=lo0AH1ih",
+    "title": "Elmar bjargar jólunum",
+    "url": "https://kvf.fo/vit/sending/sv/elmar-bjargar-jolunum",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/29/bta00013bl1633elmarbjargarjolunum2002",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bta00013_bl1633_elmar_bjargar_jolunum_2002_0053.jpg?itok=MVLHaT6F",
+        "mediaId": "BTA00013_BL1633_Elmar_bjargar_jolunum_2002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/29/bta00013bl1633elmarbjargarjolunum2002",
+        "title": "Elmar bjargar jólunum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/bta00013bl1633elmarbjargarjolunum2002"
       }
     ]
   },
@@ -2069,6 +2317,29 @@
         "url": "https://kvf.fo/vit/sjonvarp/ert-t-vi-13-11-juni-2010"
       }
     ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1478_fegni_vatturin_2006_0070.jpg?itok=gOpkR2g3",
+    "title": "Fegni vætturin",
+    "url": "https://kvf.fo/vit/sending/sv/fegni-vaetturin",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/23/fegni-vaetturin",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1478_fegni_vatturin_2006_0047.jpg?itok=l3kfUZ66",
+        "mediaId": "BL1478_Fegni_vatturin_2006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/23/fegni-vaetturin",
+        "title": "Fegni vætturin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/23/fegni-vaetturin"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/gloa.png?itok=iwUx2piM",
+    "title": "Glóa",
+    "url": "https://kvf.fo/vit/sending/sv/gloa",
+    "episodes": []
   },
   {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/grisa_peppa-01.png?itok=XluaVknF",
@@ -3230,6 +3501,661 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1165_jallajol_1_2000_0001.jpg?itok=uTQa-e_I",
+    "title": "Jallajól",
+    "url": "https://kvf.fo/vit/sending/sv/jallajol",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/29/1-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1165_jallajol_1_2000_0019.jpg?itok=EIJ8EubN",
+        "mediaId": "BL1165_Jallajol_1_2000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/29/1-partur",
+        "title": "1. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/1-partur"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/11/29/2-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1166_jalla_jol_2_03122000_0069.jpg?itok=qqar0Bf8",
+        "mediaId": "BL1166_Jalla_jol_2_03122000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2023/11/29/2-partur",
+        "title": "2. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/2-partur"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2023/11/29/3-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1167_jalla_jol_3_05122000_0023.jpg?itok=4oJv-2ra",
+        "mediaId": "BL1167_Jalla_jol_3_05122000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2023/11/29/3-partur",
+        "title": "3. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/3-partur"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2023/11/29/4-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1168_jalla_jol_4_07122000_0021.jpg?itok=5_uVzxUL",
+        "mediaId": "BL1168_Jalla_jol_4_07122000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2023/11/29/4-partur",
+        "title": "4. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/4-partur"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2023/11/29/5-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1169_jallajol_5_09122000_0018.jpg?itok=Q-D3guGX",
+        "mediaId": "BL1169_Jallajol_5_09122000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: 2023/11/29/5-partur",
+        "title": "5. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/5-partur"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "2023/11/29/6-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1170_jallajol_6_11122000_0022.jpg?itok=46cJKD5x",
+        "mediaId": "BL1170_Jallajol_6_11122000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 6 id: 2023/11/29/6-partur",
+        "title": "6. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/6-partur"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2023/11/29/7-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1171_jallajol_7_13122000_0058.jpg?itok=N9azL3aM",
+        "mediaId": "BL1171_Jallajol_7_13122000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: 2023/11/29/7-partur",
+        "title": "7. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/7-partur"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2023/11/29/8-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1172_jallajol_8_15122000_0013.jpg?itok=zVvtqpeL",
+        "mediaId": "BL1172_Jallajol_8_15122000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: 2023/11/29/8-partur",
+        "title": "8. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/8-partur"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/11/29/9-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1173_jallajol_9_17122000_0018.jpg?itok=ysAJ-Xou",
+        "mediaId": "BL1173_Jallajol_9_17122000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/11/29/9-partur",
+        "title": "9. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/9-partur"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/11/29/10-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1174_jallajol_10_19122000_0022.jpg?itok=wlsv7mXB",
+        "mediaId": "BL1174_Jallajol_10_19122000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2023/11/29/10-partur",
+        "title": "10. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/10-partur"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/11/29/11-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1175_jallajol_11_21122000_0022.jpg?itok=jt8Ypbt_",
+        "mediaId": "BL1175_Jallajol_11_21122000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/11/29/11-partur",
+        "title": "11. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/11-partur"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/11/29/12-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1176_jallajol_12_23122000_0093.jpg?itok=ayay-dhs",
+        "mediaId": "BL1176_Jallajol_12_23122000",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2023/11/29/12-partur",
+        "title": "12. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/12-partur"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1309_jol_a_posthusinum_01_0004.jpg?itok=IB6lWuHB",
+    "title": "Jól á posthúsinum",
+    "url": "https://kvf.fo/vit/sending/sv/jol-posthusinum",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/29/1-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1309_jol_a_posthusinum_01_0024.jpg?itok=UzQybmSg",
+        "mediaId": "BL1309_Jol_a_posthusinum_01",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/29/1-partur-0",
+        "title": "1. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/1-partur-0"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/11/29/2-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1310_jol_a_posthusinum_02_0044.jpg?itok=YgK9n-8x",
+        "mediaId": "BL1310_Jol_a_posthusinum_02",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2023/11/29/2-partur-0",
+        "title": "2. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/2-partur-0"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2023/11/29/3-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1311_jol_a_posthusinum_03x_0026.jpg?itok=2GvpYymy",
+        "mediaId": "BL1311_Jol_a_posthusinum_03x",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2023/11/29/3-partur-0",
+        "title": "3. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/3-partur-0"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2023/11/29/4-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1312_jol_a_posthusinum_04_0048.jpg?itok=mRQmt-R1",
+        "mediaId": "BL1312_Jol_a_posthusinum_04",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2023/11/29/4-partur-0",
+        "title": "4. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/4-partur-0"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2023/11/29/5-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1313_jol_a_posthusinum_05_0006.jpg?itok=Z1y0L13z",
+        "mediaId": "BL1313_Jol_a_posthusinum_05",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: 2023/11/29/5-partur-0",
+        "title": "5. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/5-partur-0"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "2023/11/29/6-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1314_jol_a_posthusinum_06_0011.jpg?itok=ctX-VS51",
+        "mediaId": "BL1314_Jol_a_posthusinum_06",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 6 id: 2023/11/29/6-partur-0",
+        "title": "6. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/6-partur-0"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2023/11/29/7-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1315_jol_a_posthusinum_07_0026.jpg?itok=RjM6VJvm",
+        "mediaId": "BL1315_Jol_a_posthusinum_07",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: 2023/11/29/7-partur-0",
+        "title": "7. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/7-partur-0"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2023/11/29/8-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1316_jol_a_posthusinum_08_0079.jpg?itok=drRbcvM0",
+        "mediaId": "BL1316_Jol_a_posthusinum_08",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: 2023/11/29/8-partur-0",
+        "title": "8. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/8-partur-0"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/11/29/9-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1317_jol_a_posthusinum_09_0060.jpg?itok=1I5ZnHe2",
+        "mediaId": "BL1317_Jol_a_posthusinum_09",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/11/29/9-partur-0",
+        "title": "9. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/9-partur-0"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/11/29/10-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1318_jol_a_posthusinum_10_0095.jpg?itok=1g_Cx9Nn",
+        "mediaId": "BL1318_Jol_a_posthusinum_10",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2023/11/29/10-partur-0",
+        "title": "10. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/10-partur-0"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/11/29/11-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1319_jol_a_posthusinum_11_0040.jpg?itok=Pxt9wZRp",
+        "mediaId": "BL1319_Jol_a_posthusinum_11",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/11/29/11-partur-0",
+        "title": "11. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/11-partur-0"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/11/29/12-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1320_jol_a_posthusinum_12_0019.jpg?itok=o3cr3rw6",
+        "mediaId": "BL1320_Jol_a_posthusinum_12",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2023/11/29/12-partur-0",
+        "title": "12. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/12-partur-0"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2023/11/29/13-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1321_jol_a_posthusinum_13_0026.jpg?itok=8ykt7i61",
+        "mediaId": "BL1321_Jol_a_posthusinum_13",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2023/11/29/13-partur",
+        "title": "13. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/13-partur"
+      },
+      {
+        "episodeNumber": 14,
+        "id": "2023/11/29/14-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1322_jol_a_posthusinum_14_0038.jpg?itok=u7m1oU5P",
+        "mediaId": "BL1322_Jol_a_posthusinum_14",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 14 id: 2023/11/29/14-partur",
+        "title": "14. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/14-partur"
+      },
+      {
+        "episodeNumber": 15,
+        "id": "2023/11/29/15-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1323_jol_a_posthusinum_15_0023.jpg?itok=n__U97Ui",
+        "mediaId": "BL1323_Jol_a_posthusinum_15",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 15 id: 2023/11/29/15-partur",
+        "title": "15. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/15-partur"
+      },
+      {
+        "episodeNumber": 16,
+        "id": "2023/11/29/16-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1324_jol_a_posthusinum_16_0063.jpg?itok=_2lSmpDh",
+        "mediaId": "BL1324_Jol_a_posthusinum_16",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 16 id: 2023/11/29/16-partur",
+        "title": "16. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/16-partur"
+      },
+      {
+        "episodeNumber": 17,
+        "id": "2023/11/29/17-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1325_jol_a_posthusinum_17_0079.jpg?itok=MCu2hWA0",
+        "mediaId": "BL1325_Jol_a_posthusinum_17",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 17 id: 2023/11/29/17-partur",
+        "title": "17. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/17-partur"
+      },
+      {
+        "episodeNumber": 18,
+        "id": "2023/11/29/18-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1326_jol_a_posthusinum_18_0020.jpg?itok=xd0pW2HT",
+        "mediaId": "BL1326_Jol_a_posthusinum_18",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 18 id: 2023/11/29/18-partur",
+        "title": "18. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/18-partur"
+      },
+      {
+        "episodeNumber": 19,
+        "id": "2023/11/29/19-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1327_jol_a_posthusinum_19_0031.jpg?itok=IAkQnRpm",
+        "mediaId": "BL1327_Jol_a_posthusinum_19",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 19 id: 2023/11/29/19-partur-0",
+        "title": "19. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/19-partur-0"
+      },
+      {
+        "episodeNumber": 20,
+        "id": "2023/11/29/20-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1328_jol_a_posthusinum_20_0013.jpg?itok=lP69xmm1",
+        "mediaId": "BL1328_Jol_a_posthusinum_20",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 20 id: 2023/11/29/20-partur",
+        "title": "20. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/20-partur"
+      },
+      {
+        "episodeNumber": 21,
+        "id": "2023/11/29/21-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1329_jol_a_posthusinum_21_0062.jpg?itok=fEcnzBp5",
+        "mediaId": "BL1329_Jol_a_posthusinum_21",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 21 id: 2023/11/29/21-partur",
+        "title": "21. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/21-partur"
+      },
+      {
+        "episodeNumber": 22,
+        "id": "2023/11/29/22-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1330_jol_a_posthusinum_22_0051.jpg?itok=IKaZYkNB",
+        "mediaId": "BL1330_Jol_a_posthusinum_22",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 22 id: 2023/11/29/22-partur",
+        "title": "22. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/22-partur"
+      },
+      {
+        "episodeNumber": 23,
+        "id": "2023/11/29/23-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1331_jol_a_posthusinum_23_0028.jpg?itok=fJtQBCYT",
+        "mediaId": "BL1331_Jol_a_posthusinum_23",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 23 id: 2023/11/29/23-partur",
+        "title": "23. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/23-partur"
+      },
+      {
+        "episodeNumber": 24,
+        "id": "2023/11/29/24-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1332_jol_a_posthusinum_24_24122003_0182.jpg?itok=l3gWRHqF",
+        "mediaId": "BL1332_Jol_a_posthusinum_24_24122003",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 24 id: 2023/11/29/24-partur",
+        "title": "24. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/24-partur"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1478_jol_hja_koalabrodrum_2006_0018.jpg?itok=BorBEVkC",
+    "title": "Jól hjá koalabrøðrum",
+    "url": "https://kvf.fo/vit/sending/sv/jol-hja-koalabrodrum",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/23/jol-hja-koalabrodrum",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1478_jol_hja_koalabrodrum_2006_0089.jpg?itok=4b1J72Sw",
+        "mediaId": "BL1478_Jol_hja_Koalabrodrum_2006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/23/jol-hja-koalabrodrum",
+        "title": "Jól hjá Koalabrøðrum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/23/jol-hja-koalabrodrum"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/fta00002_ut337_jol_hja_mariubjollum_24122008_0012.jpg?itok=RddSct-I",
+    "title": "Jól hjá Mariubjøllum",
+    "url": "https://kvf.fo/vit/sending/sv/jol-hja-mariubjollum",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/01/jol-hja-mariubjollum",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/fta00002_ut337_jol_hja_mariubjollum_24122008_0029.jpg?itok=Wzf1w2gO",
+        "mediaId": "FTA00002_UT337_Jol_hja_Mariubjollum_24122008",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/01/jol-hja-mariubjollum",
+        "title": "Jól hjá Mariubjøllum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/01/jol-hja-mariubjollum"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/c05996f05d7087ba19865e7f15ed9d62.png?itok=Zztxu36J",
+    "title": "Jólagøtan",
+    "url": "https://kvf.fo/vit/sending/sv/jolagotan",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2015/11/23/jol00001bl1419jolagotan12005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00001_BL1419_Jolagotan_1_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2015/11/23/jol00001bl1419jolagotan12005",
+        "title": "1. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00001bl1419jolagotan12005"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2015/11/23/jol00002bl1420jolagotan22005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00002_BL1420_Jolagotan_2_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2015/11/23/jol00002bl1420jolagotan22005",
+        "title": "2. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00002bl1420jolagotan22005"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2015/11/23/jol00003bl1421jolagotan32005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00003_BL1421_Jolagotan_3_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2015/11/23/jol00003bl1421jolagotan32005",
+        "title": "3. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00003bl1421jolagotan32005"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2015/11/23/jol00004bl1422jolagotan42005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00004_BL1422_Jolagotan_4_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2015/11/23/jol00004bl1422jolagotan42005",
+        "title": "4. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00004bl1422jolagotan42005"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2015/11/23/jol00005bl1423jolagotan52005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00005_BL1423_Jolagotan_5_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: 2015/11/23/jol00005bl1423jolagotan52005",
+        "title": "5. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00005bl1423jolagotan52005"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "2015/11/23/jol00006bl1424jolagotan62005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00006_BL1424_Jolagotan_6_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 6 id: 2015/11/23/jol00006bl1424jolagotan62005",
+        "title": "6. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00006bl1424jolagotan62005"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2015/11/23/jol00007bl1425jolagotan72005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00007_BL1425_Jolagotan_7_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: 2015/11/23/jol00007bl1425jolagotan72005",
+        "title": "7. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00007bl1425jolagotan72005"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2015/11/23/jol00008bl1426jolagotan82005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00008_BL1426_Jolagotan_8_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: 2015/11/23/jol00008bl1426jolagotan82005",
+        "title": "8. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00008bl1426jolagotan82005"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2015/11/23/jol00009bl1427jolagotan92005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00009_BL1427_Jolagotan_9_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2015/11/23/jol00009bl1427jolagotan92005",
+        "title": "9. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00009bl1427jolagotan92005"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2015/11/23/jol00010bl1428jolagotan102005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00010_BL1428_Jolagotan_10_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2015/11/23/jol00010bl1428jolagotan102005",
+        "title": "10. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00010bl1428jolagotan102005"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2015/11/23/jol00011bl1429jolagotan112005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00011_BL1429_Jolagotan_11_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2015/11/23/jol00011bl1429jolagotan112005",
+        "title": "11. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00011bl1429jolagotan112005"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2015/11/23/jol00012bl1430jolagotan122005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00012_BL1430_Jolagotan_12_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2015/11/23/jol00012bl1430jolagotan122005",
+        "title": "12. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00012bl1430jolagotan122005"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2015/11/23/jol00013bl1431jolagotan132005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00013_BL1431_Jolagotan_13_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2015/11/23/jol00013bl1431jolagotan132005",
+        "title": "13. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00013bl1431jolagotan132005"
+      },
+      {
+        "episodeNumber": 14,
+        "id": "2015/11/23/jol00014bl1432jolagotan142005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00014_BL1432_Jolagotan_14_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 14 id: 2015/11/23/jol00014bl1432jolagotan142005",
+        "title": "14. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00014bl1432jolagotan142005"
+      },
+      {
+        "episodeNumber": 15,
+        "id": "2015/11/23/jol00015bl1433jolagotan152005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00015_BL1433_Jolagotan_15_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 15 id: 2015/11/23/jol00015bl1433jolagotan152005",
+        "title": "15. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00015bl1433jolagotan152005"
+      },
+      {
+        "episodeNumber": 16,
+        "id": "2015/11/24/jol00016bl1434jolagotan162005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00016_BL1434_Jolagotan_16_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 16 id: 2015/11/24/jol00016bl1434jolagotan162005",
+        "title": "16. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/24/jol00016bl1434jolagotan162005"
+      },
+      {
+        "episodeNumber": 17,
+        "id": "2015/11/24/jol00017bl1435jolagotan172005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00017_BL1435_Jolagotan_17_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 17 id: 2015/11/24/jol00017bl1435jolagotan172005",
+        "title": "17. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/24/jol00017bl1435jolagotan172005"
+      },
+      {
+        "episodeNumber": 18,
+        "id": "2015/11/25/jol00018bl1436jolagotan182005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00018_BL1436_Jolagotan_18_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 18 id: 2015/11/25/jol00018bl1436jolagotan182005",
+        "title": "18. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00018bl1436jolagotan182005"
+      },
+      {
+        "episodeNumber": 19,
+        "id": "2015/11/25/jol00019bl1437jolagotan192005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00019_BL1437_Jolagotan_19_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 19 id: 2015/11/25/jol00019bl1437jolagotan192005",
+        "title": "19. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00019bl1437jolagotan192005"
+      },
+      {
+        "episodeNumber": 20,
+        "id": "2015/11/25/jol00020bl1438jolagotan202005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00020_BL1438_Jolagotan_20_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 20 id: 2015/11/25/jol00020bl1438jolagotan202005",
+        "title": "20. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00020bl1438jolagotan202005"
+      },
+      {
+        "episodeNumber": 21,
+        "id": "2015/11/25/jol00021bl1439jolagotan212005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00021_BL1439_Jolagotan_21_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 21 id: 2015/11/25/jol00021bl1439jolagotan212005",
+        "title": "21. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00021bl1439jolagotan212005"
+      },
+      {
+        "episodeNumber": 22,
+        "id": "2015/11/25/jol00022bl1440jolagotan222005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00022_BL1440_Jolagotan_22_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 22 id: 2015/11/25/jol00022bl1440jolagotan222005",
+        "title": "22. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00022bl1440jolagotan222005"
+      },
+      {
+        "episodeNumber": 23,
+        "id": "2015/11/25/jol00023bl1441jolagotan232005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00023_BL1441_Jolagotan_23_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 23 id: 2015/11/25/jol00023bl1441jolagotan232005",
+        "title": "23. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00023bl1441jolagotan232005"
+      },
+      {
+        "episodeNumber": 24,
+        "id": "2015/11/25/jol00024bl1442jolagotan242005",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=a8Yh4MEu",
+        "mediaId": "JOL00024_BL1442_Jolagotan_24_2005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 24 id: 2015/11/25/jol00024bl1442jolagotan242005",
+        "title": "24. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00024bl1442jolagotan242005"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/karlsson_a_takinum_1920x1080.jpg?itok=dYjjQmCp",
     "title": "Karlsson á takinum",
     "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum",
@@ -3493,6 +4419,23 @@
         "sortKey": "s: 1 e: 26 id: 2020/04/01/bta00067bl1504karlssonatakinum26",
         "title": "Karlsson fer í føðingardag",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00067bl1504karlssonatakinum26"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bta00004_bl1605_kavamadurin_0037.jpg?itok=rB8slFDM",
+    "title": "Kavamaðurin",
+    "url": "https://kvf.fo/vit/sending/sv/kavamadurin",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/29/bta00004bl1605kavamadurin",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bta00004_bl1605_kavamadurin_0055.jpg?itok=YmCrRBPl",
+        "mediaId": "BTA00004_BL1605_Kavamadurin",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/29/bta00004bl1605kavamadurin",
+        "title": "Kavamaðurin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/bta00004bl1605kavamadurin"
       }
     ]
   },
@@ -4673,6 +5616,133 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/luka_og_leikhusid_mynd_3840x2160px_low_res.jpg?itok=tE3NuM_M",
+    "title": "Luka og leikhúsið",
+    "url": "https://kvf.fo/vit/luka",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/12/01/luka-og-leikhusid-124",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_1.png?itok=3Ty7s90M",
+        "mediaId": "LUK00001",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/12/01/luka-og-leikhusid-124",
+        "title": "Luka og leikhúsið 1:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/01/luka-og-leikhusid-124"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/12/02/luka-og-leikhusid-224",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_2.png?itok=G8-2upKR",
+        "mediaId": "LUK00002",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2023/12/02/luka-og-leikhusid-224",
+        "title": "Luka og leikhúsið 2:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/02/luka-og-leikhusid-224"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2023/12/03/luka-og-leikhusid-324",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_3_0.png?itok=En3mfojC",
+        "mediaId": "LUK00003",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2023/12/03/luka-og-leikhusid-324",
+        "title": "Luka og leikhúsið 3:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/03/luka-og-leikhusid-324"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2023/12/04/luka-og-leikhusid-424",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_4.png?itok=XhulRaqv",
+        "mediaId": "LUK00004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2023/12/04/luka-og-leikhusid-424",
+        "title": "Luka og leikhúsið 4:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/04/luka-og-leikhusid-424"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2023/12/05/luka-og-leikhusid-524",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_5.png?itok=qxEykQTf",
+        "mediaId": "LUK00005",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: 2023/12/05/luka-og-leikhusid-524",
+        "title": "Luka og leikhúsið 5:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/05/luka-og-leikhusid-524"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "2023/12/06/luka-og-leikhusid-624",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_6.png?itok=Hfb-g6DF",
+        "mediaId": "LUK00006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 6 id: 2023/12/06/luka-og-leikhusid-624",
+        "title": "Luka og leikhúsið 6:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/06/luka-og-leikhusid-624"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2023/12/07/luka-og-leikhusid-724",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_7.png?itok=UO2Xs1L-",
+        "mediaId": "LUK00007",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: 2023/12/07/luka-og-leikhusid-724",
+        "title": "Luka og leikhúsið 7:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/07/luka-og-leikhusid-724"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2023/12/08/luka-og-leikhusid-824",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_8.png?itok=vgl9B4iU",
+        "mediaId": "LUK00008",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: 2023/12/08/luka-og-leikhusid-824",
+        "title": "Luka og leikhúsið 8:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/08/luka-og-leikhusid-824"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/12/09/luka-og-leikhusid-924",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_9.png?itok=rkW7BEqZ",
+        "mediaId": "LUK00009",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/12/09/luka-og-leikhusid-924",
+        "title": "Luka og leikhúsið 9:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/09/luka-og-leikhusid-924"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/12/10/luka-og-leikhusid-1024",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_10.png?itok=GgT-wVhP",
+        "mediaId": "LUK00010",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2023/12/10/luka-og-leikhusid-1024",
+        "title": "Luka og leikhúsið 10:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/10/luka-og-leikhusid-1024"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/12/11/luka-og-leikhusid-1124",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_11.png?itok=0DxkxEGq",
+        "mediaId": "LUK00011",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/12/11/luka-og-leikhusid-1124",
+        "title": "Luka og leikhúsið 11:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/11/luka-og-leikhusid-1124"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/12/12/luka-og-leikhusid-1224",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_12.png?itok=bsVelVL_",
+        "mediaId": "LUK00012",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2023/12/12/luka-og-leikhusid-1224",
+        "title": "Luka og leikhúsið 12:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/12/luka-og-leikhusid-1224"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/mass-heini-teaser.jpg?itok=COo_LKZk",
     "title": "Mass Heini",
     "url": "https://kvf.fo/vit/sending/sv/mass-heini",
@@ -4796,6 +5866,23 @@
         "sortKey": "s: 1 e: 12 id: mass-heini-12-partur",
         "title": "Mass Heini 12",
         "url": "https://kvf.fo/vit/sjonvarp/mass-heini-12-partur"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bta00012_ut352_molli_heldur_jol_15102001_0061.jpg?itok=mnozA42L",
+    "title": "Molli heldur jól",
+    "url": "https://kvf.fo/vit/sending/sv/molli-heldur-jol",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/29/bta00012ut352molliheldurjol15102001",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bta00012_ut352_molli_heldur_jol_15102001_0030.jpg?itok=bAsn-42G",
+        "mediaId": "BTA00012_UT352_Molli_heldur_jol_15102001",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/29/bta00012ut352molliheldurjol15102001",
+        "title": "Molli heldur jól",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/bta00012ut352molliheldurjol15102001"
       }
     ]
   },
@@ -6295,6 +7382,270 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1387_pjoppa_og_goffi_1_2004_0050.jpg?itok=gCXJcTQb",
+    "title": "Pjøppa og Goffi",
+    "url": "https://kvf.fo/vit/sending/sv/pjoppa-og-goffi",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/30/1-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_1_2004_0131.jpg?itok=pD_PAn7M",
+        "mediaId": "BL1387_Pjoppa_og_goffi_1_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/30/1-partur",
+        "title": "1. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/1-partur"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/11/30/2-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_2_2004_0022.jpg?itok=40HQYgoo",
+        "mediaId": "BL1387_Pjoppa_og_goffi_2_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2023/11/30/2-partur",
+        "title": "2. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/2-partur"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2023/11/30/3-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_3_2004_0012.jpg?itok=eq0TNpcZ",
+        "mediaId": "BL1387_Pjoppa_og_goffi_3_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2023/11/30/3-partur",
+        "title": "3. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/3-partur"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2023/11/30/4-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_4_2004_0033.jpg?itok=Konxek8A",
+        "mediaId": "BL1387_Pjoppa_og_goffi_4_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2023/11/30/4-partur",
+        "title": "4. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/4-partur"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2023/11/30/5-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_5_2004_0050.jpg?itok=jnDg5XMq",
+        "mediaId": "BL1387_Pjoppa_og_goffi_5_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: 2023/11/30/5-partur",
+        "title": "5. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/5-partur"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "2023/11/30/6-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_6_2004_0058.jpg?itok=vgDAzb4k",
+        "mediaId": "BL1387_Pjoppa_og_goffi_6_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 6 id: 2023/11/30/6-partur",
+        "title": "6. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/6-partur"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2023/11/30/7-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_7_2004_0072.jpg?itok=gRE78kSU",
+        "mediaId": "BL1387_Pjoppa_og_goffi_7_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: 2023/11/30/7-partur",
+        "title": "7. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/7-partur"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2023/11/30/8-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_8_2004_0029.jpg?itok=qYxXrutm",
+        "mediaId": "BL1387_Pjoppa_og_goffi_8_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: 2023/11/30/8-partur",
+        "title": "8. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/8-partur"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2023/11/30/9-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_9_2004_0034.jpg?itok=AkOG7rZl",
+        "mediaId": "BL1387_Pjoppa_og_goffi_9_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2023/11/30/9-partur",
+        "title": "9. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/9-partur"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/11/30/10-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_10_2004_0028.jpg?itok=YCpE8_MV",
+        "mediaId": "BL1387_Pjoppa_og_goffi_10_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2023/11/30/10-partur",
+        "title": "10. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/10-partur"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/11/30/11-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_11_2004_0020.jpg?itok=VYkGXPRl",
+        "mediaId": "BL1387_Pjoppa_og_goffi_11_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/11/30/11-partur",
+        "title": "11. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/11-partur"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/11/30/12-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_12_2004_0012.jpg?itok=Rbk2KKdd",
+        "mediaId": "BL1387_Pjoppa_og_goffi_12_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2023/11/30/12-partur",
+        "title": "12. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/12-partur"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2023/11/30/13-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_13_2004_0011.jpg?itok=iXmuZ_pq",
+        "mediaId": "BL1387_Pjoppa_og_goffi_13_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2023/11/30/13-partur",
+        "title": "13. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/13-partur"
+      },
+      {
+        "episodeNumber": 14,
+        "id": "2023/11/30/14-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_14_2004_0017.jpg?itok=kg2Y04IQ",
+        "mediaId": "BL1387_Pjoppa_og_goffi_14_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 14 id: 2023/11/30/14-partur",
+        "title": "14. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/14-partur"
+      },
+      {
+        "episodeNumber": 15,
+        "id": "2023/11/30/15-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_15_2004_0018.jpg?itok=CGmd3VAU",
+        "mediaId": "BL1387_Pjoppa_og_goffi_15_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 15 id: 2023/11/30/15-partur",
+        "title": "15. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/15-partur"
+      },
+      {
+        "episodeNumber": 16,
+        "id": "2023/11/30/16-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_16_2004_0030.jpg?itok=yaMBY-2_",
+        "mediaId": "BL1387_Pjoppa_og_goffi_16_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 16 id: 2023/11/30/16-partur",
+        "title": "16. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/16-partur"
+      },
+      {
+        "episodeNumber": 17,
+        "id": "2023/11/30/17-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_17_2004_0071.jpg?itok=v_W12FqA",
+        "mediaId": "BL1387_Pjoppa_og_goffi_17_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 17 id: 2023/11/30/17-partur",
+        "title": "17. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/17-partur"
+      },
+      {
+        "episodeNumber": 18,
+        "id": "2023/11/30/18-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_18_2004_0014.jpg?itok=AOM0ZjO-",
+        "mediaId": "BL1387_Pjoppa_og_goffi_18_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 18 id: 2023/11/30/18-partur",
+        "title": "18. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/18-partur"
+      },
+      {
+        "episodeNumber": 19,
+        "id": "2023/11/30/19-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_19_2004_0008.jpg?itok=MSoc_D8v",
+        "mediaId": "BL1387_Pjoppa_og_goffi_19_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 19 id: 2023/11/30/19-partur",
+        "title": "19. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/19-partur"
+      },
+      {
+        "episodeNumber": 20,
+        "id": "2023/11/30/20-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_20_2004_0008.jpg?itok=UyjcGQJt",
+        "mediaId": "BL1387_Pjoppa_og_goffi_20_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 20 id: 2023/11/30/20-partur",
+        "title": "20. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/20-partur"
+      },
+      {
+        "episodeNumber": 21,
+        "id": "2023/11/30/21-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_21_2004_0034.jpg?itok=qfa57AEz",
+        "mediaId": "BL1387_Pjoppa_og_goffi_21_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 21 id: 2023/11/30/21-partur",
+        "title": "21. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/21-partur"
+      },
+      {
+        "episodeNumber": 22,
+        "id": "2023/11/30/22-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_22_2004_0006.jpg?itok=IKVoXsm_",
+        "mediaId": "BL1387_Pjoppa_og_goffi_22_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 22 id: 2023/11/30/22-partur",
+        "title": "22. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/22-partur"
+      },
+      {
+        "episodeNumber": 23,
+        "id": "2023/11/30/23-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_23_2004_0040.jpg?itok=DwYHwGPs",
+        "mediaId": "BL1387_Pjoppa_og_goffi_23_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 23 id: 2023/11/30/23-partur",
+        "title": "23. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/23-partur"
+      },
+      {
+        "episodeNumber": 24,
+        "id": "2023/11/30/24-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1387_pjoppa_og_goffi_24_2004_0119.jpg?itok=3pp-0lul",
+        "mediaId": "BL1387_Pjoppa_og_goffi_24_2004",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 24 id: 2023/11/30/24-partur",
+        "title": "24. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/24-partur"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bar00160_0114.jpg?itok=st2h4Grk",
+    "title": "Ring til Julius - beinleiðis úr Likkudali",
+    "url": "https://kvf.fo/vit/sending/sv/ring-til-julius-beinleidis-ur-likkudali",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/12/04/ring-til-julius-beinleiis-r-likkudali-1",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bar00160_0007.jpg?itok=bICQtRjH",
+        "mediaId": "BAR00160",
+        "seasonNumber": 2,
+        "sortKey": "s: 2 e: 1 id: 2023/12/04/ring-til-julius-beinleiis-r-likkudali-1",
+        "title": "Ring til Julius - beinleiðis úr Likkudali 1",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/04/ring-til-julius-beinleiis-r-likkudali-1"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/ronja_ransmannadottir.png?itok=jdtiaRzl",
     "title": "Ronja Ránsmansdóttir",
     "url": "https://kvf.fo/vit/sending/sv/ronja-ransmansdottir",
@@ -7696,6 +9047,16 @@
     "url": "https://kvf.fo/vit/sending/sv/snipp-snapp",
     "episodes": [
       {
+        "episodeNumber": 0,
+        "id": "2023/11/15/sni00328bl1816snippsnapp15112023",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_10.png?itok=_NLboxuA",
+        "mediaId": "SNI00328_BL1816_Snipp_Snapp_15112023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 0 id: 2023/11/15/sni00328bl1816snippsnapp15112023",
+        "title": "Snipp Snapp ",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/15/sni00328bl1816snippsnapp15112023"
+      },
+      {
         "episodeNumber": 4,
         "id": "2023/09/27/sni00321bl1816snippsnapp27092023",
         "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_heyst_23_4.png?itok=888YP1mz",
@@ -7714,6 +9075,26 @@
         "sortKey": "s: 1 e: 9 id: 2023/11/09/snipp-snapp",
         "title": "Snipp snapp",
         "url": "https://kvf.fo/vit/sjonvarp/2023/11/09/snipp-snapp"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/11/22/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_11.png?itok=LJql2yUo",
+        "mediaId": "SNI00329_BL1816_Snipp_Snapp_22112023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2023/11/22/snipp-snapp",
+        "title": "Snipp snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/22/snipp-snapp"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/11/29/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_mynd_12.png?itok=LhznvYMH",
+        "mediaId": "SNI00330_BL1816_Snipp_Snapp_29112023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2023/11/29/snipp-snapp",
+        "title": "Snipp snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/snipp-snapp"
       },
       {
         "episodeNumber": 1,
@@ -7798,6 +9179,40 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/ut338_sogan_um_jolamannin_24122001_0176.jpg?itok=b-0aLKIH",
+    "title": "Søgan um jólamannin",
+    "url": "https://kvf.fo/vit/sending/sv/sogan-um-jolamannin",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/02/sogan-um-jolamannin",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/ut338_sogan_um_jolamannin_24122001_0021.jpg?itok=raegRHeo",
+        "mediaId": "UT338_Sogan_um_jolamannin_24122001",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/02/sogan-um-jolamannin",
+        "title": "Søgan um jólamannin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/02/sogan-um-jolamannin"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bta00320_bl1599_sogan_um_jolini_0112.jpg?itok=SZAmZ62M",
+    "title": "Søgan um jólini",
+    "url": "https://kvf.fo/vit/sending/sv/sogan-um-jolini",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/29/bta00320bl1599soganumjolini",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bta00320_bl1599_sogan_um_jolini_0035.jpg?itok=LPQAK6k4",
+        "mediaId": "BTA00320_BL1599_Sogan_um_jolini",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/29/bta00320bl1599soganumjolini",
+        "title": "Søgan um jólini",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/bta00320bl1599soganumjolini"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/suma_til_web.jpg?itok=fPl6rC49",
     "title": "Suma",
     "url": "https://kvf.fo/vit/sending/sv/suma",
@@ -7851,6 +9266,23 @@
         "sortKey": "s: 5 e: 1 id: 2018/10/11/suma-55",
         "title": "Silja misti pápa sín",
         "url": "https://kvf.fo/vit/sjonvarp/2018/10/11/suma-55"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1628_tey_seinastu_jolini_hja_jolamanninum_0140.jpg?itok=0UiB5xsm",
+    "title": "Tey seinastu jólini hjá jólamanninum",
+    "url": "https://kvf.fo/vit/sending/sv/tey-seinastu-jolini-hja-jolamanninum",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/30/tey-seinastu-jolini-hja-jolamanninum",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bl1628_tey_seinastu_jolini_hja_jolamanninum_0078.jpg?itok=l6qRmtI4",
+        "mediaId": "BL1628_Tey_seinastu_jolini_hja_jolamanninum",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/30/tey-seinastu-jolini-hja-jolamanninum",
+        "title": "Tey seinastu jólini hjá jólamanninum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/tey-seinastu-jolini-hja-jolamanninum"
       }
     ]
   },
@@ -8492,6 +9924,53 @@
         "sortKey": "s: 1 e: 20 id: 2023/08/09/tad-horvna-sureplid",
         "title": "Tað horvna súreplið",
         "url": "https://kvf.fo/vit/sjonvarp/2023/08/09/tad-horvna-sureplid"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/system/files/styles/news_xtra_xtra_large_2/private/vattrar.png?itok=jKe71f-7",
+    "title": "Vættrarnar av Galdralondum",
+    "url": "https://kvf.fo/vit/sending/sv/vaettrarnar-av-galdralondum",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/11/28/vaettrarnar-av-galdralondum-14",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/v11.png?itok=izmYDXqj",
+        "mediaId": "BL485_Vattrarnir_av_Galdralondum_1_06121992",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/11/28/vaettrarnar-av-galdralondum-14",
+        "title": "Vættrarnar av Galdralondum (1:4)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/28/vaettrarnar-av-galdralondum-14"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/11/28/vaettrarnar-av-galdralondum-24",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/v22.png?itok=0iLHZqNU",
+        "mediaId": "BL488_Vattrarnir_av_Galdralondum_2_13121992",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2023/11/28/vaettrarnar-av-galdralondum-24",
+        "title": "Vættrarnar av Galdralondum (2:4)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/28/vaettrarnar-av-galdralondum-24"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2023/11/28/vaettrarnar-av-galdralondum",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/v33.png?itok=Q5kbY9Vk",
+        "mediaId": "BL491_Vattrarnir_av_Galdralondum_3_20121992",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2023/11/28/vaettrarnar-av-galdralondum",
+        "title": "Vættrarnar av Galdralondum (3:4)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/28/vaettrarnar-av-galdralondum"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2023/11/28/vaettrarnar-av-galdralondum-44",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/v44.png?itok=9-kaXeUx",
+        "mediaId": "BL493_Vattrarnir_av_Galdralondum_4_23121992",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2023/11/28/vaettrarnar-av-galdralondum-44",
+        "title": "Vættrarnar av Galdralondum (4:4)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/28/vaettrarnar-av-galdralondum-44"
       }
     ]
   },
@@ -9267,6 +10746,253 @@
         "sortKey": "s: 1 e: 22 id: 2015/09/29/ger-sureplafuglar",
         "title": "Ger súreplafuglar",
         "url": "https://kvf.fo/vit/sjonvarp/2015/09/29/ger-sureplafuglar"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/jk19_vitin_bg_720x1280.jpg?itok=iS53RIOR",
+    "title": "Vitin",
+    "url": "https://kvf.fo/vit/sending/sv/vitin",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2019/11/30/vitin-1-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd.jpg?itok=zTkosh3d",
+        "mediaId": "BL1471_Vitin_1_01122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2019/11/30/vitin-1-partur",
+        "title": "1. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/11/30/vitin-1-partur"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2019/12/01/vitin-2-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_0.jpg?itok=ogWRca9I",
+        "mediaId": "BL1471_Vitin_2_02122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2019/12/01/vitin-2-partur",
+        "title": "2. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/01/vitin-2-partur"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2019/12/02/vitin-3-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_1.jpg?itok=6T0EvSYt",
+        "mediaId": "BL1471_Vitin_3_03122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 3 id: 2019/12/02/vitin-3-partur",
+        "title": "3. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/02/vitin-3-partur"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2019/12/03/vitin-4-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_2.jpg?itok=Euz6ZF_a",
+        "mediaId": "BL1471_Vitin_4_04122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 4 id: 2019/12/03/vitin-4-partur",
+        "title": "4. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/03/vitin-4-partur"
+      },
+      {
+        "episodeNumber": 5,
+        "id": "2019/12/04/vitin-5-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_3.jpg?itok=Ffln15zV",
+        "mediaId": "BL1471_Vitin_5_05122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 5 id: 2019/12/04/vitin-5-partur",
+        "title": "5. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/04/vitin-5-partur"
+      },
+      {
+        "episodeNumber": 6,
+        "id": "2019/12/05/vitin-6-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_4.jpg?itok=z4uWzrJ3",
+        "mediaId": "BL1471_Vitin_6_06122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 6 id: 2019/12/05/vitin-6-partur",
+        "title": "6. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/05/vitin-6-partur"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2019/12/06/vitin-7-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_5.jpg?itok=MRDeQ9dX",
+        "mediaId": "BL1471_Vitin_7_07122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: 2019/12/06/vitin-7-partur",
+        "title": "7. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/06/vitin-7-partur"
+      },
+      {
+        "episodeNumber": 8,
+        "id": "2019/12/07/vitin-8-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_6.jpg?itok=mg56_02w",
+        "mediaId": "BL1471_Vitin_8_08122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 8 id: 2019/12/07/vitin-8-partur",
+        "title": "8. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/07/vitin-8-partur"
+      },
+      {
+        "episodeNumber": 9,
+        "id": "2019/11/28/vitin-9-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_7.jpg?itok=2F1weGQo",
+        "mediaId": "BL1471_Vitin_9_09122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 9 id: 2019/11/28/vitin-9-partur",
+        "title": "9. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/11/28/vitin-9-partur"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2019/12/09/vitin-10partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_8.jpg?itok=3HXbJvrt",
+        "mediaId": "BL1471_Vitin_10_10122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 10 id: 2019/12/09/vitin-10partur",
+        "title": "10.partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/09/vitin-10partur"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2019/12/10/vitin-11-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_9.jpg?itok=IejmMbIZ",
+        "mediaId": "BL1471_Vitin_11_11122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 11 id: 2019/12/10/vitin-11-partur",
+        "title": "11. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/10/vitin-11-partur"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2019/12/11/vitin-12-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_10.jpg?itok=FlhKUc3g",
+        "mediaId": "BL1472_Vitin_12_12122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 12 id: 2019/12/11/vitin-12-partur",
+        "title": "12. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/11/vitin-12-partur"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2019/12/12/vitin-13-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_11.jpg?itok=XxmWMGO0",
+        "mediaId": "BL1472_Vitin_13_13122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2019/12/12/vitin-13-partur",
+        "title": "13. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/12/vitin-13-partur"
+      },
+      {
+        "episodeNumber": 14,
+        "id": "2019/12/13/vitin-14-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_12.jpg?itok=i4OPbptW",
+        "mediaId": "BL1472_Vitin_14_14122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 14 id: 2019/12/13/vitin-14-partur",
+        "title": "14. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/13/vitin-14-partur"
+      },
+      {
+        "episodeNumber": 15,
+        "id": "2019/12/14/vitin-15-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_13.jpg?itok=ZTUeSfp5",
+        "mediaId": "BL1472_Vitin_15_15122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 15 id: 2019/12/14/vitin-15-partur",
+        "title": "15. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/14/vitin-15-partur"
+      },
+      {
+        "episodeNumber": 16,
+        "id": "2019/12/15/vitin-16-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_14.jpg?itok=IpAlgmu1",
+        "mediaId": "BL1472_Vitin_16_16122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 16 id: 2019/12/15/vitin-16-partur",
+        "title": "16. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/15/vitin-16-partur"
+      },
+      {
+        "episodeNumber": 17,
+        "id": "2019/12/16/vitin-17-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_15.jpg?itok=GKcABEvV",
+        "mediaId": "BL1472_Vitin_17_17122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 17 id: 2019/12/16/vitin-17-partur",
+        "title": "17. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/16/vitin-17-partur"
+      },
+      {
+        "episodeNumber": 18,
+        "id": "2019/12/17/vitin-18-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_20.jpg?itok=M8kvAtM8",
+        "mediaId": "BL1472_Vitin18",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 18 id: 2019/12/17/vitin-18-partur",
+        "title": "18. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/17/vitin-18-partur"
+      },
+      {
+        "episodeNumber": 19,
+        "id": "2019/12/18/vitin-19-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_16.jpg?itok=Ex6dyjlj",
+        "mediaId": "BL1472_Vitin_19_19122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 19 id: 2019/12/18/vitin-19-partur",
+        "title": "19. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/18/vitin-19-partur"
+      },
+      {
+        "episodeNumber": 20,
+        "id": "2019/12/19/vitin-20-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_17.jpg?itok=lTgSSX8u",
+        "mediaId": "BL1472_Vitin_20_20122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 20 id: 2019/12/19/vitin-20-partur",
+        "title": "20. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/19/vitin-20-partur"
+      },
+      {
+        "episodeNumber": 21,
+        "id": "2019/12/21/vitin-21-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_18.jpg?itok=o_ZcxhLl",
+        "mediaId": "BL1472_Vitin_21_21122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 21 id: 2019/12/21/vitin-21-partur",
+        "title": "21. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/21/vitin-21-partur"
+      },
+      {
+        "episodeNumber": 22,
+        "id": "2019/12/21/vitin-22-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_19.jpg?itok=oltotPrn",
+        "mediaId": "BL1472_Vitin_22_27122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 22 id: 2019/12/21/vitin-22-partur",
+        "title": "22. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/21/vitin-22-partur"
+      },
+      {
+        "episodeNumber": 23,
+        "id": "2019/12/22/vitin-23-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_20.jpg?itok=M8kvAtM8",
+        "mediaId": "BL1473_Vitin_23_23122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 23 id: 2019/12/22/vitin-23-partur",
+        "title": "23. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/22/vitin-23-partur"
+      },
+      {
+        "episodeNumber": 24,
+        "id": "2019/12/23/vitin-24-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/vitin_mynd_20.jpg?itok=M8kvAtM8",
+        "mediaId": "BL1472_Vitin_24_24122006",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 24 id: 2019/12/23/vitin-24-partur",
+        "title": "24. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/23/vitin-24-partur"
       }
     ]
   }
