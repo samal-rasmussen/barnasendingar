@@ -47,6 +47,16 @@
         "sortKey": "s: 1 e: 1 id: 2023/12/06/bragi-er-luka",
         "title": "Bragi er Luka",
         "url": "https://kvf.fo/vit/sjonvarp/2023/12/06/bragi-er-luka"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/12/17/ly-er-gabriella",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/screenshot_2023-12-17_at_20.48.27.png?itok=Df-Go4sP",
+        "mediaId": "Samroda_vid_Ly_Sjonvarp_16",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2023/12/17/ly-er-gabriella",
+        "title": "Lý er Gabriella",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/17/ly-er-gabriella"
       }
     ]
   },
@@ -3163,6 +3173,16 @@
         "sortKey": "s: 1 e: 6 id: 2023/10/13/ein-odrvisi-og-ohugnalig-rundvising-tjodsavninum",
         "title": "Ein øðrvísi og óhugnalig rundvísing á Tjóðsavninum",
         "url": "https://kvf.fo/vit/sjonvarp/2023/10/13/ein-odrvisi-og-ohugnalig-rundvising-tjodsavninum"
+      },
+      {
+        "episodeNumber": 7,
+        "id": "2023/12/22/glod-hevur-sent-gavueskju-til-christmas-child",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/glod_-_christmas_child.png?itok=nFCYg55u",
+        "mediaId": "Christmas_Child",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 7 id: 2023/12/22/glod-hevur-sent-gavueskju-til-christmas-child",
+        "title": "Glóð hevur sent gávueskju til Christmas child",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/22/glod-hevur-sent-gavueskju-til-christmas-child"
       }
     ]
   },
@@ -5739,6 +5759,126 @@
         "sortKey": "s: 1 e: 12 id: 2023/12/12/luka-og-leikhusid-1224",
         "title": "Luka og leikhúsið 12:24",
         "url": "https://kvf.fo/vit/sjonvarp/2023/12/12/luka-og-leikhusid-1224"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2023/12/13/luka-og-leikhusid-1324",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_13.png?itok=ZwY3jAL-",
+        "mediaId": "LUK00013",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 13 id: 2023/12/13/luka-og-leikhusid-1324",
+        "title": "Luka og leikhúsið 13:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/13/luka-og-leikhusid-1324"
+      },
+      {
+        "episodeNumber": 14,
+        "id": "2023/12/14/luka-og-leikhusid-1424",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_14.png?itok=IhtzU6LI",
+        "mediaId": "LUK00014_BL1818_14_Luka_og_leikhusid_14122023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 14 id: 2023/12/14/luka-og-leikhusid-1424",
+        "title": "Luka og leikhúsið 14:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/14/luka-og-leikhusid-1424"
+      },
+      {
+        "episodeNumber": 15,
+        "id": "2023/12/15/luka-og-leikhusid-1524",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_15.png?itok=39MBtUue",
+        "mediaId": "LUK00015_BL1818_15_Luka_og_leikhusid",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 15 id: 2023/12/15/luka-og-leikhusid-1524",
+        "title": "Luka og leikhúsið 15:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/15/luka-og-leikhusid-1524"
+      },
+      {
+        "episodeNumber": 16,
+        "id": "2023/12/16/luka-og-leikhusid-1624",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_16.png?itok=E-dL1SMh",
+        "mediaId": "LUK00016_BL1818_16_Luka_og_leikhusid",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 16 id: 2023/12/16/luka-og-leikhusid-1624",
+        "title": "Luka og leikhúsið 16:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/16/luka-og-leikhusid-1624"
+      },
+      {
+        "episodeNumber": 17,
+        "id": "2023/12/17/luka-og-leikhusid-1724",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_17.png?itok=peLmJnSC",
+        "mediaId": "LUK00017_BL1818_17_Luka_og_leikhusid",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 17 id: 2023/12/17/luka-og-leikhusid-1724",
+        "title": "Luka og leikhúsið 17:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/17/luka-og-leikhusid-1724"
+      },
+      {
+        "episodeNumber": 18,
+        "id": "2023/12/18/luka-og-leikhusid-1824",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_18.png?itok=jXED30FL",
+        "mediaId": "LUK00018_BL1818_18_Luka_og_leikhusid",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 18 id: 2023/12/18/luka-og-leikhusid-1824",
+        "title": "Luka og leikhúsið 18:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/18/luka-og-leikhusid-1824"
+      },
+      {
+        "episodeNumber": 19,
+        "id": "2023/12/19/luka-og-leikhusid-1924",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_19.png?itok=YGixwkoE",
+        "mediaId": "LUK00019_BL1818_19_Luka_og_leikhusid",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 19 id: 2023/12/19/luka-og-leikhusid-1924",
+        "title": "Luka og leikhúsið 19:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/19/luka-og-leikhusid-1924"
+      },
+      {
+        "episodeNumber": 20,
+        "id": "2023/12/20/luka-og-leikhusid-2024",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_20.png?itok=1Sp0aJ6Y",
+        "mediaId": "LUK00020_BL1818_20_Luka_og_leikhusid",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 20 id: 2023/12/20/luka-og-leikhusid-2024",
+        "title": "Luka og leikhúsið 20:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/20/luka-og-leikhusid-2024"
+      },
+      {
+        "episodeNumber": 21,
+        "id": "2023/12/21/luka-og-leikhusid-2124",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_21.png?itok=e4aGGJah",
+        "mediaId": "LUK00021",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 21 id: 2023/12/21/luka-og-leikhusid-2124",
+        "title": "Luka og leikhúsið 21:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/21/luka-og-leikhusid-2124"
+      },
+      {
+        "episodeNumber": 22,
+        "id": "2023/12/22/luka-og-leikhusid-2224",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_22.png?itok=V6O__To2",
+        "mediaId": "LUK00022",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 22 id: 2023/12/22/luka-og-leikhusid-2224",
+        "title": "Luka og leikhúsið 22:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/22/luka-og-leikhusid-2224"
+      },
+      {
+        "episodeNumber": 23,
+        "id": "2023/12/23/luka-og-leikhusid-2324",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_23.png?itok=ZBK9o0MC",
+        "mediaId": "LUK00023",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 23 id: 2023/12/23/luka-og-leikhusid-2324",
+        "title": "Luka og leikhúsið 23:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/23/luka-og-leikhusid-2324"
+      },
+      {
+        "episodeNumber": 24,
+        "id": "2023/12/24/luka-og-leikhusid-2424",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lol_partur_24_0.png?itok=x4HKrqsY",
+        "mediaId": "LUK00024",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 24 id: 2023/12/24/luka-og-leikhusid-2424",
+        "title": "Luka og leikhúsið 24:24",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/24/luka-og-leikhusid-2424"
       }
     ]
   },
@@ -5866,6 +6006,43 @@
         "sortKey": "s: 1 e: 12 id: mass-heini-12-partur",
         "title": "Mass Heini 12",
         "url": "https://kvf.fo/vit/sjonvarp/mass-heini-12-partur"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/medan_vit_bida.png?itok=egrZMajs",
+    "title": "Meðan vit bíða",
+    "url": "https://kvf.fo/vit/sending/sv/medan-vit-bida",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2018/12/24/medan-vit-bida",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/medan_vit_bida_2017_v06_hd._0697.jpg?itok=vE_C0tQk",
+        "mediaId": "ASE00790",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2018/12/24/medan-vit-bida",
+        "title": "Meðan vit bíða 2018",
+        "url": "https://kvf.fo/vit/sjonvarp/2018/12/24/medan-vit-bida"
+      },
+      {
+        "episodeNumber": 1,
+        "id": "2020/12/24/medan-vit-bida",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/medan_vit_bida_mynd.png?itok=PvXSK7I0",
+        "mediaId": "BAR00093",
+        "seasonNumber": 2,
+        "sortKey": "s: 2 e: 1 id: 2020/12/24/medan-vit-bida",
+        "title": "Meðan vit bíða 2020",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/12/24/medan-vit-bida"
+      },
+      {
+        "episodeNumber": 1,
+        "id": "2022/12/24/medan-vit-bida",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/medan_vit_bida_mynd_0.png?itok=Pjs6Djw-",
+        "mediaId": "BAR00138",
+        "seasonNumber": 3,
+        "sortKey": "s: 3 e: 1 id: 2022/12/24/medan-vit-bida",
+        "title": "Meðan vit bíða 2022",
+        "url": "https://kvf.fo/vit/sjonvarp/2022/12/24/medan-vit-bida"
       }
     ]
   },
@@ -7640,8 +7817,28 @@
         "mediaId": "BAR00160",
         "seasonNumber": 2,
         "sortKey": "s: 2 e: 1 id: 2023/12/04/ring-til-julius-beinleiis-r-likkudali-1",
-        "title": "Ring til Julius - beinleiðis úr Likkudali 1",
+        "title": "Ring til Julius - beinleiðis úr Likkudali 1 (1:3)",
         "url": "https://kvf.fo/vit/sjonvarp/2023/12/04/ring-til-julius-beinleiis-r-likkudali-1"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/12/19/bar00161bl18192ringtiljulius11122023",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/julius_2_0.png?itok=-xvAUh0J",
+        "mediaId": "BAR00161_BL1819_2_Ring_til_Julius_11122023",
+        "seasonNumber": 2,
+        "sortKey": "s: 2 e: 2 id: 2023/12/19/bar00161bl18192ringtiljulius11122023",
+        "title": "Ring til Julius (2:3)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/19/bar00161bl18192ringtiljulius11122023"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2023/12/18/ring-til-julius-beinleiis-r-likkudali-1",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bar00139_0035.jpg?itok=3mX7TBQS",
+        "mediaId": "BAR00162",
+        "seasonNumber": 2,
+        "sortKey": "s: 2 e: 3 id: 2023/12/18/ring-til-julius-beinleiis-r-likkudali-1",
+        "title": "Ring til Julius (3:3)",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/18/ring-til-julius-beinleiis-r-likkudali-1"
       }
     ]
   },
@@ -9047,56 +9244,6 @@
     "url": "https://kvf.fo/vit/sending/sv/snipp-snapp",
     "episodes": [
       {
-        "episodeNumber": 0,
-        "id": "2023/11/15/sni00328bl1816snippsnapp15112023",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_10.png?itok=_NLboxuA",
-        "mediaId": "SNI00328_BL1816_Snipp_Snapp_15112023",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 0 id: 2023/11/15/sni00328bl1816snippsnapp15112023",
-        "title": "Snipp Snapp ",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/11/15/sni00328bl1816snippsnapp15112023"
-      },
-      {
-        "episodeNumber": 4,
-        "id": "2023/09/27/sni00321bl1816snippsnapp27092023",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_heyst_23_4.png?itok=888YP1mz",
-        "mediaId": "SNI00321_BL1816_Snipp_Snapp_27092023",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 4 id: 2023/09/27/sni00321bl1816snippsnapp27092023",
-        "title": "Snipp snapp",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/09/27/sni00321bl1816snippsnapp27092023"
-      },
-      {
-        "episodeNumber": 9,
-        "id": "2023/11/09/snipp-snapp",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_9.png?itok=qv-wh0Qr",
-        "mediaId": "SNI00327_BL1816_Snipp_Snapp_08112023",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 9 id: 2023/11/09/snipp-snapp",
-        "title": "Snipp snapp",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/11/09/snipp-snapp"
-      },
-      {
-        "episodeNumber": 11,
-        "id": "2023/11/22/snipp-snapp",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_11.png?itok=LJql2yUo",
-        "mediaId": "SNI00329_BL1816_Snipp_Snapp_22112023",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 11 id: 2023/11/22/snipp-snapp",
-        "title": "Snipp snapp",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/11/22/snipp-snapp"
-      },
-      {
-        "episodeNumber": 12,
-        "id": "2023/11/29/snipp-snapp",
-        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_mynd_12.png?itok=LhznvYMH",
-        "mediaId": "SNI00330_BL1816_Snipp_Snapp_29112023",
-        "seasonNumber": 1,
-        "sortKey": "s: 1 e: 12 id: 2023/11/29/snipp-snapp",
-        "title": "Snipp snapp",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/snipp-snapp"
-      },
-      {
         "episodeNumber": 1,
         "id": "2023/09/06/snipp-snapp",
         "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/sni00318_0002.jpg?itok=cXbHzL9g",
@@ -9125,6 +9272,16 @@
         "sortKey": "s: 12 e: 3 id: 2023/09/20/snipp-snapp",
         "title": "Snipp snapp",
         "url": "https://kvf.fo/vit/sjonvarp/2023/09/20/snipp-snapp"
+      },
+      {
+        "episodeNumber": 4,
+        "id": "2023/09/27/sni00321bl1816snippsnapp27092023",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_heyst_23_4.png?itok=888YP1mz",
+        "mediaId": "SNI00321_BL1816_Snipp_Snapp_27092023",
+        "seasonNumber": 12,
+        "sortKey": "s: 12 e: 4 id: 2023/09/27/sni00321bl1816snippsnapp27092023",
+        "title": "Snipp snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/09/27/sni00321bl1816snippsnapp27092023"
       },
       {
         "episodeNumber": 5,
@@ -9175,6 +9332,76 @@
         "sortKey": "s: 12 e: 9 id: 2023/11/02/snipp-snapp",
         "title": "Snipp snapp",
         "url": "https://kvf.fo/vit/sjonvarp/2023/11/02/snipp-snapp"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2023/11/09/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_9.png?itok=qv-wh0Qr",
+        "mediaId": "SNI00327_BL1816_Snipp_Snapp_08112023",
+        "seasonNumber": 12,
+        "sortKey": "s: 12 e: 10 id: 2023/11/09/snipp-snapp",
+        "title": "Snipp snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/09/snipp-snapp"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2023/11/15/sni00328bl1816snippsnapp15112023",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_10.png?itok=_NLboxuA",
+        "mediaId": "SNI00328_BL1816_Snipp_Snapp_15112023",
+        "seasonNumber": 12,
+        "sortKey": "s: 12 e: 11 id: 2023/11/15/sni00328bl1816snippsnapp15112023",
+        "title": "Snipp Snapp ",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/15/sni00328bl1816snippsnapp15112023"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2023/11/22/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_11.png?itok=LJql2yUo",
+        "mediaId": "SNI00329_BL1816_Snipp_Snapp_22112023",
+        "seasonNumber": 12,
+        "sortKey": "s: 12 e: 12 id: 2023/11/22/snipp-snapp",
+        "title": "Snipp snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/22/snipp-snapp"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2023/11/29/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/snipp_snapp_mynd_12.png?itok=LhznvYMH",
+        "mediaId": "SNI00330_BL1816_Snipp_Snapp_29112023",
+        "seasonNumber": 12,
+        "sortKey": "s: 12 e: 13 id: 2023/11/29/snipp-snapp",
+        "title": "Snipp snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/snipp-snapp"
+      },
+      {
+        "episodeNumber": 1,
+        "id": "2024/01/03/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/lilja_og_bjarta_snipp_snapp.png?itok=OdihSlAr",
+        "mediaId": "SNI00332_BL1820_1_Snipp_Snapp_03012024",
+        "seasonNumber": 13,
+        "sortKey": "s: 13 e: 1 id: 2024/01/03/snipp-snapp",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/01/03/snipp-snapp"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2024/01/10/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/marta_og_lilja.png?itok=Z985YV0B",
+        "mediaId": "SNI00333_BL1820_2_Snipp_Snapp_10012024",
+        "seasonNumber": 13,
+        "sortKey": "s: 13 e: 2 id: 2024/01/10/snipp-snapp",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/01/10/snipp-snapp"
+      },
+      {
+        "episodeNumber": 3,
+        "id": "2024/01/17/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/katrina_og_marta.png?itok=KqYTulaW",
+        "mediaId": "SNI00334_BL1820_3_Snipp_Snapp_17012024",
+        "seasonNumber": 13,
+        "sortKey": "s: 13 e: 3 id: 2024/01/17/snipp-snapp",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/01/17/snipp-snapp"
       }
     ]
   },
@@ -9209,6 +9436,33 @@
         "sortKey": "s: 1 e: 1 id: 2023/11/29/bta00320bl1599soganumjolini",
         "title": "Søgan um jólini",
         "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/bta00320bl1599soganumjolini"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/393104369_1339484160106292_6689055854095420836_n.jpg?itok=y3Xq-vPq",
+    "title": "Spírajól",
+    "url": "https://kvf.fo/vit/sending/sv/smafilmar",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "id": "2023/12/21/bar00158teknifilmur-6lusia30fps3",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/bar00158_teknifilmur_-_6_lusia_30fps_3_0008.jpg?itok=xv_-12nS",
+        "mediaId": "BAR00158_Teknifilmur_-_6__Lusia_30fps_3",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 1 id: 2023/12/21/bar00158teknifilmur-6lusia30fps3",
+        "title": "Santa Lusia",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/21/bar00158teknifilmur-6lusia30fps3"
+      },
+      {
+        "episodeNumber": 2,
+        "id": "2023/12/21/bar00159teknifilmur-7jolaevangeliid30fps",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/393104369_1339484160106292_6689055854095420836_n.jpg?itok=qeL0K9wN",
+        "mediaId": "BAR00159_Teknifilmur_-_7__Jolaevangeliid_30fps",
+        "seasonNumber": 1,
+        "sortKey": "s: 1 e: 2 id: 2023/12/21/bar00159teknifilmur-7jolaevangeliid30fps",
+        "title": "Jólaevangeliið",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/12/21/bar00159teknifilmur-7jolaevangeliid30fps"
       }
     ]
   },
