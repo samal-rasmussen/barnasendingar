@@ -2,7 +2,7 @@
   {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/220502_net_barnadox_matur_reyp_0014.jpg?itok=sbwvNR94",
     "title": "Aftur mett í dag",
-    "url": "https://kvf.fo/node/157088",
+    "url": "https://kvf.fo/vit/sending/sv/aftur-mett-i-dag",
     "episodes": [
       {
         "episodeNumber": 1,
@@ -7997,7 +7997,7 @@
   {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/rudda_botnin.png?itok=qxZZKmeD",
     "title": "Rudda botnin",
-    "url": "https://kvf.fo/node/155371",
+    "url": "https://kvf.fo/vit/sending/sv/rudda-botnin",
     "episodes": [
       {
         "episodeNumber": 1,
@@ -9701,6 +9701,56 @@
         "sortKey": "s: 14 e: 9 id: 2021/11/15/sni00261bl1793snippsnapp2612021ok",
         "title": "Snipp Snapp",
         "url": "https://kvf.fo/vit/sjonvarp/2021/11/15/sni00261bl1793snippsnapp2612021ok"
+      },
+      {
+        "episodeNumber": 10,
+        "id": "2021/11/22/sni00262bl1793snippsnapp2622021ok",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/davur_0.jpg?itok=PZqEPjpd",
+        "mediaId": "SNI00262_BL1793_Snippsnapp_262_2021_OK",
+        "seasonNumber": 14,
+        "sortKey": "s: 14 e: 10 id: 2021/11/22/sni00262bl1793snippsnapp2622021ok",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2021/11/22/sni00262bl1793snippsnapp2622021ok"
+      },
+      {
+        "episodeNumber": 11,
+        "id": "2022/01/12/sni00264-1sending2022",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/oli_2.jpg?itok=jGDLXd0Z",
+        "mediaId": "SNI00264-1__sending_2022",
+        "seasonNumber": 14,
+        "sortKey": "s: 14 e: 11 id: 2022/01/12/sni00264-1sending2022",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2022/01/12/sni00264-1sending2022"
+      },
+      {
+        "episodeNumber": 12,
+        "id": "2022/01/12/sni00265-2sending2022",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/emma_1.jpg?itok=it-p7ZfS",
+        "mediaId": "SNI00265-2__sending2022",
+        "seasonNumber": 14,
+        "sortKey": "s: 14 e: 12 id: 2022/01/12/sni00265-2sending2022",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2022/01/12/sni00265-2sending2022"
+      },
+      {
+        "episodeNumber": 13,
+        "id": "2022/01/12/sni00266-3sending2022",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/heini_11.jpg?itok=O7gG0DJl",
+        "mediaId": "SNI00266-3__sending_2022",
+        "seasonNumber": 14,
+        "sortKey": "s: 14 e: 13 id: 2022/01/12/sni00266-3sending2022",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2022/01/12/sni00266-3sending2022"
+      },
+      {
+        "episodeNumber": 14,
+        "id": "2022/01/12/sni00267-4sending2022",
+        "img": "https://kvf.fo/sites/default/files/styles/media-thumb-vit/public/marin_kristina.jpg?itok=JctjB9CV",
+        "mediaId": "SNI00267-4__sending_2022",
+        "seasonNumber": 14,
+        "sortKey": "s: 14 e: 14 id: 2022/01/12/sni00267-4sending2022",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2022/01/12/sni00267-4sending2022"
       }
     ]
   },
