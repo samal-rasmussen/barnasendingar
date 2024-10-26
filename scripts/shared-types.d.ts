@@ -5,12 +5,11 @@ export interface Show {
 	episodes: Episode[];
 }
 export interface Episode {
-	episodeNumber: number | null;
 	id: string;
 	img: string;
 	mediaId: string | undefined;
-	seasonNumber: number | null;
 	sortKey: string;
 	title: string;
 	url: string;
+	date: string;
 }

@@ -33,7 +33,7 @@
 		const playlist = `https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/${current?.mediaId}.smil?type=m3u8`;
 		player.titleBar.update({
 			title: show.title,
-			description: `${current.title}\nSesong: ${current.seasonNumber} Partur: ${current.episodeNumber}`,
+			description: `${current.title}`,
 		});
 		setTimeout(() => {
 			player?.src([

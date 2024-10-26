@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
 import { JSDOM } from 'jsdom';
 import PQueue from 'p-queue';
-import prettier from 'prettier';
+import * as prettier from 'prettier';
 import type { Show, Episode } from './shared-types';
 import * as CliProgress from 'cli-progress';
 
@@ -16,14 +16,29 @@ const urlPrefix = 'https://kvf.fo';
 const regex = new RegExp(`(var media = ')(.+)';`);
 let episodesCount = 0;
 
-function pretty(html: string): string {
-	return prettier.format(html, { parser: 'html' });
+async function pretty(html: string): Promise<string> {
+	return await prettier.format(html, { parser: 'html' });
 }
 
 async function fetchHtml(url: string): Promise<string> {
 	try {
-		const response = await fetch(url + `?date=${Date.now()}`);
+		const response = await fetch(url, {
+			redirect: 'manual', // Prevent automatic redirects
+		});
+		if (response.status === 301 || response.status === 302) {
+			// Handle redirect manually
+			const redirectLocation = response.headers.get('location');
+			if (redirectLocation == null) {
+				throw new Error(`No redirect location found for ${url}`);
+			}
+			const redirectUrl = urlPrefix + redirectLocation;
+			const redirect_response = await fetch(redirectUrl);
+			const html = await redirect_response.text();
+			return html;
+		}
 		const html = await response.text();
+		// console.log('writing html to console');
+		// console.log(html);
 		return html;
 	} catch (error) {
 		console.error(`Failed to fetch HTML from ${url}`, error);
@@ -43,34 +58,41 @@ function progressBar() {
 }
 
 function parseEpisodeElement(el: HTMLElement): PartialEpisode {
+	// console.log('parseEpisodeElement', el.innerHTML);
 	if (el.children.length === 0) {
 		return;
 	}
 	// console.log(pretty(el.innerHTML));
 
 	const img = el.querySelector('img') as HTMLImageElement;
-	const a = el.querySelector('.views-field-title a') as HTMLAnchorElement;
-	const seasonNumberElement = el.querySelector(
-		'.views-field-field-n-season .field-content',
-	) as HTMLElement;
-	const episodeNumberElement = el.querySelector(
-		'.views-field-field-ra-tal .field-content',
-	) as HTMLElement;
-	const episodeNumber =
-		episodeNumberElement != null ? Number(episodeNumberElement.textContent) : null;
-	const seasonNumber = seasonNumberElement != null ? Number(seasonNumberElement.textContent) : null;
-	const id = a.href.split('/vit/sjonvarp/')[1];
-	const url = urlPrefix + a.href;
-	const title = a.textContent ?? '';
+	const title_a = el.querySelector('.views-field.views-field-title a') as HTMLAnchorElement;
+	const url_a = el.querySelector('.views-field.views-field-field-mynd a') as HTMLAnchorElement;
+	const publish_span = el.querySelector('.views-field.views-field-field-publish span');
+	let id = url_a.href.split('/vit/sjonvarp/')[1];
+	// const id = a.href.split('/vit/sending/sv/')[1];
+	if (id == null) {
+		id = url_a.href.split('/node/')[1];
+		if (id == null) {
+			throw new Error(`No id found for ${url_a.href}`);
+		}
+	}
+	const url = urlPrefix + url_a.href;
+	const title = title_a.textContent ?? '';
+	let date = publish_span?.getAttribute('content');
+	if (date == null || typeof date !== 'string' || date.trim().length === 0) {
+		console.warn(new Error(`No date found`, { cause: { url, title } }));
+		// Mash the date with a z char for every char in the date, so that it sorts last
+		date = 'zzzzzzzzzzzzzzzzzzzzzzzzz';
+	}
+	const sortKey = `date: ${date} id: ${id}`;
 
 	const episode: PartialEpisode = {
-		episodeNumber,
 		id,
 		img: img.src,
-		seasonNumber,
-		sortKey: `s: ${seasonNumber} e: ${episodeNumber} id: ${id}`,
+		sortKey,
 		title,
 		url,
+		date,
 	};
 
 	return episode;
@@ -91,15 +113,26 @@ async function scrapeShow(showUrl: string): Promise<PartialEpisode[]> {
 	const showHtml = await fetchHtml(showUrl);
 	const showDom = new JSDOM(showHtml);
 	// console.log(showHtml);
+	// write showHtml to file
+	// writeFileSync('show.html', showHtml);
 
 	const episodes: PartialEpisode[] = [];
-	const cells = showDom.window.document.querySelectorAll('td');
+	const cells = showDom.window.document.querySelectorAll(
+		'.quicktabs-tabpage > .quicktabs-views-group',
+	);
 	for (let i = 0; i < cells.length; i++) {
 		const e = cells[i];
 		const episode = parseEpisodeElement(e);
 		if (episode != null) {
 			episodes.push(episode);
 		}
+	}
+
+	const nextPage = showDom.window.document.querySelector('li.pager-next a');
+	if (nextPage != null) {
+		const nextPageUrl = urlPrefix + nextPage.href;
+		const nextPageEpisodes = await scrapeShow(nextPageUrl);
+		episodes.push(...nextPageEpisodes);
 	}
 
 	return episodes.sort((a, b) => collator.compare(a.sortKey, b.sortKey));
@@ -113,12 +146,15 @@ async function scrapeShowsList(): Promise<PartialShow[]> {
 	showsDom.window.document.querySelectorAll('.view-content .views-row').forEach((el) => {
 		const img = el.querySelector('img') as HTMLImageElement;
 		const a = el.querySelector('.views-field-title a') as HTMLAnchorElement;
+		const title = a.textContent ?? '';
 		const show: Show = {
 			img: img.src,
-			title: a.textContent ?? '',
+			title,
 			url: urlPrefix + a.href,
 			episodes: [],
 		};
+		// if (title === 'Alt í 1um') {
+		// }
 		partialShows.push(show);
 	});
 
@@ -156,17 +192,16 @@ async function run() {
 			episodePromises.push(async () => {
 				const { mediaId } = await scrapeEpisode(partialEpisode);
 				bar2.increment({
-					title: `${partialShow.title} s${partialEpisode.seasonNumber} e${partialEpisode.episodeNumber} ${partialEpisode.title}`,
+					title: `${partialShow.title} ${partialEpisode.title}`,
 				});
 				const episode: Episode = {
-					episodeNumber: partialEpisode.episodeNumber,
 					id: partialEpisode.id,
 					img: partialEpisode.img,
 					mediaId,
-					seasonNumber: partialEpisode.seasonNumber,
 					sortKey: partialEpisode.sortKey,
 					title: partialEpisode.title,
 					url: partialEpisode.url,
+					date: partialEpisode.date,
 				};
 				showsMap.get(partialShow.title)[index] = episode;
 			});

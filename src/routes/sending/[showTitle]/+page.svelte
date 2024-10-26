@@ -50,7 +50,6 @@
 			>
 				<div class="header">
 					<h2>{episode.title}</h2>
-					<p>Sesong: {episode.seasonNumber} Partur: {episode.episodeNumber}</p>
 				</div>
 				<img src={episode.img} alt="Partur" />
 				{#if watched?.[show.title]?.[episode.sortKey] === true}
