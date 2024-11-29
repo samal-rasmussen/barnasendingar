@@ -1451,15 +1451,6 @@
     "url": "https://kvf.fo/vit/sending/sv/bornini-i-dundurdali",
     "episodes": [
       {
-        "id": "2024/03/20/bta00110ut360meirumokkumidundurdali24042011",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini_i_dundurdali_1920x1080_2.jpg?itok=O1QZbDeP",
-        "mediaId": "BTA00110_UT360_Meir_um_okkum_i_Dundurdali_24042011",
-        "sortKey": "date: 2024-03-20T12:07:00+00:00 id: 2024/03/20/bta00110ut360meirumokkumidundurdali24042011",
-        "title": "Meir um okkum í Dundurdali",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/03/20/bta00110ut360meirumokkumidundurdali24042011",
-        "date": "2024-03-20T12:07:00+00:00"
-      },
-      {
         "id": "2024/03/27/1-partur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini_i_dundurdali.jpg?itok=o2RoQVB-",
         "mediaId": "BTA00072_BL1537_Bornini_i_Dundurdali_1_rattad",
@@ -1557,6 +1548,15 @@
         "date": "2015-09-10T10:30:00+01:00"
       },
       {
+        "id": "2015/09/10/bingo",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
+        "mediaId": "vit_bingo",
+        "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/bingo",
+        "title": "Bingo",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/bingo",
+        "date": "2015-09-10T10:30:00+01:00"
+      },
+      {
         "id": "2015/09/10/kennir-tu-blomurinar",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
         "mediaId": "vit_kennur_tu_blomur",
@@ -1566,12 +1566,12 @@
         "date": "2015-09-10T10:30:00+01:00"
       },
       {
-        "id": "2015/09/10/sig-maer-sast-tu-tad",
+        "id": "2015/09/10/koyra-busstur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
-        "mediaId": "vit_sast_tu",
-        "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/sig-maer-sast-tu-tad",
-        "title": "Sig mær sást tú tað",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/sig-maer-sast-tu-tad",
+        "mediaId": "vit_koyra_buss",
+        "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/koyra-busstur",
+        "title": "Koyra busstúr",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/koyra-busstur",
         "date": "2015-09-10T10:30:00+01:00"
       },
       {
@@ -1581,15 +1581,6 @@
         "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/sig-maer-sast-tu-tad",
         "title": "Sig mær sást tú tað",
         "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/sig-maer-sast-tu-tad",
-        "date": "2015-09-10T10:30:00+01:00"
-      },
-      {
-        "id": "2015/09/10/sol-uti-sol-inni",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
-        "mediaId": "vit_sol_ut_inn",
-        "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/sol-uti-sol-inni",
-        "title": "Sól úti, sól inni",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/sol-uti-sol-inni",
         "date": "2015-09-10T10:30:00+01:00"
       },
       {
@@ -2267,6 +2258,229 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/elias_3.jpg?itok=N1iv-Xb1",
+    "title": "Elias",
+    "url": "https://kvf.fo/node/158506",
+    "episodes": [
+      {
+        "id": "2023/06/13/eli00001bl1492elias12007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00001_bl1492_elias_1_2007_0037.jpg?itok=mfHuqVxY",
+        "mediaId": "ELI00001_BL1492_Elias_1_2007",
+        "sortKey": "date: 2023-06-06T08:00:00+01:00 id: 2023/06/13/eli00001bl1492elias12007",
+        "title": "Vælkomin til Lundavágs",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00001bl1492elias12007",
+        "date": "2023-06-06T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00002bl1492elias22007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00002_bl1492_elias_2_2007_0022.jpg?itok=9r1PPrT9",
+        "mediaId": "ELI00002_BL1492_Elias_2_2007",
+        "sortKey": "date: 2023-06-13T08:00:00+01:00 id: 2023/06/13/eli00002bl1492elias22007",
+        "title": "Stóra blunk",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00002bl1492elias22007",
+        "date": "2023-06-13T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00003bl1492elias32007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00003_bl1492_elias_3_2007_0027.jpg?itok=QgCQD8Qx",
+        "mediaId": "ELI00003_BL1492_Elias_3_2007",
+        "sortKey": "date: 2023-06-20T08:00:00+01:00 id: 2023/06/13/eli00003bl1492elias32007",
+        "title": "Skeggvoks",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00003bl1492elias32007",
+        "date": "2023-06-20T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00004bl1492elias42007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00004_bl1492_elias_4_2007_0037.jpg?itok=PeasM_rG",
+        "mediaId": "ELI00004_BL1492_Elias_4_2007",
+        "sortKey": "date: 2023-06-27T08:00:00+01:00 id: 2023/06/13/eli00004bl1492elias42007",
+        "title": "Krússi krútperla",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00004bl1492elias42007",
+        "date": "2023-06-27T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00005bl1492elias52007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00005_bl1492_elias_5_2007_0007.jpg?itok=-bXdyCss",
+        "mediaId": "ELI00005_BL1492_Elias_5_2007",
+        "sortKey": "date: 2023-07-04T08:00:00+01:00 id: 2023/06/13/eli00005bl1492elias52007",
+        "title": "Troli hevur trupulleikar",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00005bl1492elias52007",
+        "date": "2023-07-04T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00006bl1492elias62007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00006_bl1492_elias_6_2007_0014.jpg?itok=L7-CXEPp",
+        "mediaId": "ELI00006_BL1492_Elias_6_2007",
+        "sortKey": "date: 2023-07-11T08:00:00+01:00 id: 2023/06/13/eli00006bl1492elias62007",
+        "title": "Troli á skipasmiðju",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00006bl1492elias62007",
+        "date": "2023-07-11T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00007bl1492elias72007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00007_bl1492_elias_7_2007_0053.jpg?itok=DgAtWXMn",
+        "mediaId": "ELI00007_BL1492_Elias_7_2007",
+        "sortKey": "date: 2023-07-18T08:00:00+01:00 id: 2023/06/13/eli00007bl1492elias72007",
+        "title": "Snar kemur til Lundavágs",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00007bl1492elias72007",
+        "date": "2023-07-18T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00008bl1492elias82007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00008_bl1492_elias_8_2007_0016.jpg?itok=ziAYotO7",
+        "mediaId": "ELI00008_BL1492_Elias_8_2007",
+        "sortKey": "date: 2023-07-25T08:00:00+01:00 id: 2023/06/13/eli00008bl1492elias82007",
+        "title": "Nógvur vindur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00008bl1492elias82007",
+        "date": "2023-07-25T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00009bl1492elias92007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00009_bl1492_elias_9_2007_0050.jpg?itok=3HBae1RI",
+        "mediaId": "ELI00009_BL1492_Elias_9_2007",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/06/13/eli00009bl1492elias92007",
+        "title": "Sjakki og likkan",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00009bl1492elias92007",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00010bl1492elias102007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00010_bl1492_elias_10_2007_0053_0.jpg?itok=DCKI_60A",
+        "mediaId": "ELI00010_BL1492_Elias_10_2007",
+        "sortKey": "date: 2023-08-08T08:00:00+01:00 id: 2023/06/13/eli00010bl1492elias102007",
+        "title": "Nýggja peran hjá Stórablunk",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00010bl1492elias102007",
+        "date": "2023-08-08T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00011bl1492elias112007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00011_bl1492_elias_11_2007_0028.jpg?itok=AH0FH51m",
+        "mediaId": "ELI00011_BL1492_Elias_11_2007",
+        "sortKey": "date: 2023-08-15T08:00:00+01:00 id: 2023/06/13/eli00011bl1492elias112007",
+        "title": "Krússi á royndartúri",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00011bl1492elias112007",
+        "date": "2023-08-15T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00012bl1492elias122007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00012_bl1492_elias_12_2007_0013.jpg?itok=OPkaFvjE",
+        "mediaId": "ELI00012_BL1492_Elias_12_2007",
+        "sortKey": "date: 2023-08-22T08:00:00+01:00 id: 2023/06/13/eli00012bl1492elias122007",
+        "title": "Stóra kappsiglingin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00012bl1492elias122007",
+        "date": "2023-08-22T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00013bl1492elias132007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00013_bl1492_elias_13_2007_0026.jpg?itok=0Ajr91Mh",
+        "mediaId": "ELI00013_BL1492_Elias_13_2007",
+        "sortKey": "date: 2023-08-29T08:00:00+01:00 id: 2023/06/13/eli00013bl1492elias132007",
+        "title": "Sjakki í mjørka",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00013bl1492elias132007",
+        "date": "2023-08-29T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00014bl1492elias142007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00014_bl1492_elias_14_2007_0019.jpg?itok=OrU3OHw8",
+        "mediaId": "ELI00014_BL1492_Elias_14_2007",
+        "sortKey": "date: 2023-09-05T08:00:00+01:00 id: 2023/06/13/eli00014bl1492elias142007",
+        "title": "Sjóslangan í Lundavági",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00014bl1492elias142007",
+        "date": "2023-09-05T08:00:00+01:00"
+      },
+      {
+        "id": "2023/06/13/eli00015bl1493elias152007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00015_bl1493_elias_15_2007_0018.jpg?itok=cI1FyE_N",
+        "mediaId": "ELI00015_BL1493_Elias_15_2007",
+        "sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: 2023/06/13/eli00015bl1493elias152007",
+        "title": "Náttarvaktin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00015bl1493elias152007",
+        "date": "zzzzzzzzzzzzzzzzzzzzzzzzz"
+      },
+      {
+        "id": "2023/06/13/eli00016bl1493elias162007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00016_bl1493_elias_16_2007_0036.jpg?itok=TeYfdsFb",
+        "mediaId": "ELI00016_BL1493_Elias_16_2007",
+        "sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: 2023/06/13/eli00016bl1493elias162007",
+        "title": "Likka fær ein hvøkk",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00016bl1493elias162007",
+        "date": "zzzzzzzzzzzzzzzzzzzzzzzzz"
+      },
+      {
+        "id": "2023/06/13/eli00017bl1493elias172007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00017_bl1493_elias_17_2007_0043.jpg?itok=DLQTCKqv",
+        "mediaId": "ELI00017_BL1493_Elias_17_2007",
+        "sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: 2023/06/13/eli00017bl1493elias172007",
+        "title": "Sunnudagur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00017bl1493elias172007",
+        "date": "zzzzzzzzzzzzzzzzzzzzzzzzz"
+      },
+      {
+        "id": "2023/06/13/eli00018bl1493elias182007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00018_bl1493_elias_18_2007_0040.jpg?itok=ehEAn1Jc",
+        "mediaId": "ELI00018_BL1493_Elias_18_2007",
+        "sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: 2023/06/13/eli00018bl1493elias182007",
+        "title": "Klemman",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00018bl1493elias182007",
+        "date": "zzzzzzzzzzzzzzzzzzzzzzzzz"
+      },
+      {
+        "id": "2023/06/13/eli00020bl1493elias202007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00020_bl1493_elias_20_2007_0019.jpg?itok=7C2eVTr0",
+        "mediaId": "ELI00020_BL1493_Elias_20_2007",
+        "sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: 2023/06/13/eli00020bl1493elias202007",
+        "title": "Uttan vit",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00020bl1493elias202007",
+        "date": "zzzzzzzzzzzzzzzzzzzzzzzzz"
+      },
+      {
+        "id": "2023/06/13/eli00021bl1493elias212007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00021_bl1493_elias_21_2007_0026.jpg?itok=iDmtRLg3",
+        "mediaId": "ELI00021_BL1493_Elias_21_2007",
+        "sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: 2023/06/13/eli00021bl1493elias212007",
+        "title": "Snar á egnari leið",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00021bl1493elias212007",
+        "date": "zzzzzzzzzzzzzzzzzzzzzzzzz"
+      },
+      {
+        "id": "2023/06/13/eli00022bl1493elias222007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00022_bl1493_elias_22_2007_0042.jpg?itok=c3Ujhdi8",
+        "mediaId": "ELI00022_BL1493_Elias_22_2007",
+        "sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: 2023/06/13/eli00022bl1493elias222007",
+        "title": "ELI00022_BL1493_Elias_22_2007",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00022bl1493elias222007",
+        "date": "zzzzzzzzzzzzzzzzzzzzzzzzz"
+      },
+      {
+        "id": "2023/06/13/eli00023bl1493elias232007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00023_bl1493_elias_23_2007_0037.jpg?itok=Ss4SPw4a",
+        "mediaId": "ELI00023_BL1493_Elias_23_2007",
+        "sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: 2023/06/13/eli00023bl1493elias232007",
+        "title": "ELI00023_BL1493_Elias_23_2007",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00023bl1493elias232007",
+        "date": "zzzzzzzzzzzzzzzzzzzzzzzzz"
+      },
+      {
+        "id": "2023/06/13/eli00024bl1493elias242007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00024_bl1493_elias_24_2007_0033.jpg?itok=dSCHKQYA",
+        "mediaId": "ELI00024_BL1493_Elias_24_2007",
+        "sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: 2023/06/13/eli00024bl1493elias242007",
+        "title": "ELI00024_BL1493_Elias_24_2007",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00024bl1493elias242007",
+        "date": "zzzzzzzzzzzzzzzzzzzzzzzzz"
+      },
+      {
+        "id": "2023/06/13/eli00025bl1493elias252007",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eli00025_bl1493_elias_25_2007_0010.jpg?itok=gk1tmY9S",
+        "mediaId": "ELI00025_BL1493_Elias_25_2007",
+        "sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: 2023/06/13/eli00025bl1493elias252007",
+        "title": "ELI00025_BL1493_Elias_25_2007",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00025bl1493elias252007",
+        "date": "zzzzzzzzzzzzzzzzzzzzzzzzz"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/emil_1.jpg?itok=BFnstEEu",
     "title": "Emil úr Lønnebergi",
     "url": "https://kvf.fo/vit/sending/sv/emil-ur-lonnebergi",
@@ -2344,15 +2558,6 @@
         "date": "2020-04-02T15:00:00+01:00"
       },
       {
-        "id": "2020/04/01/bta00029bl1495emililonnebergi102009ok",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil_10.png?itok=TOcGvmjp",
-        "mediaId": "BTA00029_BL1495_Emil_i_Lonnebergi_10_2009_OK",
-        "sortKey": "date: 2020-04-02T15:00:00+01:00 id: 2020/04/01/bta00029bl1495emililonnebergi102009ok",
-        "title": "Krabbafiskiskapur, kaffigildi og annað stuttligt",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00029bl1495emililonnebergi102009ok",
-        "date": "2020-04-02T15:00:00+01:00"
-      },
-      {
         "id": "2020/04/01/bta00031bl1495emililonnebergi122009ok",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil12.png?itok=sAdlXEuz",
         "mediaId": "BTA00031_BL1495_Emil_i_Lonnebergi_12_2009_ok",
@@ -2368,6 +2573,15 @@
         "sortKey": "date: 2020-04-02T15:00:00+01:00 id: 2020/04/01/bta00032bl1495emililonnebergi132009ok",
         "title": "Tann stóra kavaódnin",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00032bl1495emililonnebergi132009ok",
+        "date": "2020-04-02T15:00:00+01:00"
+      },
+      {
+        "id": "2020/04/02/emil-6-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil6.png?itok=uktPHpNt",
+        "mediaId": "BTA00025_BL1494_Emil_i_Lonnebergi_6_2009_ok",
+        "sortKey": "date: 2020-04-02T15:00:00+01:00 id: 2020/04/02/emil-6-partur",
+        "title": "Uppboðssølan í Backhorva",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/02/emil-6-partur",
         "date": "2020-04-02T15:00:00+01:00"
       },
       {
@@ -2840,24 +3054,6 @@
     "url": "https://kvf.fo/vit/sending/sv/filur-og-maskinurnar",
     "episodes": [
       {
-        "id": "2024/09/03/bilknusari",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_bilknusari.jpg?itok=nwEzFIyM",
-        "mediaId": "Filur_og_maskinurnar_EP04",
-        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/bilknusari",
-        "title": "Bilknúsari",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/bilknusari",
-        "date": "2024-09-03T12:00:00+01:00"
-      },
-      {
-        "id": "2024/09/03/bilknusari",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_bilknusari.jpg?itok=nwEzFIyM",
-        "mediaId": "Filur_og_maskinurnar_EP04",
-        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/bilknusari",
-        "title": "Bilknúsari",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/bilknusari",
-        "date": "2024-09-03T12:00:00+01:00"
-      },
-      {
         "id": "2024/09/03/brandbilur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_brannbilur.jpg?itok=vMLXSBOZ",
         "mediaId": "Filur_og_maskinurnar_EP03",
@@ -2945,6 +3141,24 @@
         "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/skurdtreskja",
         "title": "Skurðtreskja",
         "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/skurdtreskja",
+        "date": "2024-09-03T12:00:00+01:00"
+      },
+      {
+        "id": "2024/09/03/skurdtreskja",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_skurdtreskja.jpg?itok=EQuax5js",
+        "mediaId": "Filur_og_maskinurnar_EP02",
+        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/skurdtreskja",
+        "title": "Skurðtreskja",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/skurdtreskja",
+        "date": "2024-09-03T12:00:00+01:00"
+      },
+      {
+        "id": "2024/09/03/timburbilur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_timburbilur.jpg?itok=huFQMNZb",
+        "mediaId": "Filur_og_maskinurnar_EP06",
+        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/timburbilur",
+        "title": "Timburbilur",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/timburbilur",
         "date": "2024-09-03T12:00:00+01:00"
       },
       {
@@ -4039,12 +4253,12 @@
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
-        "id": "2020/04/01/bta00047bl1501karlssonatakinum6",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k6.png?itok=c71sVtrw",
-        "mediaId": "BTA00047_BL1501_KARLSSON_A_TAKINUM_6",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00047bl1501karlssonatakinum6",
-        "title": "Karlsson gandar",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00047bl1501karlssonatakinum6",
+        "id": "2020/04/01/bta00048bl1502karlssonatakinum72010",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k7.png?itok=zfuEx7PT",
+        "mediaId": "BTA00048_BL1502_KARLSSON_A_TAKINUM_7_2010",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00048bl1502karlssonatakinum72010",
+        "title": "Karlsson er rasarakoyrari",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00048bl1502karlssonatakinum72010",
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
@@ -4063,15 +4277,6 @@
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00049bl1502karlssonatakinum8",
         "title": "Karlsson og svartaklukkan",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00049bl1502karlssonatakinum8",
-        "date": "2020-04-02T12:00:00+01:00"
-      },
-      {
-        "id": "2020/04/01/bta00050bl1502karlssonatakinum9",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k9.png?itok=GZpOjzTV",
-        "mediaId": "BTA00050_BL1502_KARLSSON_A_TAKINUM_9",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00050bl1502karlssonatakinum9",
-        "title": "Karlsson og Hákunardrongurin",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00050bl1502karlssonatakinum9",
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
@@ -4181,6 +4386,85 @@
         "title": "Karlsson spælir krógva og blunda",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/02/karlsson-takinum-18-partur",
         "date": "2020-04-02T12:00:00+01:00"
+      },
+      {
+        "id": "2020/04/02/karlsson-takinum-18-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k18.png?itok=UAfR1QS6",
+        "mediaId": "BTA00059_BL1503_KARLSSON_A_TAKINUM_18",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/02/karlsson-takinum-18-partur",
+        "title": "Karlsson spælir krógva og blunda",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/02/karlsson-takinum-18-partur",
+        "date": "2020-04-02T12:00:00+01:00"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/klangarnir_16x9.jpg?itok=0_bheYKJ",
+    "title": "Klangarnir",
+    "url": "https://kvf.fo/vit/sending/sv/klangarnir",
+    "episodes": [
+      {
+        "id": "2018/03/15/bta00388ut305klangarnir0116032018",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00388_ut305_klangarnir_01_16032018._0141.jpg?itok=weqjgj_9",
+        "mediaId": "BTA00388_UT305_Klangarnir_01_16032018",
+        "sortKey": "date: 2018-03-15T11:01:00+00:00 id: 2018/03/15/bta00388ut305klangarnir0116032018",
+        "title": "Horvnir tónar",
+        "url": "https://kvf.fo/vit/sjonvarp/2018/03/15/bta00388ut305klangarnir0116032018",
+        "date": "2018-03-15T11:01:00+00:00"
+      },
+      {
+        "id": "2018/03/15/bta00389ut305klangarnir0223032018",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00389_ut305_klangarnir_02_23032018._0182.jpg?itok=h3NJyFpK",
+        "mediaId": "BTA00389_UT305_Klangarnir_02_23032018",
+        "sortKey": "date: 2018-03-15T11:01:00+00:00 id: 2018/03/15/bta00389ut305klangarnir0223032018",
+        "title": "Smáting",
+        "url": "https://kvf.fo/vit/sjonvarp/2018/03/15/bta00389ut305klangarnir0223032018",
+        "date": "2018-03-15T11:01:00+00:00"
+      },
+      {
+        "id": "2018/03/15/bta00390ut305klangarnir0330032018",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00390_ut305_klangarnir_03_30032018._0320.jpg?itok=JtvRFfx_",
+        "mediaId": "BTA00390_UT305_Klangarnir_03_30032018",
+        "sortKey": "date: 2018-03-15T11:15:00+00:00 id: 2018/03/15/bta00390ut305klangarnir0330032018",
+        "title": "Í suppuni",
+        "url": "https://kvf.fo/vit/sjonvarp/2018/03/15/bta00390ut305klangarnir0330032018",
+        "date": "2018-03-15T11:15:00+00:00"
+      },
+      {
+        "id": "2018/03/15/bta00391ut305klangarnir0406042018",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00391_ut305_klangarnir_04_06042018._0246.jpg?itok=OCTYWPVZ",
+        "mediaId": "BTA00391_UT305_Klangarnir_04_06042018",
+        "sortKey": "date: 2018-03-15T11:17:00+00:00 id: 2018/03/15/bta00391ut305klangarnir0406042018",
+        "title": "Bindimaskinan",
+        "url": "https://kvf.fo/vit/sjonvarp/2018/03/15/bta00391ut305klangarnir0406042018",
+        "date": "2018-03-15T11:17:00+00:00"
+      },
+      {
+        "id": "2018/03/15/bta00392ut305klangarnir0513042018",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/kl5.png?itok=uwdvSa2k",
+        "mediaId": "BTA00392_UT305_Klangarnir_05_13042018",
+        "sortKey": "date: 2018-03-15T14:20:00+00:00 id: 2018/03/15/bta00392ut305klangarnir0513042018",
+        "title": "Flúgvandi frosklingarnir",
+        "url": "https://kvf.fo/vit/sjonvarp/2018/03/15/bta00392ut305klangarnir0513042018",
+        "date": "2018-03-15T14:20:00+00:00"
+      },
+      {
+        "id": "2018/03/15/bta00393ut305klangarnir0620042018",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/kl6.png?itok=MF2ZQH1e",
+        "mediaId": "BTA00393_UT305_Klangarnir_06_20042018",
+        "sortKey": "date: 2018-03-15T14:52:00+00:00 id: 2018/03/15/bta00393ut305klangarnir0620042018",
+        "title": "Eg eri eggbotturin",
+        "url": "https://kvf.fo/vit/sjonvarp/2018/03/15/bta00393ut305klangarnir0620042018",
+        "date": "2018-03-15T14:52:00+00:00"
+      },
+      {
+        "id": "2018/03/15/bta00394ut305klangarnir0727042018",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/kl7.png?itok=YG2xrB2u",
+        "mediaId": "BTA00394_UT305_Klangarnir_07_27042018",
+        "sortKey": "date: 2018-03-15T15:35:00+00:00 id: 2018/03/15/bta00394ut305klangarnir0727042018",
+        "title": "Risaplantan",
+        "url": "https://kvf.fo/vit/sjonvarp/2018/03/15/bta00394ut305klangarnir0727042018",
+        "date": "2018-03-15T15:35:00+00:00"
       }
     ]
   },
@@ -4269,39 +4553,57 @@
     "url": "https://kvf.fo/vit/sending/sv/klumparnir",
     "episodes": [
       {
-        "id": "2023/08/01/bartal-hevur-fodingardag",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_5_hd_klumparnir_2016_0091.jpg?itok=8qD9aKC3",
-        "mediaId": "UT285_5_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/bartal-hevur-fodingardag",
-        "title": "Bartal hevur føðingardag",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/bartal-hevur-fodingardag",
+        "id": "2023/08/01/blida-og-tyda",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_14_hd_klumparnir_2016_0051.jpg?itok=65sBdC-P",
+        "mediaId": "UT285_14_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/blida-og-tyda",
+        "title": "Blíði og Týða",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/blida-og-tyda",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/bartal-hevur-fodingardag",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_5_hd_klumparnir_2016_0091.jpg?itok=8qD9aKC3",
-        "mediaId": "UT285_5_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/bartal-hevur-fodingardag",
-        "title": "Bartal hevur føðingardag",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/bartal-hevur-fodingardag",
+        "id": "2023/08/01/blida-og-tyda",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_14_hd_klumparnir_2016_0051.jpg?itok=65sBdC-P",
+        "mediaId": "UT285_14_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/blida-og-tyda",
+        "title": "Blíði og Týða",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/blida-og-tyda",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/dumbul-kongur-og-dimbul-drotning",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_18_hd_klumparnir_2016_0099.jpg?itok=vCduL_H_",
-        "mediaId": "UT285_18_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/dumbul-kongur-og-dimbul-drotning",
-        "title": "Dumbul kongur og dimbul drotning",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/dumbul-kongur-og-dimbul-drotning",
+        "id": "2023/08/01/dinsmoredagur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_24_hd_klumparnir_2016_0064.jpg?itok=Vu1OpUI9",
+        "mediaId": "UT285_24_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/dinsmoredagur",
+        "title": "Dinsmoredagur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/dinsmoredagur",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/dumbul-kongur-og-dimbul-drotning",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_18_hd_klumparnir_2016_0099.jpg?itok=vCduL_H_",
-        "mediaId": "UT285_18_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/dumbul-kongur-og-dimbul-drotning",
-        "title": "Dumbul kongur og dimbul drotning",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/dumbul-kongur-og-dimbul-drotning",
+        "id": "2023/08/01/dinsmoredagur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_24_hd_klumparnir_2016_0064.jpg?itok=Vu1OpUI9",
+        "mediaId": "UT285_24_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/dinsmoredagur",
+        "title": "Dinsmoredagur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/dinsmoredagur",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/ein-skattur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_13_hd_klumparnir_2016_0042.jpg?itok=J8u5K0Xv",
+        "mediaId": "UT285_13_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/ein-skattur",
+        "title": "Ein skattur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/ein-skattur",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/ein-skattur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_13_hd_klumparnir_2016_0042.jpg?itok=J8u5K0Xv",
+        "mediaId": "UT285_13_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/ein-skattur",
+        "title": "Ein skattur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/ein-skattur",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
@@ -4314,12 +4616,66 @@
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/fiolkongur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_6_hd_klumparnir_2016_0038.jpg?itok=pm1p6AX5",
-        "mediaId": "UT285_6_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/fiolkongur",
-        "title": "Fiólkongur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/fiolkongur",
+        "id": "2023/08/01/fidrikkur-i-frisutum-lag",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_16_hd_klumparnir_2016_0026.jpg?itok=8ZaACzzy",
+        "mediaId": "UT285_16_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/fidrikkur-i-frisutum-lag",
+        "title": "Fíðrikkur í frísutum lag",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/fidrikkur-i-frisutum-lag",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/fidrikkur-i-frisutum-lag",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_16_hd_klumparnir_2016_0026.jpg?itok=8ZaACzzy",
+        "mediaId": "UT285_16_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/fidrikkur-i-frisutum-lag",
+        "title": "Fíðrikkur í frísutum lag",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/fidrikkur-i-frisutum-lag",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/gandur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_11_hd_klumparnir_2016_0037.jpg?itok=01ui_x_y",
+        "mediaId": "UT285_11_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/gandur",
+        "title": "Gandur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/gandur",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/gandur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_11_hd_klumparnir_2016_0037.jpg?itok=01ui_x_y",
+        "mediaId": "UT285_11_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/gandur",
+        "title": "Gandur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/gandur",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/grava-eftir-pippeplum",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_10_hd_klumparnir_2016_0085.jpg?itok=YEnaWp9v",
+        "mediaId": "UT285_10_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/grava-eftir-pippeplum",
+        "title": "Grava eftir pippeplum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/grava-eftir-pippeplum",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/grava-eftir-pippeplum",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_10_hd_klumparnir_2016_0085.jpg?itok=YEnaWp9v",
+        "mediaId": "UT285_10_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/grava-eftir-pippeplum",
+        "title": "Grava eftir pippeplum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/grava-eftir-pippeplum",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/kipp-ordnar",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_26_hd_klumparnir_2016_0107.jpg?itok=AK5QPus3",
+        "mediaId": "UT285_26_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/kipp-ordnar",
+        "title": "Kipp orðnar",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/kipp-ordnar",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
@@ -4332,174 +4688,102 @@
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/klumpar-i-mjorka",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_3_hd_klumparnir_2016_0029.jpg?itok=SusTgxIZ",
-        "mediaId": "UT285_3_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/klumpar-i-mjorka",
-        "title": "Klumpar í mjørka",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/klumpar-i-mjorka",
+        "id": "2023/08/01/klumpfarsott",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_9_hd_klumparnir_2016_0048.jpg?itok=hB7ZGTW_",
+        "mediaId": "UT285_9_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/klumpfarsott",
+        "title": "Klumpfarsótt",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/klumpfarsott",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/klumpar-i-mjorka",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_3_hd_klumparnir_2016_0029.jpg?itok=SusTgxIZ",
-        "mediaId": "UT285_3_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/klumpar-i-mjorka",
-        "title": "Klumpar í mjørka",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/klumpar-i-mjorka",
+        "id": "2023/08/01/klumpfarsott",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_9_hd_klumparnir_2016_0048.jpg?itok=hB7ZGTW_",
+        "mediaId": "UT285_9_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/klumpfarsott",
+        "title": "Klumpfarsótt",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/klumpfarsott",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/kulur-pipphylur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_19_hd_klumparnir_2016_0038.jpg?itok=C4WdKI3x",
-        "mediaId": "UT285_19_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/kulur-pipphylur",
-        "title": "Kulur pipphylur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/kulur-pipphylur",
+        "id": "2023/08/01/prinsessan-og-pippeplid",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_12_hd_klumparnir_2016_0138.jpg?itok=pWNp1SVT",
+        "mediaId": "UT285_12_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/prinsessan-og-pippeplid",
+        "title": "Prinsessan og pippeplið",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/prinsessan-og-pippeplid",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/kulur-pipphylur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_19_hd_klumparnir_2016_0038.jpg?itok=C4WdKI3x",
-        "mediaId": "UT285_19_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/kulur-pipphylur",
-        "title": "Kulur pipphylur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/kulur-pipphylur",
+        "id": "2023/08/01/prinsessan-og-pippeplid",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_12_hd_klumparnir_2016_0138.jpg?itok=pWNp1SVT",
+        "mediaId": "UT285_12_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/prinsessan-og-pippeplid",
+        "title": "Prinsessan og pippeplið",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/prinsessan-og-pippeplid",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/kulur-pipphylur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_19_hd_klumparnir_2016_0038.jpg?itok=C4WdKI3x",
-        "mediaId": "UT285_19_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/kulur-pipphylur",
-        "title": "Kulur pipphylur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/kulur-pipphylur",
+        "id": "2023/08/01/stori-pippepla-sunnudagur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_1_hd_klumparnir_2016_0025.jpg?itok=M3Q5I-TW",
+        "mediaId": "UT285_1_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/stori-pippepla-sunnudagur-0",
+        "title": "Stóri Pippepla-sunnudagur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/stori-pippepla-sunnudagur-0",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/loyniveitslan",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_25_hd_klumparnir_2016_0058.jpg?itok=dAJZHrfw",
-        "mediaId": "UT285_25_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/loyniveitslan",
-        "title": "Loyniveitslan",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/loyniveitslan",
+        "id": "2023/08/01/stori-pippepla-sunnudagur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_1_hd_klumparnir_2016_0025.jpg?itok=M3Q5I-TW",
+        "mediaId": "UT285_1_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/stori-pippepla-sunnudagur-0",
+        "title": "Stóri Pippepla-sunnudagur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/stori-pippepla-sunnudagur-0",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/misljod",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_21_hd_klumparnir_2016_0028.jpg?itok=sblgJJH7",
-        "mediaId": "UT285_21_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/misljod",
-        "title": "Misljóð",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/misljod",
+        "id": "2023/08/01/super-klumpibumpurin",
+        "img": "https://kvf.fo/system/files/styles/news_xtra_xtra_large/private/ut285_8_hd_klumparnir_2016_0028.jpg?itok=hP-kSy4v",
+        "mediaId": "UT285_8_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/super-klumpibumpurin",
+        "title": "Super klumpibumpurin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/super-klumpibumpurin",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/misljod",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_21_hd_klumparnir_2016_0028.jpg?itok=sblgJJH7",
-        "mediaId": "UT285_21_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/misljod",
-        "title": "Misljóð",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/misljod",
+        "id": "2023/08/01/super-klumpibumpurin",
+        "img": "https://kvf.fo/system/files/styles/news_xtra_xtra_large/private/ut285_8_hd_klumparnir_2016_0028.jpg?itok=hP-kSy4v",
+        "mediaId": "UT285_8_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/super-klumpibumpurin",
+        "title": "Super klumpibumpurin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/super-klumpibumpurin",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/nattkjolaball",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_4_hd_klumparnir_2016_0101.jpg?itok=UEbxWPHz",
-        "mediaId": "UT285_4_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/nattkjolaball",
-        "title": "Náttkjólaball",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/nattkjolaball",
+        "id": "2023/08/01/veitslan",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_15_hd_klumparnir_2016_0046.jpg?itok=9df0KJV1",
+        "mediaId": "UT285_15_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/veitslan",
+        "title": "Veitslan",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/veitslan",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/nattkjolaball",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_4_hd_klumparnir_2016_0101.jpg?itok=UEbxWPHz",
-        "mediaId": "UT285_4_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/nattkjolaball",
-        "title": "Náttkjólaball",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/nattkjolaball",
+        "id": "2023/08/01/veitslan",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_15_hd_klumparnir_2016_0046.jpg?itok=9df0KJV1",
+        "mediaId": "UT285_15_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/veitslan",
+        "title": "Veitslan",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/veitslan",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/natturudagur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_2_hd_klumparnir_2016_0076.jpg?itok=B2vblYb-",
-        "mediaId": "UT285_2_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/natturudagur",
-        "title": "Náttúrudagur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/natturudagur",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
-        "id": "2023/08/01/natturudagur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_2_hd_klumparnir_2016_0076.jpg?itok=B2vblYb-",
-        "mediaId": "UT285_2_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/natturudagur",
-        "title": "Náttúrudagur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/natturudagur",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
-        "id": "2023/08/01/pipp-lympiada",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_23_hd_klumparnir_2016_0091.jpg?itok=J_m2s-5t",
-        "mediaId": "UT285_23_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/pipp-lympiada",
-        "title": "Pipp-lympiada",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/pipp-lympiada",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
-        "id": "2023/08/01/pipp-lympiada",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_23_hd_klumparnir_2016_0091.jpg?itok=J_m2s-5t",
-        "mediaId": "UT285_23_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/pipp-lympiada",
-        "title": "Pipp-lympiada",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/pipp-lympiada",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
-        "id": "2023/08/01/smilandi-pipp-bollar",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_7_hd_klumparnir_2016_0103.jpg?itok=YghtPa2W",
-        "mediaId": "UT285_7_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/smilandi-pipp-bollar",
-        "title": "Smílandi pipp-bollar",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/smilandi-pipp-bollar",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
-        "id": "2023/08/01/smukkurnar",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_20_hd_klumparnir_2016_0129.jpg?itok=pZcHbiyW",
-        "mediaId": "UT285_20_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/smukkurnar",
-        "title": "Smúkkurnar",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/smukkurnar",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
-        "id": "2023/08/01/smukkurnar",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_20_hd_klumparnir_2016_0129.jpg?itok=pZcHbiyW",
-        "mediaId": "UT285_20_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/smukkurnar",
-        "title": "Smúkkurnar",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/smukkurnar",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
-        "id": "2023/08/01/stjornuskot",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_22_hd_klumparnir_2016_0041.jpg?itok=SYGKwXTP",
-        "mediaId": "UT285_22_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/stjornuskot",
-        "title": "Stjørnuskot",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/stjornuskot",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
-        "id": "2023/08/01/stjornuskot",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_22_hd_klumparnir_2016_0041.jpg?itok=SYGKwXTP",
-        "mediaId": "UT285_22_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/stjornuskot",
-        "title": "Stjørnuskot",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/stjornuskot",
+        "id": "2023/08/01/veitslan",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_15_hd_klumparnir_2016_0046.jpg?itok=9df0KJV1",
+        "mediaId": "UT285_15_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/veitslan",
+        "title": "Veitslan",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/veitslan",
         "date": "2023-08-01T08:00:00+01:00"
       }
     ]
@@ -4724,30 +5008,21 @@
         "date": "2024-09-04T07:00:00+01:00"
       },
       {
+        "id": "2024/09/04/hvolpar-og-ballonkappingin",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_og_ballonkappingin.jpg?itok=XdAtFsYs",
+        "mediaId": "LABBALID_105_B",
+        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-og-ballonkappingin",
+        "title": "Hvølpar og ballónkappingin",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-ballonkappingin",
+        "date": "2024-09-04T07:00:00+01:00"
+      },
+      {
         "id": "2024/09/04/hvolpar-og-heystgildid",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/101_b.jpg?itok=j3ESWHeC",
         "mediaId": "LABBALID_101_B",
         "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-og-heystgildid",
         "title": "Hvølpar og heystgildið",
         "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-heystgildid",
-        "date": "2024-09-04T07:00:00+01:00"
-      },
-      {
-        "id": "2024/09/04/hvolpar-og-kavaskrimslid",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_og_kavaskrimslid.jpg?itok=TqbnhdWu",
-        "mediaId": "LABBALID_106_B",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-og-kavaskrimslid",
-        "title": "Hvølpar og kavaskrímslið",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-kavaskrimslid",
-        "date": "2024-09-04T07:00:00+01:00"
-      },
-      {
-        "id": "2024/09/04/hvolpar-og-kettlingur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_og_kettlingar.jpg?itok=HjqME7mU",
-        "mediaId": "LABBALID_103_A",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-og-kettlingur",
-        "title": "Hvølpar og kettlingur",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-kettlingur",
         "date": "2024-09-04T07:00:00+01:00"
       },
       {
@@ -4766,6 +5041,15 @@
         "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-skvatla",
         "title": "Hvølpar skvatla",
         "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-skvatla",
+        "date": "2024-09-04T07:00:00+01:00"
+      },
+      {
+        "id": "2024/09/04/hvolparnir-og-gasin",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolparnir_og_gasin.jpg?itok=oZrS7joi",
+        "mediaId": "LABBALID_105_A",
+        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolparnir-og-gasin",
+        "title": "Hvølparnir og gásin",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolparnir-og-gasin",
         "date": "2024-09-04T07:00:00+01:00"
       },
       {
@@ -5585,15 +5869,6 @@
     "url": "https://kvf.fo/vit/sending/sv/meir-um-okkum-i-dundurdali",
     "episodes": [
       {
-        "id": "2024/03/20/bta00110ut360meirumokkumidundurdali24042011",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini_i_dundurdali_1920x1080_2.jpg?itok=O1QZbDeP",
-        "mediaId": "BTA00110_UT360_Meir_um_okkum_i_Dundurdali_24042011",
-        "sortKey": "date: 2024-03-20T12:07:00+00:00 id: 2024/03/20/bta00110ut360meirumokkumidundurdali24042011",
-        "title": "Meir um okkum í Dundurdali",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/03/20/bta00110ut360meirumokkumidundurdali24042011",
-        "date": "2024-03-20T12:07:00+00:00"
-      },
-      {
         "id": "2024/03/27/1-partur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini_i_dundurdali.jpg?itok=o2RoQVB-",
         "mediaId": "BTA00072_BL1537_Bornini_i_Dundurdali_1_rattad",
@@ -5655,535 +5930,6 @@
         "title": "7. partur",
         "url": "https://kvf.fo/vit/sjonvarp/2024/03/27/7-partur",
         "date": "2024-03-27T14:30:00+00:00"
-      }
-    ]
-  },
-  {
-    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/morsa.png?itok=8MZ_Z1PA",
-    "title": "Morsa",
-    "url": "https://kvf.fo/vit/sending/sv/morsa",
-    "episodes": [
-      {
-        "id": "2016/09/09/morsa-1-sending",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061.jpg?itok=xfVNpNsq",
-        "mediaId": "MORSA_1",
-        "sortKey": "date: 2016-09-09T13:00:00+01:00 id: 2016/09/09/morsa-1-sending",
-        "title": "Dugir tú at morsa?",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/09/09/morsa-1-sending",
-        "date": "2016-09-09T13:00:00+01:00"
-      },
-      {
-        "id": "2016/09/19/bar00032morsa2sd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00032_morsa2_sd._0047.jpg?itok=-wEQR-wj",
-        "mediaId": "BAR00032_MORSA2_SD",
-        "sortKey": "date: 2016-09-19T14:15:00+01:00 id: 2016/09/19/bar00032morsa2sd",
-        "title": "Í havanum við Jákup",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/09/19/bar00032morsa2sd",
-        "date": "2016-09-19T14:15:00+01:00"
-      },
-      {
-        "id": "2016/09/23/bar00033morsa3sd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00033_morsa3_sd._0037.jpg?itok=DnDEtelP",
-        "mediaId": "BAR00033_MORSA3_SD",
-        "sortKey": "date: 2016-09-23T13:30:00+01:00 id: 2016/09/23/bar00033morsa3sd",
-        "title": "Fanga kombikk",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/09/23/bar00033morsa3sd",
-        "date": "2016-09-23T13:30:00+01:00"
-      },
-      {
-        "id": "2016/09/30/bar00034morsa4hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/m4.png?itok=f_5xrv2e",
-        "mediaId": "BAR00034_MORSA4_HD",
-        "sortKey": "date: 2016-09-30T15:00:00+01:00 id: 2016/09/30/bar00034morsa4hd",
-        "title": "Lombini í barnagarðinum",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/09/30/bar00034morsa4hd",
-        "date": "2016-09-30T15:00:00+01:00"
-      },
-      {
-        "id": "2016/10/07/bar00035morsa5hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00035_morsa5_hd._0055.jpg?itok=or2vRwR_",
-        "mediaId": "BAR00035_MORSA5_HD",
-        "sortKey": "date: 2016-10-07T15:00:00+01:00 id: 2016/10/07/bar00035morsa5hd",
-        "title": "Morsa við fruktum og grønmeti",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/10/07/bar00035morsa5hd",
-        "date": "2016-10-07T15:00:00+01:00"
-      },
-      {
-        "id": "2016/10/20/bar00037morsa7hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00037_morsa7_hd._0063.jpg?itok=DJx7KyVS",
-        "mediaId": "BAR00037_MORSA7_HD",
-        "sortKey": "date: 2016-10-20T09:15:00+01:00 id: 2016/10/20/bar00037morsa7hd",
-        "title": "Baka bollar",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/10/20/bar00037morsa7hd",
-        "date": "2016-10-20T09:15:00+01:00"
-      },
-      {
-        "id": "2016/10/20/bar00036morsa6hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00036_morsa6_hd._0063.jpg?itok=SIVuiebr",
-        "mediaId": "BAR00036_MORSA6_HD",
-        "sortKey": "date: 2016-10-20T11:00:00+01:00 id: 2016/10/20/bar00036morsa6hd",
-        "title": "Venja við Jákupi",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/10/20/bar00036morsa6hd",
-        "date": "2016-10-20T11:00:00+01:00"
-      },
-      {
-        "id": "2016/10/29/bar00038morsa8",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00038_morsa8._0075.jpg?itok=wJl4w0FA",
-        "mediaId": "BAR00038_MORSA8",
-        "sortKey": "date: 2016-10-29T16:45:00+01:00 id: 2016/10/29/bar00038morsa8",
-        "title": "Jákup manglar orð",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/10/29/bar00038morsa8",
-        "date": "2016-10-29T16:45:00+01:00"
-      },
-      {
-        "id": "2016/10/31/bar00039morsa9hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00039_morsa9_hd._0032.jpg?itok=__t9PwqW",
-        "mediaId": "BAR00039_MORSA9_HD",
-        "sortKey": "date: 2016-10-31T14:30:00+00:00 id: 2016/10/31/bar00039morsa9hd",
-        "title": "Jákup er sjúkur",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/10/31/bar00039morsa9hd",
-        "date": "2016-10-31T14:30:00+00:00"
-      },
-      {
-        "id": "2016/11/11/bar00040morsa10hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00040_morsa10_hd._0044.jpg?itok=oX6oiMSz",
-        "mediaId": "BAR00040_MORSA10_HD",
-        "sortKey": "date: 2016-11-11T14:30:00+00:00 id: 2016/11/11/bar00040morsa10hd",
-        "title": "Morsa við leikum",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/11/11/bar00040morsa10hd",
-        "date": "2016-11-11T14:30:00+00:00"
-      },
-      {
-        "id": "2016/11/17/bar00041morsa11hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00041_morsa11_hd._0101.jpg?itok=ySzXQzaE",
-        "mediaId": "BAR00041_MORSA11_HD",
-        "sortKey": "date: 2016-11-17T11:30:00+00:00 id: 2016/11/17/bar00041morsa11hd",
-        "title": "Morsa við klaverspæli",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/11/17/bar00041morsa11hd",
-        "date": "2016-11-17T11:30:00+00:00"
-      },
-      {
-        "id": "2016/11/28/bar00042morsa12hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00042_morsa12_hd._0057.jpg?itok=xpyyZiLO",
-        "mediaId": "BAR00042_MORSA12_HD",
-        "sortKey": "date: 2016-11-28T15:30:00+00:00 id: 2016/11/28/bar00042morsa12hd",
-        "title": "Morsa við ballóndjórum",
-        "url": "https://kvf.fo/vit/sjonvarp/2016/11/28/bar00042morsa12hd",
-        "date": "2016-11-28T15:30:00+00:00"
-      },
-      {
-        "id": "2017/02/10/morsa-10-februar",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_2_1_hd2._0025.jpg?itok=II_GWGP4",
-        "mediaId": "Morsa_2_1_HD2",
-        "sortKey": "date: 2017-02-10T13:00:00+00:00 id: 2017/02/10/morsa-10-februar",
-        "title": "Dugir tú enn at morsa?",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/02/10/morsa-10-februar",
-        "date": "2017-02-10T13:00:00+00:00"
-      },
-      {
-        "id": "2017/02/17/morsa-17-februar",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_2_21_hd._0013.jpg?itok=fNyvSq8x",
-        "mediaId": "Morsa_2_21_HD",
-        "sortKey": "date: 2017-02-17T13:45:00+00:00 id: 2017/02/17/morsa-17-februar",
-        "title": "Loynipennurin",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/02/17/morsa-17-februar",
-        "date": "2017-02-17T13:45:00+00:00"
-      },
-      {
-        "id": "2017/02/24/morsa",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_2_3_hd._0017.jpg?itok=BThxdD08",
-        "mediaId": "Morsa_2_3_HD",
-        "sortKey": "date: 2017-02-24T14:30:00+00:00 id: 2017/02/24/morsa",
-        "title": "Rista rúnir",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/02/24/morsa",
-        "date": "2017-02-24T14:30:00+00:00"
-      },
-      {
-        "id": "2017/03/02/bar00046morsa24hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00046_morsa_2_4_hd._0013.jpg?itok=PNNzvLDk",
-        "mediaId": "BAR00046_Morsa_2_4_HD",
-        "sortKey": "date: 2017-03-02T11:45:00+00:00 id: 2017/03/02/bar00046morsa24hd",
-        "title": "Heimagjørt walkie-talkie",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/03/02/bar00046morsa24hd",
-        "date": "2017-03-02T11:45:00+00:00"
-      },
-      {
-        "id": "2017/03/10/bar00047morsa25hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00047_morsa_2_5_hd._0025_0.jpg?itok=RoI42tkI",
-        "mediaId": "BAR00047_Morsa_2_5_HD",
-        "sortKey": "date: 2017-03-10T10:30:00+00:00 id: 2017/03/10/bar00047morsa25hd",
-        "title": "Loyniboðini",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/03/10/bar00047morsa25hd",
-        "date": "2017-03-10T10:30:00+00:00"
-      },
-      {
-        "id": "2017/03/10/bar00048morsa26hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00048_morsa_2_6_hd._0016.jpg?itok=3Kggc6qj",
-        "mediaId": "BAR00048_Morsa_2_6_HD",
-        "sortKey": "date: 2017-03-10T11:00:00+00:00 id: 2017/03/10/bar00048morsa26hd",
-        "title": "Sjórænara-Jákup og ávaringarljóðið",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/03/10/bar00048morsa26hd",
-        "date": "2017-03-10T11:00:00+00:00"
-      },
-      {
-        "id": "2017/03/24/bar00049morsa27hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_2_2_hd._0014.jpg?itok=xMANahZT",
-        "mediaId": "BAR00049_Morsa_2_7_HD",
-        "sortKey": "date: 2017-03-24T15:30:00+00:00 id: 2017/03/24/bar00049morsa27hd",
-        "title": "Loyniskriftin hjá Jákupi",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/03/24/bar00049morsa27hd",
-        "date": "2017-03-24T15:30:00+00:00"
-      },
-      {
-        "id": "2017/03/27/bar00050morsa28hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00050_morsa_2_8_hd._0020.jpg?itok=yHABa8ts",
-        "mediaId": "BAR00050_Morsa_2_8_HD",
-        "sortKey": "date: 2017-03-27T14:00:00+01:00 id: 2017/03/27/bar00050morsa28hd",
-        "title": "Morsa við spíssum",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/03/27/bar00050morsa28hd",
-        "date": "2017-03-27T14:00:00+01:00"
-      },
-      {
-        "id": "2017/04/06/bar00051morsa29hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00051_morsa_2_9_hd._0012.jpg?itok=vXU6uE8w",
-        "mediaId": "BAR00051_Morsa_2_9_HD",
-        "sortKey": "date: 2017-04-06T14:45:00+01:00 id: 2017/04/06/bar00051morsa29hd",
-        "title": "Morsa sum flogskiparar",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/04/06/bar00051morsa29hd",
-        "date": "2017-04-06T14:45:00+01:00"
-      },
-      {
-        "id": "2017/04/21/bar00052morsa210hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00052_morsa_2_10_hd._0017.jpg?itok=BY2Vz1iD",
-        "mediaId": "BAR00052_Morsa_2_10_HD",
-        "sortKey": "date: 2017-04-21T11:36:00+01:00 id: 2017/04/21/bar00052morsa210hd",
-        "title": "Spión-Jákup",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/04/21/bar00052morsa210hd",
-        "date": "2017-04-21T11:36:00+01:00"
-      },
-      {
-        "id": "2017/04/28/bar00053morsa211sd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00053_morsa_2_11_sd._0018.jpg?itok=qhfV8HtO",
-        "mediaId": "BAR00053_Morsa_2_11_SD",
-        "sortKey": "date: 2017-04-28T14:39:00+01:00 id: 2017/04/28/bar00053morsa211sd",
-        "title": "Hornakikarin",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/04/28/bar00053morsa211sd",
-        "date": "2017-04-28T14:39:00+01:00"
-      },
-      {
-        "id": "2017/05/04/bar00054morsa212hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00054_morsa_2_12_hd._0022.jpg?itok=VP_QPdmI",
-        "mediaId": "BAR00054_Morsa_2_12_HD",
-        "sortKey": "date: 2017-05-04T15:16:00+01:00 id: 2017/05/04/bar00054morsa212hd",
-        "title": "Morsa við blindskrift",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/05/04/bar00054morsa212hd",
-        "date": "2017-05-04T15:16:00+01:00"
-      },
-      {
-        "id": "2017/09/15/bar00056",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00055._0021.jpg?itok=GETvvOaq",
-        "mediaId": "BAR00055",
-        "sortKey": "date: 2017-09-15T10:22:00+01:00 id: 2017/09/15/bar00056",
-        "title": "Hevur tú sæð Jákup?",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/09/15/bar00056",
-        "date": "2017-09-15T10:22:00+01:00"
-      },
-      {
-        "id": "2017/09/15/morsa-22-september",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00056._0020.jpg?itok=NUXQLv2Y",
-        "mediaId": "BAR00056",
-        "sortKey": "date: 2017-09-15T13:40:00+01:00 id: 2017/09/15/morsa-22-september",
-        "title": "Loynilig tekin ",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/09/15/morsa-22-september",
-        "date": "2017-09-15T13:40:00+01:00"
-      },
-      {
-        "id": "2017/09/19/bar00058hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00055._0021.jpg?itok=GETvvOaq",
-        "mediaId": "BAR00058_HD",
-        "sortKey": "date: 2017-09-19T16:37:00+01:00 id: 2017/09/19/bar00058hd",
-        "title": "Stolin loyniskrift",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/09/19/bar00058hd",
-        "date": "2017-09-19T16:37:00+01:00"
-      },
-      {
-        "id": "2017/09/22/bar00057hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00057_hd._0019.jpg?itok=FolDtQPO",
-        "mediaId": "BAR00057_HD",
-        "sortKey": "date: 2017-09-22T13:30:00+01:00 id: 2017/09/22/bar00057hd",
-        "title": "Enn ein loyniskrift",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/09/22/bar00057hd",
-        "date": "2017-09-22T13:30:00+01:00"
-      },
-      {
-        "id": "2017/10/03/bar00059hd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00059_hd._0045.jpg?itok=F-Vc_RG_",
-        "mediaId": "BAR00059_HD",
-        "sortKey": "date: 2017-10-03T14:03:00+01:00 id: 2017/10/03/bar00059hd",
-        "title": "Loynibræv frá Palla",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/10/03/bar00059hd",
-        "date": "2017-10-03T14:03:00+01:00"
-      },
-      {
-        "id": "2017/10/20/bar00060hdbl1760morsa620102017",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00060_hd_bl1760_morsa_6_20102017._0012.jpg?itok=AGqL7FTQ",
-        "mediaId": "BAR00060_HD_BL1760_Morsa_6_20102017",
-        "sortKey": "date: 2017-10-20T13:46:00+01:00 id: 2017/10/20/bar00060hdbl1760morsa620102017",
-        "title": "Loyniboðini í karamelluni",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/10/20/bar00060hdbl1760morsa620102017",
-        "date": "2017-10-20T13:46:00+01:00"
-      },
-      {
-        "id": "2017/10/24/bar00061hdbl1760morsa727102017",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00061_hd_bl1760_morsa_7_27102017._0011.jpg?itok=Kw-NQ3Qg",
-        "mediaId": "BAR00061_HD_BL1760_Morsa_7_27102017",
-        "sortKey": "date: 2017-10-24T14:44:00+01:00 id: 2017/10/24/bar00061hdbl1760morsa727102017",
-        "title": "Loyniliga málið",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/10/24/bar00061hdbl1760morsa727102017",
-        "date": "2017-10-24T14:44:00+01:00"
-      },
-      {
-        "id": "2017/11/01/bar00064hdbl1760morsa1017112017",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00064_hd_bl1760_morsa_10_17112017._0012.jpg?itok=9Tvy5EGS",
-        "mediaId": "BAR00064_HD_BL1760_Morsa_10_17112017",
-        "sortKey": "date: 2017-11-01T16:32:00+00:00 id: 2017/11/01/bar00064hdbl1760morsa1017112017",
-        "title": "Eitt stuttligt loynimál",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/11/01/bar00064hdbl1760morsa1017112017",
-        "date": "2017-11-01T16:32:00+00:00"
-      },
-      {
-        "id": "2017/11/17/bar00065hdbl1760morsa1124112017",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00064_hd_bl1760_morsa_10_17112017._0008.jpg?itok=A9MqNAic",
-        "mediaId": "BAR00065_HD_BL1760_Morsa_11_24112017",
-        "sortKey": "date: 2017-11-17T10:38:00+00:00 id: 2017/11/17/bar00065hdbl1760morsa1124112017",
-        "title": "Morsa við myndagátum",
-        "url": "https://kvf.fo/vit/sjonvarp/2017/11/17/bar00065hdbl1760morsa1124112017",
-        "date": "2017-11-17T10:38:00+00:00"
-      },
-      {
-        "id": "2019/09/27/morsa-2-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00032_BL1711_SD_Morsa_2_16092016",
-        "sortKey": "date: 2019-09-27T12:00:00+01:00 id: 2019/09/27/morsa-2-partur",
-        "title": "Morsa 2. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/09/27/morsa-2-partur",
-        "date": "2019-09-27T12:00:00+01:00"
-      },
-      {
-        "id": "2019/10/04/morsa-3-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00033_BL1711_SD_Morsa_3_23092016",
-        "sortKey": "date: 2019-10-04T12:00:00+01:00 id: 2019/10/04/morsa-3-partur",
-        "title": "Morsa 3. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/10/04/morsa-3-partur",
-        "date": "2019-10-04T12:00:00+01:00"
-      },
-      {
-        "id": "2019/10/11/morsa-4-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00034_BL1711_SD_Morsa_4_30092016",
-        "sortKey": "date: 2019-10-11T12:00:00+01:00 id: 2019/10/11/morsa-4-partur",
-        "title": "Morsa 4. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/10/11/morsa-4-partur",
-        "date": "2019-10-11T12:00:00+01:00"
-      },
-      {
-        "id": "2019/10/18/morsa-5-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00035_BL1711_SD_Morsa_5_07102016",
-        "sortKey": "date: 2019-10-18T12:00:00+01:00 id: 2019/10/18/morsa-5-partur",
-        "title": "Morsa 5. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/10/18/morsa-5-partur",
-        "date": "2019-10-18T12:00:00+01:00"
-      },
-      {
-        "id": "2019/10/25/morsa-6-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00036_BL1711_HD_Morsa_6_14102016",
-        "sortKey": "date: 2019-10-25T12:00:00+01:00 id: 2019/10/25/morsa-6-partur",
-        "title": "Morsa 6. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/10/25/morsa-6-partur",
-        "date": "2019-10-25T12:00:00+01:00"
-      },
-      {
-        "id": "2019/11/04/bar00038bl1711sdmorsa828102016",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00038_BL1711_SD_Morsa_8_28102016",
-        "sortKey": "date: 2019-11-08T12:00:00+00:00 id: 2019/11/04/bar00038bl1711sdmorsa828102016",
-        "title": "Morsa 8. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/11/04/bar00038bl1711sdmorsa828102016",
-        "date": "2019-11-08T12:00:00+00:00"
-      },
-      {
-        "id": "2019/11/15/morsa-9-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00039_BL1711_SD_Morsa_9_04112016",
-        "sortKey": "date: 2019-11-15T12:00:00+00:00 id: 2019/11/15/morsa-9-partur",
-        "title": "Morsa 9. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/11/15/morsa-9-partur",
-        "date": "2019-11-15T12:00:00+00:00"
-      },
-      {
-        "id": "2019/11/22/morsa-10partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00040_HD_BL1711_Morsa_10_11112016",
-        "sortKey": "date: 2019-11-22T12:00:00+00:00 id: 2019/11/22/morsa-10partur",
-        "title": "Morsa 10. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/11/22/morsa-10partur",
-        "date": "2019-11-22T12:00:00+00:00"
-      },
-      {
-        "id": "2020/01/07/bar00044hdbl1728morsa217022017",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00054_morsa_2_12_hd._0022.jpg?itok=VP_QPdmI",
-        "mediaId": "BAR00044_HD_BL1728_Morsa_2_17022017",
-        "sortKey": "date: 2020-01-14T14:00:00+00:00 id: 2020/01/07/bar00044hdbl1728morsa217022017",
-        "title": "Morsa 2.umfar - 2. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/01/07/bar00044hdbl1728morsa217022017",
-        "date": "2020-01-14T14:00:00+00:00"
-      },
-      {
-        "id": "2020/01/14/morsa-2-umfar-1-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00051_morsa_2_9_hd._0012.jpg?itok=vXU6uE8w",
-        "mediaId": "BAR00043_BL1728_Morsa_1_10022017",
-        "sortKey": "date: 2020-01-14T14:45:00+00:00 id: 2020/01/14/morsa-2-umfar-1-partur",
-        "title": "Morsa 2. umfar - 1. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/01/14/morsa-2-umfar-1-partur",
-        "date": "2020-01-14T14:45:00+00:00"
-      },
-      {
-        "id": "2020/01/17/morsa-2-umfar-3-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00053_morsa_2_11_sd._0018.jpg?itok=qhfV8HtO",
-        "mediaId": "BAR00045_BL1728_Morsa_3_24022017",
-        "sortKey": "date: 2020-01-17T12:00:00+00:00 id: 2020/01/17/morsa-2-umfar-3-partur",
-        "title": "Morsa 2. umfar 3. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/01/17/morsa-2-umfar-3-partur",
-        "date": "2020-01-17T12:00:00+00:00"
-      },
-      {
-        "id": "2020/01/24/morsa-2umfar-4-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_2_21_hd._0013.jpg?itok=fNyvSq8x",
-        "mediaId": "BAR00046_HD_BL1728_Morsa_4_03032017",
-        "sortKey": "date: 2020-01-24T10:00:00+00:00 id: 2020/01/24/morsa-2umfar-4-partur",
-        "title": "Morsa 2.umfar - 4. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/01/24/morsa-2umfar-4-partur",
-        "date": "2020-01-24T10:00:00+00:00"
-      },
-      {
-        "id": "2020/01/31/morsa-2-umfar-5-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00047_morsa_2_5_hd._0025_0.jpg?itok=RoI42tkI",
-        "mediaId": "BAR00047_BL1728_Morsa_5_10032017",
-        "sortKey": "date: 2020-01-31T12:00:00+00:00 id: 2020/01/31/morsa-2-umfar-5-partur",
-        "title": "Morsa 2. umfar 5. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/01/31/morsa-2-umfar-5-partur",
-        "date": "2020-01-31T12:00:00+00:00"
-      },
-      {
-        "id": "2020/02/07/morsa-2-umfar-6-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00048_morsa_2_6_hd._0016.jpg?itok=3Kggc6qj",
-        "mediaId": "BAR00048_BL1728_Morsa_6_17032017",
-        "sortKey": "date: 2020-02-07T12:00:00+00:00 id: 2020/02/07/morsa-2-umfar-6-partur",
-        "title": "Morsa 2. umfar - 6. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/02/07/morsa-2-umfar-6-partur",
-        "date": "2020-02-07T12:00:00+00:00"
-      },
-      {
-        "id": "2020/02/24/morsa-2-umfar-8-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00050_morsa_2_8_hd._0020.jpg?itok=yHABa8ts",
-        "mediaId": "BAR00050_BL1728_Morsa_8_28032017",
-        "sortKey": "date: 2020-02-24T16:30:00+00:00 id: 2020/02/24/morsa-2-umfar-8-partur",
-        "title": "Morsa 2. umfar - 8. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/02/24/morsa-2-umfar-8-partur",
-        "date": "2020-02-24T16:30:00+00:00"
-      },
-      {
-        "id": "2020/02/28/morsa-2-umfar-9-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_2_3_hd._0017.jpg?itok=BThxdD08",
-        "mediaId": "BAR00051_BL1728_Morsa_9_04042017",
-        "sortKey": "date: 2020-02-28T12:00:00+00:00 id: 2020/02/28/morsa-2-umfar-9-partur",
-        "title": "Morsa 2. umfar - 9. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/02/28/morsa-2-umfar-9-partur",
-        "date": "2020-02-28T12:00:00+00:00"
-      },
-      {
-        "id": "2020/03/06/morsa-2-umfar-10-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00040_morsa10_hd._0044.jpg?itok=oX6oiMSz",
-        "mediaId": "BAR00052_BL1728_Morsa_10_11042017",
-        "sortKey": "date: 2020-03-06T12:00:00+00:00 id: 2020/03/06/morsa-2-umfar-10-partur",
-        "title": "Morsa 2. umfar - 10. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/03/06/morsa-2-umfar-10-partur",
-        "date": "2020-03-06T12:00:00+00:00"
-      },
-      {
-        "id": "2020/03/13/morsa-2-umfar-11-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00053_morsa_2_11_sd._0018.jpg?itok=qhfV8HtO",
-        "mediaId": "BAR00053_BL1728_Morsa_11_18042017",
-        "sortKey": "date: 2020-03-13T12:00:00+00:00 id: 2020/03/13/morsa-2-umfar-11-partur",
-        "title": "Morsa 2. umfar - 11. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/03/13/morsa-2-umfar-11-partur",
-        "date": "2020-03-13T12:00:00+00:00"
-      },
-      {
-        "id": "2020/03/20/morsa-2-umfar-12-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00054_morsa_2_12_hd._0022.jpg?itok=VP_QPdmI",
-        "mediaId": "BAR00054_BL1728_Morsa_12_25042017",
-        "sortKey": "date: 2020-03-20T12:00:00+00:00 id: 2020/03/20/morsa-2-umfar-12-partur",
-        "title": "Morsa 2. umfar - 12. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/03/20/morsa-2-umfar-12-partur",
-        "date": "2020-03-20T12:00:00+00:00"
-      },
-      {
-        "id": "2020/03/27/morsa-1-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00055_HD_BL1760_Morsa_1_15092017Sending_01_HD",
-        "sortKey": "date: 2020-03-27T12:00:00+00:00 id: 2020/03/27/morsa-1-partur",
-        "title": "Morsa 1. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/03/27/morsa-1-partur",
-        "date": "2020-03-27T12:00:00+00:00"
-      },
-      {
-        "id": "2020/04/03/morsa-2-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00056_BL1760_Morsa_2_22092017",
-        "sortKey": "date: 2020-04-03T12:00:00+01:00 id: 2020/04/03/morsa-2-partur",
-        "title": "Morsa 2. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/03/morsa-2-partur",
-        "date": "2020-04-03T12:00:00+01:00"
-      },
-      {
-        "id": "2020/04/10/morsa-3-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00057_BL1760_Morsa_3_29092017",
-        "sortKey": "date: 2020-04-10T12:00:00+01:00 id: 2020/04/10/morsa-3-partur",
-        "title": "Morsa 3. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/10/morsa-3-partur",
-        "date": "2020-04-10T12:00:00+01:00"
-      },
-      {
-        "id": "2020/04/20/bar00059bl1760morsa513102017",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00059_BL1760_Morsa_5_13102017",
-        "sortKey": "date: 2020-05-01T12:00:00+01:00 id: 2020/04/20/bar00059bl1760morsa513102017",
-        "title": "Morsa 5. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/20/bar00059bl1760morsa513102017",
-        "date": "2020-05-01T12:00:00+01:00"
-      },
-      {
-        "id": "2020/04/27/bar00060bl1760morsa620102017",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00060_BL1760_Morsa_6_20102017",
-        "sortKey": "date: 2020-05-01T12:00:00+01:00 id: 2020/04/27/bar00060bl1760morsa620102017",
-        "title": "Morsa 6. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/27/bar00060bl1760morsa620102017",
-        "date": "2020-05-01T12:00:00+01:00"
-      },
-      {
-        "id": "2019/10/28/bar00037bl1711sdmorsa721102016",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
-        "mediaId": "BAR00037_BL1711_SD_Morsa_7_21102016",
-        "sortKey": "date: 2020-05-08T12:00:00+01:00 id: 2019/10/28/bar00037bl1711sdmorsa721102016",
-        "title": "Morsa 7. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/10/28/bar00037bl1711sdmorsa721102016",
-        "date": "2020-05-08T12:00:00+01:00"
       }
     ]
   },
@@ -6319,12 +6065,12 @@
         "date": "2020-03-26T20:00:00+00:00"
       },
       {
-        "id": "2020/03/26/mouk-14-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_14.png?itok=ZV5Gy3CO",
-        "mediaId": "UT362_Mouk_14_2018",
-        "sortKey": "date: 2020-03-26T20:00:00+00:00 id: 2020/03/26/mouk-14-partur",
-        "title": "Holi",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/03/26/mouk-14-partur",
+        "id": "2020/03/26/mouk-15-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_15.png?itok=agmFelK9",
+        "mediaId": "UT362_Mouk_15_2018",
+        "sortKey": "date: 2020-03-26T20:00:00+00:00 id: 2020/03/26/mouk-15-partur",
+        "title": "Mál",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/03/26/mouk-15-partur",
         "date": "2020-03-26T20:00:00+00:00"
       },
       {
@@ -9223,6 +8969,24 @@
         "title": "Snipp Snapp",
         "url": "https://kvf.fo/vit/sjonvarp/2024/09/27/sni00353",
         "date": "2024-11-13T12:00:00+00:00"
+      },
+      {
+        "id": "2024/09/27/sni00354",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/katrin_og_lydia.jpg?itok=qa5CULof",
+        "mediaId": "SNI00354",
+        "sortKey": "date: 2024-11-20T12:00:00+00:00 id: 2024/09/27/sni00354",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/27/sni00354",
+        "date": "2024-11-20T12:00:00+00:00"
+      },
+      {
+        "id": "2024/09/27/sni00355",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/uni_og_katrin.jpg?itok=zbJPGR_6",
+        "mediaId": "SNI00355",
+        "sortKey": "date: 2024-11-27T12:00:00+00:00 id: 2024/09/27/sni00355",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/27/sni00355",
+        "date": "2024-11-27T12:00:00+00:00"
       }
     ]
   },
@@ -10899,21 +10663,12 @@
         "date": "2015-09-10T12:15:00+01:00"
       },
       {
-        "id": "2015/09/10/janus-teknar-eina-bamsu",
+        "id": "2015/09/10/janus-teknar-ein-prins",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
-        "mediaId": "vit_janus_4",
-        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-eina-bamsu",
-        "title": "Janus teknar eina bamsu",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-eina-bamsu",
-        "date": "2015-09-10T12:15:00+01:00"
-      },
-      {
-        "id": "2015/09/10/janus-teknar-eina-bamsu",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
-        "mediaId": "vit_janus_4",
-        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-eina-bamsu",
-        "title": "Janus teknar eina bamsu",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-eina-bamsu",
+        "mediaId": "vit_janus_8",
+        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-ein-prins",
+        "title": "Janus teknar ein prins",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-ein-prins",
         "date": "2015-09-10T12:15:00+01:00"
       },
       {
@@ -10926,12 +10681,21 @@
         "date": "2015-09-10T12:15:00+01:00"
       },
       {
-        "id": "2015/09/10/janus-teknar-paskaungar",
+        "id": "2015/09/10/janus-teknar-eina-prinsessu",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
-        "mediaId": "vit_janus_3",
-        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-paskaungar",
-        "title": "Janus teknar páskaungar",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-paskaungar",
+        "mediaId": "vit_janus_6",
+        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-eina-prinsessu",
+        "title": "Janus teknar eina prinsessu",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-eina-prinsessu",
+        "date": "2015-09-10T12:15:00+01:00"
+      },
+      {
+        "id": "2015/09/10/janus-teknar-eina-prinsessu",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
+        "mediaId": "vit_janus_6",
+        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-eina-prinsessu",
+        "title": "Janus teknar eina prinsessu",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-eina-prinsessu",
         "date": "2015-09-10T12:15:00+01:00"
       },
       {
