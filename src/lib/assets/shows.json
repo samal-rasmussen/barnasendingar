@@ -1548,6 +1548,15 @@
         "date": "2015-09-10T10:30:00+01:00"
       },
       {
+        "id": "2015/09/10/bingo",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
+        "mediaId": "vit_bingo",
+        "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/bingo",
+        "title": "Bingo",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/bingo",
+        "date": "2015-09-10T10:30:00+01:00"
+      },
+      {
         "id": "2015/09/10/kennir-tu-blomurinar",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
         "mediaId": "vit_kennur_tu_blomur",
@@ -1575,15 +1584,6 @@
         "date": "2015-09-10T10:30:00+01:00"
       },
       {
-        "id": "2015/09/10/sig-maer-sast-tu-tad",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
-        "mediaId": "vit_sast_tu",
-        "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/sig-maer-sast-tu-tad",
-        "title": "Sig mær sást tú tað",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/sig-maer-sast-tu-tad",
-        "date": "2015-09-10T10:30:00+01:00"
-      },
-      {
         "id": "2015/09/10/sol-uti-sol-inni",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
         "mediaId": "vit_sol_ut_inn",
@@ -1593,12 +1593,12 @@
         "date": "2015-09-10T10:30:00+01:00"
       },
       {
-        "id": "2015/09/10/sol-uti-sol-inni",
+        "id": "2015/09/10/vilt-tu",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
-        "mediaId": "vit_sol_ut_inn",
-        "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/sol-uti-sol-inni",
-        "title": "Sól úti, sól inni",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/sol-uti-sol-inni",
+        "mediaId": "vit_vilt_tu",
+        "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/vilt-tu",
+        "title": "Vilt tú",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/vilt-tu",
         "date": "2015-09-10T10:30:00+01:00"
       },
       {
@@ -2096,6 +2096,24 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
+        "id": "dlgarnir-5-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00005",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-5-partur",
+        "title": "Dólgarnir (05:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-5-partur",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "dlgarnir-6-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00006",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-6-partur",
+        "title": "Dólgarnir (06:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-6-partur",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
         "id": "dlgarnir-7-partur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
         "mediaId": "DOL00007",
@@ -2150,30 +2168,12 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
-        "id": "dlgarnir-12-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
-        "mediaId": "DOL00012",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-12-partur",
-        "title": "Dólgarnir (12:19)",
-        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-12-partur",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
         "id": "dlgarnir-13-partur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
         "mediaId": "DOL00013",
         "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-13-partur",
         "title": "Dólgarnir (13:19)",
         "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-13-partur",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "dlgarnir-14-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
-        "mediaId": "DOL00014",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-14-partur",
-        "title": "Dólgarnir (14:19)",
-        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-14-partur",
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
@@ -2705,15 +2705,6 @@
         "date": "2020-04-02T15:00:00+01:00"
       },
       {
-        "id": "2020/04/01/bta00020bl1494emililonnebergi12009ok",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil-1.png?itok=2YUpHXUU",
-        "mediaId": "BTA00020_BL1494_Emil_i_Lonnebergi_1_2009_ok",
-        "sortKey": "date: 2020-04-02T15:00:00+01:00 id: 2020/04/01/bta00020bl1494emililonnebergi12009ok",
-        "title": "Kæri lítli verkstaður",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00020bl1494emililonnebergi12009ok",
-        "date": "2020-04-02T15:00:00+01:00"
-      },
-      {
         "id": "2020/04/01/bta00021bl1494emililonnebergi22009ok",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil2.png?itok=r4-D208Y",
         "mediaId": "BTA00021_BL1494_Emil_i_Lonnebergi_2_2009_ok",
@@ -2783,6 +2774,15 @@
         "sortKey": "date: 2020-04-02T15:00:00+01:00 id: 2020/04/01/bta00031bl1495emililonnebergi122009ok",
         "title": "Brøgdini hjá grísabassa",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00031bl1495emililonnebergi122009ok",
+        "date": "2020-04-02T15:00:00+01:00"
+      },
+      {
+        "id": "2020/04/01/bta00032bl1495emililonnebergi132009ok",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil13.png?itok=N2iE4QwZ",
+        "mediaId": "BTA00032_BL1495_Emil_i_LOnnebergi_13_2009_ok",
+        "sortKey": "date: 2020-04-02T15:00:00+01:00 id: 2020/04/01/bta00032bl1495emililonnebergi132009ok",
+        "title": "Tann stóra kavaódnin",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00032bl1495emililonnebergi132009ok",
         "date": "2020-04-02T15:00:00+01:00"
       },
       {
@@ -3316,21 +3316,12 @@
         "date": "2024-09-03T12:00:00+01:00"
       },
       {
-        "id": "2024/09/03/fodurmaskina",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_fodurmaskina.jpg?itok=16q5f2cV",
-        "mediaId": "Filur_og_maskinurnar_EP08",
-        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/fodurmaskina",
-        "title": "Fóðurmaskina",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/fodurmaskina",
-        "date": "2024-09-03T12:00:00+01:00"
-      },
-      {
-        "id": "2024/09/03/fodurmaskina",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_fodurmaskina.jpg?itok=16q5f2cV",
-        "mediaId": "Filur_og_maskinurnar_EP08",
-        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/fodurmaskina",
-        "title": "Fóðurmaskina",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/fodurmaskina",
+        "id": "2024/09/03/gravkugv",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_gravkugv.jpg?itok=DlFo18uH",
+        "mediaId": "Filur_og_maskinurnar_EP01",
+        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/gravkugv",
+        "title": "Gravkúgv",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/gravkugv",
         "date": "2024-09-03T12:00:00+01:00"
       },
       {
@@ -3343,21 +3334,30 @@
         "date": "2024-09-03T12:00:00+01:00"
       },
       {
-        "id": "2024/09/03/ruskbilur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_ruskbilur.jpg?itok=HDjjXc7w",
-        "mediaId": "Filur_og_maskinurnar_EP09",
-        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/ruskbilur",
-        "title": "Ruskbilur",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/ruskbilur",
+        "id": "2024/09/03/kavafresari",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_kavafresari.jpg?itok=TSmuTsxl",
+        "mediaId": "Filur_og_maskinurnar_EP13",
+        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/kavafresari",
+        "title": "Kavafresari",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/kavafresari",
         "date": "2024-09-03T12:00:00+01:00"
       },
       {
-        "id": "2024/09/03/ruskbilur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_ruskbilur.jpg?itok=HDjjXc7w",
-        "mediaId": "Filur_og_maskinurnar_EP09",
-        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/ruskbilur",
-        "title": "Ruskbilur",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/ruskbilur",
+        "id": "2024/09/03/skidmaskina",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_skymaskina.jpg?itok=5cJbpEFh",
+        "mediaId": "Filur_og_maskinurnar_EP14",
+        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/skidmaskina",
+        "title": "Skíðmaskina",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/skidmaskina",
+        "date": "2024-09-03T12:00:00+01:00"
+      },
+      {
+        "id": "2024/09/03/skidmaskina",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_skymaskina.jpg?itok=5cJbpEFh",
+        "mediaId": "Filur_og_maskinurnar_EP14",
+        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/skidmaskina",
+        "title": "Skíðmaskina",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/skidmaskina",
         "date": "2024-09-03T12:00:00+01:00"
       },
       {
@@ -4619,12 +4619,39 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
+        "id": "166542",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1309_jol_a_posthusinum_01_0024.jpg?itok=7-Iy1x7z",
+        "mediaId": "BL1309_Jol_a_posthusinum_01",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166542",
+        "title": "1. partur",
+        "url": "https://kvf.fo/node/166542",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
         "id": "166543",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1310_jol_a_posthusinum_02_0044.jpg?itok=5WF0MDAj",
         "mediaId": "BL1310_Jol_a_posthusinum_02",
         "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166543",
         "title": "2. partur",
         "url": "https://kvf.fo/node/166543",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166543",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1310_jol_a_posthusinum_02_0044.jpg?itok=5WF0MDAj",
+        "mediaId": "BL1310_Jol_a_posthusinum_02",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166543",
+        "title": "2. partur",
+        "url": "https://kvf.fo/node/166543",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166545",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1312_jol_a_posthusinum_04_0048.jpg?itok=GgfUk7x3",
+        "mediaId": "BL1312_Jol_a_posthusinum_04",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166545",
+        "title": "4. partur",
+        "url": "https://kvf.fo/node/166545",
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
@@ -4646,84 +4673,21 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
+        "id": "166546",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1313_jol_a_posthusinum_05_0006.jpg?itok=JDyu9EtY",
+        "mediaId": "BL1313_Jol_a_posthusinum_05",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166546",
+        "title": "5. partur",
+        "url": "https://kvf.fo/node/166546",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
         "id": "166548",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1314_jol_a_posthusinum_06_0011.jpg?itok=xKS-1R75",
         "mediaId": "BL1314_Jol_a_posthusinum_06",
         "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166548",
         "title": "6. partur",
         "url": "https://kvf.fo/node/166548",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166549",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1315_jol_a_posthusinum_07_0026.jpg?itok=nUD5m8up",
-        "mediaId": "BL1315_Jol_a_posthusinum_07",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166549",
-        "title": "7. partur",
-        "url": "https://kvf.fo/node/166549",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166550",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1316_jol_a_posthusinum_08_0079.jpg?itok=p20-kYR1",
-        "mediaId": "BL1316_Jol_a_posthusinum_08",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166550",
-        "title": "8. partur",
-        "url": "https://kvf.fo/node/166550",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166551",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1317_jol_a_posthusinum_09_0060.jpg?itok=P_jZ0_iT",
-        "mediaId": "BL1317_Jol_a_posthusinum_09",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166551",
-        "title": "9. partur",
-        "url": "https://kvf.fo/node/166551",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166552",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1318_jol_a_posthusinum_10_0095.jpg?itok=fc67FANq",
-        "mediaId": "BL1318_Jol_a_posthusinum_10",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166552",
-        "title": "10. partur",
-        "url": "https://kvf.fo/node/166552",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166552",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1318_jol_a_posthusinum_10_0095.jpg?itok=fc67FANq",
-        "mediaId": "BL1318_Jol_a_posthusinum_10",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166552",
-        "title": "10. partur",
-        "url": "https://kvf.fo/node/166552",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166553",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1319_jol_a_posthusinum_11_0040.jpg?itok=6qeiy7VY",
-        "mediaId": "BL1319_Jol_a_posthusinum_11",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166553",
-        "title": "11. partur",
-        "url": "https://kvf.fo/node/166553",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166554",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1320_jol_a_posthusinum_12_0019.jpg?itok=B5ALK49n",
-        "mediaId": "BL1320_Jol_a_posthusinum_12",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166554",
-        "title": "12. partur",
-        "url": "https://kvf.fo/node/166554",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166555",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1321_jol_a_posthusinum_13_0026.jpg?itok=LcXAajfk",
-        "mediaId": "BL1321_Jol_a_posthusinum_13",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166555",
-        "title": "13. partur",
-        "url": "https://kvf.fo/node/166555",
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
@@ -4754,12 +4718,39 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
+        "id": "166572",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1324_jol_a_posthusinum_16_0063.jpg?itok=Pipu5nYq",
+        "mediaId": "BL1324_Jol_a_posthusinum_16",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166572",
+        "title": "16. partur",
+        "url": "https://kvf.fo/node/166572",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
         "id": "166576",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1325_jol_a_posthusinum_17_0079.jpg?itok=6nHD-5EU",
         "mediaId": "BL1325_Jol_a_posthusinum_17",
         "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166576",
         "title": "17. partur",
         "url": "https://kvf.fo/node/166576",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166576",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1325_jol_a_posthusinum_17_0079.jpg?itok=6nHD-5EU",
+        "mediaId": "BL1325_Jol_a_posthusinum_17",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166576",
+        "title": "17. partur",
+        "url": "https://kvf.fo/node/166576",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166577",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1311_jol_a_posthusinum_03x_0026.jpg?itok=oMzE4mRl",
+        "mediaId": "BL1311_Jol_a_posthusinum_03x",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166577",
+        "title": "3. partur",
+        "url": "https://kvf.fo/node/166577",
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
@@ -4781,6 +4772,42 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
+        "id": "166578",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1326_jol_a_posthusinum_18_0020.jpg?itok=teh3RSHl",
+        "mediaId": "BL1326_Jol_a_posthusinum_18",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166578",
+        "title": "18. partur",
+        "url": "https://kvf.fo/node/166578",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166580",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1327_jol_a_posthusinum_19_0031.jpg?itok=T38hWoaI",
+        "mediaId": "BL1327_Jol_a_posthusinum_19",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166580",
+        "title": "19. partur",
+        "url": "https://kvf.fo/node/166580",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166580",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1327_jol_a_posthusinum_19_0031.jpg?itok=T38hWoaI",
+        "mediaId": "BL1327_Jol_a_posthusinum_19",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166580",
+        "title": "19. partur",
+        "url": "https://kvf.fo/node/166580",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166581",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1328_jol_a_posthusinum_20_0013.jpg?itok=yAPV7cZI",
+        "mediaId": "BL1328_Jol_a_posthusinum_20",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166581",
+        "title": "20. partur",
+        "url": "https://kvf.fo/node/166581",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
         "id": "166581",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1328_jol_a_posthusinum_20_0013.jpg?itok=yAPV7cZI",
         "mediaId": "BL1328_Jol_a_posthusinum_20",
@@ -4796,33 +4823,6 @@
         "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166582",
         "title": "21. partur",
         "url": "https://kvf.fo/node/166582",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166583",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1330_jol_a_posthusinum_22_0051.jpg?itok=7v9oWpel",
-        "mediaId": "BL1330_Jol_a_posthusinum_22",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166583",
-        "title": "22. partur",
-        "url": "https://kvf.fo/node/166583",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166584",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1331_jol_a_posthusinum_23_0028.jpg?itok=C5xcmL04",
-        "mediaId": "BL1331_Jol_a_posthusinum_23",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166584",
-        "title": "23. partur",
-        "url": "https://kvf.fo/node/166584",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166598",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1332_jol_a_posthusinum_24_24122003_0182.jpg?itok=DNbRoxOm",
-        "mediaId": "BL1332_Jol_a_posthusinum_24_24122003",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166598",
-        "title": "24. partur",
-        "url": "https://kvf.fo/node/166598",
         "date": "2024-12-01T13:00:00+00:00"
       }
     ]
@@ -4874,15 +4874,6 @@
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
-        "id": "2020/03/16/bta00060bl1503karlssonatakinum19",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k19.png?itok=3HYFvhSE",
-        "mediaId": "BTA00060_BL1503_KARLSSON_A_TAKINUM_19",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/03/16/bta00060bl1503karlssonatakinum19",
-        "title": "Karlsson og sjónvarpskassin",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/03/16/bta00060bl1503karlssonatakinum19",
-        "date": "2020-04-02T12:00:00+01:00"
-      },
-      {
         "id": "2020/04/01/bta00042bl1501karlssonatakinum1",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k1.png?itok=CEzLh9wD",
         "mediaId": "BTA00042_BL1501_KARLSSON_A_TAKINUM_1",
@@ -4901,12 +4892,12 @@
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
-        "id": "2020/04/01/bta00045bl1501karlssonatakinum4",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k4.png?itok=9EYLgxBX",
-        "mediaId": "BTA00045_BL1501_KARLSSON_A_TAKINUM_4",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00045bl1501karlssonatakinum4",
-        "title": "Karlsson argar",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00045bl1501karlssonatakinum4",
+        "id": "2020/04/01/bta00044bl1501karlssonatakinum3",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k3.png?itok=Kbry8rYU",
+        "mediaId": "BTA00044_BL1501_KARLSSON_A_TAKINUM_3",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00044bl1501karlssonatakinum3",
+        "title": "Karlsson spælir spøkilsi",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00044bl1501karlssonatakinum3",
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
@@ -4928,12 +4919,30 @@
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
-        "id": "2020/04/01/bta00046bl1501karlssonatakinum5",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k5.png?itok=KFawYotQ",
-        "mediaId": "BTA00046_BL1501_KARLSSON_A_TAKINUM_5",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00046bl1501karlssonatakinum5",
-        "title": "Njósnarin Karlsson",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00046bl1501karlssonatakinum5",
+        "id": "2020/04/01/bta00047bl1501karlssonatakinum6",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k6.png?itok=c71sVtrw",
+        "mediaId": "BTA00047_BL1501_KARLSSON_A_TAKINUM_6",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00047bl1501karlssonatakinum6",
+        "title": "Karlsson gandar",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00047bl1501karlssonatakinum6",
+        "date": "2020-04-02T12:00:00+01:00"
+      },
+      {
+        "id": "2020/04/01/bta00048bl1502karlssonatakinum72010",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k7.png?itok=zfuEx7PT",
+        "mediaId": "BTA00048_BL1502_KARLSSON_A_TAKINUM_7_2010",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00048bl1502karlssonatakinum72010",
+        "title": "Karlsson er rasarakoyrari",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00048bl1502karlssonatakinum72010",
+        "date": "2020-04-02T12:00:00+01:00"
+      },
+      {
+        "id": "2020/04/01/bta00049bl1502karlssonatakinum8",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k8.png?itok=w7i3YMUm",
+        "mediaId": "BTA00049_BL1502_KARLSSON_A_TAKINUM_8",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00049bl1502karlssonatakinum8",
+        "title": "Karlsson og svartaklukkan",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00049bl1502karlssonatakinum8",
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
@@ -4955,12 +4964,12 @@
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
-        "id": "2020/04/01/bta00054bl1502karlssonatakinum13",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k13.png?itok=3mE7q_i6",
-        "mediaId": "BTA00054_BL1502_KARLSSON_A_TAKINUM_13",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00054bl1502karlssonatakinum13",
-        "title": "Karlsson heldur páskir",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00054bl1502karlssonatakinum13",
+        "id": "2020/04/01/bta00053bl1502karlssonatakinum12",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k12.png?itok=7AkW7i1z",
+        "mediaId": "BTA00053_BL1502_KARLSSON_A_TAKINUM_12",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00053bl1502karlssonatakinum12",
+        "title": "Karlsson fær ein fugl",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00053bl1502karlssonatakinum12",
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
@@ -4979,24 +4988,6 @@
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00055bl1503karlssonatakinum14",
         "title": "Karlsson og mammudagurin",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00055bl1503karlssonatakinum14",
-        "date": "2020-04-02T12:00:00+01:00"
-      },
-      {
-        "id": "2020/04/01/bta00055bl1503karlssonatakinum14",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k14.png?itok=16qDrCSk",
-        "mediaId": "BTA00055_BL1503_KARLSSON_A_TAKINUM_14",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00055bl1503karlssonatakinum14",
-        "title": "Karlsson og mammudagurin",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00055bl1503karlssonatakinum14",
-        "date": "2020-04-02T12:00:00+01:00"
-      },
-      {
-        "id": "2020/04/01/bta00056bl1503karlssonatakinum15",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k15.png?itok=ngiZiBxM",
-        "mediaId": "BTA00056_BL1503_KARLSSON_A_TAKINUM_15",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00056bl1503karlssonatakinum15",
-        "title": "Karlsson er dadda",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00056bl1503karlssonatakinum15",
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
@@ -5018,21 +5009,30 @@
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
-        "id": "2020/04/01/bta00065bl1504karlssonatakinum24",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k24.png?itok=fK6vMd6Y",
-        "mediaId": "BTA00065_BL1504_KARLSSON_A_TAKINUM_24",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00065bl1504karlssonatakinum24",
-        "title": "Karlsson skreiðir á skíðum",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00065bl1504karlssonatakinum24",
+        "id": "2020/04/01/bta00063bl1504karlssonatakinum22",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k22.png?itok=RArvvnIv",
+        "mediaId": "BTA00063_BL1504_KARLSSON_A_TAKINUM_22",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00063bl1504karlssonatakinum22",
+        "title": "Karlsson og stúvingurin hjá frk. Klukk",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00063bl1504karlssonatakinum22",
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
-        "id": "2020/04/01/bta00065bl1504karlssonatakinum24",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k24.png?itok=fK6vMd6Y",
-        "mediaId": "BTA00065_BL1504_KARLSSON_A_TAKINUM_24",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00065bl1504karlssonatakinum24",
-        "title": "Karlsson skreiðir á skíðum",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00065bl1504karlssonatakinum24",
+        "id": "2020/04/01/bta00063bl1504karlssonatakinum22",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k22.png?itok=RArvvnIv",
+        "mediaId": "BTA00063_BL1504_KARLSSON_A_TAKINUM_22",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00063bl1504karlssonatakinum22",
+        "title": "Karlsson og stúvingurin hjá frk. Klukk",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00063bl1504karlssonatakinum22",
+        "date": "2020-04-02T12:00:00+01:00"
+      },
+      {
+        "id": "2020/04/01/bta00064bl1504karlssonatakinum23",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k23.png?itok=Mts_It6y",
+        "mediaId": "BTA00064_BL1504_KARLSSON_A_TAKINUM_23",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00064bl1504karlssonatakinum23",
+        "title": "Karlsson fiskar á takinum",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00064bl1504karlssonatakinum23",
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
@@ -5042,6 +5042,24 @@
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00066bl1504karlssonatakinum25jol",
         "title": "Karlsson heldur jól",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00066bl1504karlssonatakinum25jol",
+        "date": "2020-04-02T12:00:00+01:00"
+      },
+      {
+        "id": "2020/04/01/bta00067bl1504karlssonatakinum26",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k26.png?itok=KBYzg6ZG",
+        "mediaId": "BTA00067_BL1504_KARLSSON_A_TAKINUM_26",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00067bl1504karlssonatakinum26",
+        "title": "Karlsson fer í føðingardag",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00067bl1504karlssonatakinum26",
+        "date": "2020-04-02T12:00:00+01:00"
+      },
+      {
+        "id": "2020/04/01/bta00067bl1504karlssonatakinum26",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k26.png?itok=KBYzg6ZG",
+        "mediaId": "BTA00067_BL1504_KARLSSON_A_TAKINUM_26",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00067bl1504karlssonatakinum26",
+        "title": "Karlsson fer í føðingardag",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00067bl1504karlssonatakinum26",
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
@@ -5063,30 +5081,12 @@
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
-        "id": "2020/04/02/karlsson-takinum-18-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k18.png?itok=UAfR1QS6",
-        "mediaId": "BTA00059_BL1503_KARLSSON_A_TAKINUM_18",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/02/karlsson-takinum-18-partur",
-        "title": "Karlsson spælir krógva og blunda",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/02/karlsson-takinum-18-partur",
-        "date": "2020-04-02T12:00:00+01:00"
-      },
-      {
         "id": "2020/04/02/karlsson-takinum-20-partur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k20.png?itok=bafM6NaY",
         "mediaId": "BTA00061_BL1504_KARLSSON_A_TAKINUM_20",
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/02/karlsson-takinum-20-partur",
         "title": "Karlsson, lítla spøkilsi í Vasabýi",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/02/karlsson-takinum-20-partur",
-        "date": "2020-04-02T12:00:00+01:00"
-      },
-      {
-        "id": "2020/04/02/karlsson-takinum-21-partur-0",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k21_0.png?itok=phL3XV2I",
-        "mediaId": "BTA00062_BL1504_KARLSSON_A_TAKINUM_21",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/02/karlsson-takinum-21-partur-0",
-        "title": "Karlsson tekur tjóvar",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/02/karlsson-takinum-21-partur-0",
         "date": "2020-04-02T12:00:00+01:00"
       },
       {
@@ -5187,6 +5187,12 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/461801716_1079637470837115_1619596470551421765_n.jpg?itok=TqYWWUeb",
+    "title": "Klintrimús og hini dýrini í Valbakkaskóginum",
+    "url": "https://kvf.fo/vit/sending/sv/klintrimus-og-hini-dyrini-i-valbakkaskoginum",
+    "episodes": []
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/klu_se.jpg?itok=X-2L4ZaZ",
     "title": "Klú!",
     "url": "https://kvf.fo/vit/sending/sv/klu",
@@ -5280,15 +5286,6 @@
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/bartal-hevur-fodingardag",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_5_hd_klumparnir_2016_0091.jpg?itok=8qD9aKC3",
-        "mediaId": "UT285_5_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/bartal-hevur-fodingardag",
-        "title": "Bartal hevur føðingardag",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/bartal-hevur-fodingardag",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
         "id": "2023/08/01/blida-og-tyda",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_14_hd_klumparnir_2016_0051.jpg?itok=65sBdC-P",
         "mediaId": "UT285_14_HD_Klumparnir_2016",
@@ -5307,21 +5304,30 @@
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/dinsmoredagur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_24_hd_klumparnir_2016_0064.jpg?itok=Vu1OpUI9",
-        "mediaId": "UT285_24_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/dinsmoredagur",
-        "title": "Dinsmoredagur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/dinsmoredagur",
+        "id": "2023/08/01/dumbul-kongur-og-dimbul-drotning",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_18_hd_klumparnir_2016_0099.jpg?itok=vCduL_H_",
+        "mediaId": "UT285_18_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/dumbul-kongur-og-dimbul-drotning",
+        "title": "Dumbul kongur og dimbul drotning",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/dumbul-kongur-og-dimbul-drotning",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/fiolkongur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_6_hd_klumparnir_2016_0038.jpg?itok=pm1p6AX5",
-        "mediaId": "UT285_6_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/fiolkongur",
-        "title": "Fiólkongur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/fiolkongur",
+        "id": "2023/08/01/ein-skattur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_13_hd_klumparnir_2016_0042.jpg?itok=J8u5K0Xv",
+        "mediaId": "UT285_13_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/ein-skattur",
+        "title": "Ein skattur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/ein-skattur",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/fidrikkur-i-frisutum-lag",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_16_hd_klumparnir_2016_0026.jpg?itok=8ZaACzzy",
+        "mediaId": "UT285_16_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/fidrikkur-i-frisutum-lag",
+        "title": "Fíðrikkur í frísutum lag",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/fidrikkur-i-frisutum-lag",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
@@ -5343,24 +5349,6 @@
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/gandur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_11_hd_klumparnir_2016_0037.jpg?itok=01ui_x_y",
-        "mediaId": "UT285_11_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/gandur",
-        "title": "Gandur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/gandur",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
-        "id": "2023/08/01/grava-eftir-pippeplum",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_10_hd_klumparnir_2016_0085.jpg?itok=YEnaWp9v",
-        "mediaId": "UT285_10_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/grava-eftir-pippeplum",
-        "title": "Grava eftir pippeplum",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/grava-eftir-pippeplum",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
         "id": "2023/08/01/grava-eftir-pippeplum",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_10_hd_klumparnir_2016_0085.jpg?itok=YEnaWp9v",
         "mediaId": "UT285_10_HD_Klumparnir_2016",
@@ -5379,12 +5367,12 @@
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/kipp-ordnar",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_26_hd_klumparnir_2016_0107.jpg?itok=AK5QPus3",
-        "mediaId": "UT285_26_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/kipp-ordnar",
-        "title": "Kipp orðnar",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/kipp-ordnar",
+        "id": "2023/08/01/klumpar-i-mjorka",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_3_hd_klumparnir_2016_0029.jpg?itok=SusTgxIZ",
+        "mediaId": "UT285_3_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/klumpar-i-mjorka",
+        "title": "Klumpar í mjørka",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/klumpar-i-mjorka",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
@@ -5397,12 +5385,12 @@
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/loyniveitslan",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_25_hd_klumparnir_2016_0058.jpg?itok=dAJZHrfw",
-        "mediaId": "UT285_25_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/loyniveitslan",
-        "title": "Loyniveitslan",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/loyniveitslan",
+        "id": "2023/08/01/kulur-pipphylur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_19_hd_klumparnir_2016_0038.jpg?itok=C4WdKI3x",
+        "mediaId": "UT285_19_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/kulur-pipphylur",
+        "title": "Kulur pipphylur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/kulur-pipphylur",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
@@ -5415,12 +5403,30 @@
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/pipp-lympiada",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_23_hd_klumparnir_2016_0091.jpg?itok=J_m2s-5t",
-        "mediaId": "UT285_23_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/pipp-lympiada",
-        "title": "Pipp-lympiada",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/pipp-lympiada",
+        "id": "2023/08/01/misljod",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_21_hd_klumparnir_2016_0028.jpg?itok=sblgJJH7",
+        "mediaId": "UT285_21_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/misljod",
+        "title": "Misljóð",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/misljod",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/nattkjolaball",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_4_hd_klumparnir_2016_0101.jpg?itok=UEbxWPHz",
+        "mediaId": "UT285_4_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/nattkjolaball",
+        "title": "Náttkjólaball",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/nattkjolaball",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/natturudagur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_2_hd_klumparnir_2016_0076.jpg?itok=B2vblYb-",
+        "mediaId": "UT285_2_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/natturudagur",
+        "title": "Náttúrudagur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/natturudagur",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
@@ -5451,30 +5457,21 @@
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/smilandi-pipp-bollar",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_7_hd_klumparnir_2016_0103.jpg?itok=YghtPa2W",
-        "mediaId": "UT285_7_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/smilandi-pipp-bollar",
-        "title": "Smílandi pipp-bollar",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/smilandi-pipp-bollar",
+        "id": "2023/08/01/smukkurnar",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_20_hd_klumparnir_2016_0129.jpg?itok=pZcHbiyW",
+        "mediaId": "UT285_20_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/smukkurnar",
+        "title": "Smúkkurnar",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/smukkurnar",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
-        "id": "2023/08/01/smilandi-pipp-bollar",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_7_hd_klumparnir_2016_0103.jpg?itok=YghtPa2W",
-        "mediaId": "UT285_7_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/smilandi-pipp-bollar",
-        "title": "Smílandi pipp-bollar",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/smilandi-pipp-bollar",
-        "date": "2023-08-01T08:00:00+01:00"
-      },
-      {
-        "id": "2023/08/01/stori-pippepla-sunnudagur-0",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_1_hd_klumparnir_2016_0025.jpg?itok=M3Q5I-TW",
-        "mediaId": "UT285_1_HD_Klumparnir_2016",
-        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/stori-pippepla-sunnudagur-0",
-        "title": "Stóri Pippepla-sunnudagur",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/stori-pippepla-sunnudagur-0",
+        "id": "2023/08/01/stjornuskot",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_22_hd_klumparnir_2016_0041.jpg?itok=SYGKwXTP",
+        "mediaId": "UT285_22_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/stjornuskot",
+        "title": "Stjørnuskot",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/stjornuskot",
         "date": "2023-08-01T08:00:00+01:00"
       },
       {
@@ -5502,6 +5499,15 @@
         "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/super-klumpibumpurin",
         "title": "Super klumpibumpurin",
         "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/super-klumpibumpurin",
+        "date": "2023-08-01T08:00:00+01:00"
+      },
+      {
+        "id": "2023/08/01/veitslan",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_15_hd_klumparnir_2016_0046.jpg?itok=9df0KJV1",
+        "mediaId": "UT285_15_HD_Klumparnir_2016",
+        "sortKey": "date: 2023-08-01T08:00:00+01:00 id: 2023/08/01/veitslan",
+        "title": "Veitslan",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/08/01/veitslan",
         "date": "2023-08-01T08:00:00+01:00"
       }
     ]
@@ -5726,15 +5732,6 @@
         "date": "2024-09-04T07:00:00+01:00"
       },
       {
-        "id": "2024/09/04/hvolpar-og-ballonkappingin",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_og_ballonkappingin.jpg?itok=XdAtFsYs",
-        "mediaId": "LABBALID_105_B",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-og-ballonkappingin",
-        "title": "Hvølpar og ballónkappingin",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-ballonkappingin",
-        "date": "2024-09-04T07:00:00+01:00"
-      },
-      {
         "id": "2024/09/04/hvolpar-og-heystgildid",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/101_b.jpg?itok=j3ESWHeC",
         "mediaId": "LABBALID_101_B",
@@ -5762,6 +5759,15 @@
         "date": "2024-09-04T07:00:00+01:00"
       },
       {
+        "id": "2024/09/04/hvolpar-og-kettlingur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_og_kettlingar.jpg?itok=HjqME7mU",
+        "mediaId": "LABBALID_103_A",
+        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-og-kettlingur",
+        "title": "Hvølpar og kettlingur",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-kettlingur",
+        "date": "2024-09-04T07:00:00+01:00"
+      },
+      {
         "id": "2024/09/04/hvolpar-skvatla",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/101_a.jpg?itok=W9GCAN__",
         "mediaId": "LABBALID_101_A",
@@ -5771,21 +5777,21 @@
         "date": "2024-09-04T07:00:00+01:00"
       },
       {
-        "id": "2024/09/04/hvolparnir-og-gasin",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolparnir_og_gasin.jpg?itok=oZrS7joi",
-        "mediaId": "LABBALID_105_A",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolparnir-og-gasin",
-        "title": "Hvølparnir og gásin",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolparnir-og-gasin",
-        "date": "2024-09-04T07:00:00+01:00"
-      },
-      {
         "id": "2024/09/04/hvolpasporid",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpasporid.jpg?itok=0eTS9sGC",
         "mediaId": "LABBALID_104_A",
         "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpasporid",
         "title": "Hvølpasporið",
         "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpasporid",
+        "date": "2024-09-04T07:00:00+01:00"
+      },
+      {
+        "id": "2024/09/04/risa-stori-hvolpurin",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/102_b.jpg?itok=aF-cqCia",
+        "mediaId": "LABBALID_102_B",
+        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/risa-stori-hvolpurin",
+        "title": "Risa stóri hvølpurin",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/risa-stori-hvolpurin",
         "date": "2024-09-04T07:00:00+01:00"
       },
       {
@@ -6408,7 +6414,7 @@
   {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/lotta_sendingamynd.png?itok=yWtBfVh-",
     "title": "Lotta í Brakarastræti",
-    "url": "https://kvf.fo/vit/sending/sv/lotta-i-brakarastraeti",
+    "url": "https://kvf.fo/vit/sending/sv/lotta-i-braekarastraeti",
     "episodes": [
       {
         "id": "2022/11/09/bta00119bl1550lottaibrakarastrati11999",
@@ -6587,6 +6593,22 @@
         "title": "Mass Heini 12",
         "url": "https://kvf.fo/vit/sjonvarp/mass-heini-12-partur",
         "date": "2009-11-20T16:30:00+00:00"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/medan_vit_bida.png?itok=egrZMajs",
+    "title": "Meðan vit bíða",
+    "url": "https://kvf.fo/vit/sending/sv/medan-vit-bida",
+    "episodes": [
+      {
+        "id": "2024/12/20/bar00184medanvitbida2024",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/medan_vit_bida.png?itok=CGVPyx5b",
+        "mediaId": "BAR00184_Medan_vit_bida_2024",
+        "sortKey": "date: 2024-12-24T14:23:00+00:00 id: 2024/12/20/bar00184medanvitbida2024",
+        "title": "Meðan vit bíða",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/12/20/bar00184medanvitbida2024",
+        "date": "2024-12-24T14:23:00+00:00"
       }
     ]
   },
@@ -6781,15 +6803,6 @@
         "date": "2020-03-26T20:00:00+00:00"
       },
       {
-        "id": "2020/03/26/mouk-13-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_13.png?itok=qojN7Hwx",
-        "mediaId": "UT362_Mouk_13_2018",
-        "sortKey": "date: 2020-03-26T20:00:00+00:00 id: 2020/03/26/mouk-13-partur",
-        "title": "Onki samband",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/03/26/mouk-13-partur",
-        "date": "2020-03-26T20:00:00+00:00"
-      },
-      {
         "id": "2020/03/26/mouk-14-partur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_14.png?itok=ZV5Gy3CO",
         "mediaId": "UT362_Mouk_14_2018",
@@ -6814,6 +6827,15 @@
         "sortKey": "date: 2020-03-26T20:00:00+00:00 id: 2020/03/26/mouk-16-partur",
         "title": "Andstyggiligi kavamaðurin",
         "url": "https://kvf.fo/vit/sjonvarp/2020/03/26/mouk-16-partur",
+        "date": "2020-03-26T20:00:00+00:00"
+      },
+      {
+        "id": "2020/03/26/mouk-17-partur-0",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_17.png?itok=FLXmpGwy",
+        "mediaId": "UT362_Mouk_17_2018",
+        "sortKey": "date: 2020-03-26T20:00:00+00:00 id: 2020/03/26/mouk-17-partur-0",
+        "title": "Sum nýggj",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/03/26/mouk-17-partur-0",
         "date": "2020-03-26T20:00:00+00:00"
       },
       {
@@ -7887,6 +7909,24 @@
         "date": "2024-12-01T12:00:00+00:00"
       },
       {
+        "id": "2023/11/30/1-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_1_2004_0131.jpg?itok=HLldWFH1",
+        "mediaId": "BL1387_Pjoppa_og_goffi_1_2004",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2023/11/30/1-partur",
+        "title": "1. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/1-partur",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166665",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_3_2004_0012.jpg?itok=vXXz7Uj8",
+        "mediaId": "BL1387_Pjoppa_og_goffi_3_2004",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166665",
+        "title": "3. partur",
+        "url": "https://kvf.fo/node/166665",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
         "id": "166666",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_4_2004_0033.jpg?itok=0wgDgxqN",
         "mediaId": "BL1387_Pjoppa_og_goffi_4_2004",
@@ -7905,24 +7945,6 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
-        "id": "166667",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_5_2004_0050.jpg?itok=jlifeZnT",
-        "mediaId": "BL1387_Pjoppa_og_goffi_5_2004",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166667",
-        "title": "5. partur",
-        "url": "https://kvf.fo/node/166667",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166668",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_6_2004_0058.jpg?itok=fA_4MrTv",
-        "mediaId": "BL1387_Pjoppa_og_goffi_6_2004",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166668",
-        "title": "6. partur",
-        "url": "https://kvf.fo/node/166668",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
         "id": "166668",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_6_2004_0058.jpg?itok=fA_4MrTv",
         "mediaId": "BL1387_Pjoppa_og_goffi_6_2004",
@@ -7938,24 +7960,6 @@
         "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166669",
         "title": "7. partur",
         "url": "https://kvf.fo/node/166669",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166669",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_7_2004_0072.jpg?itok=sr_oA4oD",
-        "mediaId": "BL1387_Pjoppa_og_goffi_7_2004",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166669",
-        "title": "7. partur",
-        "url": "https://kvf.fo/node/166669",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166670",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_8_2004_0029.jpg?itok=lbSsBFtn",
-        "mediaId": "BL1387_Pjoppa_og_goffi_8_2004",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166670",
-        "title": "8. partur",
-        "url": "https://kvf.fo/node/166670",
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
@@ -7986,6 +7990,51 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
+        "id": "166676",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_13_2004_0011.jpg?itok=Mj1crBwB",
+        "mediaId": "BL1387_Pjoppa_og_goffi_13_2004",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166676",
+        "title": "13. partur",
+        "url": "https://kvf.fo/node/166676",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166679",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_14_2004_0017.jpg?itok=fEglqgG0",
+        "mediaId": "BL1387_Pjoppa_og_goffi_14_2004",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166679",
+        "title": "14. partur",
+        "url": "https://kvf.fo/node/166679",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166682",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_17_2004_0071.jpg?itok=gse1t1zn",
+        "mediaId": "BL1387_Pjoppa_og_goffi_17_2004",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166682",
+        "title": "17. partur",
+        "url": "https://kvf.fo/node/166682",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166683",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_18_2004_0014.jpg?itok=OY-qVzbr",
+        "mediaId": "BL1387_Pjoppa_og_goffi_18_2004",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166683",
+        "title": "18. partur",
+        "url": "https://kvf.fo/node/166683",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "166684",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_19_2004_0008.jpg?itok=3-FtwiwA",
+        "mediaId": "BL1387_Pjoppa_og_goffi_19_2004",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166684",
+        "title": "19. partur",
+        "url": "https://kvf.fo/node/166684",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
         "id": "166685",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_20_2004_0008.jpg?itok=Q3zOg8RJ",
         "mediaId": "BL1387_Pjoppa_og_goffi_20_2004",
@@ -8013,39 +8062,12 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
-        "id": "166687",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_22_2004_0006.jpg?itok=rEFBdTdt",
-        "mediaId": "BL1387_Pjoppa_og_goffi_22_2004",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166687",
-        "title": "22. partur",
-        "url": "https://kvf.fo/node/166687",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
         "id": "166688",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_23_2004_0040.jpg?itok=t54ywfFK",
         "mediaId": "BL1387_Pjoppa_og_goffi_23_2004",
         "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166688",
         "title": "23. partur",
         "url": "https://kvf.fo/node/166688",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166688",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_23_2004_0040.jpg?itok=t54ywfFK",
-        "mediaId": "BL1387_Pjoppa_og_goffi_23_2004",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166688",
-        "title": "23. partur",
-        "url": "https://kvf.fo/node/166688",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "166690",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_24_2004_0119.jpg?itok=SqAwokoq",
-        "mediaId": "BL1387_Pjoppa_og_goffi_24_2004",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166690",
-        "title": "24. partur",
-        "url": "https://kvf.fo/node/166690",
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
@@ -8211,7 +8233,7 @@
   {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/ronja_ransmannadottir.png?itok=jdtiaRzl",
     "title": "Ronja Ránsmansdóttir",
-    "url": "https://kvf.fo/vit/sending/sv/ronja-ransmansdottir",
+    "url": "https://kvf.fo/vit/sending/sv/ronja-ransmannadottir",
     "episodes": [
       {
         "id": "2020/05/10/bta00103bl1621ronjaransmansdottir1vidteksti",
@@ -9210,12 +9232,12 @@
         "date": "2023-09-06T07:00:00+01:00"
       },
       {
-        "id": "2023/09/06/rymda-rossid",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/slokkisam_seria10_nr01_ep163_1_0219.jpg?itok=tYFydfQ5",
-        "mediaId": "SlokkiSAM_Seria10_NR01_ep163",
-        "sortKey": "date: 2023-09-06T07:00:00+01:00 id: 2023/09/06/rymda-rossid",
-        "title": "Rýmda rossið",
-        "url": "https://kvf.fo/vit/sjonvarp/2023/09/06/rymda-rossid",
+        "id": "2023/09/06/kongaspael",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/slokkisam_seria10_nr03_ep165_1_0053.jpg?itok=uBYwb886",
+        "mediaId": "UT502_SlokkiSam_3_2023",
+        "sortKey": "date: 2023-09-06T07:00:00+01:00 id: 2023/09/06/kongaspael",
+        "title": "Kongaspæl",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/09/06/kongaspael",
         "date": "2023-09-06T07:00:00+01:00"
       },
       {
@@ -9708,6 +9730,33 @@
         "title": "Snæfall 21",
         "url": "https://kvf.fo/vit/sjonvarp/2017/12/05/sna00021",
         "date": "2024-12-21T00:02:00+00:00"
+      },
+      {
+        "id": "2017/12/05/sna00022",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/22_des.jpg?itok=ZUDCkX08",
+        "mediaId": "SNA00022",
+        "sortKey": "date: 2024-12-22T00:02:00+00:00 id: 2017/12/05/sna00022",
+        "title": "Snæfall 22",
+        "url": "https://kvf.fo/vit/sjonvarp/2017/12/05/sna00022",
+        "date": "2024-12-22T00:02:00+00:00"
+      },
+      {
+        "id": "2017/12/06/sna00023",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/23_des.jpg?itok=V0frxdty",
+        "mediaId": "SNA00023",
+        "sortKey": "date: 2024-12-23T00:02:00+00:00 id: 2017/12/06/sna00023",
+        "title": "Snæfall 23",
+        "url": "https://kvf.fo/vit/sjonvarp/2017/12/06/sna00023",
+        "date": "2024-12-23T00:02:00+00:00"
+      },
+      {
+        "id": "2017/12/06/sna00024",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/24_des.jpg?itok=a7OKXITg",
+        "mediaId": "SNA00024",
+        "sortKey": "date: 2024-12-24T00:02:00+00:00 id: 2017/12/06/sna00024",
+        "title": "Snæfall 24",
+        "url": "https://kvf.fo/vit/sjonvarp/2017/12/06/sna00024",
+        "date": "2024-12-24T00:02:00+00:00"
       }
     ]
   },
@@ -11864,12 +11913,12 @@
         "date": "2015-09-10T12:00:00+01:00"
       },
       {
-        "id": "2015/09/10/janus-teknar-ein-hund",
+        "id": "2015/09/10/janus-teknar-ein-fugl",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
-        "mediaId": "vit_janus_5",
-        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-ein-hund",
-        "title": "Janus teknar ein hund",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-ein-hund",
+        "mediaId": "vit_janus_1",
+        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-ein-fugl",
+        "title": "Janus teknar eitt tjaldur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-ein-fugl",
         "date": "2015-09-10T12:15:00+01:00"
       },
       {
@@ -11882,12 +11931,12 @@
         "date": "2015-09-10T12:15:00+01:00"
       },
       {
-        "id": "2015/09/10/janus-teknar-eina-bamsu",
+        "id": "2015/09/10/janus-teknar-ein-prins",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
-        "mediaId": "vit_janus_4",
-        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-eina-bamsu",
-        "title": "Janus teknar eina bamsu",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-eina-bamsu",
+        "mediaId": "vit_janus_8",
+        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-ein-prins",
+        "title": "Janus teknar ein prins",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-ein-prins",
         "date": "2015-09-10T12:15:00+01:00"
       },
       {
@@ -11909,12 +11958,12 @@
         "date": "2015-09-10T12:15:00+01:00"
       },
       {
-        "id": "2015/09/10/janus-teknar-paskaungar",
+        "id": "2015/09/10/janus-teknar-eina-prinsessu",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
-        "mediaId": "vit_janus_3",
-        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-paskaungar",
-        "title": "Janus teknar páskaungar",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-paskaungar",
+        "mediaId": "vit_janus_6",
+        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-eina-prinsessu",
+        "title": "Janus teknar eina prinsessu",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-eina-prinsessu",
         "date": "2015-09-10T12:15:00+01:00"
       },
       {
@@ -12024,6 +12073,15 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
+        "id": "2019/11/30/vitin-1-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd.jpg?itok=NrpLyc30",
+        "mediaId": "BL1471_Vitin_1_01122006",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/11/30/vitin-1-partur",
+        "title": "1. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/11/30/vitin-1-partur",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
         "id": "2019/12/01/vitin-2-partur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_0.jpg?itok=ATP8kZ5P",
         "mediaId": "BL1471_Vitin_2_02122006",
@@ -12060,48 +12118,12 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
-        "id": "2019/12/05/vitin-6-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_4.jpg?itok=bFSs5W0I",
-        "mediaId": "BL1471_Vitin_6_06122006",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/05/vitin-6-partur",
-        "title": "6. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/12/05/vitin-6-partur",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "2019/12/06/vitin-7-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_5.jpg?itok=GNEpHXLw",
-        "mediaId": "BL1471_Vitin_7_07122006",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/06/vitin-7-partur",
-        "title": "7. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/12/06/vitin-7-partur",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "2019/12/06/vitin-7-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_5.jpg?itok=GNEpHXLw",
-        "mediaId": "BL1471_Vitin_7_07122006",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/06/vitin-7-partur",
-        "title": "7. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/12/06/vitin-7-partur",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
         "id": "2019/12/07/vitin-8-partur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_6.jpg?itok=dMudqK9X",
         "mediaId": "BL1471_Vitin_8_08122006",
         "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/07/vitin-8-partur",
         "title": "8. partur",
         "url": "https://kvf.fo/vit/sjonvarp/2019/12/07/vitin-8-partur",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "2019/12/09/vitin-10partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_8.jpg?itok=K0j_tnMG",
-        "mediaId": "BL1471_Vitin_10_10122006",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/09/vitin-10partur",
-        "title": "10.partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/12/09/vitin-10partur",
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
@@ -12150,12 +12172,57 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
-        "id": "2019/12/17/vitin-18-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_20.jpg?itok=dDOwzer9",
-        "mediaId": "BL1472_Vitin18",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/17/vitin-18-partur",
-        "title": "18. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/12/17/vitin-18-partur",
+        "id": "2019/12/13/vitin-14-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_12.jpg?itok=v5tBEYfc",
+        "mediaId": "BL1472_Vitin_14_14122006",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/13/vitin-14-partur",
+        "title": "14. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/13/vitin-14-partur",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "2019/12/14/vitin-15-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_13.jpg?itok=3yjMWTRH",
+        "mediaId": "BL1472_Vitin_15_15122006",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/14/vitin-15-partur",
+        "title": "15. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/14/vitin-15-partur",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "2019/12/14/vitin-15-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_13.jpg?itok=3yjMWTRH",
+        "mediaId": "BL1472_Vitin_15_15122006",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/14/vitin-15-partur",
+        "title": "15. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/14/vitin-15-partur",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "2019/12/15/vitin-16-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_14.jpg?itok=PeuH0BIB",
+        "mediaId": "BL1472_Vitin_16_16122006",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/15/vitin-16-partur",
+        "title": "16. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/15/vitin-16-partur",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "2019/12/15/vitin-16-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_14.jpg?itok=PeuH0BIB",
+        "mediaId": "BL1472_Vitin_16_16122006",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/15/vitin-16-partur",
+        "title": "16. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/15/vitin-16-partur",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "2019/12/16/vitin-17-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_15.jpg?itok=5D2tY_ag",
+        "mediaId": "BL1472_Vitin_17_17122006",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/16/vitin-17-partur",
+        "title": "17. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/16/vitin-17-partur",
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
@@ -12165,6 +12232,15 @@
         "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/17/vitin-18-partur",
         "title": "18. partur",
         "url": "https://kvf.fo/vit/sjonvarp/2019/12/17/vitin-18-partur",
+        "date": "2024-12-01T13:00:00+00:00"
+      },
+      {
+        "id": "2019/12/18/vitin-19-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_16.jpg?itok=qX4UgW3O",
+        "mediaId": "BL1472_Vitin_19_19122006",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/18/vitin-19-partur",
+        "title": "19. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2019/12/18/vitin-19-partur",
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
@@ -12186,15 +12262,6 @@
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
-        "id": "2019/12/21/vitin-22-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_19.jpg?itok=dqRF6w8G",
-        "mediaId": "BL1472_Vitin_22_27122006",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/21/vitin-22-partur",
-        "title": "22. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/12/21/vitin-22-partur",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
         "id": "2019/12/22/vitin-23-partur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_20.jpg?itok=dDOwzer9",
         "mediaId": "BL1473_Vitin_23_23122006",
@@ -12210,24 +12277,6 @@
         "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/22/vitin-23-partur",
         "title": "23. partur",
         "url": "https://kvf.fo/vit/sjonvarp/2019/12/22/vitin-23-partur",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "2019/12/23/vitin-24-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_20.jpg?itok=dDOwzer9",
-        "mediaId": "BL1472_Vitin_24_24122006",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/23/vitin-24-partur",
-        "title": "24. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/12/23/vitin-24-partur",
-        "date": "2024-12-01T13:00:00+00:00"
-      },
-      {
-        "id": "2019/12/23/vitin-24-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_20.jpg?itok=dDOwzer9",
-        "mediaId": "BL1472_Vitin_24_24122006",
-        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2019/12/23/vitin-24-partur",
-        "title": "24. partur",
-        "url": "https://kvf.fo/vit/sjonvarp/2019/12/23/vitin-24-partur",
         "date": "2024-12-01T13:00:00+00:00"
       },
       {
