@@ -87,12 +87,13 @@ function parseEpisodeElement(el: HTMLElement): PartialEpisode {
 	const sortKey = `date: ${date} id: ${id}`;
 
 	const episode: PartialEpisode = {
+		date,
 		id,
 		img: img.src,
+		showTitle: title,
 		sortKey,
 		title,
 		url,
-		date,
 	};
 
 	return episode;
@@ -195,13 +196,14 @@ async function run() {
 					title: `${partialShow.title} ${partialEpisode.title}`,
 				});
 				const episode: Episode = {
+					date: partialEpisode.date,
 					id: partialEpisode.id,
 					img: partialEpisode.img,
 					mediaId,
+					showTitle: partialShow.title,
 					sortKey: partialEpisode.sortKey,
 					title: partialEpisode.title,
 					url: partialEpisode.url,
-					date: partialEpisode.date,
 				};
 				showsMap.get(partialShow.title)[index] = episode;
 			});

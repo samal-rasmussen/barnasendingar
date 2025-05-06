@@ -5,11 +5,12 @@ export interface Show {
 	episodes: Episode[];
 }
 export interface Episode {
+	date: string;
 	id: string;
 	img: string;
 	mediaId: string | undefined;
+	showTitle: string;
 	sortKey: string;
 	title: string;
 	url: string;
-	date: string;
 }
