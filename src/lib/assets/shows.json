@@ -1178,16 +1178,6 @@
       },
       {
         "date": "2015-09-10T10:30:00+01:00",
-        "id": "2015/09/10/aabd",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
-        "mediaId": "vit_abc",
-        "showTitle": "Børnini syngja",
-        "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/aabd",
-        "title": "Aábd",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/aabd"
-      },
-      {
-        "date": "2015-09-10T10:30:00+01:00",
         "id": "2015/09/10/bingo",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
         "mediaId": "vit_bingo",
@@ -1215,6 +1205,16 @@
         "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/koyra-busstur",
         "title": "Koyra busstúr",
         "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/koyra-busstur"
+      },
+      {
+        "date": "2015-09-10T10:30:00+01:00",
+        "id": "2015/09/10/sig-maer-sast-tu-tad",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
+        "mediaId": "vit_sast_tu",
+        "showTitle": "Børnini syngja",
+        "sortKey": "date: 2015-09-10T10:30:00+01:00 id: 2015/09/10/sig-maer-sast-tu-tad",
+        "title": "Sig mær sást tú tað",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/sig-maer-sast-tu-tad"
       },
       {
         "date": "2015-09-10T10:30:00+01:00",
@@ -2097,16 +2097,6 @@
       },
       {
         "date": "2020-04-02T15:00:00+01:00",
-        "id": "2020/04/01/bta00024bl1494emililonnebergi52009ok",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil5.png?itok=9bxvsXZL",
-        "mediaId": "BTA00024_BL1494_Emil_i_Lonnebergi_5_2009_ok",
-        "showTitle": "Emil úr Lønnebergi",
-        "sortKey": "date: 2020-04-02T15:00:00+01:00 id: 2020/04/01/bta00024bl1494emililonnebergi52009ok",
-        "title": "Stóra átgildi á Kattholti",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00024bl1494emililonnebergi52009ok"
-      },
-      {
-        "date": "2020-04-02T15:00:00+01:00",
         "id": "2020/04/01/bta00027bl1495emililonnebergi82009",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil.png?itok=yThtauaR",
         "mediaId": "BTA00027_BL1495_Emil_i_Lonnebergi_8_2009",
@@ -2114,6 +2104,16 @@
         "sortKey": "date: 2020-04-02T15:00:00+01:00 id: 2020/04/01/bta00027bl1495emililonnebergi82009",
         "title": "Tá Lina hevði tannapínu",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00027bl1495emililonnebergi82009"
+      },
+      {
+        "date": "2020-04-02T15:00:00+01:00",
+        "id": "2020/04/01/bta00028bl1495emililonnebergi92009",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil9.png?itok=MrbalPFJ",
+        "mediaId": "BTA00028_BL1495_Emil_i_Lonnebergi_9_2009",
+        "showTitle": "Emil úr Lønnebergi",
+        "sortKey": "date: 2020-04-02T15:00:00+01:00 id: 2020/04/01/bta00028bl1495emililonnebergi92009",
+        "title": "Heimahoyring á Kattholti",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00028bl1495emililonnebergi92009"
       },
       {
         "date": "2020-04-02T15:00:00+01:00",
@@ -2137,13 +2137,13 @@
       },
       {
         "date": "2020-04-02T15:00:00+01:00",
-        "id": "2020/04/01/bta00032bl1495emililonnebergi132009ok",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil13.png?itok=N2iE4QwZ",
-        "mediaId": "BTA00032_BL1495_Emil_i_LOnnebergi_13_2009_ok",
+        "id": "2020/04/01/bta00031bl1495emililonnebergi122009ok",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil12.png?itok=sAdlXEuz",
+        "mediaId": "BTA00031_BL1495_Emil_i_Lonnebergi_12_2009_ok",
         "showTitle": "Emil úr Lønnebergi",
-        "sortKey": "date: 2020-04-02T15:00:00+01:00 id: 2020/04/01/bta00032bl1495emililonnebergi132009ok",
-        "title": "Tann stóra kavaódnin",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00032bl1495emililonnebergi132009ok"
+        "sortKey": "date: 2020-04-02T15:00:00+01:00 id: 2020/04/01/bta00031bl1495emililonnebergi122009ok",
+        "title": "Brøgdini hjá grísabassa",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00031bl1495emililonnebergi122009ok"
       },
       {
         "date": "2020-04-02T15:00:00+01:00",
@@ -2735,6 +2735,16 @@
       },
       {
         "date": "2024-09-03T12:00:00+01:00",
+        "id": "2024/09/03/fodurmaskina",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_fodurmaskina.jpg?itok=16q5f2cV",
+        "mediaId": "Filur_og_maskinurnar_EP08",
+        "showTitle": "Fílur og maskinurnar",
+        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/fodurmaskina",
+        "title": "Fóðurmaskina",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/fodurmaskina"
+      },
+      {
+        "date": "2024-09-03T12:00:00+01:00",
         "id": "2024/09/03/gravkugv",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_gravkugv.jpg?itok=DlFo18uH",
         "mediaId": "Filur_og_maskinurnar_EP01",
@@ -2745,16 +2755,6 @@
       },
       {
         "date": "2024-09-03T12:00:00+01:00",
-        "id": "2024/09/03/kavafresari",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_kavafresari.jpg?itok=TSmuTsxl",
-        "mediaId": "Filur_og_maskinurnar_EP13",
-        "showTitle": "Fílur og maskinurnar",
-        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/kavafresari",
-        "title": "Kavafresari",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/kavafresari"
-      },
-      {
-        "date": "2024-09-03T12:00:00+01:00",
         "id": "2024/09/03/ruskbilur",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_ruskbilur.jpg?itok=HDjjXc7w",
         "mediaId": "Filur_og_maskinurnar_EP09",
@@ -2762,16 +2762,6 @@
         "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/ruskbilur",
         "title": "Ruskbilur",
         "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/ruskbilur"
-      },
-      {
-        "date": "2024-09-03T12:00:00+01:00",
-        "id": "2024/09/03/skidmaskina",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_skymaskina.jpg?itok=5cJbpEFh",
-        "mediaId": "Filur_og_maskinurnar_EP14",
-        "showTitle": "Fílur og maskinurnar",
-        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/skidmaskina",
-        "title": "Skíðmaskina",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/skidmaskina"
       },
       {
         "date": "2024-09-03T12:00:00+01:00",
@@ -2802,6 +2792,16 @@
         "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/timburbilur",
         "title": "Timburbilur",
         "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/timburbilur"
+      },
+      {
+        "date": "2024-09-03T12:00:00+01:00",
+        "id": "2024/09/03/traktorur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_traktorur.jpg?itok=2f6XF865",
+        "mediaId": "Filur_og_maskinurnar_EP07",
+        "showTitle": "Fílur og maskinurnar",
+        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/traktorur",
+        "title": "Traktorur",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/traktorur"
       },
       {
         "date": "2024-09-03T12:00:00+01:00",
@@ -3941,6 +3941,26 @@
         "sortKey": "date: 2025-05-02T15:00:00+01:00 id: 2025/05/02/kakumiks-57",
         "title": "KAKUMiKS (5:7)",
         "url": "https://kvf.fo/vit/sjonvarp/2025/05/02/kakumiks-57"
+      },
+      {
+        "date": "2025-05-09T15:00:00+01:00",
+        "id": "2025/05/09/kakumiks-67",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/lidug_perma_til_6_eps_0.jpg?itok=1AWGrYrT",
+        "mediaId": "E6_4K_TIL_NET_v3",
+        "showTitle": "KAKUMiKS",
+        "sortKey": "date: 2025-05-09T15:00:00+01:00 id: 2025/05/09/kakumiks-67",
+        "title": "KAKUMiKS (6:7)",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/05/09/kakumiks-67"
+      },
+      {
+        "date": "2025-05-16T15:00:00+01:00",
+        "id": "2025/05/16/kakumiks-77",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/lidug_perma_til_7eps.png?itok=14li9beo",
+        "mediaId": "E7_4K_TIL_NET_v2",
+        "showTitle": "KAKUMiKS",
+        "sortKey": "date: 2025-05-16T15:00:00+01:00 id: 2025/05/16/kakumiks-77",
+        "title": "KAKUMiKS (7:7)",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/05/16/kakumiks-77"
       }
     ]
   },
@@ -3961,6 +3981,16 @@
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
+        "id": "2020/04/01/bta00042bl1501karlssonatakinum1",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k1.png?itok=CEzLh9wD",
+        "mediaId": "BTA00042_BL1501_KARLSSON_A_TAKINUM_1",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00042bl1501karlssonatakinum1",
+        "title": "Karlsson á takinum",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00042bl1501karlssonatakinum1"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
         "id": "2020/04/01/bta00043bl1501karlssonatakinum2",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k2.png?itok=KlPacrmp",
         "mediaId": "BTA00043_BL1501_KARLSSON_A_TAKINUM_2",
@@ -3968,16 +3998,6 @@
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00043bl1501karlssonatakinum2",
         "title": "Húsið á takinum",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00043bl1501karlssonatakinum2"
-      },
-      {
-        "date": "2020-04-02T12:00:00+01:00",
-        "id": "2020/04/01/bta00044bl1501karlssonatakinum3",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k3.png?itok=Kbry8rYU",
-        "mediaId": "BTA00044_BL1501_KARLSSON_A_TAKINUM_3",
-        "showTitle": "Karlsson á takinum",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00044bl1501karlssonatakinum3",
-        "title": "Karlsson spælir spøkilsi",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00044bl1501karlssonatakinum3"
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
@@ -4011,13 +4031,53 @@
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
-        "id": "2020/04/01/bta00048bl1502karlssonatakinum72010",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k7.png?itok=zfuEx7PT",
-        "mediaId": "BTA00048_BL1502_KARLSSON_A_TAKINUM_7_2010",
+        "id": "2020/04/01/bta00047bl1501karlssonatakinum6",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k6.png?itok=c71sVtrw",
+        "mediaId": "BTA00047_BL1501_KARLSSON_A_TAKINUM_6",
         "showTitle": "Karlsson á takinum",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00048bl1502karlssonatakinum72010",
-        "title": "Karlsson er rasarakoyrari",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00048bl1502karlssonatakinum72010"
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00047bl1501karlssonatakinum6",
+        "title": "Karlsson gandar",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00047bl1501karlssonatakinum6"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
+        "id": "2020/04/01/bta00049bl1502karlssonatakinum8",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k8.png?itok=w7i3YMUm",
+        "mediaId": "BTA00049_BL1502_KARLSSON_A_TAKINUM_8",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00049bl1502karlssonatakinum8",
+        "title": "Karlsson og svartaklukkan",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00049bl1502karlssonatakinum8"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
+        "id": "2020/04/01/bta00049bl1502karlssonatakinum8",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k8.png?itok=w7i3YMUm",
+        "mediaId": "BTA00049_BL1502_KARLSSON_A_TAKINUM_8",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00049bl1502karlssonatakinum8",
+        "title": "Karlsson og svartaklukkan",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00049bl1502karlssonatakinum8"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
+        "id": "2020/04/01/bta00050bl1502karlssonatakinum9",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k9.png?itok=GZpOjzTV",
+        "mediaId": "BTA00050_BL1502_KARLSSON_A_TAKINUM_9",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00050bl1502karlssonatakinum9",
+        "title": "Karlsson og Hákunardrongurin",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00050bl1502karlssonatakinum9"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
+        "id": "2020/04/01/bta00050bl1502karlssonatakinum9",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k9.png?itok=GZpOjzTV",
+        "mediaId": "BTA00050_BL1502_KARLSSON_A_TAKINUM_9",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00050bl1502karlssonatakinum9",
+        "title": "Karlsson og Hákunardrongurin",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00050bl1502karlssonatakinum9"
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
@@ -4028,26 +4088,6 @@
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00051bl1502karlssonatakinum10",
         "title": "Karlsson ger skotheilsan",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00051bl1502karlssonatakinum10"
-      },
-      {
-        "date": "2020-04-02T12:00:00+01:00",
-        "id": "2020/04/01/bta00051bl1502karlssonatakinum10",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k10.png?itok=OGyaR0ea",
-        "mediaId": "BTA00051_BL1502_KARLSSON_A_TAKINUM_10",
-        "showTitle": "Karlsson á takinum",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00051bl1502karlssonatakinum10",
-        "title": "Karlsson ger skotheilsan",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00051bl1502karlssonatakinum10"
-      },
-      {
-        "date": "2020-04-02T12:00:00+01:00",
-        "id": "2020/04/01/bta00052bl1502karlssonatakinum11",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k11.png?itok=BWKLJrqd",
-        "mediaId": "BTA00052_BL1502_KARLSSON_A_TAKINUM_11",
-        "showTitle": "Karlsson á takinum",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00052bl1502karlssonatakinum11",
-        "title": "Karlsson og drekin",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00052bl1502karlssonatakinum11"
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
@@ -4078,26 +4118,6 @@
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00054bl1502karlssonatakinum13",
         "title": "Karlsson heldur páskir",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00054bl1502karlssonatakinum13"
-      },
-      {
-        "date": "2020-04-02T12:00:00+01:00",
-        "id": "2020/04/01/bta00054bl1502karlssonatakinum13",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k13.png?itok=3mE7q_i6",
-        "mediaId": "BTA00054_BL1502_KARLSSON_A_TAKINUM_13",
-        "showTitle": "Karlsson á takinum",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00054bl1502karlssonatakinum13",
-        "title": "Karlsson heldur páskir",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00054bl1502karlssonatakinum13"
-      },
-      {
-        "date": "2020-04-02T12:00:00+01:00",
-        "id": "2020/04/01/bta00055bl1503karlssonatakinum14",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k14.png?itok=16qDrCSk",
-        "mediaId": "BTA00055_BL1503_KARLSSON_A_TAKINUM_14",
-        "showTitle": "Karlsson á takinum",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00055bl1503karlssonatakinum14",
-        "title": "Karlsson og mammudagurin",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00055bl1503karlssonatakinum14"
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
@@ -4141,13 +4161,13 @@
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
-        "id": "2020/04/01/bta00065bl1504karlssonatakinum24",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k24.png?itok=fK6vMd6Y",
-        "mediaId": "BTA00065_BL1504_KARLSSON_A_TAKINUM_24",
+        "id": "2020/04/01/bta00064bl1504karlssonatakinum23",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k23.png?itok=Mts_It6y",
+        "mediaId": "BTA00064_BL1504_KARLSSON_A_TAKINUM_23",
         "showTitle": "Karlsson á takinum",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00065bl1504karlssonatakinum24",
-        "title": "Karlsson skreiðir á skíðum",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00065bl1504karlssonatakinum24"
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00064bl1504karlssonatakinum23",
+        "title": "Karlsson fiskar á takinum",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00064bl1504karlssonatakinum23"
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
@@ -4158,6 +4178,16 @@
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00065bl1504karlssonatakinum24",
         "title": "Karlsson skreiðir á skíðum",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00065bl1504karlssonatakinum24"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
+        "id": "2020/04/01/bta00066bl1504karlssonatakinum25jol",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k25.png?itok=lp4G4QnA",
+        "mediaId": "BTA00066_BL1504_KARLSSON_A_TAKINUM_25_JOL",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/01/bta00066bl1504karlssonatakinum25jol",
+        "title": "Karlsson heldur jól",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/01/bta00066bl1504karlssonatakinum25jol"
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
@@ -4171,23 +4201,13 @@
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
-        "id": "2020/04/02/karlsson-takinum-18-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k18.png?itok=UAfR1QS6",
-        "mediaId": "BTA00059_BL1503_KARLSSON_A_TAKINUM_18",
+        "id": "2020/04/02/karlsson-takinum-17-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k17.png?itok=Razt9y7K",
+        "mediaId": "BTA00058_BL1503_KARLSSON_A_TAKINUM_17",
         "showTitle": "Karlsson á takinum",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/02/karlsson-takinum-18-partur",
-        "title": "Karlsson spælir krógva og blunda",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/02/karlsson-takinum-18-partur"
-      },
-      {
-        "date": "2020-04-02T12:00:00+01:00",
-        "id": "2020/04/02/karlsson-takinum-20-partur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k20.png?itok=bafM6NaY",
-        "mediaId": "BTA00061_BL1504_KARLSSON_A_TAKINUM_20",
-        "showTitle": "Karlsson á takinum",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/02/karlsson-takinum-20-partur",
-        "title": "Karlsson, lítla spøkilsi í Vasabýi",
-        "url": "https://kvf.fo/vit/sjonvarp/2020/04/02/karlsson-takinum-20-partur"
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/02/karlsson-takinum-17-partur",
+        "title": "Karlsson er øvundsjúkur",
+        "url": "https://kvf.fo/vit/sjonvarp/2020/04/02/karlsson-takinum-17-partur"
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
@@ -4595,152 +4615,152 @@
     "url": "https://kvf.fo/vit/sending/sv/labbalidid",
     "episodes": [
       {
-        "date": "2024-09-04T07:00:00+01:00",
-        "id": "2024/09/04/hvolpar-bjarga-havskjaldbokunum",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/102_a.jpg?itok=Mfa7ya8w",
-        "mediaId": "LABBALID_102_A",
-        "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-bjarga-havskjaldbokunum",
-        "title": "Hvølpar bjarga havskjaldbøkunum",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-bjarga-havskjaldbokunum"
-      },
-      {
-        "date": "2024-09-04T07:00:00+01:00",
-        "id": "2024/09/04/hvolpar-bjarga-havskjaldbokunum",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/102_a.jpg?itok=Mfa7ya8w",
-        "mediaId": "LABBALID_102_A",
-        "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-bjarga-havskjaldbokunum",
-        "title": "Hvølpar bjarga havskjaldbøkunum",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-bjarga-havskjaldbokunum"
-      },
-      {
-        "date": "2024-09-04T07:00:00+01:00",
-        "id": "2024/09/04/hvolpar-bjarga-toki",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_bjargar_toki.jpg?itok=qrWOSs68",
-        "mediaId": "LABBALID_103_B",
-        "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-bjarga-toki",
-        "title": "Hvølpar bjarga toki",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-bjarga-toki"
-      },
-      {
-        "date": "2024-09-04T07:00:00+01:00",
-        "id": "2024/09/04/hvolpar-i-mjorka",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_i_mjorka.jpg?itok=RhrdZVpR",
-        "mediaId": "LABBALID_104_B",
-        "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-i-mjorka",
-        "title": "Hvølpar í mjørka",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-i-mjorka"
-      },
-      {
-        "date": "2024-09-04T07:00:00+01:00",
-        "id": "2024/09/04/hvolpar-og-heystgildid",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/101_b.jpg?itok=j3ESWHeC",
-        "mediaId": "LABBALID_101_B",
-        "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-og-heystgildid",
-        "title": "Hvølpar og heystgildið",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-heystgildid"
-      },
-      {
-        "date": "2024-09-04T07:00:00+01:00",
-        "id": "2024/09/04/hvolpar-og-heystgildid",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/101_b.jpg?itok=j3ESWHeC",
-        "mediaId": "LABBALID_101_B",
-        "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-og-heystgildid",
-        "title": "Hvølpar og heystgildið",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-heystgildid"
-      },
-      {
-        "date": "2024-09-04T07:00:00+01:00",
-        "id": "2024/09/04/hvolpar-og-kavaskrimslid",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_og_kavaskrimslid.jpg?itok=TqbnhdWu",
-        "mediaId": "LABBALID_106_B",
-        "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-og-kavaskrimslid",
-        "title": "Hvølpar og kavaskrímslið",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-kavaskrimslid"
-      },
-      {
-        "date": "2024-09-04T07:00:00+01:00",
-        "id": "2024/09/04/hvolpar-og-kettlingur",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_og_kettlingar.jpg?itok=HjqME7mU",
-        "mediaId": "LABBALID_103_A",
-        "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-og-kettlingur",
-        "title": "Hvølpar og kettlingur",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-kettlingur"
-      },
-      {
-        "date": "2024-09-04T07:00:00+01:00",
+        "date": "2024-09-04T07:01:00+01:00",
         "id": "2024/09/04/hvolpar-skvatla",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/101_a.jpg?itok=W9GCAN__",
         "mediaId": "LABBALID_101_A",
         "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpar-skvatla",
+        "sortKey": "date: 2024-09-04T07:01:00+01:00 id: 2024/09/04/hvolpar-skvatla",
         "title": "Hvølpar skvatla",
         "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-skvatla"
       },
       {
-        "date": "2024-09-04T07:00:00+01:00",
+        "date": "2024-09-04T07:02:00+01:00",
+        "id": "2024/09/04/hvolpar-og-heystgildid",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/101_b.jpg?itok=j3ESWHeC",
+        "mediaId": "LABBALID_101_B",
+        "showTitle": "Labbaliðið",
+        "sortKey": "date: 2024-09-04T07:02:00+01:00 id: 2024/09/04/hvolpar-og-heystgildid",
+        "title": "Hvølpar og heystgildið",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-heystgildid"
+      },
+      {
+        "date": "2024-09-04T07:03:00+01:00",
+        "id": "2024/09/04/hvolpar-bjarga-havskjaldbokunum",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/102_a.jpg?itok=Mfa7ya8w",
+        "mediaId": "LABBALID_102_A",
+        "showTitle": "Labbaliðið",
+        "sortKey": "date: 2024-09-04T07:03:00+01:00 id: 2024/09/04/hvolpar-bjarga-havskjaldbokunum",
+        "title": "Hvølpar bjarga havskjaldbøkunum",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-bjarga-havskjaldbokunum"
+      },
+      {
+        "date": "2024-09-04T07:04:00+01:00",
+        "id": "2024/09/04/risa-stori-hvolpurin",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/102_b.jpg?itok=aF-cqCia",
+        "mediaId": "LABBALID_102_B",
+        "showTitle": "Labbaliðið",
+        "sortKey": "date: 2024-09-04T07:04:00+01:00 id: 2024/09/04/risa-stori-hvolpurin",
+        "title": "Risa stóri hvølpurin",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/risa-stori-hvolpurin"
+      },
+      {
+        "date": "2024-09-04T07:05:00+01:00",
+        "id": "2024/09/04/hvolpar-og-kettlingur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_og_kettlingar.jpg?itok=HjqME7mU",
+        "mediaId": "LABBALID_103_A",
+        "showTitle": "Labbaliðið",
+        "sortKey": "date: 2024-09-04T07:05:00+01:00 id: 2024/09/04/hvolpar-og-kettlingur",
+        "title": "Hvølpar og kettlingur",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-kettlingur"
+      },
+      {
+        "date": "2024-09-04T07:06:00+01:00",
+        "id": "2024/09/04/hvolpar-bjarga-toki",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_bjargar_toki.jpg?itok=qrWOSs68",
+        "mediaId": "LABBALID_103_B",
+        "showTitle": "Labbaliðið",
+        "sortKey": "date: 2024-09-04T07:06:00+01:00 id: 2024/09/04/hvolpar-bjarga-toki",
+        "title": "Hvølpar bjarga toki",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-bjarga-toki"
+      },
+      {
+        "date": "2024-09-04T07:07:00+01:00",
         "id": "2024/09/04/hvolpasporid",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpasporid.jpg?itok=0eTS9sGC",
         "mediaId": "LABBALID_104_A",
         "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/hvolpasporid",
+        "sortKey": "date: 2024-09-04T07:07:00+01:00 id: 2024/09/04/hvolpasporid",
         "title": "Hvølpasporið",
         "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpasporid"
       },
       {
-        "date": "2024-09-04T07:00:00+01:00",
-        "id": "2024/09/04/risa-stori-hvolpurin",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/102_b.jpg?itok=aF-cqCia",
-        "mediaId": "LABBALID_102_B",
+        "date": "2024-09-04T07:08:00+01:00",
+        "id": "2024/09/04/hvolpar-i-mjorka",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_i_mjorka.jpg?itok=RhrdZVpR",
+        "mediaId": "LABBALID_104_B",
         "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/risa-stori-hvolpurin",
-        "title": "Risa stóri hvølpurin",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/risa-stori-hvolpurin"
+        "sortKey": "date: 2024-09-04T07:08:00+01:00 id: 2024/09/04/hvolpar-i-mjorka",
+        "title": "Hvølpar í mjørka",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-i-mjorka"
       },
       {
-        "date": "2024-09-04T07:00:00+01:00",
-        "id": "2024/09/04/risa-stori-hvolpurin",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/102_b.jpg?itok=aF-cqCia",
-        "mediaId": "LABBALID_102_B",
+        "date": "2024-09-04T07:09:00+01:00",
+        "id": "2024/09/04/hvolparnir-og-gasin",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolparnir_og_gasin.jpg?itok=oZrS7joi",
+        "mediaId": "LABBALID_105_A",
         "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-09-04T07:00:00+01:00 id: 2024/09/04/risa-stori-hvolpurin",
-        "title": "Risa stóri hvølpurin",
-        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/risa-stori-hvolpurin"
+        "sortKey": "date: 2024-09-04T07:09:00+01:00 id: 2024/09/04/hvolparnir-og-gasin",
+        "title": "Hvølparnir og gásin",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolparnir-og-gasin"
       },
       {
-        "date": "2024-10-30T12:00:00+00:00",
+        "date": "2024-09-04T07:10:00+01:00",
+        "id": "2024/09/04/hvolpar-og-ballonkappingin",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_og_ballonkappingin.jpg?itok=XdAtFsYs",
+        "mediaId": "LABBALID_105_B",
+        "showTitle": "Labbaliðið",
+        "sortKey": "date: 2024-09-04T07:10:00+01:00 id: 2024/09/04/hvolpar-og-ballonkappingin",
+        "title": "Hvølpar og ballónkappingin",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-ballonkappingin"
+      },
+      {
+        "date": "2024-09-04T07:11:00+01:00",
+        "id": "2024/09/04/hvolpar-i-halku",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_i_halku.jpg?itok=m4YV4TCq",
+        "mediaId": "LABBALID_106_A",
+        "showTitle": "Labbaliðið",
+        "sortKey": "date: 2024-09-04T07:11:00+01:00 id: 2024/09/04/hvolpar-i-halku",
+        "title": "Hvølpar í hálku",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-i-halku"
+      },
+      {
+        "date": "2024-09-04T07:12:00+01:00",
+        "id": "2024/09/04/hvolpar-og-kavaskrimslid",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_og_kavaskrimslid.jpg?itok=TqbnhdWu",
+        "mediaId": "LABBALID_106_B",
+        "showTitle": "Labbaliðið",
+        "sortKey": "date: 2024-09-04T07:12:00+01:00 id: 2024/09/04/hvolpar-og-kavaskrimslid",
+        "title": "Hvølpar og kavaskrímslið",
+        "url": "https://kvf.fo/vit/sjonvarp/2024/09/04/hvolpar-og-kavaskrimslid"
+      },
+      {
+        "date": "2024-10-30T12:13:00+00:00",
         "id": "2024/10/30/hvolparnir-og-spokilsissjoraenarin",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2024-10-29_151910.png?itok=Z8G8flQW",
         "mediaId": "BTA00647_LABBALIDID_10",
         "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-10-30T12:00:00+00:00 id: 2024/10/30/hvolparnir-og-spokilsissjoraenarin",
+        "sortKey": "date: 2024-10-30T12:13:00+00:00 id: 2024/10/30/hvolparnir-og-spokilsissjoraenarin",
         "title": "Hvølparnir og spøkilsissjórænarin",
         "url": "https://kvf.fo/vit/sjonvarp/2024/10/30/hvolparnir-og-spokilsissjoraenarin"
       },
       {
-        "date": "2024-12-20T12:00:00+00:00",
+        "date": "2024-12-20T07:14:00+00:00",
         "id": "2024/12/20/hvolpar-bjarga-jolunum",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol_2.png?itok=rTl4DBs4",
         "mediaId": "BTA00679_Labbalidid_11_Hvolparnir_bjarga_jolunum_v2",
         "showTitle": "Labbaliðið",
-        "sortKey": "date: 2024-12-20T12:00:00+00:00 id: 2024/12/20/hvolpar-bjarga-jolunum",
+        "sortKey": "date: 2024-12-20T07:14:00+00:00 id: 2024/12/20/hvolpar-bjarga-jolunum",
         "title": "Hvølpar bjarga jólunum",
         "url": "https://kvf.fo/vit/sjonvarp/2024/12/20/hvolpar-bjarga-jolunum"
       },
       {
-        "date": "2025-04-17T12:00:00+01:00",
+        "date": "2025-04-17T07:15:00+01:00",
         "id": "2025/04/17/hvolpar-bjarga-paskareggjaveiduni",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/labbalidid_paskapartur.png?itok=2qcxUry2",
         "mediaId": "BTA00692_LABBALIDID_118_PASKAPARTUR",
         "showTitle": "Labbaliðið",
-        "sortKey": "date: 2025-04-17T12:00:00+01:00 id: 2025/04/17/hvolpar-bjarga-paskareggjaveiduni",
+        "sortKey": "date: 2025-04-17T07:15:00+01:00 id: 2025/04/17/hvolpar-bjarga-paskareggjaveiduni",
         "title": "Hvølpar bjarga páskareggjaveiðuni",
         "url": "https://kvf.fo/vit/sjonvarp/2025/04/17/hvolpar-bjarga-paskareggjaveiduni"
       }
@@ -5400,7 +5420,7 @@
   {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/lotta_sendingamynd.png?itok=yWtBfVh-",
     "title": "Lotta í Brakarastræti",
-    "url": "https://kvf.fo/vit/sending/sv/lotta-i-brakarastraeti",
+    "url": "https://kvf.fo/vit/sending/sv/lotta-i-braekarastraeti",
     "episodes": [
       {
         "date": "2022-11-09T09:37:00+00:00",
@@ -6689,7 +6709,7 @@
   {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/ronja_ransmannadottir.png?itok=jdtiaRzl",
     "title": "Ronja Ránsmansdóttir",
-    "url": "https://kvf.fo/vit/sending/sv/ronja-ransmansdottir",
+    "url": "https://kvf.fo/vit/sending/sv/ronja-ransmannadottir",
     "episodes": [
       {
         "date": "2023-01-16T12:05:00+00:00",
@@ -9441,23 +9461,13 @@
       },
       {
         "date": "2015-09-10T12:15:00+01:00",
-        "id": "2015/09/10/janus-teknar-ein-hund",
+        "id": "2015/09/10/janus-teknar-eina-bamsu",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
-        "mediaId": "vit_janus_5",
+        "mediaId": "vit_janus_4",
         "showTitle": "VIT vísa",
-        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-ein-hund",
-        "title": "Janus teknar ein hund",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-ein-hund"
-      },
-      {
-        "date": "2015-09-10T12:15:00+01:00",
-        "id": "2015/09/10/janus-teknar-ein-prins",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
-        "mediaId": "vit_janus_8",
-        "showTitle": "VIT vísa",
-        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-ein-prins",
-        "title": "Janus teknar ein prins",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-ein-prins"
+        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-eina-bamsu",
+        "title": "Janus teknar eina bamsu",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-eina-bamsu"
       },
       {
         "date": "2015-09-10T12:15:00+01:00",
@@ -9481,13 +9491,23 @@
       },
       {
         "date": "2015-09-10T12:15:00+01:00",
-        "id": "2015/09/10/janus-teknar-eina-prinsessu",
+        "id": "2015/09/10/janus-teknar-eina-kanin",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
-        "mediaId": "vit_janus_6",
+        "mediaId": "vit_janus_2",
         "showTitle": "VIT vísa",
-        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-eina-prinsessu",
-        "title": "Janus teknar eina prinsessu",
-        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-eina-prinsessu"
+        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-eina-kanin",
+        "title": "Janus teknar eina kanin",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-eina-kanin"
+      },
+      {
+        "date": "2015-09-10T12:15:00+01:00",
+        "id": "2015/09/10/janus-teknar-paskaungar",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
+        "mediaId": "vit_janus_3",
+        "showTitle": "VIT vísa",
+        "sortKey": "date: 2015-09-10T12:15:00+01:00 id: 2015/09/10/janus-teknar-paskaungar",
+        "title": "Janus teknar páskaungar",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/09/10/janus-teknar-paskaungar"
       },
       {
         "date": "2015-09-10T12:15:00+01:00",
