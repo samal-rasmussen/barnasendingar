@@ -80,7 +80,7 @@ function parseEpisodeElement(el: HTMLElement): PartialEpisode {
 	const title = title_a.textContent ?? '';
 	let date = publish_span?.getAttribute('content');
 	if (date == null || typeof date !== 'string' || date.trim().length === 0) {
-		console.warn(new Error(`No date found`, { cause: { url, title } }));
+		// console.warn(new Error(`No date found`, { cause: { url, title } }));
 		// Mash the date with a z char for every char in the date, so that it sorts last
 		date = 'zzzzzzzzzzzzzzzzzzzzzzzzz';
 	}
