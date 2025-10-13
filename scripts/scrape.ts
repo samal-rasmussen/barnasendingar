@@ -20,9 +20,9 @@ async function pretty(html: string): Promise<string> {
 	return await prettier.format(html, { parser: 'html' });
 }
 
-async function fetchHtml(url: string): Promise<string> {
+async function fetchHtml(urlString: string): Promise<string> {
 	try {
-		const response = await fetch(url, {
+		const response = await fetch(urlString, {
 			// Prevent automatic redirects
 			redirect: 'manual',
 			// no-store to prevent caching
@@ -32,9 +32,11 @@ async function fetchHtml(url: string): Promise<string> {
 			// Handle redirect manually
 			const redirectLocation = response.headers.get('location');
 			if (redirectLocation == null) {
-				throw new Error(`No redirect location found for ${url}`);
+				throw new Error(`No redirect location found for ${urlString}`);
 			}
-			const redirectUrl = urlPrefix + redirectLocation;
+			const redirectUrlString = urlPrefix + redirectLocation;
+			const redirectUrl = new URL(redirectUrlString);
+			redirectUrl.searchParams.set('cache-bust', Date.now().toString());
 			const redirect_response = await fetch(redirectUrl, {
 				cache: 'no-store',
 			});
@@ -46,7 +48,7 @@ async function fetchHtml(url: string): Promise<string> {
 		// console.log(html);
 		return html;
 	} catch (error) {
-		console.error(`Failed to fetch HTML from ${url}`, error);
+		console.error(`Failed to fetch HTML from ${urlString}`, error);
 		throw error;
 	}
 }

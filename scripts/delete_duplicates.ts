@@ -3,15 +3,19 @@ import fs from 'fs';
 // Read the JSON file
 const data = JSON.parse(fs.readFileSync('src/lib/assets/shows.json', 'utf8'));
 
-console.log('Original data:');
-console.log('- Shows:', data.length);
+function log(...args: any[]) {
+	// console.log(...args);
+}
+
+log('Original data:');
+log('- Shows:', data.length);
 let totalEpisodes = 0;
 data.forEach((show) => {
 	if (show.episodes) {
 		totalEpisodes += show.episodes.length;
 	}
 });
-console.log('- Total episodes:', totalEpisodes);
+log('- Total episodes:', totalEpisodes);
 
 // Track duplicates within each show
 const duplicates = [];
@@ -54,17 +58,17 @@ const cleanedData = data.map((show) => {
 });
 
 // Report duplicates found
-console.log('\n=== TRUE DUPLICATES FOUND ===');
-console.log('Duplicates by sortKey:', duplicates.length);
+log('\n=== TRUE DUPLICATES FOUND ===');
+log('Duplicates by sortKey:', duplicates.length);
 if (duplicates.length > 0) {
-	console.log('\nDuplicate episodes (removed):');
+	log('\nDuplicate episodes (removed):');
 	duplicates.forEach((dup, i) => {
-		console.log(`${i + 1}. ${dup.show} | ${dup.episode}`);
-		console.log(`   ID: ${dup.id}`);
-		console.log(`   MediaID: ${dup.mediaId}`);
-		console.log(`   Date: ${dup.date}`);
-		console.log(`   SortKey: ${dup.sortKey}`);
-		console.log('');
+		log(`${i + 1}. ${dup.show} | ${dup.episode}`);
+		log(`   ID: ${dup.id}`);
+		log(`   MediaID: ${dup.mediaId}`);
+		log(`   Date: ${dup.date}`);
+		log(`   SortKey: ${dup.sortKey}`);
+		log('');
 	});
 }
 
@@ -76,10 +80,10 @@ cleanedData.forEach((show) => {
 	}
 });
 
-console.log('=== CLEANING RESULTS ===');
-console.log('Episodes removed:', totalEpisodes - newTotalEpisodes);
-console.log('Remaining episodes:', newTotalEpisodes);
+log('=== CLEANING RESULTS ===');
+log('Episodes removed:', totalEpisodes - newTotalEpisodes);
+log('Remaining episodes:', newTotalEpisodes);
 
 // Write cleaned data back to file
 fs.writeFileSync('src/lib/assets/shows.json', JSON.stringify(cleanedData, null, 2));
-console.log('\nCleaned data written to src/lib/assets/shows.json');
+log('\nCleaned data written to src/lib/assets/shows.json');
