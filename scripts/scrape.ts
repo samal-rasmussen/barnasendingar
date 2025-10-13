@@ -23,7 +23,10 @@ async function pretty(html: string): Promise<string> {
 async function fetchHtml(url: string): Promise<string> {
 	try {
 		const response = await fetch(url, {
-			redirect: 'manual', // Prevent automatic redirects
+			// Prevent automatic redirects
+			redirect: 'manual',
+			// no-store to prevent caching
+			cache: 'no-store',
 		});
 		if (response.status === 301 || response.status === 302) {
 			// Handle redirect manually
@@ -32,7 +35,9 @@ async function fetchHtml(url: string): Promise<string> {
 				throw new Error(`No redirect location found for ${url}`);
 			}
 			const redirectUrl = urlPrefix + redirectLocation;
-			const redirect_response = await fetch(redirectUrl);
+			const redirect_response = await fetch(redirectUrl, {
+				cache: 'no-store',
+			});
 			const html = await redirect_response.text();
 			return html;
 		}
