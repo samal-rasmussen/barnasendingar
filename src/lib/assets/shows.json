@@ -5151,6 +5151,46 @@
         "sortKey": "date: 2025-10-10T15:00:00+01:00 id: 2025/10/10/aldrinstid",
         "title": "Aldrinstíð",
         "url": "https://kvf.fo/vit/sjonvarp/2025/10/10/aldrinstid"
+      },
+      {
+        "date": "2025-10-18T14:30:00+01:00",
+        "id": "2025/10/18/petra-fer-til-frisor",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/petra_fer_til_frisor_cover_10.1.1.jpg?itok=pr6EQ57t",
+        "mediaId": "VIN00042_OK",
+        "showTitle": "Les Vimús",
+        "sortKey": "date: 2025-10-18T14:30:00+01:00 id: 2025/10/18/petra-fer-til-frisor",
+        "title": "Petra fer til frisør",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/10/18/petra-fer-til-frisor"
+      },
+      {
+        "date": "2025-10-24T15:00:00+01:00",
+        "id": "2025/10/24/tornid-hja-harra-babel",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/tornid_hja_harra_babel.jpg?itok=KOG7aVfX",
+        "mediaId": "VIN00043",
+        "showTitle": "Les Vimús",
+        "sortKey": "date: 2025-10-24T15:00:00+01:00 id: 2025/10/24/tornid-hja-harra-babel",
+        "title": "Tornið hjá harra Bábel",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/10/24/tornid-hja-harra-babel"
+      },
+      {
+        "date": "2025-10-31T15:00:00+00:00",
+        "id": "2025/10/31/eta-gras",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2025-10-29_084215.png?itok=k5Od-ERU",
+        "mediaId": "VIN00044",
+        "showTitle": "Les Vimús",
+        "sortKey": "date: 2025-10-31T15:00:00+00:00 id: 2025/10/31/eta-gras",
+        "title": "Eta gras",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/10/31/eta-gras"
+      },
+      {
+        "date": "2025-11-07T15:00:00+00:00",
+        "id": "2025/11/07/plass-fyri-maer",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/plass_fyri_maer_cover.jpg?itok=c70jDE40",
+        "mediaId": "VIN00045_ok",
+        "showTitle": "Les Vimús",
+        "sortKey": "date: 2025-11-07T15:00:00+00:00 id: 2025/11/07/plass-fyri-maer",
+        "title": "Pláss fyri mær",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/11/07/plass-fyri-maer"
       }
     ]
   },
@@ -8070,6 +8110,46 @@
         "sortKey": "date: 2025-10-08T15:00:00+01:00 id: 2025/10/08/snipp-snapp",
         "title": "Snipp Snapp",
         "url": "https://kvf.fo/vit/sjonvarp/2025/10/08/snipp-snapp"
+      },
+      {
+        "date": "2025-10-15T15:00:00+01:00",
+        "id": "2025/10/15/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2025-09-24_163443.png?itok=dvYkK7Fd",
+        "mediaId": "SNI00364",
+        "showTitle": "Snipp Snapp",
+        "sortKey": "date: 2025-10-15T15:00:00+01:00 id: 2025/10/15/snipp-snapp",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/10/15/snipp-snapp"
+      },
+      {
+        "date": "2025-10-22T15:00:00+01:00",
+        "id": "2025/10/22/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2025-09-24_163850.png?itok=_cLgwtay",
+        "mediaId": "SNI00365",
+        "showTitle": "Snipp Snapp",
+        "sortKey": "date: 2025-10-22T15:00:00+01:00 id: 2025/10/22/snipp-snapp",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/10/22/snipp-snapp"
+      },
+      {
+        "date": "2025-10-29T15:00:00+00:00",
+        "id": "2025/10/29/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2025-09-24_164511.png?itok=uLLl5JYP",
+        "mediaId": "SNI00366",
+        "showTitle": "Snipp Snapp",
+        "sortKey": "date: 2025-10-29T15:00:00+00:00 id: 2025/10/29/snipp-snapp",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/10/29/snipp-snapp"
+      },
+      {
+        "date": "2025-11-05T15:00:00+00:00",
+        "id": "2025/11/05/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2025-09-24_164835.png?itok=qjHoo7oE",
+        "mediaId": "SNI00367",
+        "showTitle": "Snipp Snapp",
+        "sortKey": "date: 2025-11-05T15:00:00+00:00 id: 2025/11/05/snipp-snapp",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/11/05/snipp-snapp"
       }
     ]
   },
