@@ -1,8 +1,9 @@
 #!/usr/bin/env tsx
 
 import { spawn } from 'child_process';
-import { writeFileSync, mkdirSync, existsSync } from 'fs';
+import { mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
+import { createInterface } from 'readline';
 import shows from '../src/lib/assets/shows.json';
 import type { Show, Episode } from './shared-types';
 
@@ -21,6 +22,120 @@ function sanitizeFilename(filename: string): string {
 		.replace(/[<>:"/\\|?*]/g, '_')
 		.replace(/\s+/g, '_')
 		.trim();
+}
+
+async function listFormats(url: string): Promise<string> {
+	return new Promise((resolve, reject) => {
+		const args = [
+			url,
+			'--list-formats',
+			'--no-check-certificates',
+			'--no-warnings',
+		];
+
+		const ytDlp = spawn('yt-dlp', args, {
+			stdio: ['pipe', 'pipe', 'pipe'],
+		});
+
+		let stdout = '';
+		let stderr = '';
+
+		ytDlp.stdout.on('data', (data) => {
+			stdout += data.toString();
+		});
+
+		ytDlp.stderr.on('data', (data) => {
+			stderr += data.toString();
+		});
+
+		ytDlp.on('close', (code) => {
+			if (code === 0) {
+				resolve(stdout);
+			} else {
+				reject(new Error(`yt-dlp --list-formats failed with exit code ${code}\n${stderr}`));
+			}
+		});
+
+		ytDlp.on('error', (error) => {
+			reject(new Error(`Error spawning yt-dlp: ${error.message}`));
+		});
+	});
+}
+
+function promptShowSelection(): Promise<Show> {
+	const rl = createInterface({
+		input: process.stdin,
+		output: process.stdout,
+	});
+
+	return new Promise((resolve) => {
+		console.log('\n📺 Available shows:');
+		shows.forEach((show, index) => {
+			console.log(`  ${index + 1}. ${show.title}`);
+		});
+
+		const promptUser = () => {
+			rl.question('\nSelect a show (enter number or show title): ', (answer) => {
+				const trimmed = answer.trim();
+
+				if (!trimmed) {
+					console.log('❌ Please enter a number or show title.');
+					promptUser();
+					return;
+				}
+
+				// Try to match by number
+				const number = parseInt(trimmed, 10);
+				if (!isNaN(number) && number >= 1 && number <= shows.length) {
+					rl.close();
+					resolve(shows[number - 1]);
+					return;
+				}
+
+				// Try to match by title (case-insensitive, partial match)
+				const matchedShow = shows.find(
+					(show) => show.title.toLowerCase() === trimmed.toLowerCase(),
+				);
+
+				if (matchedShow) {
+					rl.close();
+					resolve(matchedShow);
+					return;
+				}
+
+				// Try partial match
+				const partialMatch = shows.find((show) =>
+					show.title.toLowerCase().includes(trimmed.toLowerCase()),
+				);
+
+				if (partialMatch) {
+					rl.close();
+					resolve(partialMatch);
+					return;
+				}
+
+				console.log('❌ Show not found. Please try again.');
+				promptUser();
+			});
+		};
+
+		promptUser();
+	});
+}
+
+function promptFormatSelection(): Promise<string> {
+	const rl = createInterface({
+		input: process.stdin,
+		output: process.stdout,
+	});
+
+	return new Promise((resolve) => {
+		rl.question('\nSelect format (press Enter for "best"): ', (answer) => {
+			rl.close();
+			const format = answer.trim() || 'best';
+			resolve(format);
+		});
+	});
 }
 
 function downloadWithYtDlp(
@@ -148,19 +263,44 @@ async function downloadShow(
 async function main() {
 	const args = process.argv.slice(2);
 
-	if (args.length === 0) {
-		console.error('❌ Please provide a show title as an argument.');
-		console.log('Usage: tsx download-show.ts "Show Title" [outputDir] [format]');
-		console.log('\nAvailable shows:');
-		shows.forEach((show) => console.log(`  - ${show.title}`));
+	// Optional arguments
+	const outputDir = args[0] || './downloads';
+
+	console.log('📺 Show Downloader');
+	console.log('==================\n');
+
+	// Prompt user to select a show
+	const show = await promptShowSelection();
+
+	console.log(`\n✅ Selected show: ${show.title}`);
+
+	// Filter out episodes without mediaId
+	const episodesWithMediaId = show.episodes.filter((episode) => episode.mediaId);
+
+	if (episodesWithMediaId.length === 0) {
+		console.error(`❌ No episodes with mediaId found for show "${show.title}"`);
 		process.exit(1);
 	}
 
-	const showTitle = args[0];
+	// Get first episode for format listing
+	const firstEpisode = episodesWithMediaId[0];
+	const m3u8Url = `https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/${firstEpisode.mediaId}.smil?type=m3u8`;
 
-	// Optional arguments
-	const outputDir = args[1] || './downloads';
-	const format = args[2] || 'best';
+	console.log(`📊 Total episodes: ${show.episodes.length}`);
+	console.log(`\n📋 Fetching available formats for first episode: ${firstEpisode.title}...`);
+
+	// List formats and prompt user
+	let format: string;
+	try {
+		const formatList = await listFormats(m3u8Url);
+		console.log('\n' + formatList);
+		format = await promptFormatSelection();
+		console.log(`\n✅ Selected format: ${format}`);
+	} catch (error) {
+		console.error(`❌ Failed to list formats: ${error.message}`);
+		console.log('Using default format: best');
+		format = 'best';
+	}
 
 	const options: DownloadOptions = {
 		outputDir,
@@ -168,7 +308,7 @@ async function main() {
 	};
 
 	try {
-		await downloadShow(showTitle, options);
+		await downloadShow(show.title, options);
 	} catch (error) {
 		console.error(`❌ Download failed: ${error.message}`);
 		process.exit(1);
