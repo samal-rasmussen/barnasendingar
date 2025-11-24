@@ -6,6 +6,7 @@ import { join } from 'path';
 import { createInterface } from 'readline';
 import shows from '../src/lib/assets/shows.json';
 import type { Show, Episode } from './shared-types';
+import { keepAwake } from './keepawake';
 
 interface DownloadOptions {
 	outputDir: string;
@@ -26,12 +27,7 @@ function sanitizeFilename(filename: string): string {
 
 async function listFormats(url: string): Promise<string> {
 	return new Promise((resolve, reject) => {
-		const args = [
-			url,
-			'--list-formats',
-			'--no-check-certificates',
-			'--no-warnings',
-		];
+		const args = [url, '--list-formats', '--no-check-certificates', '--no-warnings'];
 
 		const ytDlp = spawn('yt-dlp', args, {
 			stdio: ['pipe', 'pipe', 'pipe'],
@@ -307,11 +303,29 @@ async function main() {
 		format,
 	};
 
+	// Acquire wake lock to prevent computer from sleeping during downloads
+	let wakeLock: { pid: number; release: () => boolean } | null = null;
+	try {
+		console.log('\n🔒 Acquiring wake lock to prevent sleep during downloads...');
+		wakeLock = await keepAwake();
+		console.log('✅ Wake lock acquired. Computer will stay awake during downloads.\n');
+	} catch (error) {
+		console.warn(`⚠️  Failed to acquire wake lock: ${error.message}`);
+		console.warn('Downloads will continue, but computer may sleep if idle.\n');
+	}
+
 	try {
 		await downloadShow(show.title, options);
 	} catch (error) {
 		console.error(`❌ Download failed: ${error.message}`);
 		process.exit(1);
+	} finally {
+		// Always release the wake lock when done
+		if (wakeLock) {
+			console.log('\n🔓 Releasing wake lock...');
+			wakeLock.release();
+			console.log('✅ Wake lock released.');
+		}
 	}
 }
 
