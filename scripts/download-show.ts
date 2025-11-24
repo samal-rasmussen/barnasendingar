@@ -25,6 +25,22 @@ function sanitizeFilename(filename: string): string {
 		.trim();
 }
 
+function validateOutputDir(outputDir: string): string {
+	const trimmed = outputDir.trim();
+	if (!trimmed) {
+		throw new Error('Output directory cannot be empty');
+	}
+	// Check for dangerous path traversal attempts
+	if (trimmed.includes('..')) {
+		throw new Error('Output directory cannot contain ".." (path traversal)');
+	}
+	// Check for null bytes (potential security issue)
+	if (trimmed.includes('\0')) {
+		throw new Error('Output directory contains invalid characters');
+	}
+	return trimmed;
+}
+
 async function listFormats(url: string): Promise<string> {
 	return new Promise((resolve, reject) => {
 		const args = [url, '--list-formats', '--no-check-certificates', '--no-warnings'];
@@ -58,6 +74,28 @@ async function listFormats(url: string): Promise<string> {
 	});
 }
 
+function parseFormatIds(formatList: string): string[] {
+	const ids = new Set<string>();
+
+	for (const line of formatList.split('\n')) {
+		const trimmed = line.trim();
+		if (!trimmed) continue;
+
+		// Skip header or log lines
+		if (/^id\s+/i.test(trimmed) || /^format\s+code/i.test(trimmed) || trimmed.startsWith('[')) {
+			continue;
+		}
+
+		const parts = trimmed.split(/\s+/);
+		const id = parts[0];
+		if (!id || id.toLowerCase() === 'id') continue;
+
+		ids.add(id);
+	}
+
+	return Array.from(ids);
+}
+
 function promptShowSelection(): Promise<Show> {
 	const rl = createInterface({
 		input: process.stdin,
@@ -76,6 +114,13 @@ function promptShowSelection(): Promise<Show> {
 
 				if (!trimmed) {
 					console.log('❌ Please enter a number or show title.');
+					promptUser();
+					return;
+				}
+
+				// Validate input length to prevent extremely long strings
+				if (trimmed.length > 200) {
+					console.log('❌ Input is too long. Please enter a number or show title.');
 					promptUser();
 					return;
 				}
@@ -119,18 +164,40 @@ function promptShowSelection(): Promise<Show> {
 	});
 }
 
-function promptFormatSelection(): Promise<string> {
+function promptFormatSelection(availableFormatIds: string[]): Promise<string> {
 	const rl = createInterface({
 		input: process.stdin,
 		output: process.stdout,
 	});
 
 	return new Promise((resolve) => {
-		rl.question('\nSelect format (press Enter for "best"): ', (answer) => {
-			rl.close();
-			const format = answer.trim() || 'best';
-			resolve(format);
-		});
+		const promptUser = () => {
+			rl.question('\nSelect format ID from the list above (press Enter for "best"): ', (answer) => {
+				const trimmed = answer.trim();
+
+				// Empty input -> default 'best'
+				if (!trimmed) {
+					rl.close();
+					resolve('best');
+					return;
+				}
+
+				// Validate that the entered ID exists in the presented list
+				if (!availableFormatIds.includes(trimmed)) {
+					console.log(
+						`❌ Invalid format ID. Please choose one of the listed IDs: ${availableFormatIds.join(
+							', ',
+						)}`,
+					);
+					promptUser();
+					return;
+				}
+
+				rl.close();
+				resolve(trimmed);
+			});
+		};
+		promptUser();
 	});
 }
 
@@ -259,8 +326,14 @@ async function downloadShow(
 async function main() {
 	const args = process.argv.slice(2);
 
-	// Optional arguments
-	const outputDir = args[0] || './downloads';
+	// Validate and set output directory
+	let outputDir: string;
+	try {
+		outputDir = validateOutputDir(args[0] || './downloads');
+	} catch (error) {
+		console.error(`❌ Invalid output directory: ${error.message}`);
+		process.exit(1);
+	}
 
 	console.log('📺 Show Downloader');
 	console.log('==================\n');
@@ -290,7 +363,17 @@ async function main() {
 	try {
 		const formatList = await listFormats(m3u8Url);
 		console.log('\n' + formatList);
-		format = await promptFormatSelection();
+		const availableFormatIds = parseFormatIds(formatList);
+
+		if (!availableFormatIds.length) {
+			console.warn(
+				'⚠️  Could not parse format IDs from yt-dlp output. Falling back to default format "best".',
+			);
+			format = 'best';
+		} else {
+			format = await promptFormatSelection(availableFormatIds);
+		}
+
 		console.log(`\n✅ Selected format: ${format}`);
 	} catch (error) {
 		console.error(`❌ Failed to list formats: ${error.message}`);
