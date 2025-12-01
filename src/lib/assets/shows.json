@@ -1854,6 +1854,163 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/dolgarnir.jpg?itok=4-V78v4j",
+    "title": "Dólgarnir",
+    "url": "https://kvf.fo/vit/sending/sv/dolgarnir",
+    "episodes": [
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-1-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00001",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-1-partur",
+        "title": "Dólgarnir (01:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-1-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-2-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00002",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-2-partur",
+        "title": "Dólgarnir (02:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-2-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-3-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00003",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-3-partur",
+        "title": "Dólgarnir (03:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-3-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-4-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00004",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-4-partur",
+        "title": "Dólgarnir (04:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-4-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-5-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00005",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-5-partur",
+        "title": "Dólgarnir (05:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-5-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-6-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00006",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-6-partur",
+        "title": "Dólgarnir (06:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-6-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-7-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00007",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-7-partur",
+        "title": "Dólgarnir (07:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-7-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-8-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00008",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-8-partur",
+        "title": "Dólgarnir (08:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-8-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-9-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00009",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-9-partur",
+        "title": "Dólgarnir (09:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-9-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-10-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00010",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-10-partur",
+        "title": "Dólgarnir (10:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-10-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-11-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00011",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-11-partur",
+        "title": "Dólgarnir (11:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-11-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-16-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00016",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-16-partur",
+        "title": "Dólgarnir (16:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-16-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-17-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00017",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-17-partur",
+        "title": "Dólgarnir (17:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-17-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-18-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00018",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-18-partur",
+        "title": "Dólgarnir (18:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-18-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "dlgarnir-19-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/29bf09938a637a90c152c897e3e22841.png?itok=4E0iaDYD",
+        "mediaId": "DOL00019",
+        "showTitle": "Dólgarnir",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: dlgarnir-19-partur",
+        "title": "Dólgarnir (19:19)",
+        "url": "https://kvf.fo/vit/sjonvarp/dlgarnir-19-partur"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bar00112_dreymurin_um_eitt_hondboltsliv0_0013_0.jpg?itok=KkIeZRwM",
     "title": "Dreymurin um eitt hondbóltslív",
     "url": "https://kvf.fo/vit/sending/sv/dreymurin-um-eitt-hondboltsliv",
@@ -1867,6 +2024,23 @@
         "sortKey": "date: 2022-04-23T16:11:00+01:00 id: 2022/04/23/dreymurin-um-eitt-hondboltsliv",
         "title": "Dreymurin um eitt hondbóltslív",
         "url": "https://kvf.fo/vit/sjonvarp/2022/04/23/dreymurin-um-eitt-hondboltsliv"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1478_drongurin_og_joladinosaururin_2006_0119.jpg?itok=9KSUofir",
+    "title": "Drongurin og jóladinosaururin",
+    "url": "https://kvf.fo/node/166707",
+    "episodes": [
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166709",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1478_drongurin_og_joladinosaururin_2006_0010.jpg?itok=1mxYlfNO",
+        "mediaId": "BL1478_Drongurin_og_joladinosaururin_2006",
+        "showTitle": "Drongurin og jóladinosaururin",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166709",
+        "title": "Drongurin og jóladinosaururin",
+        "url": "https://kvf.fo/node/166709"
       }
     ]
   },
@@ -2114,6 +2288,23 @@
         "sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: 2023/06/13/eli00025bl1493elias252007",
         "title": "ELI00025_BL1493_Elias_25_2007",
         "url": "https://kvf.fo/vit/sjonvarp/2023/06/13/eli00025bl1493elias252007"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bta00013_bl1633_elmar_bjargar_jolunum_2002_0009.jpg?itok=lo0AH1ih",
+    "title": "Elmar bjargar jólunum",
+    "url": "https://kvf.fo/node/166711",
+    "episodes": [
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "2023/11/29/bta00013bl1633elmarbjargarjolunum2002",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00013_bl1633_elmar_bjargar_jolunum_2002_0053.jpg?itok=gqke7JUg",
+        "mediaId": "BTA00013_BL1633_Elmar_bjargar_jolunum_2002",
+        "showTitle": "Elmar bjargar jólunum",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2023/11/29/bta00013bl1633elmarbjargarjolunum2002",
+        "title": "Elmar bjargar jólunum",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/bta00013bl1633elmarbjargarjolunum2002"
       }
     ]
   },
@@ -2659,6 +2850,23 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1478_fegni_vatturin_2006_0070.jpg?itok=gOpkR2g3",
+    "title": "Fegni vætturin",
+    "url": "https://kvf.fo/node/166712",
+    "episodes": [
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166714",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1478_fegni_vatturin_2006_0047.jpg?itok=6ZXw_8U8",
+        "mediaId": "BL1478_Fegni_vatturin_2006",
+        "showTitle": "Fegni vætturin",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166714",
+        "title": "Fegni vætturin",
+        "url": "https://kvf.fo/node/166714"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/filur_og_djorini_0.jpg?itok=Ud9TFOEJ",
     "title": "Fílur og djórini",
     "url": "https://kvf.fo/vit/sending/sv/filur-og-djorini",
@@ -2889,6 +3097,123 @@
         "sortKey": "date: 2024-09-03T12:00:00+01:00 id: 2024/09/03/trukkur",
         "title": "Trukkur",
         "url": "https://kvf.fo/vit/sjonvarp/2024/09/03/trukkur"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/gloa.png?itok=iwUx2piM",
+    "title": "Glóa",
+    "url": "https://kvf.fo/node/166398",
+    "episodes": [
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166400",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1202_jolasending_gloa_1_01122001_0011.jpg?itok=TokAxY0v",
+        "mediaId": "BL1202_Jolasending_Gloa_1_01122001",
+        "showTitle": "Glóa",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166400",
+        "title": "1. partur",
+        "url": "https://kvf.fo/node/166400"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166402",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1203_jolasending_gloa_2_03122001_0035.jpg?itok=QxC3WzaQ",
+        "mediaId": "BL1203_Jolasending_Gloa_2_03122001",
+        "showTitle": "Glóa",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166402",
+        "title": "2. partur",
+        "url": "https://kvf.fo/node/166402"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166415",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1204_jolasending_gloa_3_05122001_0014.jpg?itok=h5uXRHWV",
+        "mediaId": "BL1204_Jolasending_Gloa_3_05122001",
+        "showTitle": "Glóa",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166415",
+        "title": "3. partur",
+        "url": "https://kvf.fo/node/166415"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166416",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1205_jolasending_gloa_4_07122001_0052.jpg?itok=rMAxnQM5",
+        "mediaId": "BL1205_Jolasending_Gloa_4_07122001",
+        "showTitle": "Glóa",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166416",
+        "title": "4. partur",
+        "url": "https://kvf.fo/node/166416"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166417",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1206_jolasending_gloa_5_09122001_0014.jpg?itok=fWb1r5Z_",
+        "mediaId": "BL1206_Jolasending_Gloa_5_09122001",
+        "showTitle": "Glóa",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166417",
+        "title": "5. partur",
+        "url": "https://kvf.fo/node/166417"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166418",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1207_jolasending_gloa_6_11122001_0065.jpg?itok=bUJtJRum",
+        "mediaId": "BL1207_Jolasending_Gloa_6_11122001",
+        "showTitle": "Glóa",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166418",
+        "title": "6. partur",
+        "url": "https://kvf.fo/node/166418"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166421",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1208_jolasending_gloa_7_13122001_0008.jpg?itok=QFA_wXdu",
+        "mediaId": "BL1208_Jolasending_Gloa_7_13122001",
+        "showTitle": "Glóa",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166421",
+        "title": "7. partur",
+        "url": "https://kvf.fo/node/166421"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166422",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1209_jolasending_gloa_8_15122001_0018.jpg?itok=SSbGOglU",
+        "mediaId": "BL1209_Jolasending_Gloa_8_15122001",
+        "showTitle": "Glóa",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166422",
+        "title": "8. partur",
+        "url": "https://kvf.fo/node/166422"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166423",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1210_jolasending_gloa_9_17122001_0021.jpg?itok=vZdD6gwO",
+        "mediaId": "BL1210_Jolasending_Gloa_9_17122001",
+        "showTitle": "Glóa",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166423",
+        "title": "9. partur",
+        "url": "https://kvf.fo/node/166423"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166424",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1211_jolasending_gloa_10_19122001_0035.jpg?itok=4g8RGF4R",
+        "mediaId": "BL1211_Jolasending_Gloa_10_19122001",
+        "showTitle": "Glóa",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166424",
+        "title": "10. partur",
+        "url": "https://kvf.fo/node/166424"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166425",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1213_jolasending_gloa_12_23122001_0009.jpg?itok=-6D1pmuz",
+        "mediaId": "BL1213_Jolasending_Gloa_12_23122001",
+        "showTitle": "Glóa",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166425",
+        "title": "12. partur",
+        "url": "https://kvf.fo/node/166425"
       }
     ]
   },
@@ -4002,6 +4327,40 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1478_jol_hja_koalabrodrum_2006_0018.jpg?itok=BorBEVkC",
+    "title": "Jól hjá koalabrøðrum",
+    "url": "https://kvf.fo/node/166718",
+    "episodes": [
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166719",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1478_jol_hja_koalabrodrum_2006_0089.jpg?itok=_QrY3urZ",
+        "mediaId": "BL1478_Jol_hja_Koalabrodrum_2006",
+        "showTitle": "Jól hjá koalabrøðrum",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166719",
+        "title": "Jól hjá Koalabrøðrum",
+        "url": "https://kvf.fo/node/166719"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/fta00002_ut337_jol_hja_mariubjollum_24122008_0012.jpg?itok=RddSct-I",
+    "title": "Jól hjá Mariubjøllum",
+    "url": "https://kvf.fo/node/166725",
+    "episodes": [
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166726",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/fta00002_ut337_jol_hja_mariubjollum_24122008_0029.jpg?itok=r5ggZRtn",
+        "mediaId": "FTA00002_UT337_Jol_hja_Mariubjollum_24122008",
+        "showTitle": "Jól hjá Mariubjøllum",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166726",
+        "title": "Jól hjá Mariubjøllum",
+        "url": "https://kvf.fo/node/166726"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/screenshot_2025-11-14_143234.png?itok=qlY0ycPZ",
     "title": "Jólabussurin",
     "url": "https://kvf.fo/vit/sending/sv/jolabussurin",
@@ -4105,6 +4464,253 @@
         "sortKey": "date: 2025-11-19T09:34:00+00:00 id: 2025/11/19/jolabussurin-i-barnalotuni-i-1990",
         "title": "Jólabussurin í Barnaløtuni í 1990",
         "url": "https://kvf.fo/vit/sjonvarp/2025/11/19/jolabussurin-i-barnalotuni-i-1990"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/c05996f05d7087ba19865e7f15ed9d62.png?itok=Zztxu36J",
+    "title": "Jólagøtan",
+    "url": "https://kvf.fo/vit/sending/sv/jolagotan",
+    "episodes": [
+      {
+        "date": "2015-11-23T09:00:00+00:00",
+        "id": "2015/11/23/jol00001bl1419jolagotan12005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00001_BL1419_Jolagotan_1_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T09:00:00+00:00 id: 2015/11/23/jol00001bl1419jolagotan12005",
+        "title": "1. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00001bl1419jolagotan12005"
+      },
+      {
+        "date": "2015-11-23T09:15:00+00:00",
+        "id": "2015/11/23/jol00002bl1420jolagotan22005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00002_BL1420_Jolagotan_2_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T09:15:00+00:00 id: 2015/11/23/jol00002bl1420jolagotan22005",
+        "title": "2. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00002bl1420jolagotan22005"
+      },
+      {
+        "date": "2015-11-23T09:30:00+00:00",
+        "id": "2015/11/23/jol00003bl1421jolagotan32005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00003_BL1421_Jolagotan_3_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T09:30:00+00:00 id: 2015/11/23/jol00003bl1421jolagotan32005",
+        "title": "3. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00003bl1421jolagotan32005"
+      },
+      {
+        "date": "2015-11-23T10:15:00+00:00",
+        "id": "2015/11/23/jol00004bl1422jolagotan42005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00004_BL1422_Jolagotan_4_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T10:15:00+00:00 id: 2015/11/23/jol00004bl1422jolagotan42005",
+        "title": "4. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00004bl1422jolagotan42005"
+      },
+      {
+        "date": "2015-11-23T10:15:00+00:00",
+        "id": "2015/11/23/jol00005bl1423jolagotan52005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00005_BL1423_Jolagotan_5_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T10:15:00+00:00 id: 2015/11/23/jol00005bl1423jolagotan52005",
+        "title": "5. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00005bl1423jolagotan52005"
+      },
+      {
+        "date": "2015-11-23T11:15:00+00:00",
+        "id": "2015/11/23/jol00006bl1424jolagotan62005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00006_BL1424_Jolagotan_6_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T11:15:00+00:00 id: 2015/11/23/jol00006bl1424jolagotan62005",
+        "title": "6. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00006bl1424jolagotan62005"
+      },
+      {
+        "date": "2015-11-23T11:30:00+00:00",
+        "id": "2015/11/23/jol00007bl1425jolagotan72005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00007_BL1425_Jolagotan_7_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T11:30:00+00:00 id: 2015/11/23/jol00007bl1425jolagotan72005",
+        "title": "7. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00007bl1425jolagotan72005"
+      },
+      {
+        "date": "2015-11-23T12:15:00+00:00",
+        "id": "2015/11/23/jol00008bl1426jolagotan82005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00008_BL1426_Jolagotan_8_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T12:15:00+00:00 id: 2015/11/23/jol00008bl1426jolagotan82005",
+        "title": "8. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00008bl1426jolagotan82005"
+      },
+      {
+        "date": "2015-11-23T12:45:00+00:00",
+        "id": "2015/11/23/jol00009bl1427jolagotan92005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00009_BL1427_Jolagotan_9_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T12:45:00+00:00 id: 2015/11/23/jol00009bl1427jolagotan92005",
+        "title": "9. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00009bl1427jolagotan92005"
+      },
+      {
+        "date": "2015-11-23T13:30:00+00:00",
+        "id": "2015/11/23/jol00010bl1428jolagotan102005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00010_BL1428_Jolagotan_10_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T13:30:00+00:00 id: 2015/11/23/jol00010bl1428jolagotan102005",
+        "title": "10. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00010bl1428jolagotan102005"
+      },
+      {
+        "date": "2015-11-23T14:00:00+00:00",
+        "id": "2015/11/23/jol00011bl1429jolagotan112005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00011_BL1429_Jolagotan_11_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T14:00:00+00:00 id: 2015/11/23/jol00011bl1429jolagotan112005",
+        "title": "11. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00011bl1429jolagotan112005"
+      },
+      {
+        "date": "2015-11-23T14:15:00+00:00",
+        "id": "2015/11/23/jol00012bl1430jolagotan122005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00012_BL1430_Jolagotan_12_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T14:15:00+00:00 id: 2015/11/23/jol00012bl1430jolagotan122005",
+        "title": "12. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00012bl1430jolagotan122005"
+      },
+      {
+        "date": "2015-11-23T15:45:00+00:00",
+        "id": "2015/11/23/jol00013bl1431jolagotan132005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00013_BL1431_Jolagotan_13_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T15:45:00+00:00 id: 2015/11/23/jol00013bl1431jolagotan132005",
+        "title": "13. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00013bl1431jolagotan132005"
+      },
+      {
+        "date": "2015-11-23T16:00:00+00:00",
+        "id": "2015/11/23/jol00014bl1432jolagotan142005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00014_BL1432_Jolagotan_14_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T16:00:00+00:00 id: 2015/11/23/jol00014bl1432jolagotan142005",
+        "title": "14. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00014bl1432jolagotan142005"
+      },
+      {
+        "date": "2015-11-23T16:30:00+00:00",
+        "id": "2015/11/23/jol00015bl1433jolagotan152005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00015_BL1433_Jolagotan_15_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-23T16:30:00+00:00 id: 2015/11/23/jol00015bl1433jolagotan152005",
+        "title": "15. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/23/jol00015bl1433jolagotan152005"
+      },
+      {
+        "date": "2015-11-24T09:15:00+00:00",
+        "id": "2015/11/24/jol00016bl1434jolagotan162005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00016_BL1434_Jolagotan_16_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-24T09:15:00+00:00 id: 2015/11/24/jol00016bl1434jolagotan162005",
+        "title": "16. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/24/jol00016bl1434jolagotan162005"
+      },
+      {
+        "date": "2015-11-24T10:00:00+00:00",
+        "id": "2015/11/24/jol00017bl1435jolagotan172005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00017_BL1435_Jolagotan_17_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-24T10:00:00+00:00 id: 2015/11/24/jol00017bl1435jolagotan172005",
+        "title": "17. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/24/jol00017bl1435jolagotan172005"
+      },
+      {
+        "date": "2015-11-25T09:30:00+00:00",
+        "id": "2015/11/25/jol00018bl1436jolagotan182005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00018_BL1436_Jolagotan_18_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-25T09:30:00+00:00 id: 2015/11/25/jol00018bl1436jolagotan182005",
+        "title": "18. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00018bl1436jolagotan182005"
+      },
+      {
+        "date": "2015-11-25T10:15:00+00:00",
+        "id": "2015/11/25/jol00019bl1437jolagotan192005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00019_BL1437_Jolagotan_19_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-25T10:15:00+00:00 id: 2015/11/25/jol00019bl1437jolagotan192005",
+        "title": "19. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00019bl1437jolagotan192005"
+      },
+      {
+        "date": "2015-11-25T10:45:00+00:00",
+        "id": "2015/11/25/jol00020bl1438jolagotan202005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00020_BL1438_Jolagotan_20_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-25T10:45:00+00:00 id: 2015/11/25/jol00020bl1438jolagotan202005",
+        "title": "20. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00020bl1438jolagotan202005"
+      },
+      {
+        "date": "2015-11-25T11:15:00+00:00",
+        "id": "2015/11/25/jol00021bl1439jolagotan212005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00021_BL1439_Jolagotan_21_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-25T11:15:00+00:00 id: 2015/11/25/jol00021bl1439jolagotan212005",
+        "title": "21. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00021bl1439jolagotan212005"
+      },
+      {
+        "date": "2015-11-25T12:00:00+00:00",
+        "id": "2015/11/25/jol00022bl1440jolagotan222005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00022_BL1440_Jolagotan_22_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-25T12:00:00+00:00 id: 2015/11/25/jol00022bl1440jolagotan222005",
+        "title": "22. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00022bl1440jolagotan222005"
+      },
+      {
+        "date": "2015-11-25T12:15:00+00:00",
+        "id": "2015/11/25/jol00023bl1441jolagotan232005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00023_BL1441_Jolagotan_23_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-25T12:15:00+00:00 id: 2015/11/25/jol00023bl1441jolagotan232005",
+        "title": "23. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00023bl1441jolagotan232005"
+      },
+      {
+        "date": "2015-11-25T14:45:00+00:00",
+        "id": "2015/11/25/jol00024bl1442jolagotan242005",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jol00001_bl1419_jolagotan_1_2005_53.jpg?itok=pe1oxGGm",
+        "mediaId": "JOL00024_BL1442_Jolagotan_24_2005",
+        "showTitle": "Jólagøtan",
+        "sortKey": "date: 2015-11-25T14:45:00+00:00 id: 2015/11/25/jol00024bl1442jolagotan242005",
+        "title": "24. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2015/11/25/jol00024bl1442jolagotan242005"
       }
     ]
   },
@@ -4449,6 +5055,23 @@
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: 2020/04/02/karlsson-takinum-21-partur-0",
         "title": "Karlsson tekur tjóvar",
         "url": "https://kvf.fo/vit/sjonvarp/2020/04/02/karlsson-takinum-21-partur-0"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bta00004_bl1605_kavamadurin_0037.jpg?itok=rB8slFDM",
+    "title": "Kavamaðurin",
+    "url": "https://kvf.fo/node/166715",
+    "episodes": [
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "2023/11/29/bta00004bl1605kavamadurin",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00004_bl1605_kavamadurin_0055.jpg?itok=34K7__7U",
+        "mediaId": "BTA00004_BL1605_Kavamadurin",
+        "showTitle": "Kavamaðurin",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2023/11/29/bta00004bl1605kavamadurin",
+        "title": "Kavamaðurin",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/bta00004bl1605kavamadurin"
       }
     ]
   },
@@ -5292,7 +5915,7 @@
       {
         "date": "2025-11-14T15:02:00+00:00",
         "id": "2025/11/14/jakobina-kvorkveggja",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2025-11-14_151507.png?itok=6n2Y7qUt",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/jakobina_kvorkveggja.jpg?itok=J_VOnnlO",
         "mediaId": "VIN00046",
         "showTitle": "Les Vimús",
         "sortKey": "date: 2025-11-14T15:02:00+00:00 id: 2025/11/14/jakobina-kvorkveggja",
@@ -5302,12 +5925,22 @@
       {
         "date": "2025-11-21T15:15:00+00:00",
         "id": "2025/11/21/i-morgin-fari-eg-aftur-spaela-vid-babba",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2025-11-21_151857.png?itok=VAkVkZv7",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/i_morgin_fari_eg_aftur_at_spala_vid_babba.jpg?itok=FapUxish",
         "mediaId": "VIN00047",
         "showTitle": "Les Vimús",
         "sortKey": "date: 2025-11-21T15:15:00+00:00 id: 2025/11/21/i-morgin-fari-eg-aftur-spaela-vid-babba",
         "title": "Í morgin fari eg aftur at spæla við babba",
         "url": "https://kvf.fo/vit/sjonvarp/2025/11/21/i-morgin-fari-eg-aftur-spaela-vid-babba"
+      },
+      {
+        "date": "2025-12-01T14:55:00+00:00",
+        "id": "2025/12/01/heidi",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/heidi_4.jpg?itok=vSAtXLnh",
+        "mediaId": "VIN00048",
+        "showTitle": "Les Vimús",
+        "sortKey": "date: 2025-12-01T14:55:00+00:00 id: 2025/12/01/heidi",
+        "title": "Heidi",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/12/01/heidi"
       }
     ]
   },
@@ -7145,6 +7778,213 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1387_pjoppa_og_goffi_1_2004_0050.jpg?itok=gCXJcTQb",
+    "title": "Pjøppa og Goffi",
+    "url": "https://kvf.fo/node/166616",
+    "episodes": [
+      {
+        "date": "2023-11-30T13:00:00+00:00",
+        "id": "166671",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_9_2004_0034.jpg?itok=kA2kpskd",
+        "mediaId": "BL1387_Pjoppa_og_goffi_9_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2023-11-30T13:00:00+00:00 id: 166671",
+        "title": "9. partur",
+        "url": "https://kvf.fo/node/166671"
+      },
+      {
+        "date": "2023-11-30T13:00:00+00:00",
+        "id": "166672",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_10_2004_0028.jpg?itok=w9WlcjPu",
+        "mediaId": "BL1387_Pjoppa_og_goffi_10_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2023-11-30T13:00:00+00:00 id: 166672",
+        "title": "10. partur",
+        "url": "https://kvf.fo/node/166672"
+      },
+      {
+        "date": "2023-11-30T13:00:00+00:00",
+        "id": "166680",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_15_2004_0018.jpg?itok=mkmcKdVx",
+        "mediaId": "BL1387_Pjoppa_og_goffi_15_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2023-11-30T13:00:00+00:00 id: 166680",
+        "title": "15. partur",
+        "url": "https://kvf.fo/node/166680"
+      },
+      {
+        "date": "2023-11-30T13:00:00+00:00",
+        "id": "166681",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_16_2004_0030.jpg?itok=gwuKJo9W",
+        "mediaId": "BL1387_Pjoppa_og_goffi_16_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2023-11-30T13:00:00+00:00 id: 166681",
+        "title": "16. partur",
+        "url": "https://kvf.fo/node/166681"
+      },
+      {
+        "date": "2024-12-01T12:00:00+00:00",
+        "id": "166664",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_2_2004_0022.jpg?itok=5ajY-sW5",
+        "mediaId": "BL1387_Pjoppa_og_goffi_2_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T12:00:00+00:00 id: 166664",
+        "title": "2. partur",
+        "url": "https://kvf.fo/node/166664"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "2023/11/30/1-partur",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_1_2004_0131.jpg?itok=HLldWFH1",
+        "mediaId": "BL1387_Pjoppa_og_goffi_1_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 2023/11/30/1-partur",
+        "title": "1. partur",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/30/1-partur"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166665",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_3_2004_0012.jpg?itok=vXXz7Uj8",
+        "mediaId": "BL1387_Pjoppa_og_goffi_3_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166665",
+        "title": "3. partur",
+        "url": "https://kvf.fo/node/166665"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166668",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_6_2004_0058.jpg?itok=fA_4MrTv",
+        "mediaId": "BL1387_Pjoppa_og_goffi_6_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166668",
+        "title": "6. partur",
+        "url": "https://kvf.fo/node/166668"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166669",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_7_2004_0072.jpg?itok=sr_oA4oD",
+        "mediaId": "BL1387_Pjoppa_og_goffi_7_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166669",
+        "title": "7. partur",
+        "url": "https://kvf.fo/node/166669"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166670",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_8_2004_0029.jpg?itok=lbSsBFtn",
+        "mediaId": "BL1387_Pjoppa_og_goffi_8_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166670",
+        "title": "8. partur",
+        "url": "https://kvf.fo/node/166670"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166674",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_11_2004_0020.jpg?itok=YzlJ66Qj",
+        "mediaId": "BL1387_Pjoppa_og_goffi_11_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166674",
+        "title": "11. partur",
+        "url": "https://kvf.fo/node/166674"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166675",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_12_2004_0012.jpg?itok=FPRbdx29",
+        "mediaId": "BL1387_Pjoppa_og_goffi_12_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166675",
+        "title": "12. partur",
+        "url": "https://kvf.fo/node/166675"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166676",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_13_2004_0011.jpg?itok=Mj1crBwB",
+        "mediaId": "BL1387_Pjoppa_og_goffi_13_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166676",
+        "title": "13. partur",
+        "url": "https://kvf.fo/node/166676"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166679",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_14_2004_0017.jpg?itok=fEglqgG0",
+        "mediaId": "BL1387_Pjoppa_og_goffi_14_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166679",
+        "title": "14. partur",
+        "url": "https://kvf.fo/node/166679"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166682",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_17_2004_0071.jpg?itok=gse1t1zn",
+        "mediaId": "BL1387_Pjoppa_og_goffi_17_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166682",
+        "title": "17. partur",
+        "url": "https://kvf.fo/node/166682"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166683",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_18_2004_0014.jpg?itok=OY-qVzbr",
+        "mediaId": "BL1387_Pjoppa_og_goffi_18_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166683",
+        "title": "18. partur",
+        "url": "https://kvf.fo/node/166683"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166686",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_21_2004_0034.jpg?itok=MjoIfMbz",
+        "mediaId": "BL1387_Pjoppa_og_goffi_21_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166686",
+        "title": "21. partur",
+        "url": "https://kvf.fo/node/166686"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166687",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_22_2004_0006.jpg?itok=rEFBdTdt",
+        "mediaId": "BL1387_Pjoppa_og_goffi_22_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166687",
+        "title": "22. partur",
+        "url": "https://kvf.fo/node/166687"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166688",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_23_2004_0040.jpg?itok=t54ywfFK",
+        "mediaId": "BL1387_Pjoppa_og_goffi_23_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166688",
+        "title": "23. partur",
+        "url": "https://kvf.fo/node/166688"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166690",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_24_2004_0119.jpg?itok=SqAwokoq",
+        "mediaId": "BL1387_Pjoppa_og_goffi_24_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166690",
+        "title": "24. partur",
+        "url": "https://kvf.fo/node/166690"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/ronja_ransmannadottir.png?itok=jdtiaRzl",
     "title": "Ronja Ránsmansdóttir",
     "url": "https://kvf.fo/vit/sending/sv/ronja-ransmansdottir",
@@ -8184,6 +9024,23 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/screenshot_2025-11-28_102345.png?itok=WE8AMeBb",
+    "title": "Snæfall 2",
+    "url": "https://kvf.fo/vit/sending/sv/snaefall-2",
+    "episodes": [
+      {
+        "date": "2025-12-01T06:00:00+00:00",
+        "id": "2025/12/01/snaefall-2-124",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/e01_c_photo_nrk_1.jpg?itok=jtATV-7V",
+        "mediaId": "SNAEFALL_II_EP01_Audio_1Left_2Right_CH3-8Surround_LRC",
+        "showTitle": "Snæfall 2",
+        "sortKey": "date: 2025-12-01T06:00:00+00:00 id: 2025/12/01/snaefall-2-124",
+        "title": "Snæfall 2 (1:24)",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/12/01/snaefall-2-124"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/snip_snap_0.jpg?itok=uR9uYPyq",
     "title": "Snipp Snapp",
     "url": "https://kvf.fo/vit/sending/sv/snipp-snapp",
@@ -8287,6 +9144,50 @@
         "sortKey": "date: 2025-11-19T15:00:00+00:00 id: 2025/11/19/snipp-snapp",
         "title": "Snipp Snapp",
         "url": "https://kvf.fo/vit/sjonvarp/2025/11/19/snipp-snapp"
+      },
+      {
+        "date": "2025-11-26T15:00:00+00:00",
+        "id": "2025/11/26/snipp-snapp",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2025-09-24_165540.png?itok=oTxTigqz",
+        "mediaId": "SNI00370",
+        "showTitle": "Snipp Snapp",
+        "sortKey": "date: 2025-11-26T15:00:00+00:00 id: 2025/11/26/snipp-snapp",
+        "title": "Snipp Snapp",
+        "url": "https://kvf.fo/vit/sjonvarp/2025/11/26/snipp-snapp"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/ut338_sogan_um_jolamannin_24122001_0176.jpg?itok=b-0aLKIH",
+    "title": "Søgan um jólamannin",
+    "url": "https://kvf.fo/node/166727",
+    "episodes": [
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166728",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut338_sogan_um_jolamannin_24122001_0021.jpg?itok=gROCufvC",
+        "mediaId": "UT338_Sogan_um_jolamannin_24122001",
+        "showTitle": "Søgan um jólamannin",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166728",
+        "title": "Søgan um jólamannin",
+        "url": "https://kvf.fo/node/166728"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bta00320_bl1599_sogan_um_jolini_0112.jpg?itok=SZAmZ62M",
+    "title": "Søgan um jólini",
+    "url": "https://kvf.fo/node/166729",
+    "episodes": [
+      {
+        "date": "2023-11-01T17:05:00+00:00",
+        "id": "2023/11/29/bta00320bl1599soganumjolini",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00320_bl1599_sogan_um_jolini_0035.jpg?itok=PwYf6ZxV",
+        "mediaId": "BTA00320_BL1599_Sogan_um_jolini",
+        "showTitle": "Søgan um jólini",
+        "sortKey": "date: 2023-11-01T17:05:00+00:00 id: 2023/11/29/bta00320bl1599soganumjolini",
+        "title": "Søgan um jólini",
+        "url": "https://kvf.fo/vit/sjonvarp/2023/11/29/bta00320bl1599soganumjolini"
       }
     ]
   },
@@ -8778,6 +9679,53 @@
         "sortKey": "date: 2023-04-11T11:30:00+01:00 id: 2023/01/09/tim00026ut309timmytid26",
         "title": "Báturin hjá Timmy",
         "url": "https://kvf.fo/vit/sjonvarp/2023/01/09/tim00026ut309timmytid26"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/system/files/styles/news_xtra_xtra_large_2/private/vattrar.png?itok=jKe71f-7",
+    "title": "Vættrarnar av Galdralondum",
+    "url": "https://kvf.fo/node/166386",
+    "episodes": [
+      {
+        "date": "2023-11-28T11:19:00+00:00",
+        "id": "166387",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/v11.png?itok=ud9XYiP3",
+        "mediaId": "BL485_Vattrarnir_av_Galdralondum_1_06121992",
+        "showTitle": "Vættrarnar av Galdralondum",
+        "sortKey": "date: 2023-11-28T11:19:00+00:00 id: 166387",
+        "title": "Vættrarnar av Galdralondum (1:4)",
+        "url": "https://kvf.fo/node/166387"
+      },
+      {
+        "date": "2023-11-28T11:22:00+00:00",
+        "id": "166388",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/v22.png?itok=-FLpEE2z",
+        "mediaId": "BL488_Vattrarnir_av_Galdralondum_2_13121992",
+        "showTitle": "Vættrarnar av Galdralondum",
+        "sortKey": "date: 2023-11-28T11:22:00+00:00 id: 166388",
+        "title": "Vættrarnar av Galdralondum (2:4)",
+        "url": "https://kvf.fo/node/166388"
+      },
+      {
+        "date": "2023-11-28T11:24:00+00:00",
+        "id": "166389",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/v33.png?itok=SYWbu_n_",
+        "mediaId": "BL491_Vattrarnir_av_Galdralondum_3_20121992",
+        "showTitle": "Vættrarnar av Galdralondum",
+        "sortKey": "date: 2023-11-28T11:24:00+00:00 id: 166389",
+        "title": "Vættrarnar av Galdralondum (3:4)",
+        "url": "https://kvf.fo/node/166389"
+      },
+      {
+        "date": "2023-11-28T11:26:00+00:00",
+        "id": "166390",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/v44.png?itok=pmUws-5y",
+        "mediaId": "BL493_Vattrarnir_av_Galdralondum_4_23121992",
+        "showTitle": "Vættrarnar av Galdralondum",
+        "sortKey": "date: 2023-11-28T11:26:00+00:00 id: 166390",
+        "title": "Vættrarnar av Galdralondum (4:4)",
+        "url": "https://kvf.fo/node/166390"
       }
     ]
   },
