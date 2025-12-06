@@ -75,14 +75,7 @@ function parseEpisodeElement(el: HTMLElement): PartialEpisode {
 	const title_a = el.querySelector('.views-field.views-field-title a') as HTMLAnchorElement;
 	const url_a = el.querySelector('.views-field.views-field-field-mynd a') as HTMLAnchorElement;
 	const publish_span = el.querySelector('.views-field.views-field-field-publish span');
-	let id = url_a.href.split('/vit/sjonvarp/')[1];
-	// const id = a.href.split('/vit/sending/sv/')[1];
-	if (id == null) {
-		id = url_a.href.split('/node/')[1];
-		if (id == null) {
-			throw new Error(`No id found for ${url_a.href}`);
-		}
-	}
+	const id = parseEpisodeId(url_a.href);
 	const url = urlPrefix + url_a.href;
 	const title = title_a.textContent ?? '';
 	let date = publish_span?.getAttribute('content');
@@ -104,6 +97,26 @@ function parseEpisodeElement(el: HTMLElement): PartialEpisode {
 	};
 
 	return episode;
+}
+
+function parseEpisodeId(url: string): string {
+	let id = url.split('/vit/sjonvarp/')[1];
+	if (id == null) {
+		id = url.split('/vit/sending/sv/')[1];
+	}
+	if (id == null) {
+		id = url.split('/node/')[1];
+	}
+	if (id == null) {
+		id = url.split('/vit/')[1];
+	}
+	if (id == null) {
+		console.error('[parseEpisodeId] No id found after trying known patterns', {
+			href: url,
+		});
+		throw new Error(`No id found for ${url}`);
+	}
+	return id;
 }
 
 async function scrapeEpisode(episode: PartialEpisode): Promise<{ mediaId: string } | undefined> {
