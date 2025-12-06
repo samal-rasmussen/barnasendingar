@@ -413,6 +413,16 @@
       },
       {
         "date": "2015-10-22T13:15:00+01:00",
+        "id": "alt-i-1um?sid=47829",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/alt00044_119.jpg?itok=xnIyX5Zw",
+        "mediaId": "ALT00044",
+        "showTitle": "Alt í 1um",
+        "sortKey": "date: 2015-10-22T13:15:00+01:00 id: alt-i-1um?sid=47829",
+        "title": "Rói gleðir ommu sína",
+        "url": "https://kvf.fo/vit/sending/sv/alt-i-1um?sid=47829"
+      },
+      {
+        "date": "2015-10-22T13:15:00+01:00",
         "id": "alt-i-1um?sid=47831",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/alt00045_32.jpg?itok=Y8WhHgm-",
         "mediaId": "ALT00045",
@@ -2321,6 +2331,16 @@
       },
       {
         "date": "2020-04-02T15:00:00+01:00",
+        "id": "emil-ur-lonnebergi?sid=107097",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil13.png?itok=N2iE4QwZ",
+        "mediaId": "BTA00032_BL1495_Emil_i_LOnnebergi_13_2009_ok",
+        "showTitle": "Emil úr Lønnebergi",
+        "sortKey": "date: 2020-04-02T15:00:00+01:00 id: emil-ur-lonnebergi?sid=107097",
+        "title": "Tann stóra kavaódnin",
+        "url": "https://kvf.fo/vit/sending/sv/emil-ur-lonnebergi?sid=107097"
+      },
+      {
+        "date": "2020-04-02T15:00:00+01:00",
         "id": "emil-ur-lonnebergi?sid=107098",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/emil.png?itok=yThtauaR",
         "mediaId": "BTA00027_BL1495_Emil_i_Lonnebergi_8_2009",
@@ -3046,6 +3066,26 @@
         "sortKey": "date: 2024-09-03T12:00:00+01:00 id: filur-og-maskinurnar?sid=179781",
         "title": "Trukkur",
         "url": "https://kvf.fo/vit/sending/sv/filur-og-maskinurnar?sid=179781"
+      },
+      {
+        "date": "2024-09-03T12:00:00+01:00",
+        "id": "filur-og-maskinurnar?sid=179782",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_kavafresari.jpg?itok=TSmuTsxl",
+        "mediaId": "Filur_og_maskinurnar_EP13",
+        "showTitle": "Fílur og maskinurnar",
+        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: filur-og-maskinurnar?sid=179782",
+        "title": "Kavafresari",
+        "url": "https://kvf.fo/vit/sending/sv/filur-og-maskinurnar?sid=179782"
+      },
+      {
+        "date": "2024-09-03T12:00:00+01:00",
+        "id": "filur-og-maskinurnar?sid=179783",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_skymaskina.jpg?itok=5cJbpEFh",
+        "mediaId": "Filur_og_maskinurnar_EP14",
+        "showTitle": "Fílur og maskinurnar",
+        "sortKey": "date: 2024-09-03T12:00:00+01:00 id: filur-og-maskinurnar?sid=179783",
+        "title": "Skíðmaskina",
+        "url": "https://kvf.fo/vit/sending/sv/filur-og-maskinurnar?sid=179783"
       }
     ]
   },
@@ -4723,6 +4763,26 @@
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
+        "id": "karlsson-takinum?sid=107089",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k26.png?itok=KBYzg6ZG",
+        "mediaId": "BTA00067_BL1504_KARLSSON_A_TAKINUM_26",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107089",
+        "title": "Karlsson fer í føðingardag",
+        "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107089"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
+        "id": "karlsson-takinum?sid=107092",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k7.png?itok=zfuEx7PT",
+        "mediaId": "BTA00048_BL1502_KARLSSON_A_TAKINUM_7_2010",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107092",
+        "title": "Karlsson er rasarakoyrari",
+        "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107092"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
         "id": "karlsson-takinum?sid=107096",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k6.png?itok=c71sVtrw",
         "mediaId": "BTA00047_BL1501_KARLSSON_A_TAKINUM_6",
@@ -4730,6 +4790,16 @@
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107096",
         "title": "Karlsson gandar",
         "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107096"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
+        "id": "karlsson-takinum?sid=107100",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k5.png?itok=KFawYotQ",
+        "mediaId": "BTA00046_BL1501_KARLSSON_A_TAKINUM_5",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107100",
+        "title": "Njósnarin Karlsson",
+        "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107100"
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
@@ -4763,6 +4833,16 @@
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
+        "id": "karlsson-takinum?sid=107107",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k3.png?itok=Kbry8rYU",
+        "mediaId": "BTA00044_BL1501_KARLSSON_A_TAKINUM_3",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107107",
+        "title": "Karlsson spælir spøkilsi",
+        "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107107"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
         "id": "karlsson-takinum?sid=107109",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k14.png?itok=16qDrCSk",
         "mediaId": "BTA00055_BL1503_KARLSSON_A_TAKINUM_14",
@@ -4773,13 +4853,33 @@
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
-        "id": "karlsson-takinum?sid=107110",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k1.png?itok=CEzLh9wD",
-        "mediaId": "BTA00042_BL1501_KARLSSON_A_TAKINUM_1",
+        "id": "karlsson-takinum?sid=107111",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k11.png?itok=BWKLJrqd",
+        "mediaId": "BTA00052_BL1502_KARLSSON_A_TAKINUM_11",
         "showTitle": "Karlsson á takinum",
-        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107110",
-        "title": "Karlsson á takinum",
-        "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107110"
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107111",
+        "title": "Karlsson og drekin",
+        "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107111"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
+        "id": "karlsson-takinum?sid=107112",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k12.png?itok=7AkW7i1z",
+        "mediaId": "BTA00053_BL1502_KARLSSON_A_TAKINUM_12",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107112",
+        "title": "Karlsson fær ein fugl",
+        "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107112"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
+        "id": "karlsson-takinum?sid=107113",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k10.png?itok=OGyaR0ea",
+        "mediaId": "BTA00051_BL1502_KARLSSON_A_TAKINUM_10",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107113",
+        "title": "Karlsson ger skotheilsan",
+        "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107113"
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
@@ -4803,6 +4903,16 @@
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
+        "id": "karlsson-takinum?sid=107117",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k22.png?itok=RArvvnIv",
+        "mediaId": "BTA00063_BL1504_KARLSSON_A_TAKINUM_22",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107117",
+        "title": "Karlsson og stúvingurin hjá frk. Klukk",
+        "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107117"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
         "id": "karlsson-takinum?sid=107118",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k24.png?itok=fK6vMd6Y",
         "mediaId": "BTA00065_BL1504_KARLSSON_A_TAKINUM_24",
@@ -4810,6 +4920,16 @@
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107118",
         "title": "Karlsson skreiðir á skíðum",
         "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107118"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
+        "id": "karlsson-takinum?sid=107119",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k23.png?itok=Mts_It6y",
+        "mediaId": "BTA00064_BL1504_KARLSSON_A_TAKINUM_23",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107119",
+        "title": "Karlsson fiskar á takinum",
+        "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107119"
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
@@ -4840,6 +4960,16 @@
         "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107125",
         "title": "Karlsson er dadda",
         "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107125"
+      },
+      {
+        "date": "2020-04-02T12:00:00+01:00",
+        "id": "karlsson-takinum?sid=107129",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/k21_0.png?itok=phL3XV2I",
+        "mediaId": "BTA00062_BL1504_KARLSSON_A_TAKINUM_21",
+        "showTitle": "Karlsson á takinum",
+        "sortKey": "date: 2020-04-02T12:00:00+01:00 id: karlsson-takinum?sid=107129",
+        "title": "Karlsson tekur tjóvar",
+        "url": "https://kvf.fo/vit/sending/sv/karlsson-takinum?sid=107129"
       },
       {
         "date": "2020-04-02T12:00:00+01:00",
@@ -7662,6 +7792,16 @@
       },
       {
         "date": "2024-12-01T13:00:00+00:00",
+        "id": "166616?sid=166668",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_6_2004_0058.jpg?itok=fA_4MrTv",
+        "mediaId": "BL1387_Pjoppa_og_goffi_6_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166616?sid=166668",
+        "title": "6. partur",
+        "url": "https://kvf.fo/node/166616?sid=166668"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
         "id": "166616?sid=166669",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_7_2004_0072.jpg?itok=sr_oA4oD",
         "mediaId": "BL1387_Pjoppa_og_goffi_7_2004",
@@ -7679,6 +7819,46 @@
         "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166616?sid=166670",
         "title": "8. partur",
         "url": "https://kvf.fo/node/166616?sid=166670"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166616?sid=166674",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_11_2004_0020.jpg?itok=YzlJ66Qj",
+        "mediaId": "BL1387_Pjoppa_og_goffi_11_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166616?sid=166674",
+        "title": "11. partur",
+        "url": "https://kvf.fo/node/166616?sid=166674"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166616?sid=166675",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_12_2004_0012.jpg?itok=FPRbdx29",
+        "mediaId": "BL1387_Pjoppa_og_goffi_12_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166616?sid=166675",
+        "title": "12. partur",
+        "url": "https://kvf.fo/node/166616?sid=166675"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166616?sid=166676",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_13_2004_0011.jpg?itok=Mj1crBwB",
+        "mediaId": "BL1387_Pjoppa_og_goffi_13_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166616?sid=166676",
+        "title": "13. partur",
+        "url": "https://kvf.fo/node/166616?sid=166676"
+      },
+      {
+        "date": "2024-12-01T13:00:00+00:00",
+        "id": "166616?sid=166679",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_14_2004_0017.jpg?itok=fEglqgG0",
+        "mediaId": "BL1387_Pjoppa_og_goffi_14_2004",
+        "showTitle": "Pjøppa og Goffi",
+        "sortKey": "date: 2024-12-01T13:00:00+00:00 id: 166616?sid=166679",
+        "title": "14. partur",
+        "url": "https://kvf.fo/node/166616?sid=166679"
       },
       {
         "date": "2024-12-01T13:00:00+00:00",
@@ -8483,6 +8663,7 @@
         "date": "2023-09-06T07:00:00+01:00",
         "id": "slokki-sam?sid=162279",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/slokkisam_seria10_nr03_ep165_1_0053.jpg?itok=uBYwb886",
+        "mediaId": "UT502_SlokkiSam_3_2023",
         "showTitle": "Sløkki Sam",
         "sortKey": "date: 2023-09-06T07:00:00+01:00 id: slokki-sam?sid=162279",
         "title": "Kongaspæl",
@@ -10746,6 +10927,7 @@
         "date": "2015-09-10T12:15:00+01:00",
         "id": "vit-visa?sid=46060",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
+        "mediaId": "vit_janus_6",
         "showTitle": "VIT vísa",
         "sortKey": "date: 2015-09-10T12:15:00+01:00 id: vit-visa?sid=46060",
         "title": "Janus teknar eina prinsessu",
@@ -10755,6 +10937,7 @@
         "date": "2015-09-10T12:15:00+01:00",
         "id": "vit-visa?sid=46061",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
+        "mediaId": "vit_janus_8",
         "showTitle": "VIT vísa",
         "sortKey": "date: 2015-09-10T12:15:00+01:00 id: vit-visa?sid=46061",
         "title": "Janus teknar ein prins",
@@ -10764,6 +10947,7 @@
         "date": "2015-09-10T12:15:00+01:00",
         "id": "vit-visa?sid=46062",
         "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/janus_tekar.jpg?itok=f1BpFlOU",
+        "mediaId": "vit_janus_5",
         "showTitle": "VIT vísa",
         "sortKey": "date: 2015-09-10T12:15:00+01:00 id: vit-visa?sid=46062",
         "title": "Janus teknar ein hund",
