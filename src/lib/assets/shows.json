@@ -758,323 +758,6 @@
     ]
   },
   {
-    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bernard.jpg?itok=hhX5o0fp",
-    "title": "Bernard",
-    "url": "https://kvf.fo/vit/sending/sv/bernard",
-    "episodes": [
-      {
-        "date": "2024-05-15T13:09:00+01:00",
-        "id": "bernard?sid=175105",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bernard_spaelir_hornabolt.jpg?itok=DQ0Pt613",
-        "mediaId": "BER00025_UT306_Bernard_154018_25",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:09:00+01:00 id: bernard?sid=175105",
-        "title": "Bernard spælir hornabólt",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175105"
-      },
-      {
-        "date": "2024-05-15T13:11:00+01:00",
-        "id": "bernard?sid=175106",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bernard_og_bilurin.jpg?itok=nq39r2iT",
-        "mediaId": "BER00026_UT306_Bernard_154019_26",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:11:00+01:00 id: bernard?sid=175106",
-        "title": "Bernard og bilurin",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175106"
-      },
-      {
-        "date": "2024-05-15T13:13:00+01:00",
-        "id": "bernard?sid=175107",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bernard_motor.jpg?itok=57lfRWkU",
-        "mediaId": "BER00036_UT306_Bernard_154029_36",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:13:00+01:00 id: bernard?sid=175107",
-        "title": "Bernard siglur í motorbáti",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175107"
-      },
-      {
-        "date": "2024-05-15T13:13:00+01:00",
-        "id": "bernard?sid=175108",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bernard_fer_at_svimja.jpg?itok=tOO7R0kr",
-        "mediaId": "BER00040_UT306_Bernard_154033_40",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:13:00+01:00 id: bernard?sid=175108",
-        "title": "Bernard fer at svmija",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175108"
-      },
-      {
-        "date": "2024-05-15T13:15:00+01:00",
-        "id": "bernard?sid=175109",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bernard_sukklar.jpg?itok=b-V-JqsQ",
-        "mediaId": "BER00035_UT306_Bernard_154028_35",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:15:00+01:00 id: bernard?sid=175109",
-        "title": "Bernard súkklar",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175109"
-      },
-      {
-        "date": "2024-05-15T13:15:00+01:00",
-        "id": "bernard?sid=175110",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bernard_oyggj.jpg?itok=qqp0pf8T",
-        "mediaId": "BER00024_UT306_Bernard_154017_24",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:15:00+01:00 id: bernard?sid=175110",
-        "title": "Bernard á oydnari oyggj",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175110"
-      },
-      {
-        "date": "2024-05-15T13:15:00+01:00",
-        "id": "bernard?sid=175111",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bernard_kappast_.jpg?itok=VezROkvu",
-        "mediaId": "BER00023_UT306_Bernard_154016_23",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:15:00+01:00 id: bernard?sid=175111",
-        "title": "Bernard kappast",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175111"
-      },
-      {
-        "date": "2024-05-15T13:16:00+01:00",
-        "id": "bernard?sid=175112",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bernard_og_ohugnaliga_pitsan.jpg?itok=jsTiYZUL",
-        "mediaId": "BER00034_UT306_Bernard_154027_34",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:16:00+01:00 id: bernard?sid=175112",
-        "title": "Bernard og óhugnaliga pitsan",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175112"
-      },
-      {
-        "date": "2024-05-15T13:16:00+01:00",
-        "id": "bernard?sid=175113",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bernard_rennur.jpg?itok=0ZqoA7uj",
-        "mediaId": "BER00043_UT306_Bernard_154036_43",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:16:00+01:00 id: bernard?sid=175113",
-        "title": "Bernard rennur marathon",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175113"
-      },
-      {
-        "date": "2024-05-15T13:17:00+01:00",
-        "id": "bernard?sid=175114",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/sleepwalker.jpg?itok=x1MXqXwW",
-        "mediaId": "BER00033_UT306_Bernard_154026_33",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:17:00+01:00 id: bernard?sid=175114",
-        "title": "Bernard gongur í svøvni",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175114"
-      },
-      {
-        "date": "2024-05-15T13:17:00+01:00",
-        "id": "bernard?sid=175115",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/fornminnasavn.jpg?itok=i4-JZoq9",
-        "mediaId": "BER00022_UT306_Bernard_154015_22",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:17:00+01:00 id: bernard?sid=175115",
-        "title": "Bernard á fornminnasavninum",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175115"
-      },
-      {
-        "date": "2024-05-15T13:17:00+01:00",
-        "id": "bernard?sid=175117",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hurd_0.jpg?itok=iZ2RjfUC",
-        "mediaId": "BER00021_UT306_Bernard_154014_21",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:17:00+01:00 id: bernard?sid=175117",
-        "title": "Bernard og hurðarnar",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175117"
-      },
-      {
-        "date": "2024-05-15T13:18:00+01:00",
-        "id": "bernard?sid=175118",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pakkin.jpg?itok=Zt48AiBp",
-        "mediaId": "BER00032_UT306_Bernard_154025_32",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:18:00+01:00 id: bernard?sid=175118",
-        "title": "Bernard og pakkin",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175118"
-      },
-      {
-        "date": "2024-05-15T13:19:00+01:00",
-        "id": "bernard?sid=175119",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/scuba.jpg?itok=cwSPsJb3",
-        "mediaId": "BER00020_UT306_Bernard_154013_20",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:19:00+01:00 id: bernard?sid=175119",
-        "title": "Bernard fer undir kav",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175119"
-      },
-      {
-        "date": "2024-05-15T13:19:00+01:00",
-        "id": "bernard?sid=175120",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/polar_0.jpg?itok=GrvSCRFA",
-        "mediaId": "BER00031_UT306_Bernard_154024_31",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:19:00+01:00 id: bernard?sid=175120",
-        "title": "Bernard á norðurpólinum",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175120"
-      },
-      {
-        "date": "2024-05-15T13:19:00+01:00",
-        "id": "bernard?sid=175121",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/takewondu.jpg?itok=miOIOF6f",
-        "mediaId": "BER00019_UT306_Bernard_154012_19",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:19:00+01:00 id: bernard?sid=175121",
-        "title": "Bernard ger taekwondu",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175121"
-      },
-      {
-        "date": "2024-05-15T13:20:00+01:00",
-        "id": "bernard?sid=175122",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bullfighter.jpg?itok=7LP4hsfF",
-        "mediaId": "BER00030_UT306_Bernard_154023_30",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:20:00+01:00 id: bernard?sid=175122",
-        "title": "Bernard roynir seg sum tarvafiktari",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175122"
-      },
-      {
-        "date": "2024-05-15T13:20:00+01:00",
-        "id": "bernard?sid=175123",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bowling_0.jpg?itok=S6ypkee2",
-        "mediaId": "BER00018_UT306_Bernard_154011_18",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:20:00+01:00 id: bernard?sid=175123",
-        "title": "Bernard fer til bowling",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175123"
-      },
-      {
-        "date": "2024-05-15T13:21:00+01:00",
-        "id": "bernard?sid=175124",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/butterfly.jpg?itok=ay6keq8m",
-        "mediaId": "BER00029_UT306_Bernard_154022_29",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:21:00+01:00 id: bernard?sid=175124",
-        "title": "Bernard og húsvættið",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175124"
-      },
-      {
-        "date": "2024-05-15T13:25:00+01:00",
-        "id": "bernard?sid=175125",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/medaljiu.jpg?itok=aa7G66Bq",
-        "mediaId": "BER00028_UT306_Bernard_154021_28",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:25:00+01:00 id: bernard?sid=175125",
-        "title": "Bernard og hálsprýðið",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175125"
-      },
-      {
-        "date": "2024-05-15T13:28:00+01:00",
-        "id": "bernard?sid=175126",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/flower.jpg?itok=jC82x7Au",
-        "mediaId": "BER00027_UT306_Bernard_154020_27",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:28:00+01:00 id: bernard?sid=175126",
-        "title": "Bernard og blóman",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175126"
-      },
-      {
-        "date": "2024-05-15T13:29:00+01:00",
-        "id": "bernard?sid=175127",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/stovsugvari.jpg?itok=DxoB1j3W",
-        "mediaId": "BER00045_UT306_Bernard_154038_45",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:29:00+01:00 id: bernard?sid=175127",
-        "title": "Bernard roynir seg sum roykreinsari, 2. partur",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175127"
-      },
-      {
-        "date": "2024-05-15T13:33:00+01:00",
-        "id": "bernard?sid=175128",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/encounter.jpg?itok=pdXF-4zj",
-        "mediaId": "BER00046_UT306_Bernard_154039_46",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:33:00+01:00 id: bernard?sid=175128",
-        "title": "Bernard er tætt uppá samanbrestur",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175128"
-      },
-      {
-        "date": "2024-05-15T13:34:00+01:00",
-        "id": "bernard?sid=175129",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/lucky.jpg?itok=5FKlClqv",
-        "mediaId": "BER00048_UT306_Bernard_154041_48",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:34:00+01:00 id: bernard?sid=175129",
-        "title": "Bernard er heppin",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175129"
-      },
-      {
-        "date": "2024-05-15T13:35:00+01:00",
-        "id": "bernard?sid=175130",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vacum.jpg?itok=xAQzYxpt",
-        "mediaId": "BER00051_UT306_Bernard_154044_51",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:35:00+01:00 id: bernard?sid=175130",
-        "title": "Bernard og dustsúgvarin",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175130"
-      },
-      {
-        "date": "2024-05-15T13:35:00+01:00",
-        "id": "bernard?sid=175131",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/robot.jpg?itok=f_PQdIOX",
-        "mediaId": "BER00050_UT306_Bernard_154043_50",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:35:00+01:00 id: bernard?sid=175131",
-        "title": "Bernard og robotturin",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175131"
-      },
-      {
-        "date": "2024-05-15T13:35:00+01:00",
-        "id": "bernard?sid=175132",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/fumi1.jpg?itok=HsjSl_L_",
-        "mediaId": "BER00044_UT306_Bernard_154037_44",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:35:00+01:00 id: bernard?sid=175132",
-        "title": "Bernard roynir seg sum roykreinsari, 1. partur",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175132"
-      },
-      {
-        "date": "2024-05-15T13:36:00+01:00",
-        "id": "bernard?sid=175133",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hundur_5.jpg?itok=S-hmDE4T",
-        "mediaId": "BER00047_UT306_Bernard_154040_47",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:36:00+01:00 id: bernard?sid=175133",
-        "title": "Bernard og lítli hundurin",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175133"
-      },
-      {
-        "date": "2024-05-15T13:37:00+01:00",
-        "id": "bernard?sid=175134",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/county.jpg?itok=P8ljkMF2",
-        "mediaId": "BER00052_UT306_Bernard_154045_52",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:37:00+01:00 id: bernard?sid=175134",
-        "title": "Bernard er úti á landinum",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175134"
-      },
-      {
-        "date": "2024-05-15T13:38:00+01:00",
-        "id": "bernard?sid=175135",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/storm_1.jpg?itok=7MKkKk_3",
-        "mediaId": "BER00049_UT306_Bernard_154042_49",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T13:38:00+01:00 id: bernard?sid=175135",
-        "title": "Bernard í illveðri",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175135"
-      },
-      {
-        "date": "2024-05-15T14:19:00+01:00",
-        "id": "bernard?sid=175140",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/cart2.jpg?itok=_tzUDCuw",
-        "mediaId": "BER00017_UT306_Bernard_154010_17",
-        "showTitle": "Bernard",
-        "sortKey": "date: 2024-05-15T14:19:00+01:00 id: bernard?sid=175140",
-        "title": "Bernard og vognurin",
-        "url": "https://kvf.fo/vit/sending/sv/bernard?sid=175140"
-      }
-    ]
-  },
-  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/blikka_mynd.jpg?itok=RfdZTTfD",
     "title": "Blikka",
     "url": "https://kvf.fo/vit/sending/sv/blikka",
@@ -5939,6 +5622,12 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/medan_vit_bida.png?itok=egrZMajs",
+    "title": "Meðan vit bíða",
+    "url": "https://kvf.fo/vit/sending/sv/medan-vit-bida",
+    "episodes": []
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/mumihusid.jpg?itok=QCSbG-w3",
     "title": "Mumi",
     "url": "https://kvf.fo/vit/sending/sv/mumi",
@@ -6723,6 +6412,23 @@
     ]
   },
   {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/pelle_svanslos_pressbild_1_csf_studios.jpeg?itok=xhzzbbrJ",
+    "title": "Palli Halaleysi",
+    "url": "https://kvf.fo/vit/sending/sv/palli-halaleysi",
+    "episodes": [
+      {
+        "date": "2025-12-24T16:00:00+00:00",
+        "id": "palli-halaleysi?sid=201849",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pelle_svanslos_pressbild_19_csf_studios.jpg?itok=o_GLzzB0",
+        "mediaId": "BTA00720_Palli_Halaleysi_2025",
+        "showTitle": "Palli Halaleysi",
+        "sortKey": "date: 2025-12-24T16:00:00+00:00 id: palli-halaleysi?sid=201849",
+        "title": "Palli Halaleysi",
+        "url": "https://kvf.fo/vit/sending/sv/palli-halaleysi?sid=201849"
+      }
+    ]
+  },
+  {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/parkour_vid_markusi_1.1.1_0.jpg?itok=7dpq5wcG",
     "title": "Parkour við Markusi",
     "url": "https://kvf.fo/vit/sending/sv/parkour-vid-markusi",
@@ -6950,248 +6656,7 @@
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bl1387_pjoppa_og_goffi_1_2004_0050.jpg?itok=gCXJcTQb",
     "title": "Pjøppa og Goffi",
     "url": "https://kvf.fo/node/166616",
-    "episodes": [
-      {
-        "date": "2004-12-01T13:00:00+00:00",
-        "id": "166616?sid=166663",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_1_2004_0131.jpg?itok=HLldWFH1",
-        "mediaId": "BL1387_Pjoppa_og_goffi_1_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-01T13:00:00+00:00 id: 166616?sid=166663",
-        "title": "Pjøppa og Goffi 1. partur (1:24)",
-        "url": "https://kvf.fo/node/166616?sid=166663"
-      },
-      {
-        "date": "2004-12-02T12:00:00+00:00",
-        "id": "166616?sid=166664",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_2_2004_0022.jpg?itok=5ajY-sW5",
-        "mediaId": "BL1387_Pjoppa_og_goffi_2_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-02T12:00:00+00:00 id: 166616?sid=166664",
-        "title": "Pjøppa og Goffi 2. partur (2:24)",
-        "url": "https://kvf.fo/node/166616?sid=166664"
-      },
-      {
-        "date": "2004-12-03T13:00:00+00:00",
-        "id": "166616?sid=166665",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_3_2004_0012.jpg?itok=vXXz7Uj8",
-        "mediaId": "BL1387_Pjoppa_og_goffi_3_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-03T13:00:00+00:00 id: 166616?sid=166665",
-        "title": "Pjøppa og Goffi 3. partur (3:24)",
-        "url": "https://kvf.fo/node/166616?sid=166665"
-      },
-      {
-        "date": "2004-12-04T13:00:00+00:00",
-        "id": "166616?sid=166666",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_4_2004_0033.jpg?itok=0wgDgxqN",
-        "mediaId": "BL1387_Pjoppa_og_goffi_4_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-04T13:00:00+00:00 id: 166616?sid=166666",
-        "title": "Pjøppa og Goffi 4. partur (4:24)",
-        "url": "https://kvf.fo/node/166616?sid=166666"
-      },
-      {
-        "date": "2004-12-05T13:00:00+00:00",
-        "id": "166616?sid=166667",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_5_2004_0050.jpg?itok=jlifeZnT",
-        "mediaId": "BL1387_Pjoppa_og_goffi_5_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-05T13:00:00+00:00 id: 166616?sid=166667",
-        "title": "Pjøppa og Goffi 5. partur (5:24)",
-        "url": "https://kvf.fo/node/166616?sid=166667"
-      },
-      {
-        "date": "2004-12-06T13:00:00+00:00",
-        "id": "166616?sid=166668",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_6_2004_0058.jpg?itok=fA_4MrTv",
-        "mediaId": "BL1387_Pjoppa_og_goffi_6_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-06T13:00:00+00:00 id: 166616?sid=166668",
-        "title": "Pjøppa og Goffi 6. partur (6:24)",
-        "url": "https://kvf.fo/node/166616?sid=166668"
-      },
-      {
-        "date": "2004-12-07T13:00:00+00:00",
-        "id": "166616?sid=166669",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_7_2004_0072.jpg?itok=sr_oA4oD",
-        "mediaId": "BL1387_Pjoppa_og_goffi_7_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-07T13:00:00+00:00 id: 166616?sid=166669",
-        "title": "Pjøppa og Goffi 7. partur (7:24)",
-        "url": "https://kvf.fo/node/166616?sid=166669"
-      },
-      {
-        "date": "2004-12-08T13:00:00+00:00",
-        "id": "166616?sid=166670",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_8_2004_0029.jpg?itok=lbSsBFtn",
-        "mediaId": "BL1387_Pjoppa_og_goffi_8_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-08T13:00:00+00:00 id: 166616?sid=166670",
-        "title": "Pjøppa og Goffi 8. partur (8:24)",
-        "url": "https://kvf.fo/node/166616?sid=166670"
-      },
-      {
-        "date": "2004-12-09T13:00:00+00:00",
-        "id": "166616?sid=166671",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_9_2004_0034.jpg?itok=kA2kpskd",
-        "mediaId": "BL1387_Pjoppa_og_goffi_9_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-09T13:00:00+00:00 id: 166616?sid=166671",
-        "title": "Pjøppa og Goffi 9. partur (9:24)",
-        "url": "https://kvf.fo/node/166616?sid=166671"
-      },
-      {
-        "date": "2004-12-10T13:00:00+00:00",
-        "id": "166616?sid=166672",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_10_2004_0028.jpg?itok=w9WlcjPu",
-        "mediaId": "BL1387_Pjoppa_og_goffi_10_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-10T13:00:00+00:00 id: 166616?sid=166672",
-        "title": "Pjøppa og Goffi 10. partur (10:24)",
-        "url": "https://kvf.fo/node/166616?sid=166672"
-      },
-      {
-        "date": "2004-12-11T13:00:00+00:00",
-        "id": "166616?sid=166674",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_11_2004_0020.jpg?itok=YzlJ66Qj",
-        "mediaId": "BL1387_Pjoppa_og_goffi_11_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-11T13:00:00+00:00 id: 166616?sid=166674",
-        "title": "Pjøppa og Goffi 11. partur (11:24)",
-        "url": "https://kvf.fo/node/166616?sid=166674"
-      },
-      {
-        "date": "2004-12-12T13:00:00+00:00",
-        "id": "166616?sid=166675",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_12_2004_0012.jpg?itok=FPRbdx29",
-        "mediaId": "BL1387_Pjoppa_og_goffi_12_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-12T13:00:00+00:00 id: 166616?sid=166675",
-        "title": "Pjøppa og Goffi 12. partur (12:24)",
-        "url": "https://kvf.fo/node/166616?sid=166675"
-      },
-      {
-        "date": "2004-12-13T13:00:00+00:00",
-        "id": "166616?sid=166676",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_13_2004_0011.jpg?itok=Mj1crBwB",
-        "mediaId": "BL1387_Pjoppa_og_goffi_13_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-13T13:00:00+00:00 id: 166616?sid=166676",
-        "title": "Pjøppa og Goffi 13. partur (13:24)",
-        "url": "https://kvf.fo/node/166616?sid=166676"
-      },
-      {
-        "date": "2004-12-14T13:00:00+00:00",
-        "id": "166616?sid=166679",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_14_2004_0017.jpg?itok=fEglqgG0",
-        "mediaId": "BL1387_Pjoppa_og_goffi_14_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-14T13:00:00+00:00 id: 166616?sid=166679",
-        "title": "Pjøppa og Goffi 14. partur (14:24)",
-        "url": "https://kvf.fo/node/166616?sid=166679"
-      },
-      {
-        "date": "2004-12-15T13:00:00+00:00",
-        "id": "166616?sid=166680",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_15_2004_0018.jpg?itok=mkmcKdVx",
-        "mediaId": "BL1387_Pjoppa_og_goffi_15_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-15T13:00:00+00:00 id: 166616?sid=166680",
-        "title": "Pjøppa og Goffi 15. partur (15:24)",
-        "url": "https://kvf.fo/node/166616?sid=166680"
-      },
-      {
-        "date": "2004-12-16T13:00:00+00:00",
-        "id": "166616?sid=166681",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_16_2004_0030.jpg?itok=gwuKJo9W",
-        "mediaId": "BL1387_Pjoppa_og_goffi_16_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-16T13:00:00+00:00 id: 166616?sid=166681",
-        "title": "Pjøppa og Goffi 16. partur",
-        "url": "https://kvf.fo/node/166616?sid=166681"
-      },
-      {
-        "date": "2004-12-17T13:00:00+00:00",
-        "id": "166616?sid=166682",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_17_2004_0071.jpg?itok=gse1t1zn",
-        "mediaId": "BL1387_Pjoppa_og_goffi_17_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-17T13:00:00+00:00 id: 166616?sid=166682",
-        "title": "Pjøppa og Goffi 17. partur (17:24)",
-        "url": "https://kvf.fo/node/166616?sid=166682"
-      },
-      {
-        "date": "2004-12-18T13:00:00+00:00",
-        "id": "166616?sid=166683",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_18_2004_0014.jpg?itok=OY-qVzbr",
-        "mediaId": "BL1387_Pjoppa_og_goffi_18_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-18T13:00:00+00:00 id: 166616?sid=166683",
-        "title": "Pjøppa og Goffi 18. partur (18:24)",
-        "url": "https://kvf.fo/node/166616?sid=166683"
-      },
-      {
-        "date": "2004-12-19T13:00:00+00:00",
-        "id": "166616?sid=166684",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_19_2004_0008.jpg?itok=3-FtwiwA",
-        "mediaId": "BL1387_Pjoppa_og_goffi_19_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-19T13:00:00+00:00 id: 166616?sid=166684",
-        "title": "Pjøppa og Goffi 19. partur (19:24)",
-        "url": "https://kvf.fo/node/166616?sid=166684"
-      },
-      {
-        "date": "2004-12-20T13:00:00+00:00",
-        "id": "166616?sid=166685",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_20_2004_0008.jpg?itok=Q3zOg8RJ",
-        "mediaId": "BL1387_Pjoppa_og_goffi_20_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-20T13:00:00+00:00 id: 166616?sid=166685",
-        "title": "Pjøppa og Goffi 20. partur (20:24)",
-        "url": "https://kvf.fo/node/166616?sid=166685"
-      },
-      {
-        "date": "2004-12-21T13:00:00+00:00",
-        "id": "166616?sid=166686",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_21_2004_0034.jpg?itok=MjoIfMbz",
-        "mediaId": "BL1387_Pjoppa_og_goffi_21_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-21T13:00:00+00:00 id: 166616?sid=166686",
-        "title": "Pjøppa og Goffi 21. partur (21:24)",
-        "url": "https://kvf.fo/node/166616?sid=166686"
-      },
-      {
-        "date": "2004-12-22T13:00:00+00:00",
-        "id": "166616?sid=166687",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_22_2004_0006.jpg?itok=rEFBdTdt",
-        "mediaId": "BL1387_Pjoppa_og_goffi_22_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-22T13:00:00+00:00 id: 166616?sid=166687",
-        "title": "Pjøppa og Goffi 22. partur (22:24)",
-        "url": "https://kvf.fo/node/166616?sid=166687"
-      },
-      {
-        "date": "2004-12-23T13:00:00+00:00",
-        "id": "166616?sid=166688",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_23_2004_0040.jpg?itok=t54ywfFK",
-        "mediaId": "BL1387_Pjoppa_og_goffi_23_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-23T13:00:00+00:00 id: 166616?sid=166688",
-        "title": "Pjøppa og Goffi 23. partur (23:24)",
-        "url": "https://kvf.fo/node/166616?sid=166688"
-      },
-      {
-        "date": "2004-12-24T13:00:00+00:00",
-        "id": "166616?sid=166690",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1387_pjoppa_og_goffi_24_2004_0119.jpg?itok=SqAwokoq",
-        "mediaId": "BL1387_Pjoppa_og_goffi_24_2004",
-        "showTitle": "Pjøppa og Goffi",
-        "sortKey": "date: 2004-12-24T13:00:00+00:00 id: 166616?sid=166690",
-        "title": "Pjøppa og Goffi 24. partur (24:24)",
-        "url": "https://kvf.fo/node/166616?sid=166690"
-      }
-    ]
+    "episodes": []
   },
   {
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/bar00160_0114.jpg?itok=st2h4Grk",
@@ -7217,6 +6682,16 @@
         "sortKey": "date: 2025-12-08T19:17:00+00:00 id: ring-til-julius-beinleidis-ur-likkudali?sid=201211",
         "title": "Ring til Julius 2. partur 2025",
         "url": "https://kvf.fo/vit/sending/sv/ring-til-julius-beinleidis-ur-likkudali?sid=201211"
+      },
+      {
+        "date": "2025-12-15T18:00:00+00:00",
+        "id": "ring-til-julius-beinleidis-ur-likkudali?sid=201555",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00202_0043.jpg?itok=lrUCwmY5",
+        "mediaId": "BAR00202",
+        "showTitle": "Ring til Julius – beinleiðis úr Likkudali",
+        "sortKey": "date: 2025-12-15T18:00:00+00:00 id: ring-til-julius-beinleidis-ur-likkudali?sid=201555",
+        "title": "Ring til Julius 3. partur 2025",
+        "url": "https://kvf.fo/vit/sending/sv/ring-til-julius-beinleidis-ur-likkudali?sid=201555"
       }
     ]
   },
@@ -7651,6 +7126,403 @@
         "sortKey": "date: 2023-03-31T10:16:00+01:00 id: sakin?sid=155214",
         "title": "Sakin",
         "url": "https://kvf.fo/vit/sakin?sid=155214"
+      }
+    ]
+  },
+  {
+    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/sara_og_dunnan.jpg?itok=DfLaXQUr",
+    "title": "Sára og Dunna",
+    "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan",
+    "episodes": [
+      {
+        "date": "2019-11-07T15:00:00+00:00",
+        "id": "kara-og-dunnan?sid=100788",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s1.png?itok=WzBxtBm5",
+        "mediaId": "Sara_og_Dunna_01_OK",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2019-11-07T15:00:00+00:00 id: kara-og-dunnan?sid=100788",
+        "title": "Leykbørn",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=100788"
+      },
+      {
+        "date": "2019-11-07T15:01:00+00:00",
+        "id": "kara-og-dunnan?sid=100789",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s2.png?itok=5ahmdHRj",
+        "mediaId": "Sara_og_Dunna_02_OK",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2019-11-07T15:01:00+00:00 id: kara-og-dunnan?sid=100789",
+        "title": "Sára, dunna og pingvinirnar",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=100789"
+      },
+      {
+        "date": "2020-01-21T15:04:00+00:00",
+        "id": "kara-og-dunnan?sid=103657",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s4.png?itok=TSaaH9ko",
+        "mediaId": "UT372_4_Sara_og_Dunna_4_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-01-21T15:04:00+00:00 id: kara-og-dunnan?sid=103657",
+        "title": "Køkubakstur",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=103657"
+      },
+      {
+        "date": "2020-01-21T15:05:00+00:00",
+        "id": "kara-og-dunnan?sid=103659",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s5.png?itok=JBeW5xIR",
+        "mediaId": "UT372_5_Sara_og_Dunna_5_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-01-21T15:05:00+00:00 id: kara-og-dunnan?sid=103659",
+        "title": "Heima hjá konuni við turriklæðnum",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=103659"
+      },
+      {
+        "date": "2020-01-21T15:15:00+00:00",
+        "id": "kara-og-dunnan?sid=103663",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s6.png?itok=6Qp791-W",
+        "mediaId": "Sara_og_Dunna_06",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-01-21T15:15:00+00:00 id: kara-og-dunnan?sid=103663",
+        "title": "Tólmennissaft ",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=103663"
+      },
+      {
+        "date": "2020-01-21T15:30:00+00:00",
+        "id": "kara-og-dunnan?sid=103667",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s7.png?itok=FBh0q4e_",
+        "mediaId": "Sara_og_Dunna_07",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-01-21T15:30:00+00:00 id: kara-og-dunnan?sid=103667",
+        "title": "Springbóltur",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=103667"
+      },
+      {
+        "date": "2020-01-21T15:45:00+00:00",
+        "id": "kara-og-dunnan?sid=103665",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s8.png?itok=WFfdC6Jl",
+        "mediaId": "Sara_og_Dunna_08",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-01-21T15:45:00+00:00 id: kara-og-dunnan?sid=103665",
+        "title": "Ælabogasitrón",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=103665"
+      },
+      {
+        "date": "2020-03-27T19:00:00+00:00",
+        "id": "kara-og-dunnan?sid=106850",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s9.png?itok=KAm7YzC4",
+        "mediaId": "Sara_og_Dunna_09",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-03-27T19:00:00+00:00 id: kara-og-dunnan?sid=106850",
+        "title": "Sitibúðin",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=106850"
+      },
+      {
+        "date": "2020-03-27T19:01:00+00:00",
+        "id": "kara-og-dunnan?sid=106852",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s10.png?itok=WunfP1Y6",
+        "mediaId": "Sara_og_Dunna_10",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-03-27T19:01:00+00:00 id: kara-og-dunnan?sid=106852",
+        "title": "Flúgva við dreka",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=106852"
+      },
+      {
+        "date": "2020-03-27T19:02:00+00:00",
+        "id": "kara-og-dunnan?sid=106853",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s11.png?itok=sNj1AhCg",
+        "mediaId": "Sara_og_Dunna_11",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-03-27T19:02:00+00:00 id: kara-og-dunnan?sid=106853",
+        "title": "Regnskjólið og regnið",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=106853"
+      },
+      {
+        "date": "2020-03-27T19:03:00+00:00",
+        "id": "kara-og-dunnan?sid=106854",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s12.png?itok=rj9ieMc0",
+        "mediaId": "Sara_og_Dunna_12",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-03-27T19:03:00+00:00 id: kara-og-dunnan?sid=106854",
+        "title": "Stóri handilin",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=106854"
+      },
+      {
+        "date": "2020-03-27T19:04:00+00:00",
+        "id": "kara-og-dunnan?sid=106855",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s13.png?itok=iNvS3QI0",
+        "mediaId": "Sara_og_Dunna_13",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-03-27T19:04:00+00:00 id: kara-og-dunnan?sid=106855",
+        "title": "Ullintur tónleikur",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=106855"
+      },
+      {
+        "date": "2020-03-27T19:05:00+00:00",
+        "id": "kara-og-dunnan?sid=106856",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s14.png?itok=y3QNhNUN",
+        "mediaId": "Sara_og_Dunna_14",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-03-27T19:05:00+00:00 id: kara-og-dunnan?sid=106856",
+        "title": "Tennis",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=106856"
+      },
+      {
+        "date": "2020-03-27T19:06:00+00:00",
+        "id": "kara-og-dunnan?sid=106857",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s15.png?itok=oXPU6d79",
+        "mediaId": "Sara_og_Dunna_15",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-03-27T19:06:00+00:00 id: kara-og-dunnan?sid=106857",
+        "title": "Tivoli",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=106857"
+      },
+      {
+        "date": "2020-03-27T19:07:00+00:00",
+        "id": "kara-og-dunnan?sid=106858",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s16.png?itok=j8h3mSEh",
+        "mediaId": "Sara_og_Dunna_16",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-03-27T19:07:00+00:00 id: kara-og-dunnan?sid=106858",
+        "title": "Sára fær krím",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=106858"
+      },
+      {
+        "date": "2020-03-27T19:08:00+00:00",
+        "id": "kara-og-dunnan?sid=106860",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s17.png?itok=GXqSeIlb",
+        "mediaId": "Sara_og_Dunna_17_OK",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-03-27T19:08:00+00:00 id: kara-og-dunnan?sid=106860",
+        "title": "Bandsystrar",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=106860"
+      },
+      {
+        "date": "2020-10-29T08:43:00+00:00",
+        "id": "kara-og-dunnan?sid=115475",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s18.png?itok=aI-6UkBa",
+        "mediaId": "Sara_og_Dunna_18",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-10-29T08:43:00+00:00 id: kara-og-dunnan?sid=115475",
+        "title": "Hyggja at stjørnum",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=115475"
+      },
+      {
+        "date": "2020-10-29T08:48:00+00:00",
+        "id": "kara-og-dunnan?sid=115476",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s19.png?itok=LywpqgFI",
+        "mediaId": "Sara_og_Dunna_19",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2020-10-29T08:48:00+00:00 id: kara-og-dunnan?sid=115476",
+        "title": "Lita ljós",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=115476"
+      },
+      {
+        "date": "2021-09-24T13:25:00+01:00",
+        "id": "kara-og-dunnan?sid=129040",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s20.png?itok=9k26KJ-M",
+        "mediaId": "UT372_20_Sara_og_Dunna_20_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2021-09-24T13:25:00+01:00 id: kara-og-dunnan?sid=129040",
+        "title": "Jarðberjasoufflé",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=129040"
+      },
+      {
+        "date": "2021-09-24T13:30:00+01:00",
+        "id": "kara-og-dunnan?sid=129041",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s23.png?itok=rkhVIj8O",
+        "mediaId": "UT372_22_Sara_og_Dunna_22_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2021-09-24T13:30:00+01:00 id: kara-og-dunnan?sid=129041",
+        "title": "Steppskógvar",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=129041"
+      },
+      {
+        "date": "2021-09-24T13:35:00+01:00",
+        "id": "kara-og-dunnan?sid=129042",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s22_0.png?itok=TWpDyGXw",
+        "mediaId": "UT372_23_Sara_og_Dunna_23_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2021-09-24T13:35:00+01:00 id: kara-og-dunnan?sid=129042",
+        "title": "Bobsleta",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=129042"
+      },
+      {
+        "date": "2022-01-18T09:35:00+00:00",
+        "id": "kara-og-dunnan?sid=134208",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s24.png?itok=kn3SiQUz",
+        "mediaId": "UT372_24_Sara_og_Dunna_24_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T09:35:00+00:00 id: kara-og-dunnan?sid=134208",
+        "title": "Fýrverksdansur",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134208"
+      },
+      {
+        "date": "2022-01-18T09:40:00+00:00",
+        "id": "kara-og-dunnan?sid=134209",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s25.png?itok=0-mimPpB",
+        "mediaId": "UT372_25_Sara_og_Dunna_25_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T09:40:00+00:00 id: kara-og-dunnan?sid=134209",
+        "title": "Aðrar viðarlundir",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134209"
+      },
+      {
+        "date": "2022-01-18T09:45:00+00:00",
+        "id": "kara-og-dunnan?sid=134210",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s26.png?itok=UQi8-d49",
+        "mediaId": "UT372_26_Sara_og_Dunna_26_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T09:45:00+00:00 id: kara-og-dunnan?sid=134210",
+        "title": "Kórleiðari hjá pípunum",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134210"
+      },
+      {
+        "date": "2022-01-18T09:50:00+00:00",
+        "id": "kara-og-dunnan?sid=134211",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s27.png?itok=8S4Sfzkk",
+        "mediaId": "UT372_27_Sara_og_Dunna_27_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T09:50:00+00:00 id: kara-og-dunnan?sid=134211",
+        "title": "Skjaldbøkuseint",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134211"
+      },
+      {
+        "date": "2022-01-18T09:55:00+00:00",
+        "id": "kara-og-dunnan?sid=134212",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s28.png?itok=Qq4qbpxX",
+        "mediaId": "UT372_28_Sara_og_Dunna_28_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T09:55:00+00:00 id: kara-og-dunnan?sid=134212",
+        "title": "Altjóða breyðdagur",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134212"
+      },
+      {
+        "date": "2022-01-18T10:00:00+00:00",
+        "id": "kara-og-dunnan?sid=134213",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s29.png?itok=4ImlzWcR",
+        "mediaId": "UT372_29_Sara_og_Dunna_29_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T10:00:00+00:00 id: kara-og-dunnan?sid=134213",
+        "title": "Hyljarprinsessan",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134213"
+      },
+      {
+        "date": "2022-01-18T10:05:00+00:00",
+        "id": "kara-og-dunnan?sid=134214",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s30.png?itok=JrgM3c6x",
+        "mediaId": "UT372_30_Sara_og_Dunna_30_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T10:05:00+00:00 id: kara-og-dunnan?sid=134214",
+        "title": "Bangin fyri trappum",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134214"
+      },
+      {
+        "date": "2022-01-18T10:10:00+00:00",
+        "id": "kara-og-dunnan?sid=134215",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s31.png?itok=HCv1K4g-",
+        "mediaId": "UT372_31_Sara_og_Dunna_31_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T10:10:00+00:00 id: kara-og-dunnan?sid=134215",
+        "title": "Ballónkapping",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134215"
+      },
+      {
+        "date": "2022-01-18T10:15:00+00:00",
+        "id": "kara-og-dunnan?sid=134218",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s32.png?itok=3n8CiNhp",
+        "mediaId": "UT372_32_Sara_og_Dunna_32_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T10:15:00+00:00 id: kara-og-dunnan?sid=134218",
+        "title": "Brotin súkklupumpa",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134218"
+      },
+      {
+        "date": "2022-01-18T10:25:00+00:00",
+        "id": "kara-og-dunnan?sid=134219",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s33.png?itok=WHp9YW1n",
+        "mediaId": "UT372_33_Sara_og_Dunna_33_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T10:25:00+00:00 id: kara-og-dunnan?sid=134219",
+        "title": "Tokan liggur tjúkk",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134219"
+      },
+      {
+        "date": "2022-01-18T10:40:00+00:00",
+        "id": "kara-og-dunnan?sid=134220",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s34.png?itok=woUP9O-u",
+        "mediaId": "UT372_34_Sara_og_Dunna_34_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T10:40:00+00:00 id: kara-og-dunnan?sid=134220",
+        "title": "Mánamáling",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134220"
+      },
+      {
+        "date": "2022-01-18T10:50:00+00:00",
+        "id": "kara-og-dunnan?sid=134222",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s35.png?itok=CVtbBZhq",
+        "mediaId": "UT372_35_Sara_og_Dunna_35_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T10:50:00+00:00 id: kara-og-dunnan?sid=134222",
+        "title": "Spælið",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134222"
+      },
+      {
+        "date": "2022-01-18T10:55:00+00:00",
+        "id": "kara-og-dunnan?sid=134223",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s36.png?itok=JMbi7R5h",
+        "mediaId": "UT372_36_Sara_og_Dunna_36_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T10:55:00+00:00 id: kara-og-dunnan?sid=134223",
+        "title": "Koyra breyð út",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134223"
+      },
+      {
+        "date": "2022-01-18T11:00:00+00:00",
+        "id": "kara-og-dunnan?sid=134224",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s37.png?itok=jyEYwVjT",
+        "mediaId": "UT372_37_Sara_og_Dunna_37_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T11:00:00+00:00 id: kara-og-dunnan?sid=134224",
+        "title": "Knapparnir hjá klukkuni",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134224"
+      },
+      {
+        "date": "2022-01-18T11:05:00+00:00",
+        "id": "kara-og-dunnan?sid=134226",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s38.png?itok=8IFRkLBR",
+        "mediaId": "UT372_38_Sara_og_Dunna_38_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T11:05:00+00:00 id: kara-og-dunnan?sid=134226",
+        "title": "Tógvið er uppi",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134226"
+      },
+      {
+        "date": "2022-01-18T11:15:00+00:00",
+        "id": "kara-og-dunnan?sid=134227",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s39.png?itok=HboYUWaf",
+        "mediaId": "UT372_39_Sara_og_Dunna_39_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T11:15:00+00:00 id: kara-og-dunnan?sid=134227",
+        "title": "Átthyrningabólkurin",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134227"
+      },
+      {
+        "date": "2022-01-18T11:20:00+00:00",
+        "id": "kara-og-dunnan?sid=134228",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s40.png?itok=FYcibi5l",
+        "mediaId": "UT372_40_Sara_og_Dunna_40_jol_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2022-01-18T11:20:00+00:00 id: kara-og-dunnan?sid=134228",
+        "title": "Jólaljósbløð",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=134228"
+      },
+      {
+        "date": "2026-02-05T08:27:00+00:00",
+        "id": "kara-og-dunnan?sid=139988",
+        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/s21.png?itok=jH3zIqtv",
+        "mediaId": "UT372_22_Sara_og_Dunna_22_BBC",
+        "showTitle": "Sára og Dunna",
+        "sortKey": "date: 2026-02-05T08:27:00+00:00 id: kara-og-dunnan?sid=139988",
+        "title": "Myndatól",
+        "url": "https://kvf.fo/vit/sending/sv/kara-og-dunnan?sid=139988"
       }
     ]
   },
@@ -8189,103 +8061,6 @@
         "sortKey": "date: 2023-10-03T08:00:00+01:00 id: smaborn?sid=162240",
         "title": "Smábørn 2, 8. partur",
         "url": "https://kvf.fo/vit/sending/sv/smaborn?sid=162240"
-      }
-    ]
-  },
-  {
-    "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/screenshot_2025-11-28_102345.png?itok=WE8AMeBb",
-    "title": "Snæfall 2",
-    "url": "https://kvf.fo/vit/sending/sv/snaefall-2",
-    "episodes": [
-      {
-        "date": "2025-11-28T18:55:00+00:00",
-        "id": "snaefall-2?sid=200695",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/e04_b_photo_nrk.jpg?itok=fuDhC5cU",
-        "mediaId": "SNAEFALL_II_EP04_Audio_1Left_2Right_CH3-8Surround_LRC",
-        "showTitle": "Snæfall 2",
-        "sortKey": "date: 2025-11-28T18:55:00+00:00 id: snaefall-2?sid=200695",
-        "title": "Snæfall 2 (4:24)",
-        "url": "https://kvf.fo/vit/sending/sv/snaefall-2?sid=200695"
-      },
-      {
-        "date": "2025-12-01T06:00:00+00:00",
-        "id": "snaefall-2?sid=200678",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/e01_c_photo_nrk_1.jpg?itok=jtATV-7V",
-        "mediaId": "SNAEFALL_II_EP01_Audio_1Left_2Right_CH3-8Surround_LRC",
-        "showTitle": "Snæfall 2",
-        "sortKey": "date: 2025-12-01T06:00:00+00:00 id: snaefall-2?sid=200678",
-        "title": "Snæfall 2 (1:24)",
-        "url": "https://kvf.fo/vit/sending/sv/snaefall-2?sid=200678"
-      },
-      {
-        "date": "2025-12-02T06:00:00+00:00",
-        "id": "snaefall-2?sid=200679",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/e02_b_photo_nrk.jpg?itok=n9qliS6c",
-        "mediaId": "SNAEFALL_II_EP02_Audio_1Left_2Right_CH3-8Surround_LRC",
-        "showTitle": "Snæfall 2",
-        "sortKey": "date: 2025-12-02T06:00:00+00:00 id: snaefall-2?sid=200679",
-        "title": "Snæfall 2 (2:24)",
-        "url": "https://kvf.fo/vit/sending/sv/snaefall-2?sid=200679"
-      },
-      {
-        "date": "2025-12-03T06:00:00+00:00",
-        "id": "snaefall-2?sid=200693",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/e03_b_photo_nrk.jpg?itok=6XSlXSYN",
-        "mediaId": "SNAEFALL_II_EP03_Audio_1Left_2Right_CH3-8Surround_LRC",
-        "showTitle": "Snæfall 2",
-        "sortKey": "date: 2025-12-03T06:00:00+00:00 id: snaefall-2?sid=200693",
-        "title": "Snæfall 2 (3:24)",
-        "url": "https://kvf.fo/vit/sending/sv/snaefall-2?sid=200693"
-      },
-      {
-        "date": "2025-12-05T06:00:00+00:00",
-        "id": "snaefall-2?sid=200821",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/e05_b_photo_nrk.jpg?itok=r-IiyGhr",
-        "mediaId": "SNAEFALL_II_EP05_Audio_1Left_2Right_CH3-8Surround_LRC",
-        "showTitle": "Snæfall 2",
-        "sortKey": "date: 2025-12-05T06:00:00+00:00 id: snaefall-2?sid=200821",
-        "title": "Snæfall 2 (5:24)",
-        "url": "https://kvf.fo/vit/sending/sv/snaefall-2?sid=200821"
-      },
-      {
-        "date": "2025-12-06T06:00:00+00:00",
-        "id": "snaefall-2?sid=200824",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/e06_a_photo_nrk.jpg?itok=ufT2b_cc",
-        "mediaId": "SNAEFALL_II_EP06_Audio_1Left_2Right_CH3-8Surround_LRC",
-        "showTitle": "Snæfall 2",
-        "sortKey": "date: 2025-12-06T06:00:00+00:00 id: snaefall-2?sid=200824",
-        "title": "Snæfall 2 (6:24)",
-        "url": "https://kvf.fo/vit/sending/sv/snaefall-2?sid=200824"
-      },
-      {
-        "date": "2025-12-07T06:00:00+00:00",
-        "id": "snaefall-2?sid=200825",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/e07_a_photo_nrk_0.jpg?itok=CbM6Qq9M",
-        "mediaId": "SNAEFALL_II_EP07_Audio_1Left_2Right_CH3-8Surround_LRC",
-        "showTitle": "Snæfall 2",
-        "sortKey": "date: 2025-12-07T06:00:00+00:00 id: snaefall-2?sid=200825",
-        "title": "Snæfall 2 (7:24)",
-        "url": "https://kvf.fo/vit/sending/sv/snaefall-2?sid=200825"
-      },
-      {
-        "date": "2025-12-08T06:00:00+00:00",
-        "id": "snaefall-2?sid=200826",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/e08_b_photo_nrk.jpg?itok=LaWDdHgK",
-        "mediaId": "SNAEFALL_II_EP08_Audio_1Left_2Right_CH3-8Surround_LRC",
-        "showTitle": "Snæfall 2",
-        "sortKey": "date: 2025-12-08T06:00:00+00:00 id: snaefall-2?sid=200826",
-        "title": "Snæfall 2 (8:24)",
-        "url": "https://kvf.fo/vit/sending/sv/snaefall-2?sid=200826"
-      },
-      {
-        "date": "2025-12-09T06:00:00+00:00",
-        "id": "snaefall-2?sid=200828",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/e09_b_photo_nrk.jpg?itok=IbYonpL-",
-        "mediaId": "SNAEFALL_II_EP09_Audio_1Left_2Right_CH3-8Surround_LRC",
-        "showTitle": "Snæfall 2",
-        "sortKey": "date: 2025-12-09T06:00:00+00:00 id: snaefall-2?sid=200828",
-        "title": "Snæfall 2 (9:24)",
-        "url": "https://kvf.fo/vit/sending/sv/snaefall-2?sid=200828"
       }
     ]
   },
@@ -10323,247 +10098,6 @@
     "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/jk19_vitin_bg_720x1280.jpg?itok=iS53RIOR",
     "title": "Vitin",
     "url": "https://kvf.fo/vit/sending/sv/vitin",
-    "episodes": [
-      {
-        "date": "2006-12-01T17:00:00+00:00",
-        "id": "vitin?sid=101561",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd.jpg?itok=NrpLyc30",
-        "mediaId": "BL1471_Vitin_1_01122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-01T17:00:00+00:00 id: vitin?sid=101561",
-        "title": "Vitin 1. partur (1:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101561"
-      },
-      {
-        "date": "2006-12-02T17:01:00+00:00",
-        "id": "vitin?sid=101562",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_0.jpg?itok=ATP8kZ5P",
-        "mediaId": "BL1471_Vitin_2_02122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-02T17:01:00+00:00 id: vitin?sid=101562",
-        "title": "Vitin 2. partur (2:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101562"
-      },
-      {
-        "date": "2006-12-03T14:25:00+00:00",
-        "id": "vitin?sid=185303",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_20.jpg?itok=dDOwzer9",
-        "mediaId": "BL1471_Vitin_3_03122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-03T14:25:00+00:00 id: vitin?sid=185303",
-        "title": "Vitin 3. partur (3:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=185303"
-      },
-      {
-        "date": "2006-12-04T13:00:00+00:00",
-        "id": "vitin?sid=101566",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_2.jpg?itok=wmmUBF_m",
-        "mediaId": "BL1471_Vitin_4_04122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-04T13:00:00+00:00 id: vitin?sid=101566",
-        "title": "Vitin 4. partur (4:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101566"
-      },
-      {
-        "date": "2006-12-05T13:00:00+00:00",
-        "id": "vitin?sid=101568",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_3.jpg?itok=trnhgiae",
-        "mediaId": "BL1471_Vitin_5_05122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-05T13:00:00+00:00 id: vitin?sid=101568",
-        "title": "Vitin 5. partur (5:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101568"
-      },
-      {
-        "date": "2006-12-06T13:00:00+00:00",
-        "id": "vitin?sid=101569",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_4.jpg?itok=bFSs5W0I",
-        "mediaId": "BL1471_Vitin_6_06122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-06T13:00:00+00:00 id: vitin?sid=101569",
-        "title": "Vitin 6. partur (6:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101569"
-      },
-      {
-        "date": "2006-12-07T13:00:00+00:00",
-        "id": "vitin?sid=101570",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_5.jpg?itok=GNEpHXLw",
-        "mediaId": "BL1471_Vitin_7_07122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-07T13:00:00+00:00 id: vitin?sid=101570",
-        "title": "Vitin 7. partur (7:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101570"
-      },
-      {
-        "date": "2006-12-08T13:00:00+00:00",
-        "id": "vitin?sid=101571",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_6.jpg?itok=dMudqK9X",
-        "mediaId": "BL1471_Vitin_8_08122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-08T13:00:00+00:00 id: vitin?sid=101571",
-        "title": "Vitin 8. partur (8:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101571"
-      },
-      {
-        "date": "2006-12-09T13:00:00+00:00",
-        "id": "vitin?sid=101572",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_7.jpg?itok=sCjg4NQ0",
-        "mediaId": "BL1471_Vitin_9_09122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-09T13:00:00+00:00 id: vitin?sid=101572",
-        "title": "Vitin 9. partur (9:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101572"
-      },
-      {
-        "date": "2006-12-10T13:00:00+00:00",
-        "id": "vitin?sid=101594",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_8.jpg?itok=K0j_tnMG",
-        "mediaId": "BL1471_Vitin_10_10122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-10T13:00:00+00:00 id: vitin?sid=101594",
-        "title": "Vitin 10.partur (10:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101594"
-      },
-      {
-        "date": "2006-12-11T13:00:00+00:00",
-        "id": "vitin?sid=101599",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_9.jpg?itok=wV6339C2",
-        "mediaId": "BL1471_Vitin_11_11122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-11T13:00:00+00:00 id: vitin?sid=101599",
-        "title": "Vitin 11. partur (11:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101599"
-      },
-      {
-        "date": "2006-12-12T13:00:00+00:00",
-        "id": "vitin?sid=101602",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_10.jpg?itok=g1Cr52UN",
-        "mediaId": "BL1472_Vitin_12_12122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-12T13:00:00+00:00 id: vitin?sid=101602",
-        "title": "Vitin 12. partur (12:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101602"
-      },
-      {
-        "date": "2006-12-13T13:00:00+00:00",
-        "id": "vitin?sid=101603",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_11.jpg?itok=jWmBHxXv",
-        "mediaId": "BL1472_Vitin_13_13122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-13T13:00:00+00:00 id: vitin?sid=101603",
-        "title": "Vitin 13. partur (13:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101603"
-      },
-      {
-        "date": "2006-12-14T13:00:00+00:00",
-        "id": "vitin?sid=101604",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_12.jpg?itok=v5tBEYfc",
-        "mediaId": "BL1472_Vitin_14_14122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-14T13:00:00+00:00 id: vitin?sid=101604",
-        "title": "Vitin 14. partur (14:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101604"
-      },
-      {
-        "date": "2006-12-15T13:00:00+00:00",
-        "id": "vitin?sid=101606",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_13.jpg?itok=3yjMWTRH",
-        "mediaId": "BL1472_Vitin_15_15122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-15T13:00:00+00:00 id: vitin?sid=101606",
-        "title": "Vitin 15. partur (15:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101606"
-      },
-      {
-        "date": "2006-12-16T13:00:00+00:00",
-        "id": "vitin?sid=101608",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_14.jpg?itok=PeuH0BIB",
-        "mediaId": "BL1472_Vitin_16_16122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-16T13:00:00+00:00 id: vitin?sid=101608",
-        "title": "Vitin 16. partur (16:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101608"
-      },
-      {
-        "date": "2006-12-17T13:00:00+00:00",
-        "id": "vitin?sid=101609",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_15.jpg?itok=5D2tY_ag",
-        "mediaId": "BL1472_Vitin_17_17122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-17T13:00:00+00:00 id: vitin?sid=101609",
-        "title": "Vitin 17. partur (17:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101609"
-      },
-      {
-        "date": "2006-12-18T13:00:00+00:00",
-        "id": "vitin?sid=102113",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_20.jpg?itok=dDOwzer9",
-        "mediaId": "BL1472_Vitin18",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-18T13:00:00+00:00 id: vitin?sid=102113",
-        "title": "Vitin 18. partur (18:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=102113"
-      },
-      {
-        "date": "2006-12-19T13:00:00+00:00",
-        "id": "vitin?sid=101610",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_16.jpg?itok=qX4UgW3O",
-        "mediaId": "BL1472_Vitin_19_19122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-19T13:00:00+00:00 id: vitin?sid=101610",
-        "title": "Vitin 19. partur (19:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101610"
-      },
-      {
-        "date": "2006-12-20T13:00:00+00:00",
-        "id": "vitin?sid=101611",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_17.jpg?itok=Cb_bomtJ",
-        "mediaId": "BL1472_Vitin_20_20122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-20T13:00:00+00:00 id: vitin?sid=101611",
-        "title": "Vitin 20. partur (20:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101611"
-      },
-      {
-        "date": "2006-12-21T13:00:00+00:00",
-        "id": "vitin?sid=101612",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_18.jpg?itok=MuMgkLAY",
-        "mediaId": "BL1472_Vitin_21_21122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-21T13:00:00+00:00 id: vitin?sid=101612",
-        "title": "Vitin 21. partur (21:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101612"
-      },
-      {
-        "date": "2006-12-22T13:00:00+00:00",
-        "id": "vitin?sid=101613",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_19.jpg?itok=dqRF6w8G",
-        "mediaId": "BL1472_Vitin_22_27122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-22T13:00:00+00:00 id: vitin?sid=101613",
-        "title": "Vitin 22. partur (22:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101613"
-      },
-      {
-        "date": "2006-12-23T13:00:00+00:00",
-        "id": "vitin?sid=102112",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_20.jpg?itok=dDOwzer9",
-        "mediaId": "BL1473_Vitin_23_23122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-23T13:00:00+00:00 id: vitin?sid=102112",
-        "title": "Vitin 23. partur (23:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=102112"
-      },
-      {
-        "date": "2006-12-24T13:00:00+00:00",
-        "id": "vitin?sid=101614",
-        "img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/vitin_mynd_20.jpg?itok=dDOwzer9",
-        "mediaId": "BL1472_Vitin_24_24122006",
-        "showTitle": "Vitin",
-        "sortKey": "date: 2006-12-24T13:00:00+00:00 id: vitin?sid=101614",
-        "title": "Vitin 24. partur (24:24)",
-        "url": "https://kvf.fo/vit/sending/sv/vitin?sid=101614"
-      }
-    ]
+    "episodes": []
   }
 ]
