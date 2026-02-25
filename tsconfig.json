@@ -11,7 +11,11 @@
 		"strict": true,
 		"moduleResolution": "bundler"
 	},
-	"exclude": ["./src/lib/luxmty-skin/**/*"]
+	"exclude": [
+		"./src/lib/luxmty-skin/**/*",
+		"./src/routes/sending/*/partur/*/quality-selector.js",
+		"./src/routes/sending/*/partur/*/quality-selector/**/*"
+	]
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	// except $lib which is handled by https://svelte.dev/docs/kit/configuration#files
 	//

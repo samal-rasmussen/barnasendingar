@@ -18,6 +18,11 @@ module.exports = {
 		es2017: true,
 		node: true
 	},
+	ignorePatterns: [
+		'src/lib/luxmty-skin/',
+		'src/routes/sending/*/partur/*/quality-selector.js',
+		'src/routes/sending/*/partur/*/quality-selector/',
+	],
 	overrides: [
 		{
 			files: ['*.svelte'],

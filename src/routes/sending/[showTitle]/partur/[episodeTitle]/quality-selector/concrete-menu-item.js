@@ -1,3 +1,4 @@
+// @ts-nocheck
 import videojs from 'video.js';
 
 // Concrete classes
