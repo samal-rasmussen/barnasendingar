@@ -1,3 +1,4 @@
+// @ts-nocheck
 import videojs from 'video.js';
 
 var version = '1.1.5';

@@ -11,3 +11,8 @@ node_modules
 pnpm-lock.yaml
 package-lock.json
 yarn.lock
+
+# Vendored code
+src/lib/luxmty-skin/
+src/routes/sending/*/partur/*/quality-selector.js
+src/routes/sending/*/partur/*/quality-selector/

@@ -1,3 +1,4 @@
+// @ts-nocheck
 /* 
     Source:
     https://github.com/eban5/videojs-hls-quality-selector/blob/2b9d89799331445e9b15e8d6da0da5609b49ba35/src/plugin.js
