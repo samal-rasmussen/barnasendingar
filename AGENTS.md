@@ -13,23 +13,23 @@
 
 ### Routes
 
-| Route | File | Description |
-|-------|------|-------------|
-| `/` | `src/routes/+page.svelte` | Show grid (homepage) |
-| `/sending/[showTitle]` | `src/routes/sending/[showTitle]/+page.svelte` | Episode list for a show |
-| `/sending/[showTitle]/partur/[episodeTitle]` | `src/routes/sending/[showTitle]/partur/[episodeTitle]/+page.svelte` | Video player |
+| Route                                        | File                                                                | Description             |
+| -------------------------------------------- | ------------------------------------------------------------------- | ----------------------- |
+| `/`                                          | `src/routes/+page.svelte`                                           | Show grid (homepage)    |
+| `/sending/[showTitle]`                       | `src/routes/sending/[showTitle]/+page.svelte`                       | Episode list for a show |
+| `/sending/[showTitle]/partur/[episodeTitle]` | `src/routes/sending/[showTitle]/partur/[episodeTitle]/+page.svelte` | Video player            |
 
 ### Commands
 
 See `package.json` `scripts`. Key ones:
 
-| Task | Command |
-|------|---------|
-| Dev server | `npm run dev` (port 5173) |
-| Build | `npm run build` |
-| Lint (Prettier + ESLint) | `npm run lint` |
-| Type check | `npm run check` |
-| Format | `npm run format` |
+| Task                     | Command                   |
+| ------------------------ | ------------------------- |
+| Dev server               | `npm run dev` (port 5173) |
+| Build                    | `npm run build`           |
+| Lint (Prettier + ESLint) | `npm run lint`            |
+| Type check               | `npm run check`           |
+| Format                   | `npm run format`          |
 
 ### ESLint caveat
 

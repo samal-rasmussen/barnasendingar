@@ -1,9 +1,10 @@
 <script lang="ts">
 	import shows from '$lib/assets/shows.json';
 	import { goto } from '$app/navigation';
+	import { resolveRoute } from '$app/paths';
 
 	function gotoShow(showTitle: string) {
-		goto(`sending/${showTitle}`);
+		goto(resolveRoute('/sending/[showTitle]', { showTitle }));
 	}
 </script>
 
@@ -13,7 +14,7 @@
 
 <h1>Barnasendingar</h1>
 <div class="grid">
-	{#each shows as show}
+	{#each shows as show (show.title)}
 		<div class="grid-item">
 			<div
 				class="grid-container"
@@ -28,16 +29,16 @@
 		</div>
 	{/each}
 	<!-- hack to make the last row left align with the grid -->
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
 </div>

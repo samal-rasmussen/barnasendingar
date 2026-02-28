@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
 import { JSDOM } from 'jsdom';
 import PQueue from 'p-queue';
-import * as prettier from 'prettier';
+// import * as prettier from 'prettier';
 import type { Show, Episode } from './shared-types';
 import * as CliProgress from 'cli-progress';
 
@@ -16,9 +16,9 @@ const urlPrefix = 'https://kvf.fo';
 const regex = new RegExp(`(var media = ')(.+)';`);
 let episodesCount = 0;
 
-async function pretty(html: string): Promise<string> {
-	return await prettier.format(html, { parser: 'html' });
-}
+// async function pretty(html: string): Promise<string> {
+// 	return await prettier.format(html, { parser: 'html' });
+// }
 
 async function fetchHtml(urlString: string): Promise<string> {
 	try {

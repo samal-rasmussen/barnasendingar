@@ -94,7 +94,7 @@
 			getCurrentQuality: 'auto',
 			sortAscending: false,
 		});
-		player.ready(function onPlayerReady(this: any) {
+		player.ready(function onPlayerReady(this: ReturnType<typeof videojs>) {
 			this.play();
 		});
 		player.on('ended', function () {
@@ -115,8 +115,7 @@
 
 <div class="episode">
 	<div>
-		<!-- svelte-ignore a11y-media-has-caption -->
-		<video-js id="barnasendingar-video-player" class="video-js vjs-luxmty" />
+		<video-js id="barnasendingar-video-player" class="video-js vjs-luxmty"></video-js>
 	</div>
 </div>
 

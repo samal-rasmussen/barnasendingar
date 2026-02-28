@@ -3,7 +3,8 @@ import fs from 'fs';
 // Read the JSON file
 const data = JSON.parse(fs.readFileSync('src/lib/assets/shows.json', 'utf8'));
 
-function log(...args: any[]) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function log(..._args: unknown[]) {
 	// console.log(...args);
 }
 

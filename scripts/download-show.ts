@@ -5,7 +5,7 @@ import { mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import { createInterface } from 'readline';
 import shows from '../src/lib/assets/shows.json';
-import type { Show, Episode } from './shared-types';
+import type { Show } from './shared-types';
 import { keepAwake } from './keepawake';
 
 interface DownloadOptions {
@@ -225,11 +225,9 @@ function downloadWithYtDlp(
 			stdio: ['pipe', 'pipe', 'pipe'],
 		});
 
-		let stdout = '';
 		let stderr = '';
 
 		ytDlp.stdout.on('data', (data) => {
-			stdout += data.toString();
 			process.stdout.write(data);
 		});
 

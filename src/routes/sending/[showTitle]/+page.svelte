@@ -1,12 +1,16 @@
 <script lang="ts">
 	import shows from '$lib/assets/shows.json';
 	import { afterNavigate, goto } from '$app/navigation';
+	import { resolveRoute } from '$app/paths';
 	import { page } from '$app/stores';
 	import type { Show } from '../../../../scripts/shared-types';
 	import { clearWatched, getWatched } from '$lib/watched';
 
 	function playEpisode(episodeTitle: string) {
-		const url = `${$page.params.showTitle}/partur/${episodeTitle}`;
+		const url = resolveRoute('/sending/[showTitle]/partur/[episodeTitle]', {
+			showTitle: $page.params.showTitle,
+			episodeTitle,
+		});
 		goto(url);
 	}
 
@@ -20,7 +24,7 @@
 		if (hasNavigated) {
 			history.back();
 		} else {
-			goto('/');
+			goto(resolveRoute('/'));
 		}
 	};
 
@@ -39,7 +43,7 @@
 		<button class="icon" on:click={() => goBack()}>&#8678</button>
 		<button on:click={() => (watched = clearWatched(show))}>Nulstilla "Sæð"</button>
 	</actions>
-	{#each show.episodes as episode}
+	{#each show.episodes as episode (episode.sortKey)}
 		<div class="grid-item">
 			<div
 				class="grid-container"
@@ -59,18 +63,18 @@
 		</div>
 	{/each}
 	<!-- hack to make the last row left align with the grid -->
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
-	<div class="grid-spacer" />
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
+	<div class="grid-spacer"></div>
 </div>
 
 <style>
@@ -78,11 +82,6 @@
 		text-align: center;
 		padding-right: 0;
 		margin-bottom: 0;
-	}
-	.grid .grid-item p {
-		margin-top: 0px;
-		margin-bottom: 4px;
-		text-align: center;
 	}
 	actions {
 		display: flex;
@@ -136,22 +135,9 @@
 			padding-right: 2em;
 			overflow: hidden;
 		}
-		.grid .grid-item p {
-			font-size: 0.9em;
-		}
 		actions {
 			padding-left: 2rem;
 			width: inherit;
-		}
-	}
-	@media screen and (max-width: 520px) {
-		.grid .grid-item p {
-			font-size: 0.8em;
-		}
-	}
-	@media screen and (max-width: 420px) {
-		.grid .grid-item p {
-			font-size: 0.7em;
 		}
 	}
 </style>
