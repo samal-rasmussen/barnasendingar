@@ -3410,6 +3410,26 @@
 				"sortKey": "date: 2025-05-16T15:00:00+01:00 id: kakumiks?sid=191924",
 				"title": "KAKUMiKS (7:7)",
 				"url": "https://kvf.fo/vit/sending/sv/kakumiks?sid=191924"
+			},
+			{
+				"date": "2026-03-20T14:46:00+00:00",
+				"id": "kakumiks?sid=205962",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/cover_til_eps._1_0.jpg?itok=2mBAsNpB",
+				"mediaId": "BTA00721_Kakumiks_2025_E01",
+				"showTitle": "KAKUMiKS",
+				"sortKey": "date: 2026-03-20T14:46:00+00:00 id: kakumiks?sid=205962",
+				"title": "KAKUMiKS 2 (1:7)",
+				"url": "https://kvf.fo/vit/sending/sv/kakumiks?sid=205962"
+			},
+			{
+				"date": "2026-03-27T14:50:00+00:00",
+				"id": "kakumiks?sid=206042",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/cover_til_eps._2.jpg?itok=-iB-7gkL",
+				"mediaId": "BTA00722_Kakumiks_2025_E02",
+				"showTitle": "KAKUMiKS",
+				"sortKey": "date: 2026-03-27T14:50:00+00:00 id: kakumiks?sid=206042",
+				"title": "KAKUMiKS 2 (2:7)",
+				"url": "https://kvf.fo/vit/sending/sv/kakumiks?sid=206042"
 			}
 		]
 	},
@@ -4055,6 +4075,96 @@
 				"sortKey": "date: 2025-09-16T14:08:00+01:00 id: labbalidid?sid=197091",
 				"title": "Hvølparnir bjarga víkini",
 				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=197091"
+			},
+			{
+				"date": "2026-02-23T14:47:00+00:00",
+				"id": "labbalidid?sid=204659",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/skaermbillede_2026-02-23_145244.png?itok=OBMnOItL",
+				"mediaId": "BL1846_26_LABBALIDID_114B_2026",
+				"showTitle": "Labbaliðið",
+				"sortKey": "date: 2026-02-23T14:47:00+00:00 id: labbalidid?sid=204659",
+				"title": "Hvølpar bjarga Vælvild",
+				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=204659"
+			},
+			{
+				"date": "2026-02-23T14:53:00+00:00",
+				"id": "labbalidid?sid=204660",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/skaermbillede_2026-02-23_145623.png?itok=9c4ucHFu",
+				"mediaId": "BL1846_27_LABBALIDID_115A_2026",
+				"showTitle": "Labbaliðið",
+				"sortKey": "date: 2026-02-23T14:53:00+00:00 id: labbalidid?sid=204660",
+				"title": "Hvølpar bjarga kovboygildi",
+				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=204660"
+			},
+			{
+				"date": "2026-02-23T14:56:00+00:00",
+				"id": "labbalidid?sid=204661",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/skaermbillede_2026-02-23_145854.png?itok=ZO6ji7ey",
+				"mediaId": "BL1846_28_LABBALIDID_115B_2026",
+				"showTitle": "Labbaliðið",
+				"sortKey": "date: 2026-02-23T14:56:00+00:00 id: labbalidid?sid=204661",
+				"title": "Hvølpar bjarga Akseli",
+				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=204661"
+			},
+			{
+				"date": "2026-02-23T14:59:00+00:00",
+				"id": "labbalidid?sid=204662",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/skaermbillede_2026-02-23_150152.png?itok=vWZiHjL8",
+				"mediaId": "BL1846_29_LABBALIDID_116A_2026",
+				"showTitle": "Labbaliðið",
+				"sortKey": "date: 2026-02-23T14:59:00+00:00 id: labbalidid?sid=204662",
+				"title": "Hvølpar bjarga skúladegi",
+				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=204662"
+			},
+			{
+				"date": "2026-02-23T15:02:00+00:00",
+				"id": "labbalidid?sid=204665",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/skaermbillede_2026-02-23_151054.png?itok=UwD5-qVh",
+				"mediaId": "BL1846_30_LABBALIDID_116B_2026",
+				"showTitle": "Labbaliðið",
+				"sortKey": "date: 2026-02-23T15:02:00+00:00 id: labbalidid?sid=204665",
+				"title": "Hvølparnir tendra ljósið",
+				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=204665"
+			},
+			{
+				"date": "2026-02-23T15:11:00+00:00",
+				"id": "labbalidid?sid=204666",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/skaermbillede_2026-02-23_151303.png?itok=L1c5QbXI",
+				"mediaId": "BL1846_31_LABBALIDID_117A_2026",
+				"showTitle": "Labbaliðið",
+				"sortKey": "date: 2026-02-23T15:11:00+00:00 id: labbalidid?sid=204666",
+				"title": "Hvølpar bjarga svimjidegi",
+				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=204666"
+			},
+			{
+				"date": "2026-02-23T15:13:00+00:00",
+				"id": "labbalidid?sid=204667",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/skaermbillede_2026-02-23_151534.png?itok=1Ns8V-l9",
+				"mediaId": "BL1846_32_LABBALIDID_117B_2026",
+				"showTitle": "Labbaliðið",
+				"sortKey": "date: 2026-02-23T15:13:00+00:00 id: labbalidid?sid=204667",
+				"title": "Sirkushvølparnir",
+				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=204667"
+			},
+			{
+				"date": "2026-02-23T15:16:00+00:00",
+				"id": "labbalidid?sid=204669",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/skaermbillede_2026-02-23_151852.png?itok=3D7yRE_Q",
+				"mediaId": "BL1846_33_LABBALIDID_119A_2026",
+				"showTitle": "Labbaliðið",
+				"sortKey": "date: 2026-02-23T15:16:00+00:00 id: labbalidid?sid=204669",
+				"title": "Hvølpar bjarga hetjuhvølpi",
+				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=204669"
+			},
+			{
+				"date": "2026-02-23T15:19:00+00:00",
+				"id": "labbalidid?sid=204670",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/skaermbillede_2026-02-23_152057.png?itok=CnmmLoCi",
+				"mediaId": "BL1846_34_LABBALIDID_119B_2026",
+				"showTitle": "Labbaliðið",
+				"sortKey": "date: 2026-02-23T15:19:00+00:00 id: labbalidid?sid=204670",
+				"title": "Hvølpar bjarga robotti",
+				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=204670"
 			}
 		]
 	},
@@ -4279,6 +4389,56 @@
 				"sortKey": "date: 2025-12-01T14:55:00+00:00 id: les-vimus?sid=200667",
 				"title": "Heidi",
 				"url": "https://kvf.fo/vit/sending/sv/les-vimus?sid=200667"
+			},
+			{
+				"date": "2026-02-20T15:00:00+00:00",
+				"id": "les-vimus?sid=204522",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/eitt_hav_av_kaerleika_cover.jpg?itok=KTnMBYwg",
+				"mediaId": "VIN00049",
+				"showTitle": "Les Vimús",
+				"sortKey": "date: 2026-02-20T15:00:00+00:00 id: les-vimus?sid=204522",
+				"title": "Eitt hav av kærleika",
+				"url": "https://kvf.fo/vit/sending/sv/les-vimus?sid=204522"
+			},
+			{
+				"date": "2026-02-27T15:00:00+00:00",
+				"id": "les-vimus?sid=204785",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hilda_og_monsi_cover.jpg?itok=MY6zDUPs",
+				"mediaId": "Birita_Adela_v3_Hilda_og_monsi",
+				"showTitle": "Les Vimús",
+				"sortKey": "date: 2026-02-27T15:00:00+00:00 id: les-vimus?sid=204785",
+				"title": "Hilda og Monsi",
+				"url": "https://kvf.fo/vit/sending/sv/les-vimus?sid=204785"
+			},
+			{
+				"date": "2026-02-27T15:00:00+00:00",
+				"id": "les-vimus?sid=204787",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mamma_mu_verdur_kedd_cover.jpg?itok=ptAEyu9C",
+				"mediaId": "Gundur_M_v4_Mamma_mu",
+				"showTitle": "Les Vimús",
+				"sortKey": "date: 2026-02-27T15:00:00+00:00 id: les-vimus?sid=204787",
+				"title": "Mamma Mu verður kedd",
+				"url": "https://kvf.fo/vit/sending/sv/les-vimus?sid=204787"
+			},
+			{
+				"date": "2026-03-05T15:45:00+00:00",
+				"id": "les-vimus?sid=205195",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/loftar_tu_maer_cover.jpg?itok=bQfPShSe",
+				"mediaId": "VIN00051_loftar_tu_maer",
+				"showTitle": "Les Vimús",
+				"sortKey": "date: 2026-03-05T15:45:00+00:00 id: les-vimus?sid=205195",
+				"title": "Loftar tú mær",
+				"url": "https://kvf.fo/vit/sending/sv/les-vimus?sid=205195"
+			},
+			{
+				"date": "2026-03-16T10:25:00+00:00",
+				"id": "les-vimus?sid=205673",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/papi_sally_timir_ikki_at_verda_vaksin_-_mynd.jpg?itok=vP1jB7e9",
+				"mediaId": "VIN00053_-_raettad",
+				"showTitle": "Les Vimús",
+				"sortKey": "date: 2026-03-16T10:25:00+00:00 id: les-vimus?sid=205673",
+				"title": "Pápi Sally tímir ikki at vera vaksin",
+				"url": "https://kvf.fo/vit/sending/sv/les-vimus?sid=205673"
 			}
 		]
 	},
@@ -4958,6 +5118,383 @@
 		"title": "Meðan vit bíða",
 		"url": "https://kvf.fo/vit/sending/sv/medan-vit-bida",
 		"episodes": []
+	},
+	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/mouk_mynd.png?itok=P5cpvy1I",
+		"title": "Mouk",
+		"url": "https://kvf.fo/vit/sending/sv/mouk",
+		"episodes": [
+			{
+				"date": "2019-11-08T14:30:00+00:00",
+				"id": "mouk?sid=100845",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_1.png?itok=z5puJ1Sa",
+				"mediaId": "Mouk_01",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2019-11-08T14:30:00+00:00 id: mouk?sid=100845",
+				"title": "Lukkuarmbandið",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=100845"
+			},
+			{
+				"date": "2020-03-26T16:00:00+00:00",
+				"id": "mouk?sid=106753",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_2.png?itok=YHZwMwRl",
+				"mediaId": "UT362_Mouk_2_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T16:00:00+00:00 id: mouk?sid=106753",
+				"title": "Oyðimarkafornfrøðingarnir",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106753"
+			},
+			{
+				"date": "2020-03-26T16:00:00+00:00",
+				"id": "mouk?sid=106755",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_3.png?itok=VrDHk74B",
+				"mediaId": "UT362_Mouk_3_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T16:00:00+00:00 id: mouk?sid=106755",
+				"title": "Skundútbering",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106755"
+			},
+			{
+				"date": "2020-03-26T16:05:00+00:00",
+				"id": "mouk?sid=106756",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_4.png?itok=MglVTxME",
+				"mediaId": "UT362_Mouk_4_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T16:05:00+00:00 id: mouk?sid=106756",
+				"title": "Risar og kellingar",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106756"
+			},
+			{
+				"date": "2020-03-26T16:15:00+00:00",
+				"id": "mouk?sid=106760",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_5.png?itok=GHxI6swg",
+				"mediaId": "UT362_Mouk_5_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T16:15:00+00:00 id: mouk?sid=106760",
+				"title": "Føðingardagsgávan",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106760"
+			},
+			{
+				"date": "2020-03-26T16:15:00+00:00",
+				"id": "mouk?sid=106761",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_6.png?itok=aATwyX6P",
+				"mediaId": "UT362_Mouk_6_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T16:15:00+00:00 id: mouk?sid=106761",
+				"title": "Ein hjálpandi hond",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106761"
+			},
+			{
+				"date": "2020-03-26T16:20:00+00:00",
+				"id": "mouk?sid=106762",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_7.png?itok=HjB1lStO",
+				"mediaId": "UT362_Mouk_7_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T16:20:00+00:00 id: mouk?sid=106762",
+				"title": "Skjaldbøkur",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106762"
+			},
+			{
+				"date": "2020-03-26T16:25:00+00:00",
+				"id": "mouk?sid=106763",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_8.png?itok=Z4DaULtc",
+				"mediaId": "UT362_Mouk_8_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T16:25:00+00:00 id: mouk?sid=106763",
+				"title": "Ov seinur til bussin",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106763"
+			},
+			{
+				"date": "2020-03-26T16:30:00+00:00",
+				"id": "mouk?sid=119656",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_9.png?itok=ron9zp4k",
+				"mediaId": "UT362_Mouk_9_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T16:30:00+00:00 id: mouk?sid=119656",
+				"title": "Tað stóra áarævintýrið",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=119656"
+			},
+			{
+				"date": "2020-03-26T16:35:00+00:00",
+				"id": "mouk?sid=106766",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_10.png?itok=Bn6Y8JRq",
+				"mediaId": "UT362_Mouk_10_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T16:35:00+00:00 id: mouk?sid=106766",
+				"title": "Smátt og gott",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106766"
+			},
+			{
+				"date": "2020-03-26T20:00:00+00:00",
+				"id": "mouk?sid=106767",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_11.png?itok=kWeGZrX5",
+				"mediaId": "UT362_Mouk_11_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T20:00:00+00:00 id: mouk?sid=106767",
+				"title": "Pinnurin, sum rýmdi",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106767"
+			},
+			{
+				"date": "2020-03-26T20:00:00+00:00",
+				"id": "mouk?sid=106769",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_13.png?itok=qojN7Hwx",
+				"mediaId": "UT362_Mouk_13_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T20:00:00+00:00 id: mouk?sid=106769",
+				"title": "Onki samband",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106769"
+			},
+			{
+				"date": "2020-03-26T20:00:00+00:00",
+				"id": "mouk?sid=106771",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_14.png?itok=ZV5Gy3CO",
+				"mediaId": "UT362_Mouk_14_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T20:00:00+00:00 id: mouk?sid=106771",
+				"title": "Holi",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106771"
+			},
+			{
+				"date": "2020-03-26T20:00:00+00:00",
+				"id": "mouk?sid=106772",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_15.png?itok=agmFelK9",
+				"mediaId": "UT362_Mouk_15_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T20:00:00+00:00 id: mouk?sid=106772",
+				"title": "Mál",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106772"
+			},
+			{
+				"date": "2020-03-26T20:00:00+00:00",
+				"id": "mouk?sid=106777",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_17.png?itok=FLXmpGwy",
+				"mediaId": "UT362_Mouk_17_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-26T20:00:00+00:00 id: mouk?sid=106777",
+				"title": "Sum nýggj",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106777"
+			},
+			{
+				"date": "2020-03-27T15:00:00+00:00",
+				"id": "mouk?sid=106791",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_20_raett.png?itok=5EfFYd0j",
+				"mediaId": "UT362_Mouk_20_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-27T15:00:00+00:00 id: mouk?sid=106791",
+				"title": "Ljósareyða delfinin",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106791"
+			},
+			{
+				"date": "2020-03-27T15:00:00+00:00",
+				"id": "mouk?sid=106826",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_19.png?itok=qMpuJTbv",
+				"mediaId": "UT362_Mouk_19_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-27T15:00:00+00:00 id: mouk?sid=106826",
+				"title": "Viva la Pinata",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106826"
+			},
+			{
+				"date": "2020-03-27T15:00:00+00:00",
+				"id": "mouk?sid=106827",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_18.png?itok=Ut9xyNp1",
+				"mediaId": "UT362_Mouk_18_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-27T15:00:00+00:00 id: mouk?sid=106827",
+				"title": "Súkklukappingin",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106827"
+			},
+			{
+				"date": "2020-03-27T15:00:00+00:00",
+				"id": "mouk?sid=106828",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_21.png?itok=0aC8jpxA",
+				"mediaId": "UT362_Mouk_21_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-27T15:00:00+00:00 id: mouk?sid=106828",
+				"title": "Jagstranin eftir reindýrinum",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106828"
+			},
+			{
+				"date": "2020-03-27T15:00:00+00:00",
+				"id": "mouk?sid=106829",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_22.png?itok=telSi7qz",
+				"mediaId": "UT362_Mouk_22_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-27T15:00:00+00:00 id: mouk?sid=106829",
+				"title": "Rósa og kaktus",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106829"
+			},
+			{
+				"date": "2020-03-27T22:30:00+00:00",
+				"id": "mouk?sid=106792",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_23.png?itok=IWUa5_2g",
+				"mediaId": "UT362_Mouk_23_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-27T22:30:00+00:00 id: mouk?sid=106792",
+				"title": "Tann málaði fílurin",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106792"
+			},
+			{
+				"date": "2020-03-27T22:30:00+00:00",
+				"id": "mouk?sid=106793",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_24.png?itok=fTmy6mGA",
+				"mediaId": "UT362_Mouk_24_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2020-03-27T22:30:00+00:00 id: mouk?sid=106793",
+				"title": "Burtur í stjørnum",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=106793"
+			},
+			{
+				"date": "2022-01-28T12:30:00+00:00",
+				"id": "mouk?sid=134767",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_25.png?itok=F-llkz_u",
+				"mediaId": "UT362_Mouk_25_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T12:30:00+00:00 id: mouk?sid=134767",
+				"title": "Yee Ha Kovboy",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134767"
+			},
+			{
+				"date": "2022-01-28T12:35:00+00:00",
+				"id": "mouk?sid=134768",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_26.png?itok=zxNqHaX-",
+				"mediaId": "UT362_Mouk_26_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T12:35:00+00:00 id: mouk?sid=134768",
+				"title": "Indiski vasin",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134768"
+			},
+			{
+				"date": "2022-01-28T12:40:00+00:00",
+				"id": "mouk?sid=134769",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_27.png?itok=NcihZBgA",
+				"mediaId": "UT362_Mouk_27_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T12:40:00+00:00 id: mouk?sid=134769",
+				"title": "Loynigátan",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134769"
+			},
+			{
+				"date": "2022-01-28T12:45:00+00:00",
+				"id": "mouk?sid=134770",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_28.png?itok=d2_YCHHB",
+				"mediaId": "UT362_Mouk_28_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T12:45:00+00:00 id: mouk?sid=134770",
+				"title": "Uppi yvir trøunum",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134770"
+			},
+			{
+				"date": "2022-01-28T12:50:00+00:00",
+				"id": "mouk?sid=134771",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_29.png?itok=z5xY2y--",
+				"mediaId": "UT362_Mouk_29_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T12:50:00+00:00 id: mouk?sid=134771",
+				"title": "Baobab kaffistovan",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134771"
+			},
+			{
+				"date": "2022-01-28T12:55:00+00:00",
+				"id": "mouk?sid=134772",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_30_raett.png?itok=XXI_FbEl",
+				"mediaId": "UT362_Mouk_30_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T12:55:00+00:00 id: mouk?sid=134772",
+				"title": "Kynstrið at mjólka eini jakk kúgv",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134772"
+			},
+			{
+				"date": "2022-01-28T13:00:00+00:00",
+				"id": "mouk?sid=134773",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_31.png?itok=sdHnIWmf",
+				"mediaId": "UT362_Mouk_31_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T13:00:00+00:00 id: mouk?sid=134773",
+				"title": "Heimagjørdur ahornssiroppur",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134773"
+			},
+			{
+				"date": "2022-01-28T13:05:00+00:00",
+				"id": "mouk?sid=134774",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_32.png?itok=GIweTND3",
+				"mediaId": "UT362_Mouk_32_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T13:05:00+00:00 id: mouk?sid=134774",
+				"title": "Niláin",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134774"
+			},
+			{
+				"date": "2022-01-28T13:10:00+00:00",
+				"id": "mouk?sid=134776",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_33.png?itok=uchTfIKW",
+				"mediaId": "UT362_Mouk_33_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T13:10:00+00:00 id: mouk?sid=134776",
+				"title": "Kengurokkur",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134776"
+			},
+			{
+				"date": "2022-01-28T13:15:00+00:00",
+				"id": "mouk?sid=134778",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_34.png?itok=TPdaIgA1",
+				"mediaId": "UT362_Mouk_34_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T13:15:00+00:00 id: mouk?sid=134778",
+				"title": "Risastórar tekningar",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134778"
+			},
+			{
+				"date": "2022-01-28T13:20:00+00:00",
+				"id": "mouk?sid=134779",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_35.png?itok=R22LgS1s",
+				"mediaId": "UT362_Mouk_35_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T13:20:00+00:00 id: mouk?sid=134779",
+				"title": "Skýfangarin",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134779"
+			},
+			{
+				"date": "2022-01-28T13:25:00+00:00",
+				"id": "mouk?sid=134780",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_36.png?itok=rUrqSvTJ",
+				"mediaId": "UT362_Mouk_36_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T13:25:00+00:00 id: mouk?sid=134780",
+				"title": "Ein óvæntað vitjan",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134780"
+			},
+			{
+				"date": "2022-01-28T13:30:00+00:00",
+				"id": "mouk?sid=134781",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_37.png?itok=yjyiPU-p",
+				"mediaId": "UT362_Mouk_37_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T13:30:00+00:00 id: mouk?sid=134781",
+				"title": "Ver stórur lítli fiskur",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134781"
+			},
+			{
+				"date": "2022-01-28T13:40:00+00:00",
+				"id": "mouk?sid=134782",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_38.png?itok=uEfJAnRH",
+				"mediaId": "UT362_Mouk_38_2021",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2022-01-28T13:40:00+00:00 id: mouk?sid=134782",
+				"title": "Tann villi robotturin",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=134782"
+			},
+			{
+				"date": "2026-03-22T10:45:00+00:00",
+				"id": "mouk?sid=140111",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/mouk_12_0.png?itok=mObO8zVY",
+				"mediaId": "UT362_Mouk_12_2018",
+				"showTitle": "Mouk",
+				"sortKey": "date: 2026-03-22T10:45:00+00:00 id: mouk?sid=140111",
+				"title": "Á rísmarkini",
+				"url": "https://kvf.fo/vit/sending/sv/mouk?sid=140111"
+			}
+		]
 	},
 	{
 		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/mumihusid.jpg?itok=QCSbG-w3",
@@ -7354,7 +7891,7 @@
 		]
 	},
 	{
-		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/snip_snap_0.jpg?itok=uR9uYPyq",
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/snipp_snapp_2026_sendingasida.png?itok=EVrJ6481",
 		"title": "Snipp Snapp",
 		"url": "https://kvf.fo/vit/sending/sv/snipp-snapp",
 		"episodes": [
@@ -7467,6 +8004,86 @@
 				"sortKey": "date: 2025-11-26T15:00:00+00:00 id: snipp-snapp?sid=197497",
 				"title": "Snipp Snapp",
 				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=197497"
+			},
+			{
+				"date": "2026-02-20T12:10:00+00:00",
+				"id": "snipp-snapp?sid=204544",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/poul_ares_og_ronja.jpg?itok=9Wvtv8sb",
+				"mediaId": "SNI00374",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-02-20T12:10:00+00:00 id: snipp-snapp?sid=204544",
+				"title": "Snipp Snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=204544"
+			},
+			{
+				"date": "2026-02-25T11:20:00+00:00",
+				"id": "snipp-snapp?sid=204801",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ronja_og_bra.jpg?itok=qKvj3cT1",
+				"mediaId": "SNI00375",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-02-25T11:20:00+00:00 id: snipp-snapp?sid=204801",
+				"title": "Snipp snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=204801"
+			},
+			{
+				"date": "2026-03-12T10:45:00+00:00",
+				"id": "snipp-snapp?sid=205511",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/maria_og_nomi_snipp_snapp.jpg?itok=YHPLo2it",
+				"mediaId": "SNI00377",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-03-12T10:45:00+00:00 id: snipp-snapp?sid=205511",
+				"title": "Snipp Snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=205511"
+			},
+			{
+				"date": "2026-03-18T12:00:00+00:00",
+				"id": "snipp-snapp?sid=205691",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/nomi_og_joel_1.jpg?itok=zmVDLs4l",
+				"mediaId": "SNI00378",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-03-18T12:00:00+00:00 id: snipp-snapp?sid=205691",
+				"title": "Snipp snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=205691"
+			},
+			{
+				"date": "2026-03-18T12:00:00+00:00",
+				"id": "snipp-snapp?sid=205692",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/nomi_og_joel_0.jpg?itok=FABiQ722",
+				"mediaId": "SNI00378",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-03-18T12:00:00+00:00 id: snipp-snapp?sid=205692",
+				"title": "Snipp snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=205692"
+			},
+			{
+				"date": "2026-03-25T17:40:00+00:00",
+				"id": "snipp-snapp?sid=206216",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/joel_og_aviaaja.jpg?itok=Zq0vzAiN",
+				"mediaId": "SNI00379",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-03-25T17:40:00+00:00 id: snipp-snapp?sid=206216",
+				"title": "Snipp Snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=206216"
+			},
+			{
+				"date": "2026-03-25T17:40:00+00:00",
+				"id": "snipp-snapp?sid=206217",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/default_images/born_4_2_0.jpg?itok=DLi1D-uD",
+				"mediaId": "SNI00379",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-03-25T17:40:00+00:00 id: snipp-snapp?sid=206217",
+				"title": "Snipp Snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=206217"
+			},
+			{
+				"date": "2026-04-01T20:15:00+01:00",
+				"id": "snipp-snapp?sid=206556",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/aviaaja_og_ingi_henry.jpg?itok=dCvFgdt_",
+				"mediaId": "SNI00380",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-04-01T20:15:00+01:00 id: snipp-snapp?sid=206556",
+				"title": "Snipp Snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=206556"
 			}
 		]
 	},
@@ -9335,11 +9952,5 @@
 				"url": "https://kvf.fo/vit/sending/sv/vit-visa?sid=46906"
 			}
 		]
-	},
-	{
-		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/jk19_vitin_bg_720x1280.jpg?itok=iS53RIOR",
-		"title": "Vitin",
-		"url": "https://kvf.fo/vit/sending/sv/vitin",
-		"episodes": []
 	}
 ]

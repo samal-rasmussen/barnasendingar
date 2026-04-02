@@ -86,5 +86,5 @@ log('Episodes removed:', totalEpisodes - newTotalEpisodes);
 log('Remaining episodes:', newTotalEpisodes);
 
 // Write cleaned data back to file
-fs.writeFileSync('src/lib/assets/shows.json', JSON.stringify(cleanedData, null, 2));
+fs.writeFileSync('src/lib/assets/shows.json', JSON.stringify(cleanedData, null, '\t'));
 log('\nCleaned data written to src/lib/assets/shows.json');

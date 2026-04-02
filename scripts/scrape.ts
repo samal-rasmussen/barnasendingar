@@ -243,7 +243,7 @@ async function run() {
 
 	bar2.stop();
 	// console.log(JSON.stringify(shows));
-	writeFileSync('src/lib/assets/shows.json', JSON.stringify(shows, null, 2));
+	writeFileSync('src/lib/assets/shows.json', JSON.stringify(shows, null, '\t'));
 }
 
 run();
