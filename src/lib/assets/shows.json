@@ -3430,6 +3430,16 @@
 				"sortKey": "date: 2026-03-27T14:50:00+00:00 id: kakumiks?sid=206042",
 				"title": "KAKUMiKS 2 (2:7)",
 				"url": "https://kvf.fo/vit/sending/sv/kakumiks?sid=206042"
+			},
+			{
+				"date": "2026-04-03T15:00:00+01:00",
+				"id": "kakumiks?sid=206555",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/cover_til_eps._3_0.jpg?itok=zNAl0piJ",
+				"mediaId": "BTA00723_Kakumiks_2025_E03",
+				"showTitle": "KAKUMiKS",
+				"sortKey": "date: 2026-04-03T15:00:00+01:00 id: kakumiks?sid=206555",
+				"title": "KAKUMiKS 2 (3:7)",
+				"url": "https://kvf.fo/vit/sending/sv/kakumiks?sid=206555"
 			}
 		]
 	},
