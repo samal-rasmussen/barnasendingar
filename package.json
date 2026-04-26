@@ -3,7 +3,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"serve": "python3 -m http.server 5173 --directory public",
+		"serve": "npx sirv-cli public --single --port 5173",
 		"check": "tsc --noEmit",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",

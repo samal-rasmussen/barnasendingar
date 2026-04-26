@@ -25,18 +25,46 @@ Watched state lives in `localStorage` only (see `public/js/watched.js`); there i
 
 ## Commands
 
-See `package.json` `scripts`. Key ones:
+Use `node --run <script>` for package scripts. Do not use `npm run`.
 
-| Task                    | Command                 |
-| ----------------------- | ----------------------- |
-| Static dev server       | `npm run serve`         |
-| Type check runtime JS   | `npm run check`         |
-| Lint and format check   | `npm run lint`          |
-| Format                  | `npm run format`        |
-| Re-scrape KVF metadata  | `npm run scrape`        |
-| Download a show locally | `npm run download-show` |
+Root `package.json` scripts:
+
+| Script              | Command                                      | Description                                                                 |
+| ------------------- | -------------------------------------------- | --------------------------------------------------------------------------- |
+| `serve`             | `npx sirv-cli public --single --port 5173`   | Serves the committed `public/` directory on port 5173 for local testing.    |
+| `check`             | `tsc --noEmit`                               | Type-checks the plain runtime JavaScript in `public/js/` with JSDoc.        |
+| `lint`              | `prettier --check . && eslint .`             | Checks formatting and lints the static app/tooling files.                   |
+| `format`            | `prettier --write .`                         | Formats repository files. Use intentionally because it rewrites many files. |
+| `scrape`            | `cd scripts && node --run scrape`            | Runs the scraper tooling package to refresh `public/assets/shows.json`.     |
+| `delete-duplicates` | `cd scripts && node --run delete-duplicates` | Runs the scraper tooling package duplicate cleanup step.                    |
+| `download-show`     | `cd scripts && node --run download-show`     | Runs the interactive local show downloader.                                 |
+
+`scripts/package.json` scripts:
+
+| Script              | Command                                           | Description                                                             |
+| ------------------- | ------------------------------------------------- | ----------------------------------------------------------------------- |
+| `scrape`            | `tsx ./scrape.ts && node --run delete-duplicates` | Scrapes KVF show and episode metadata, then removes duplicate episodes. |
+| `delete-duplicates` | `tsx ./delete_duplicates.ts`                      | Removes duplicate episodes in `public/assets/shows.json` by `sortKey`.  |
+| `download-show`     | `tsx ./download-show.ts`                          | Interactively downloads a selected show through `yt-dlp`.               |
+| `check`             | `tsc --noEmit -p tsconfig.json`                   | Type-checks the Node/TypeScript tooling under `scripts/`.               |
+
+Script files:
+
+| File                           | Description                                                               |
+| ------------------------------ | ------------------------------------------------------------------------- |
+| `scripts/scrape.ts`            | KVF metadata scraper that writes `public/assets/shows.json`.              |
+| `scripts/delete_duplicates.ts` | Duplicate cleanup helper for the scraped catalogue JSON.                  |
+| `scripts/download-show.ts`     | Interactive show downloader that shells out to `yt-dlp`.                  |
+| `scripts/keepawake.ts`         | Cross-platform wake-lock helper used by `download-show.ts`.               |
+| `scripts/shared-types.d.ts`    | Shared `Show` and `Episode` type definitions for JSDoc/TypeScript checks. |
 
 The scraper and downloader are modern Node/TypeScript tooling under `scripts/`. They have their own `scripts/package.json` and may use modern Node APIs. Runtime browser files under `public/js/` must remain Chrome 38-compatible.
+
+## Git Policy
+
+In local desktop/workspace environments, do not run state-writable git commands unless the user explicitly asks for that exact git action. Read-only git commands are allowed for inspection, for example `git status`, `git diff`, `git log`, `git show`, and `git branch --show-current`.
+
+State-writable git actions include staging, committing, switching branches, creating branches, resetting, checking out files, stashing, merging, rebasing, tagging, pulling, and pushing. These may be used in a cloud environment when that workflow requires them, but do not assume they are acceptable in the local workspace.
 
 ## Compatibility Notes
 

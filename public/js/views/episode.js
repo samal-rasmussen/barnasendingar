@@ -58,8 +58,8 @@
 		header.appendChild(heading);
 		qualityControl.appendChild(qualityLabel);
 		qualityControl.appendChild(qualitySelect);
+		header.appendChild(qualityControl);
 		playerWrap.appendChild(video);
-		playerWrap.appendChild(qualityControl);
 		section.appendChild(header);
 		section.appendChild(playerWrap);
 		root.appendChild(section);
@@ -76,7 +76,7 @@
 			BS.watched.setWatched(show, currentEpisode);
 			nextEpisode = show.episodes[currentIndex + 1];
 			if (nextEpisode) {
-				BS.router.goToEpisode(show.title, nextEpisode.title);
+				BS.router.replaceWithEpisode(show.title, nextEpisode.title);
 			}
 		};
 

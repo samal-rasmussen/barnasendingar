@@ -45,6 +45,19 @@
 		window.location.hash = hash;
 	};
 
+	/**
+	 * @param {string} hash
+	 */
+	BS.router.replace = function (hash) {
+		BS.state.hasAppNavigation = true;
+		if (window.history && window.history.replaceState) {
+			window.history.replaceState(null, document.title, hash);
+			BS.router.render();
+			return;
+		}
+		window.location.replace(hash);
+	};
+
 	BS.router.goHome = function () {
 		BS.router.navigate(BS.router.homeHash());
 	};
@@ -62,6 +75,14 @@
 	 */
 	BS.router.goToEpisode = function (showTitle, episodeTitle) {
 		BS.router.navigate(BS.router.episodeHash(showTitle, episodeTitle));
+	};
+
+	/**
+	 * @param {string} showTitle
+	 * @param {string} episodeTitle
+	 */
+	BS.router.replaceWithEpisode = function (showTitle, episodeTitle) {
+		BS.router.replace(BS.router.episodeHash(showTitle, episodeTitle));
 	};
 
 	BS.router.goBackOrHome = function () {
