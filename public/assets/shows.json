@@ -3440,6 +3440,36 @@
 				"sortKey": "date: 2026-04-03T15:00:00+01:00 id: kakumiks?sid=206555",
 				"title": "KAKUMiKS 2 (3:7)",
 				"url": "https://kvf.fo/vit/sending/sv/kakumiks?sid=206555"
+			},
+			{
+				"date": "2026-04-10T15:00:00+01:00",
+				"id": "kakumiks?sid=206794",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/cover_til_eps._4.jpg?itok=CSEqH0i4",
+				"mediaId": "BTA00724_Kakumiks_2025_E04",
+				"showTitle": "KAKUMiKS",
+				"sortKey": "date: 2026-04-10T15:00:00+01:00 id: kakumiks?sid=206794",
+				"title": "KAKUMiKS 2 (4:7)",
+				"url": "https://kvf.fo/vit/sending/sv/kakumiks?sid=206794"
+			},
+			{
+				"date": "2026-04-17T15:00:00+01:00",
+				"id": "kakumiks?sid=207143",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/cover_til_eps._5.jpg?itok=67QXma6y",
+				"mediaId": "BTA00725_Kakumiks_2025_E05",
+				"showTitle": "KAKUMiKS",
+				"sortKey": "date: 2026-04-17T15:00:00+01:00 id: kakumiks?sid=207143",
+				"title": "Kakumiks 2 (5:7)",
+				"url": "https://kvf.fo/vit/sending/sv/kakumiks?sid=207143"
+			},
+			{
+				"date": "2026-04-24T15:00:00+01:00",
+				"id": "kakumiks?sid=207452",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/kakumiks_2_covermyndir_1_0.png?itok=8DWgNIN0",
+				"mediaId": "BTA00726_Kakumiks_2025_E06",
+				"showTitle": "KAKUMiKS",
+				"sortKey": "date: 2026-04-24T15:00:00+01:00 id: kakumiks?sid=207452",
+				"title": "Kakumiks 2 (6:7)",
+				"url": "https://kvf.fo/vit/sending/sv/kakumiks?sid=207452"
 			}
 		]
 	},
@@ -6532,6 +6562,233 @@
 		]
 	},
 	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=VToXygNH",
+		"title": "Rógvi og drekin",
+		"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin",
+		"episodes": [
+			{
+				"date": "2007-03-30T16:00:00+01:00",
+				"id": "rogvi-og-drekin?sid=16561",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00001",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-03-30T16:00:00+01:00 id: rogvi-og-drekin?sid=16561",
+				"title": "Rógvi og drekin (1:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16561"
+			},
+			{
+				"date": "2007-04-06T16:00:00+01:00",
+				"id": "rogvi-og-drekin?sid=16560",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00002",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-04-06T16:00:00+01:00 id: rogvi-og-drekin?sid=16560",
+				"title": "Rógvi og drekin (2:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16560"
+			},
+			{
+				"date": "2007-04-13T16:00:00+01:00",
+				"id": "rogvi-og-drekin?sid=16559",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00003",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-04-13T16:00:00+01:00 id: rogvi-og-drekin?sid=16559",
+				"title": "Rógvi og drekin (3:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16559"
+			},
+			{
+				"date": "2007-04-20T16:00:00+01:00",
+				"id": "rogvi-og-drekin?sid=16558",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00004",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-04-20T16:00:00+01:00 id: rogvi-og-drekin?sid=16558",
+				"title": "Rógvi og drekin (4:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16558"
+			},
+			{
+				"date": "2007-04-27T16:00:00+01:00",
+				"id": "rogvi-og-drekin?sid=16557",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00005",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-04-27T16:00:00+01:00 id: rogvi-og-drekin?sid=16557",
+				"title": "Rógvi og drekin (5:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16557"
+			},
+			{
+				"date": "2007-05-04T16:00:00+01:00",
+				"id": "rogvi-og-drekin?sid=16556",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00006",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-05-04T16:00:00+01:00 id: rogvi-og-drekin?sid=16556",
+				"title": "Rógvi og drekin (6:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16556"
+			},
+			{
+				"date": "2007-05-11T16:15:00+01:00",
+				"id": "rogvi-og-drekin?sid=16555",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00007",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-05-11T16:15:00+01:00 id: rogvi-og-drekin?sid=16555",
+				"title": "Rógvi og drekin (7:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16555"
+			},
+			{
+				"date": "2007-05-18T16:15:00+01:00",
+				"id": "rogvi-og-drekin?sid=16554",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00008",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-05-18T16:15:00+01:00 id: rogvi-og-drekin?sid=16554",
+				"title": "Rógvi og drekin (8:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16554"
+			},
+			{
+				"date": "2007-05-25T16:15:00+01:00",
+				"id": "rogvi-og-drekin?sid=16553",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00009",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-05-25T16:15:00+01:00 id: rogvi-og-drekin?sid=16553",
+				"title": "Rógvi og drekin (9:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16553"
+			},
+			{
+				"date": "2007-06-01T16:15:00+01:00",
+				"id": "rogvi-og-drekin?sid=16552",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00010",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-06-01T16:15:00+01:00 id: rogvi-og-drekin?sid=16552",
+				"title": "Rógvi og drekin (10:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16552"
+			},
+			{
+				"date": "2007-06-08T16:30:00+01:00",
+				"id": "rogvi-og-drekin?sid=16551",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00011",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-06-08T16:30:00+01:00 id: rogvi-og-drekin?sid=16551",
+				"title": "Rógvi og drekin (11:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16551"
+			},
+			{
+				"date": "2007-09-21T16:30:00+01:00",
+				"id": "rogvi-og-drekin?sid=16550",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00012",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-09-21T16:30:00+01:00 id: rogvi-og-drekin?sid=16550",
+				"title": "Rógvi og drekin (12:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16550"
+			},
+			{
+				"date": "2007-09-28T16:30:00+01:00",
+				"id": "rogvi-og-drekin?sid=16549",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00013",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-09-28T16:30:00+01:00 id: rogvi-og-drekin?sid=16549",
+				"title": "Rógvi og drekin (13:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16549"
+			},
+			{
+				"date": "2007-10-05T16:30:00+01:00",
+				"id": "rogvi-og-drekin?sid=16548",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00014",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-10-05T16:30:00+01:00 id: rogvi-og-drekin?sid=16548",
+				"title": "Rógvi og drekin (14:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16548"
+			},
+			{
+				"date": "2007-10-12T16:30:00+01:00",
+				"id": "rogvi-og-drekin?sid=16547",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00015",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-10-12T16:30:00+01:00 id: rogvi-og-drekin?sid=16547",
+				"title": "Rógvi og drekin (15:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16547"
+			},
+			{
+				"date": "2007-10-19T16:30:00+01:00",
+				"id": "rogvi-og-drekin?sid=16546",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00016",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-10-19T16:30:00+01:00 id: rogvi-og-drekin?sid=16546",
+				"title": "Rógvi og drekin (16:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16546"
+			},
+			{
+				"date": "2007-10-26T16:30:00+01:00",
+				"id": "rogvi-og-drekin?sid=16545",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00017",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-10-26T16:30:00+01:00 id: rogvi-og-drekin?sid=16545",
+				"title": "Rógvi og drekin (17:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16545"
+			},
+			{
+				"date": "2007-11-02T15:30:00+00:00",
+				"id": "rogvi-og-drekin?sid=16544",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00018",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-11-02T15:30:00+00:00 id: rogvi-og-drekin?sid=16544",
+				"title": "Rógvi og drekin (18:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16544"
+			},
+			{
+				"date": "2007-11-09T15:45:00+00:00",
+				"id": "rogvi-og-drekin?sid=16543",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00019",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-11-09T15:45:00+00:00 id: rogvi-og-drekin?sid=16543",
+				"title": "Rógvi og drekin (19:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16543"
+			},
+			{
+				"date": "2007-11-16T15:45:00+00:00",
+				"id": "rogvi-og-drekin?sid=16542",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00020",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-11-16T15:45:00+00:00 id: rogvi-og-drekin?sid=16542",
+				"title": "Rógvi og drekin (20:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16542"
+			},
+			{
+				"date": "2007-11-23T15:45:00+00:00",
+				"id": "rogvi-og-drekin?sid=16541",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00021",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-11-23T15:45:00+00:00 id: rogvi-og-drekin?sid=16541",
+				"title": "Rógvi og drekin (21:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16541"
+			},
+			{
+				"date": "2007-11-30T15:45:00+00:00",
+				"id": "rogvi-og-drekin?sid=16540",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
+				"mediaId": "ROD00022",
+				"showTitle": "Rógvi og drekin",
+				"sortKey": "date: 2007-11-30T15:45:00+00:00 id: rogvi-og-drekin?sid=16540",
+				"title": "Rógvi og drekin (22:22)",
+				"url": "https://kvf.fo/vit/sending/sv/rogvi-og-drekin?sid=16540"
+			}
+		]
+	},
+	{
 		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/rudda_botnin.png?itok=qxZZKmeD",
 		"title": "Rudda botnin",
 		"url": "https://kvf.fo/vit/sending/sv/rudda-botnin",
@@ -8094,6 +8351,26 @@
 				"sortKey": "date: 2026-04-01T20:15:00+01:00 id: snipp-snapp?sid=206556",
 				"title": "Snipp Snapp",
 				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=206556"
+			},
+			{
+				"date": "2026-04-09T11:16:00+01:00",
+				"id": "snipp-snapp?sid=206741",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ingi_henry_og_haldur.jpg?itok=OnPKnKve",
+				"mediaId": "SNI00381_BL1847_Snipp_snapp_8_08042026",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-04-09T11:16:00+01:00 id: snipp-snapp?sid=206741",
+				"title": "Snipp Snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=206741"
+			},
+			{
+				"date": "2026-04-16T16:30:00+01:00",
+				"id": "snipp-snapp?sid=207163",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/haldur_og_poul_ares.jpg?itok=zYD76JsD",
+				"mediaId": "SNI00382_BL1847_Snipp_snapp_9_15042026",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-04-16T16:30:00+01:00 id: snipp-snapp?sid=207163",
+				"title": "Snipp snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=207163"
 			}
 		]
 	},
@@ -9651,7 +9928,7 @@
 				"mediaId": "VinusVimus_S4_SOGA02_MagniErIkkiMagna",
 				"showTitle": "Vinus og Vimús - Søgur",
 				"sortKey": "date: 2024-11-04T13:17:00+00:00 id: vinus-og-vimus-sogur?sid=183072",
-				"title": "Magni er ikki Magni",
+				"title": "Magni er ikki Magna",
 				"url": "https://kvf.fo/vit/sending/sv/vinus-og-vimus-sogur?sid=183072"
 			},
 			{
