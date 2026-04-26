@@ -4,68 +4,50 @@
 
 An alternative frontend for the children's TV catalogue on **kvf.fo** (Kringvarp Føroya, the Faroese public broadcaster). The official site lists every children's show under https://kvf.fo/vit/sjonvarp/sendingar; this project re-presents that catalogue as a kid-friendly grid UI with autoplay and a "watched" indicator, so a child can browse and watch unattended.
 
-The app has three pages, in this user flow:
+The app is now a no-build, vanilla HTML/CSS/JavaScript SPA for Chrome 38-era smart TV browsers. Runtime code must stay framework-free: no modules, no TypeScript syntax, no bundler, no `fetch`, and no modern JavaScript syntax beyond the ES5 baseline documented in `chrome38-features.md`.
 
-1. **Front page (`/`)** — grid of every show from the pre-scraped `src/lib/assets/shows.json` (~55 shows). Each tile shows the show's poster and title; clicking a tile opens that show's page. See `src/routes/+page.svelte`.
-2. **Show page (`/sending/[showTitle]`)** — grid of every episode for the chosen show, sorted by date. Episodes the user has already finished are marked with a "Sæð" ("watched") overlay; a "Nulstilla 'Sæð'" button clears the show's watch history. Clicking an episode opens the player. See `src/routes/sending/[showTitle]/+page.svelte`.
-3. **Episode page (`/sending/[showTitle]/partur/[episodeTitle]`)** — a Video.js player that streams HLS from `vod.kringvarp.fo` for the episode's `mediaId`. It requests fullscreen on mount, marks the episode watched in `localStorage` when it ends, and auto-advances to the next episode in the show's list. See `src/routes/sending/[showTitle]/partur/[episodeTitle]/+page.svelte`.
+The app has three hash-routed views:
 
-Watched state lives in `localStorage` only (see `src/lib/watched.ts`); there is no account system or server-side state.
+1. **Front page (`#/`)** — grid of every show from `public/assets/shows.json`. Each tile shows the show's poster and title; clicking a tile opens that show's page. See `public/js/views/home.js`.
+2. **Show page (`#/sending/<showTitle>`)** — grid of every episode for the chosen show, in JSON order. Episodes the user has already finished are marked with a "Sæð" ("watched") overlay; a `Nulstilla "Sæð"` button clears the show's watch history. See `public/js/views/show.js`.
+3. **Episode page (`#/sending/<showTitle>/partur/<episodeTitle>`)** — native `<video controls>` playback driven by `hls.js@0.14.17`, with a quality selector outside the native controls. It requests fullscreen, marks the episode watched in `localStorage` when it ends, and advances to the next episode in the show's list. See `public/js/views/episode.js`.
 
-## Cursor Cloud specific instructions
+Watched state lives in `localStorage` only (see `public/js/watched.js`); there is no account system or server-side state.
 
-**SvelteKit 2 / Svelte 5** static SPA. No backend, no database, no Docker. Uses `npm` as the package manager (see `package-lock.json`).
+## Runtime Architecture
 
-### Architecture
+- Static SPA served directly from `public/`; Vercel is configured with no framework and no build command.
+- One global namespace: `window.BS`.
+- Hash routes are centralized in `public/js/router.js`.
+- Show/episode metadata is loaded with XHR from `public/assets/shows.json`.
+- Video playback streams HLS from `vod.kringvarp.fo`; the playlist URL is built from each episode's `mediaId`: `https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/${mediaId}.smil?type=m3u8`.
+- Watch history is tracked in browser `localStorage` keyed by `show.title` -> `episode.sortKey`.
 
-- Static SPA built with `@sveltejs/adapter-static`; output goes to `dist/`. SSR is disabled.
-- Show/episode metadata is pre-bundled in `src/lib/assets/shows.json` (scraped from `kvf.fo` via `npm run scrape`, but scraping is not needed to develop or run the app).
-- Video playback streams HLS from `vod.kringvarp.fo` (external server); requires network access. The playlist URL is built from each episode's `mediaId`: `https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/${mediaId}.smil?type=m3u8`.
-- Watch history is tracked in browser `localStorage` keyed by `show.title` → `episode.sortKey` (see `src/lib/watched.ts`).
-
-### Routes
-
-| Route                                        | File                                                                | Description                             |
-| -------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------- |
-| `/`                                          | `src/routes/+page.svelte`                                           | Show grid (homepage)                    |
-| `/sending/[showTitle]`                       | `src/routes/sending/[showTitle]/+page.svelte`                       | Episode list for a show                 |
-| `/sending/[showTitle]/partur/[episodeTitle]` | `src/routes/sending/[showTitle]/partur/[episodeTitle]/+page.svelte` | Video player with autoplay-next-episode |
-
-### Commands
+## Commands
 
 See `package.json` `scripts`. Key ones:
 
-| Task                     | Command                   |
-| ------------------------ | ------------------------- |
-| Dev server               | `npm run dev` (port 5173) |
-| Build                    | `npm run build`           |
-| Lint (Prettier + ESLint) | `npm run lint`            |
-| Type check               | `npm run check`           |
-| Format                   | `npm run format`          |
-| Re-scrape KVF metadata   | `npm run scrape`          |
-| Download a show locally  | `npm run download-show`   |
+| Task                    | Command                 |
+| ----------------------- | ----------------------- |
+| Static dev server       | `npm run serve`         |
+| Type check runtime JS   | `npm run check`         |
+| Lint and format check   | `npm run lint`          |
+| Format                  | `npm run format`        |
+| Re-scrape KVF metadata  | `npm run scrape`        |
+| Download a show locally | `npm run download-show` |
 
-`scripts/` also contains `keepawake.ts` (a cross-platform wake-lock helper imported by `download-show.ts`) and `delete_duplicates.ts` (run automatically at the end of `npm run scrape`).
+The scraper and downloader are modern Node/TypeScript tooling under `scripts/`. They have their own `scripts/package.json` and may use modern Node APIs. Runtime browser files under `public/js/` must remain Chrome 38-compatible.
 
-### Deployment
+## Compatibility Notes
 
-`vercel.json` configures Vercel to rewrite all paths to `/` so the static SPA's client-side router handles deep links (`adapter-static` is configured with `fallback: 'index.html'` in `svelte.config.js`).
+- Use `var` and `function`.
+- Do not use `let`, `const`, arrows, classes, template literals, destructuring, spread, modules, `async`, or `fetch` in runtime files.
+- Use `XMLHttpRequest` for browser data loading.
+- Use helper functions instead of monkey-patching or polyfilling built-ins.
+- Keep `public/css/grid.css` separate.
+- CSS must avoid Grid, custom properties, flex `gap`, `aspect-ratio`, `place-items`, and `color-scheme`.
+- `public/js/vendor/hls.light.min.js` is vendored third-party code and excluded from lint/type checks.
 
-### ESLint config
+## Deployment
 
-ESLint 9 flat config in `eslint.config.js`. `npx eslint .` works directly; no legacy `.eslintrc` file is used.
-
-### Vendored code
-
-Vendored third-party JS in two locations, excluded from all lint/type checks:
-
-- `src/lib/luxmty-skin/` — Luxmty video player skin (CSS/JS/HTML), plus the original `videojsluxmtyplayerskin.zip`
-- `src/routes/sending/[showTitle]/partur/[episodeTitle]/quality-selector.js` and `quality-selector/` — HLS quality selector plugin
-
-Exclusions configured in `.prettierignore`, `eslint.config.js` (`ignores`), `tsconfig.json` `exclude`, and `// @ts-nocheck` directives in the vendored JS files. The `// @ts-nocheck` directives are necessary because `tsconfig.json` `exclude` does not apply to files resolved through imports.
-
-### Known pre-existing issues
-
-- `npm run lint` exits non-zero because Prettier flags `src/lib/assets/shows.json` as not formatted. ESLint itself passes.
-- `npm run check` reports 7 TS errors: 2 in the video player page for missing Video.js `Player` type members (`titleBar`, `hlsQualitySelector`), plus 5 in the route pages for `undefined` index/parameter types. None affect the build or runtime.
-- Build produces chunk-size warnings for the bundled `shows.json` data and video player dependencies; informational only.
+`vercel.json` serves `public/` directly and rewrites unknown paths to `/index.html`. Normal app navigation uses hash routes, so deep links are client-side hashes and do not require server-side route handling.

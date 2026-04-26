@@ -1,0 +1,104 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	min-height: 100%;
+	font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 100vh;
+}
+
+a {
+	font-weight: 500;
+	color: #8ea0ff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #aab6ff;
+}
+
+h1 {
+	font-size: 3.2em;
+	line-height: 1.1;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	text-align: center;
+}
+
+button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	color: #ffffff;
+	background-color: #1a1a1a;
+	cursor: pointer;
+	transition: border-color 0.25s;
+}
+
+button.icon {
+	font-size: 2rem;
+	line-height: 1;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0.5rem;
+	padding-right: 0.6rem;
+}
+
+button:hover,
+.grid-container:hover {
+	border-color: #8ea0ff;
+}
+
+button:focus,
+.grid-container:focus,
+select:focus,
+video:focus {
+	outline: 4px auto -webkit-focus-ring-color;
+}
+
+.status-message,
+.not-found {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 720px;
+	margin-top: 6rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	text-align: center;
+}
+
+.not-found p {
+	margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 520px) {
+	main {
+		min-height: 0;
+	}
+
+	h1 {
+		font-size: 2.6em;
+		margin-bottom: 1em;
+	}
+}

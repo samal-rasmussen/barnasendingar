@@ -10,10 +10,11 @@ type PartialShow = Omit<Show, 'episodes'> & { episodes: PartialEpisode[] };
 
 const collator = new Intl.Collator(undefined, {
 	numeric: true,
-	sensitivity: 'base',
+	sensitivity: 'base'
 });
 const urlPrefix = 'https://kvf.fo';
 const regex = new RegExp(`(var media = ')(.+)';`);
+const showsJsonUrl = new URL('../public/assets/shows.json', import.meta.url);
 let episodesCount = 0;
 
 // async function pretty(html: string): Promise<string> {
@@ -26,7 +27,7 @@ async function fetchHtml(urlString: string): Promise<string> {
 			// Prevent automatic redirects
 			redirect: 'manual',
 			// no-store to prevent caching
-			cache: 'no-store',
+			cache: 'no-store'
 		});
 		if (response.status === 301 || response.status === 302) {
 			// Handle redirect manually
@@ -38,7 +39,7 @@ async function fetchHtml(urlString: string): Promise<string> {
 			const redirectUrl = new URL(redirectUrlString);
 			redirectUrl.searchParams.set('cache-bust', Date.now().toString());
 			const redirect_response = await fetch(redirectUrl, {
-				cache: 'no-store',
+				cache: 'no-store'
 			});
 			const html = await redirect_response.text();
 			return html;
@@ -58,9 +59,9 @@ function progressBar() {
 		{
 			etaBuffer: 90,
 			format: 'progress {bar} {percentage}% | ETA: {eta}s | {value}/{total} {title}',
-			fps: 5,
+			fps: 5
 		},
-		CliProgress.Presets.shades_classic,
+		CliProgress.Presets.shades_classic
 	);
 }
 
@@ -93,7 +94,7 @@ function parseEpisodeElement(el: HTMLElement): PartialEpisode {
 		showTitle: title,
 		sortKey,
 		title,
-		url,
+		url
 	};
 
 	return episode;
@@ -112,7 +113,7 @@ function parseEpisodeId(url: string): string {
 	}
 	if (id == null) {
 		console.error('[parseEpisodeId] No id found after trying known patterns', {
-			href: url,
+			href: url
 		});
 		throw new Error(`No id found for ${url}`);
 	}
@@ -139,7 +140,7 @@ async function scrapeShow(showUrl: string): Promise<PartialEpisode[]> {
 
 	const episodes: PartialEpisode[] = [];
 	const cells = showDom.window.document.querySelectorAll(
-		'.quicktabs-tabpage > .quicktabs-views-group',
+		'.quicktabs-tabpage > .quicktabs-views-group'
 	);
 	for (let i = 0; i < cells.length; i++) {
 		const e = cells[i];
@@ -172,7 +173,7 @@ async function scrapeShowsList(): Promise<PartialShow[]> {
 			img: img.src,
 			title,
 			url: urlPrefix + a.href,
-			episodes: [],
+			episodes: []
 		};
 		// if (title === 'Alt í 1um') {
 		// }
@@ -213,7 +214,7 @@ async function run() {
 			episodePromises.push(async () => {
 				const { mediaId } = await scrapeEpisode(partialEpisode);
 				bar2.increment({
-					title: `${partialShow.title} ${partialEpisode.title}`,
+					title: `${partialShow.title} ${partialEpisode.title}`
 				});
 				const episode: Episode = {
 					date: partialEpisode.date,
@@ -223,7 +224,7 @@ async function run() {
 					showTitle: partialShow.title,
 					sortKey: partialEpisode.sortKey,
 					title: partialEpisode.title,
-					url: partialEpisode.url,
+					url: partialEpisode.url
 				};
 				showsMap.get(partialShow.title)[index] = episode;
 			});
@@ -236,14 +237,14 @@ async function run() {
 		const episodes = showsMap.get(partialShow.title);
 		const show: Show = {
 			...partialShow,
-			episodes,
+			episodes
 		};
 		shows.push(show);
 	});
 
 	bar2.stop();
 	// console.log(JSON.stringify(shows));
-	writeFileSync('src/lib/assets/shows.json', JSON.stringify(shows, null, '\t'));
+	writeFileSync(showsJsonUrl, JSON.stringify(shows, null, '\t'));
 }
 
 run();

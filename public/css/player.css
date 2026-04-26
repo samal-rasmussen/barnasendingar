@@ -1,0 +1,105 @@
+.episode {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	background: #000000;
+	color: #ffffff;
+}
+
+.episode-header {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.75rem 1rem;
+	background: #181818;
+}
+
+.episode-header button {
+	margin-right: 1rem;
+}
+
+.episode-heading {
+	min-width: 0;
+}
+
+.episode-heading h1 {
+	font-size: 1.4rem;
+	line-height: 1.2;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.episode-heading p {
+	margin: 0.2rem 0 0 0;
+	color: rgba(255, 255, 255, 0.72);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.player-wrap {
+	position: relative;
+	flex: 1;
+	width: 100%;
+	min-height: 0;
+	background: #000000;
+}
+
+.player-video {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+}
+
+.quality-control {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	z-index: 2;
+	padding: 0.45rem 0.55rem;
+	border-radius: 6px;
+	background: rgba(0, 0, 0, 0.68);
+}
+
+.quality-control label {
+	margin-right: 0.4rem;
+	font-weight: 600;
+}
+
+.quality-control select {
+	font: inherit;
+	min-width: 7rem;
+	color: #ffffff;
+	background: #1a1a1a;
+	border: 1px solid #777777;
+	border-radius: 4px;
+	padding: 0.35rem 0.4rem;
+}
+
+.player-message {
+	box-sizing: border-box;
+	padding: 2rem;
+	text-align: center;
+}
+
+@media screen and (max-width: 785px) {
+	.episode-heading h1 {
+		font-size: 1.1rem;
+	}
+
+	.episode-heading p {
+		font-size: 0.9rem;
+	}
+
+	.quality-control {
+		top: 0.5rem;
+		right: 0.5rem;
+	}
+}

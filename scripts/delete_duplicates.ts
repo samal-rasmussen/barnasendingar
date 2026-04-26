@@ -1,7 +1,9 @@
 import fs from 'fs';
+import { fileURLToPath } from 'url';
 
-// Read the JSON file
-const data = JSON.parse(fs.readFileSync('src/lib/assets/shows.json', 'utf8'));
+const showsUrl = new URL('../public/assets/shows.json', import.meta.url);
+const showsPath = fileURLToPath(showsUrl);
+const data = JSON.parse(fs.readFileSync(showsUrl, 'utf8'));
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function log(..._args: unknown[]) {
@@ -40,7 +42,7 @@ const cleanedData = data.map((show) => {
 				mediaId: episode.mediaId,
 				url: episode.url,
 				date: episode.date,
-				sortKey: episode.sortKey,
+				sortKey: episode.sortKey
 			});
 			return false; // Remove this episode
 		} else {
@@ -54,7 +56,7 @@ const cleanedData = data.map((show) => {
 
 	return {
 		...show,
-		episodes: cleanedEpisodes,
+		episodes: cleanedEpisodes
 	};
 });
 
@@ -86,5 +88,5 @@ log('Episodes removed:', totalEpisodes - newTotalEpisodes);
 log('Remaining episodes:', newTotalEpisodes);
 
 // Write cleaned data back to file
-fs.writeFileSync('src/lib/assets/shows.json', JSON.stringify(cleanedData, null, '\t'));
-log('\nCleaned data written to src/lib/assets/shows.json');
+fs.writeFileSync(showsUrl, JSON.stringify(cleanedData, null, '\t'));
+log(`\nCleaned data written to ${showsPath}`);

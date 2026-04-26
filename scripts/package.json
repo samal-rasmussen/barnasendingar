@@ -1,0 +1,22 @@
+{
+	"name": "barnasendingar-scripts",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"scrape": "tsx ./scrape.ts && npm run delete-duplicates",
+		"delete-duplicates": "tsx ./delete_duplicates.ts",
+		"download-show": "tsx ./download-show.ts",
+		"check": "tsc --noEmit -p tsconfig.json"
+	},
+	"dependencies": {
+		"cli-progress": "3.12.0",
+		"jsdom": "29.0.1",
+		"p-queue": "9.1.0"
+	},
+	"devDependencies": {
+		"@types/cli-progress": "3.11.6",
+		"@types/node": "25.3.3",
+		"tsx": "4.21.0",
+		"typescript": "5.9.3"
+	}
+}

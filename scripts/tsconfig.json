@@ -4,6 +4,10 @@
 		"moduleResolution": "node",
 		"resolveJsonModule": true,
 		"esModuleInterop": true,
-		"module": "esnext"
-	}
+		"module": "esnext",
+		"noEmit": true,
+		"skipLibCheck": true,
+		"types": ["node"]
+	},
+	"include": ["*.ts", "shared-types.d.ts", "../public/assets/shows.json"]
 }

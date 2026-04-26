@@ -4,7 +4,7 @@ import { spawn } from 'child_process';
 import { mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import { createInterface } from 'readline';
-import shows from '../src/lib/assets/shows.json';
+import shows from '../public/assets/shows.json';
 import type { Show } from './shared-types';
 import { keepAwake } from './keepawake';
 
@@ -46,7 +46,7 @@ async function listFormats(url: string): Promise<string> {
 		const args = [url, '--list-formats', '--no-check-certificates', '--no-warnings'];
 
 		const ytDlp = spawn('yt-dlp', args, {
-			stdio: ['pipe', 'pipe', 'pipe'],
+			stdio: ['pipe', 'pipe', 'pipe']
 		});
 
 		let stdout = '';
@@ -99,7 +99,7 @@ function parseFormatIds(formatList: string): string[] {
 function promptShowSelection(): Promise<Show> {
 	const rl = createInterface({
 		input: process.stdin,
-		output: process.stdout,
+		output: process.stdout
 	});
 
 	return new Promise((resolve) => {
@@ -135,7 +135,7 @@ function promptShowSelection(): Promise<Show> {
 
 				// Try to match by title (case-insensitive, partial match)
 				const matchedShow = shows.find(
-					(show) => show.title.toLowerCase() === trimmed.toLowerCase(),
+					(show) => show.title.toLowerCase() === trimmed.toLowerCase()
 				);
 
 				if (matchedShow) {
@@ -146,7 +146,7 @@ function promptShowSelection(): Promise<Show> {
 
 				// Try partial match
 				const partialMatch = shows.find((show) =>
-					show.title.toLowerCase().includes(trimmed.toLowerCase()),
+					show.title.toLowerCase().includes(trimmed.toLowerCase())
 				);
 
 				if (partialMatch) {
@@ -167,7 +167,7 @@ function promptShowSelection(): Promise<Show> {
 function promptFormatSelection(availableFormatIds: string[]): Promise<string> {
 	const rl = createInterface({
 		input: process.stdin,
-		output: process.stdout,
+		output: process.stdout
 	});
 
 	return new Promise((resolve) => {
@@ -186,8 +186,8 @@ function promptFormatSelection(availableFormatIds: string[]): Promise<string> {
 				if (!availableFormatIds.includes(trimmed)) {
 					console.log(
 						`❌ Invalid format ID. Please choose one of the listed IDs: ${availableFormatIds.join(
-							', ',
-						)}`,
+							', '
+						)}`
 					);
 					promptUser();
 					return;
@@ -204,7 +204,7 @@ function promptFormatSelection(availableFormatIds: string[]): Promise<string> {
 function downloadWithYtDlp(
 	url: string,
 	outputPath: string,
-	options: DownloadOptions,
+	options: DownloadOptions
 ): Promise<void> {
 	return new Promise((resolve, reject) => {
 		const args = [
@@ -215,14 +215,14 @@ function downloadWithYtDlp(
 			options.format,
 			'--no-check-certificates', // In case of SSL issues
 			'--no-warnings', // Reduce noise
-			'--hls-use-mpegts', // Use mpegts container for HLS videos (better compatibility)
+			'--hls-use-mpegts' // Use mpegts container for HLS videos (better compatibility)
 		];
 
 		console.log(`Downloading: ${url}`);
 		console.log(`Output: ${outputPath}`);
 
 		const ytDlp = spawn('yt-dlp', args, {
-			stdio: ['pipe', 'pipe', 'pipe'],
+			stdio: ['pipe', 'pipe', 'pipe']
 		});
 
 		let stderr = '';
@@ -259,8 +259,8 @@ async function downloadShow(
 	showTitle: string,
 	options: DownloadOptions = {
 		outputDir: './downloads',
-		format: 'best',
-	},
+		format: 'best'
+	}
 ): Promise<void> {
 	const show = findShow(showTitle);
 
@@ -303,7 +303,7 @@ async function downloadShow(
 		const m3u8Url = `https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/${episode.mediaId}.smil?type=m3u8`;
 
 		console.log(
-			`\n🎬 Downloading episode ${i + 1}/${episodesWithMediaId.length}: ${episode.title}`,
+			`\n🎬 Downloading episode ${i + 1}/${episodesWithMediaId.length}: ${episode.title}`
 		);
 		console.log(`📅 Date: ${episode.date}`);
 
@@ -365,7 +365,7 @@ async function main() {
 
 		if (!availableFormatIds.length) {
 			console.warn(
-				'⚠️  Could not parse format IDs from yt-dlp output. Falling back to default format "best".',
+				'⚠️  Could not parse format IDs from yt-dlp output. Falling back to default format "best".'
 			);
 			format = 'best';
 		} else {
@@ -381,7 +381,7 @@ async function main() {
 
 	const options: DownloadOptions = {
 		outputDir,
-		format,
+		format
 	};
 
 	// Acquire wake lock to prevent computer from sleeping during downloads

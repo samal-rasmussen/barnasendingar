@@ -29,14 +29,14 @@ function buildWakeCommand() {
 					'--mode=block',
 					'sh',
 					'-c',
-					`echo ${READY_SIGNAL}; ${INFINITE_SLEEP}`,
-				],
+					`echo ${READY_SIGNAL}; ${INFINITE_SLEEP}`
+				]
 			};
 
 		case 'darwin':
 			return {
 				command: 'caffeinate',
-				args: ['-d', '-i', 'sh', '-c', `echo ${READY_SIGNAL}; ${INFINITE_SLEEP}`],
+				args: ['-d', '-i', 'sh', '-c', `echo ${READY_SIGNAL}; ${INFINITE_SLEEP}`]
 			};
 
 		case 'win32': {
@@ -52,7 +52,7 @@ function buildWakeCommand() {
 
 			return {
 				command: 'powershell.exe',
-				args: ['-NoProfile', '-NonInteractive', '-Command', psScript],
+				args: ['-NoProfile', '-NonInteractive', '-Command', psScript]
 			};
 		}
 
@@ -76,7 +76,7 @@ export function keepAwake(): Promise<{ pid: number; release: () => boolean }> {
 		try {
 			child = spawn(command, args, {
 				windowsHide: true,
-				stdio: ['ignore', 'pipe', 'ignore'],
+				stdio: ['ignore', 'pipe', 'ignore']
 			});
 		} catch (err) {
 			return reject(new Error(`Failed to start wake-lock process: ${err.message}`));
@@ -106,7 +106,7 @@ export function keepAwake(): Promise<{ pid: number; release: () => boolean }> {
 					if (child.killed) return false;
 					child.kill();
 					return true;
-				},
+				}
 			});
 		};
 
@@ -125,8 +125,8 @@ export function keepAwake(): Promise<{ pid: number; release: () => boolean }> {
 				new Error(
 					`Wake-lock process exited prematurely` +
 						(code !== null ? ` with code ${code}` : '') +
-						(signal ? `, signal ${signal}` : ''),
-				),
+						(signal ? `, signal ${signal}` : '')
+				)
 			);
 		};
 

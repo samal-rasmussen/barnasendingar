@@ -3,42 +3,19 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"scrape": "tsx ./scripts/scrape.ts && npm run delete-duplicates",
-		"delete-duplicates": "tsx ./scripts/delete_duplicates.ts",
-		"download-show": "tsx ./scripts/download-show.ts",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"serve": "python3 -m http.server 5173 --directory public",
+		"check": "tsc --noEmit",
 		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"scrape": "npm --prefix scripts run scrape",
+		"delete-duplicates": "npm --prefix scripts run delete-duplicates",
+		"download-show": "npm --prefix scripts run download-show"
 	},
 	"devDependencies": {
-		"@eslint/compat": "2.0.2",
 		"@eslint/js": "10.0.1",
-		"@sveltejs/adapter-static": "3.0.10",
-		"@sveltejs/kit": "2.53.4",
-		"@types/cli-progress": "3.11.6",
-		"@types/node": "25.3.3",
-		"cli-progress": "3.12.0",
 		"eslint": "10.0.2",
-		"eslint-plugin-svelte": "3.15.0",
 		"globals": "17.3.0",
-		"jsdom": "29.0.1",
-		"p-queue": "9.1.0",
 		"prettier": "3.8.1",
-		"prettier-plugin-svelte": "3.5.0",
-		"svelte": "5.53.6",
-		"svelte-check": "4.4.4",
-		"tslib": "2.8.1",
-		"tsx": "4.21.0",
-		"typescript-eslint": "8.56.1",
-		"typescript": "5.9.3",
-		"vite": "7.3.1"
-	},
-	"dependencies": {
-		"video.js": "8.23.7",
-		"videojs-mobile-ui": "1.2.2"
+		"typescript": "5.9.3"
 	}
 }

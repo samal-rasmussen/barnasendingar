@@ -87,12 +87,12 @@ Use one global namespace:
 
 ```js
 window.BS = {
-  state: {},
-  util: {},
-  data: {},
-  watched: {},
-  router: {},
-  views: {}
+	state: {},
+	util: {},
+	data: {},
+	watched: {},
+	router: {},
+	views: {}
 };
 ```
 
@@ -130,17 +130,17 @@ Create a small XHR wrapper in `data.js` or `util.js`:
 
 ```js
 BS.util.getJson = function (url, callback) {
-  var xhr = new XMLHttpRequest();
-  xhr.open('GET', url, true);
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState !== 4) return;
-    if (xhr.status >= 200 && xhr.status < 300) {
-      callback(null, JSON.parse(xhr.responseText));
-      return;
-    }
-    callback(new Error('Could not load ' + url));
-  };
-  xhr.send();
+	var xhr = new XMLHttpRequest();
+	xhr.open('GET', url, true);
+	xhr.onreadystatechange = function () {
+		if (xhr.readyState !== 4) return;
+		if (xhr.status >= 200 && xhr.status < 300) {
+			callback(null, JSON.parse(xhr.responseText));
+			return;
+		}
+		callback(new Error('Could not load ' + url));
+	};
+	xhr.send();
 };
 ```
 
@@ -283,15 +283,15 @@ Possible root scripts:
 
 ```json
 {
-  "scripts": {
-    "serve": "python3 -m http.server 5173 --directory public",
-    "check": "tsc --noEmit",
-    "lint": "eslint .",
-    "format": "prettier --write .",
-    "scrape": "npm --prefix scripts run scrape",
-    "delete-duplicates": "npm --prefix scripts run delete-duplicates",
-    "download-show": "npm --prefix scripts run download-show"
-  }
+	"scripts": {
+		"serve": "python3 -m http.server 5173 --directory public",
+		"check": "tsc --noEmit",
+		"lint": "eslint .",
+		"format": "prettier --write .",
+		"scrape": "npm --prefix scripts run scrape",
+		"delete-duplicates": "npm --prefix scripts run delete-duplicates",
+		"download-show": "npm --prefix scripts run download-show"
+	}
 }
 ```
 
@@ -299,10 +299,10 @@ Vercel should also be configured for a framework-free static deployment from `pu
 
 ```json
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
-  "buildCommand": null,
-  "outputDirectory": "public"
+	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"framework": null,
+	"buildCommand": null,
+	"outputDirectory": "public"
 }
 ```
 
@@ -310,7 +310,7 @@ Because the SPA uses hash routes, a rewrite is not required for normal app navig
 
 ```json
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+	"rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
 ```
 

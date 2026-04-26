@@ -6,6 +6,9 @@ node_modules
 .env
 .env.*
 !.env.example
+dist
+downloads
+.svelte-kit
 
 # Ignore files for PNPM, NPM and YARN
 pnpm-lock.yaml
@@ -13,6 +16,4 @@ package-lock.json
 yarn.lock
 
 # Vendored code
-src/lib/luxmty-skin/
-src/routes/sending/*/partur/*/quality-selector.js
-src/routes/sending/*/partur/*/quality-selector/
+public/js/vendor/

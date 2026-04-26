@@ -1,0 +1,162 @@
+.grid {
+	white-space: nowrap;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	width: 100%;
+	padding-left: 2em;
+}
+
+.grid .grid-item {
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
+
+.grid .grid-item .grid-container {
+	display: flex;
+	flex-direction: column;
+	width: 345px;
+	cursor: pointer;
+	position: relative;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	box-sizing: border-box;
+	color: inherit;
+	background: transparent;
+}
+
+.grid .grid-item img {
+	width: 100%;
+	display: block;
+}
+
+.grid .grid-item h2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.grid .grid-spacer {
+	width: 377px;
+	height: 0;
+}
+
+.actions {
+	display: flex;
+	box-sizing: border-box;
+	margin-bottom: 2rem;
+	width: 100%;
+}
+
+.actions > * {
+	margin-right: 1rem;
+}
+
+.episode-grid .grid-item h2 {
+	text-align: center;
+	padding-right: 0;
+	margin-bottom: 0;
+}
+
+.episode-grid .header {
+	width: 100%;
+}
+
+.watched {
+	position: absolute;
+	right: 1rem;
+	bottom: 1rem;
+	font-size: 2rem;
+	line-height: 1;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 6px 3px 3px 3px;
+}
+
+@media screen and (max-width: 2670px) {
+	.actions {
+		width: 2262px;
+	}
+}
+
+@media screen and (max-width: 2293px) {
+	.actions {
+		width: 1885px;
+	}
+}
+
+@media screen and (max-width: 1916px) {
+	.actions {
+		width: 1508px;
+	}
+}
+
+@media screen and (max-width: 1539px) {
+	.actions {
+		width: 1131px;
+	}
+}
+
+@media screen and (max-width: 1162px) {
+	.actions {
+		width: 754px;
+	}
+}
+
+@media screen and (max-width: 785px) {
+	.grid {
+		flex-direction: column;
+		align-items: center;
+		padding-left: 0;
+	}
+
+	.grid .grid-item {
+		width: 100%;
+		padding-left: 2em;
+		box-sizing: border-box;
+	}
+
+	.grid .grid-item .grid-container {
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+		white-space: normal;
+		box-sizing: border-box;
+	}
+
+	.grid .grid-item h2 {
+		font-size: 1.3em;
+		padding-right: 2em;
+		flex: 1;
+		text-align: center;
+	}
+
+	.grid .grid-item img {
+		width: 50%;
+	}
+
+	.episode-grid .header {
+		width: 50%;
+		padding-right: 2em;
+		overflow: hidden;
+	}
+
+	.actions {
+		padding-left: 2rem;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.grid .grid-item h2 {
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.grid .grid-item h2 {
+		font-size: 1em;
+	}
+}
