@@ -3,7 +3,7 @@ import { JSDOM } from 'jsdom';
 import PQueue from 'p-queue';
 // import * as prettier from 'prettier';
 import type { Show, Episode } from './shared-types';
-import * as CliProgress from 'cli-progress';
+import { bar, clearStatus, duration, log, setStatus } from './lib/status';
 
 type PartialEpisode = Omit<Episode, 'mediaId'>;
 type PartialShow = Omit<Show, 'episodes'> & { episodes: PartialEpisode[] };
@@ -48,19 +48,27 @@ async function fetchHtml(urlString: string): Promise<string> {
 		// console.log(html);
 		return html;
 	} catch (error) {
-		console.error(`Failed to fetch HTML from ${urlString}`, error);
+		log(`Failed to fetch HTML from ${urlString}: ${error}`);
 		throw error;
 	}
 }
 
-function progressBar() {
-	return new CliProgress.SingleBar(
-		{
-			etaBuffer: 90,
-			format: 'progress {bar} {percentage}% | ETA: {eta}s | {value}/{total} {title}',
-			fps: 5,
-		},
-		CliProgress.Presets.shades_classic,
+const started = Date.now();
+
+function showProgress(
+	label: string,
+	done: number,
+	total: number,
+	detail: string,
+	passStarted: number,
+): void {
+	const elapsed = (Date.now() - started) / 1000;
+	const left = done ? ((Date.now() - passStarted) / 1000 / done) * (total - done) : NaN;
+	const eta = Number.isFinite(left) ? ` · ~${duration(left)} left` : '';
+	const percent = total ? Math.floor((100 * done) / total) : 100;
+	// Variable-length detail goes last so truncation to terminal width only cuts it
+	setStatus(
+		`${label} ${bar(total ? done / total : 1)} ${percent}% ${done}/${total} · ${duration(elapsed)}${eta} · ${detail}`,
 	);
 }
 
@@ -111,9 +119,7 @@ function parseEpisodeId(url: string): string {
 		id = url.split('/vit/')[1];
 	}
 	if (id == null) {
-		console.error('[parseEpisodeId] No id found after trying known patterns', {
-			href: url,
-		});
+		log(`[parseEpisodeId] No id found after trying known patterns: ${url}`);
 		throw new Error(`No id found for ${url}`);
 	}
 	return id;
@@ -186,25 +192,31 @@ async function scrapeShowsList(): Promise<PartialShow[]> {
 async function run() {
 	const partialShows = await scrapeShowsList();
 
-	console.log(`Scraping shows`);
-	const bar1 = progressBar();
-	bar1.start(partialShows.length, 0);
+	log(`Scraping ${partialShows.length} shows`);
+	const showsStarted = Date.now();
+	let showsDone = 0;
+	showProgress('shows', showsDone, partialShows.length, 'starting', showsStarted);
 	const showPromises: Array<() => Promise<void>> = [];
 	for (const show of partialShows) {
 		showPromises.push(async () => {
 			const episodes = await scrapeShow(show.url);
-			bar1.increment({ title: show.title });
 			show.episodes = episodes;
 			episodesCount += show.episodes.length;
+			showsDone++;
+			const count = String(episodes.length).padStart(2);
+			const noun = (episodes.length === 1 ? 'episode' : 'episodes').padEnd(8);
+			log(`${count} ${noun} ${show.title}`);
+			showProgress('shows', showsDone, partialShows.length, show.title, showsStarted);
 		});
 	}
 	const showQueue = new PQueue({ concurrency: 6 });
 	await showQueue.addAll(showPromises);
-	bar1.stop();
+	log(`Found ${episodesCount} episodes`);
 
-	console.log(`Scraping episodes`);
-	const bar2 = progressBar();
-	bar2.start(episodesCount, 0);
+	const episodesStarted = Date.now();
+	let episodesDone = 0;
+	let missingMediaIds = 0;
+	showProgress('episodes', episodesDone, episodesCount, 'starting', episodesStarted);
 	const episodePromises: Array<() => Promise<void>> = [];
 	const showsMap = new Map<string, Episode[]>();
 	partialShows.forEach((show) => showsMap.set(show.title, []));
@@ -212,9 +224,18 @@ async function run() {
 		for (const [index, partialEpisode] of Array.from(partialShow.episodes.entries())) {
 			episodePromises.push(async () => {
 				const { mediaId } = await scrapeEpisode(partialEpisode);
-				bar2.increment({
-					title: `${partialShow.title} ${partialEpisode.title}`,
-				});
+				episodesDone++;
+				if (mediaId == null) {
+					missingMediaIds++;
+					log(`No mediaId: ${partialShow.title} – ${partialEpisode.title} (${partialEpisode.url})`);
+				}
+				showProgress(
+					'episodes',
+					episodesDone,
+					episodesCount,
+					`${partialShow.title} – ${partialEpisode.title}`,
+					episodesStarted,
+				);
 				const episode: Episode = {
 					date: partialEpisode.date,
 					id: partialEpisode.id,
@@ -241,9 +262,12 @@ async function run() {
 		shows.push(show);
 	});
 
-	bar2.stop();
+	clearStatus();
 	// console.log(JSON.stringify(shows));
 	writeFileSync('src/lib/assets/shows.json', JSON.stringify(shows, null, '\t'));
+	log(
+		`Wrote ${shows.length} shows, ${episodesCount} episodes (${missingMediaIds} without mediaId) in ${duration((Date.now() - started) / 1000)}`,
+	);
 }
 
 run();
