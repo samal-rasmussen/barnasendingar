@@ -19,8 +19,15 @@
 		var context = view.refs.episodeTitle;
 		var playerWrap = view.refs.playerWrap;
 		var video = /** @type {HTMLVideoElement} */ (view.refs.video);
-		var qualitySelect = /** @type {HTMLSelectElement} */ (view.refs.quality);
 		var hls = null;
+		var quality = BS.components.qualitySelect({
+			id: 'quality-selector',
+			onChange: function (level) {
+				if (hls) {
+					hls.currentLevel = level;
+				}
+			}
+		});
 		var currentEpisode = episode;
 		var currentIndex = BS.data.getEpisodeIndex(show, episode);
 
@@ -45,13 +52,13 @@
 			document.title = nextEpisode.title + ' - ' + show.title + ' - Barnasendingar';
 			context.textContent = nextEpisode.title;
 			video.poster = nextEpisode.img;
-			page.setQualityOptions(qualitySelect, []);
-			qualitySelect.onchange = null;
-			hls = page.attachVideo(video, qualitySelect, nextEpisode.mediaId);
+			quality.setLevels([]);
+			hls = page.attachVideo(video, quality, nextEpisode.mediaId);
 		}
 
 		BS.util.clearElement(root);
 
+		view.refs.header.appendChild(quality.element);
 		view.refs.showTitle.textContent = show.title;
 		context.textContent = episode.title;
 
@@ -66,10 +73,10 @@
 
 		if (!episode.mediaId) {
 			document.title = episode.title + ' - ' + show.title + ' - Barnasendingar';
-			page.setQualityOptions(qualitySelect, []);
 			page.renderPlayerMessage(playerWrap, 'Hesin parturin hevur einki video.');
 			return function () {
 				video.pause();
+				quality.destroy();
 			};
 		}
 
@@ -93,6 +100,7 @@
 			video.onended = null;
 			video.pause();
 			destroyHls();
+			quality.destroy();
 			video.removeAttribute('src');
 		};
 	};
@@ -108,7 +116,12 @@
 		playerWrap.appendChild(messageView.fragment);
 	};
 
-	page.attachVideo = function (video, qualitySelect, mediaId) {
+	/**
+	 * @param {HTMLVideoElement} video
+	 * @param {*} quality the episode's qualitySelect component
+	 * @param {string} mediaId
+	 */
+	page.attachVideo = function (video, quality, mediaId) {
 		var playlistUrl =
 			'https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/' +
 			mediaId +
@@ -121,13 +134,7 @@
 			hls.loadSource(playlistUrl);
 			hls.attachMedia(video);
 			hls.on(HlsConstructor.Events.MANIFEST_PARSED, function () {
-				page.setQualityOptions(qualitySelect, hls.levels || []);
-				qualitySelect.onchange = function () {
-					var selected = parseInt(qualitySelect.value, 10);
-					if (!isNaN(selected)) {
-						hls.currentLevel = selected;
-					}
-				};
+				quality.setLevels(hls.levels || []);
 				BS.util.play(video);
 				BS.util.requestFullscreen(video);
 			});
@@ -148,7 +155,6 @@
 			return null;
 		}
 
-		qualitySelect.disabled = true;
 		page.renderPlayerMessage(
 			/** @type {HTMLElement} */ (video.parentNode),
 			'Hesin kaga dugir ikki at spæla video.'
@@ -164,39 +170,5 @@
 		if (data.type === 'mediaError') {
 			hls.recoverMediaError();
 		}
-	};
-
-	page.setQualityOptions = function (select, levels) {
-		var autoOption;
-		var i;
-		var option;
-		var level;
-		var label;
-
-		BS.util.clearElement(select);
-
-		autoOption = document.createElement('option');
-		autoOption.value = '-1';
-		autoOption.text = 'Auto';
-		select.appendChild(autoOption);
-
-		for (i = 0; i < levels.length; i += 1) {
-			level = levels[i];
-			if (level.height) {
-				label = level.height + 'p';
-			} else if (level.bitrate) {
-				label = Math.round(level.bitrate / 1000) + ' kbps';
-			} else {
-				label = 'Góðska ' + (i + 1);
-			}
-
-			option = document.createElement('option');
-			option.value = String(i);
-			option.text = label;
-			select.appendChild(option);
-		}
-
-		select.value = '-1';
-		select.disabled = levels.length === 0;
 	};
 })(window, document);

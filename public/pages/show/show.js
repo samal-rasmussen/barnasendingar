@@ -37,19 +37,14 @@
 	};
 
 	page.createEpisodeTile = function (show, episode) {
-		var tile = BS.templates.clone('show-episode-tile');
-
-		tile.refs.title.textContent = episode.title;
-		tile.refs.image.src = episode.img;
-
-		if (!BS.watched.isWatched(show, episode)) {
-			tile.refs.watched.parentNode.removeChild(tile.refs.watched);
-		}
-
-		BS.util.onActivate(tile.refs.tile, function () {
-			BS.router.goToEpisode(show.title, episode.title);
-		});
-
-		return tile.element;
+		return BS.components.tile({
+			title: episode.title,
+			image: episode.img,
+			imageAlt: 'Partur',
+			watched: BS.watched.isWatched(show, episode),
+			onActivate: function () {
+				BS.router.goToEpisode(show.title, episode.title);
+			}
+		}).element;
 	};
 })(window, document);

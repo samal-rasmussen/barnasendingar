@@ -19,16 +19,6 @@
 	width: 100%;
 }
 
-.watched {
-	position: absolute;
-	right: 1rem;
-	bottom: 1rem;
-	font-size: 2rem;
-	line-height: 1;
-	background: rgba(0, 0, 0, 0.5);
-	padding: 6px 3px 3px 3px;
-}
-
 @media screen and (max-width: 2670px) {
 	.actions {
 		width: 2262px;
@@ -64,7 +54,8 @@
 		padding-right: 2em;
 	}
 
-	.episode-grid .header {
+	.episode-grid .grid-item .header {
+		flex: 0 1 auto;
 		width: 50%;
 		padding-right: 2em;
 		overflow: hidden;

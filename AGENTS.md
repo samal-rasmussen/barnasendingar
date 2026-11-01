@@ -26,6 +26,7 @@ Runtime code rules:
 - Do not use post-ES5 built-ins such as `String.prototype.includes`/`startsWith`, `Array.prototype.find`/`includes`, `Array.from` or `Object.assign`.
 - Use `XMLHttpRequest` for loading data.
 - Use helper functions instead of monkey-patching or polyfilling built-ins.
+- Do not use Web Components in any form: no custom elements (`customElements.define`, `document.registerElement`), no Shadow DOM (`attachShadow`, `createShadowRoot`) and no HTML Imports, and no libraries built on them. The TV lacks the v1 APIs and the v0 ones are unreliable. Reusable UI pieces are plain ES5 functions that we write ourselves, built from ordinary elements and `<template>`.
 - CSS must avoid Grid, custom properties, flex `gap`, `aspect-ratio`, `position: sticky`, `place-items`, `color-scheme` and `:is()`/`:where()`/`:has()`. Flexbox is fine.
 - Keep `public/core/grid.css` as its own file.
 - `public/vendor/hls.light.min.js` (hls.js 0.14.17, chosen to fit this browser) is vendored third-party code. Lint and type checks skip it.

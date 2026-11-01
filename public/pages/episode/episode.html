@@ -1,6 +1,6 @@
 <template id="episode-page">
 	<div class="episode">
-		<div class="episode-header">
+		<div class="episode-header" data-ref="header">
 			<button class="icon" data-ref="back">⇦</button>
 			<div class="episode-heading">
 				<h1 data-ref="showTitle"></h1>
@@ -23,10 +23,6 @@
 					/>
 				</svg>
 			</button>
-			<div class="quality-control">
-				<label for="quality-selector">Góðska</label
-				><select id="quality-selector" data-ref="quality"></select>
-			</div>
 		</div>
 		<div class="player-wrap" data-ref="playerWrap">
 			<video

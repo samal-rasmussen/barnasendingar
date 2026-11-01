@@ -13,5 +13,10 @@
 		"moduleResolution": "Node",
 		"lib": ["DOM", "ES5"]
 	},
-	"include": ["public/core/**/*.js", "public/pages/**/*.js", "scripts/shared-types.d.ts"]
+	"include": [
+		"public/core/**/*.js",
+		"public/components/**/*.js",
+		"public/pages/**/*.js",
+		"scripts/shared-types.d.ts"
+	]
 }

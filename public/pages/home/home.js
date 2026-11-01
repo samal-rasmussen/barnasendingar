@@ -28,15 +28,13 @@
 	};
 
 	page.createShowTile = function (show) {
-		var tile = BS.templates.clone('home-show-tile');
-
-		tile.refs.title.textContent = show.title;
-		tile.refs.image.src = show.img;
-
-		BS.util.onActivate(tile.refs.tile, function () {
-			BS.router.goToShow(show.title);
-		});
-
-		return tile.element;
+		return BS.components.tile({
+			title: show.title,
+			image: show.img,
+			imageAlt: 'Sending',
+			onActivate: function () {
+				BS.router.goToShow(show.title);
+			}
+		}).element;
 	};
 })(window, document);

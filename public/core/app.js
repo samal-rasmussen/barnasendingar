@@ -9,6 +9,7 @@
 	current.watched = current.watched || {};
 	current.router = current.router || {};
 	current.templates = current.templates || {};
+	current.components = current.components || {};
 	current.pages = current.pages || {};
 
 	/** @type {any} */ (window).BS = current;
