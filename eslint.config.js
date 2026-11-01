@@ -8,6 +8,8 @@ export default [
 			'dist/**',
 			'.svelte-kit/**',
 			'downloads/**',
+			'test-results/**',
+			'playwright-report/**',
 			'public/vendor/**',
 			'public/assets/shows.json',
 			'scripts/**/*.ts',

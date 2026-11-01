@@ -3,8 +3,9 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"serve": "npx sirv-cli public --single --port 5173",
+		"serve": "sirv public --dev --single --port 4387",
 		"check": "tsc --noEmit",
+		"test": "playwright test",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"scrape": "npm --prefix scripts run scrape",
@@ -13,9 +14,11 @@
 	},
 	"devDependencies": {
 		"@eslint/js": "10.0.1",
+		"@playwright/test": "1.64.1",
 		"eslint": "10.0.2",
 		"globals": "17.3.0",
 		"prettier": "3.8.1",
+		"sirv-cli": "3.0.1",
 		"typescript": "5.9.3"
 	}
 }
