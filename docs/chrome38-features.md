@@ -2,7 +2,7 @@
 
 Chrome 38 shipped on October 7, 2014. Treat it as roughly ES5 plus a partial slice of ES6, with many HTML5 APIs but without most post-2015 web platform features.
 
-Use this file as the compatibility checklist while converting the app to a vanilla SPA for the smart TV target.
+Use this file as the compatibility checklist for all runtime code under `public/`. The target client is the built-in browser of an old LG smart TV, which behaves like Chrome 38.
 
 When in doubt, write to the conservative baseline: ES5 syntax, DOM APIs that existed well before Chrome 38, and CSS that does not require layout features newer than flexbox.
 

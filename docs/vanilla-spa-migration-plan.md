@@ -1,5 +1,7 @@
 # Vanilla SPA Migration Plan
 
+> **Status: implemented.** This is the historical plan for replacing the SvelteKit app with the current vanilla SPA. It is kept for background on why things are the way they are. For the current state of the project, see [`AGENTS.md`](../AGENTS.md).
+
 ## Goal
 
 Replace the current SvelteKit app with a no-build, plain HTML/CSS/JavaScript SPA that supports Chrome 38-era smart TV browsers.
@@ -346,7 +348,7 @@ Remove SvelteKit/Vite/runtime player dependencies from root:
 
 ### Phase 1: Compatibility Reference
 
-- Add or verify `chrome38-features.md` in the repo root.
+- Add or verify `chrome38-features.md` (now at `docs/chrome38-features.md`).
 - Use it as the compatibility checklist during implementation.
 
 ### Phase 2: Static Shell
