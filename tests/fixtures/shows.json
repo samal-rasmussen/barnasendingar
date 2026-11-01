@@ -1,0 +1,82 @@
+[
+	{
+		"title": "Alfa og Beta",
+		"img": "https://kvf.fo/test/alfa.jpg",
+		"url": "https://kvf.fo/test/alfa",
+		"episodes": [
+			{
+				"title": "Partur 1",
+				"sortKey": "1",
+				"mediaId": "alfa-1",
+				"img": "https://kvf.fo/test/alfa-1.jpg",
+				"date": "2024-01-01T10:00:00+00:00",
+				"id": "alfa-1",
+				"showTitle": "Alfa og Beta",
+				"url": "https://kvf.fo/test/alfa-1"
+			},
+			{
+				"title": "Partur 2",
+				"sortKey": "2",
+				"mediaId": "alfa-2",
+				"img": "https://kvf.fo/test/alfa-2.jpg",
+				"date": "2024-01-02T10:00:00+00:00",
+				"id": "alfa-2",
+				"showTitle": "Alfa og Beta",
+				"url": "https://kvf.fo/test/alfa-2"
+			},
+			{
+				"title": "Partur 3",
+				"sortKey": "3",
+				"mediaId": "alfa-3",
+				"img": "https://kvf.fo/test/alfa-3.jpg",
+				"date": "2024-01-03T10:00:00+00:00",
+				"id": "alfa-3",
+				"showTitle": "Alfa og Beta",
+				"url": "https://kvf.fo/test/alfa-3"
+			}
+		]
+	},
+	{
+		"title": "Søgur / Ævintýr á Øy",
+		"img": "https://kvf.fo/test/sogur.jpg",
+		"url": "https://kvf.fo/test/sogur",
+		"episodes": [
+			{
+				"title": "Hvat er #1?",
+				"sortKey": "a",
+				"mediaId": "sogur-1",
+				"img": "https://kvf.fo/test/sogur-1.jpg",
+				"date": "2024-02-01T10:00:00+00:00",
+				"id": "sogur-1",
+				"showTitle": "Søgur / Ævintýr á Øy",
+				"url": "https://kvf.fo/test/sogur-1"
+			},
+			{
+				"title": "Partur & meira",
+				"sortKey": "b",
+				"mediaId": "sogur-2",
+				"img": "https://kvf.fo/test/sogur-2.jpg",
+				"date": "2024-02-02T10:00:00+00:00",
+				"id": "sogur-2",
+				"showTitle": "Søgur / Ævintýr á Øy",
+				"url": "https://kvf.fo/test/sogur-2"
+			}
+		]
+	},
+	{
+		"title": "Einki video",
+		"img": "https://kvf.fo/test/einki.jpg",
+		"url": "https://kvf.fo/test/einki",
+		"episodes": [
+			{
+				"title": "Tómur partur",
+				"sortKey": "1",
+				"img": "https://kvf.fo/test/einki-1.jpg",
+				"date": "2024-03-01T10:00:00+00:00",
+				"id": "einki-1",
+				"showTitle": "Einki video",
+				"url": "https://kvf.fo/test/einki-1"
+			}
+		]
+	}
+]

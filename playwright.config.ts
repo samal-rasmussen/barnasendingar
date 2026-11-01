@@ -3,7 +3,6 @@ import { defineConfig, devices } from '@playwright/test';
 const port = 4388;
 
 export default defineConfig({
-	testDir: './tests',
 	fullyParallel: true,
 	forbidOnly: !!process.env.CI,
 	reporter: 'list',
@@ -11,7 +10,18 @@ export default defineConfig({
 		baseURL: `http://localhost:${port}`,
 		trace: 'retain-on-failure'
 	},
-	projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
+	projects: [
+		{
+			name: 'component',
+			testDir: './tests/component',
+			use: { ...devices['Desktop Chrome'] }
+		},
+		{
+			name: 'e2e',
+			testDir: './tests/e2e',
+			use: { ...devices['Desktop Chrome'] }
+		}
+	],
 	webServer: {
 		command: `npx sirv public --dev --single --port ${port}`,
 		url: `http://localhost:${port}`,

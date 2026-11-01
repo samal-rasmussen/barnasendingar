@@ -4,8 +4,11 @@
 	"type": "module",
 	"scripts": {
 		"serve": "sirv public --dev --single --port 4387",
-		"check": "tsc --noEmit",
-		"test": "playwright test",
+		"check": "tsc --noEmit && tsc --noEmit -p tests",
+		"test": "node --run test:unit && playwright test",
+		"test:unit": "node --test \"tests/unit/**/*.test.ts\"",
+		"test:component": "playwright test --project=component",
+		"test:e2e": "playwright test --project=e2e",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
 		"scrape": "npm --prefix scripts run scrape",
