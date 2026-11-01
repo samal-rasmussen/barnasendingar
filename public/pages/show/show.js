@@ -21,7 +21,7 @@
 
 		view.refs.title.textContent = show.title;
 		view.refs.back.onclick = function () {
-			BS.router.goBackOrHome();
+			BS.router.goBackHome();
 		};
 		view.refs.clear.onclick = function () {
 			BS.watched.clearWatched(show);

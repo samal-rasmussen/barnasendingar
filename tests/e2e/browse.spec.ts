@@ -40,12 +40,7 @@ test('the show page back button leads to the front page', async ({ page }) => {
 	await expect(tileTitles(page)).toHaveCount(3);
 });
 
-// Known bug: the episode page's back button pushes a new history entry for
-// the show, so the show page's back button (history.back) returns to the
-// episode and plays it again instead of going to the front page.
-test.fixme('back from a show after watching an episode leads to the front page', async ({
-	page
-}) => {
+test('back from a show after watching an episode leads to the front page', async ({ page }) => {
 	await page.goto('/');
 	await page.getByRole('button', { name: 'Alfa og Beta' }).click();
 	await page.getByRole('button', { name: 'Partur 2' }).click();
@@ -53,8 +48,26 @@ test.fixme('back from a show after watching an episode leads to the front page',
 	await page.evaluate(() => document.fullscreenElement && document.exitFullscreen());
 
 	await page.locator('.episode-header button.icon').first().click();
+	await expect(tileTitles(page)).toHaveText(['Partur 1', 'Partur 2', 'Partur 3']);
 	await page.locator('.actions button.icon').click();
 	await expect(page.locator('h1')).toHaveText('Barnasendingar');
+});
+
+test('back buttons stay in the app after opening an episode by its address', async ({ page }) => {
+	await page.goto('/#/sending/Alfa%20og%20Beta/partur/Partur%202');
+	await expect(qualityOptions(page)).toHaveCount(3);
+	await page.evaluate(() => document.fullscreenElement && document.exitFullscreen());
+	const historyLength = await page.evaluate(() => history.length);
+
+	await page.locator('.episode-header button.icon').first().click();
+	await expect(tileTitles(page)).toHaveText(['Partur 1', 'Partur 2', 'Partur 3']);
+	await page.locator('.actions button.icon').click();
+	await expect(page.locator('h1')).toHaveText('Barnasendingar');
+
+	// Each back button replaced the page, so history didn't grow and the
+	// browser's own back button doesn't return to the episode.
+	expect(await page.evaluate(() => history.length)).toBe(historyLength);
+	expect(await page.evaluate(() => location.hash)).toBe('#/');
 });
 
 test('"Sæð" marks watched episodes until it is reset', async ({ page }) => {

@@ -49,3 +49,13 @@ test('built hashes parse back to the same titles', () => {
 	});
 	assert.equal(router.homeHash(), '#/');
 });
+
+test('compares routes by page and titles', () => {
+	const { router } = setup();
+	const route = (hash: string) => router.parseHash(hash);
+
+	assert.equal(router.sameRoute(route('#/sending/Alfa'), route('#/sending/Alfa')), true);
+	assert.equal(router.sameRoute(route('#/sending/Alfa'), route('#/sending/Beta')), false);
+	assert.equal(router.sameRoute(route('#/'), route('')), true);
+	assert.equal(router.sameRoute(route('#/'), null), false);
+});

@@ -63,7 +63,7 @@
 		context.textContent = episode.title;
 
 		view.refs.back.onclick = function () {
-			BS.router.goToShow(show.title);
+			BS.router.goBackToShow(show.title);
 		};
 		view.refs.fullscreen.onclick = function () {
 			BS.util.requestFullscreen(video);

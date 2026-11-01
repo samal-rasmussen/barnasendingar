@@ -37,7 +37,6 @@
 	 * @param {string} hash
 	 */
 	BS.router.navigate = function (hash) {
-		BS.state.hasAppNavigation = true;
 		if (window.location.hash === hash) {
 			BS.router.render();
 			return;
@@ -49,7 +48,7 @@
 	 * @param {string} hash
 	 */
 	BS.router.replace = function (hash) {
-		BS.state.hasAppNavigation = true;
+		BS.state.replacingRoute = true;
 		if (window.history && window.history.replaceState) {
 			window.history.replaceState(null, document.title, hash);
 			BS.router.render();
@@ -97,29 +96,74 @@
 		if (!window.history || !window.history.replaceState) {
 			return false;
 		}
-		BS.state.hasAppNavigation = true;
 		window.history.replaceState(
 			null,
 			document.title,
 			BS.router.episodeHash(showTitle, episodeTitle)
 		);
+		BS.state.currentRoute = BS.router.parse();
 		return true;
 	};
 
-	BS.router.goBackOrHome = function () {
-		if (BS.state.hasAppNavigation && window.history && window.history.length > 1) {
+	/**
+	 * For back buttons. Goes back in history if the page before this one is
+	 * the target, and otherwise replaces this page with the target. Back
+	 * buttons never add history entries, so a later "back" can't return to
+	 * a page the user already left, and they never leave the app.
+	 *
+	 * @param {string} hash
+	 */
+	BS.router.goBack = function (hash) {
+		if (
+			BS.router.sameRoute(BS.state.previousRoute, BS.router.parseHash(hash)) &&
+			window.history &&
+			window.history.length > 1
+		) {
 			window.history.back();
 			return;
 		}
-		BS.router.goHome();
+		BS.router.replace(hash);
+	};
+
+	BS.router.goBackHome = function () {
+		BS.router.goBack(BS.router.homeHash());
+	};
+
+	/**
+	 * @param {string} showTitle
+	 */
+	BS.router.goBackToShow = function (showTitle) {
+		BS.router.goBack(BS.router.showHash(showTitle));
+	};
+
+	/**
+	 * @param {*} a
+	 * @param {*} b
+	 * @returns {boolean}
+	 */
+	BS.router.sameRoute = function (a, b) {
+		return !!(
+			a &&
+			b &&
+			a.name === b.name &&
+			a.showTitle === b.showTitle &&
+			a.episodeTitle === b.episodeTitle
+		);
 	};
 
 	/**
 	 * @returns {Object}
 	 */
 	BS.router.parse = function () {
-		var hash = window.location.hash || '#/';
-		var path = hash.charAt(0) === '#' ? hash.substr(1) : hash;
+		return BS.router.parseHash(window.location.hash);
+	};
+
+	/**
+	 * @param {string} hash
+	 * @returns {Object}
+	 */
+	BS.router.parseHash = function (hash) {
+		var path = !hash ? '/' : hash.charAt(0) === '#' ? hash.substr(1) : hash;
 		var parts;
 		var showTitle;
 		var episodeTitle;
@@ -167,6 +211,23 @@
 		BS.router.render();
 	};
 
+	/**
+	 * Remembers the current and previous route for goBack. Re-rendering the
+	 * same route (a refresh) and replacing the current page leave the
+	 * previous route as it is, since neither adds a history entry.
+	 *
+	 * @param {*} route
+	 */
+	BS.router.trackRoute = function (route) {
+		if (!BS.router.sameRoute(route, BS.state.currentRoute)) {
+			if (!BS.state.replacingRoute) {
+				BS.state.previousRoute = BS.state.currentRoute || null;
+			}
+			BS.state.currentRoute = route;
+		}
+		BS.state.replacingRoute = false;
+	};
+
 	BS.router.cleanup = function () {
 		if (typeof BS.state.cleanupView === 'function') {
 			BS.state.cleanupView();
@@ -187,6 +248,7 @@
 
 		BS.router.cleanup();
 		route = BS.router.parse();
+		BS.router.trackRoute(route);
 
 		if (route.name === 'home') {
 			cleanup = BS.pages.home.render(root);
