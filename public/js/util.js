@@ -72,30 +72,71 @@
 	};
 
 	/**
+	 * Loads and parses JSON. The callback is called exactly once, with an
+	 * error if the request fails, returns a non-2xx status, cannot be parsed,
+	 * or does not finish within timeoutMs.
+	 *
 	 * @param {string} url
 	 * @param {Function} callback
+	 * @param {number=} timeoutMs
 	 */
-	BS.util.getJson = function (url, callback) {
+	BS.util.getJson = function (url, callback, timeoutMs) {
 		var xhr = new XMLHttpRequest();
+		var finished = false;
+		var timer = null;
+
+		/**
+		 * @param {*} error
+		 * @param {*=} result
+		 */
+		function finish(error, result) {
+			if (finished) {
+				return;
+			}
+			finished = true;
+			if (timer !== null) {
+				window.clearTimeout(timer);
+				timer = null;
+			}
+			callback(error, result);
+		}
+
 		xhr.open('GET', url, true);
 		xhr.onreadystatechange = function () {
-			if (xhr.readyState !== 4) {
+			var result;
+			if (xhr.readyState !== 4 || finished) {
 				return;
 			}
 			if (xhr.status >= 200 && xhr.status < 300) {
 				try {
-					callback(null, JSON.parse(xhr.responseText));
+					result = JSON.parse(xhr.responseText);
 				} catch (error) {
 					BS.util.logError('Could not parse JSON from ' + url, error);
-					callback(error);
+					finish(error);
+					return;
 				}
+				finish(null, result);
 				return;
 			}
-			callback(new Error('Could not load ' + url));
+			finish(new Error('Could not load ' + url));
 		};
 		xhr.onerror = function () {
-			callback(new Error('Could not load ' + url));
+			finish(new Error('Could not load ' + url));
 		};
+
+		if (timeoutMs && timeoutMs > 0) {
+			timer = window.setTimeout(function () {
+				timer = null;
+				BS.util.logError('Timed out loading ' + url, null);
+				finish(new Error('Timed out loading ' + url));
+				try {
+					xhr.abort();
+				} catch (error) {
+					BS.util.logError('Could not abort request for ' + url, error);
+				}
+			}, timeoutMs);
+		}
+
 		xhr.send();
 	};
 

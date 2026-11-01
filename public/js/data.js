@@ -9,11 +9,13 @@
 	 * @typedef {import('../../scripts/shared-types').Episode} Episode
 	 */
 
+	BS.data.loadShowsTimeoutMs = 20000;
+
 	/**
 	 * @param {Function} callback
 	 */
 	BS.data.loadShows = function (callback) {
-		BS.util.getJson('/assets/shows.json', callback);
+		BS.util.getJson('/assets/shows.json', callback, BS.data.loadShowsTimeoutMs);
 	};
 
 	/**
