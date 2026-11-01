@@ -544,6 +544,533 @@
 		]
 	},
 	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/p02gb05v.jpg?itok=0VVrITWN",
+		"title": "Alt um djór",
+		"url": "https://kvf.fo/vit/sending/sv/alt-um-djor",
+		"episodes": [
+			{
+				"date": "2016-03-27T13:30:00+01:00",
+				"id": "alt-um-djor?sid=59198",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00337_alt_um_djor_partur_tikari_24._0043.jpg?itok=Wuf_lxv1",
+				"mediaId": "BTA00337_alt_um_djor_partur_Tikari_24",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2016-03-27T13:30:00+01:00 id: alt-um-djor?sid=59198",
+				"title": "Tikarin Tara",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=59198"
+			},
+			{
+				"date": "2016-10-18T12:15:00+01:00",
+				"id": "alt-um-djor?sid=60404",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00339_alt_um_djor_apan._0111.jpg?itok=2aknyWDk",
+				"mediaId": "BTA00339_Alt_um_Djor_Apan",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2016-10-18T12:15:00+01:00 id: alt-um-djor?sid=60404",
+				"title": "Langurapan Larry",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=60404"
+			},
+			{
+				"date": "2016-10-25T11:30:00+01:00",
+				"id": "alt-um-djor?sid=60666",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00340_alt_um_djor_5_filar._0114.jpg?itok=fkxJ4Ami",
+				"mediaId": "BTA00340_Alt_um_djor_5_filar",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2016-10-25T11:30:00+01:00 id: alt-um-djor?sid=60666",
+				"title": "Fílurin Filip",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=60666"
+			},
+			{
+				"date": "2016-10-25T15:15:00+01:00",
+				"id": "alt-um-djor?sid=60674",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00342_alt_um_djor_7_hvitabjorn._0185.jpg?itok=z2yupmIz",
+				"mediaId": "BTA00342_Alt_um_djor_7_hvitabjorn",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2016-10-25T15:15:00+01:00 id: alt-um-djor?sid=60674",
+				"title": "Hvítabjørnin Bjøssi",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=60674"
+			},
+			{
+				"date": "2016-11-04T13:00:00+00:00",
+				"id": "alt-um-djor?sid=61061",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00343_alt_um_djor_10_gronodlur._0096.jpg?itok=Mh3VP-kL",
+				"mediaId": "BTA00343_Alt_um_djor_10_gronodlur",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2016-11-04T13:00:00+00:00 id: alt-um-djor?sid=61061",
+				"title": "Grønoydlan Oydli",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=61061"
+			},
+			{
+				"date": "2016-11-22T11:45:00+00:00",
+				"id": "alt-um-djor?sid=61755",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00344_alt_um_djor_dingohundurin_bbc_allaboutanimals._0064.jpg?itok=8jC1r_bo",
+				"mediaId": "BTA00344_Alt_um_djor_Dingohundurin_BBC_AllAboutAnimals",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2016-11-22T11:45:00+00:00 id: alt-um-djor?sid=61755",
+				"title": "Dingohundurin Dina",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=61755"
+			},
+			{
+				"date": "2016-12-21T16:00:00+00:00",
+				"id": "alt-um-djor?sid=62855",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00347_alt_um_djor_bbc_reindjor_9_16x9_sd._0080.jpg?itok=7ra-cgZ1",
+				"mediaId": "BTA00347_Alt_um_Djor_BBC_Reindjor_9_16x9_SD",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2016-12-21T16:00:00+00:00 id: alt-um-djor?sid=62855",
+				"title": "Reindjórið Rudolf",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=62855"
+			},
+			{
+				"date": "2017-01-17T14:15:00+00:00",
+				"id": "alt-um-djor?sid=63799",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00349_alt_um_djor_sjimpansur_13_allaboutanimals._0085.jpg?itok=EddkMgB5",
+				"mediaId": "BTA00349_Alt_um_djor_Sjimpansur_13_AllAboutAnimals",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-01-17T14:15:00+00:00 id: alt-um-djor?sid=63799",
+				"title": "Sjimpansan Charlie",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=63799"
+			},
+			{
+				"date": "2017-01-25T09:45:00+00:00",
+				"id": "alt-um-djor?sid=64108",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00350_alt_um_djor_14_25_vatnsvin._0151.jpg?itok=Ry5jOEwW",
+				"mediaId": "BTA00350_Alt_um_djor_14_25_Vatnsvin",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-01-25T09:45:00+00:00 id: alt-um-djor?sid=64108",
+				"title": "Vatnsvínið Vinnie",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=64108"
+			},
+			{
+				"date": "2017-02-08T14:30:00+00:00",
+				"id": "alt-um-djor?sid=64668",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00351_alt_um_djor_flekkut_hyena_bbc_allaboutanimals_21_16x9_25_fo_dvcpro50_sd_-_copy._0084.jpg?itok=Lodlq95D",
+				"mediaId": "BTA00351_Alt_um_djor_Flekkut_hyena_BBC_AllAboutAnimals_21_16x9_25_FO_DVCPro50_SD_-_Copy",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-02-08T14:30:00+00:00 id: alt-um-djor?sid=64668",
+				"title": "Hyenan Hattie",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=64668"
+			},
+			{
+				"date": "2017-02-13T15:00:00+00:00",
+				"id": "alt-um-djor?sid=64855",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00352_alt_um_djor_baevurin_bbc_allaboutanimalsseries1_15_16x9._0195.jpg?itok=aB0Zw-Jv",
+				"mediaId": "BTA00352_Alt_um_djor_Baevurin_BBC_AllAboutAnimalsSeries1_15_16x9",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-02-13T15:00:00+00:00 id: alt-um-djor?sid=64855",
+				"title": "Bævurin Bert",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=64855"
+			},
+			{
+				"date": "2017-02-14T15:00:00+00:00",
+				"id": "alt-um-djor?sid=64932",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00354_alt_um_djor_stori_oturin_bbc_allaboutanimalsseries1_17_16x9._0090.jpg?itok=PYY2QEfw",
+				"mediaId": "BTA00354_Alt_um_djor_Stori_oturin_BBC_AllAboutAnimalsSeries1_17_16x9",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-02-14T15:00:00+00:00 id: alt-um-djor?sid=64932",
+				"title": "Stóri oturin Oskar",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=64932"
+			},
+			{
+				"date": "2017-03-09T10:00:00+00:00",
+				"id": "alt-um-djor?sid=65848",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00354_alt_um_djor_thompsons_gasella_allaboutanimalsseries1_25_16x9._0040.jpg?itok=O__nPmem",
+				"mediaId": "BTA00354_Alt_um_djor_Thompsons_Gasella_AllAboutAnimalsSeries1_25_16x9",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-03-09T10:00:00+00:00 id: alt-um-djor?sid=65848",
+				"title": "Gasellan Tammy",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=65848"
+			},
+			{
+				"date": "2017-03-09T10:00:00+00:00",
+				"id": "alt-um-djor?sid=65849",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00355_alt_um_djor_finnusvin_bbcw_allaboutanimalsseries1_19._0024.jpg?itok=WrDXsbd5",
+				"mediaId": "BTA00355_Alt_um_djor_Finnusvin_BBCW_AllAboutAnimalsSeries1_19",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-03-09T10:00:00+00:00 id: alt-um-djor?sid=65849",
+				"title": "Finnusvínið Finnur",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=65849"
+			},
+			{
+				"date": "2017-03-21T08:45:00+00:00",
+				"id": "alt-um-djor?sid=66304",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00357_alt_um_djor_aarross_1_bbcw_allaboutanimalsseries1_16x9_25._0139.jpg?itok=cqpZAVWa",
+				"mediaId": "BTA00357_Alt_um_djor_Aarross_1_BBCW_AllAboutAnimalsSeries1_16x9_25",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-03-21T08:45:00+00:00 id: alt-um-djor?sid=66304",
+				"title": "Áarrossið Áki",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=66304"
+			},
+			{
+				"date": "2017-03-28T09:30:00+01:00",
+				"id": "alt-um-djor?sid=66548",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00358_alt_um_djor_4_gepardurin_allaboutanimalsseries1_4_16x9_25._0074.jpg?itok=vdGcWsc5",
+				"mediaId": "BTA00358_Alt_um_djor_4_Gepardurin_AllAboutAnimalsSeries1_4_16x9_25",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-03-28T09:30:00+01:00 id: alt-um-djor?sid=66548",
+				"title": "Gepardurin Chiku",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=66548"
+			},
+			{
+				"date": "2017-04-03T16:00:00+01:00",
+				"id": "alt-um-djor?sid=66763",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00359_alt_um_djor_urangutangin_allaboutanimalsseries1_26_16x9_25._0050.jpg?itok=LqPjcQDk",
+				"mediaId": "BTA00359_Alt_um_djor_Urangutangin_AllAboutAnimalsSeries1_26_16x9_25",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-04-03T16:00:00+01:00 id: alt-um-djor?sid=66763",
+				"title": "Orangutangurin Otto",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=66763"
+			},
+			{
+				"date": "2017-09-12T15:34:00+01:00",
+				"id": "alt-um-djor?sid=72097",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/01_01_23mb.jpg?itok=TxDzwOcg",
+				"mediaId": "BTA00360_Alt_um_djor_KENGURA_BIH_SEQ_OK",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-09-12T15:34:00+01:00 id: alt-um-djor?sid=72097",
+				"title": "Kenguran Rogan",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=72097"
+			},
+			{
+				"date": "2017-09-19T14:06:00+01:00",
+				"id": "alt-um-djor?sid=72377",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00361_alt_um_djor_delfin_2._0040.jpg?itok=Cn96fYEh",
+				"mediaId": "BTA00361_Alt_um_djor_DELFIN_2",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-09-19T14:06:00+01:00 id: alt-um-djor?sid=72377",
+				"title": "Delfinin Flekka",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=72377"
+			},
+			{
+				"date": "2017-09-26T09:57:00+01:00",
+				"id": "alt-um-djor?sid=72609",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00362_alt_um_djor_leopardur_3._0026.jpg?itok=8pSYW_Qt",
+				"mediaId": "BTA00362_Alt_um_djor_LEOPARDUR_3",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-09-26T09:57:00+01:00 id: alt-um-djor?sid=72609",
+				"title": "Leopardurin Limbo",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=72609"
+			},
+			{
+				"date": "2017-09-26T10:04:00+01:00",
+				"id": "alt-um-djor?sid=72610",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00363_alt_um_djor_gnua_4._0254.jpg?itok=ndRM9WAj",
+				"mediaId": "BTA00363_Alt_um_djor_GNUA_4",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-09-26T10:04:00+01:00 id: alt-um-djor?sid=72610",
+				"title": "Gnúan Gunnar",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=72610"
+			},
+			{
+				"date": "2017-10-10T11:08:00+01:00",
+				"id": "alt-um-djor?sid=73094",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/05_01_23mb_0.jpg?itok=4JZqsfHy",
+				"mediaId": "BTA00364_Alt_um_djor_REVUR_5",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-10-10T11:08:00+01:00 id: alt-um-djor?sid=73094",
+				"title": "Revurin Evald",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=73094"
+			},
+			{
+				"date": "2017-10-10T11:47:00+01:00",
+				"id": "alt-um-djor?sid=73095",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06_01_70mb.jpg?itok=y9-_1xZk",
+				"mediaId": "BTA00365_Alt_um_djor_OTUR_6",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-10-10T11:47:00+01:00 id: alt-um-djor?sid=73095",
+				"title": "Oturin Olga",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=73095"
+			},
+			{
+				"date": "2017-10-24T13:53:00+01:00",
+				"id": "alt-um-djor?sid=73554",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/nashyrningur._0236.jpg?itok=wekoIXKU",
+				"mediaId": "NASHYRNINGUR",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-10-24T13:53:00+01:00 id: alt-um-djor?sid=73554",
+				"title": "Nashyrningurin Niels",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=73554"
+			},
+			{
+				"date": "2017-11-07T09:02:00+00:00",
+				"id": "alt-um-djor?sid=74019",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00368_alt_um_djor_ulvur_9._0082.jpg?itok=j9vKv1eA",
+				"mediaId": "BTA00368_Alt_um_djor_ULVUR_9",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2017-11-07T09:02:00+00:00 id: alt-um-djor?sid=74019",
+				"title": "Úlvurin Ulla",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=74019"
+			},
+			{
+				"date": "2018-02-20T13:31:00+00:00",
+				"id": "alt-um-djor?sid=77793",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00379_alt_um_djor_fiskiorn_20._0331.jpg?itok=Tarj1IkP",
+				"mediaId": "BTA00379_Alt_um_djor_fiskiorn_20",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2018-02-20T13:31:00+00:00 id: alt-um-djor?sid=77793",
+				"title": "Fiskiørnin Flóvin",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=77793"
+			},
+			{
+				"date": "2018-02-27T14:09:00+00:00",
+				"id": "alt-um-djor?sid=78042",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00381_alt_um_djor_fjallagrevlingur_21._0183.jpg?itok=WI1-ptLV",
+				"mediaId": "BTA00381_Alt_um_djor_Fjallagrevlingur_21",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2018-02-27T14:09:00+00:00 id: alt-um-djor?sid=78042",
+				"title": "Fjallagrevlingurin Frants",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=78042"
+			},
+			{
+				"date": "2018-03-07T09:47:00+00:00",
+				"id": "alt-um-djor?sid=78365",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00382_alt_um_djor_laturkopur_22_06032018_ok._0233.jpg?itok=CMlkg0n7",
+				"mediaId": "BTA00382_Alt_um_djor_Laturkopur_22_06032018_ok",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2018-03-07T09:47:00+00:00 id: alt-um-djor?sid=78365",
+				"title": "Láturkópurin Lávus",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=78365"
+			},
+			{
+				"date": "2018-03-13T13:24:00+00:00",
+				"id": "alt-um-djor?sid=78627",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta000383_alt_um_djor_villhundurin_23_13032018._0264.jpg?itok=3nydwUU0",
+				"mediaId": "BTA000383_Alt_um_djor_Villhundurin_23_13032018",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2018-03-13T13:24:00+00:00 id: alt-um-djor?sid=78627",
+				"title": "Villhundurin Villiam",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=78627"
+			},
+			{
+				"date": "2018-03-20T09:15:00+00:00",
+				"id": "alt-um-djor?sid=60667",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00341_alt_um_djor_6_strussurin._0135.jpg?itok=CstHHdM9",
+				"mediaId": "BTA00341_Alt_um_djor_6_strussurin",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2018-03-20T09:15:00+00:00 id: alt-um-djor?sid=60667",
+				"title": "Strutsurin Steinar",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=60667"
+			},
+			{
+				"date": "2018-04-03T15:00:00+01:00",
+				"id": "alt-um-djor?sid=58952",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pingvin_0.jpg?itok=y3N2OJ4u",
+				"mediaId": "pingvin_18",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2018-04-03T15:00:00+01:00 id: alt-um-djor?sid=58952",
+				"title": "Keisarapingvinurin Petur",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=58952"
+			},
+			{
+				"date": "2018-06-27T16:48:00+01:00",
+				"id": "alt-um-djor?sid=82778",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00345_ut303_alt_um_djor_leyvan_8_29112016._0024.jpg?itok=2FQ0B2oJ",
+				"mediaId": "BTA00345_UT303_Alt_um_djor_Leyvan_8_29112016",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2018-06-27T16:48:00+01:00 id: alt-um-djor?sid=82778",
+				"title": "Leyvan Leo",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=82778"
+			},
+			{
+				"date": "2018-08-07T14:00:00+01:00",
+				"id": "alt-um-djor?sid=83832",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/d1.png?itok=8SLoqpDI",
+				"mediaId": "BTA00348_UT303_Alt_um_djor_Halaronduti_Lematururin_12_10012017_1",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2018-08-07T14:00:00+01:00 id: alt-um-djor?sid=83832",
+				"title": "Lemururin Laura",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=83832"
+			},
+			{
+				"date": "2018-11-13T15:30:00+00:00",
+				"id": "alt-um-djor?sid=87664",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/sebra.jpg?itok=0ngn0sGO",
+				"mediaId": "BTA00384_Alt_um_djor_Sebra_1",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2018-11-13T15:30:00+00:00 id: alt-um-djor?sid=87664",
+				"title": "Sebran Siggy",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=87664"
+			},
+			{
+				"date": "2018-11-20T13:55:00+00:00",
+				"id": "alt-um-djor?sid=87973",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/markattur.jpg?itok=J170moFT",
+				"mediaId": "BTA00385_Alt_um_djor_Markattur_2",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2018-11-20T13:55:00+00:00 id: alt-um-djor?sid=87973",
+				"title": "Markatturin Marja",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=87973"
+			},
+			{
+				"date": "2019-01-08T12:15:00+00:00",
+				"id": "alt-um-djor?sid=88262",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hamarshavur_0.jpg?itok=Bqc1a9XA",
+				"mediaId": "BTA00386_Alt_um_djor_Hamarshavur_3",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-01-08T12:15:00+00:00 id: alt-um-djor?sid=88262",
+				"title": "Hamarshávurin Hulda",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=88262"
+			},
+			{
+				"date": "2019-01-22T13:05:00+00:00",
+				"id": "alt-um-djor?sid=59190",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00334_alt_um_djor_krokodilla_20._0082.jpg?itok=GAs1Bven",
+				"mediaId": "BTA00334_alt_um_djor_Krokodilla_20",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-01-22T13:05:00+00:00 id: alt-um-djor?sid=59190",
+				"title": "Krokodillan Karl",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=59190"
+			},
+			{
+				"date": "2019-01-29T10:00:00+00:00",
+				"id": "alt-um-djor?sid=90556",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/sjofilurin_mynd.png?itok=ktIzvWzC",
+				"mediaId": "BTA00335_UT303_Alt_um_djor_Sjofilurin_22_20092016_1",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-01-29T10:00:00+00:00 id: alt-um-djor?sid=90556",
+				"title": "Sjófílurin Sjúrður",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=90556"
+			},
+			{
+				"date": "2019-02-05T10:00:00+00:00",
+				"id": "alt-um-djor?sid=59195",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00336_alt_um_djor_giraffur_23._0098.jpg?itok=a0k0Yeek",
+				"mediaId": "BTA00336_alt_um_djor_Giraffur_23",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-02-05T10:00:00+00:00 id: alt-um-djor?sid=59195",
+				"title": "Giraffurin Georg",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=59195"
+			},
+			{
+				"date": "2019-02-19T18:57:00+00:00",
+				"id": "alt-um-djor?sid=60183",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00338_alt_um_djor_myrukoettur._0106.jpg?itok=Eg6avH_J",
+				"mediaId": "BTA00338_alt_um_djor_Myrukoettur",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-02-19T18:57:00+00:00 id: alt-um-djor?sid=60183",
+				"title": "Mýrukøtturin Mórus",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=60183"
+			},
+			{
+				"date": "2019-09-16T10:00:00+01:00",
+				"id": "alt-um-djor?sid=98774",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00369_alt_um_djor_makakkur_10._0020.jpg?itok=q8UTLVT5",
+				"mediaId": "BTA00369_UT304_Alt_um_djor_MAKAKKUR_10_14112017",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-09-16T10:00:00+01:00 id: alt-um-djor?sid=98774",
+				"title": "Makakkapan Mono",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=98774"
+			},
+			{
+				"date": "2019-09-24T12:00:00+01:00",
+				"id": "alt-um-djor?sid=99097",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/villsvin_0.jpg?itok=npGOzMtU",
+				"mediaId": "BTA00370_UT304_Alt_um_djor_VILLSViN_11_21112017",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-09-24T12:00:00+01:00 id: alt-um-djor?sid=99097",
+				"title": "Villsvínið Vilda",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=99097"
+			},
+			{
+				"date": "2019-09-30T15:30:00+01:00",
+				"id": "alt-um-djor?sid=99322",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/alligator.png?itok=ehkNH_76",
+				"mediaId": "BTA00371_UT304_Alt_um_djor_ALLIGATORUR_12_28112017",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-09-30T15:30:00+01:00 id: alt-um-djor?sid=99322",
+				"title": "Alligatorurin Alisa",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=99322"
+			},
+			{
+				"date": "2019-10-08T11:14:00+01:00",
+				"id": "alt-um-djor?sid=99641",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/svartabjorn.jpg?itok=X7oT7s5s",
+				"mediaId": "BTA00373_UT304_Alt_um_djor_Svartabjorn_13_02012018",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-10-08T11:14:00+01:00 id: alt-um-djor?sid=99641",
+				"title": "Svartabjørnin Betty",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=99641"
+			},
+			{
+				"date": "2019-10-15T12:00:00+01:00",
+				"id": "alt-um-djor?sid=99668",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hermalin.jpg?itok=3RCk3XIG",
+				"mediaId": "BTA00374_UT304_Alt_um_djor_Hermalin_14_09012018",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-10-15T12:00:00+01:00 id: alt-um-djor?sid=99668",
+				"title": "Hermalínið Siftu",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=99668"
+			},
+			{
+				"date": "2019-10-29T12:00:00+00:00",
+				"id": "alt-um-djor?sid=100430",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/alt_um_djor_mynd_okt_0.jpg?itok=AREFIwLe",
+				"mediaId": "BTA00376_UT304_Alt_um_djor_Jardikorni_16_23012018",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-10-29T12:00:00+00:00 id: alt-um-djor?sid=100430",
+				"title": "Jarðíkornin Jana",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=100430"
+			},
+			{
+				"date": "2019-11-05T15:15:00+00:00",
+				"id": "alt-um-djor?sid=100626",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/lundin_0.jpg?itok=Zu4xf5ti",
+				"mediaId": "BTA00377_UT304_Alt_um_djor_Lundin_17_30012018",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-11-05T15:15:00+00:00 id: alt-um-djor?sid=100626",
+				"title": "Lundin Líggjas",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=100626"
+			},
+			{
+				"date": "2019-11-12T12:00:00+00:00",
+				"id": "alt-um-djor?sid=100915",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00378_alt_um_djor_oyrnarevur_18._0045.jpg?itok=tC-AAXrx",
+				"mediaId": "BTA00378_UT304_Alt_um_djor_Oyrnarevur_18_07022018",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-11-12T12:00:00+00:00 id: alt-um-djor?sid=100915",
+				"title": "Oyrnarevurin Oyrna",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=100915"
+			},
+			{
+				"date": "2019-11-18T20:00:00+00:00",
+				"id": "alt-um-djor?sid=101185",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00379_alt_um_djor_elgur_19._0322.jpg?itok=bAF4movQ",
+				"mediaId": "BTA00379_UT304_Alt_um_djor_Elgur_19_13022018",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2019-11-18T20:00:00+00:00 id: alt-um-djor?sid=101185",
+				"title": "Elgurin Elma",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=101185"
+			},
+			{
+				"date": "2021-11-09T12:00:00+00:00",
+				"id": "alt-um-djor?sid=131079",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur.png?itok=3r9-3ei-",
+				"mediaId": "BTA00367_UT304_Alt_um_djor_ASIA_FiLUR_8_31102017",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2021-11-09T12:00:00+00:00 id: alt-um-djor?sid=131079",
+				"title": "Fílurin Finnur",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=131079"
+			},
+			{
+				"date": "2022-01-18T12:00:00+00:00",
+				"id": "alt-um-djor?sid=100105",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/kuluboka_-_mynd.jpg?itok=UeDk24LH",
+				"mediaId": "BTA00375_UT304_Alt_um_djor_Kuluboeka_15_16012018",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: 2022-01-18T12:00:00+00:00 id: alt-um-djor?sid=100105",
+				"title": "Kúlubøkan Klára",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=100105"
+			},
+			{
+				"date": "zzzzzzzzzzzzzzzzzzzzzzzzz",
+				"id": "alt-um-djor?sid=64927",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00353_alt_um_djor_grabjoern_bbc_allaboutanimalsseries1_16_16x9._0319.jpg?itok=0FqVoCGv",
+				"mediaId": "BTA00353_Alt_um_djor_Graabjoernin_BBC_AllAboutAnimalsSeries1_16",
+				"showTitle": "Alt um djór",
+				"sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: alt-um-djor?sid=64927",
+				"title": "Grábjørnin Gus",
+				"url": "https://kvf.fo/vit/sending/sv/alt-um-djor?sid=64927"
+			}
+		]
+	},
+	{
 		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/andlitsmaling.png?itok=CxjQAymV",
 		"title": "Andlitsmáling",
 		"url": "https://kvf.fo/vit/sending/sv/andlitsmaling",
@@ -758,6 +1285,83 @@
 		]
 	},
 	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/blaa_sendingamynd.png?itok=4FLJsFB9",
+		"title": "Bláa",
+		"url": "https://kvf.fo/vit/sending/sv/blaa",
+		"episodes": [
+			{
+				"date": "2026-10-15T12:04:00+01:00",
+				"id": "blaa?sid=214811",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/blaa_1.png?itok=PCDxjAJn",
+				"mediaId": "BL1850_1_Blaa_Gandasylofonin_2026",
+				"showTitle": "Bláa",
+				"sortKey": "date: 2026-10-15T12:04:00+01:00 id: blaa?sid=214811",
+				"title": "Gandasylofonin - Bláa 1",
+				"url": "https://kvf.fo/vit/sending/sv/blaa?sid=214811"
+			},
+			{
+				"date": "2026-10-26T10:00:00+00:00",
+				"id": "blaa?sid=215453",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/blaa_2.png?itok=8tL33gZQ",
+				"mediaId": "BL1850_2_Blaa_Sjukrahus_2026",
+				"showTitle": "Bláa",
+				"sortKey": "date: 2026-10-26T10:00:00+00:00 id: blaa?sid=215453",
+				"title": "Sjúkrahús - Bláa 2.partur",
+				"url": "https://kvf.fo/vit/sending/sv/blaa?sid=215453"
+			},
+			{
+				"date": "2026-10-27T14:04:00+00:00",
+				"id": "blaa?sid=215456",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/blaa_3.png?itok=ym3r3ubn",
+				"mediaId": "BL1850_3_Blaa_UppiILuftini_2026",
+				"showTitle": "Bláa",
+				"sortKey": "date: 2026-10-27T14:04:00+00:00 id: blaa?sid=215456",
+				"title": "Uppi í luftini - Bláa 3.partur",
+				"url": "https://kvf.fo/vit/sending/sv/blaa?sid=215456"
+			},
+			{
+				"date": "2026-10-27T15:20:00+00:00",
+				"id": "blaa?sid=215466",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/blaa_4.png?itok=ZZgpCdw9",
+				"mediaId": "BL1850_4_Blaa_Papabottur_2026",
+				"showTitle": "Bláa",
+				"sortKey": "date: 2026-10-27T15:20:00+00:00 id: blaa?sid=215466",
+				"title": "Pápabottur - Bláa 4.partur",
+				"url": "https://kvf.fo/vit/sending/sv/blaa?sid=215466"
+			},
+			{
+				"date": "2026-10-27T15:25:00+00:00",
+				"id": "blaa?sid=215467",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/blaa_5.png?itok=tsDCk66s",
+				"mediaId": "BL1850_5_Blaa_Skuggaland_2026",
+				"showTitle": "Bláa",
+				"sortKey": "date: 2026-10-27T15:25:00+00:00 id: blaa?sid=215467",
+				"title": "Skuggaland . Bláa 5.partur",
+				"url": "https://kvf.fo/vit/sending/sv/blaa?sid=215467"
+			},
+			{
+				"date": "2026-10-27T15:30:00+00:00",
+				"id": "blaa?sid=215468",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/blaa_7.png?itok=tkjuTRCm",
+				"mediaId": "BL1850_6_Blaa_Vikuskiftid_2026",
+				"showTitle": "Bláa",
+				"sortKey": "date: 2026-10-27T15:30:00+00:00 id: blaa?sid=215468",
+				"title": "Vikuskiftið - Bláa 6.partur",
+				"url": "https://kvf.fo/vit/sending/sv/blaa?sid=215468"
+			},
+			{
+				"date": "2026-10-27T15:35:00+00:00",
+				"id": "blaa?sid=215469",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/blaa_7_0.png?itok=7-ru78hY",
+				"mediaId": "BL1850_7_Blaa_Grillveitsla_2026",
+				"showTitle": "Bláa",
+				"sortKey": "date: 2026-10-27T15:35:00+00:00 id: blaa?sid=215469",
+				"title": "Grillveitsla - Bláa 7.partur",
+				"url": "https://kvf.fo/vit/sending/sv/blaa?sid=215469"
+			}
+		]
+	},
+	{
 		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/blikka_mynd.jpg?itok=RfdZTTfD",
 		"title": "Blikka",
 		"url": "https://kvf.fo/vit/sending/sv/blikka",
@@ -868,16 +1472,6 @@
 				"sortKey": "date: 2015-09-10T10:30:00+01:00 id: sangir?sid=46019",
 				"title": "Sig mær sást tú tað",
 				"url": "https://kvf.fo/vit/sending/sv/sangir?sid=46019"
-			},
-			{
-				"date": "2015-09-10T10:30:00+01:00",
-				"id": "sangir?sid=46022",
-				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
-				"mediaId": "vit_kennur_tu_blomur",
-				"showTitle": "Børnini syngja",
-				"sortKey": "date: 2015-09-10T10:30:00+01:00 id: sangir?sid=46022",
-				"title": "Kennir tú blómurinar",
-				"url": "https://kvf.fo/vit/sending/sv/sangir?sid=46022"
 			},
 			{
 				"date": "2015-09-10T10:30:00+01:00",
@@ -2097,16 +2691,6 @@
 			},
 			{
 				"date": "2024-09-03T12:00:00+01:00",
-				"id": "filur-og-maskinurnar?sid=179771",
-				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_skurdtreskja.jpg?itok=EQuax5js",
-				"mediaId": "Filur_og_maskinurnar_EP02",
-				"showTitle": "Fílur og maskinurnar",
-				"sortKey": "date: 2024-09-03T12:00:00+01:00 id: filur-og-maskinurnar?sid=179771",
-				"title": "Skurðtreskja",
-				"url": "https://kvf.fo/vit/sending/sv/filur-og-maskinurnar?sid=179771"
-			},
-			{
-				"date": "2024-09-03T12:00:00+01:00",
 				"id": "filur-og-maskinurnar?sid=179772",
 				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_brannbilur.jpg?itok=vMLXSBOZ",
 				"mediaId": "Filur_og_maskinurnar_EP03",
@@ -2224,6 +2808,23 @@
 				"sortKey": "date: 2024-09-03T12:00:00+01:00 id: filur-og-maskinurnar?sid=179783",
 				"title": "Skíðmaskina",
 				"url": "https://kvf.fo/vit/sending/sv/filur-og-maskinurnar?sid=179783"
+			}
+		]
+	},
+	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/hugo_mynd.png?itok=KQELJPT1",
+		"title": "Frumskógardjórið Hugo",
+		"url": "https://kvf.fo/vit/sending/sv/frumskogardjorid-hugo",
+		"episodes": [
+			{
+				"date": "2024-03-20T13:23:00+00:00",
+				"id": "frumskogardjorid-hugo?sid=172485",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hugo_mynd.png?itok=ECRI3cvX",
+				"mediaId": "BTA00161_BL1614_Skogardyrid_Hugo",
+				"showTitle": "Frumskógardjórið Hugo",
+				"sortKey": "date: 2024-03-20T13:23:00+00:00 id: frumskogardjorid-hugo?sid=172485",
+				"title": "Frumskógardjórið Hugo",
+				"url": "https://kvf.fo/vit/sending/sv/frumskogardjorid-hugo?sid=172485"
 			}
 		]
 	},
@@ -2768,6 +3369,23 @@
 				"sortKey": "date: 2022-04-29T15:00:00+01:00 id: guli-skuli?sid=138957",
 				"title": "Guli Skúli",
 				"url": "https://kvf.fo/vit/sending/sv/guli-skuli?sid=138957"
+			}
+		]
+	},
+	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/permumynd_hvat_gera_tit.png?itok=cTAVQdpF",
+		"title": "Hvat gera tit - 2.umfar",
+		"url": "https://kvf.fo/vit/sending/sv/hvat-gera-tit-2umfar",
+		"episodes": [
+			{
+				"date": "2026-10-30T10:00:00+00:00",
+				"id": "hvat-gera-tit-2umfar?sid=215633",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvat_gera_tit_1.png?itok=kFC_R8v-",
+				"mediaId": "BAR00229_HGT_01_POLITI",
+				"showTitle": "Hvat gera tit - 2.umfar",
+				"sortKey": "date: 2026-10-30T10:00:00+00:00 id: hvat-gera-tit-2umfar?sid=215633",
+				"title": "Hvat gera tit?",
+				"url": "https://kvf.fo/vit/sending/sv/hvat-gera-tit-2umfar?sid=215633"
 			}
 		]
 	},
@@ -3337,6 +3955,113 @@
 		]
 	},
 	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/i_mumidali_sendingamynd.png?itok=M4mu0rtY",
+		"title": "Í Mumidali",
+		"url": "https://kvf.fo/vit/sending/sv/i-mumidali",
+		"episodes": [
+			{
+				"date": "2026-10-15T16:19:00+01:00",
+				"id": "i-mumidali?sid=214838",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ep101_4-c.jpg?itok=rZaBntbV",
+				"mediaId": "BTA00747_BL1849_I_Mumidali_1_15102026",
+				"showTitle": "Í Mumidali",
+				"sortKey": "date: 2026-10-15T16:19:00+01:00 id: i-mumidali?sid=214838",
+				"title": "Lítla Mý flytur inn",
+				"url": "https://kvf.fo/vit/sending/sv/i-mumidali?sid=214838"
+			},
+			{
+				"date": "2026-10-27T15:20:00+00:00",
+				"id": "i-mumidali?sid=214830",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ep102_5-c.jpg?itok=wuT2IOyI",
+				"mediaId": "BTA00748_BL1849_I_Mumidali_2_22102026",
+				"showTitle": "Í Mumidali",
+				"sortKey": "date: 2026-10-27T15:20:00+00:00 id: i-mumidali?sid=214830",
+				"title": "Várvísan",
+				"url": "https://kvf.fo/vit/sending/sv/i-mumidali?sid=214830"
+			},
+			{
+				"date": "2026-10-27T15:21:00+00:00",
+				"id": "i-mumidali?sid=214825",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ep103_4-c_0.jpg?itok=wS29Eyb_",
+				"mediaId": "BTA00749_BL1849_I_Mumidali_3_29102026",
+				"showTitle": "Í Mumidali",
+				"sortKey": "date: 2026-10-27T15:21:00+00:00 id: i-mumidali?sid=214825",
+				"title": "Síðsti drekin",
+				"url": "https://kvf.fo/vit/sending/sv/i-mumidali?sid=214825"
+			},
+			{
+				"date": "2026-10-30T11:45:00+00:00",
+				"id": "i-mumidali?sid=215635",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ep104_3-c.jpg?itok=7tpah29x",
+				"mediaId": "BTA00750_BL1849_I_Mumidali_4_05112026",
+				"showTitle": "Í Mumidali",
+				"sortKey": "date: 2026-10-30T11:45:00+00:00 id: i-mumidali?sid=215635",
+				"title": "Flótandi leikhús",
+				"url": "https://kvf.fo/vit/sending/sv/i-mumidali?sid=215635"
+			},
+			{
+				"date": "2026-10-30T14:43:00+00:00",
+				"id": "i-mumidali?sid=214839",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ep105_5-c.jpg?itok=VNM5yVhX",
+				"mediaId": "BTA00751_BL1849_I_Mumidali_5_12112026",
+				"showTitle": "Í Mumidali",
+				"sortKey": "date: 2026-10-30T14:43:00+00:00 id: i-mumidali?sid=214839",
+				"title": "Gylti halin",
+				"url": "https://kvf.fo/vit/sending/sv/i-mumidali?sid=214839"
+			},
+			{
+				"date": "2026-10-30T14:44:00+00:00",
+				"id": "i-mumidali?sid=214841",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ep106_4-c.jpg?itok=LdcTh6Ap",
+				"mediaId": "BTA00752_BL1849_I_Mumidali_6_19112026",
+				"showTitle": "Í Mumidali",
+				"sortKey": "date: 2026-10-30T14:44:00+00:00 id: i-mumidali?sid=214841",
+				"title": "Hattifnattaoyggin",
+				"url": "https://kvf.fo/vit/sending/sv/i-mumidali?sid=214841"
+			},
+			{
+				"date": "2026-10-30T14:45:00+00:00",
+				"id": "i-mumidali?sid=214840",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ep107_2-c.jpg?itok=jxQ-tyCD",
+				"mediaId": "BTA00753_BL1849_I_Mumidali_7_26112026",
+				"showTitle": "Í Mumidali",
+				"sortKey": "date: 2026-10-30T14:45:00+00:00 id: i-mumidali?sid=214840",
+				"title": "Mumrikur og parkvørðurin",
+				"url": "https://kvf.fo/vit/sending/sv/i-mumidali?sid=214840"
+			},
+			{
+				"date": "2026-10-30T14:46:00+00:00",
+				"id": "i-mumidali?sid=215460",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ep108_1-c_0.jpg?itok=jDAtZgGz",
+				"mediaId": "BTA00754_BL1849_I_Mumidali_8_07012027",
+				"showTitle": "Í Mumidali",
+				"sortKey": "date: 2026-10-30T14:46:00+00:00 id: i-mumidali?sid=215460",
+				"title": "Drekafiskur",
+				"url": "https://kvf.fo/vit/sending/sv/i-mumidali?sid=215460"
+			},
+			{
+				"date": "2026-10-30T14:47:00+00:00",
+				"id": "i-mumidali?sid=215463",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ep109_3-c.jpg?itok=Cp9sNUVu",
+				"mediaId": "BTA00755_BL1849_I_Mumidali_9_14012027",
+				"showTitle": "Í Mumidali",
+				"sortKey": "date: 2026-10-30T14:47:00+00:00 id: i-mumidali?sid=215463",
+				"title": "Murran",
+				"url": "https://kvf.fo/vit/sending/sv/i-mumidali?sid=215463"
+			},
+			{
+				"date": "2026-10-30T14:53:00+00:00",
+				"id": "i-mumidali?sid=215461",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ep110_6-c.jpg?itok=C7rlQaKn",
+				"mediaId": "BTA00754_BL1849_I_Mumidali_8_07012027",
+				"showTitle": "Í Mumidali",
+				"sortKey": "date: 2026-10-30T14:53:00+00:00 id: i-mumidali?sid=215461",
+				"title": "Arbeiðsgentan",
+				"url": "https://kvf.fo/vit/sending/sv/i-mumidali?sid=215461"
+			}
+		]
+	},
+	{
 		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/logo_kakumiks_0.jpg?itok=m1p9wgrr",
 		"title": "KAKUMiKS",
 		"url": "https://kvf.fo/vit/sending/sv/kakumiks",
@@ -3470,6 +4195,16 @@
 				"sortKey": "date: 2026-04-24T15:00:00+01:00 id: kakumiks?sid=207452",
 				"title": "Kakumiks 2 (6:7)",
 				"url": "https://kvf.fo/vit/sending/sv/kakumiks?sid=207452"
+			},
+			{
+				"date": "2026-05-01T15:00:00+01:00",
+				"id": "kakumiks?sid=207767",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/kakumiks_2_thumbnail_finala.png?itok=JCgtLYfA",
+				"mediaId": "BTA00727_Kakumiks_2026_E07",
+				"showTitle": "KAKUMiKS",
+				"sortKey": "date: 2026-05-01T15:00:00+01:00 id: kakumiks?sid=207767",
+				"title": "Kakumiks 2 (7:7)",
+				"url": "https://kvf.fo/vit/sending/sv/kakumiks?sid=207767"
 			}
 		]
 	},
@@ -3651,6 +4386,153 @@
 				"sortKey": "date: 2006-11-24T18:00:00+00:00 id: klu?sid=16588",
 				"title": "Klú! 8",
 				"url": "https://kvf.fo/vit/sending/sv/klu?sid=16588"
+			}
+		]
+	},
+	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/klumparnir.jpg?itok=HHVtRw46",
+		"title": "Klumparnir",
+		"url": "https://kvf.fo/vit/sending/sv/klumparnir",
+		"episodes": [
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159960",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_2_hd_klumparnir_2016_0076.jpg?itok=B2vblYb-",
+				"mediaId": "UT285_2_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159960",
+				"title": "Náttúrudagur",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159960"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159962",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_3_hd_klumparnir_2016_0029.jpg?itok=SusTgxIZ",
+				"mediaId": "UT285_3_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159962",
+				"title": "Klumpar í mjørka",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159962"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159963",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_4_hd_klumparnir_2016_0101.jpg?itok=UEbxWPHz",
+				"mediaId": "UT285_4_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159963",
+				"title": "Náttkjólaball",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159963"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159964",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_5_hd_klumparnir_2016_0091.jpg?itok=8qD9aKC3",
+				"mediaId": "UT285_5_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159964",
+				"title": "Bartal hevur føðingardag",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159964"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159965",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_6_hd_klumparnir_2016_0038.jpg?itok=pm1p6AX5",
+				"mediaId": "UT285_6_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159965",
+				"title": "Fiólkongur",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159965"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159981",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_16_hd_klumparnir_2016_0026.jpg?itok=8ZaACzzy",
+				"mediaId": "UT285_16_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159981",
+				"title": "Fíðrikkur í frísutum lag",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159981"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159982",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_17_hd_klumparnir_2016_0089.jpg?itok=WpKLMkLh",
+				"mediaId": "UT285_17_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159982",
+				"title": "Klumpalott riddari",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159982"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159983",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_18_hd_klumparnir_2016_0099.jpg?itok=vCduL_H_",
+				"mediaId": "UT285_18_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159983",
+				"title": "Dumbul kongur og dimbul drotning",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159983"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159986",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_19_hd_klumparnir_2016_0038.jpg?itok=C4WdKI3x",
+				"mediaId": "UT285_19_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159986",
+				"title": "Kulur pipphylur",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159986"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159987",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_20_hd_klumparnir_2016_0129.jpg?itok=pZcHbiyW",
+				"mediaId": "UT285_20_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159987",
+				"title": "Smúkkurnar",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159987"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159988",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_21_hd_klumparnir_2016_0028.jpg?itok=sblgJJH7",
+				"mediaId": "UT285_21_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159988",
+				"title": "Misljóð",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159988"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159990",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_22_hd_klumparnir_2016_0041.jpg?itok=SYGKwXTP",
+				"mediaId": "UT285_22_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159990",
+				"title": "Stjørnuskot",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159990"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159991",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_23_hd_klumparnir_2016_0091.jpg?itok=J_m2s-5t",
+				"mediaId": "UT285_23_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159991",
+				"title": "Pipp-lympiada",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159991"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159993",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_25_hd_klumparnir_2016_0058.jpg?itok=dAJZHrfw",
+				"mediaId": "UT285_25_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159993",
+				"title": "Loyniveitslan",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159993"
 			}
 		]
 	},
@@ -4205,6 +5087,26 @@
 				"sortKey": "date: 2026-02-23T15:19:00+00:00 id: labbalidid?sid=204670",
 				"title": "Hvølpar bjarga robotti",
 				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=204670"
+			},
+			{
+				"date": "2026-10-28T11:45:00+00:00",
+				"id": "labbalidid?sid=215516",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_bjargar_uglu.png?itok=CBettRaW",
+				"mediaId": "BL1846_36_LABBALIDID_120B_2026",
+				"showTitle": "Labbaliðið",
+				"sortKey": "date: 2026-10-28T11:45:00+00:00 id: labbalidid?sid=215516",
+				"title": "Hvølpar bjarga uglu",
+				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=215516"
+			},
+			{
+				"date": "2026-10-28T12:10:00+00:00",
+				"id": "labbalidid?sid=215517",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/hvolpar_og_apukattar.png?itok=APX48OH5",
+				"mediaId": "BL1846_35_LABBALIDID_120A_2026",
+				"showTitle": "Labbaliðið",
+				"sortKey": "date: 2026-10-28T12:10:00+00:00 id: labbalidid?sid=215517",
+				"title": "Hvølpar og apukattar",
+				"url": "https://kvf.fo/vit/sending/sv/labbalidid?sid=215517"
 			}
 		]
 	},
@@ -5154,10 +6056,221 @@
 		]
 	},
 	{
-		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/medan_vit_bida.png?itok=egrZMajs",
-		"title": "Meðan vit bíða",
-		"url": "https://kvf.fo/vit/sending/sv/medan-vit-bida",
-		"episodes": []
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/morsa.png?itok=8MZ_Z1PA",
+		"title": "Morsa",
+		"url": "https://kvf.fo/vit/sending/sv/morsa",
+		"episodes": [
+			{
+				"date": "2019-11-08T10:54:00+00:00",
+				"id": "morsa?sid=100625",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
+				"mediaId": "BAR00038_BL1711_SD_Morsa_8_28102016",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2019-11-08T10:54:00+00:00 id: morsa?sid=100625",
+				"title": "Morsa 8. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=100625"
+			},
+			{
+				"date": "2020-08-18T11:03:00+01:00",
+				"id": "morsa?sid=103630",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_2_21_hd._0013.jpg?itok=fNyvSq8x",
+				"mediaId": "BAR00046_HD_BL1728_Morsa_4_03032017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2020-08-18T11:03:00+01:00 id: morsa?sid=103630",
+				"title": "Morsa 2.umfar - 4. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=103630"
+			},
+			{
+				"date": "2026-07-03T12:04:00+01:00",
+				"id": "morsa?sid=59047",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061.jpg?itok=xfVNpNsq",
+				"mediaId": "MORSA_1",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-07-03T12:04:00+01:00 id: morsa?sid=59047",
+				"title": "Dugir tú at morsa?",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=59047"
+			},
+			{
+				"date": "2026-08-18T10:42:00+01:00",
+				"id": "morsa?sid=106952",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
+				"mediaId": "BAR00056_BL1760_Morsa_2_22092017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T10:42:00+01:00 id: morsa?sid=106952",
+				"title": "Morsa 2. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=106952"
+			},
+			{
+				"date": "2026-08-18T10:45:00+01:00",
+				"id": "morsa?sid=107196",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
+				"mediaId": "BAR00057_BL1760_Morsa_3_29092017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T10:45:00+01:00 id: morsa?sid=107196",
+				"title": "Morsa 3. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=107196"
+			},
+			{
+				"date": "2026-08-18T10:47:00+01:00",
+				"id": "morsa?sid=99644",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
+				"mediaId": "BAR00034_BL1711_SD_Morsa_4_30092016",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T10:47:00+01:00 id: morsa?sid=99644",
+				"title": "Morsa 4. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=99644"
+			},
+			{
+				"date": "2026-08-18T10:50:00+01:00",
+				"id": "morsa?sid=107858",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
+				"mediaId": "BAR00059_BL1760_Morsa_5_13102017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T10:50:00+01:00 id: morsa?sid=107858",
+				"title": "Morsa 5. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=107858"
+			},
+			{
+				"date": "2026-08-18T10:52:00+01:00",
+				"id": "morsa?sid=108133",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
+				"mediaId": "BAR00060_BL1760_Morsa_6_20102017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T10:52:00+01:00 id: morsa?sid=108133",
+				"title": "Morsa 6. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=108133"
+			},
+			{
+				"date": "2026-08-18T10:53:00+01:00",
+				"id": "morsa?sid=100388",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
+				"mediaId": "BAR00037_BL1711_SD_Morsa_7_21102016",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T10:53:00+01:00 id: morsa?sid=100388",
+				"title": "Morsa 7. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=100388"
+			},
+			{
+				"date": "2026-08-18T10:55:00+01:00",
+				"id": "morsa?sid=100919",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
+				"mediaId": "BAR00039_BL1711_SD_Morsa_9_04112016",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T10:55:00+01:00 id: morsa?sid=100919",
+				"title": "Morsa 9. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=100919"
+			},
+			{
+				"date": "2026-08-18T10:57:00+01:00",
+				"id": "morsa?sid=101192",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_1._0061_0.jpg?itok=-HcuOO9w",
+				"mediaId": "BAR00040_HD_BL1711_Morsa_10_11112016",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T10:57:00+01:00 id: morsa?sid=101192",
+				"title": "Morsa 10",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=101192"
+			},
+			{
+				"date": "2026-08-18T11:00:00+01:00",
+				"id": "morsa?sid=103333",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00051_morsa_2_9_hd._0012.jpg?itok=vXU6uE8w",
+				"mediaId": "BAR00043_BL1728_Morsa_1_10022017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T11:00:00+01:00 id: morsa?sid=103333",
+				"title": "Morsa 2. umfar - 1. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=103333"
+			},
+			{
+				"date": "2026-08-18T11:01:00+01:00",
+				"id": "morsa?sid=103037",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00054_morsa_2_12_hd._0022.jpg?itok=VP_QPdmI",
+				"mediaId": "BAR00044_HD_BL1728_Morsa_2_17022017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T11:01:00+01:00 id: morsa?sid=103037",
+				"title": "Morsa 2.umfar - 2. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=103037"
+			},
+			{
+				"date": "2026-08-18T11:02:00+01:00",
+				"id": "morsa?sid=103328",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00053_morsa_2_11_sd._0018.jpg?itok=qhfV8HtO",
+				"mediaId": "BAR00045_BL1728_Morsa_3_24022017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T11:02:00+01:00 id: morsa?sid=103328",
+				"title": "Morsa 2. umfar 3. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=103328"
+			},
+			{
+				"date": "2026-08-18T11:04:00+01:00",
+				"id": "morsa?sid=103942",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00047_morsa_2_5_hd._0025_0.jpg?itok=RoI42tkI",
+				"mediaId": "BAR00047_BL1728_Morsa_5_10032017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T11:04:00+01:00 id: morsa?sid=103942",
+				"title": "Morsa 2. umfar 5. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=103942"
+			},
+			{
+				"date": "2026-08-18T11:05:00+01:00",
+				"id": "morsa?sid=104255",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00048_morsa_2_6_hd._0016.jpg?itok=3Kggc6qj",
+				"mediaId": "BAR00048_BL1728_Morsa_6_17032017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T11:05:00+01:00 id: morsa?sid=104255",
+				"title": "Morsa 2. umfar - 6. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=104255"
+			},
+			{
+				"date": "2026-08-18T11:06:00+01:00",
+				"id": "morsa?sid=105204",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00050_morsa_2_8_hd._0020.jpg?itok=yHABa8ts",
+				"mediaId": "BAR00050_BL1728_Morsa_8_28032017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T11:06:00+01:00 id: morsa?sid=105204",
+				"title": "Morsa 2. umfar - 8. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=105204"
+			},
+			{
+				"date": "2026-08-18T11:07:00+01:00",
+				"id": "morsa?sid=105205",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/morsa_2_3_hd._0017.jpg?itok=BThxdD08",
+				"mediaId": "BAR00051_BL1728_Morsa_9_04042017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T11:07:00+01:00 id: morsa?sid=105205",
+				"title": "Morsa 2. umfar - 9. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=105205"
+			},
+			{
+				"date": "2026-08-18T11:08:00+01:00",
+				"id": "morsa?sid=105535",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00040_morsa10_hd._0044.jpg?itok=oX6oiMSz",
+				"mediaId": "BAR00052_BL1728_Morsa_10_11042017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T11:08:00+01:00 id: morsa?sid=105535",
+				"title": "Morsa 2. umfar - 10. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=105535"
+			},
+			{
+				"date": "2026-08-18T11:10:00+01:00",
+				"id": "morsa?sid=105893",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00053_morsa_2_11_sd._0018.jpg?itok=qhfV8HtO",
+				"mediaId": "BAR00053_BL1728_Morsa_11_18042017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T11:10:00+01:00 id: morsa?sid=105893",
+				"title": "Morsa 2. umfar - 11. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=105893"
+			},
+			{
+				"date": "2026-08-18T11:15:00+01:00",
+				"id": "morsa?sid=106244",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bar00054_morsa_2_12_hd._0022.jpg?itok=VP_QPdmI",
+				"mediaId": "BAR00054_BL1728_Morsa_12_25042017",
+				"showTitle": "Morsa",
+				"sortKey": "date: 2026-08-18T11:15:00+01:00 id: morsa?sid=106244",
+				"title": "Morsa 2. umfar - 12. partur",
+				"url": "https://kvf.fo/vit/sending/sv/morsa?sid=106244"
+			}
+		]
 	},
 	{
 		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/mouk_mynd.png?itok=P5cpvy1I",
@@ -6014,6 +7127,353 @@
 		]
 	},
 	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/pastedimage_1.png?itok=TblywqnX",
+		"title": "My little pony",
+		"url": "https://kvf.fo/vit/sending/sv/my-little-pony",
+		"episodes": [
+			{
+				"date": "2018-01-31T21:24:00+00:00",
+				"id": "my-little-pony?sid=87460",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp9.png?itok=aUpNZ9W5",
+				"mediaId": "BTA00408_My_Little_Pony_9_08112018",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2018-01-31T21:24:00+00:00 id: my-little-pony?sid=87460",
+				"title": "Teymatos",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=87460"
+			},
+			{
+				"date": "2018-02-08T14:50:00+00:00",
+				"id": "my-little-pony?sid=87759",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp10.png?itok=sIGvit6V",
+				"mediaId": "BTA00409_My_Little_Pony_10_15112018",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2018-02-08T14:50:00+00:00 id: my-little-pony?sid=87759",
+				"title": "Aldarinnar fluguflokkur",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=87759"
+			},
+			{
+				"date": "2018-10-04T11:00:00+01:00",
+				"id": "my-little-pony?sid=86051",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp4.png?itok=qx4IaksN",
+				"mediaId": "BTA00403_My_Little_Pony_4_04102018",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2018-10-04T11:00:00+01:00 id: my-little-pony?sid=86051",
+				"title": "Heysta súrepli",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=86051"
+			},
+			{
+				"date": "2018-10-24T10:10:00+01:00",
+				"id": "my-little-pony?sid=86796",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp7.png?itok=XO0tfINK",
+				"mediaId": "My_little_Pony_07",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2018-10-24T10:10:00+01:00 id: my-little-pony?sid=86796",
+				"title": "Drekasmædni",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=86796"
+			},
+			{
+				"date": "2018-11-22T13:05:00+00:00",
+				"id": "my-little-pony?sid=85689",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp3.png?itok=hCBabRHQ",
+				"mediaId": "My_little_Pony_03",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2018-11-22T13:05:00+00:00 id: my-little-pony?sid=85689",
+				"title": "Atgongumerkið",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=85689"
+			},
+			{
+				"date": "2019-01-04T11:07:00+00:00",
+				"id": "my-little-pony?sid=86232",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp5.png?itok=XyN6sj0N",
+				"mediaId": "BTA00404_My_Little_Pony_5_11102018",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-01-04T11:07:00+00:00 id: my-little-pony?sid=86232",
+				"title": "Kveistra griffin burtur",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=86232"
+			},
+			{
+				"date": "2019-01-09T13:30:00+00:00",
+				"id": "my-little-pony?sid=86577",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pastedimage_1.png?itok=0MMX2HBj",
+				"mediaId": "BTA00405_UT342_My_Little_Pony_6_18102018",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-01-09T13:30:00+00:00 id: my-little-pony?sid=86577",
+				"title": "Reyparar",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=86577"
+			},
+			{
+				"date": "2019-01-24T11:00:00+00:00",
+				"id": "my-little-pony?sid=87119",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp8.png?itok=vfzMzfVh",
+				"mediaId": "BTA00407_My_Little_Pony_8_01112018",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-01-24T11:00:00+00:00 id: my-little-pony?sid=87119",
+				"title": "Hygg áðrenn tú sovnar",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=87119"
+			},
+			{
+				"date": "2019-02-14T12:53:00+00:00",
+				"id": "my-little-pony?sid=91215",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp11.png?itok=azlenCiy",
+				"mediaId": "BTA00410_My_Little_Pony_11_14022019",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-02-14T12:53:00+00:00 id: my-little-pony?sid=91215",
+				"title": "Vetrarendi",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=91215"
+			},
+			{
+				"date": "2019-02-21T09:00:00+00:00",
+				"id": "my-little-pony?sid=91471",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp12.png?itok=EoL6yy6h",
+				"mediaId": "BTA00411_My_Little_Pony_12_22022019",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-02-21T09:00:00+00:00 id: my-little-pony?sid=91471",
+				"title": "Kjútimerkið",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=91471"
+			},
+			{
+				"date": "2019-02-27T20:00:00+00:00",
+				"id": "my-little-pony?sid=91667",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp13.png?itok=Dsa-JRXp",
+				"mediaId": "BTA00433_My_Little_Pony_13_28022019",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-02-27T20:00:00+00:00 id: my-little-pony?sid=91667",
+				"title": "Vinir av handahógv",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=91667"
+			},
+			{
+				"date": "2019-03-06T20:00:00+00:00",
+				"id": "my-little-pony?sid=92001",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp14.png?itok=AVCdHdX0",
+				"mediaId": "My_little_Pony_14",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-03-06T20:00:00+00:00 id: my-little-pony?sid=92001",
+				"title": "Ílatin eydnu og framgongd",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=92001"
+			},
+			{
+				"date": "2019-03-15T13:50:00+00:00",
+				"id": "my-little-pony?sid=92341",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp15.png?itok=7NLACxaC",
+				"mediaId": "BTA00435_UT342_My_Little_Pony_15_14032019",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-03-15T13:50:00+00:00 id: my-little-pony?sid=92341",
+				"title": "Alt gott, einki galið",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=92341"
+			},
+			{
+				"date": "2019-03-21T10:00:00+00:00",
+				"id": "my-little-pony?sid=92498",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp16.png?itok=xRXAt5JZ",
+				"mediaId": "BTA00436_UT342_My_Little_Pony_16_21032019",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-03-21T10:00:00+00:00 id: my-little-pony?sid=92498",
+				"title": "Ljóðbylguælabogin",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=92498"
+			},
+			{
+				"date": "2019-03-28T13:05:00+00:00",
+				"id": "my-little-pony?sid=92822",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp17.png?itok=sf5UVU9z",
+				"mediaId": "BTA00437_My_Little_Pony_17_28032019",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-03-28T13:05:00+00:00 id: my-little-pony?sid=92822",
+				"title": "Starimeistari",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=92822"
+			},
+			{
+				"date": "2019-04-24T14:40:00+01:00",
+				"id": "my-little-pony?sid=93814",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp20.png?itok=2AsxLFH2",
+				"mediaId": "BTA00440_UT342_My_Little_Pony_20_25042019",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-04-24T14:40:00+01:00 id: my-little-pony?sid=93814",
+				"title": "Grønt passar ikki tær",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=93814"
+			},
+			{
+				"date": "2019-05-09T10:30:00+01:00",
+				"id": "my-little-pony?sid=94333",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp22.png?itok=MhrtpNef",
+				"mediaId": "BTA00442_My_Little_Pony_22_09052019",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-05-09T10:30:00+01:00 id: my-little-pony?sid=94333",
+				"title": "Tú veitst, hvat tú hevur, men ikki hvat tú fært",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=94333"
+			},
+			{
+				"date": "2019-05-16T14:30:00+01:00",
+				"id": "my-little-pony?sid=94584",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp23.png?itok=UBbt7tHE",
+				"mediaId": "BTA00443_My_Little_Pony_23_16052019",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-05-16T14:30:00+01:00 id: my-little-pony?sid=94584",
+				"title": "Kjútimerkjasøgur",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=94584"
+			},
+			{
+				"date": "2019-05-23T09:30:00+01:00",
+				"id": "my-little-pony?sid=94780",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp24.png?itok=Z724FLay",
+				"mediaId": "BTA00444_My_Little_Pony_24_23052019",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-05-23T09:30:00+01:00 id: my-little-pony?sid=94780",
+				"title": "Alt væl, ið endar væl",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=94780"
+			},
+			{
+				"date": "2019-05-29T16:15:00+01:00",
+				"id": "my-little-pony?sid=95077",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp25.png?itok=j82E_VFS",
+				"mediaId": "My_little_Pony_25",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-05-29T16:15:00+01:00 id: my-little-pony?sid=95077",
+				"title": "Ein í veitslu",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=95077"
+			},
+			{
+				"date": "2019-06-05T14:00:00+01:00",
+				"id": "my-little-pony?sid=95313",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp26.png?itok=BylMshKs",
+				"mediaId": "BTA00446_My_Little_Pony_26_06062019",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2019-06-05T14:00:00+01:00 id: my-little-pony?sid=95313",
+				"title": "Besta kvøldið í ævini skrivað",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=95313"
+			},
+			{
+				"date": "2020-04-30T12:00:00+01:00",
+				"id": "my-little-pony?sid=85312",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00400_my_little_pony_01._0055.jpg?itok=1Z3QBOTD",
+				"mediaId": "BTA00400_My_little_Pony_01",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2020-04-30T12:00:00+01:00 id: my-little-pony?sid=85312",
+				"title": "Vinalag er sum gandur I",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=85312"
+			},
+			{
+				"date": "2020-05-07T12:00:00+01:00",
+				"id": "my-little-pony?sid=85575",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp1.png?itok=uu6IrzYo",
+				"mediaId": "My_little_pony_02",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2020-05-07T12:00:00+01:00 id: my-little-pony?sid=85575",
+				"title": "Vinalag er sum gandur II",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=85575"
+			},
+			{
+				"date": "2020-11-05T12:00:00+00:00",
+				"id": "my-little-pony?sid=115849",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp27.png?itok=0D9nFEsN",
+				"mediaId": "My_little_Pony_27",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2020-11-05T12:00:00+00:00 id: my-little-pony?sid=115849",
+				"title": "Samljóð vendir aftur I",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=115849"
+			},
+			{
+				"date": "2020-11-17T17:00:00+00:00",
+				"id": "my-little-pony?sid=116421",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp28.png?itok=7hOWmcmA",
+				"mediaId": "My_little_Pony_28",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2020-11-17T17:00:00+00:00 id: my-little-pony?sid=116421",
+				"title": "Samljóð vendir aftur II",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=116421"
+			},
+			{
+				"date": "2020-11-19T12:00:00+00:00",
+				"id": "my-little-pony?sid=116423",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp29.png?itok=edclpRCQ",
+				"mediaId": "My_little_Pony_29",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2020-11-19T12:00:00+00:00 id: my-little-pony?sid=116423",
+				"title": "Týðandi læra",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=116423"
+			},
+			{
+				"date": "2020-11-26T12:00:00+00:00",
+				"id": "my-little-pony?sid=116764",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp30.png?itok=Sw5fuI7_",
+				"mediaId": "My_little_Pony_30",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2020-11-26T12:00:00+00:00 id: my-little-pony?sid=116764",
+				"title": "Mánamyrkur",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=116764"
+			},
+			{
+				"date": "2021-01-14T10:00:00+00:00",
+				"id": "my-little-pony?sid=118904",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp32_0.png?itok=cvct-k9p",
+				"mediaId": "My_little_Pony_32",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2021-01-14T10:00:00+00:00 id: my-little-pony?sid=118904",
+				"title": "Kútikopparnir",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=118904"
+			},
+			{
+				"date": "2021-01-14T10:30:00+00:00",
+				"id": "my-little-pony?sid=118909",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp33.png?itok=YepZhOhC",
+				"mediaId": "My_little_Pony_33",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2021-01-14T10:30:00+00:00 id: my-little-pony?sid=118909",
+				"title": "Má besta kelidjórið vinna",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=118909"
+			},
+			{
+				"date": "2021-02-15T13:00:00+00:00",
+				"id": "my-little-pony?sid=120336",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp33.png?itok=YepZhOhC",
+				"mediaId": "My_little_Pony_34",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2021-02-15T13:00:00+00:00 id: my-little-pony?sid=120336",
+				"title": "Gátuføra vælgeriryssan",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=120336"
+			},
+			{
+				"date": "2021-02-15T13:00:00+00:00",
+				"id": "my-little-pony?sid=120337",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp36.png?itok=U7rw5x7E",
+				"mediaId": "My_little_Pony_36",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2021-02-15T13:00:00+00:00 id: my-little-pony?sid=120337",
+				"title": "Gátan um grammleikan",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=120337"
+			},
+			{
+				"date": "2021-02-15T13:05:00+00:00",
+				"id": "my-little-pony?sid=120338",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp37.png?itok=41n2bsw6",
+				"mediaId": "My_little_Pony_37",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2021-02-15T13:05:00+00:00 id: my-little-pony?sid=120338",
+				"title": "Familjutakkardagur",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=120338"
+			},
+			{
+				"date": "2022-06-16T14:03:00+01:00",
+				"id": "my-little-pony?sid=141058",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp31.png?itok=FyMZMarp",
+				"mediaId": "My_little_Pony_31",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2022-06-16T14:03:00+01:00 id: my-little-pony?sid=141058",
+				"title": "Systrakappingin",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=141058"
+			},
+			{
+				"date": "2022-06-16T14:11:00+01:00",
+				"id": "my-little-pony?sid=141060",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/pp123.png?itok=EDaA0Trz",
+				"mediaId": "My_little_Pony_35",
+				"showTitle": "My little pony",
+				"sortKey": "date: 2022-06-16T14:11:00+01:00 id: my-little-pony?sid=141060",
+				"title": "Ker og eliter",
+				"url": "https://kvf.fo/vit/sending/sv/my-little-pony?sid=141060"
+			}
+		]
+	},
+	{
 		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/orrusta-mynd-podcast.jpg?itok=NUgrJd-f",
 		"title": "Orrusta",
 		"url": "https://kvf.fo/vit/sending/sv/orrusta",
@@ -6321,6 +7781,103 @@
 		]
 	},
 	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/otruligdyr.png?itok=EFUB--GZ",
+		"title": "Ótrúlig dýr",
+		"url": "https://kvf.fo/vit/sending/sv/otrulig-dyr",
+		"episodes": [
+			{
+				"date": "2021-09-03T11:17:00+01:00",
+				"id": "otrulig-dyr?sid=128147",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/otruligggg.png?itok=VBhj4agl",
+				"mediaId": "BTA00588_UT440_1_Otrulig_dyr_BBC",
+				"showTitle": "Ótrúlig dýr",
+				"sortKey": "date: 2021-09-03T11:17:00+01:00 id: otrulig-dyr?sid=128147",
+				"title": "Ræðandi dýr",
+				"url": "https://kvf.fo/vit/sending/sv/otrulig-dyr?sid=128147"
+			},
+			{
+				"date": "2021-09-14T15:00:00+01:00",
+				"id": "otrulig-dyr?sid=128148",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/otrulig_dyr_myn_2.png?itok=PU3uKvUd",
+				"mediaId": "BTA00589_UT440_2_Otrulig_dyr_BBC",
+				"showTitle": "Ótrúlig dýr",
+				"sortKey": "date: 2021-09-14T15:00:00+01:00 id: otrulig-dyr?sid=128148",
+				"title": "Ítróttastjørnur",
+				"url": "https://kvf.fo/vit/sending/sv/otrulig-dyr?sid=128148"
+			},
+			{
+				"date": "2021-10-05T12:00:00+01:00",
+				"id": "otrulig-dyr?sid=129411",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/otrulig_dyr_6_mynd.png?itok=Wae3XEZL",
+				"mediaId": "BTA00592_UT440_6_Otrulig_dyr_BBC",
+				"showTitle": "Ótrúlig dýr",
+				"sortKey": "date: 2021-10-05T12:00:00+01:00 id: otrulig-dyr?sid=129411",
+				"title": "Bardagadýr",
+				"url": "https://kvf.fo/vit/sending/sv/otrulig-dyr?sid=129411"
+			},
+			{
+				"date": "2021-10-12T12:10:00+01:00",
+				"id": "otrulig-dyr?sid=129793",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/otrulig_dyr_mynd_1_0.png?itok=nqNN2qxq",
+				"mediaId": "BTA00593_UT440_7_Otrulig_dyr_BBC",
+				"showTitle": "Ótrúlig dýr",
+				"sortKey": "date: 2021-10-12T12:10:00+01:00 id: otrulig-dyr?sid=129793",
+				"title": "Tey allarklókastu",
+				"url": "https://kvf.fo/vit/sending/sv/otrulig-dyr?sid=129793"
+			},
+			{
+				"date": "2021-10-19T14:00:00+01:00",
+				"id": "otrulig-dyr?sid=130093",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/otrulig_dyr_7._partur_0.png?itok=pVRQwdM3",
+				"mediaId": "BTA00594_UT440_8_Otrulig_dyr_BBC",
+				"showTitle": "Ótrúlig dýr",
+				"sortKey": "date: 2021-10-19T14:00:00+01:00 id: otrulig-dyr?sid=130093",
+				"title": "Tey uppreistrarfúsu",
+				"url": "https://kvf.fo/vit/sending/sv/otrulig-dyr?sid=130093"
+			},
+			{
+				"date": "2021-10-28T10:35:00+01:00",
+				"id": "otrulig-dyr?sid=130500",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/otrulig_dyr_mynd_9.png?itok=xok8IZhG",
+				"mediaId": "BTA00595_UT440_9_Otrulig_dyr_BBC",
+				"showTitle": "Ótrúlig dýr",
+				"sortKey": "date: 2021-10-28T10:35:00+01:00 id: otrulig-dyr?sid=130500",
+				"title": "Toymini",
+				"url": "https://kvf.fo/vit/sending/sv/otrulig-dyr?sid=130500"
+			},
+			{
+				"date": "2021-11-02T12:00:00+00:00",
+				"id": "otrulig-dyr?sid=130765",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/otrulig_dyr_mynd_10.png?itok=XuO1CzAo",
+				"mediaId": "BTA00596_UT440_10_Otrulig_dyr_BBC",
+				"showTitle": "Ótrúlig dýr",
+				"sortKey": "date: 2021-11-02T12:00:00+00:00 id: otrulig-dyr?sid=130765",
+				"title": "Endaliga úrvalið",
+				"url": "https://kvf.fo/vit/sending/sv/otrulig-dyr?sid=130765"
+			},
+			{
+				"date": "2026-05-18T14:05:00+01:00",
+				"id": "otrulig-dyr?sid=128810",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/otrulig_dyr_3_mynd.png?itok=gY17ikDs",
+				"mediaId": "BTA00590_UT440_3_Otrulig_dyr_BBC",
+				"showTitle": "Ótrúlig dýr",
+				"sortKey": "date: 2026-05-18T14:05:00+01:00 id: otrulig-dyr?sid=128810",
+				"title": "Tey harðbalnu",
+				"url": "https://kvf.fo/vit/sending/sv/otrulig-dyr?sid=128810"
+			},
+			{
+				"date": "2026-05-18T14:10:00+01:00",
+				"id": "otrulig-dyr?sid=129193",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/otrulig_dyr_mynd_4.png?itok=UiXLJo3B",
+				"mediaId": "BTA00591_UT440_4_Otrulig_dyr_BBC",
+				"showTitle": "Ótrúlig dýr",
+				"sortKey": "date: 2026-05-18T14:10:00+01:00 id: otrulig-dyr?sid=129193",
+				"title": "Serskøltar",
+				"url": "https://kvf.fo/vit/sending/sv/otrulig-dyr?sid=129193"
+			}
+		]
+	},
+	{
 		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/pelle_svanslos_pressbild_1_csf_studios.jpeg?itok=xhzzbbrJ",
 		"title": "Palli Halaleysi",
 		"url": "https://kvf.fo/vit/sending/sv/palli-halaleysi",
@@ -6580,7 +8137,7 @@
 				"date": "2007-04-06T16:00:00+01:00",
 				"id": "rogvi-og-drekin?sid=16560",
 				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
-				"mediaId": "ROD00002",
+				"mediaId": "ROD00002_BL1469_06042007",
 				"showTitle": "Rógvi og drekin",
 				"sortKey": "date: 2007-04-06T16:00:00+01:00 id: rogvi-og-drekin?sid=16560",
 				"title": "Rógvi og drekin (2:22)",
@@ -6590,7 +8147,7 @@
 				"date": "2007-04-13T16:00:00+01:00",
 				"id": "rogvi-og-drekin?sid=16559",
 				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
-				"mediaId": "ROD00003",
+				"mediaId": "ROD00003_BL1469_13042007",
 				"showTitle": "Rógvi og drekin",
 				"sortKey": "date: 2007-04-13T16:00:00+01:00 id: rogvi-og-drekin?sid=16559",
 				"title": "Rógvi og drekin (3:22)",
@@ -6600,7 +8157,7 @@
 				"date": "2007-04-20T16:00:00+01:00",
 				"id": "rogvi-og-drekin?sid=16558",
 				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
-				"mediaId": "ROD00004",
+				"mediaId": "ROD00004_BL1469_20042007",
 				"showTitle": "Rógvi og drekin",
 				"sortKey": "date: 2007-04-20T16:00:00+01:00 id: rogvi-og-drekin?sid=16558",
 				"title": "Rógvi og drekin (4:22)",
@@ -6610,7 +8167,7 @@
 				"date": "2007-04-27T16:00:00+01:00",
 				"id": "rogvi-og-drekin?sid=16557",
 				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
-				"mediaId": "ROD00005",
+				"mediaId": "ROD00005_BL1469_27042007",
 				"showTitle": "Rógvi og drekin",
 				"sortKey": "date: 2007-04-27T16:00:00+01:00 id: rogvi-og-drekin?sid=16557",
 				"title": "Rógvi og drekin (5:22)",
@@ -6620,7 +8177,7 @@
 				"date": "2007-05-04T16:00:00+01:00",
 				"id": "rogvi-og-drekin?sid=16556",
 				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
-				"mediaId": "ROD00006",
+				"mediaId": "ROD00006_BL1469_04052007",
 				"showTitle": "Rógvi og drekin",
 				"sortKey": "date: 2007-05-04T16:00:00+01:00 id: rogvi-og-drekin?sid=16556",
 				"title": "Rógvi og drekin (6:22)",
@@ -6630,7 +8187,7 @@
 				"date": "2007-05-11T16:15:00+01:00",
 				"id": "rogvi-og-drekin?sid=16555",
 				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
-				"mediaId": "ROD00007",
+				"mediaId": "ROD00003_BL1469_13042007",
 				"showTitle": "Rógvi og drekin",
 				"sortKey": "date: 2007-05-11T16:15:00+01:00 id: rogvi-og-drekin?sid=16555",
 				"title": "Rógvi og drekin (7:22)",
@@ -6640,7 +8197,7 @@
 				"date": "2007-05-18T16:15:00+01:00",
 				"id": "rogvi-og-drekin?sid=16554",
 				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/06ed7782ef3d8cae0f373ead379bb379.png?itok=HVnaQngL",
-				"mediaId": "ROD00008",
+				"mediaId": "ROD00008_BL1470_18052007",
 				"showTitle": "Rógvi og drekin",
 				"sortKey": "date: 2007-05-18T16:15:00+01:00 id: rogvi-og-drekin?sid=16554",
 				"title": "Rógvi og drekin (8:22)",
@@ -8154,6 +9711,36 @@
 				"sortKey": "date: 2023-10-03T08:00:00+01:00 id: smaborn?sid=162240",
 				"title": "Smábørn 2, 8. partur",
 				"url": "https://kvf.fo/vit/sending/sv/smaborn?sid=162240"
+			},
+			{
+				"date": "2026-10-08T13:26:00+01:00",
+				"id": "smaborn?sid=214490",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00612_bl1804_smaborn_1_05092023_0061.jpg?itok=1d75ts8m",
+				"mediaId": "BTA00728_SMABORN_S3_EP01",
+				"showTitle": "Smábørn",
+				"sortKey": "date: 2026-10-08T13:26:00+01:00 id: smaborn?sid=214490",
+				"title": "Smábørn 3.1",
+				"url": "https://kvf.fo/vit/sending/sv/smaborn?sid=214490"
+			},
+			{
+				"date": "2026-10-08T13:33:00+01:00",
+				"id": "smaborn?sid=214491",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00614_bl1804_smaborn_3_19092023_0067.jpg?itok=_wSmxQwQ",
+				"mediaId": "BTA00730_SMABORN_S3_EP02",
+				"showTitle": "Smábørn",
+				"sortKey": "date: 2026-10-08T13:33:00+01:00 id: smaborn?sid=214491",
+				"title": "Smábørn 3.2",
+				"url": "https://kvf.fo/vit/sending/sv/smaborn?sid=214491"
+			},
+			{
+				"date": "2026-10-08T13:33:00+01:00",
+				"id": "smaborn?sid=214492",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bta00615_bl1804_smaborn_4_26092023_0066.jpg?itok=VzFnOdCc",
+				"mediaId": "BTA00731_SMABORN_S3_EP03",
+				"showTitle": "Smábørn",
+				"sortKey": "date: 2026-10-08T13:33:00+01:00 id: smaborn?sid=214492",
+				"title": "Smábørn 3.3",
+				"url": "https://kvf.fo/vit/sending/sv/smaborn?sid=214492"
 			}
 		]
 	},
@@ -8371,6 +9958,36 @@
 				"sortKey": "date: 2026-04-16T16:30:00+01:00 id: snipp-snapp?sid=207163",
 				"title": "Snipp snapp",
 				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=207163"
+			},
+			{
+				"date": "2026-10-14T14:17:00+01:00",
+				"id": "snipp-snapp?sid=214767",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/herborg_og_roskva.png?itok=GQ2nQt7V",
+				"mediaId": "SNI00383_Snipp_snapp_2026_Ep01",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-10-14T14:17:00+01:00 id: snipp-snapp?sid=214767",
+				"title": "Snipp Snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=214767"
+			},
+			{
+				"date": "2026-10-28T09:50:00+00:00",
+				"id": "snipp-snapp?sid=215501",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/louisa_bjorg_og_mona.png?itok=1itgkRlC",
+				"mediaId": "SNI00385_BL1851_Snipp_snapp_3_28102026",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: 2026-10-28T09:50:00+00:00 id: snipp-snapp?sid=215501",
+				"title": "Snipp Snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=215501"
+			},
+			{
+				"date": "zzzzzzzzzzzzzzzzzzzzzzzzz",
+				"id": "snipp-snapp?sid=215150",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/roskva_og_louisa_bjorg.png?itok=StNHTmgM",
+				"mediaId": "SNI00384_BL1851_Snipp_snapp_2_21102026",
+				"showTitle": "Snipp Snapp",
+				"sortKey": "date: zzzzzzzzzzzzzzzzzzzzzzzzz id: snipp-snapp?sid=215150",
+				"title": "Snipp Snapp",
+				"url": "https://kvf.fo/vit/sending/sv/snipp-snapp?sid=215150"
 			}
 		]
 	},
@@ -8866,6 +10483,193 @@
 		]
 	},
 	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/uki.jpg?itok=BOVOPb5d",
+		"title": "Uki",
+		"url": "https://kvf.fo/node/157942",
+		"episodes": [
+			{
+				"date": "2023-06-01T08:00:00+01:00",
+				"id": "157942?sid=158049",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_1_0055.jpg?itok=njnkIv1D",
+				"mediaId": "BL1613_UKI_1",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-01T08:00:00+01:00 id: 157942?sid=158049",
+				"title": "Hvar er kakan? ",
+				"url": "https://kvf.fo/node/157942?sid=158049"
+			},
+			{
+				"date": "2023-06-01T08:00:00+01:00",
+				"id": "157942?sid=158051",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_2_0053.jpg?itok=3TRBjjVq",
+				"mediaId": "BL1613_UKI_2",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-01T08:00:00+01:00 id: 157942?sid=158051",
+				"title": "Ballónin",
+				"url": "https://kvf.fo/node/157942?sid=158051"
+			},
+			{
+				"date": "2023-06-01T08:00:00+01:00",
+				"id": "157942?sid=158053",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_3_0057.jpg?itok=VzmotMT5",
+				"mediaId": "BL1613_UKI_3",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-01T08:00:00+01:00 id: 157942?sid=158053",
+				"title": "Skjaldbøka í neyð",
+				"url": "https://kvf.fo/node/157942?sid=158053"
+			},
+			{
+				"date": "2023-06-01T08:00:00+01:00",
+				"id": "157942?sid=158055",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_4_0051.jpg?itok=KEEqRfj6",
+				"mediaId": "BL1613_UKI_4",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-01T08:00:00+01:00 id: 157942?sid=158055",
+				"title": "Glað blóma",
+				"url": "https://kvf.fo/node/157942?sid=158055"
+			},
+			{
+				"date": "2023-06-01T08:00:00+01:00",
+				"id": "157942?sid=158057",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_5_0054.jpg?itok=pzOTGasr",
+				"mediaId": "BL1613_UKI_5",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-01T08:00:00+01:00 id: 157942?sid=158057",
+				"title": "Skýggj snorksvevur",
+				"url": "https://kvf.fo/node/157942?sid=158057"
+			},
+			{
+				"date": "2023-06-01T08:00:00+01:00",
+				"id": "157942?sid=158059",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_6_0066.jpg?itok=vlLxe90I",
+				"mediaId": "BL1613_UKI_6",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-01T08:00:00+01:00 id: 157942?sid=158059",
+				"title": "Hvar er bólturin?",
+				"url": "https://kvf.fo/node/157942?sid=158059"
+			},
+			{
+				"date": "2023-06-01T08:00:00+01:00",
+				"id": "157942?sid=158065",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_9_0054.jpg?itok=eTy0L3An",
+				"mediaId": "BL1613_UKI_9",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-01T08:00:00+01:00 id: 157942?sid=158065",
+				"title": "Uki og Kanin hava dálkað seg",
+				"url": "https://kvf.fo/node/157942?sid=158065"
+			},
+			{
+				"date": "2023-06-01T08:00:00+01:00",
+				"id": "157942?sid=158067",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_10_0071.jpg?itok=ze4qvw9Q",
+				"mediaId": "BL1613_UKI_10",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-01T08:00:00+01:00 id: 157942?sid=158067",
+				"title": "Atjuu!",
+				"url": "https://kvf.fo/node/157942?sid=158067"
+			},
+			{
+				"date": "2023-06-07T08:00:00+01:00",
+				"id": "157942?sid=158069",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_11_0065.jpg?itok=n3YKDIcb",
+				"mediaId": "BL1613_UKI_11",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-07T08:00:00+01:00 id: 157942?sid=158069",
+				"title": "Regnskjólið",
+				"url": "https://kvf.fo/node/157942?sid=158069"
+			},
+			{
+				"date": "2023-06-14T08:00:00+01:00",
+				"id": "157942?sid=158070",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_12_0052.jpg?itok=DvI0pM1e",
+				"mediaId": "BL1613_UKI_12",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-14T08:00:00+01:00 id: 157942?sid=158070",
+				"title": "Fótaspor",
+				"url": "https://kvf.fo/node/157942?sid=158070"
+			},
+			{
+				"date": "2023-06-21T08:00:00+01:00",
+				"id": "157942?sid=158071",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_13_0058.jpg?itok=KDsITHJ8",
+				"mediaId": "BL1613_UKI_13",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-21T08:00:00+01:00 id: 157942?sid=158071",
+				"title": "Kanin vil á flog",
+				"url": "https://kvf.fo/node/157942?sid=158071"
+			},
+			{
+				"date": "2023-06-28T08:00:00+01:00",
+				"id": "157942?sid=158074",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_14_0059.jpg?itok=50fw5UCb",
+				"mediaId": "BL1613_UKI_14",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-28T08:00:00+01:00 id: 157942?sid=158074",
+				"title": "Brúgvin",
+				"url": "https://kvf.fo/node/157942?sid=158074"
+			},
+			{
+				"date": "2023-07-05T08:00:00+01:00",
+				"id": "157942?sid=158075",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_15_0061.jpg?itok=Mk_-Rfd5",
+				"mediaId": "BL1613_UKI_15",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-07-05T08:00:00+01:00 id: 157942?sid=158075",
+				"title": "Skuggin",
+				"url": "https://kvf.fo/node/157942?sid=158075"
+			},
+			{
+				"date": "2023-07-12T08:00:00+01:00",
+				"id": "157942?sid=158076",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_16_0111_0.jpg?itok=kZ5KTKYZ",
+				"mediaId": "BL1613_UKI_16",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-07-12T08:00:00+01:00 id: 157942?sid=158076",
+				"title": "Smáttan",
+				"url": "https://kvf.fo/node/157942?sid=158076"
+			},
+			{
+				"date": "2023-07-19T08:00:00+01:00",
+				"id": "157942?sid=158077",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_17_0053.jpg?itok=JWnl3MmD",
+				"mediaId": "BL1613_UKI_17",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-07-19T08:00:00+01:00 id: 157942?sid=158077",
+				"title": "Krógva og blunda",
+				"url": "https://kvf.fo/node/157942?sid=158077"
+			},
+			{
+				"date": "2023-07-26T08:00:00+01:00",
+				"id": "157942?sid=158078",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_18_0060.jpg?itok=80BWSOWn",
+				"mediaId": "BL1613_UKI_18",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-07-26T08:00:00+01:00 id: 157942?sid=158078",
+				"title": "Uki vil eisini hava eitt skjøldur",
+				"url": "https://kvf.fo/node/157942?sid=158078"
+			},
+			{
+				"date": "2023-08-02T08:00:00+01:00",
+				"id": "157942?sid=158080",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_19_0048.jpg?itok=WncAZxuV",
+				"mediaId": "BL1613_UKI_19",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-08-02T08:00:00+01:00 id: 157942?sid=158080",
+				"title": "Russjibanin",
+				"url": "https://kvf.fo/node/157942?sid=158080"
+			},
+			{
+				"date": "2023-08-09T08:00:00+01:00",
+				"id": "157942?sid=158082",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_20_0056.jpg?itok=m_fA0Pj5",
+				"mediaId": "BL1613_UKI_20",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-08-09T08:00:00+01:00 id: 157942?sid=158082",
+				"title": "Tað horvna súreplið",
+				"url": "https://kvf.fo/node/157942?sid=158082"
+			}
+		]
+	},
+	{
 		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/e809d21dc506ebf3225d6a07c0e8df09.png?itok=uljdJ0DX",
 		"title": "Vaksa vaksa",
 		"url": "https://kvf.fo/vit/sending/sv/vaksa-vaksa",
@@ -8939,6 +10743,93 @@
 				"sortKey": "date: 2011-11-25T15:30:00+00:00 id: vaksa-vaksa?sid=16654",
 				"title": "Vaksa vaksa (7:7)",
 				"url": "https://kvf.fo/vit/sending/sv/vaksa-vaksa?sid=16654"
+			}
+		]
+	},
+	{
+		"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large_2/public/screenshot_2026-09-18_125812.png?itok=6CQs-mGX",
+		"title": "Ven við Brá",
+		"url": "https://kvf.fo/vit/sending/sv/ven-vid-bra",
+		"episodes": [
+			{
+				"date": "2026-09-18T09:24:00+01:00",
+				"id": "ven-vid-bra?sid=213454",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2026-09-18_125812.png?itok=gCv-C-iT",
+				"mediaId": "01_Avleveing_moti_veggi",
+				"showTitle": "Ven við Brá",
+				"sortKey": "date: 2026-09-18T09:24:00+01:00 id: ven-vid-bra?sid=213454",
+				"title": "Avlevering móti veggi 1:8",
+				"url": "https://kvf.fo/vit/sending/sv/ven-vid-bra?sid=213454"
+			},
+			{
+				"date": "2026-09-18T09:26:00+01:00",
+				"id": "ven-vid-bra?sid=213455",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2026-09-18_125812.png?itok=gCv-C-iT",
+				"mediaId": "02_Avlevering_vid_vending",
+				"showTitle": "Ven við Brá",
+				"sortKey": "date: 2026-09-18T09:26:00+01:00 id: ven-vid-bra?sid=213455",
+				"title": "Avlevering við vending 2:8",
+				"url": "https://kvf.fo/vit/sending/sv/ven-vid-bra?sid=213455"
+			},
+			{
+				"date": "2026-09-18T09:30:00+01:00",
+				"id": "ven-vid-bra?sid=213456",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2026-09-18_125812.png?itok=gCv-C-iT",
+				"mediaId": "03_driblaskjott",
+				"showTitle": "Ven við Brá",
+				"sortKey": "date: 2026-09-18T09:30:00+01:00 id: ven-vid-bra?sid=213456",
+				"title": "Dribla skjótt 3:8",
+				"url": "https://kvf.fo/vit/sending/sv/ven-vid-bra?sid=213456"
+			},
+			{
+				"date": "2026-09-18T09:33:00+01:00",
+				"id": "ven-vid-bra?sid=213457",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2026-09-18_125812.png?itok=gCv-C-iT",
+				"mediaId": "04_Dripblimynstur",
+				"showTitle": "Ven við Brá",
+				"sortKey": "date: 2026-09-18T09:33:00+01:00 id: ven-vid-bra?sid=213457",
+				"title": "Driblimynstur 4:8",
+				"url": "https://kvf.fo/vit/sending/sv/ven-vid-bra?sid=213457"
+			},
+			{
+				"date": "2026-09-18T09:36:00+01:00",
+				"id": "ven-vid-bra?sid=213458",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2026-09-18_125812.png?itok=gCv-C-iT",
+				"mediaId": "05_Halvtliggjandi_vristsparkl",
+				"showTitle": "Ven við Brá",
+				"sortKey": "date: 2026-09-18T09:36:00+01:00 id: ven-vid-bra?sid=213458",
+				"title": "Hálvtliggjandi vristspark 5:8",
+				"url": "https://kvf.fo/vit/sending/sv/ven-vid-bra?sid=213458"
+			},
+			{
+				"date": "2026-09-18T09:37:00+01:00",
+				"id": "ven-vid-bra?sid=213459",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2026-09-18_125812.png?itok=gCv-C-iT",
+				"mediaId": "06_Jongulera_Skalla",
+				"showTitle": "Ven við Brá",
+				"sortKey": "date: 2026-09-18T09:37:00+01:00 id: ven-vid-bra?sid=213459",
+				"title": "Jonglera og skalla 6:8",
+				"url": "https://kvf.fo/vit/sending/sv/ven-vid-bra?sid=213459"
+			},
+			{
+				"date": "2026-09-18T09:39:00+01:00",
+				"id": "ven-vid-bra?sid=213460",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2026-09-18_125812.png?itok=gCv-C-iT",
+				"mediaId": "07_Skalla",
+				"showTitle": "Ven við Brá",
+				"sortKey": "date: 2026-09-18T09:39:00+01:00 id: ven-vid-bra?sid=213460",
+				"title": "Skalla 7:8",
+				"url": "https://kvf.fo/vit/sending/sv/ven-vid-bra?sid=213460"
+			},
+			{
+				"date": "2026-09-18T09:40:00+01:00",
+				"id": "ven-vid-bra?sid=213463",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/screenshot_2026-09-18_125812.png?itok=gCv-C-iT",
+				"mediaId": "08_Skjotleikavenjing",
+				"showTitle": "Ven við Brá",
+				"sortKey": "date: 2026-09-18T09:40:00+01:00 id: ven-vid-bra?sid=213463",
+				"title": "Skjótleikavenjing 8:8",
+				"url": "https://kvf.fo/vit/sending/sv/ven-vid-bra?sid=213463"
 			}
 		]
 	},
