@@ -8,7 +8,7 @@ export default [
 			'dist/**',
 			'.svelte-kit/**',
 			'downloads/**',
-			'public/js/vendor/**',
+			'public/vendor/**',
 			'public/assets/shows.json',
 			'scripts/**/*.ts',
 			'package-lock.json',
@@ -17,7 +17,7 @@ export default [
 	},
 	js.configs.recommended,
 	{
-		files: ['public/js/**/*.js'],
+		files: ['public/core/**/*.js', 'public/pages/**/*.js'],
 		languageOptions: {
 			ecmaVersion: 5,
 			sourceType: 'script',

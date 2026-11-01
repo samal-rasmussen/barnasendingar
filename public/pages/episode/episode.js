@@ -3,21 +3,23 @@
 	'use strict';
 
 	var BS = /** @type {any} */ (window).BS;
-	BS.views.episode = BS.views.episode || {};
+	var page = /** @type {any} */ ({});
+	BS.pages.episode = page;
 
-	BS.views.episode.render = function (root, show, episode) {
-		var section;
-		var header;
-		var backButton;
-		var heading;
-		var title;
-		var context;
-		var playerWrap;
-		var video;
-		var fullscreenButton;
-		var qualityControl;
-		var qualityLabel;
-		var qualitySelect;
+	BS.templates.register('/pages/episode/episode.html');
+
+	/**
+	 * @param {HTMLElement} root
+	 * @param {*} show
+	 * @param {*} episode
+	 * @returns {Function} cleanup, called when leaving the page
+	 */
+	page.render = function (root, show, episode) {
+		var view = BS.templates.clone('episode-page');
+		var context = view.refs.episodeTitle;
+		var playerWrap = view.refs.playerWrap;
+		var video = /** @type {HTMLVideoElement} */ (view.refs.video);
+		var qualitySelect = /** @type {HTMLSelectElement} */ (view.refs.quality);
 		var hls = null;
 		var currentEpisode = episode;
 		var currentIndex = BS.data.getEpisodeIndex(show, episode);
@@ -43,65 +45,29 @@
 			document.title = nextEpisode.title + ' - ' + show.title + ' - Barnasendingar';
 			context.textContent = nextEpisode.title;
 			video.poster = nextEpisode.img;
-			BS.views.episode.setQualityOptions(qualitySelect, []);
+			page.setQualityOptions(qualitySelect, []);
 			qualitySelect.onchange = null;
-			hls = BS.views.episode.attachVideo(video, qualitySelect, nextEpisode.mediaId);
+			hls = page.attachVideo(video, qualitySelect, nextEpisode.mediaId);
 		}
 
 		BS.util.clearElement(root);
 
-		section = BS.util.el('div', 'episode');
-		header = BS.util.el('div', 'episode-header');
-		backButton = /** @type {HTMLButtonElement} */ (BS.util.el('button', 'icon', '⇦'));
-		heading = BS.util.el('div', 'episode-heading');
-		title = BS.util.el('h1', '', show.title);
-		context = BS.util.el('p', '', episode.title);
-		playerWrap = BS.util.el('div', 'player-wrap');
-		video = /** @type {HTMLVideoElement} */ (BS.util.el('video', 'player-video'));
-		fullscreenButton = /** @type {HTMLButtonElement} */ (
-			BS.util.el('button', 'icon fullscreen-button')
-		);
-		qualityControl = BS.util.el('div', 'quality-control');
-		qualityLabel = BS.util.el('label', '', 'Góðska');
-		qualitySelect = /** @type {HTMLSelectElement} */ (BS.util.el('select'));
+		view.refs.showTitle.textContent = show.title;
+		context.textContent = episode.title;
 
-		backButton.onclick = function () {
+		view.refs.back.onclick = function () {
 			BS.router.goToShow(show.title);
 		};
-
-		fullscreenButton.title = 'Fullur skíggi';
-		fullscreenButton.setAttribute('aria-label', 'Fullur skíggi');
-		fullscreenButton.appendChild(BS.views.episode.createFullscreenIcon());
-		fullscreenButton.onclick = function () {
+		view.refs.fullscreen.onclick = function () {
 			BS.util.requestFullscreen(video);
 		};
 
-		video.controls = true;
-		video.autoplay = true;
-		video.preload = 'metadata';
-		video.setAttribute('playsinline', 'playsinline');
-		video.setAttribute('webkit-playsinline', 'webkit-playsinline');
-
-		qualityLabel.setAttribute('for', 'quality-selector');
-		qualitySelect.id = 'quality-selector';
-
-		heading.appendChild(title);
-		heading.appendChild(context);
-		header.appendChild(backButton);
-		header.appendChild(heading);
-		header.appendChild(fullscreenButton);
-		qualityControl.appendChild(qualityLabel);
-		qualityControl.appendChild(qualitySelect);
-		header.appendChild(qualityControl);
-		playerWrap.appendChild(video);
-		section.appendChild(header);
-		section.appendChild(playerWrap);
-		root.appendChild(section);
+		root.appendChild(view.fragment);
 
 		if (!episode.mediaId) {
 			document.title = episode.title + ' - ' + show.title + ' - Barnasendingar';
-			BS.views.episode.setQualityOptions(qualitySelect, []);
-			BS.views.episode.renderPlayerMessage(playerWrap, 'Hesin parturin hevur einki video.');
+			page.setQualityOptions(qualitySelect, []);
+			page.renderPlayerMessage(playerWrap, 'Hesin parturin hevur einki video.');
 			return function () {
 				video.pause();
 			};
@@ -131,32 +97,18 @@
 		};
 	};
 
-	BS.views.episode.createFullscreenIcon = function () {
-		var svgNs = 'http://www.w3.org/2000/svg';
-		var svg = document.createElementNS(svgNs, 'svg');
-		var path = document.createElementNS(svgNs, 'path');
-
-		svg.setAttribute('class', 'fullscreen-icon');
-		svg.setAttribute('viewBox', '0 0 24 24');
-		svg.setAttribute('aria-hidden', 'true');
-		svg.setAttribute('focusable', 'false');
-		path.setAttribute('d', 'M3 9V3h6M15 3h6v6M21 15v6h-6M9 21H3v-6');
-		path.setAttribute('fill', 'none');
-		path.setAttribute('stroke', 'currentColor');
-		path.setAttribute('stroke-width', '2.5');
-		path.setAttribute('stroke-linecap', 'round');
-		path.setAttribute('stroke-linejoin', 'round');
-		svg.appendChild(path);
-		return svg;
-	};
-
-	BS.views.episode.renderPlayerMessage = function (playerWrap, message) {
-		var messageElement = BS.util.el('div', 'player-message', message);
+	/**
+	 * @param {HTMLElement} playerWrap
+	 * @param {string} message
+	 */
+	page.renderPlayerMessage = function (playerWrap, message) {
+		var messageView = BS.templates.clone('episode-player-message');
+		messageView.element.textContent = message;
 		BS.util.clearElement(playerWrap);
-		playerWrap.appendChild(messageElement);
+		playerWrap.appendChild(messageView.fragment);
 	};
 
-	BS.views.episode.attachVideo = function (video, qualitySelect, mediaId) {
+	page.attachVideo = function (video, qualitySelect, mediaId) {
 		var playlistUrl =
 			'https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/' +
 			mediaId +
@@ -169,7 +121,7 @@
 			hls.loadSource(playlistUrl);
 			hls.attachMedia(video);
 			hls.on(HlsConstructor.Events.MANIFEST_PARSED, function () {
-				BS.views.episode.setQualityOptions(qualitySelect, hls.levels || []);
+				page.setQualityOptions(qualitySelect, hls.levels || []);
 				qualitySelect.onchange = function () {
 					var selected = parseInt(qualitySelect.value, 10);
 					if (!isNaN(selected)) {
@@ -181,7 +133,7 @@
 			});
 			hls.on(HlsConstructor.Events.ERROR, function (eventName, data) {
 				if (data && data.fatal) {
-					BS.views.episode.handleFatalHlsError(hls, data);
+					page.handleFatalHlsError(hls, data);
 				}
 			});
 			return hls;
@@ -197,14 +149,14 @@
 		}
 
 		qualitySelect.disabled = true;
-		BS.views.episode.renderPlayerMessage(
+		page.renderPlayerMessage(
 			/** @type {HTMLElement} */ (video.parentNode),
 			'Hesin kaga dugir ikki at spæla video.'
 		);
 		return null;
 	};
 
-	BS.views.episode.handleFatalHlsError = function (hls, data) {
+	page.handleFatalHlsError = function (hls, data) {
 		if (data.type === 'networkError') {
 			hls.startLoad();
 			return;
@@ -214,7 +166,7 @@
 		}
 	};
 
-	BS.views.episode.setQualityOptions = function (select, levels) {
+	page.setQualityOptions = function (select, levels) {
 		var autoOption;
 		var i;
 		var option;

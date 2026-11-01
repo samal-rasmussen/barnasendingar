@@ -189,54 +189,28 @@
 		route = BS.router.parse();
 
 		if (route.name === 'home') {
-			cleanup = BS.views.home.render(root);
+			cleanup = BS.pages.home.render(root);
 		} else if (route.name === 'show') {
 			show = BS.data.getShow(route.showTitle);
 			if (show) {
-				cleanup = BS.views.show.render(root, show);
+				cleanup = BS.pages.show.render(root, show);
 			} else {
-				BS.router.renderNotFound(root);
+				BS.pages.notFound.render(root);
 			}
 		} else if (route.name === 'episode') {
 			show = BS.data.getShow(route.showTitle);
 			episode = show ? BS.data.getEpisode(show, route.episodeTitle) : undefined;
 			if (show && episode) {
-				cleanup = BS.views.episode.render(root, show, episode);
+				cleanup = BS.pages.episode.render(root, show, episode);
 			} else {
-				BS.router.renderNotFound(root);
+				BS.pages.notFound.render(root);
 			}
 		} else {
-			BS.router.renderNotFound(root);
+			BS.pages.notFound.render(root);
 		}
 
 		if (typeof cleanup === 'function') {
 			BS.state.cleanupView = cleanup;
 		}
-	};
-
-	/**
-	 * @param {HTMLElement} root
-	 */
-	BS.router.renderNotFound = function (root) {
-		var container;
-		var heading;
-		var message;
-		var button;
-
-		document.title = 'Ikki funnið - Barnasendingar';
-		BS.util.clearElement(root);
-
-		container = BS.util.el('div', 'not-found');
-		heading = BS.util.el('h1', '', 'Ikki funnið');
-		message = BS.util.el('p', '', 'Sendingin ella parturin finst ikki.');
-		button = /** @type {HTMLButtonElement} */ (BS.util.el('button', '', 'Aftur til forsíðuna'));
-		button.onclick = function () {
-			BS.router.goHome();
-		};
-
-		container.appendChild(heading);
-		container.appendChild(message);
-		container.appendChild(button);
-		root.appendChild(container);
 	};
 })(window, document);

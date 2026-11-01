@@ -1,0 +1,47 @@
+<template id="episode-page">
+	<div class="episode">
+		<div class="episode-header">
+			<button class="icon" data-ref="back">⇦</button>
+			<div class="episode-heading">
+				<h1 data-ref="showTitle"></h1>
+				<p data-ref="episodeTitle"></p>
+			</div>
+			<button
+				class="icon fullscreen-button"
+				data-ref="fullscreen"
+				title="Fullur skíggi"
+				aria-label="Fullur skíggi"
+			>
+				<svg class="fullscreen-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+					<path
+						d="M3 9V3h6M15 3h6v6M21 15v6h-6M9 21H3v-6"
+						fill="none"
+						stroke="currentColor"
+						stroke-width="2.5"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					/>
+				</svg>
+			</button>
+			<div class="quality-control">
+				<label for="quality-selector">Góðska</label
+				><select id="quality-selector" data-ref="quality"></select>
+			</div>
+		</div>
+		<div class="player-wrap" data-ref="playerWrap">
+			<video
+				class="player-video"
+				data-ref="video"
+				controls
+				autoplay
+				preload="metadata"
+				playsinline
+				webkit-playsinline
+			></video>
+		</div>
+	</div>
+</template>
+
+<template id="episode-player-message">
+	<div class="player-message"></div>
+</template>

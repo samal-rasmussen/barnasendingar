@@ -13,6 +13,5 @@
 		"moduleResolution": "Node",
 		"lib": ["DOM", "ES5"]
 	},
-	"include": ["public/js/**/*.js", "scripts/shared-types.d.ts"],
-	"exclude": ["public/js/vendor/**"]
+	"include": ["public/core/**/*.js", "public/pages/**/*.js", "scripts/shared-types.d.ts"]
 }

@@ -16,4 +16,4 @@ package-lock.json
 yarn.lock
 
 # Vendored code
-public/js/vendor/
+public/vendor/

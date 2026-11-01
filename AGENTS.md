@@ -16,7 +16,7 @@ The site is live at **https://barnasendingar.vercel.app**. Videos are not rehost
 **The LG TV's browser is roughly Chrome 38 (October 2014).** It is the most important constraint in the project. Everything under `public/` must run on it.
 
 - Read [`docs/chrome38-features.md`](docs/chrome38-features.md) before writing or reviewing runtime code. It lists which JavaScript, HTML and CSS features are and aren't available.
-- Modern desktop browsers will happily run code the TV can't. "Works in my browser" proves nothing about the TV. Rely on the rules below, on ESLint (it parses `public/js` as ES5), and on checking against the feature doc.
+- Modern desktop browsers will happily run code the TV can't. "Works in my browser" proves nothing about the TV. Rely on the rules below, on ESLint (it parses the runtime JS as ES5), and on checking against the feature doc.
 - The TV is driven with a remote, not a mouse. Interactive elements need to be focusable and work with Enter/OK (see `BS.util.onActivate`). Give focus to the main action where it helps, for example the retry button on the load-error screen.
 
 Runtime code rules:
@@ -27,8 +27,8 @@ Runtime code rules:
 - Use `XMLHttpRequest` for loading data.
 - Use helper functions instead of monkey-patching or polyfilling built-ins.
 - CSS must avoid Grid, custom properties, flex `gap`, `aspect-ratio`, `position: sticky`, `place-items`, `color-scheme` and `:is()`/`:where()`/`:has()`. Flexbox is fine.
-- Keep `public/css/grid.css` as its own file.
-- `public/js/vendor/hls.light.min.js` (hls.js 0.14.17, chosen to fit this browser) is vendored third-party code. Lint and type checks skip it.
+- Keep `public/core/grid.css` as its own file.
+- `public/vendor/hls.light.min.js` (hls.js 0.14.17, chosen to fit this browser) is vendored third-party code. Lint and type checks skip it.
 
 The scraper and other tools under `scripts/` run on the developer's machine with modern Node. They are **not** bound by these rules.
 
@@ -45,18 +45,20 @@ The scraper and other tools under `scripts/` run on the developer's machine with
 
 The app is a no-build, framework-free single-page app served from `public/`.
 
-- `public/index.html` loads plain `<script>` tags in order: vendor hls.js, `app.js`, `util.js`, `data.js`, `watched.js`, `router.js`, then the views. It then calls `window.BS.start()`.
-- There is one global namespace, `window.BS`.
-- Show and episode metadata is loaded with XHR from `/assets/shows.json`. The load has a timeout (`BS.data.loadShowsTimeoutMs`). If it fails, an error screen with a "Royn aftur" (retry) button appears.
-- Hash routes are handled in `public/js/router.js`.
+- Code is grouped by page. Shared code lives in `public/core/`. Each page has its own folder under `public/pages/<page>/` holding that page's `.js`, its `.html` templates and, if it has page-specific styles, its `.css`.
+- There are no imports, because the TV has no ES modules. `public/index.html` loads every stylesheet with `<link>` and every script with plain `<script>` tags in order: `vendor/hls.light.min.js`, then `core/` (`app.js`, `util.js`, `data.js`, `watched.js`, `templates.js`, `router.js`), then each page's `.js`. It then calls `window.BS.start()`. A new page needs its `<script>` (and `<link>`, if it has CSS) added there.
+- There is one global namespace, `window.BS`. Each page registers itself as `BS.pages.<name>` with a `render(root, ...)` function. `render` may return a cleanup function that the router calls when leaving the page.
+- **Page HTML** lives in `<template id="...">` elements in the page's `.html` file. Each page script calls `BS.templates.register('/pages/<page>/<page>.html')`. At startup, `BS.templates.load` (`public/core/templates.js`) fetches every registered file with XHR. Pages then call `BS.templates.clone(id)`, which returns `{ fragment, element, refs }`; `refs` maps each element's `data-ref` attribute value to the element. Template ids are global, so prefix them with the page name. Keep structure and static text in the HTML, and use JS only for data, event handlers and showing/hiding parts.
+- At startup, show and episode metadata is loaded with XHR from `/assets/shows.json`, in parallel with the templates. Both loads have timeouts (`BS.data.loadShowsTimeoutMs`, `BS.templates.loadTimeoutMs`). If either fails, an error screen with a "Royn aftur" (retry) button appears. That screen is built in code in `core/app.js`, since it must work without templates.
+- Hash routes are handled in `public/core/router.js`.
 - Video plays as HLS from `vod.kringvarp.fo`. The playlist URL is built from each episode's `mediaId`: `https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/${mediaId}.smil?type=m3u8`.
-- Watch history is stored only in the browser's `localStorage`, under the key `watched`, in the shape `{ [showTitle]: { [episodeSortKey]: true } }` (see `public/js/watched.js`). There are no accounts and no server-side state.
+- Watch history is stored only in the browser's `localStorage`, under the key `watched`, in the shape `{ [showTitle]: { [episodeSortKey]: true } }` (see `public/core/watched.js`). There are no accounts and no server-side state.
 
-The app has three views:
+The app has three main pages, plus a not-found page (`public/pages/not-found/`):
 
-1. **Front page (`#/`):** a grid of every show in `shows.json`, each with its poster and title. Selecting a tile opens the show. See `public/js/views/home.js`.
-2. **Show page (`#/sending/<showTitle>`):** a grid of the show's episodes in JSON order. Finished episodes get a "Sæð" ("watched") overlay. A `Nulstilla "Sæð"` button clears the show's watch history. See `public/js/views/show.js`.
-3. **Episode page (`#/sending/<showTitle>/partur/<episodeTitle>`):** native `<video controls>` driven by hls.js, with a quality selector outside the native controls. It requests fullscreen, marks the episode watched when it ends, and moves on to the next episode. See `public/js/views/episode.js`.
+1. **Front page (`#/`):** a grid of every show in `shows.json`, each with its poster and title. Selecting a tile opens the show. See `public/pages/home/`.
+2. **Show page (`#/sending/<showTitle>`):** a grid of the show's episodes in JSON order. Finished episodes get a "Sæð" ("watched") overlay. A `Nulstilla "Sæð"` button clears the show's watch history. See `public/pages/show/`.
+3. **Episode page (`#/sending/<showTitle>/partur/<episodeTitle>`):** native `<video controls>` driven by hls.js, with a quality selector outside the native controls. It requests fullscreen, marks the episode watched when it ends, and moves on to the next episode. See `public/pages/episode/`.
 
 UI text is in Faroese. Keep new UI strings in Faroese.
 
@@ -66,7 +68,9 @@ UI text is in Faroese. Keep new UI strings in Faroese.
 | ------------------------------ | ------------------------------------------------------------------------------ |
 | `public/`                      | The deployed site. Everything here is served exactly as committed.             |
 | `public/assets/shows.json`     | Scraped catalogue. Generated by the scraper and committed.                     |
-| `public/js/`, `public/css/`    | Runtime app code. Must be Chrome 38-compatible.                                |
+| `public/core/`                 | Shared runtime code and CSS (bootstrap, router, data, templates, base styles). |
+| `public/pages/<page>/`         | One folder per page with its JS, HTML templates and CSS.                       |
+| `public/vendor/`               | Vendored third-party code (hls.js). Not linted or type-checked.                |
 | `scripts/`                     | Modern Node/TypeScript tooling with its own `package.json`.                    |
 | `scripts/scrape.ts`            | KVF metadata scraper that writes `public/assets/shows.json`.                   |
 | `scripts/delete_duplicates.ts` | Removes duplicate episodes (by `sortKey`) from the scraped JSON.               |
@@ -95,8 +99,8 @@ Root `package.json`:
 | Script              | Command                                      | Description                                                          |
 | ------------------- | -------------------------------------------- | -------------------------------------------------------------------- |
 | `serve`             | `npx sirv-cli public --single --port 5173`   | Serves `public/` locally on port 5173.                               |
-| `check`             | `tsc --noEmit`                               | Type-checks the runtime JavaScript in `public/js/` through JSDoc.    |
-| `lint`              | `prettier --check . && eslint .`             | Checks formatting and lints. ESLint parses `public/js` as ES5.       |
+| `check`             | `tsc --noEmit`                               | Type-checks the runtime JavaScript in `public/` through JSDoc.       |
+| `lint`              | `prettier --check . && eslint .`             | Checks formatting and lints. ESLint parses runtime JS as ES5.        |
 | `format`            | `prettier --write .`                         | Formats the repo. Use it on purpose, because it rewrites many files. |
 | `scrape`            | `npm --prefix scripts run scrape`            | Scrapes KVF and refreshes `public/assets/shows.json`.                |
 | `delete-duplicates` | `npm --prefix scripts run delete-duplicates` | Runs only the duplicate cleanup step.                                |
@@ -115,7 +119,7 @@ Root `package.json`:
 
 There is no automated test suite. Before handing off a runtime change:
 
-1. Run `node --run check` and `node --run lint` (or at least `npx eslint public/js` and `npx prettier --check` on the changed files).
+1. Run `node --run check` and `node --run lint` (or at least `npx eslint public` and `npx prettier --check` on the changed files).
 2. Re-read the change against [`docs/chrome38-features.md`](docs/chrome38-features.md). Pay extra attention to built-in methods and CSS properties, which ESLint does not catch.
 3. Run `node --run serve` and click through the affected views in a browser. If port 5173 is already taken by another dev server, the page loads the wrong files. Pick another port with `npx sirv-cli public --single --port <port>`.
 4. If possible, check the change on the TV itself through a Vercel preview deployment.

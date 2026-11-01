@@ -77,8 +77,7 @@ video:focus {
 	outline: 4px auto -webkit-focus-ring-color;
 }
 
-.status-message,
-.not-found {
+.status-message {
 	box-sizing: border-box;
 	width: 100%;
 	max-width: 720px;
@@ -88,8 +87,7 @@ video:focus {
 	text-align: center;
 }
 
-.status-message p,
-.not-found p {
+.status-message p {
 	margin-bottom: 2rem;
 }
 

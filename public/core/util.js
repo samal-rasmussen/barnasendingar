@@ -72,6 +72,19 @@
 	};
 
 	/**
+	 * Adds empty spacer tiles to the end of a grid, so the tiles on the last
+	 * row line up with the rows above instead of being centred.
+	 *
+	 * @param {HTMLElement} grid
+	 */
+	BS.util.addGridSpacers = function (grid) {
+		var i;
+		for (i = 0; i < 12; i += 1) {
+			grid.appendChild(BS.util.el('div', 'grid-spacer'));
+		}
+	};
+
+	/**
 	 * Loads and parses JSON. The callback is called exactly once, with an
 	 * error if the request fails, returns a non-2xx status, cannot be parsed,
 	 * or does not finish within timeoutMs.
@@ -81,6 +94,37 @@
 	 * @param {number=} timeoutMs
 	 */
 	BS.util.getJson = function (url, callback, timeoutMs) {
+		BS.util.getText(
+			url,
+			function (error, text) {
+				var result;
+				if (error) {
+					callback(error);
+					return;
+				}
+				try {
+					result = JSON.parse(text);
+				} catch (parseError) {
+					BS.util.logError('Could not parse JSON from ' + url, parseError);
+					callback(parseError);
+					return;
+				}
+				callback(null, result);
+			},
+			timeoutMs
+		);
+	};
+
+	/**
+	 * Loads a text file. The callback is called exactly once, with an error
+	 * if the request fails, returns a non-2xx status, or does not finish
+	 * within timeoutMs.
+	 *
+	 * @param {string} url
+	 * @param {Function} callback
+	 * @param {number=} timeoutMs
+	 */
+	BS.util.getText = function (url, callback, timeoutMs) {
 		var xhr = new XMLHttpRequest();
 		var finished = false;
 		var timer = null;
@@ -103,19 +147,11 @@
 
 		xhr.open('GET', url, true);
 		xhr.onreadystatechange = function () {
-			var result;
 			if (xhr.readyState !== 4 || finished) {
 				return;
 			}
 			if (xhr.status >= 200 && xhr.status < 300) {
-				try {
-					result = JSON.parse(xhr.responseText);
-				} catch (error) {
-					BS.util.logError('Could not parse JSON from ' + url, error);
-					finish(error);
-					return;
-				}
-				finish(null, result);
+				finish(null, xhr.responseText);
 				return;
 			}
 			finish(new Error('Could not load ' + url));
