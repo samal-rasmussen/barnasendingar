@@ -177,27 +177,6 @@
 	};
 
 	/**
-	 * @param {string} value
-	 * @returns {string}
-	 */
-	BS.util.encodeSegment = function (value) {
-		return encodeURIComponent(value);
-	};
-
-	/**
-	 * @param {string} value
-	 * @returns {string|null}
-	 */
-	BS.util.decodeSegment = function (value) {
-		try {
-			return decodeURIComponent(value);
-		} catch (error) {
-			BS.util.logError('Could not decode route segment: ' + value, error);
-			return null;
-		}
-	};
-
-	/**
 	 * @param {HTMLVideoElement} video
 	 */
 	BS.util.requestFullscreen = function (video) {

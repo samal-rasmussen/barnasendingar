@@ -55,3 +55,12 @@ export const storedWatched = (page: Page) =>
 /** Fires the video's `ended` event, as if the episode played to the end. */
 export const endVideo = (page: Page) =>
 	page.locator('video').evaluate((video) => video.dispatchEvent(new Event('ended')));
+
+/**
+ * Makes the player's fullscreen requests do nothing, for tests that use the
+ * page around the player. Call before page.goto().
+ */
+export const withoutFullscreen = (page: Page) =>
+	page.addInitScript(() => {
+		Element.prototype.requestFullscreen = () => Promise.resolve();
+	});

@@ -18,7 +18,7 @@
 		BS.util.clearElement(root);
 
 		view.refs.home.onclick = function () {
-			BS.router.goHome();
+			BS.router.go('home');
 		};
 
 		root.appendChild(view.fragment);

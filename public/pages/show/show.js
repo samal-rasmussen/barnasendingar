@@ -21,7 +21,7 @@
 
 		view.refs.title.textContent = show.title;
 		view.refs.back.onclick = function () {
-			BS.router.goBackHome();
+			BS.router.back('home');
 		};
 		view.refs.clear.onclick = function () {
 			BS.watched.clearWatched(show);
@@ -43,7 +43,7 @@
 			imageAlt: 'Partur',
 			watched: BS.watched.isWatched(show, episode),
 			onActivate: function () {
-				BS.router.goToEpisode(show.title, episode.title);
+				BS.router.go('episode', { show: show.title, episode: episode.title });
 			}
 		}).element;
 	};

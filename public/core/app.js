@@ -7,7 +7,6 @@
 	current.util = current.util || {};
 	current.data = current.data || {};
 	current.watched = current.watched || {};
-	current.router = current.router || {};
 	current.templates = current.templates || {};
 	current.components = current.components || {};
 	current.pages = current.pages || {};
@@ -20,7 +19,6 @@
 			return;
 		}
 
-		current.state.appElement = app;
 		current.load(app);
 	};
 
@@ -48,6 +46,13 @@
 			}
 			remaining -= 1;
 			if (remaining === 0) {
+				current.router = current.createRouter({
+					root: app,
+					routes: current.routes,
+					notFound: function (root) {
+						return current.pages.notFound.render(root);
+					}
+				});
 				current.router.start();
 			}
 		}

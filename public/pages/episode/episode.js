@@ -63,7 +63,7 @@
 		context.textContent = episode.title;
 
 		view.refs.back.onclick = function () {
-			BS.router.goBackToShow(show.title);
+			BS.router.back('show', { show: show.title });
 		};
 		view.refs.fullscreen.onclick = function () {
 			BS.util.requestFullscreen(video);
@@ -82,16 +82,20 @@
 
 		video.onended = function () {
 			var nextEpisode;
+			var nextParams;
 			BS.watched.setWatched(show, currentEpisode);
 			nextEpisode = show.episodes[currentIndex + 1];
 			if (!nextEpisode) {
 				return;
 			}
-			if (nextEpisode.mediaId && BS.router.replaceEpisodeHashOnly(show.title, nextEpisode.title)) {
+			nextParams = { show: show.title, episode: nextEpisode.title };
+			if (nextEpisode.mediaId) {
+				// Same player, new address: keeps fullscreen (see loadEpisode).
+				BS.router.go('episode', nextParams, { replace: true, render: false });
 				loadEpisode(nextEpisode);
 				return;
 			}
-			BS.router.replaceWithEpisode(show.title, nextEpisode.title);
+			BS.router.go('episode', nextParams, { replace: true });
 		};
 
 		loadEpisode(episode);

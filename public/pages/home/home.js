@@ -33,7 +33,7 @@
 			image: show.img,
 			imageAlt: 'Sending',
 			onActivate: function () {
-				BS.router.goToShow(show.title);
+				BS.router.go('show', { show: show.title });
 			}
 		}).element;
 	};

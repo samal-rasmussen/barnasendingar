@@ -1,4 +1,4 @@
-import { test, expect, tileTitles, qualityOptions } from './app.ts';
+import { test, expect, tileTitles, qualityOptions, withoutFullscreen } from './app.ts';
 
 test('browse from the front page to an episode and back with the remote', async ({ page }) => {
 	await page.goto('/');
@@ -41,11 +41,11 @@ test('the show page back button leads to the front page', async ({ page }) => {
 });
 
 test('back from a show after watching an episode leads to the front page', async ({ page }) => {
+	await withoutFullscreen(page);
 	await page.goto('/');
 	await page.getByRole('button', { name: 'Alfa og Beta' }).click();
 	await page.getByRole('button', { name: 'Partur 2' }).click();
 	await expect(qualityOptions(page)).toHaveCount(3);
-	await page.evaluate(() => document.fullscreenElement && document.exitFullscreen());
 
 	await page.locator('.episode-header button.icon').first().click();
 	await expect(tileTitles(page)).toHaveText(['Partur 1', 'Partur 2', 'Partur 3']);
@@ -54,9 +54,9 @@ test('back from a show after watching an episode leads to the front page', async
 });
 
 test('back buttons stay in the app after opening an episode by its address', async ({ page }) => {
+	await withoutFullscreen(page);
 	await page.goto('/#/sending/Alfa%20og%20Beta/partur/Partur%202');
 	await expect(qualityOptions(page)).toHaveCount(3);
-	await page.evaluate(() => document.fullscreenElement && document.exitFullscreen());
 	const historyLength = await page.evaluate(() => history.length);
 
 	await page.locator('.episode-header button.icon').first().click();
