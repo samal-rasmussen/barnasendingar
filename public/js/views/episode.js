@@ -14,6 +14,7 @@
 		var context;
 		var playerWrap;
 		var video;
+		var fullscreenButton;
 		var qualityControl;
 		var qualityLabel;
 		var qualitySelect;
@@ -21,7 +22,32 @@
 		var currentEpisode = episode;
 		var currentIndex = BS.data.getEpisodeIndex(show, episode);
 
-		document.title = episode.title + ' - ' + show.title + ' - Barnasendingar';
+		function destroyHls() {
+			if (hls && hls.destroy) {
+				hls.destroy();
+			}
+			hls = null;
+		}
+
+		/**
+		 * Plays an episode in the existing video element. Reusing the element
+		 * keeps the player in fullscreen when moving on to the next episode,
+		 * because browsers only allow entering fullscreen from a user gesture.
+		 *
+		 * @param {*} nextEpisode
+		 */
+		function loadEpisode(nextEpisode) {
+			destroyHls();
+			currentEpisode = nextEpisode;
+			currentIndex = BS.data.getEpisodeIndex(show, nextEpisode);
+			document.title = nextEpisode.title + ' - ' + show.title + ' - Barnasendingar';
+			context.textContent = nextEpisode.title;
+			video.poster = nextEpisode.img;
+			BS.views.episode.setQualityOptions(qualitySelect, []);
+			qualitySelect.onchange = null;
+			hls = BS.views.episode.attachVideo(video, qualitySelect, nextEpisode.mediaId);
+		}
+
 		BS.util.clearElement(root);
 
 		section = BS.util.el('div', 'episode');
@@ -32,6 +58,9 @@
 		context = BS.util.el('p', '', episode.title);
 		playerWrap = BS.util.el('div', 'player-wrap');
 		video = /** @type {HTMLVideoElement} */ (BS.util.el('video', 'player-video'));
+		fullscreenButton = /** @type {HTMLButtonElement} */ (
+			BS.util.el('button', 'icon fullscreen-button')
+		);
 		qualityControl = BS.util.el('div', 'quality-control');
 		qualityLabel = BS.util.el('label', '', 'Góðska');
 		qualitySelect = /** @type {HTMLSelectElement} */ (BS.util.el('select'));
@@ -40,22 +69,27 @@
 			BS.router.goToShow(show.title);
 		};
 
+		fullscreenButton.title = 'Fullur skíggi';
+		fullscreenButton.setAttribute('aria-label', 'Fullur skíggi');
+		fullscreenButton.appendChild(BS.views.episode.createFullscreenIcon());
+		fullscreenButton.onclick = function () {
+			BS.util.requestFullscreen(video);
+		};
+
 		video.controls = true;
 		video.autoplay = true;
 		video.preload = 'metadata';
-		video.poster = episode.img;
 		video.setAttribute('playsinline', 'playsinline');
 		video.setAttribute('webkit-playsinline', 'webkit-playsinline');
 
 		qualityLabel.setAttribute('for', 'quality-selector');
 		qualitySelect.id = 'quality-selector';
-		qualitySelect.disabled = true;
-		BS.views.episode.setQualityOptions(qualitySelect, []);
 
 		heading.appendChild(title);
 		heading.appendChild(context);
 		header.appendChild(backButton);
 		header.appendChild(heading);
+		header.appendChild(fullscreenButton);
 		qualityControl.appendChild(qualityLabel);
 		qualityControl.appendChild(qualitySelect);
 		header.appendChild(qualityControl);
@@ -65,6 +99,8 @@
 		root.appendChild(section);
 
 		if (!episode.mediaId) {
+			document.title = episode.title + ' - ' + show.title + ' - Barnasendingar';
+			BS.views.episode.setQualityOptions(qualitySelect, []);
 			BS.views.episode.renderPlayerMessage(playerWrap, 'Hesin parturin hevur einki video.');
 			return function () {
 				video.pause();
@@ -75,21 +111,43 @@
 			var nextEpisode;
 			BS.watched.setWatched(show, currentEpisode);
 			nextEpisode = show.episodes[currentIndex + 1];
-			if (nextEpisode) {
-				BS.router.replaceWithEpisode(show.title, nextEpisode.title);
+			if (!nextEpisode) {
+				return;
 			}
+			if (nextEpisode.mediaId && BS.router.replaceEpisodeHashOnly(show.title, nextEpisode.title)) {
+				loadEpisode(nextEpisode);
+				return;
+			}
+			BS.router.replaceWithEpisode(show.title, nextEpisode.title);
 		};
 
-		hls = BS.views.episode.attachVideo(video, qualitySelect, episode.mediaId);
+		loadEpisode(episode);
 
 		return function () {
 			video.onended = null;
 			video.pause();
+			destroyHls();
 			video.removeAttribute('src');
-			if (hls && hls.destroy) {
-				hls.destroy();
-			}
 		};
+	};
+
+	BS.views.episode.createFullscreenIcon = function () {
+		var svgNs = 'http://www.w3.org/2000/svg';
+		var svg = document.createElementNS(svgNs, 'svg');
+		var path = document.createElementNS(svgNs, 'path');
+
+		svg.setAttribute('class', 'fullscreen-icon');
+		svg.setAttribute('viewBox', '0 0 24 24');
+		svg.setAttribute('aria-hidden', 'true');
+		svg.setAttribute('focusable', 'false');
+		path.setAttribute('d', 'M3 9V3h6M15 3h6v6M21 15v6h-6M9 21H3v-6');
+		path.setAttribute('fill', 'none');
+		path.setAttribute('stroke', 'currentColor');
+		path.setAttribute('stroke-width', '2.5');
+		path.setAttribute('stroke-linecap', 'round');
+		path.setAttribute('stroke-linejoin', 'round');
+		svg.appendChild(path);
+		return svg;
 	};
 
 	BS.views.episode.renderPlayerMessage = function (playerWrap, message) {

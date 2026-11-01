@@ -166,7 +166,16 @@
 	 */
 	BS.util.requestFullscreen = function (video) {
 		var element = /** @type {any} */ (video);
-		var request =
+		var doc = /** @type {any} */ (document);
+		var request;
+		if (
+			(doc.fullscreenElement ||
+				doc.webkitFullscreenElement ||
+				doc.webkitCurrentFullScreenElement) === element
+		) {
+			return;
+		}
+		request =
 			element.requestFullscreen ||
 			element.webkitRequestFullscreen ||
 			element.webkitRequestFullScreen ||

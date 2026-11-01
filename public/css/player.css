@@ -60,6 +60,16 @@
 	background: #000000;
 }
 
+.fullscreen-button {
+	padding-right: 0.5rem;
+}
+
+.fullscreen-icon {
+	display: block;
+	width: 1em;
+	height: 1em;
+}
+
 .quality-control {
 	margin-left: auto;
 	padding: 0.45rem 0.55rem;

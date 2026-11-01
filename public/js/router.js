@@ -85,6 +85,27 @@
 		BS.router.replace(BS.router.episodeHash(showTitle, episodeTitle));
 	};
 
+	/**
+	 * Updates the address to another episode without re-rendering the view.
+	 * Returns false when the browser cannot do that.
+	 *
+	 * @param {string} showTitle
+	 * @param {string} episodeTitle
+	 * @returns {boolean}
+	 */
+	BS.router.replaceEpisodeHashOnly = function (showTitle, episodeTitle) {
+		if (!window.history || !window.history.replaceState) {
+			return false;
+		}
+		BS.state.hasAppNavigation = true;
+		window.history.replaceState(
+			null,
+			document.title,
+			BS.router.episodeHash(showTitle, episodeTitle)
+		);
+		return true;
+	};
+
 	BS.router.goBackOrHome = function () {
 		if (BS.state.hasAppNavigation && window.history && window.history.length > 1) {
 			window.history.back();
