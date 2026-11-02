@@ -1,6 +1,6 @@
 # Component Cleanup Plan
 
-> **Status: planned.** Nothing here is implemented yet. Update the status of each chunk as it lands.
+> **Status: in progress.** Chunk 1 is done. Update the status of each chunk as it lands.
 
 ## Goal
 
@@ -56,6 +56,8 @@ These were settled before writing the plan, or follow from those answers.
 ---
 
 ## Chunk 1: Safety Net
+
+> **Status: done.**
 
 **Why first:** every later chunk adds or moves component and page files, and forgetting to list one in `index.html` is the easiest mistake to make. This chunk is tiny and protects all the others.
 
