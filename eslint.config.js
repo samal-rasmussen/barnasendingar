@@ -20,6 +20,7 @@ export default [
 	{
 		files: [
 			'public/boot/**/*.js',
+			'public/errors/**/*.js',
 			'public/core/**/*.js',
 			'public/components/**/*.js',
 			'public/pages/**/*.js'

@@ -51,6 +51,41 @@
 			.boot-retry:focus {
 				outline: 4px auto -webkit-focus-ring-color;
 			}
+
+			/*
+			 * The error overlay (public/errors/errors.js), shown with ?debug in
+			 * the address. It must work when nothing else has loaded, like the
+			 * boot screens. It never takes focus or clicks.
+			 */
+			.errors-overlay {
+				position: fixed;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				z-index: 1000;
+				max-height: 40%;
+				overflow: hidden;
+				padding: 0.5rem 1rem;
+				font-family: monospace;
+				font-size: 14px;
+				line-height: 18px;
+				color: #ffffff;
+				background: rgba(0, 0, 0, 0.85);
+				pointer-events: none;
+			}
+
+			.errors-info {
+				margin: 0;
+				color: #8ea0ff;
+			}
+
+			.errors-list {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				white-space: pre-wrap;
+				word-wrap: break-word;
+			}
 		</style>
 	</head>
 	<body>
@@ -60,7 +95,12 @@
 			<button type="button" class="boot-retry" id="boot-retry">Royn aftur</button>
 		</div>
 		<main id="app"></main>
+		<div class="errors-overlay" id="errors-overlay" hidden>
+			<p class="errors-info" id="errors-info"></p>
+			<ol class="errors-list" id="errors-list"></ol>
+		</div>
 
+		<script src="/errors/errors.js"></script>
 		<script src="/boot/boot.js"></script>
 		<script src="/vendor/hls.light.min.js"></script>
 		<script src="/core/app.js"></script>

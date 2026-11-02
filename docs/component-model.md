@@ -16,7 +16,8 @@ How UI is split into components and pages in this project, how their files are l
 ```
 public/
   index.html                 the boot screens and their <style>, and one <script> per folder,
-                             in order: boot, vendor, core, components, pages
+                             in order: errors, boot, vendor, core, components, pages
+  errors/errors.js           BS.errors: reports errors to PostHog, and the ?debug overlay
   boot/boot.js               BS.boot: shows and hides the boot screens, using only the DOM
   core/base.css              global styles only (the one stylesheet file)
   core/*.js                  shared runtime, one namespace per file: app (BS.start,
@@ -57,7 +58,7 @@ There are no `.css` files for components or pages. Styles go in a `<style>` at t
 
 ## Loading
 
-`index.html` loads `boot/boot.js`, hls.js, the core scripts and then one `<script>` per component and per page. The first statement in each component and page script is:
+`index.html` loads `errors/errors.js`, `boot/boot.js`, hls.js, the core scripts and then one `<script>` per component and per page. The first statement in each component and page script is:
 
 ```js
 BS.load('tile.html');

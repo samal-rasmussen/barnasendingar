@@ -12,12 +12,18 @@
 	BS.pages = {};
 
 	/**
-	 * @param {string} message
-	 * @param {unknown} error
+	 * Logs an error to the console, and reports it through BS.errors
+	 * (public/errors/errors.js) where that is loaded.
+	 *
+	 * @param {string} message what the app was doing
+	 * @param {unknown} error what was thrown or failed, if anything
 	 */
 	BS.logError = function (message, error) {
 		if (window.console && window.console.error) {
 			window.console.error(message, error);
+		}
+		if (BS.errors) {
+			BS.errors.report(message, error);
 		}
 	};
 
@@ -50,6 +56,7 @@
 			}
 			if (error) {
 				failed = true;
+				BS.logError('Could not start the app.', error);
 				BS.boot.showError(function () {
 					BS.loadApp(app);
 				});

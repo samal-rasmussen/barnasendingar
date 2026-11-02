@@ -11,7 +11,7 @@
 	 * @typedef {{height?: number, bitrate?: number}} Level
 	 *   The parts of an hls.js quality level that callers use.
 	 *
-	 * @typedef {{fatal?: boolean, type?: string}} HlsErrorData
+	 * @typedef {{fatal?: boolean, type?: string, details?: string}} HlsErrorData
 	 *   The parts of an hls.js error event that the player uses.
 	 */
 
@@ -48,6 +48,9 @@
 
 		video.onended = function () {
 			options.onEnded();
+		};
+		video.onerror = function () {
+			BS.logError('Video error.', video.error ? 'MediaError code ' + video.error.code : null);
 		};
 
 		function stop() {
@@ -151,6 +154,7 @@
 
 			destroy: function () {
 				video.onended = null;
+				video.onerror = null;
 				stop();
 			}
 		};
@@ -180,6 +184,7 @@
 			 */
 			function (eventName, data) {
 				if (data && data.fatal) {
+					BS.logError('Fatal hls.js error, trying to recover.', data.type + ' ' + data.details);
 					recover(hls, data);
 				}
 			}
