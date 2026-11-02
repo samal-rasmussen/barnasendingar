@@ -1,0 +1,45 @@
+<style>
+	.icon {
+		display: inline-block;
+		width: 1em;
+		height: 1em;
+		vertical-align: middle;
+	}
+
+	.icon-sprite {
+		position: absolute;
+		width: 0;
+		height: 0;
+		overflow: hidden;
+	}
+</style>
+
+<!--
+	Every icon in the app, one <symbol> each. Use one with
+	<svg class="icon" aria-hidden="true" focusable="false"><use xlink:href="#icon-<name>"></use></svg>.
+	It must be xlink:href: plain href on <use> is newer than Chrome 38.
+	The icons are drawn with strokes in currentColor, so they take the
+	colour of the text around them.
+-->
+<svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+	<symbol id="icon-back" viewBox="0 0 24 24">
+		<path
+			d="M21 12H4M11 5l-7 7 7 7"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="2.5"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+	</symbol>
+	<symbol id="icon-fullscreen" viewBox="0 0 24 24">
+		<path
+			d="M3 9V3h6M15 3h6v6M21 15v6h-6M9 21H3v-6"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="2.5"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+	</symbol>
+</svg>

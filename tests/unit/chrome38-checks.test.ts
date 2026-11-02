@@ -44,7 +44,7 @@ const controls: Probe[] = [
 	{
 		feature: 'HTML',
 		extension: '.html',
-		code: '<style>\n\t.a { display: flex; }\n</style>\n<template id="a"><main><img src="a.png" alt=""><input type="number"><p>display: grid;</p></main></template>',
+		code: '<style>\n\t.a { display: flex; }\n</style>\n<template id="a"><main><img src="a.png" alt=""><input type="number"><p>display: grid;</p><svg><use xlink:href="#a"></use></svg></main></template>',
 		caughtBy: []
 	}
 ];
@@ -297,6 +297,12 @@ const probes: Probe[] = [
 		feature: 'HTML Imports',
 		extension: '.html',
 		code: '<link rel="import" href="a.html">',
+		caughtBy: ['scan']
+	},
+	{
+		feature: 'plain href on <use>',
+		extension: '.html',
+		code: '<svg><use href="#icon-back"></use></svg>',
 		caughtBy: ['scan']
 	},
 

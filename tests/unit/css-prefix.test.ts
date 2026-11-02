@@ -19,14 +19,8 @@ const publicDir = fileURLToPath(new URL('../../public/', import.meta.url));
  * them. Delete entries as they go. Never add one.
  */
 const knownExceptions: Record<string, string[]> = {
-	// Chunk 2: .fullscreen-*. Chunk 6: .player-*.
-	'pages/episode': [
-		'.fullscreen-button',
-		'.fullscreen-icon',
-		'.player-message',
-		'.player-video',
-		'.player-wrap'
-	],
+	// Chunk 6.
+	'pages/episode': ['.player-message', '.player-video', '.player-wrap'],
 	// Chunk 3.
 	'pages/show': ['.actions', '.episode-grid'],
 	'components/tile': ['.grid', '.watched'],

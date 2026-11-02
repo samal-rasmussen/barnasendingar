@@ -1,6 +1,6 @@
 # Component Cleanup Plan
 
-> **Status: in progress.** Chunks 0, 0.5 and 1 are done. Update the status of each chunk as it lands.
+> **Status: in progress.** Chunks 0, 0.5, 1 and 2 are done. Update the status of each chunk as it lands.
 >
 > An earlier version of this plan had a "safety net" chunk 1 that added `tests/unit/index-html.test.ts`. That test was committed, but this version of the plan makes it unnecessary, and the new chunk 1 deletes it.
 
@@ -169,6 +169,8 @@ The model these decisions add up to is described in [`component-model.md`](compo
 
 ## Chunk 2: Icons And Buttons
 
+> **Status: done.** The load-error screen's "Royn aftur" button keeps its old look through a temporary `.status-retry` rule in `base.css`, since the button component's styles may be what failed to load. Chunk 7 replaces it. The Chrome 38 scan now flags plain `href` on `<use>`.
+
 **Why now:** buttons are on every page, the back arrow `⇦` depends on the TV having a font with that character, and neither back button has an accessible name. Later chunks (the grid toolbar, the player controls) build on these.
 
 **New components** (both CSS only, see decision 4)
@@ -333,7 +335,7 @@ The model these decisions add up to is described in [`component-model.md`](compo
 
 - `index.html` contains two static screens next to `#app`: "Lesur barnasendingar..." (visible from the start) and the load-error screen (`hidden`), with its message and a plain `<button>` "Royn aftur". Their styles are a `<style>` in `index.html`, next to the markup.
 - `public/boot/boot.js` drives them, and loads before `core/`. It uses only the DOM. It has no dependency on `BS.load`, `BS.util`, templates, components or the router. `BS.boot.showLoading()`, `BS.boot.showError(onRetry)` (shows the screen and focuses the button) and `BS.boot.hide()`.
-- `core/app.js` uses `BS.boot` instead of building the screens itself. Delete `renderLoadError`, `BS.util.renderStatus` and the `.status-message` rules used only by them. The not-found page gets its own `<style>` if it still needs one.
+- `core/app.js` uses `BS.boot` instead of building the screens itself. Delete `renderLoadError`, `BS.util.renderStatus`, and the `.status-message` and `.status-retry` rules used only by them. The not-found page gets its own `<style>` if it still needs one.
 
 **Tests**
 

@@ -63,6 +63,7 @@ const cssRules: Rule[] = [
 const htmlRules: Rule[] = [
 	[/loading\s*=\s*["']lazy|inputmode\s*=|<dialog\b/, 'unsupported HTML feature'],
 	[/rel\s*=\s*["']import["']/, 'HTML Imports'],
+	[/<use\b[^>]*\shref\s*=/, 'plain href on <use>, use xlink:href'],
 	[/<[a-z]+-[a-z-]*[\s>]/, 'custom element (Web Components are banned)']
 ];
 

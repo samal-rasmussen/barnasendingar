@@ -26,7 +26,7 @@ test('browse from the front page to an episode and back with the remote', async 
 	await expect.poll(() => page.evaluate(() => document.fullscreenElement?.tagName)).toBe('VIDEO');
 	await page.evaluate(() => document.exitFullscreen());
 
-	await page.locator('.episode-header button.icon').first().click();
+	await page.getByRole('button', { name: 'Aftur' }).click();
 	await expect(tileTitles(page)).toHaveText(['Partur 1', 'Partur 2', 'Partur 3']);
 });
 
@@ -35,7 +35,7 @@ test('the show page back button leads to the front page', async ({ page }) => {
 	await page.getByRole('button', { name: 'Alfa og Beta' }).click();
 	await expect(tileTitles(page)).toHaveText(['Partur 1', 'Partur 2', 'Partur 3']);
 
-	await page.locator('.actions button.icon').click();
+	await page.getByRole('button', { name: 'Aftur' }).click();
 	await expect(page.locator('h1')).toHaveText('Barnasendingar');
 	await expect(tileTitles(page)).toHaveCount(3);
 });
@@ -47,9 +47,9 @@ test('back from a show after watching an episode leads to the front page', async
 	await page.getByRole('button', { name: 'Partur 2' }).click();
 	await expect(qualityOptions(page)).toHaveCount(3);
 
-	await page.locator('.episode-header button.icon').first().click();
+	await page.getByRole('button', { name: 'Aftur' }).click();
 	await expect(tileTitles(page)).toHaveText(['Partur 1', 'Partur 2', 'Partur 3']);
-	await page.locator('.actions button.icon').click();
+	await page.getByRole('button', { name: 'Aftur' }).click();
 	await expect(page.locator('h1')).toHaveText('Barnasendingar');
 });
 
@@ -59,9 +59,9 @@ test('back buttons stay in the app after opening an episode by its address', asy
 	await expect(qualityOptions(page)).toHaveCount(3);
 	const historyLength = await page.evaluate(() => history.length);
 
-	await page.locator('.episode-header button.icon').first().click();
+	await page.getByRole('button', { name: 'Aftur' }).click();
 	await expect(tileTitles(page)).toHaveText(['Partur 1', 'Partur 2', 'Partur 3']);
-	await page.locator('.actions button.icon').click();
+	await page.getByRole('button', { name: 'Aftur' }).click();
 	await expect(page.locator('h1')).toHaveText('Barnasendingar');
 
 	// Each back button replaced the page, so history didn't grow and the

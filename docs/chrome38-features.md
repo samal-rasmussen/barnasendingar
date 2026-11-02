@@ -144,6 +144,7 @@ When in doubt, write to the conservative baseline: ES5 syntax, DOM APIs that exi
 
 - `loading="lazy"`.
 - `inputmode`.
+- Plain `href` on SVG `<use>`. Use `xlink:href` (`<use xlink:href="#icon-back">`).
 - Web Components v1 APIs.
 
 ## CSS

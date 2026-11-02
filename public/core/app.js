@@ -97,7 +97,9 @@
 
 		container = current.util.el('div', 'status-message');
 		message = current.util.el('p', '', 'Kundi ikki lesa barnasendingarnar.');
-		button = /** @type {HTMLButtonElement} */ (current.util.el('button', '', 'Royn aftur'));
+		button = /** @type {HTMLButtonElement} */ (
+			current.util.el('button', 'status-retry', 'Royn aftur')
+		);
 		button.onclick = function () {
 			current.loadApp(app);
 		};

@@ -73,8 +73,18 @@
 	<h1 data-ref="title"></h1>
 	<div class="grid episode-grid" data-ref="grid">
 		<div class="actions">
-			<button class="icon" data-ref="back">⇦</button>
-			<button data-ref="clear">Nulstilla "Sæð"</button>
+			<button
+				type="button"
+				class="button button-icon"
+				data-ref="back"
+				aria-label="Aftur"
+				title="Aftur"
+			>
+				<svg class="icon" aria-hidden="true" focusable="false">
+					<use xlink:href="#icon-back"></use>
+				</svg>
+			</button>
+			<button type="button" class="button" data-ref="clear">Nulstilla "Sæð"</button>
 		</div>
 	</div>
 </template>
