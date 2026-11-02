@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 import { isScanned, scan } from './chrome38-scan.ts';
 
 const root = fileURLToPath(new URL('../../', import.meta.url));
-const runtimeDirs = ['public/core', 'public/components', 'public/pages'];
+const runtimeDirs = ['public/boot', 'public/core', 'public/components', 'public/pages'];
 
 function filesIn(dir: string): string[] {
 	return readdirSync(join(root, dir), { recursive: true, withFileTypes: true })

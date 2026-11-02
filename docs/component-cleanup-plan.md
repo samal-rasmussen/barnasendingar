@@ -1,6 +1,6 @@
 # Component Cleanup Plan
 
-> **Status: in progress.** Chunks 0, 0.5, 1, 2, 3, 4, 5 and 6 are done. Update the status of each chunk as it lands.
+> **Status: in progress.** Chunks 0, 0.5, 1, 2, 3, 4, 5, 6 and 7 are done. Update the status of each chunk as it lands.
 >
 > An earlier version of this plan had a "safety net" chunk 1 that added `tests/unit/index-html.test.ts`. That test was committed, but this version of the plan makes it unnecessary, and the new chunk 1 deletes it.
 
@@ -336,6 +336,8 @@ The model these decisions add up to is described in [`component-model.md`](compo
 ---
 
 ## Chunk 7: Boot Screens
+
+> **Status: done, pending the TV check.** The boot screens are positioned over the empty `#app`, so the page doesn't grow taller than the screen while they show, and they look exactly as before. The video's focus ring moved from `base.css` to the player as `.player-video:focus`. The not-found page's text is styled by its own `.not-found` and `.not-found-text`. `public/boot/` is linted, type-checked and scanned like the rest of the runtime code.
 
 **Why here:** independent of the UI chunks. The current screens work, so this is about isolation, not a fix.
 

@@ -18,7 +18,12 @@ export default [
 	},
 	js.configs.recommended,
 	{
-		files: ['public/core/**/*.js', 'public/components/**/*.js', 'public/pages/**/*.js'],
+		files: [
+			'public/boot/**/*.js',
+			'public/core/**/*.js',
+			'public/components/**/*.js',
+			'public/pages/**/*.js'
+		],
 		languageOptions: {
 			ecmaVersion: 5,
 			sourceType: 'script',

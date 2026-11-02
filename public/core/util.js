@@ -42,16 +42,6 @@
 	};
 
 	/**
-	 * @param {HTMLElement} root
-	 * @param {string} message
-	 */
-	BS.util.renderStatus = function (root, message) {
-		var messageElement = BS.util.el('div', 'status-message', message);
-		BS.util.clearElement(root);
-		root.appendChild(messageElement);
-	};
-
-	/**
 	 * Loads and parses JSON. The callback is called exactly once, with an
 	 * error if the request fails, returns a non-2xx status, cannot be parsed,
 	 * or does not finish within timeoutMs.

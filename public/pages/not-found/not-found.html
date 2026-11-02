@@ -1,7 +1,23 @@
+<style>
+	.not-found {
+		box-sizing: border-box;
+		width: 100%;
+		max-width: 720px;
+		margin-top: 6rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		text-align: center;
+	}
+
+	.not-found-text {
+		margin-bottom: 2rem;
+	}
+</style>
+
 <template id="not-found-page">
-	<div class="status-message">
+	<div class="not-found">
 		<h1>Ikki funnið</h1>
-		<p>Sendingin ella parturin finst ikki.</p>
+		<p class="not-found-text">Sendingin ella parturin finst ikki.</p>
 		<button type="button" class="button" data-ref="home">Aftur til forsíðuna</button>
 	</div>
 </template>

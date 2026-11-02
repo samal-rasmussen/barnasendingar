@@ -43,48 +43,6 @@ h1 {
 	text-align: center;
 }
 
-/*
- * The load-error screen's "Royn aftur" button. It can't use the button
- * component, whose styles may be what failed to load, so it repeats them.
- * The boot screens get their own styles in chunk 7 of
- * docs/component-cleanup-plan.md.
- */
-.status-retry {
-	border-radius: 8px;
-	border: 1px solid transparent;
-	padding: 0.6em 1.2em;
-	font-size: 1em;
-	font-weight: 500;
-	font-family: inherit;
-	color: #ffffff;
-	background-color: #1a1a1a;
-	cursor: pointer;
-	transition: border-color 0.25s;
-}
-
-.status-retry:hover {
-	border-color: #8ea0ff;
-}
-
-.status-retry:focus,
-video:focus {
-	outline: 4px auto -webkit-focus-ring-color;
-}
-
-.status-message {
-	box-sizing: border-box;
-	width: 100%;
-	max-width: 720px;
-	margin-top: 6rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	text-align: center;
-}
-
-.status-message p {
-	margin-bottom: 2rem;
-}
-
 @media screen and (max-width: 520px) {
 	main {
 		min-height: 0;

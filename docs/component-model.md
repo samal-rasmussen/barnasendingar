@@ -2,7 +2,7 @@
 
 How UI is split into components and pages in this project, how their files are loaded, and how they fit together. Read this before adding or changing a component or page.
 
-> **Status: target model.** [`component-cleanup-plan.md`](component-cleanup-plan.md) introduces this model chunk by chunk. Loading (`BS.load`, and styles in a `<style>` in each folder's `.html`), the CSS-only `icon` and `button` components, the `tile` and `grid` factory components with `BS.dom.replace`, the page lifecycle and focus rules, the CSS-only `select` component used by the quality select, and the `player` factory component have landed. Still to come is the comment with colours and breakpoints at the top of `base.css` (chunk 8). When a chunk changes the model, update this document in the same chunk. Remove this note when the plan is done.
+> **Status: target model.** [`component-cleanup-plan.md`](component-cleanup-plan.md) introduces this model chunk by chunk. Loading (`BS.load`, and styles in a `<style>` in each folder's `.html`), the CSS-only `icon` and `button` components, the `tile` and `grid` factory components with `BS.dom.replace`, the page lifecycle and focus rules, the CSS-only `select` component used by the quality select, the `player` factory component and the boot screens have landed. Still to come is the comment with colours and breakpoints at the top of `base.css` (chunk 8). When a chunk changes the model, update this document in the same chunk. Remove this note when the plan is done.
 
 ## Principles
 
@@ -17,7 +17,9 @@ How UI is split into components and pages in this project, how their files are l
 
 ```
 public/
-  index.html                 one <script> per folder, in order: vendor, core, components, pages
+  index.html                 the boot screens and their <style>, and one <script> per folder,
+                             in order: boot, vendor, core, components, pages
+  boot/boot.js               BS.boot: shows and hides the boot screens, using only the DOM
   core/base.css              global styles only (the one stylesheet file)
   core/*.js                  shared runtime: loading, templates, router, data, ...
   components/<name>/
@@ -55,7 +57,7 @@ There are no `.css` files for components or pages. Styles go in a `<style>` at t
 
 ## Loading
 
-`index.html` loads hls.js, the core scripts and then one `<script>` per component and per page. The first statement in each component and page script is:
+`index.html` loads `boot/boot.js`, hls.js, the core scripts and then one `<script>` per component and per page. The first statement in each component and page script is:
 
 ```js
 BS.load('tile.html');
@@ -71,7 +73,7 @@ At startup, every registered file is fetched with XHR, in parallel with `shows.j
 | `<style>`         | Added to `<head>`.                                            |
 | anything else     | Added to the end of `<body>`. Only the icon sprite uses this. |
 
-Styles and other content are added in the order the files were registered, which is the `<script>` order in `index.html`. The cascade is therefore always `base.css`, then components, then pages, whatever order the requests finish in. If any file fails to load or times out, the load-error screen with "Royn aftur" appears.
+Styles and other content are added in the order the files were registered, which is the `<script>` order in `index.html`. The cascade is therefore always `base.css`, then components, then pages, whatever order the requests finish in. If any file fails to load or times out, the load-error screen with "Royn aftur" appears. That screen and the loading screen are static markup in `index.html`, styled by a `<style>` there and driven by `boot/boot.js`, so they work when nothing else has loaded.
 
 ## Two Kinds Of Components
 

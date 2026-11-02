@@ -30,7 +30,8 @@
 
 	/**
 	 * Loads the show catalogue and the page templates in parallel, then
-	 * starts the router. Shows the load-error screen if either fails.
+	 * starts the router. Shows the loading screen meanwhile, and the
+	 * load-error screen, with a retry, if either fails.
 	 *
 	 * @param {HTMLElement} app
 	 */
@@ -47,11 +48,14 @@
 			}
 			if (error) {
 				failed = true;
-				current.renderLoadError(app);
+				current.boot.showError(function () {
+					current.loadApp(app);
+				});
 				return;
 			}
 			remaining -= 1;
 			if (remaining === 0) {
+				current.boot.hide();
 				current.router = current.createRouter({
 					root: app,
 					routes: current.routes,
@@ -64,7 +68,7 @@
 			}
 		}
 
-		current.util.renderStatus(app, 'Lesur barnasendingar...');
+		current.boot.showLoading();
 
 		current.data.loadShows(
 			/**
@@ -80,34 +84,5 @@
 			}
 		);
 		current.templates.load(done);
-	};
-
-	/**
-	 * Built in code rather than from a template, because it must also work
-	 * when the templates failed to load.
-	 *
-	 * @param {HTMLElement} app
-	 */
-	current.renderLoadError = function (app) {
-		var container;
-		var message;
-		var button;
-
-		document.title = 'Barnasendingar';
-		current.util.clearElement(app);
-
-		container = current.util.el('div', 'status-message');
-		message = current.util.el('p', '', 'Kundi ikki lesa barnasendingarnar.');
-		button = /** @type {HTMLButtonElement} */ (
-			current.util.el('button', 'status-retry', 'Royn aftur')
-		);
-		button.onclick = function () {
-			current.loadApp(app);
-		};
-
-		container.appendChild(message);
-		container.appendChild(button);
-		app.appendChild(container);
-		button.focus();
 	};
 })(window, document);

@@ -6,12 +6,62 @@
 		<title>Barnasendingar</title>
 		<link rel="icon" href="/favicon.png" />
 		<link rel="stylesheet" href="/core/base.css" />
+		<style>
+			/*
+			 * The boot screens (public/boot/boot.js). They show while the app
+			 * loads and when it fails to load, so they can't rely on anything
+			 * that is loaded: their styles live here, not in a component.
+			 * They are positioned over the empty #app, so the page doesn't
+			 * grow taller than the screen.
+			 */
+			.boot-screen {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				box-sizing: border-box;
+				max-width: 720px;
+				margin: 6rem auto 0;
+				padding-left: 2rem;
+				padding-right: 2rem;
+				text-align: center;
+			}
+
+			.boot-screen p {
+				margin-bottom: 2rem;
+			}
+
+			.boot-retry {
+				border-radius: 8px;
+				border: 1px solid transparent;
+				padding: 0.6em 1.2em;
+				font-size: 1em;
+				font-weight: 500;
+				font-family: inherit;
+				color: #ffffff;
+				background-color: #1a1a1a;
+				cursor: pointer;
+				transition: border-color 0.25s;
+			}
+
+			.boot-retry:hover {
+				border-color: #8ea0ff;
+			}
+
+			.boot-retry:focus {
+				outline: 4px auto -webkit-focus-ring-color;
+			}
+		</style>
 	</head>
 	<body>
-		<main id="app">
-			<div class="status-message">Lesur barnasendingar...</div>
-		</main>
+		<div class="boot-screen" id="boot-loading">Lesur barnasendingar...</div>
+		<div class="boot-screen" id="boot-error" hidden>
+			<p>Kundi ikki lesa barnasendingarnar.</p>
+			<button type="button" class="boot-retry" id="boot-retry">Royn aftur</button>
+		</div>
+		<main id="app"></main>
 
+		<script src="/boot/boot.js"></script>
 		<script src="/vendor/hls.light.min.js"></script>
 		<script src="/core/app.js"></script>
 		<script src="/core/util.js"></script>

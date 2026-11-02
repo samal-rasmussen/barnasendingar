@@ -12,6 +12,7 @@
 		"lib": ["DOM", "ES5"]
 	},
 	"include": [
+		"public/boot/**/*.js",
 		"public/core/**/*.js",
 		"public/components/**/*.js",
 		"public/pages/**/*.js",
