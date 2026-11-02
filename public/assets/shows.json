@@ -1455,23 +1455,13 @@
 			},
 			{
 				"date": "2015-09-10T10:30:00+01:00",
-				"id": "sangir?sid=46017",
+				"id": "sangir?sid=46022",
 				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
-				"mediaId": "vit_sol_ut_inn",
+				"mediaId": "vit_kennur_tu_blomur",
 				"showTitle": "Børnini syngja",
-				"sortKey": "date: 2015-09-10T10:30:00+01:00 id: sangir?sid=46017",
-				"title": "Sól úti, sól inni",
-				"url": "https://kvf.fo/vit/sending/sv/sangir?sid=46017"
-			},
-			{
-				"date": "2015-09-10T10:30:00+01:00",
-				"id": "sangir?sid=46019",
-				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bornini-syngja.jpg?itok=NtiYp0gi",
-				"mediaId": "vit_sast_tu",
-				"showTitle": "Børnini syngja",
-				"sortKey": "date: 2015-09-10T10:30:00+01:00 id: sangir?sid=46019",
-				"title": "Sig mær sást tú tað",
-				"url": "https://kvf.fo/vit/sending/sv/sangir?sid=46019"
+				"sortKey": "date: 2015-09-10T10:30:00+01:00 id: sangir?sid=46022",
+				"title": "Kennir tú blómurinar",
+				"url": "https://kvf.fo/vit/sending/sv/sangir?sid=46022"
 			},
 			{
 				"date": "2015-09-10T10:30:00+01:00",
@@ -2688,6 +2678,16 @@
 				"sortKey": "date: 2024-09-03T12:00:00+01:00 id: filur-og-maskinurnar?sid=179769",
 				"title": "Gravkúgv",
 				"url": "https://kvf.fo/vit/sending/sv/filur-og-maskinurnar?sid=179769"
+			},
+			{
+				"date": "2024-09-03T12:00:00+01:00",
+				"id": "filur-og-maskinurnar?sid=179771",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/filur_og_skurdtreskja.jpg?itok=EQuax5js",
+				"mediaId": "Filur_og_maskinurnar_EP02",
+				"showTitle": "Fílur og maskinurnar",
+				"sortKey": "date: 2024-09-03T12:00:00+01:00 id: filur-og-maskinurnar?sid=179771",
+				"title": "Skurðtreskja",
+				"url": "https://kvf.fo/vit/sending/sv/filur-og-maskinurnar?sid=179771"
 			},
 			{
 				"date": "2024-09-03T12:00:00+01:00",
@@ -4436,13 +4436,33 @@
 			},
 			{
 				"date": "2023-08-01T08:00:00+01:00",
-				"id": "klumparnir?sid=159965",
-				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_6_hd_klumparnir_2016_0038.jpg?itok=pm1p6AX5",
-				"mediaId": "UT285_6_HD_Klumparnir_2016",
+				"id": "klumparnir?sid=159966",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_7_hd_klumparnir_2016_0103.jpg?itok=YghtPa2W",
+				"mediaId": "UT285_7_HD_Klumparnir_2016",
 				"showTitle": "Klumparnir",
-				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159965",
-				"title": "Fiólkongur",
-				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159965"
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159966",
+				"title": "Smílandi pipp-bollar",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159966"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159977",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_14_hd_klumparnir_2016_0051.jpg?itok=65sBdC-P",
+				"mediaId": "UT285_14_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159977",
+				"title": "Blíði og Týða",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159977"
+			},
+			{
+				"date": "2023-08-01T08:00:00+01:00",
+				"id": "klumparnir?sid=159978",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_15_hd_klumparnir_2016_0046.jpg?itok=9df0KJV1",
+				"mediaId": "UT285_15_HD_Klumparnir_2016",
+				"showTitle": "Klumparnir",
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159978",
+				"title": "Veitslan",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159978"
 			},
 			{
 				"date": "2023-08-01T08:00:00+01:00",
@@ -4526,13 +4546,13 @@
 			},
 			{
 				"date": "2023-08-01T08:00:00+01:00",
-				"id": "klumparnir?sid=159993",
-				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_25_hd_klumparnir_2016_0058.jpg?itok=dAJZHrfw",
-				"mediaId": "UT285_25_HD_Klumparnir_2016",
+				"id": "klumparnir?sid=160022",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/ut285_26_hd_klumparnir_2016_0107.jpg?itok=AK5QPus3",
+				"mediaId": "UT285_26_HD_Klumparnir_2016",
 				"showTitle": "Klumparnir",
-				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=159993",
-				"title": "Loyniveitslan",
-				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=159993"
+				"sortKey": "date: 2023-08-01T08:00:00+01:00 id: klumparnir?sid=160022",
+				"title": "Kipp orðnar",
+				"url": "https://kvf.fo/vit/sending/sv/klumparnir?sid=160022"
 			}
 		]
 	},
@@ -10546,6 +10566,26 @@
 				"sortKey": "date: 2023-06-01T08:00:00+01:00 id: 157942?sid=158059",
 				"title": "Hvar er bólturin?",
 				"url": "https://kvf.fo/node/157942?sid=158059"
+			},
+			{
+				"date": "2023-06-01T08:00:00+01:00",
+				"id": "157942?sid=158061",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_7_0057.jpg?itok=k1dwpMZu",
+				"mediaId": "BL1613_UKI_7",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-01T08:00:00+01:00 id: 157942?sid=158061",
+				"title": "Á dett órudd",
+				"url": "https://kvf.fo/node/157942?sid=158061"
+			},
+			{
+				"date": "2023-06-01T08:00:00+01:00",
+				"id": "157942?sid=158063",
+				"img": "https://kvf.fo/sites/default/files/styles/news_xtra_xtra_large/public/bl1613_uki_8_0063.jpg?itok=MDTWVn_U",
+				"mediaId": "BL1613_UKI_8",
+				"showTitle": "Uki",
+				"sortKey": "date: 2023-06-01T08:00:00+01:00 id: 157942?sid=158063",
+				"title": "Dunna er móð",
+				"url": "https://kvf.fo/node/157942?sid=158063"
 			},
 			{
 				"date": "2023-06-01T08:00:00+01:00",
