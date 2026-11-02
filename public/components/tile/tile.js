@@ -8,31 +8,45 @@
 	BS.load('tile.html');
 
 	/**
-	 * A grid tile with a title and an image that can be focused and opened
-	 * with Enter/OK or a click.
+	 * A button with a title and an image, opened with Enter/OK or a click.
+	 * A "Sæð" marker shows when it is watched.
 	 *
 	 * @param {{
 	 *   title: string,
 	 *   image: string,
-	 *   imageAlt: string,
 	 *   watched?: boolean,
 	 *   onActivate: () => void
 	 * }} options
-	 * @returns {{element: HTMLElement}}
+	 * @returns {{
+	 *   element: HTMLButtonElement,
+	 *   setWatched: (watched: boolean) => void,
+	 *   focus: () => void
+	 * }}
 	 */
 	BS.components.tile = function (options) {
 		var view = BS.templates.clone('tile');
+		var element = /** @type {HTMLButtonElement} */ (view.element);
 
 		view.refs.title.textContent = options.title;
 		view.refs.image.src = options.image;
-		view.refs.image.alt = options.imageAlt;
+		element.onclick = function () {
+			options.onActivate();
+		};
 
-		if (!options.watched) {
-			view.refs.watched.parentNode.removeChild(view.refs.watched);
+		/**
+		 * @param {boolean} watched
+		 */
+		function setWatched(watched) {
+			view.refs.watched.hidden = !watched;
 		}
+		setWatched(!!options.watched);
 
-		BS.util.onActivate(view.refs.container, options.onActivate);
-
-		return { element: view.element };
+		return {
+			element: element,
+			setWatched: setWatched,
+			focus: function () {
+				element.focus();
+			}
+		};
 	};
 })(window);

@@ -19,16 +19,16 @@
 	 */
 	page.render = function (root) {
 		var view = BS.templates.clone('home-page');
+		/** @type {Show[]} */
 		var shows = BS.state.shows || [];
-		var i;
 
 		document.title = 'Barnasendingar';
 		BS.util.clearElement(root);
 
-		for (i = 0; i < shows.length; i += 1) {
-			view.refs.grid.appendChild(page.createShowTile(shows[i]));
-		}
-		BS.util.addGridSpacers(view.refs.grid);
+		BS.dom.replace(
+			view.refs.grid,
+			BS.components.grid({ items: shows.map(page.createShowTile) }).element
+		);
 
 		root.appendChild(view.fragment);
 	};
@@ -40,10 +40,9 @@
 		return BS.components.tile({
 			title: show.title,
 			image: show.img,
-			imageAlt: 'Sending',
 			onActivate: function () {
 				BS.router.go('show', { show: show.title });
 			}
-		}).element;
+		});
 	};
 })(window, document);

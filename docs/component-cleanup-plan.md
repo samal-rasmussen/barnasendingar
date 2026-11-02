@@ -1,6 +1,6 @@
 # Component Cleanup Plan
 
-> **Status: in progress.** Chunks 0, 0.5, 1 and 2 are done. Update the status of each chunk as it lands.
+> **Status: in progress.** Chunks 0, 0.5, 1, 2 and 3 are done. Update the status of each chunk as it lands.
 >
 > An earlier version of this plan had a "safety net" chunk 1 that added `tests/unit/index-html.test.ts`. That test was committed, but this version of the plan makes it unnecessary, and the new chunk 1 deletes it.
 
@@ -203,6 +203,8 @@ The model these decisions add up to is described in [`component-model.md`](compo
 ---
 
 ## Chunk 3: Tiles And Grid
+
+> **Status: done.** Both tiles now use the front page's look: the title left-aligned above the image, with a small gap. The tile's contents sit in a `<span class="tile-body">`, which is the flex container, because old browsers don't lay out a `<button>` itself as a flex container. On narrow screens the toolbar is left-aligned with the tiles instead of centred.
 
 **Why now:** tiles are what children use most. This chunk makes tiles real buttons, removes the page-specific CSS overrides, replaces the grid's spacer and fixed-width hacks with one layout, and makes "Nulstilla Sæð" keep focus.
 

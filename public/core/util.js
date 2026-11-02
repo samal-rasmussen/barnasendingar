@@ -42,27 +42,6 @@
 	};
 
 	/**
-	 * @param {HTMLElement} element
-	 * @param {() => void} callback
-	 */
-	BS.util.onActivate = function (element, callback) {
-		element.setAttribute('role', 'button');
-		element.tabIndex = 0;
-		element.onclick = function () {
-			callback();
-		};
-		element.onkeydown = function (event) {
-			var code = event.keyCode || event.which;
-			if (code === 13 || code === 32) {
-				if (event.preventDefault) {
-					event.preventDefault();
-				}
-				callback();
-			}
-		};
-	};
-
-	/**
 	 * @param {HTMLElement} root
 	 * @param {string} message
 	 */
@@ -70,19 +49,6 @@
 		var messageElement = BS.util.el('div', 'status-message', message);
 		BS.util.clearElement(root);
 		root.appendChild(messageElement);
-	};
-
-	/**
-	 * Adds empty spacer tiles to the end of a grid, so the tiles on the last
-	 * row line up with the rows above instead of being centred.
-	 *
-	 * @param {HTMLElement} grid
-	 */
-	BS.util.addGridSpacers = function (grid) {
-		var i;
-		for (i = 0; i < 12; i += 1) {
-			grid.appendChild(BS.util.el('div', 'grid-spacer'));
-		}
 	};
 
 	/**

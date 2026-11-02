@@ -10,6 +10,7 @@
 	var current = /** @type {any} */ (window).BS || {};
 	current.state = current.state || {};
 	current.util = current.util || {};
+	current.dom = current.dom || {};
 	current.data = current.data || {};
 	current.watched = current.watched || {};
 	current.templates = current.templates || {};

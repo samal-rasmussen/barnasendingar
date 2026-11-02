@@ -62,13 +62,11 @@ h1 {
 	transition: border-color 0.25s;
 }
 
-.status-retry:hover,
-.grid-container:hover {
+.status-retry:hover {
 	border-color: #8ea0ff;
 }
 
 .status-retry:focus,
-.grid-container:focus,
 select:focus,
 video:focus {
 	outline: 4px auto -webkit-focus-ring-color;

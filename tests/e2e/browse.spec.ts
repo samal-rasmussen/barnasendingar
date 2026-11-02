@@ -79,13 +79,16 @@ test('"Sæð" marks watched episodes until it is reset', async ({ page }) => {
 	});
 	await page.goto('/#/sending/Alfa%20og%20Beta');
 
-	const watchedTiles = page.locator('.grid-item').filter({ has: page.locator('.watched') });
-	await expect(watchedTiles.locator('h2')).toHaveText(['Partur 1', 'Partur 3']);
+	const watchedTiles = page.locator('.tile').filter({ has: page.locator('.tile-watched:visible') });
+	await expect(watchedTiles.locator('.tile-title')).toHaveText(['Partur 1', 'Partur 3']);
 
-	await page.getByRole('button', { name: 'Nulstilla "Sæð"' }).click();
-	await expect(page.locator('.watched')).toHaveCount(0);
+	const reset = page.getByRole('button', { name: 'Nulstilla "Sæð"' });
+	await reset.click();
+	await expect(watchedTiles).toHaveCount(0);
+	// The tiles are updated in place, so the button keeps focus.
+	await expect(reset).toBeFocused();
 
 	await page.reload();
 	await expect(tileTitles(page)).toHaveCount(3);
-	await expect(page.locator('.watched')).toHaveCount(0);
+	await expect(watchedTiles).toHaveCount(0);
 });

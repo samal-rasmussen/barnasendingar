@@ -21,9 +21,6 @@ const publicDir = fileURLToPath(new URL('../../public/', import.meta.url));
 const knownExceptions: Record<string, string[]> = {
 	// Chunk 6.
 	'pages/episode': ['.player-message', '.player-video', '.player-wrap'],
-	// Chunk 3.
-	'pages/show': ['.actions', '.episode-grid'],
-	'components/tile': ['.grid', '.watched'],
 	// Chunk 5.
 	'components/quality-select': ['.quality-control']
 };

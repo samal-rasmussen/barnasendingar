@@ -1,0 +1,110 @@
+<style>
+	/*
+	 * A column is a tile (345px wide, see tile.html) plus 2em (32px) of space
+	 * to its right: 377px. The inner container is always a whole number of
+	 * columns wide and centred, so the tiles flow left-aligned inside it, and
+	 * the last row and the toolbar line up with the rows above. n columns
+	 * need n * 377px plus the grid's 32px left padding, which gives the
+	 * breakpoints below. Narrower than 786px, tiles fill the width one per row.
+	 */
+	.grid {
+		box-sizing: border-box;
+		width: 100%;
+		padding-left: 2em;
+	}
+
+	.grid-inner {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.grid-toolbar {
+		display: flex;
+		margin-bottom: 2rem;
+	}
+
+	.grid-toolbar > * {
+		margin-right: 1rem;
+	}
+
+	.grid-items {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.grid-item {
+		padding-right: 2em;
+		padding-bottom: 2em;
+	}
+
+	@media screen and (min-width: 786px) {
+		.grid-inner {
+			width: 754px;
+		}
+	}
+
+	@media screen and (min-width: 1163px) {
+		.grid-inner {
+			width: 1131px;
+		}
+	}
+
+	@media screen and (min-width: 1540px) {
+		.grid-inner {
+			width: 1508px;
+		}
+	}
+
+	@media screen and (min-width: 1917px) {
+		.grid-inner {
+			width: 1885px;
+		}
+	}
+
+	@media screen and (min-width: 2294px) {
+		.grid-inner {
+			width: 2262px;
+		}
+	}
+
+	@media screen and (min-width: 2671px) {
+		.grid-inner {
+			width: 2639px;
+		}
+	}
+
+	@media screen and (min-width: 3048px) {
+		.grid-inner {
+			width: 3016px;
+		}
+	}
+
+	@media screen and (max-width: 785px) {
+		.grid {
+			padding-left: 0;
+		}
+
+		.grid-toolbar {
+			padding-left: 2em;
+		}
+
+		.grid-item {
+			box-sizing: border-box;
+			width: 100%;
+			padding-left: 2em;
+		}
+	}
+</style>
+
+<template id="grid">
+	<div class="grid">
+		<div class="grid-inner">
+			<div class="grid-toolbar" data-ref="toolbar"></div>
+			<div class="grid-items" data-ref="items"></div>
+		</div>
+	</div>
+</template>
+
+<template id="grid-item">
+	<div class="grid-item"></div>
+</template>

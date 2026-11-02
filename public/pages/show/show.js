@@ -21,7 +21,9 @@
 	 */
 	page.render = function (root, show) {
 		var view = BS.templates.clone('show-page');
-		var i;
+		var tiles = show.episodes.map(function (episode) {
+			return page.createEpisodeTile(show, episode);
+		});
 
 		document.title = show.title + ' - Barnasendingar';
 		BS.util.clearElement(root);
@@ -30,15 +32,21 @@
 		view.refs.back.onclick = function () {
 			BS.router.back('home');
 		};
+		// Updates the tiles in place, so focus stays on the button.
 		view.refs.clear.onclick = function () {
 			BS.watched.clearWatched(show);
-			BS.router.refresh();
+			tiles.forEach(function (tile) {
+				tile.setWatched(false);
+			});
 		};
 
-		for (i = 0; i < show.episodes.length; i += 1) {
-			view.refs.grid.appendChild(page.createEpisodeTile(show, show.episodes[i]));
-		}
-		BS.util.addGridSpacers(view.refs.grid);
+		BS.dom.replace(
+			view.refs.grid,
+			BS.components.grid({
+				toolbar: [view.refs.back, view.refs.clear],
+				items: tiles
+			}).element
+		);
 
 		root.appendChild(view.fragment);
 	};
@@ -51,11 +59,10 @@
 		return BS.components.tile({
 			title: episode.title,
 			image: episode.img,
-			imageAlt: 'Partur',
 			watched: BS.watched.isWatched(show, episode),
 			onActivate: function () {
 				BS.router.go('episode', { show: show.title, episode: episode.title });
 			}
-		}).element;
+		});
 	};
 })(window, document);

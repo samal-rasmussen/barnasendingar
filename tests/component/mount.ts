@@ -24,6 +24,7 @@ export async function loadComponents(page: Page, components: string[]) {
 	<main id="root"></main>
 	<script src="/core/app.js"></script>
 	<script src="/core/util.js"></script>
+	<script src="/core/dom.js"></script>
 	<script src="/core/templates.js"></script>
 	${scripts}
 </body>

@@ -1,90 +1,18 @@
-<style>
-	.actions {
-		display: flex;
-		box-sizing: border-box;
-		margin-bottom: 2rem;
-		width: 100%;
-	}
-
-	.actions > * {
-		margin-right: 1rem;
-	}
-
-	.episode-grid .grid-item h2 {
-		text-align: center;
-		padding-right: 0;
-		margin-bottom: 0;
-	}
-
-	.episode-grid .header {
-		width: 100%;
-	}
-
-	@media screen and (max-width: 2670px) {
-		.actions {
-			width: 2262px;
-		}
-	}
-
-	@media screen and (max-width: 2293px) {
-		.actions {
-			width: 1885px;
-		}
-	}
-
-	@media screen and (max-width: 1916px) {
-		.actions {
-			width: 1508px;
-		}
-	}
-
-	@media screen and (max-width: 1539px) {
-		.actions {
-			width: 1131px;
-		}
-	}
-
-	@media screen and (max-width: 1162px) {
-		.actions {
-			width: 754px;
-		}
-	}
-
-	@media screen and (max-width: 785px) {
-		.episode-grid .grid-item h2 {
-			padding-right: 2em;
-		}
-
-		.episode-grid .grid-item .header {
-			flex: 0 1 auto;
-			width: 50%;
-			padding-right: 2em;
-			overflow: hidden;
-		}
-
-		.actions {
-			padding-left: 2rem;
-			width: auto;
-		}
-	}
-</style>
-
 <template id="show-page">
 	<h1 data-ref="title"></h1>
-	<div class="grid episode-grid" data-ref="grid">
-		<div class="actions">
-			<button
-				type="button"
-				class="button button-icon"
-				data-ref="back"
-				aria-label="Aftur"
-				title="Aftur"
-			>
-				<svg class="icon" aria-hidden="true" focusable="false">
-					<use xlink:href="#icon-back"></use>
-				</svg>
-			</button>
-			<button type="button" class="button" data-ref="clear">Nulstilla "Sæð"</button>
-		</div>
+	<!-- Replaced by the grid, which shows these buttons in its toolbar. -->
+	<div data-ref="grid">
+		<button
+			type="button"
+			class="button button-icon"
+			data-ref="back"
+			aria-label="Aftur"
+			title="Aftur"
+		>
+			<svg class="icon" aria-hidden="true" focusable="false">
+				<use xlink:href="#icon-back"></use>
+			</svg>
+		</button>
+		<button type="button" class="button" data-ref="clear">Nulstilla "Sæð"</button>
 	</div>
 </template>

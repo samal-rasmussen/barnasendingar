@@ -1,97 +1,109 @@
 <style>
-	.grid .grid-item {
-		padding-right: 2em;
-		padding-bottom: 2em;
-	}
-
-	.grid .grid-item .grid-container {
-		display: flex;
-		flex-direction: column;
-		width: 345px;
-		cursor: pointer;
+	/*
+	 * The tile is 345px wide. The grid's columns in grid.html are this width
+	 * plus the space between tiles, so change both together.
+	 */
+	.tile {
 		position: relative;
+		display: block;
+		box-sizing: border-box;
+		width: 345px;
+		margin: 0;
+		padding: 0;
 		border: 1px solid transparent;
 		border-radius: 8px;
-		box-sizing: border-box;
+		font: inherit;
 		color: inherit;
+		text-align: left;
 		background: transparent;
+		cursor: pointer;
 	}
 
-	.grid .grid-item img {
-		width: 100%;
+	.tile:hover {
+		border-color: #8ea0ff;
+	}
+
+	.tile:focus {
+		outline: 4px auto -webkit-focus-ring-color;
+	}
+
+	/*
+	 * The flex container is a span inside the button, because old browsers
+	 * don't lay out a <button> itself as a flex container.
+	 */
+	.tile-body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.tile-title {
 		display: block;
-	}
-
-	.grid .grid-item h2 {
-		overflow: hidden;
-		text-overflow: ellipsis;
-		margin-top: 0;
 		margin-bottom: 8px;
+		overflow: hidden;
+		font-size: 1.5em;
+		font-weight: bold;
+		white-space: nowrap;
+		text-overflow: ellipsis;
 	}
 
-	.watched {
+	.tile-image {
+		display: block;
+		width: 100%;
+	}
+
+	.tile-watched {
 		position: absolute;
 		right: 1rem;
 		bottom: 1rem;
+		padding: 6px 3px 3px 3px;
 		font-size: 2rem;
 		line-height: 1;
 		background: rgba(0, 0, 0, 0.5);
-		padding: 6px 3px 3px 3px;
 	}
 
 	@media screen and (max-width: 785px) {
-		.grid .grid-item {
+		.tile {
 			width: 100%;
-			padding-left: 2em;
-			box-sizing: border-box;
 		}
 
-		.grid .grid-item .grid-container {
+		.tile-body {
 			flex-direction: row;
-			width: 100%;
 			justify-content: space-between;
 			align-items: center;
-			white-space: normal;
-			box-sizing: border-box;
 		}
 
-		.grid .grid-item h2 {
-			font-size: 1.3em;
-			padding-right: 2em;
+		.tile-title {
 			flex: 1;
+			padding-right: 2em;
+			font-size: 1.3em;
+			white-space: normal;
 			text-align: center;
 		}
 
-		.grid .grid-item img {
+		.tile-image {
 			width: 50%;
-		}
-
-		.grid .grid-item .header {
-			flex: 1;
 		}
 	}
 
 	@media screen and (max-width: 520px) {
-		.grid .grid-item h2 {
+		.tile-title {
 			font-size: 1.1em;
 		}
 	}
 
 	@media screen and (max-width: 420px) {
-		.grid .grid-item h2 {
+		.tile-title {
 			font-size: 1em;
 		}
 	}
 </style>
 
 <template id="tile">
-	<div class="grid-item">
-		<div class="grid-container" data-ref="container">
-			<div class="header">
-				<h2 data-ref="title"></h2>
-			</div>
-			<img data-ref="image" />
-			<div class="watched" data-ref="watched">Sæð</div>
-		</div>
-	</div>
+	<button type="button" class="tile">
+		<span class="tile-body">
+			<span class="tile-title" data-ref="title"></span>
+			<img class="tile-image" alt="" data-ref="image" />
+		</span>
+		<span class="tile-watched" data-ref="watched">Sæð</span>
+	</button>
 </template>

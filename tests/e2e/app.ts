@@ -45,7 +45,7 @@ export const showHash = (show: string) => `#/sending/${encodeURIComponent(show)}
 export const episodeHash = (show: string, episode: string) =>
 	`${showHash(show)}/partur/${encodeURIComponent(episode)}`;
 
-export const tileTitles = (page: Page) => page.locator('.grid-item h2');
+export const tileTitles = (page: Page) => page.locator('.tile-title');
 export const qualityOptions = (page: Page) => page.locator('#quality-selector option');
 
 /** The watch history as the app stored it in localStorage. */
