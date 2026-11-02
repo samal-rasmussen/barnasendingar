@@ -1,4 +1,12 @@
-import { test, expect, episodeHash, qualityOptions, storedWatched, endVideo } from './app.ts';
+import {
+	test,
+	expect,
+	episodeHash,
+	qualityOptions,
+	storedWatched,
+	endVideo,
+	withoutFullscreen
+} from './app.ts';
 
 const show = 'Alfa og Beta';
 
@@ -51,4 +59,25 @@ test('explains when an episode has no video', async ({ page }) => {
 	await expect(page.locator('.player-message')).toHaveText('Hesin parturin hevur einki video.');
 	await expect(page.locator('video')).toHaveCount(0);
 	await expect(page.locator('#quality-selector')).toBeDisabled();
+});
+
+test('the header and the video fill the screen without scrolling', async ({ page }) => {
+	await withoutFullscreen(page);
+	for (const size of [
+		{ width: 1920, height: 1080 },
+		{ width: 400, height: 700 }
+	]) {
+		await page.setViewportSize(size);
+		await page.goto('/' + episodeHash(show, 'Partur 1'));
+		await expect(page.locator('video')).toBeVisible();
+
+		const layout = await page.evaluate(() => ({
+			header: document.querySelector('.episode-header')!.getBoundingClientRect().bottom,
+			video: document.querySelector('video')!.getBoundingClientRect(),
+			scrollHeight: document.documentElement.scrollHeight
+		}));
+		expect(layout.video.top).toBe(layout.header);
+		expect(layout.video.bottom).toBe(size.height);
+		expect(layout.scrollHeight).toBe(size.height);
+	}
 });
