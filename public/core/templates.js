@@ -113,6 +113,7 @@
 	BS.templates.clone = function (id) {
 		var template = templatesById[id];
 		var fragment;
+		/** @type {?Node} */
 		var element = null;
 		var refs = {};
 		var nodes;

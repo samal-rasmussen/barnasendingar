@@ -8,9 +8,8 @@
 		"noEmit": true,
 		"strict": true,
 		"noImplicitAny": false,
-		"target": "ES5",
+		"target": "ES2015",
 		"module": "ESNext",
-		"moduleResolution": "Node",
 		"lib": ["DOM", "ES5"]
 	},
 	"include": [

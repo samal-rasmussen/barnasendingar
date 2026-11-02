@@ -10,14 +10,14 @@
 	 * @typedef {Object} RouteDefinition
 	 * @property {string} name
 	 * @property {string} path Pattern such as '/items/:id'. `:name` segments become params.
-	 * @property {function(HTMLElement, Params): (Function|void)} render
+	 * @property {(root: HTMLElement, params: Params) => (Function|void)} render
 	 *   Renders the page into the root element. May return a cleanup function,
 	 *   which is called before the next page renders.
 	 *
 	 * @typedef {Object} RouterOptions
 	 * @property {HTMLElement} root
 	 * @property {RouteDefinition[]} routes
-	 * @property {function(HTMLElement, string): (Function|void)} notFound
+	 * @property {(root: HTMLElement, path: string) => (Function|void)} notFound
 	 *   Renders any address that matches no route. Gets the unmatched path.
 	 *
 	 * @typedef {Object} GoOptions

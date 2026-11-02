@@ -127,6 +127,7 @@
 	BS.util.getText = function (url, callback, timeoutMs) {
 		var xhr = new XMLHttpRequest();
 		var finished = false;
+		/** @type {?number} */
 		var timer = null;
 
 		/**

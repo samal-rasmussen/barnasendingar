@@ -19,6 +19,8 @@
 		var context = view.refs.episodeTitle;
 		var playerWrap = view.refs.playerWrap;
 		var video = /** @type {HTMLVideoElement} */ (view.refs.video);
+		// The hls.js instance. The vendored library has no types.
+		/** @type {*} */
 		var hls = null;
 		var quality = BS.components.qualitySelect({
 			id: 'quality-selector',

@@ -1,12 +1,12 @@
-#!/usr/bin/env tsx
+#!/usr/bin/env node
 
 import { spawn } from 'child_process';
 import { mkdirSync, existsSync } from 'fs';
 import { join } from 'path';
 import { createInterface } from 'readline';
-import shows from '../public/assets/shows.json';
-import type { Show } from './shared-types';
-import { keepAwake } from './keepawake';
+import shows from '../public/assets/shows.json' with { type: 'json' };
+import type { Show } from './shared-types.d.ts';
+import { keepAwake } from './keepawake.ts';
 
 interface DownloadOptions {
 	outputDir: string;

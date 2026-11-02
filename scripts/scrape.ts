@@ -2,7 +2,7 @@ import { writeFileSync } from 'fs';
 import { JSDOM } from 'jsdom';
 import PQueue from 'p-queue';
 // import * as prettier from 'prettier';
-import type { Show, Episode } from './shared-types';
+import type { Show, Episode } from './shared-types.d.ts';
 import * as CliProgress from 'cli-progress';
 
 type PartialEpisode = Omit<Episode, 'mediaId'>;

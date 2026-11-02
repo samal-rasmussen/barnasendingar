@@ -1,13 +1,17 @@
 {
 	"compilerOptions": {
-		"lib": ["DOM", "DOM.Iterable", "esnext", "ScriptHost"],
-		"moduleResolution": "node",
-		"resolveJsonModule": true,
-		"esModuleInterop": true,
-		"module": "esnext",
+		"target": "ESNext",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
+		"types": ["node"],
+		"strict": false,
 		"noEmit": true,
 		"skipLibCheck": true,
-		"types": ["node"]
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true,
+		"erasableSyntaxOnly": true,
+		"resolveJsonModule": true
 	},
 	"include": ["*.ts", "shared-types.d.ts", "../public/assets/shows.json"]
 }

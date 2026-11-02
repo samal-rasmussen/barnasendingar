@@ -11,10 +11,21 @@ The official kvf.fo site does not work on that TV. Its built-in browser renders 
 
 The site is live at **https://barnasendingar.vercel.app**. Videos are not rehosted; only the metadata is scraped.
 
+## Invariant: No Build Step
+
+**Nothing in this project is ever built.** The files in `public/` are the site, served exactly as committed. There is no bundler, transpiler, minifier, compile step, code generator or post-processing of any kind between the repo and what the TV runs, and there never will be.
+
+- The site must work straight from a checkout, with nothing installed and no command run. `node --run serve` is only a convenience for serving the folder.
+- The tooling (formatter, linter, type checker, tests) consists of **checks**, not build steps. They read the code and report on it. Nothing they produce is deployed or needed at runtime, and they are optional value on top: if every tool vanished, the site would still deploy and run unchanged.
+- Don't add anything the site would depend on that has to be generated: no compiled CSS, no bundles, no generated JS or HTML. Runtime code is written by hand as it will run, in ES5 for the TV.
+- `public/assets/shows.json` is data, not build output. The scraper refreshes it on demand, and it is committed like any other file.
+- The scripts under `scripts/` are developer tools run with modern Node. They don't build the site either.
+
 ## Target Environment: The TV Browser
 
 **The LG TV's browser is roughly Chrome 38 (October 2014).** It is the most important constraint in the project. Everything under `public/` must run on it.
 
+- Read [`docs/component-model.md`](docs/component-model.md) before adding or changing a component or page. It describes how components and pages are built, loaded and put together.
 - Read [`docs/chrome38-features.md`](docs/chrome38-features.md) before writing or reviewing runtime code. It lists which JavaScript, HTML and CSS features are and aren't available.
 - Modern desktop browsers will happily run code the TV can't. "Works in my browser" proves nothing about the TV. Rely on the rules below, on ESLint (it parses the runtime JS as ES5), and on checking against the feature doc.
 - The TV is driven with a remote, not a mouse. Interactive elements need to be focusable and work with Enter/OK (see `BS.util.onActivate`). Give focus to the main action where it helps, for example the retry button on the load-error screen.
@@ -39,13 +50,14 @@ The scraper and other tools under `scripts/` run on the developer's machine with
 - **Host:** Vercel, connected to the GitHub repo through Vercel's Git integration. There is no `.vercel/` link in the repo and no Vercel CLI workflow.
 - **Normal flow:** pushing to `master` deploys to production automatically. Other branches get Vercel preview deployments (Vercel's default behaviour).
 - **Current state (November 2026):** the `vanilla-spa-rewrite` branch was promoted to production by hand in the Vercel dashboard, overriding `master`. Once that branch is merged, `master` becomes the production source again. Until then, keep in mind that production reflects this branch, not `master`.
-- **Build:** none. `vercel.json` sets `framework: null` and `buildCommand: null`, serves the committed `public/` directory as-is, and rewrites unknown paths to `/index.html`. App navigation uses hash routes, so deep links never need server-side handling.
+- **Build:** none, by design (see [Invariant: No Build Step](#invariant-no-build-step)). `vercel.json` sets `framework: null` and `buildCommand: null`, serves the committed `public/` directory as-is, and rewrites unknown paths to `/index.html`. App navigation uses hash routes, so deep links never need server-side handling.
 - **Updating content:** run the scraper, commit the updated `public/assets/shows.json`, and push. No other step is needed.
 
 ## Runtime Architecture
 
 The app is a no-build, framework-free single-page app served from `public/`.
 
+- The component model, and where it is heading, is described in [`docs/component-model.md`](docs/component-model.md). The bullets below describe the code as it is today.
 - Code is grouped by page. Shared code lives in `public/core/`. Reusable UI components live in `public/components/<component>/`, and each page has its own folder under `public/pages/<page>/`. Each folder holds its `.js`, its `.html` templates and, if it has its own styles, its `.css`.
 - There are no imports, because the TV has no ES modules. `public/index.html` loads every stylesheet with `<link>` and every script with plain `<script>` tags in order: `vendor/hls.light.min.js`, then `core/` (`app.js`, `util.js`, `data.js`, `watched.js`, `templates.js`, `router.js`, `routes.js`), then each component's `.js`, then each page's `.js`. Stylesheets go in the same order: core, components, pages. It then calls `window.BS.start()`. A new component or page needs its `<script>` (and `<link>`, if it has CSS) added there.
 - There is one global namespace, `window.BS`. Each page registers itself as `BS.pages.<name>` with a `render(root, ...)` function. `render` may return a cleanup function that the router calls when leaving the page.
@@ -93,7 +105,7 @@ UI text is in Faroese. Keep new UI strings in Faroese.
 
 ### Setup
 
-- Node 22.18 or newer (the scripts use `node --run`, and the tests are TypeScript run directly by Node).
+- Node 22.18 or newer (the package scripts use `node --run`, and the tests and the `scripts/` tools are TypeScript run directly by Node, which strips the types).
 - Run `npm install` in the repo root (lint, type-check and test tools) and in `scripts/` (scraper dependencies).
 - Run `npx playwright install chromium` once, for the component and e2e tests.
 - `yt-dlp` on `PATH` is only needed for `download-show`.
@@ -120,12 +132,14 @@ Root `package.json`:
 
 `scripts/package.json`:
 
-| Script              | Command                                        | Description                                                            |
-| ------------------- | ---------------------------------------------- | ---------------------------------------------------------------------- |
-| `scrape`            | `tsx ./scrape.ts && npm run delete-duplicates` | Scrapes show and episode metadata, then removes duplicate episodes.    |
-| `delete-duplicates` | `tsx ./delete_duplicates.ts`                   | Removes duplicate episodes in `public/assets/shows.json` by `sortKey`. |
-| `download-show`     | `tsx ./download-show.ts`                       | Interactively downloads a selected show through `yt-dlp`.              |
-| `check`             | `tsc --noEmit -p tsconfig.json`                | Type-checks the Node/TypeScript tooling.                               |
+| Script              | Command                                         | Description                                                            |
+| ------------------- | ----------------------------------------------- | ---------------------------------------------------------------------- |
+| `scrape`            | `node ./scrape.ts && npm run delete-duplicates` | Scrapes show and episode metadata, then removes duplicate episodes.    |
+| `delete-duplicates` | `node ./delete_duplicates.ts`                   | Removes duplicate episodes in `public/assets/shows.json` by `sortKey`. |
+| `download-show`     | `node ./download-show.ts`                       | Interactively downloads a selected show through `yt-dlp`.              |
+| `check`             | `tsc --noEmit -p tsconfig.json`                 | Type-checks the Node/TypeScript tooling.                               |
+
+The tools run with plain `node`, which only strips types. Use only TypeScript syntax that can be erased (no enums, namespaces or parameter properties), write relative imports with their `.ts` extension, and import JSON with `with { type: 'json' }`. `erasableSyntaxOnly` in `scripts/tsconfig.json` enforces the first rule.
 
 ### Dev Environment
 
@@ -140,10 +154,22 @@ There is no build, bundler, dev server with hot reload, or watch mode. The files
 
 ### Checks
 
+The tooling is exactly this. Every tool only reads and reports, or formats source in place. None of them is a build step (see [Invariant: No Build Step](#invariant-no-build-step)).
+
+| Tool                                       | What it catches                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Prettier**                               | Formatting, across the whole repo.                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **ESLint**                                 | Parses runtime JS as ES5, so it rejects any post-ES5 **syntax** (`let`, arrows, template literals and so on). This is the main guard against syntax the TV can't run. Also the recommended rules, such as unused variables.                                                                                                                                                                                                        |
+| **TypeScript 7** (`tsc`, `noEmit`)         | Type errors in the runtime JS through its JSDoc, in the tests and in `scripts/`. For runtime code, `lib: ["DOM", "ES5"]` flags built-ins from ES2016 on (such as `Array.prototype.includes`, `Object.entries`, `padStart`). It can't flag ES2015 built-ins (`String.prototype.includes`/`startsWith`, `Array.prototype.find`, `Array.from`, `Object.assign`), because TypeScript's DOM library pulls in the ES2015 library itself. |
+| **The Chrome 38 scan**                     | Patterns in `tests/unit/chrome38-scan.ts`, run over runtime JS, CSS and HTML by `chrome38.test.ts`. They catch features the TV lacks that the tools above miss: those ES2015 built-ins, newer DOM APIs, unsupported CSS and HTML, and Web Components.                                                                                                                                                                              |
+| **Node's test runner, Playwright, `sirv`** | The unit, component and e2e tests (see [Tests](#tests)). They run in modern Node and Chromium, so they check behaviour, not TV compatibility.                                                                                                                                                                                                                                                                                      |
+
+`tests/unit/chrome38-checks.test.ts` keeps these honest. It has one probe per feature listed under "Not Available" in [`docs/chrome38-features.md`](docs/chrome38-features.md), runs each through ESLint and `tsc` with the project's configs and through the scan, and fails if a tool that should catch it doesn't. A valid ES5 control must pass all three. When you add a feature to that list, add a probe for it, and a scan pattern if nothing catches it yet.
+
 Before handing off a runtime change:
 
 1. Run `node --run check` (type check), `node --run lint` (Prettier + ESLint) and `node --run test` (all tests). For a quicker pass, run `npx eslint .` and `npx prettier --check <changed files>`. Format changed files with `npx prettier --write <files>`, not `node --run format`, which rewrites the whole repo.
-2. Re-read the change against [`docs/chrome38-features.md`](docs/chrome38-features.md). ESLint only catches post-ES5 **syntax**. It does not catch post-ES5 built-in methods, newer DOM APIs or unsupported CSS, so check those by hand.
+2. Re-read the change against [`docs/chrome38-features.md`](docs/chrome38-features.md). ESLint only catches post-ES5 **syntax**, and `tsc` and the Chrome 38 scan only catch some built-ins, DOM APIs and CSS. Check the rest by hand.
 3. Add or update tests for the change in the right tier (see [Tests](#tests)).
 4. Run the site and go through every affected page in a browser (see below). Watch the console for errors.
 5. If possible, check the change on the TV itself (see below).
@@ -161,17 +187,17 @@ A desktop browser can show that the logic, layout and flows work. It can't show 
 
 There are three tiers. Put each test in the lowest tier that can show the behaviour, and keep the suite small: one test per behaviour, not per detail.
 
-| Tier          | Folder             | Runner                  | What it covers                                                                                                                                                                                                                                                                                                    |
-| ------------- | ------------------ | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Unit**      | `tests/unit/`      | `node --test`           | Logic that needs no DOM: routing, data lookups, watch history. Also three static checks: `chrome38.test.ts` scans runtime code for features the TV lacks, `index-html.test.ts` checks that `index.html` loads every runtime file in the right order, and `catalogue.test.ts` sanity-checks the real `shows.json`. |
-| **Component** | `tests/component/` | Playwright, `component` | One component from `public/components/` on its own, on a blank test page: what it renders for given options, keyboard/click handling, callbacks and methods.                                                                                                                                                      |
-| **E2E**       | `tests/e2e/`       | Playwright, `e2e`       | The whole app as a user uses it: browsing with the remote, playback and moving on to the next episode, "Sæð", deep links, not-found, load failure and retry. Pages are tested here, not as components.                                                                                                            |
+| Tier          | Folder             | Runner                  | What it covers                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------- | ------------------ | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Unit**      | `tests/unit/`      | `node --test`           | Logic that needs no DOM: routing, data lookups, watch history. Also static checks: `chrome38.test.ts` scans runtime code for features the TV lacks, `chrome38-checks.test.ts` checks that ESLint, `tsc` and that scan catch every feature the TV lacks, `index-html.test.ts` checks that `index.html` loads every runtime file in the right order, and `catalogue.test.ts` sanity-checks the real `shows.json`. |
+| **Component** | `tests/component/` | Playwright, `component` | One component from `public/components/` on its own, on a blank test page: what it renders for given options, keyboard/click handling, callbacks and methods.                                                                                                                                                                                                                                                    |
+| **E2E**       | `tests/e2e/`       | Playwright, `e2e`       | The whole app as a user uses it: browsing with the remote, playback and moving on to the next episode, "Sæð", deep links, not-found, load failure and retry. Pages are tested here, not as components.                                                                                                                                                                                                          |
 
 - **Unit tests** load the runtime scripts into a sandbox with `loadRuntime()` from `tests/unit/runtime.ts`, the way `<script>` tags would, with fakes for browser globals such as `localStorage`. Objects from the sandbox come from another realm, so copy them with `plain()` before comparing with `assert.deepEqual`.
 - **Component tests** call `loadComponents(page, ['<component>'])` from `tests/component/mount.ts`, which serves a blank page with core plus those components, then build the component with `page.evaluate()` and append it to `#root`.
 - **E2E tests** import `test` and `expect` from `tests/e2e/app.ts` instead of `@playwright/test`. That fixture serves `tests/fixtures/shows.json` in place of the real catalogue, fakes the HLS master playlist (two quality levels, no real video), blocks every other outside request, and records requested playlist URLs in `playlistRequests`. The fixture catalogue includes awkward titles (`/`, `#`, `?`, `&` and Faroese letters) and an episode without video.
 - Playwright starts its own `sirv` server on port 4388. Test hooks set on `window` from tests are named `test*` (typed in `tests/globals.d.ts`).
-- The `chrome38.test.ts` scan is a safety net for common mistakes, not proof of compatibility. When it flags a false positive, adjust its pattern rather than working around it in runtime code.
+- The Chrome 38 scan is a safety net of simple patterns, not proof of compatibility. When it flags a false positive, adjust its pattern in `chrome38-scan.ts` rather than working around it in runtime code, and keep `chrome38-checks.test.ts` passing.
 - `index-html.test.ts` fails when a `.js` or `.css` file under `public/core/`, `public/components/` or `public/pages/` has no `<script>` or `<link rel="stylesheet">` in `index.html`, when `index.html` loads a file that doesn't exist, or when the load order isn't vendor, core, components, pages. If you add a new top-level runtime folder, add it to the test's group order.
 - All tests run in modern headless Chromium, so they check behaviour, not that the code runs on the TV.
 
@@ -200,8 +226,9 @@ Git belongs to the user. The user alone maintains the repository, the index and 
 
 All project documentation lives in [`docs/`](docs/). Add new docs there and link them here.
 
-| Document                                                                   | What it covers                                                                                                                                  |
-| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`docs/chrome38-features.md`](docs/chrome38-features.md)                   | Which JavaScript, HTML and CSS features the TV's Chrome 38-era browser supports. Read before writing runtime code.                              |
-| [`docs/component-cleanup-plan.md`](docs/component-cleanup-plan.md)         | Planned work, in eight separately shippable chunks: icons, buttons, tiles, grid, focus, select, player, boot screens and core cleanup.          |
-| [`docs/vanilla-spa-migration-plan.md`](docs/vanilla-spa-migration-plan.md) | Historical, already implemented plan for replacing the original SvelteKit app with the current vanilla SPA. Background on the design decisions. |
+| Document                                                                   | What it covers                                                                                                                                                         |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`docs/chrome38-features.md`](docs/chrome38-features.md)                   | Which JavaScript, HTML and CSS features the TV's Chrome 38-era browser supports. Read before writing runtime code.                                                     |
+| [`docs/component-model.md`](docs/component-model.md)                       | How components and pages are built, loaded and put together: CSS-only components, factory components, `BS.load`, templates, styles. Read before adding or changing UI. |
+| [`docs/component-cleanup-plan.md`](docs/component-cleanup-plan.md)         | Planned work, in nine separately shippable chunks: tooling, loading, icons and buttons, tiles and grid, focus, select, player, boot screens and core cleanup.          |
+| [`docs/vanilla-spa-migration-plan.md`](docs/vanilla-spa-migration-plan.md) | Historical, already implemented plan for replacing the original SvelteKit app with the current vanilla SPA. Background on the design decisions.                        |
