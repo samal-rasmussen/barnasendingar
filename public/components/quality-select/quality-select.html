@@ -1,3 +1,32 @@
+<style>
+	.quality-control {
+		margin-left: auto;
+		padding: 0.45rem 0.55rem;
+		white-space: nowrap;
+	}
+
+	.quality-control label {
+		margin-right: 0.4rem;
+		font-weight: 600;
+	}
+
+	.quality-control select {
+		font: inherit;
+		min-width: 7rem;
+		color: #ffffff;
+		background: #1a1a1a;
+		border: 1px solid #777777;
+		border-radius: 4px;
+		padding: 0.35rem 0.4rem;
+	}
+
+	@media screen and (max-width: 785px) {
+		.quality-control {
+			padding: 0.35rem 0.4rem;
+		}
+	}
+</style>
+
 <template id="quality-select">
 	<div class="quality-control">
 		<label data-ref="label">Góðska</label

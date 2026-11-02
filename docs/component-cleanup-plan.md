@@ -1,6 +1,6 @@
 # Component Cleanup Plan
 
-> **Status: in progress.** Chunks 0 and 0.5 are done. Update the status of each chunk as it lands.
+> **Status: in progress.** Chunks 0, 0.5 and 1 are done. Update the status of each chunk as it lands.
 >
 > An earlier version of this plan had a "safety net" chunk 1 that added `tests/unit/index-html.test.ts`. That test was committed, but this version of the plan makes it unnecessary, and the new chunk 1 deletes it.
 
@@ -132,6 +132,8 @@ The model these decisions add up to is described in [`component-model.md`](compo
 ---
 
 ## Chunk 1: Loading
+
+> **Status: done.** The old startup function `BS.load(app)` in `core/app.js` was renamed `BS.loadApp(app)` to free the name.
 
 **Why first:** every later chunk adds or moves component and page files. This chunk makes that a one-line change in `index.html` and moves each component's styles in with its markup.
 

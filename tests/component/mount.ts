@@ -3,13 +3,10 @@ import type { Page } from '@playwright/test';
 /**
  * Opens a blank test page that loads the core scripts plus the given
  * components (folder names under public/components/), with no router or
- * pages, and waits until their templates are loaded. Tests then build the
+ * pages, and waits until their HTML files (templates and styles) are loaded. Tests then build the
  * component with page.evaluate() and append it to #root.
  */
 export async function loadComponents(page: Page, components: string[]) {
-	const styles = components
-		.map((name) => `<link rel="stylesheet" href="/components/${name}/${name}.css" />`)
-		.join('\n');
 	const scripts = components
 		.map((name) => `<script src="/components/${name}/${name}.js"></script>`)
 		.join('\n');
@@ -22,7 +19,6 @@ export async function loadComponents(page: Page, components: string[]) {
 <head>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="/core/base.css" />
-	${styles}
 </head>
 <body>
 	<main id="root"></main>

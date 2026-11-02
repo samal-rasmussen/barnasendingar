@@ -2,7 +2,7 @@
 
 How UI is split into components and pages in this project, how their files are loaded, and how they fit together. Read this before adding or changing a component or page.
 
-> **Status: target model.** [`component-cleanup-plan.md`](component-cleanup-plan.md) introduces this model chunk by chunk. Until a chunk has landed, the code it touches still works the old way: `BS.templates.register(url)` instead of `BS.load`, separate `.css` files with `<link>`s in `index.html`, and JS factories for buttons. When a chunk changes the model, update this document in the same chunk. Remove this note when the plan is done.
+> **Status: target model.** [`component-cleanup-plan.md`](component-cleanup-plan.md) introduces this model chunk by chunk. Loading (`BS.load`, and styles in a `<style>` in each folder's `.html`) has landed. Until the other chunks have, the code they touch still works the old way: `core/grid.css` is still a stylesheet file, buttons have no component classes, and tiles are not `<button>`s. When a chunk changes the model, update this document in the same chunk. Remove this note when the plan is done.
 
 ## Principles
 

@@ -4,10 +4,11 @@
 
 	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
+
+	BS.load('not-found.html');
+
 	var page = {};
 	BS.pages.notFound = page;
-
-	BS.templates.register('/pages/not-found/not-found.html');
 
 	/**
 	 * @param {HTMLElement} root

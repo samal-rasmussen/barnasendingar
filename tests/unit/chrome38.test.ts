@@ -36,4 +36,9 @@ test('the scan covers the runtime code', () => {
 	assert.ok(files.some((file) => file.endsWith('core/app.js')));
 	assert.ok(files.some((file) => file.endsWith('.css')));
 	assert.ok(files.some((file) => file.endsWith('.html')));
+	assert.ok(
+		files.some(
+			(file) => file.endsWith('.html') && readFileSync(join(root, file), 'utf8').includes('<style')
+		)
+	);
 });

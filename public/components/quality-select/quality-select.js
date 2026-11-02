@@ -5,7 +5,7 @@
 	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
 
-	BS.templates.register('/components/quality-select/quality-select.html');
+	BS.load('quality-select.html');
 
 	/**
 	 * A labelled select for picking a video quality level. It starts out

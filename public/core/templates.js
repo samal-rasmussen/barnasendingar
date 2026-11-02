@@ -7,26 +7,39 @@
 
 	/** @type {string[]} */
 	var urls = [];
+	/** @type {Object<string, string>} */
+	var textsByUrl = {};
 	/** @type {Object<string, boolean>} */
-	var loadedUrls = {};
+	var addedUrls = {};
 	/** @type {Object<string, HTMLTemplateElement>} */
 	var templatesById = {};
 
 	BS.templates.loadTimeoutMs = 20000;
 
 	/**
-	 * Adds an HTML file of <template> elements to load at startup. Each page
-	 * script calls this for its own HTML file.
+	 * Adds an HTML file to load at startup. Each component and page script
+	 * calls this as its first statement, with its own file name. The name is
+	 * resolved relative to the calling script, through document.currentScript,
+	 * so this only works while the script first runs.
 	 *
-	 * @param {string} url
+	 * @param {string} fileName
 	 */
-	BS.templates.register = function (url) {
-		urls.push(url);
+	BS.load = function (fileName) {
+		var script = /** @type {?HTMLScriptElement} */ (document.currentScript);
+
+		if (!script || !script.src) {
+			throw new Error(
+				'BS.load must be called at the top of a script loaded with <script src>: ' + fileName
+			);
+		}
+		urls.push(script.src.split(/[?#]/)[0].replace(/[^/]*$/, '') + fileName);
 	};
 
 	/**
-	 * Loads every registered file that is not loaded yet. The callback is
-	 * called exactly once, with an error if any file fails to load.
+	 * Loads every registered file that is not loaded yet. Once all of them
+	 * have loaded, adds their contents to the page in the order they were
+	 * registered (see BS.templates.add). The callback is called exactly once,
+	 * with an error if any file fails to load.
 	 *
 	 * @param {(error: ?Error) => void} callback
 	 */
@@ -38,15 +51,27 @@
 		var finished = false;
 		var i;
 
+		function addAll() {
+			var j;
+			for (j = 0; j < urls.length; j += 1) {
+				if (!addedUrls[urls[j]]) {
+					BS.templates.add(textsByUrl[urls[j]]);
+					addedUrls[urls[j]] = true;
+				}
+			}
+			finished = true;
+			callback(null);
+		}
+
 		for (i = 0; i < urls.length; i += 1) {
-			if (!loadedUrls[urls[i]]) {
+			if (!Object.prototype.hasOwnProperty.call(textsByUrl, urls[i])) {
 				pending.push(urls[i]);
 			}
 		}
 
 		remaining = pending.length;
 		if (remaining === 0) {
-			callback(null);
+			addAll();
 			return;
 		}
 
@@ -69,12 +94,10 @@
 						callback(error);
 						return;
 					}
-					BS.templates.add(text);
-					loadedUrls[url] = true;
+					textsByUrl[url] = text || '';
 					remaining -= 1;
 					if (remaining === 0) {
-						finished = true;
-						callback(null);
+						addAll();
 					}
 				},
 				BS.templates.loadTimeoutMs
@@ -87,22 +110,39 @@
 	};
 
 	/**
-	 * Parses HTML text and stores every <template> in it by its id.
+	 * Parses HTML text and uses everything at its top level:
+	 *
+	 * - each <template> is stored by its id, for BS.templates.clone
+	 * - each <style> is added to the end of <head>
+	 * - any other element is added to the end of <body>
 	 *
 	 * @param {string} html
 	 */
 	BS.templates.add = function (html) {
 		var container = document.createElement('div');
-		var templates;
-		var template;
+		/** @type {Element[]} */
+		var elements = [];
+		var element;
+		var tagName;
 		var i;
 
 		container.innerHTML = html;
-		templates = container.getElementsByTagName('template');
-		for (i = 0; i < templates.length; i += 1) {
-			template = /** @type {HTMLTemplateElement} */ (templates[i]);
-			if (template.id) {
-				templatesById[template.id] = template;
+		// Copied first, because moving an element changes container.children.
+		for (i = 0; i < container.children.length; i += 1) {
+			elements.push(container.children[i]);
+		}
+
+		for (i = 0; i < elements.length; i += 1) {
+			element = elements[i];
+			tagName = element.tagName.toLowerCase();
+			if (tagName === 'template') {
+				if (element.id) {
+					templatesById[element.id] = /** @type {HTMLTemplateElement} */ (element);
+				}
+			} else if (tagName === 'style') {
+				document.head.appendChild(element);
+			} else {
+				document.body.appendChild(element);
 			}
 		}
 	};

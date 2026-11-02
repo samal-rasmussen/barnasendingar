@@ -4,6 +4,9 @@
 
 	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
+
+	BS.load('show.html');
+
 	/**
 	 * @typedef {import('../../../scripts/shared-types').Show} Show
 	 * @typedef {import('../../../scripts/shared-types').Episode} Episode
@@ -11,8 +14,6 @@
 
 	var page = {};
 	BS.pages.show = page;
-
-	BS.templates.register('/pages/show/show.html');
 
 	/**
 	 * @param {HTMLElement} root

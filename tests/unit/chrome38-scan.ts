@@ -1,7 +1,8 @@
 // The Chrome 38 scan: patterns for features the TV's Chrome 38-era browser
 // lacks and that ESLint's ES5 parser can't see: built-in methods, DOM APIs,
 // CSS and HTML. See docs/chrome38-features.md. It is a safety net of simple
-// patterns, not a full compatibility check. chrome38.test.ts runs it over the
+// patterns, not a full compatibility check. In HTML files, the contents of
+// <style> elements are also checked against the CSS rules. chrome38.test.ts runs it over the
 // runtime code, and chrome38-checks.test.ts checks that it, ESLint and tsc
 // together catch every unsupported feature the doc lists.
 
@@ -85,16 +86,41 @@ function stripComments(source: string, extension: Extension): string {
 	return extension === '.js' ? withoutBlocks.replace(/^\s*\/\/.*$/gm, blank) : withoutBlocks;
 }
 
+/**
+ * Keeps only the contents of <style> elements in HTML, blanking out
+ * everything else, so the CSS rules can run with the original line numbers.
+ */
+function styleContents(html: string): string {
+	const blank = (text: string) => text.replace(/[^\n]/g, ' ');
+	let result = '';
+	let last = 0;
+	for (const match of html.matchAll(/(<style\b[^>]*>)([\s\S]*?)<\/style>/g)) {
+		const start = match.index + match[1].length;
+		result += blank(html.slice(last, start)) + match[2];
+		last = start + match[2].length;
+	}
+	return result + blank(html.slice(last));
+}
+
 /** Returns one `line: reason: text` entry per rule that matches a line. */
-export function scan(source: string, extension: Extension): string[] {
+function scanWith(source: string, rules: Rule[]): string[] {
 	const problems: string[] = [];
-	const lines = stripComments(source, extension).split('\n');
-	lines.forEach((line, index) => {
-		for (const [pattern, reason] of rulesByExtension[extension]) {
+	source.split('\n').forEach((line, index) => {
+		for (const [pattern, reason] of rules) {
 			if (pattern.test(line)) {
 				problems.push(`${index + 1}: ${reason}: ${line.trim()}`);
 			}
 		}
 	});
+	return problems;
+}
+
+/** Returns one `line: reason: text` entry per rule that matches a line. */
+export function scan(source: string, extension: Extension): string[] {
+	const stripped = stripComments(source, extension);
+	const problems = scanWith(stripped, rulesByExtension[extension]);
+	if (extension === '.html') {
+		problems.push(...scanWith(stripComments(styleContents(stripped), '.css'), cssRules));
+	}
 	return problems;
 }

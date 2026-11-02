@@ -24,7 +24,7 @@
 			return;
 		}
 
-		current.load(app);
+		current.loadApp(app);
 	};
 
 	/**
@@ -33,7 +33,7 @@
 	 *
 	 * @param {HTMLElement} app
 	 */
-	current.load = function (app) {
+	current.loadApp = function (app) {
 		var remaining = 2;
 		var failed = false;
 
@@ -99,7 +99,7 @@
 		message = current.util.el('p', '', 'Kundi ikki lesa barnasendingarnar.');
 		button = /** @type {HTMLButtonElement} */ (current.util.el('button', '', 'Royn aftur'));
 		button.onclick = function () {
-			current.load(app);
+			current.loadApp(app);
 		};
 
 		container.appendChild(message);

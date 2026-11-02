@@ -5,7 +5,7 @@
 	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
 
-	BS.templates.register('/components/tile/tile.html');
+	BS.load('tile.html');
 
 	/**
 	 * A grid tile with a title and an image that can be focused and opened

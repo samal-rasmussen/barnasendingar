@@ -6,7 +6,8 @@ const publicDir = new URL('../../public/', import.meta.url);
 /**
  * Runs runtime scripts from public/ in a fresh sandbox, the way the browser
  * would load them with <script> tags, and returns the sandbox's `window`.
- * `globals` become globals inside the sandbox, for example a fake
+ * While each file runs, `document.currentScript.src` is its URL, as BS.load
+ * expects. `globals` become globals inside the sandbox, for example a fake
  * `localStorage` or `location`.
  */
 export function loadRuntime(files: string[], globals: Record<string, unknown> = {}): any {
@@ -19,8 +20,10 @@ export function loadRuntime(files: string[], globals: Record<string, unknown> = 
 
 	for (const file of ['core/app.js', ...files]) {
 		const code = readFileSync(new URL(file, publicDir), 'utf8');
+		context.document.currentScript = { src: `http://localhost/${file}` };
 		vm.runInContext(code, context, { filename: file });
 	}
+	context.document.currentScript = null;
 	return context;
 }
 

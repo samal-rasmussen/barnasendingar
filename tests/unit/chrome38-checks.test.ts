@@ -44,7 +44,7 @@ const controls: Probe[] = [
 	{
 		feature: 'HTML',
 		extension: '.html',
-		code: '<template id="a"><main><img src="a.png" alt=""><input type="number"></main></template>',
+		code: '<style>\n\t.a { display: flex; }\n</style>\n<template id="a"><main><img src="a.png" alt=""><input type="number"><p>display: grid;</p></main></template>',
 		caughtBy: []
 	}
 ];
@@ -302,6 +302,12 @@ const probes: Probe[] = [
 
 	// CSS
 	{ feature: 'Grid', extension: '.css', code: '.a { display: grid; }', caughtBy: ['scan'] },
+	{
+		feature: 'Grid in a <style> in HTML',
+		extension: '.html',
+		code: '<style>\n\t.a { display: grid; }\n</style>',
+		caughtBy: ['scan']
+	},
 	{
 		feature: 'inline Grid',
 		extension: '.css',

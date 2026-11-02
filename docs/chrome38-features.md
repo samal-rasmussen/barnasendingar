@@ -34,6 +34,7 @@ When in doubt, write to the conservative baseline: ES5 syntax, DOM APIs that exi
   - `crypto.getRandomValues`
   - `requestAnimationFrame`
   - `MutationObserver`
+  - `document.currentScript` (Chrome 29)
   - `postMessage`
   - Web Workers and Shared Workers
   - WebSockets
