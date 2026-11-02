@@ -18,10 +18,7 @@ const publicDir = fileURLToPath(new URL('../../public/', import.meta.url));
  * by folder, with the chunk of docs/component-cleanup-plan.md that removes
  * them. Delete entries as they go. Never add one.
  */
-const knownExceptions: Record<string, string[]> = {
-	// Chunk 6.
-	'pages/episode': ['.player-message', '.player-video', '.player-wrap']
-};
+const knownExceptions: Record<string, string[]> = {};
 
 /** Every selector in the <style> elements of an HTML file, one per entry. */
 function selectors(html: string): string[] {

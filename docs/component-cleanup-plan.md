@@ -1,6 +1,6 @@
 # Component Cleanup Plan
 
-> **Status: in progress.** Chunks 0, 0.5, 1, 2, 3, 4 and 5 are done. Update the status of each chunk as it lands.
+> **Status: in progress.** Chunks 0, 0.5, 1, 2, 3, 4, 5 and 6 are done. Update the status of each chunk as it lands.
 >
 > An earlier version of this plan had a "safety net" chunk 1 that added `tests/unit/index-html.test.ts`. That test was committed, but this version of the plan makes it unnecessary, and the new chunk 1 deletes it.
 
@@ -295,6 +295,8 @@ The model these decisions add up to is described in [`component-model.md`](compo
 ---
 
 ## Chunk 6: Player
+
+> **Status: done, pending the TV check.** `player.focus()` returns `false` when a message shows instead of the video, so the episode page can focus the back button instead. `onLevels` also gets `[]` when a source starts loading, which resets the quality select. `getEpisodeIndex` is gone. The player's component test serves its fake master playlist from `tests/fixtures/hls.ts`, shared with the e2e fixture.
 
 **Why here:** `episode.js` is the most complex file, and it mixes page logic with video logic. This chunk separates them without changing behaviour. It comes after the UX chunks because it changes nothing a child sees, but playback carries the most risk, so it gets its own careful chunk.
 

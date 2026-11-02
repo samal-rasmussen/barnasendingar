@@ -75,17 +75,34 @@
 	};
 
 	/**
+	 * The episode after the given one in the show, matched by identity or
+	 * sortKey.
+	 *
 	 * @param {Show} show
 	 * @param {Episode} episode
-	 * @returns {number}
+	 * @returns {Episode|undefined} undefined after the last episode
 	 */
-	BS.data.getEpisodeIndex = function (show, episode) {
+	BS.data.getNextEpisode = function (show, episode) {
 		var i;
 		for (i = 0; i < show.episodes.length; i += 1) {
 			if (show.episodes[i] === episode || show.episodes[i].sortKey === episode.sortKey) {
-				return i;
+				return show.episodes[i + 1];
 			}
 		}
-		return -1;
+		return undefined;
+	};
+
+	/**
+	 * The address of an episode's HLS master playlist on KVF's video server.
+	 *
+	 * @param {string} mediaId
+	 * @returns {string}
+	 */
+	BS.data.playlistUrl = function (mediaId) {
+		return (
+			'https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/' +
+			mediaId +
+			'.smil?type=m3u8'
+		);
 	};
 })(window);

@@ -1,17 +1,8 @@
 import { test as base, expect, type Page } from '@playwright/test';
 import { fileURLToPath } from 'node:url';
+import { fulfillMasterPlaylist } from '../fixtures/hls.ts';
 
 const fixtureShows = fileURLToPath(new URL('../fixtures/shows.json', import.meta.url));
-
-// A master playlist with two quality levels. That's enough for hls.js to
-// parse the manifest and fill the quality selector. The level playlists and
-// video segments are never served, so no real video plays.
-const masterPlaylist = `#EXTM3U
-#EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=640x360
-360.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1280x720
-720.m3u8
-`;
 
 /**
  * The app running against tests/fixtures/shows.json, with every request
@@ -27,10 +18,7 @@ export const test = base.extend<{ playlistRequests: string[] }>({
 			const url = route.request().url();
 			if (url.startsWith('https://vod.kringvarp.fo/') && url.includes('.smil?type=m3u8')) {
 				playlistRequests.push(url);
-				return route.fulfill({
-					contentType: 'application/vnd.apple.mpegurl',
-					body: masterPlaylist
-				});
+				return fulfillMasterPlaylist(route);
 			}
 			return route.abort();
 		});

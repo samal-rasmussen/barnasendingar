@@ -30,9 +30,18 @@ test('finds episodes by title, preferring the first of duplicate titles', () => 
 	assert.equal(data.getEpisode(shows[0], 'Partur 9'), undefined);
 });
 
-test('finds an episode index by identity or sortKey', () => {
+test('finds the next episode by identity or sortKey', () => {
 	const data = setup();
-	assert.equal(data.getEpisodeIndex(shows[0], shows[0].episodes[2]), 2);
-	assert.equal(data.getEpisodeIndex(shows[0], { sortKey: '2' }), 1);
-	assert.equal(data.getEpisodeIndex(shows[0], { sortKey: 'x' }), -1);
+	assert.equal(data.getNextEpisode(shows[0], shows[0].episodes[0]), shows[0].episodes[1]);
+	assert.equal(data.getNextEpisode(shows[0], { sortKey: '2' }), shows[0].episodes[2]);
+	assert.equal(data.getNextEpisode(shows[0], shows[0].episodes[2]), undefined);
+	assert.equal(data.getNextEpisode(shows[0], { sortKey: 'x' }), undefined);
+});
+
+test('builds the playlist address from a mediaId', () => {
+	const data = setup();
+	assert.equal(
+		data.playlistUrl('abc-1'),
+		'https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/abc-1.smil?type=m3u8'
+	);
 });

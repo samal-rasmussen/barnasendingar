@@ -2,7 +2,7 @@
 
 How UI is split into components and pages in this project, how their files are loaded, and how they fit together. Read this before adding or changing a component or page.
 
-> **Status: target model.** [`component-cleanup-plan.md`](component-cleanup-plan.md) introduces this model chunk by chunk. Loading (`BS.load`, and styles in a `<style>` in each folder's `.html`), the CSS-only `icon` and `button` components, the `tile` and `grid` factory components with `BS.dom.replace`, the page lifecycle and focus rules, and the CSS-only `select` component used by the quality select have landed. Until the other chunks have, the code they touch still works the old way: the player still has its old structure. When a chunk changes the model, update this document in the same chunk. Remove this note when the plan is done.
+> **Status: target model.** [`component-cleanup-plan.md`](component-cleanup-plan.md) introduces this model chunk by chunk. Loading (`BS.load`, and styles in a `<style>` in each folder's `.html`), the CSS-only `icon` and `button` components, the `tile` and `grid` factory components with `BS.dom.replace`, the page lifecycle and focus rules, the CSS-only `select` component used by the quality select, and the `player` factory component have landed. Still to come is the comment with colours and breakpoints at the top of `base.css` (chunk 8). When a chunk changes the model, update this document in the same chunk. Remove this note when the plan is done.
 
 ## Principles
 
@@ -161,7 +161,7 @@ Rules:
 ## Templates
 
 - `BS.templates.clone(id)` returns `{ fragment, element, refs }`. `element` is the first element, for single-root templates. `refs` maps each `data-ref` value to its element.
-- Template ids are global, so prefix them with the component or page name (`tile`, `show-page`, `episode-player-message`).
+- Template ids are global, so prefix them with the component or page name (`tile`, `show-page`, `player`).
 - Keep structure and static text in the template. Show and hide parts with `hidden` or by removing them, not by building markup in JS.
 
 ## Pages

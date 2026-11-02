@@ -1,10 +1,11 @@
 import type { Page } from '@playwright/test';
 
 /**
- * Opens a blank test page that loads the core scripts plus the given
- * components (folder names under public/components/), with no router or
- * pages, and waits until their HTML files (templates and styles) are loaded. Tests then build the
- * component with page.evaluate() and append it to #root.
+ * Opens a blank test page that loads hls.js and the core scripts plus the
+ * given components (folder names under public/components/), with no router
+ * or pages, and waits until their HTML files (templates and styles) are
+ * loaded. Tests then build the component with page.evaluate() and append it
+ * to #root.
  */
 export async function loadComponents(page: Page, components: string[]) {
 	const scripts = components
@@ -22,6 +23,7 @@ export async function loadComponents(page: Page, components: string[]) {
 </head>
 <body>
 	<main id="root"></main>
+	<script src="/vendor/hls.light.min.js"></script>
 	<script src="/core/app.js"></script>
 	<script src="/core/util.js"></script>
 	<script src="/core/dom.js"></script>
