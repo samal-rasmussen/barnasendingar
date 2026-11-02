@@ -8,7 +8,7 @@
 	/**
 	 * The app's pages and their addresses, for BS.createRouter. The render
 	 * functions look up the data a page needs, and show the not-found page
-	 * when it doesn't exist.
+	 * when it doesn't exist. Each notes the page for error reports.
 	 */
 	BS.routes = [
 		{
@@ -16,6 +16,7 @@
 			path: '/',
 			/** @param {HTMLElement} root */
 			render: function (root) {
+				BS.logEvent('Page: home');
 				return BS.pages.home.render(root);
 			}
 		},
@@ -28,6 +29,7 @@
 			 */
 			render: function (root, params) {
 				var show = BS.data.getShow(params.show);
+				BS.logEvent('Page: show ' + params.show);
 				if (!show) {
 					return BS.pages.notFound.render(root);
 				}
@@ -44,6 +46,7 @@
 			render: function (root, params) {
 				var show = BS.data.getShow(params.show);
 				var episode = show ? BS.data.getEpisode(show, params.episode) : undefined;
+				BS.logEvent('Page: episode ' + params.show + ' / ' + params.episode);
 				if (!show || !episode) {
 					return BS.pages.notFound.render(root);
 				}

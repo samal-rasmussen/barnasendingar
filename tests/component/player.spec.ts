@@ -18,6 +18,7 @@ test.beforeEach(async ({ page }) => {
 	await page.addInitScript(() => {
 		Element.prototype.requestFullscreen = () => Promise.resolve();
 	});
+	await page.clock.install();
 	await loadComponents(page, ['player']);
 	await page.evaluate(() => {
 		window.testLevels = [];
@@ -96,9 +97,24 @@ test('recovers from a video error, reports it and does not move on', async ({ pa
 
 	expect(await page.evaluate(() => window.testRecoveries)).toBe(1);
 	expect(await page.evaluate(() => window.testEnded)).toBe(0);
-	const [error, ended] = await logged(page);
+	await page.locator('video').evaluate((video) => video.dispatchEvent(new Event('playing')));
+	const [error, ended, recovered] = await logged(page);
 	expect(error).toMatch(/^Video error, recovering \(attempt 1\)\. at .*MediaError code 3 DECODE$/);
 	expect(ended).toMatch(/^Video stopped before the end, not moving on\./);
+	expect(recovered).toMatch(/^Recovered from video error\. after [\d.]+s and 1 attempts, /);
+});
+
+test('reports playback stuck at one position, once', async ({ page }) => {
+	await load(page, 'https://video.test/a/master.m3u8');
+	await fakeVideo(page, { paused: false, currentTime: 42 });
+
+	await page.clock.runFor(25_000);
+
+	// The level playlists never load, so hls.js reports those failures too.
+	const stuck = (await logged(page)).filter((line: string) => line.startsWith('Playback stuck'));
+	expect(stuck).toEqual([
+		expect.stringMatching(/^Playback stuck\. at 42\.0s of NaN, .*not paused/)
+	]);
 });
 
 test('does not move on when the video ends well before its duration', async ({ page }) => {

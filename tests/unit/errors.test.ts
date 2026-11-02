@@ -98,6 +98,34 @@ test('reports uncaught errors as unhandled, with the same id', () => {
 	);
 	assert.equal(sent[1].body.properties.$exception_list[0].mechanism.handled, false);
 	assert.equal(sent[1].body.properties.distinct_id, sent[0].body.properties.distinct_id);
+
+	window.onunhandledrejection({ reason: new Error('nope') });
+	assert.equal(
+		sent[2].body.properties.$exception_list[0].value,
+		'Unhandled promise rejection: Error: nope'
+	);
+	assert.equal(sent[2].body.properties.$exception_list[0].mechanism.handled, false);
+});
+
+test('sends breadcrumbs, earlier errors and context with each report', () => {
+	const { BS, sent } = setup('barnasendingar.vercel.app');
+
+	BS.logEvent('Page: home');
+	BS.logError('First.', null);
+	BS.setErrorContext('player', 'hls.js 0.14.17');
+	BS.logError('Second.', null);
+
+	const [first, second] = sent.map((report) => report.body.properties);
+	assert.deepEqual(
+		first.breadcrumbs.map((crumb: string) => crumb.slice(9)),
+		['Page: home']
+	);
+	assert.deepEqual(
+		second.breadcrumbs.map((crumb: string) => crumb.slice(9)),
+		['Page: home', 'Error: First.']
+	);
+	assert.equal(first.player, undefined);
+	assert.equal(second.player, 'hls.js 0.14.17');
 });
 
 test('sends at most 5 a minute, and counts what it held back', () => {

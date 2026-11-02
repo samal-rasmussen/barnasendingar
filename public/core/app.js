@@ -27,6 +27,32 @@
 		}
 	};
 
+	/**
+	 * Notes something that happened, such as a page change or a quality
+	 * switch. It is not reported on its own, but the latest notes go with
+	 * every error report, as breadcrumbs (see public/errors/errors.js).
+	 *
+	 * @param {string} text
+	 */
+	BS.logEvent = function (text) {
+		if (BS.errors) {
+			BS.errors.note(text);
+		}
+	};
+
+	/**
+	 * Sets a property that goes with every error report from now on, such
+	 * as how the player plays video.
+	 *
+	 * @param {string} name
+	 * @param {string} value
+	 */
+	BS.setErrorContext = function (name, value) {
+		if (BS.errors) {
+			BS.errors.setContext(name, value);
+		}
+	};
+
 	BS.start = function () {
 		var app = document.getElementById('app');
 		if (!app) {
@@ -70,6 +96,7 @@
 					routes: BS.routes,
 					/** @param {HTMLElement} root */
 					notFound: function (root) {
+						BS.logEvent('Page: not found');
 						return BS.pages.notFound.render(root);
 					}
 				});

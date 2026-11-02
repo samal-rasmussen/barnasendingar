@@ -39,6 +39,7 @@
 		{ ms: 24 * 60 * minute, max: 400 }
 	];
 	var maxOverlayLines = 20;
+	var maxBreadcrumbs = 20;
 
 	var reporting = /\.vercel\.app$/.test(window.location.hostname);
 	var debug = /[?&]debug(=|&|$)/.test(window.location.search);
@@ -49,6 +50,14 @@
 	var suppressed = 0;
 	/** @type {?string} */
 	var distinctId = null;
+	// The latest notes from BS.logEvent and earlier errors, oldest first,
+	// sent with every report.
+	/** @type {string[]} */
+	var breadcrumbs = [];
+	// Properties sent with every report, from BS.setErrorContext and about
+	// the browser's video support.
+	/** @type {Object<string, string>} */
+	var context = mediaSupport();
 
 	/**
 	 * @typedef {Object} Frame A stack frame in PostHog's format.
@@ -84,9 +93,47 @@
 			if (reporting) {
 				sendLimited(value, /** @type {ErrorLike} */ (error), !uncaught);
 			}
+			// Later reports show this one, even if the limits held it back.
+			BS.errors.note('Error: ' + value);
 		} catch (_reportError) {
 			// Nothing sensible is left to do; reporting must not break the app.
 		}
+	};
+
+	/**
+	 * Adds a breadcrumb, which later reports carry. Never throws.
+	 *
+	 * @param {string} text
+	 */
+	BS.errors.note = function (text) {
+		try {
+			breadcrumbs.push(new Date().toTimeString().slice(0, 8) + ' ' + text);
+			if (breadcrumbs.length > maxBreadcrumbs) {
+				breadcrumbs.shift();
+			}
+		} catch (_noteError) {
+			// Breadcrumbs are extra; never let them break the app.
+		}
+	};
+
+	/**
+	 * Sets a property that every later report carries.
+	 *
+	 * @param {string} name
+	 * @param {string} value
+	 */
+	BS.errors.setContext = function (name, value) {
+		context[name] = value;
+	};
+
+	/**
+	 * Promises that fail with nothing to handle the failure. The LG's
+	 * browser predates this event, so there it never fires.
+	 *
+	 * @param {PromiseRejectionEvent} event
+	 */
+	window.onunhandledrejection = function (event) {
+		BS.errors.report('Unhandled promise rejection:', event.reason, true);
 	};
 
 	/**
@@ -169,6 +216,24 @@
 	}
 
 	/**
+	 * What the browser offers for video: its own HLS support (as
+	 * canPlayType answers, '' for none) and Media Source Extensions, which
+	 * hls.js needs.
+	 *
+	 * @returns {Object<string, string>}
+	 */
+	function mediaSupport() {
+		try {
+			return {
+				native_hls: document.createElement('video').canPlayType('application/vnd.apple.mpegURL'),
+				mse: typeof window.MediaSource === 'function' ? 'yes' : 'no'
+			};
+		} catch (_error) {
+			return {};
+		}
+	}
+
+	/**
 	 * @param {string} value
 	 * @param {ErrorLike} error
 	 * @param {boolean} handled
@@ -176,6 +241,18 @@
 	 */
 	function send(value, error, handled, suppressedBefore) {
 		var xhr = new XMLHttpRequest();
+		/** @type {Object<string, unknown>} */
+		var properties = {
+			distinct_id: getDistinctId(),
+			$process_person_profile: false,
+			$current_url: window.location.href,
+			$raw_user_agent: window.navigator.userAgent,
+			$screen_width: window.screen.width,
+			$screen_height: window.screen.height,
+			suppressed_before: suppressedBefore,
+			breadcrumbs: breadcrumbs.slice()
+		};
+		var name;
 		var exception = {
 			type: error && typeof error.name === 'string' ? error.name : 'Error',
 			value: value,
@@ -186,24 +263,16 @@
 			}
 		};
 
+		properties.$exception_list = [exception];
+		for (name in context) {
+			if (Object.prototype.hasOwnProperty.call(context, name)) {
+				properties[name] = context[name];
+			}
+		}
+
 		xhr.open('POST', posthogUrl, true);
 		xhr.setRequestHeader('Content-Type', 'application/json');
-		xhr.send(
-			JSON.stringify({
-				token: posthogToken,
-				event: '$exception',
-				properties: {
-					distinct_id: getDistinctId(),
-					$process_person_profile: false,
-					$exception_list: [exception],
-					$current_url: window.location.href,
-					$raw_user_agent: window.navigator.userAgent,
-					$screen_width: window.screen.width,
-					$screen_height: window.screen.height,
-					suppressed_before: suppressedBefore
-				}
-			})
-		);
+		xhr.send(JSON.stringify({ token: posthogToken, event: '$exception', properties: properties }));
 	}
 
 	/**
@@ -298,6 +367,10 @@
 			window.screen.width +
 			'x' +
 			window.screen.height +
+			' | native HLS: ' +
+			(context.native_hls || 'no') +
+			' | MSE: ' +
+			(context.mse || '?') +
 			' | sending to PostHog: ' +
 			(reporting ? 'yes' : 'no');
 		overlay.hidden = false;

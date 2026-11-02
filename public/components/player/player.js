@@ -48,13 +48,21 @@
 		// The state of the current source, reset by load().
 		// True from a video error until playback runs again.
 		var failed = false;
-		// How many times hls.js was asked to recover from a video error.
+		// How many times hls.js was asked to recover from a video error, and
+		// when it was last asked.
 		var recoveries = 0;
+		var recoveryStartedAt = 0;
 		// The quality levels hls.js switched to, for error reports.
 		/** @type {string[]} */
 		var levelSwitches = [];
+		// The watchdog that reports playback stuck at one position: the
+		// interval, the position it last saw and since when, and whether
+		// it has reported being stuck there.
 		/** @type {?number} */
-		var stallTimer = null;
+		var watchdog = null;
+		var lastPosition = -1;
+		var positionSince = 0;
+		var stuckReported = false;
 
 		video.onended = function () {
 			// Some TVs (Samsung Tizen) fire `ended` when playback fails. Moving
@@ -73,6 +81,7 @@
 				return;
 			}
 			recoveries += 1;
+			recoveryStartedAt = Date.now();
 			BS.logError('Video error, recovering (attempt ' + recoveries + ').', details);
 			// hls.js's documented recovery for decode errors: reattach the
 			// media, and if that wasn't enough, also try the other AAC codec.
@@ -86,22 +95,61 @@
 				play(video);
 			};
 		};
-		video.onwaiting = function () {
-			clearStallTimer();
-			stallTimer = window.setTimeout(function () {
-				stallTimer = null;
-				BS.logError('Playback stalled.', describePlayback());
-			}, stallReportMs);
-		};
-		video.onplaying = function () {
+		video.onplaying = function (event) {
+			noteVideoEvent(event);
+			if (failed && recoveries > 0) {
+				BS.logError(
+					'Recovered from video error.',
+					'after ' +
+						seconds((Date.now() - recoveryStartedAt) / 1000) +
+						' and ' +
+						recoveries +
+						' attempts, ' +
+						describePlayback()
+				);
+			}
 			failed = false;
-			clearStallTimer();
 		};
+		video.onpause = noteVideoEvent;
+		video.onwaiting = noteVideoEvent;
+		video.onseeking = noteVideoEvent;
+		video.onstalled = noteVideoEvent;
 
-		function clearStallTimer() {
-			if (stallTimer !== null) {
-				window.clearTimeout(stallTimer);
-				stallTimer = null;
+		/**
+		 * Notes a playback event as a breadcrumb for error reports.
+		 *
+		 * @param {Event} event
+		 */
+		function noteVideoEvent(event) {
+			BS.logEvent('Video ' + event.type + ' at ' + seconds(video.currentTime));
+		}
+
+		/**
+		 * Reports playback that should run but stays at the same position,
+		 * once until it moves again. Some TVs freeze without any error or
+		 * `waiting` event.
+		 */
+		function checkStuck() {
+			var now = Date.now();
+			if (video.paused || video.ended || video.currentTime !== lastPosition) {
+				if (stuckReported) {
+					BS.logEvent('Video moving again at ' + seconds(video.currentTime));
+				}
+				lastPosition = video.currentTime;
+				positionSince = now;
+				stuckReported = false;
+				return;
+			}
+			if (!stuckReported && now - positionSince >= stuckReportMs) {
+				stuckReported = true;
+				BS.logError('Playback stuck.', describePlayback());
+			}
+		}
+
+		function stopWatchdog() {
+			if (watchdog !== null) {
+				window.clearInterval(watchdog);
+				watchdog = null;
 			}
 		}
 
@@ -114,7 +162,12 @@
 		function describePlayback() {
 			var parts = [
 				'at ' + seconds(video.currentTime) + ' of ' + seconds(video.duration),
-				'buffered ' + describeRanges(video.buffered)
+				'buffered ' + describeRanges(video.buffered),
+				(video.paused ? 'paused' : 'not paused') +
+					', readyState ' +
+					video.readyState +
+					', networkState ' +
+					video.networkState
 			];
 			if (hls) {
 				parts.push('hls.js level ' + describeLevel(hls, hls.currentLevel));
@@ -137,7 +190,7 @@
 				hls.destroy();
 			}
 			hls = null;
-			clearStallTimer();
+			stopWatchdog();
 			video.onloadedmetadata = null;
 			video.oncanplay = null;
 			video.pause();
@@ -175,9 +228,13 @@
 			var Hls = /** @type {any} */ (window).Hls;
 
 			stop();
+			BS.logEvent('Load ' + source.src);
 			failed = false;
 			recoveries = 0;
 			levelSwitches = [];
+			lastPosition = -1;
+			stuckReported = false;
+			watchdog = window.setInterval(checkStuck, 1000);
 			if (!video.parentNode) {
 				element.insertBefore(video, message);
 			}
@@ -186,6 +243,7 @@
 			options.onLevels([]);
 
 			if (Hls && Hls.isSupported && Hls.isSupported()) {
+				BS.setErrorContext('player', 'hls.js ' + Hls.version);
 				hls = attachHls(
 					Hls,
 					video,
@@ -195,18 +253,22 @@
 						start();
 					},
 					function (level) {
-						levelSwitches.push(describeLevel(hls, level) + ' at ' + seconds(video.currentTime));
+						var switched = describeLevel(hls, level) + ' at ' + seconds(video.currentTime);
+						levelSwitches.push(switched);
+						BS.logEvent('hls.js switched to level ' + switched);
 					}
 				);
 				return;
 			}
 
 			if (video.canPlayType('application/vnd.apple.mpegURL')) {
+				BS.setErrorContext('player', 'native HLS');
 				video.src = source.src;
 				video.onloadedmetadata = start;
 				return;
 			}
 
+			BS.setErrorContext('player', 'none');
 			showMessage('Hesin kaga dugir ikki at spæla video.');
 		}
 
@@ -223,6 +285,9 @@
 			 */
 			setLevel: function (index) {
 				if (hls) {
+					BS.logEvent(
+						'Quality picked by hand: ' + (index === -1 ? 'automatic' : describeLevel(hls, index))
+					);
 					hls.currentLevel = index;
 				}
 			},
@@ -247,8 +312,11 @@
 			destroy: function () {
 				video.onended = null;
 				video.onerror = null;
-				video.onwaiting = null;
 				video.onplaying = null;
+				video.onpause = null;
+				video.onwaiting = null;
+				video.onseeking = null;
+				video.onstalled = null;
 				stop();
 			}
 		};
@@ -258,8 +326,8 @@
 	var maxRecoveries = 3;
 	// `ended` this many seconds or more before the duration is a failure.
 	var endedEarlySeconds = 10;
-	// Waiting for data this long is reported as a stall.
-	var stallReportMs = 10000;
+	// Playback stuck at one position this long is reported.
+	var stuckReportMs = 10000;
 
 	/**
 	 * Whether the video says it ended while its position is still well
@@ -343,6 +411,9 @@
 				if (data && data.fatal) {
 					BS.logError('Fatal hls.js error, trying to recover.', data.type + ' ' + data.details);
 					recover(hls, data);
+				} else if (data) {
+					// Often harmless, but useful before a failure.
+					BS.logEvent('hls.js ' + data.type + ' ' + data.details);
 				}
 			}
 		);
@@ -402,7 +473,7 @@
 			element.msRequestFullscreen;
 		if (request) {
 			try {
-				request.call(element);
+				reportRejection(request.call(element), 'Could not request fullscreen.');
 			} catch (error) {
 				BS.logError('Could not request fullscreen.', error);
 			}
@@ -414,9 +485,29 @@
 	 */
 	function play(media) {
 		try {
-			media.play();
+			reportRejection(media.play(), 'Could not start media playback.');
 		} catch (error) {
 			BS.logError('Could not start media playback.', error);
+		}
+	}
+
+	/**
+	 * Newer browsers, such as Samsung's, return a promise from play() and
+	 * requestFullscreen(), and report failures only through it. Older ones,
+	 * such as the LG's, return nothing. An AbortError only means a new
+	 * source was loaded before playback started, so it isn't reported.
+	 *
+	 * @param {unknown} result what the call returned
+	 * @param {string} message
+	 */
+	function reportRejection(result, message) {
+		var thenable = /** @type {?{then?: unknown}} */ (result);
+		if (thenable && typeof thenable.then === 'function') {
+			thenable.then(null, function (/** @type {?{name?: string}} */ error) {
+				if (!error || error.name !== 'AbortError') {
+					BS.logError(message, error);
+				}
+			});
 		}
 	}
 })(window, document);
