@@ -22,6 +22,15 @@ test.beforeEach(async ({ page }) => {
 	await page.evaluate(() => {
 		window.testLevels = [];
 		window.testEnded = 0;
+		window.testLogged = [];
+		window.BS.logError = (message: string, details: unknown) =>
+			window.testLogged.push(`${message} ${details}`);
+		window.testRecoveries = 0;
+		const recoverMediaError = (window as any).Hls.prototype.recoverMediaError;
+		(window as any).Hls.prototype.recoverMediaError = function () {
+			window.testRecoveries += 1;
+			return recoverMediaError.call(this);
+		};
 		window.testPlayer = window.BS.components.player({
 			onLevels: (levels: Array<{ height?: number }>) =>
 				window.testLevels.push(levels.map((level) => level.height)),
@@ -36,6 +45,14 @@ const load = (page: Page, src: string) =>
 const levels = (page: Page) => page.evaluate(() => window.testLevels);
 const endVideo = (page: Page) =>
 	page.locator('video').evaluate((video) => video.dispatchEvent(new Event('ended')));
+const logged = (page: Page) => page.evaluate(() => window.testLogged);
+/** Makes the video report the given properties, such as `error` or `duration`. */
+const fakeVideo = (page: Page, properties: Record<string, unknown>) =>
+	page.locator('video').evaluate((video, properties) => {
+		for (const [name, value] of Object.entries(properties)) {
+			Object.defineProperty(video, name, { value, configurable: true });
+		}
+	}, properties);
 
 test('reports no levels when loading, then the stream levels', async ({ page }) => {
 	await load(page, 'https://video.test/a/master.m3u8');
@@ -67,6 +84,33 @@ test('reports when the video ends', async ({ page }) => {
 	await load(page, 'https://video.test/a/master.m3u8');
 	await endVideo(page);
 	expect(await page.evaluate(() => window.testEnded)).toBe(1);
+});
+
+test('recovers from a video error, reports it and does not move on', async ({ page }) => {
+	await load(page, 'https://video.test/a/master.m3u8');
+	await expect.poll(() => levels(page)).toHaveLength(2);
+
+	await fakeVideo(page, { error: { code: 3, message: 'DECODE' } });
+	await page.locator('video').evaluate((video) => video.dispatchEvent(new Event('error')));
+	await endVideo(page);
+
+	expect(await page.evaluate(() => window.testRecoveries)).toBe(1);
+	expect(await page.evaluate(() => window.testEnded)).toBe(0);
+	const [error, ended] = await logged(page);
+	expect(error).toMatch(/^Video error, recovering \(attempt 1\)\. at .*MediaError code 3 DECODE$/);
+	expect(ended).toMatch(/^Video stopped before the end, not moving on\./);
+});
+
+test('does not move on when the video ends well before its duration', async ({ page }) => {
+	await load(page, 'https://video.test/a/master.m3u8');
+	await fakeVideo(page, { currentTime: 5, duration: 600 });
+
+	await endVideo(page);
+
+	expect(await page.evaluate(() => window.testEnded)).toBe(0);
+	expect(await logged(page)).toEqual([
+		expect.stringMatching(/^Video stopped before the end, not moving on\. at 5\.0s of 600\.0s, /)
+	]);
 });
 
 test('shows a message in place of the video until the next load', async ({ page }) => {

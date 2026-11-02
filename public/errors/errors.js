@@ -28,16 +28,25 @@
 	var posthogToken = 'phc_yWiuG9obwEZR2F6aUNuUoTVZHFchuNu47Ep2HgjocvcR';
 	// localStorage key for a random id that tells installs apart.
 	var idKey = 'errorReporterId';
-	// At most this many reports are sent per page load, and each different
-	// message only once, so an error that repeats can't flood PostHog.
-	var maxReports = 10;
+	// The app stays loaded for hours, so the limits are over time, not per
+	// page load. They stop an error that repeats from flooding PostHog: at
+	// most `max` reports in any `ms`. The longest window must come last.
+	var minute = 60 * 1000;
+	var limits = [
+		{ ms: minute, max: 5 },
+		{ ms: 10 * minute, max: 40 },
+		{ ms: 4 * 60 * minute, max: 200 },
+		{ ms: 24 * 60 * minute, max: 400 }
+	];
 	var maxOverlayLines = 20;
 
 	var reporting = /\.vercel\.app$/.test(window.location.hostname);
 	var debug = /[?&]debug(=|&|$)/.test(window.location.search);
-	/** @type {Object<string, boolean>} */
-	var reported = {};
-	var reportCount = 0;
+	// When the reports in the longest window were sent, oldest first.
+	/** @type {number[]} */
+	var sentTimes = [];
+	// Reports held back by the limits since the last one sent.
+	var suppressed = 0;
 	/** @type {?string} */
 	var distinctId = null;
 
@@ -72,10 +81,8 @@
 			if (debug) {
 				showInOverlay(value);
 			}
-			if (reporting && !reported[value] && reportCount < maxReports) {
-				reported[value] = true;
-				reportCount += 1;
-				send(value, /** @type {ErrorLike} */ (error), !uncaught);
+			if (reporting) {
+				sendLimited(value, /** @type {ErrorLike} */ (error), !uncaught);
 			}
 		} catch (_reportError) {
 			// Nothing sensible is left to do; reporting must not break the app.
@@ -123,11 +130,51 @@
 	}
 
 	/**
+	 * Sends a report unless the limits hold it back.
+	 *
 	 * @param {string} value
 	 * @param {ErrorLike} error
 	 * @param {boolean} handled
 	 */
-	function send(value, error, handled) {
+	function sendLimited(value, error, handled) {
+		var now = Date.now();
+		var i;
+		while (sentTimes.length && now - sentTimes[0] >= limits[limits.length - 1].ms) {
+			sentTimes.shift();
+		}
+		for (i = 0; i < limits.length; i += 1) {
+			if (countSince(now - limits[i].ms) >= limits[i].max) {
+				suppressed += 1;
+				return;
+			}
+		}
+		sentTimes.push(now);
+		send(value, error, handled, suppressed);
+		suppressed = 0;
+	}
+
+	/**
+	 * How many reports were sent after the given time.
+	 *
+	 * @param {number} time
+	 * @returns {number}
+	 */
+	function countSince(time) {
+		var count = 0;
+		var i;
+		for (i = sentTimes.length - 1; i >= 0 && sentTimes[i] > time; i -= 1) {
+			count += 1;
+		}
+		return count;
+	}
+
+	/**
+	 * @param {string} value
+	 * @param {ErrorLike} error
+	 * @param {boolean} handled
+	 * @param {number} suppressedBefore reports held back since the last sent
+	 */
+	function send(value, error, handled, suppressedBefore) {
 		var xhr = new XMLHttpRequest();
 		var exception = {
 			type: error && typeof error.name === 'string' ? error.name : 'Error',
@@ -152,7 +199,8 @@
 					$current_url: window.location.href,
 					$raw_user_agent: window.navigator.userAgent,
 					$screen_width: window.screen.width,
-					$screen_height: window.screen.height
+					$screen_height: window.screen.height,
+					suppressed_before: suppressedBefore
 				}
 			})
 		);

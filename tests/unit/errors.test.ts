@@ -7,6 +7,7 @@ import { loadRuntime } from './runtime.ts';
  * XMLHttpRequest that records what would be sent to PostHog.
  */
 function setup(hostname: string) {
+	const clock = { now: 1_000_000 };
 	const sent: { url: string; body: any }[] = [];
 	const storage = new Map<string, string>();
 	class FakeXhr {
@@ -27,9 +28,14 @@ function setup(hostname: string) {
 			getItem: (key: string) => storage.get(key) ?? null,
 			setItem: (key: string, value: string) => void storage.set(key, value)
 		},
-		XMLHttpRequest: FakeXhr
+		XMLHttpRequest: FakeXhr,
+		Date: class extends Date {
+			static now() {
+				return clock.now;
+			}
+		}
 	});
-	return { window, BS: window.BS, sent };
+	return { window, BS: window.BS, sent, clock };
 }
 
 test('sends errors to PostHog on the Vercel deployments', () => {
@@ -94,17 +100,35 @@ test('reports uncaught errors as unhandled, with the same id', () => {
 	assert.equal(sent[1].body.properties.distinct_id, sent[0].body.properties.distinct_id);
 });
 
-test('sends each message once, and at most ten per page load', () => {
-	const { BS, sent } = setup('barnasendingar.vercel.app');
+test('sends at most 5 a minute, and counts what it held back', () => {
+	const { BS, sent, clock } = setup('barnasendingar.vercel.app');
 
-	BS.logError('Same.', null);
-	BS.logError('Same.', null);
-	for (let i = 0; i < 20; i += 1) {
-		BS.logError(`Error ${i}.`, null);
+	for (let i = 0; i < 12; i += 1) {
+		BS.logError('Same.', null);
 	}
+	assert.equal(sent.length, 5);
 
-	assert.equal(sent.length, 10);
-	assert.equal(sent[1].body.properties.$exception_list[0].value, 'Error 0.');
+	clock.now += 60_000;
+	BS.logError('Later.', null);
+	assert.equal(sent.length, 6);
+	assert.equal(sent[5].body.properties.suppressed_before, 7);
+});
+
+test('sends at most 40 in 10 minutes, 200 in 4 hours and 400 in 24 hours', () => {
+	for (const [minutes, expected] of [
+		[10, 40],
+		[4 * 60, 200],
+		[24 * 60, 400]
+	]) {
+		const { BS, sent, clock } = setup('barnasendingar.vercel.app');
+		for (let minute = 0; minute < minutes; minute += 1) {
+			for (let i = 0; i < 12; i += 1) {
+				BS.logError(`Error ${i}.`, null);
+			}
+			clock.now += 60_000;
+		}
+		assert.equal(sent.length, expected, `${minutes} minutes`);
+	}
 });
 
 test('sends nothing anywhere else', () => {

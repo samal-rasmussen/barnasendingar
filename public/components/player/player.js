@@ -45,20 +45,101 @@
 		// The hls.js instance. The vendored library has no types.
 		/** @type {any} */
 		var hls = null;
+		// The state of the current source, reset by load().
+		// True from a video error until playback runs again.
+		var failed = false;
+		// How many times hls.js was asked to recover from a video error.
+		var recoveries = 0;
+		// The quality levels hls.js switched to, for error reports.
+		/** @type {string[]} */
+		var levelSwitches = [];
+		/** @type {?number} */
+		var stallTimer = null;
 
 		video.onended = function () {
+			// Some TVs (Samsung Tizen) fire `ended` when playback fails. Moving
+			// on then would skip episode after episode, so the video stays put.
+			if (failed || endedEarly(video)) {
+				BS.logError('Video stopped before the end, not moving on.', describePlayback());
+				return;
+			}
 			options.onEnded();
 		};
 		video.onerror = function () {
-			BS.logError('Video error.', video.error ? 'MediaError code ' + video.error.code : null);
+			var details = describePlayback();
+			failed = true;
+			if (!hls || recoveries >= maxRecoveries) {
+				BS.logError('Video error.', details);
+				return;
+			}
+			recoveries += 1;
+			BS.logError('Video error, recovering (attempt ' + recoveries + ').', details);
+			// hls.js's documented recovery for decode errors: reattach the
+			// media, and if that wasn't enough, also try the other AAC codec.
+			if (recoveries > 1) {
+				hls.swapAudioCodec();
+			}
+			hls.recoverMediaError();
+			// Reattaching loads a new source, which pauses the video.
+			video.oncanplay = function () {
+				video.oncanplay = null;
+				play(video);
+			};
 		};
+		video.onwaiting = function () {
+			clearStallTimer();
+			stallTimer = window.setTimeout(function () {
+				stallTimer = null;
+				BS.logError('Playback stalled.', describePlayback());
+			}, stallReportMs);
+		};
+		video.onplaying = function () {
+			failed = false;
+			clearStallTimer();
+		};
+
+		function clearStallTimer() {
+			if (stallTimer !== null) {
+				window.clearTimeout(stallTimer);
+				stallTimer = null;
+			}
+		}
+
+		/**
+		 * What the player was doing, for error reports: the position, what
+		 * is buffered, the quality level and its history, and the error.
+		 *
+		 * @returns {string}
+		 */
+		function describePlayback() {
+			var parts = [
+				'at ' + seconds(video.currentTime) + ' of ' + seconds(video.duration),
+				'buffered ' + describeRanges(video.buffered)
+			];
+			if (hls) {
+				parts.push('hls.js level ' + describeLevel(hls, hls.currentLevel));
+				parts.push('switches ' + (levelSwitches.join(', ') || 'none'));
+			} else {
+				parts.push('native HLS');
+			}
+			if (video.error) {
+				parts.push(
+					'MediaError code ' +
+						video.error.code +
+						(video.error.message ? ' ' + video.error.message : '')
+				);
+			}
+			return parts.join(', ');
+		}
 
 		function stop() {
 			if (hls && hls.destroy) {
 				hls.destroy();
 			}
 			hls = null;
+			clearStallTimer();
 			video.onloadedmetadata = null;
+			video.oncanplay = null;
 			video.pause();
 			video.removeAttribute('src');
 		}
@@ -94,6 +175,9 @@
 			var Hls = /** @type {any} */ (window).Hls;
 
 			stop();
+			failed = false;
+			recoveries = 0;
+			levelSwitches = [];
 			if (!video.parentNode) {
 				element.insertBefore(video, message);
 			}
@@ -102,10 +186,18 @@
 			options.onLevels([]);
 
 			if (Hls && Hls.isSupported && Hls.isSupported()) {
-				hls = attachHls(Hls, video, source.src, function (levels) {
-					options.onLevels(levels);
-					start();
-				});
+				hls = attachHls(
+					Hls,
+					video,
+					source.src,
+					function (levels) {
+						options.onLevels(levels);
+						start();
+					},
+					function (level) {
+						levelSwitches.push(describeLevel(hls, level) + ' at ' + seconds(video.currentTime));
+					}
+				);
 				return;
 			}
 
@@ -155,10 +247,63 @@
 			destroy: function () {
 				video.onended = null;
 				video.onerror = null;
+				video.onwaiting = null;
+				video.onplaying = null;
 				stop();
 			}
 		};
 	};
+
+	// How often hls.js may try to recover from video errors per source.
+	var maxRecoveries = 3;
+	// `ended` this many seconds or more before the duration is a failure.
+	var endedEarlySeconds = 10;
+	// Waiting for data this long is reported as a stall.
+	var stallReportMs = 10000;
+
+	/**
+	 * Whether the video says it ended while its position is still well
+	 * before its duration. False when the duration isn't known.
+	 *
+	 * @param {HTMLVideoElement} video
+	 * @returns {boolean}
+	 */
+	function endedEarly(video) {
+		return isFinite(video.duration) && video.duration - video.currentTime >= endedEarlySeconds;
+	}
+
+	/**
+	 * @param {number} value
+	 * @returns {string}
+	 */
+	function seconds(value) {
+		return isFinite(value) ? value.toFixed(1) + 's' : String(value);
+	}
+
+	/**
+	 * @param {TimeRanges} ranges
+	 * @returns {string}
+	 */
+	function describeRanges(ranges) {
+		var parts = [];
+		var i;
+		for (i = 0; i < ranges.length; i += 1) {
+			parts.push(ranges.start(i).toFixed(1) + '-' + ranges.end(i).toFixed(1));
+		}
+		return parts.join(' ') || 'nothing';
+	}
+
+	/**
+	 * A quality level by index, with its height when known, such as "1 (480p)".
+	 *
+	 * @param {any} hls the hls.js instance, which has no types
+	 * @param {number} index
+	 * @returns {string}
+	 */
+	function describeLevel(hls, index) {
+		var level = hls && hls.levels ? hls.levels[index] : null;
+		return index + (level && level.height ? ' (' + level.height + 'p)' : '');
+	}
 
 	/**
 	 * @param {any} Hls the hls.js constructor, which has no types
@@ -166,9 +311,11 @@
 	 * @param {string} src
 	 * @param {(levels: Level[]) => void} onReady called once the stream's
 	 *   levels are known
+	 * @param {(level: number) => void} onLevelSwitched called with the index
+	 *   of each quality level hls.js switches to
 	 * @returns {any} the hls.js instance
 	 */
-	function attachHls(Hls, video, src, onReady) {
+	function attachHls(Hls, video, src, onReady, onLevelSwitched) {
 		var hls = new Hls({ enableWorker: false });
 
 		hls.loadSource(src);
@@ -176,6 +323,16 @@
 		hls.on(Hls.Events.MANIFEST_PARSED, function () {
 			onReady(hls.levels || []);
 		});
+		hls.on(
+			Hls.Events.LEVEL_SWITCHED,
+			/**
+			 * @param {string} eventName
+			 * @param {{level: number}} data
+			 */
+			function (eventName, data) {
+				onLevelSwitched(data.level);
+			}
+		);
 		hls.on(
 			Hls.Events.ERROR,
 			/**
