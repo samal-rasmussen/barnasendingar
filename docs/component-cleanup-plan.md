@@ -1,6 +1,6 @@
 # Component Cleanup Plan
 
-> **Status: in progress.** Chunks 0, 0.5, 1, 2, 3 and 4 are done. Update the status of each chunk as it lands.
+> **Status: in progress.** Chunks 0, 0.5, 1, 2, 3, 4 and 5 are done. Update the status of each chunk as it lands.
 >
 > An earlier version of this plan had a "safety net" chunk 1 that added `tests/unit/index-html.test.ts`. That test was committed, but this version of the plan makes it unnecessary, and the new chunk 1 deletes it.
 
@@ -272,6 +272,8 @@ The model these decisions add up to is described in [`component-model.md`](compo
 ---
 
 ## Chunk 5: Select
+
+> **Status: done.** The quality select's JS already held only the level labels and the "Auto" rule, so it is unchanged apart from its template.
 
 **Why here:** small, but the player in chunk 6 builds on it.
 

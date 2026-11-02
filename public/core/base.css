@@ -67,7 +67,6 @@ h1 {
 }
 
 .status-retry:focus,
-select:focus,
 video:focus {
 	outline: 4px auto -webkit-focus-ring-color;
 }

@@ -2,7 +2,7 @@
 
 How UI is split into components and pages in this project, how their files are loaded, and how they fit together. Read this before adding or changing a component or page.
 
-> **Status: target model.** [`component-cleanup-plan.md`](component-cleanup-plan.md) introduces this model chunk by chunk. Loading (`BS.load`, and styles in a `<style>` in each folder's `.html`), the CSS-only `icon` and `button` components, the `tile` and `grid` factory components with `BS.dom.replace`, and the page lifecycle and focus rules have landed. Until the other chunks have, the code they touch still works the old way: the quality select and player still have their old structure. When a chunk changes the model, update this document in the same chunk. Remove this note when the plan is done.
+> **Status: target model.** [`component-cleanup-plan.md`](component-cleanup-plan.md) introduces this model chunk by chunk. Loading (`BS.load`, and styles in a `<style>` in each folder's `.html`), the CSS-only `icon` and `button` components, the `tile` and `grid` factory components with `BS.dom.replace`, the page lifecycle and focus rules, and the CSS-only `select` component used by the quality select have landed. Until the other chunks have, the code they touch still works the old way: the player still has its old structure. When a chunk changes the model, update this document in the same chunk. Remove this note when the plan is done.
 
 ## Principles
 
@@ -94,6 +94,9 @@ The page writes the markup straight into its own template and uses the component
 <button type="button" class="button button-icon" aria-label="Aftur" title="Aftur" data-ref="back">
 	<svg class="icon" aria-hidden="true" focusable="false"><use xlink:href="#icon-back"></use></svg>
 </button>
+
+<label class="select-label" for="quality-selector">Góðska</label
+><select class="select" id="quality-selector"></select>
 ```
 
 ```js
