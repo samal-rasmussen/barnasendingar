@@ -65,7 +65,8 @@ function progressBar() {
 	);
 }
 
-function parseEpisodeElement(el: HTMLElement): PartialEpisode {
+// Returns undefined for empty cells, which have no episode.
+function parseEpisodeElement(el: HTMLElement): PartialEpisode | undefined {
 	// console.log('parseEpisodeElement', el.innerHTML);
 	if (el.children.length === 0) {
 		return;
@@ -120,7 +121,7 @@ function parseEpisodeId(url: string): string {
 	return id;
 }
 
-async function scrapeEpisode(episode: PartialEpisode): Promise<{ mediaId: string } | undefined> {
+async function scrapeEpisode(episode: PartialEpisode): Promise<{ mediaId: string | undefined }> {
 	const episodeHtml = await fetchHtml(episode.url);
 	const result = regex.exec(episodeHtml);
 	const mediaId = result?.[2];
@@ -139,7 +140,7 @@ async function scrapeShow(showUrl: string): Promise<PartialEpisode[]> {
 	// writeFileSync('show.html', showHtml);
 
 	const episodes: PartialEpisode[] = [];
-	const cells = showDom.window.document.querySelectorAll(
+	const cells = showDom.window.document.querySelectorAll<HTMLElement>(
 		'.quicktabs-tabpage > .quicktabs-views-group'
 	);
 	for (let i = 0; i < cells.length; i++) {
@@ -150,7 +151,7 @@ async function scrapeShow(showUrl: string): Promise<PartialEpisode[]> {
 		}
 	}
 
-	const nextPage = showDom.window.document.querySelector('li.pager-next a');
+	const nextPage = showDom.window.document.querySelector<HTMLAnchorElement>('li.pager-next a');
 	if (nextPage != null) {
 		const nextPageUrl = urlPrefix + nextPage.href;
 		const nextPageEpisodes = await scrapeShow(nextPageUrl);
@@ -209,6 +210,13 @@ async function run() {
 	const episodePromises: Array<() => Promise<void>> = [];
 	const showsMap = new Map<string, Episode[]>();
 	partialShows.forEach((show) => showsMap.set(show.title, []));
+	const collectedEpisodes = (showTitle: string): Episode[] => {
+		const episodes = showsMap.get(showTitle);
+		if (episodes == null) {
+			throw new Error(`No episode list for show ${showTitle}`);
+		}
+		return episodes;
+	};
 	for (const partialShow of partialShows) {
 		for (const [index, partialEpisode] of Array.from(partialShow.episodes.entries())) {
 			episodePromises.push(async () => {
@@ -226,7 +234,7 @@ async function run() {
 					title: partialEpisode.title,
 					url: partialEpisode.url
 				};
-				showsMap.get(partialShow.title)[index] = episode;
+				collectedEpisodes(partialShow.title)[index] = episode;
 			});
 		}
 	}
@@ -234,7 +242,7 @@ async function run() {
 	await episodesQueue.addAll(episodePromises);
 	const shows: Show[] = [];
 	partialShows.forEach((partialShow) => {
-		const episodes = showsMap.get(partialShow.title);
+		const episodes = collectedEpisodes(partialShow.title);
 		const show: Show = {
 			...partialShow,
 			episodes

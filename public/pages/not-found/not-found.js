@@ -2,8 +2,9 @@
 (function (window, document) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
-	var page = /** @type {any} */ ({});
+	var page = {};
 	BS.pages.notFound = page;
 
 	BS.templates.register('/pages/not-found/not-found.html');

@@ -2,6 +2,11 @@
 (function (window, document) {
 	'use strict';
 
+	/**
+	 * @typedef {import('../../scripts/shared-types').Show} Show
+	 */
+
+	// The global namespace is built up across many files and has no type.
 	var current = /** @type {any} */ (window).BS || {};
 	current.state = current.state || {};
 	current.util = current.util || {};
@@ -33,7 +38,7 @@
 		var failed = false;
 
 		/**
-		 * @param {*} error
+		 * @param {?Error} error
 		 */
 		function done(error) {
 			if (failed) {
@@ -49,6 +54,7 @@
 				current.router = current.createRouter({
 					root: app,
 					routes: current.routes,
+					/** @param {HTMLElement} root */
 					notFound: function (root) {
 						return current.pages.notFound.render(root);
 					}
@@ -59,13 +65,19 @@
 
 		current.util.renderStatus(app, 'Lesur barnasendingar...');
 
-		current.data.loadShows(function (error, shows) {
-			if (!error) {
-				current.state.shows = shows;
-				current.data.buildIndexes(shows);
+		current.data.loadShows(
+			/**
+			 * @param {?Error} error
+			 * @param {Show[]=} shows
+			 */
+			function (error, shows) {
+				if (!error) {
+					current.state.shows = shows;
+					current.data.buildIndexes(shows);
+				}
+				done(error);
 			}
-			done(error);
-		});
+		);
 		current.templates.load(done);
 	};
 

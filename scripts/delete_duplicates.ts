@@ -1,9 +1,20 @@
 import fs from 'fs';
 import { fileURLToPath } from 'url';
+import type { Show } from './shared-types.d.ts';
+
+interface Duplicate {
+	show: string;
+	episode: string;
+	id: string;
+	mediaId: string | undefined;
+	url: string;
+	date: string;
+	sortKey: string;
+}
 
 const showsUrl = new URL('../public/assets/shows.json', import.meta.url);
 const showsPath = fileURLToPath(showsUrl);
-const data = JSON.parse(fs.readFileSync(showsUrl, 'utf8'));
+const data: Show[] = JSON.parse(fs.readFileSync(showsUrl, 'utf8'));
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function log(..._args: unknown[]) {
@@ -21,15 +32,15 @@ data.forEach((show) => {
 log('- Total episodes:', totalEpisodes);
 
 // Track duplicates within each show
-const duplicates = [];
+const duplicates: Duplicate[] = [];
 
 // Process each show and episode
 const cleanedData = data.map((show) => {
 	if (!show.episodes) return show;
 
 	// Track duplicates by sortKey within this show only
-	const seenSortKeys = new Set();
-	const showDuplicates = [];
+	const seenSortKeys = new Set<string>();
+	const showDuplicates: Duplicate[] = [];
 
 	const cleanedEpisodes = show.episodes.filter((episode) => {
 		// Use sortKey as the primary identifier for duplicates within this show

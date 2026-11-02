@@ -2,6 +2,7 @@
 (function (window) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
 
 	BS.templates.register('/components/tile/tile.html');
@@ -15,7 +16,7 @@
 	 *   image: string,
 	 *   imageAlt: string,
 	 *   watched?: boolean,
-	 *   onActivate: Function
+	 *   onActivate: () => void
 	 * }} options
 	 * @returns {{element: HTMLElement}}
 	 */

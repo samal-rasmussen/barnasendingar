@@ -7,7 +7,6 @@
 		"skipLibCheck": true,
 		"noEmit": true,
 		"strict": true,
-		"noImplicitAny": false,
 		"target": "ES2015",
 		"module": "ESNext",
 		"lib": ["DOM", "ES5"]

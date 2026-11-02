@@ -79,7 +79,8 @@ export function keepAwake(): Promise<{ pid: number; release: () => boolean }> {
 				stdio: ['ignore', 'pipe', 'ignore']
 			});
 		} catch (err) {
-			return reject(new Error(`Failed to start wake-lock process: ${err.message}`));
+			const message = err instanceof Error ? err.message : String(err);
+			return reject(new Error(`Failed to start wake-lock process: ${message}`));
 		}
 
 		const cleanup = () => {
@@ -100,8 +101,13 @@ export function keepAwake(): Promise<{ pid: number; release: () => boolean }> {
 
 			resolved = true;
 			cleanup();
+			const pid = child.pid;
+			if (pid === undefined) {
+				reject(new Error('Wake-lock process is running but has no pid'));
+				return;
+			}
 			resolve({
-				pid: child.pid,
+				pid,
 				release: () => {
 					if (child.killed) return false;
 					child.kill();
@@ -110,14 +116,14 @@ export function keepAwake(): Promise<{ pid: number; release: () => boolean }> {
 			});
 		};
 
-		const onError = (err) => {
+		const onError = (err: Error) => {
 			if (resolved) return;
 			resolved = true;
 			cleanup();
 			reject(new Error(`Failed to start wake-lock process: ${err.message}`));
 		};
 
-		const onExit = (code, signal) => {
+		const onExit = (code: number | null, signal: NodeJS.Signals | null) => {
 			if (resolved) return; // normal release/exit after ready is fine
 			resolved = true;
 			cleanup();

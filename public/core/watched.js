@@ -2,16 +2,19 @@
 (function (window) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
 	var storageKey = 'watched';
 
 	/**
 	 * @typedef {import('../../scripts/shared-types').Show} Show
 	 * @typedef {import('../../scripts/shared-types').Episode} Episode
+	 * @typedef {Object<string, Object<string, boolean>>} WatchedState
+	 *   Show title to episode sortKey to true.
 	 */
 
 	/**
-	 * @returns {Object}
+	 * @returns {WatchedState}
 	 */
 	BS.watched.getAll = function () {
 		var watchedString;
@@ -33,7 +36,7 @@
 	};
 
 	/**
-	 * @param {Object} watched
+	 * @param {WatchedState} watched
 	 */
 	BS.watched.saveAll = function (watched) {
 		try {
@@ -69,7 +72,7 @@
 
 	/**
 	 * @param {Show} show
-	 * @returns {Object}
+	 * @returns {WatchedState}
 	 */
 	BS.watched.clearWatched = function (show) {
 		var watched = BS.watched.getAll();

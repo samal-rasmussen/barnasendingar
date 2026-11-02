@@ -17,6 +17,10 @@ function findShow(showTitle: string): Show | undefined {
 	return shows.find((show) => show.title === showTitle);
 }
 
+function errorMessage(error: unknown): string {
+	return error instanceof Error ? error.message : String(error);
+}
+
 function sanitizeFilename(filename: string): string {
 	// Remove or replace characters that are problematic for filenames
 	return filename
@@ -311,7 +315,7 @@ async function downloadShow(
 			await downloadWithYtDlp(m3u8Url, outputPath, options);
 		} catch (error) {
 			console.error(`❌ Failed to download episode: ${episode.title}`);
-			console.error(`Error: ${error.message}`);
+			console.error(`Error: ${errorMessage(error)}`);
 			// Continue with next episode instead of stopping
 		}
 	}
@@ -329,7 +333,7 @@ async function main() {
 	try {
 		outputDir = validateOutputDir(args[0] || './downloads');
 	} catch (error) {
-		console.error(`❌ Invalid output directory: ${error.message}`);
+		console.error(`❌ Invalid output directory: ${errorMessage(error)}`);
 		process.exit(1);
 	}
 
@@ -374,7 +378,7 @@ async function main() {
 
 		console.log(`\n✅ Selected format: ${format}`);
 	} catch (error) {
-		console.error(`❌ Failed to list formats: ${error.message}`);
+		console.error(`❌ Failed to list formats: ${errorMessage(error)}`);
 		console.log('Using default format: best');
 		format = 'best';
 	}
@@ -391,14 +395,14 @@ async function main() {
 		wakeLock = await keepAwake();
 		console.log('✅ Wake lock acquired. Computer will stay awake during downloads.\n');
 	} catch (error) {
-		console.warn(`⚠️  Failed to acquire wake lock: ${error.message}`);
+		console.warn(`⚠️  Failed to acquire wake lock: ${errorMessage(error)}`);
 		console.warn('Downloads will continue, but computer may sleep if idle.\n');
 	}
 
 	try {
 		await downloadShow(show.title, options);
 	} catch (error) {
-		console.error(`❌ Download failed: ${error.message}`);
+		console.error(`❌ Download failed: ${errorMessage(error)}`);
 		process.exit(1);
 	} finally {
 		// Always release the wake lock when done

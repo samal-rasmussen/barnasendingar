@@ -1,6 +1,6 @@
 # Component Cleanup Plan
 
-> **Status: in progress.** Chunk 0 is done. Update the status of each chunk as it lands.
+> **Status: in progress.** Chunks 0 and 0.5 are done. Update the status of each chunk as it lands.
 >
 > An earlier version of this plan had a "safety net" chunk 1 that added `tests/unit/index-html.test.ts`. That test was committed, but this version of the plan makes it unnecessary, and the new chunk 1 deletes it.
 
@@ -14,7 +14,7 @@ Small visual and UX improvements are expected. A change must never make anything
 
 ## How The Work Is Split
 
-The work is split into nine chunks, numbered 0 to 8. Each chunk:
+The work is split into ten chunks, numbered 0, 0.5 and 1 to 8. Each chunk:
 
 - is one cohesive change that can be reviewed, committed and deployed on its own
 - leaves the app fully working, with `node --run check`, `node --run lint` and `node --run test` passing
@@ -22,12 +22,13 @@ The work is split into nine chunks, numbered 0 to 8. Each chunk:
 - updates [`component-model.md`](component-model.md) in the same chunk if it changes the model, and the model's status note as parts of it land
 - adds or updates tests in the right tier (unit, component or e2e)
 
-The chunks are ordered by value and dependencies. Chunk 0 updates the tooling first, so every later chunk is checked by the versions the project keeps. Chunk 1 changes how files are loaded, which every later chunk relies on. After that, the things a child on the TV notices most (buttons, tiles, focus) come first. Internal tidying comes last, once the earlier chunks have removed most of what it would otherwise move around.
+The chunks are ordered by value and dependencies. Chunk 0 updates the tooling first, so every later chunk is checked by the versions the project keeps. Chunk 0.5 makes the type check strict, so every later line is written against it. Chunk 1 changes how files are loaded, which every later chunk relies on. After that, the things a child on the TV notices most (buttons, tiles, focus) come first. Internal tidying comes last, once the earlier chunks have removed most of what it would otherwise move around.
 
 | #   | Chunk                    | Depends on | User-visible                              | TV check   |
 | --- | ------------------------ | ---------- | ----------------------------------------- | ---------- |
 | 0   | Tooling                  | –          | No                                        | No         |
-| 1   | Loading                  | 0          | No                                        | Yes        |
+| 0.5 | Strict TypeScript        | 0          | No                                        | No         |
+| 1   | Loading                  | 0.5        | No                                        | Yes        |
 | 2   | Icons and buttons        | 1          | Yes: SVG back arrow, labelled buttons     | Yes        |
 | 3   | Tiles and grid           | 2          | Yes: unified tiles, reset keeps focus     | Yes        |
 | 4   | Page lifecycle and focus | 3          | Yes: focus lands on the right thing       | Yes        |
@@ -101,6 +102,32 @@ The model these decisions add up to is described in [`component-model.md`](compo
 **Considered and rejected:** moving to oxlint and oxfmt. oxlint always parses the newest JavaScript and has no equivalent of ESLint's `ecmaVersion: 5`. `eslint-plugin-es-x` would only blacklist known features, through oxlint's alpha JS plugin support, and an ES5 parse test would only fail when tests run, not in the editor. Without oxlint, oxfmt alone isn't worth it: Prettier checks the repo in about a second, oxfmt hands HTML and Markdown to a bundled Prettier anyway, and switching means a repo-wide reformat.
 
 **Done when:** `node --run check`, `node --run lint`, `node --run test` and `npm --prefix scripts run check` pass, `tsx` is gone, and the scripts run under plain `node`.
+
+---
+
+## Chunk 0.5: Strict TypeScript
+
+> **Status: done.**
+
+**Why now:** chunk 0 left two holes in the type check. TypeScript 7 makes `strict` the default, but `scripts/tsconfig.json` sets `"strict": false` to keep the scripts checked as loosely as before. The root `tsconfig.json` has `strict: true` but turns off `noImplicitAny`, so untyped parameters and variables in runtime code are silently `any`. Closing both before chunk 1 means every later chunk writes its code against strict checks, instead of adding to the backlog.
+
+**Scope**
+
+- Remove `"strict": false` from `scripts/tsconfig.json` and `"noImplicitAny": false` from `tsconfig.json`. No tsconfig turns off a strict option afterwards. `tests/tsconfig.json` is already strict.
+- Fix the errors by adding types, not by loosening:
+  - **Runtime code** (36 errors when chunk 0 landed, in `core/` and `pages/`): untyped parameters, variables that start as `null` or `{}`, and lookups in plain objects used as maps. Fix with JSDoc (`@param`, `@type {?X}`, `@type {Object<string, X>}`). Only comments change, so the code the TV runs is the same.
+  - **Scripts** (25 errors): untyped callback parameters, `catch` variables that are `unknown`, values that may be `undefined` in `scrape.ts`, and no types for `jsdom`. Where a value can really be missing, handle it (for example, throw an error that names the show or episode) rather than asserting it away with `!`. There is no `@types/jsdom` for jsdom 29. Use `@types/jsdom` 28 if it fits what `scrape.ts` uses, or else a small `declare module 'jsdom'` covering only that.
+- `any` stays only where a value really has no type here: the `BS` namespace (typed in chunk 8 at the earliest, if ever) and the hls.js instance. Each such `any` has a comment saying why. No `@ts-ignore` or `@ts-expect-error`.
+
+**Tests**
+
+- No new tests. `node --run check` and `npm --prefix scripts run check` are the test.
+- Run `node --run delete-duplicates` in full (`shows.json` must come out unchanged), `node --run scrape` far enough to see it start, and `node --run download-show` far enough to see the list of shows.
+- Runtime changes are JSDoc only, so the existing tests pass unchanged and screenshots are pixel-identical.
+
+**`AGENTS.md`:** say that every tsconfig is strict, and that type errors are fixed with types, never by turning a strict option off.
+
+**Done when:** no tsconfig turns off a strict option, all checks and tests pass, and the scripts run as before.
 
 ---
 

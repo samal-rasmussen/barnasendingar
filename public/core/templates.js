@@ -2,6 +2,7 @@
 (function (window, document) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
 
 	/** @type {string[]} */
@@ -27,10 +28,12 @@
 	 * Loads every registered file that is not loaded yet. The callback is
 	 * called exactly once, with an error if any file fails to load.
 	 *
-	 * @param {Function} callback
+	 * @param {(error: ?Error) => void} callback
 	 */
 	BS.templates.load = function (callback) {
+		/** @type {string[]} */
 		var pending = [];
+		/** @type {number} */
 		var remaining;
 		var finished = false;
 		var i;
@@ -53,6 +56,10 @@
 		function loadOne(url) {
 			BS.util.getText(
 				url,
+				/**
+				 * @param {?Error} error
+				 * @param {string=} text
+				 */
 				function (error, text) {
 					if (finished) {
 						return;
@@ -108,13 +115,14 @@
 	 * - refs: every element with a data-ref attribute, keyed by its value.
 	 *
 	 * @param {string} id
-	 * @returns {{fragment: DocumentFragment, element: HTMLElement, refs: Object<string, any>}}
+	 * @returns {{fragment: DocumentFragment, element: HTMLElement, refs: Object<string, Element>}}
 	 */
 	BS.templates.clone = function (id) {
 		var template = templatesById[id];
 		var fragment;
 		/** @type {?Node} */
 		var element = null;
+		/** @type {Object<string, Element>} */
 		var refs = {};
 		var nodes;
 		var node;
@@ -136,7 +144,8 @@
 		nodes = fragment.querySelectorAll('[data-ref]');
 		for (i = 0; i < nodes.length; i += 1) {
 			node = nodes[i];
-			refs[node.getAttribute('data-ref')] = node;
+			// The selector only matches elements that have the attribute.
+			refs[/** @type {string} */ (node.getAttribute('data-ref'))] = node;
 		}
 
 		return {

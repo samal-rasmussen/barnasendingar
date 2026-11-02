@@ -2,6 +2,7 @@
 (function (window, document) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
 
 	BS.templates.register('/components/quality-select/quality-select.html');
@@ -10,7 +11,7 @@
 	 * A labelled select for picking a video quality level. It starts out
 	 * disabled with only "Auto" until setLevels gets some levels.
 	 *
-	 * @param {{id: string, onChange: Function}} options
+	 * @param {{id: string, onChange: (level: number) => void}} options
 	 *   onChange gets the chosen level index, or -1 for automatic.
 	 */
 	BS.components.qualitySelect = function (options) {

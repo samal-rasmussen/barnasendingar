@@ -2,6 +2,7 @@
 (function (window) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
 
 	/**
@@ -13,6 +14,7 @@
 		{
 			name: 'home',
 			path: '/',
+			/** @param {HTMLElement} root */
 			render: function (root) {
 				return BS.pages.home.render(root);
 			}
@@ -20,6 +22,10 @@
 		{
 			name: 'show',
 			path: '/sending/:show',
+			/**
+			 * @param {HTMLElement} root
+			 * @param {Object<string, string>} params
+			 */
 			render: function (root, params) {
 				var show = BS.data.getShow(params.show);
 				if (!show) {
@@ -31,6 +37,10 @@
 		{
 			name: 'episode',
 			path: '/sending/:show/partur/:episode',
+			/**
+			 * @param {HTMLElement} root
+			 * @param {Object<string, string>} params
+			 */
 			render: function (root, params) {
 				var show = BS.data.getShow(params.show);
 				var episode = show ? BS.data.getEpisode(show, params.episode) : undefined;

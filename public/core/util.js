@@ -2,11 +2,12 @@
 (function (window, document) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
 
 	/**
 	 * @param {string} message
-	 * @param {*} error
+	 * @param {unknown} error
 	 */
 	BS.util.logError = function (message, error) {
 		if (window.console && window.console.error) {
@@ -42,7 +43,7 @@
 
 	/**
 	 * @param {HTMLElement} element
-	 * @param {Function} callback
+	 * @param {() => void} callback
 	 */
 	BS.util.onActivate = function (element, callback) {
 		element.setAttribute('role', 'button');
@@ -90,12 +91,16 @@
 	 * or does not finish within timeoutMs.
 	 *
 	 * @param {string} url
-	 * @param {Function} callback
+	 * @param {(error: ?Error, result?: unknown) => void} callback
 	 * @param {number=} timeoutMs
 	 */
 	BS.util.getJson = function (url, callback, timeoutMs) {
 		BS.util.getText(
 			url,
+			/**
+			 * @param {?Error} error
+			 * @param {string=} text
+			 */
 			function (error, text) {
 				var result;
 				if (error) {
@@ -103,10 +108,12 @@
 					return;
 				}
 				try {
-					result = JSON.parse(text);
+					// getText always passes the text when there is no error.
+					result = JSON.parse(/** @type {string} */ (text));
 				} catch (parseError) {
 					BS.util.logError('Could not parse JSON from ' + url, parseError);
-					callback(parseError);
+					// JSON.parse only throws SyntaxError.
+					callback(/** @type {SyntaxError} */ (parseError));
 					return;
 				}
 				callback(null, result);
@@ -121,7 +128,7 @@
 	 * within timeoutMs.
 	 *
 	 * @param {string} url
-	 * @param {Function} callback
+	 * @param {(error: ?Error, text?: string) => void} callback
 	 * @param {number=} timeoutMs
 	 */
 	BS.util.getText = function (url, callback, timeoutMs) {
@@ -131,8 +138,8 @@
 		var timer = null;
 
 		/**
-		 * @param {*} error
-		 * @param {*=} result
+		 * @param {?Error} error
+		 * @param {string=} result
 		 */
 		function finish(error, result) {
 			if (finished) {
@@ -178,11 +185,26 @@
 	};
 
 	/**
+	 * The prefixed fullscreen APIs of older browsers, which TypeScript's DOM
+	 * library doesn't include.
+	 *
+	 * @typedef {Object} PrefixedFullscreenElement
+	 * @property {() => void=} webkitRequestFullscreen
+	 * @property {() => void=} webkitRequestFullScreen
+	 * @property {() => void=} mozRequestFullScreen
+	 * @property {() => void=} msRequestFullscreen
+	 *
+	 * @typedef {Object} PrefixedFullscreenDocument
+	 * @property {?Element=} webkitFullscreenElement
+	 * @property {?Element=} webkitCurrentFullScreenElement
+	 */
+
+	/**
 	 * @param {HTMLVideoElement} video
 	 */
 	BS.util.requestFullscreen = function (video) {
-		var element = /** @type {any} */ (video);
-		var doc = /** @type {any} */ (document);
+		var element = /** @type {HTMLVideoElement & PrefixedFullscreenElement} */ (video);
+		var doc = /** @type {Document & PrefixedFullscreenDocument} */ (document);
 		var request;
 		if (
 			(doc.fullscreenElement ||

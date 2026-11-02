@@ -2,17 +2,23 @@
 (function (window, document) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
-	var page = /** @type {any} */ ({});
+	/**
+	 * @typedef {import('../../../scripts/shared-types').Show} Show
+	 * @typedef {import('../../../scripts/shared-types').Episode} Episode
+	 */
+
+	var page = {};
 	BS.pages.episode = page;
 
 	BS.templates.register('/pages/episode/episode.html');
 
 	/**
 	 * @param {HTMLElement} root
-	 * @param {*} show
-	 * @param {*} episode
-	 * @returns {Function} cleanup, called when leaving the page
+	 * @param {Show} show
+	 * @param {Episode} episode
+	 * @returns {() => void} cleanup, called when leaving the page
 	 */
 	page.render = function (root, show, episode) {
 		var view = BS.templates.clone('episode-page');
@@ -20,10 +26,11 @@
 		var playerWrap = view.refs.playerWrap;
 		var video = /** @type {HTMLVideoElement} */ (view.refs.video);
 		// The hls.js instance. The vendored library has no types.
-		/** @type {*} */
+		/** @type {any} */
 		var hls = null;
 		var quality = BS.components.qualitySelect({
 			id: 'quality-selector',
+			/** @param {number} level */
 			onChange: function (level) {
 				if (hls) {
 					hls.currentLevel = level;
@@ -45,7 +52,7 @@
 		 * keeps the player in fullscreen when moving on to the next episode,
 		 * because browsers only allow entering fullscreen from a user gesture.
 		 *
-		 * @param {*} nextEpisode
+		 * @param {Episode} nextEpisode an episode with a mediaId
 		 */
 		function loadEpisode(nextEpisode) {
 			destroyHls();
@@ -55,7 +62,7 @@
 			context.textContent = nextEpisode.title;
 			video.poster = nextEpisode.img;
 			quality.setLevels([]);
-			hls = page.attachVideo(video, quality, nextEpisode.mediaId);
+			hls = page.attachVideo(video, quality, /** @type {string} */ (nextEpisode.mediaId));
 		}
 
 		BS.util.clearElement(root);
@@ -124,7 +131,8 @@
 
 	/**
 	 * @param {HTMLVideoElement} video
-	 * @param {*} quality the episode's qualitySelect component
+	 * @param {{setLevels: (levels: Array<{height?: number, bitrate?: number}>) => void}} quality
+	 *   the episode's qualitySelect component
 	 * @param {string} mediaId
 	 */
 	page.attachVideo = function (video, quality, mediaId) {
@@ -132,7 +140,9 @@
 			'https://vod.kringvarp.fo/redirect/video/_definst_/smil:smil/video/' +
 			mediaId +
 			'.smil?type=m3u8';
+		// hls.js, from the vendored script. It has no types.
 		var HlsConstructor = /** @type {any} */ (window).Hls;
+		/** @type {any} */
 		var hls;
 
 		if (HlsConstructor && HlsConstructor.isSupported && HlsConstructor.isSupported()) {
@@ -144,11 +154,18 @@
 				BS.util.play(video);
 				BS.util.requestFullscreen(video);
 			});
-			hls.on(HlsConstructor.Events.ERROR, function (eventName, data) {
-				if (data && data.fatal) {
-					page.handleFatalHlsError(hls, data);
+			hls.on(
+				HlsConstructor.Events.ERROR,
+				/**
+				 * @param {string} eventName
+				 * @param {HlsErrorData} data
+				 */
+				function (eventName, data) {
+					if (data && data.fatal) {
+						page.handleFatalHlsError(hls, data);
+					}
 				}
-			});
+			);
 			return hls;
 		}
 
@@ -168,6 +185,15 @@
 		return null;
 	};
 
+	/**
+	 * @typedef {{fatal?: boolean, type?: string}} HlsErrorData
+	 *   The parts of an hls.js error event that this page uses.
+	 */
+
+	/**
+	 * @param {any} hls the hls.js instance, which has no types
+	 * @param {HlsErrorData} data
+	 */
 	page.handleFatalHlsError = function (hls, data) {
 		if (data.type === 'networkError') {
 			hls.startLoad();

@@ -2,8 +2,13 @@
 (function (window, document) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
-	var page = /** @type {any} */ ({});
+	/**
+	 * @typedef {import('../../../scripts/shared-types').Show} Show
+	 */
+
+	var page = {};
 	BS.pages.home = page;
 
 	BS.templates.register('/pages/home/home.html');
@@ -27,6 +32,9 @@
 		root.appendChild(view.fragment);
 	};
 
+	/**
+	 * @param {Show} show
+	 */
 	page.createShowTile = function (show) {
 		return BS.components.tile({
 			title: show.title,

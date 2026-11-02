@@ -2,6 +2,7 @@
 (function (window) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
 
 	/**
@@ -12,7 +13,7 @@
 	BS.data.loadShowsTimeoutMs = 20000;
 
 	/**
-	 * @param {Function} callback
+	 * @param {(error: ?Error, shows?: Show[]) => void} callback
 	 */
 	BS.data.loadShows = function (callback) {
 		BS.util.getJson('/assets/shows.json', callback, BS.data.loadShowsTimeoutMs);
@@ -22,12 +23,15 @@
 	 * @param {Show[]} shows
 	 */
 	BS.data.buildIndexes = function (shows) {
+		/** @type {Object<string, Show>} */
 		var showByTitle = {};
+		/** @type {Object<string, Object<string, Episode>>} */
 		var episodeByShowTitleAndTitle = {};
 		var i;
 		var j;
 		var show;
 		var episode;
+		/** @type {Object<string, Episode>} */
 		var episodeByTitle;
 
 		for (i = 0; i < shows.length; i += 1) {

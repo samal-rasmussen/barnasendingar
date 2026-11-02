@@ -2,15 +2,21 @@
 (function (window, document) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
-	var page = /** @type {any} */ ({});
+	/**
+	 * @typedef {import('../../../scripts/shared-types').Show} Show
+	 * @typedef {import('../../../scripts/shared-types').Episode} Episode
+	 */
+
+	var page = {};
 	BS.pages.show = page;
 
 	BS.templates.register('/pages/show/show.html');
 
 	/**
 	 * @param {HTMLElement} root
-	 * @param {*} show
+	 * @param {Show} show
 	 */
 	page.render = function (root, show) {
 		var view = BS.templates.clone('show-page');
@@ -36,6 +42,10 @@
 		root.appendChild(view.fragment);
 	};
 
+	/**
+	 * @param {Show} show
+	 * @param {Episode} episode
+	 */
 	page.createEpisodeTile = function (show, episode) {
 		return BS.components.tile({
 			title: episode.title,

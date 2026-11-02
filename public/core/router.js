@@ -2,6 +2,7 @@
 (function (window) {
 	'use strict';
 
+	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
 
 	/**
@@ -10,14 +11,19 @@
 	 * @typedef {Object} RouteDefinition
 	 * @property {string} name
 	 * @property {string} path Pattern such as '/items/:id'. `:name` segments become params.
-	 * @property {(root: HTMLElement, params: Params) => (Function|void)} render
+	 * @property {(root: HTMLElement, params: Params) => ((() => void)|void)} render
 	 *   Renders the page into the root element. May return a cleanup function,
 	 *   which is called before the next page renders.
+	 *
+	 * @typedef {Object} Route
+	 * @property {string} name
+	 * @property {string[]} segments The path pattern split at '/'.
+	 * @property {RouteDefinition['render']} render
 	 *
 	 * @typedef {Object} RouterOptions
 	 * @property {HTMLElement} root
 	 * @property {RouteDefinition[]} routes
-	 * @property {(root: HTMLElement, path: string) => (Function|void)} notFound
+	 * @property {(root: HTMLElement, path: string) => ((() => void)|void)} notFound
 	 *   Renders any address that matches no route. Gets the unmatched path.
 	 *
 	 * @typedef {Object} GoOptions
@@ -34,7 +40,9 @@
 	 * @param {RouterOptions} options
 	 */
 	BS.createRouter = function (options) {
+		/** @type {Route[]} */
 		var routes = [];
+		/** @type {Object<string, Route>} */
 		var routesByName = {};
 		/** @type {?{name: ?string, params: Params, key: string}} */
 		var current = null;
@@ -45,7 +53,7 @@
 		var keysByPosition = [];
 		var position = -1;
 		var started = false;
-		/** @type {?Function} */
+		/** @type {?(() => void)} */
 		var cleanup = null;
 		var i;
 
@@ -102,6 +110,7 @@
 		 */
 		function match(path) {
 			var segments = path.split('/');
+			/** @type {Params} */
 			var params;
 			var route;
 			var j;
