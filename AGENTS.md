@@ -89,7 +89,7 @@ UI text is in Faroese. Keep new UI strings in Faroese.
 | `public/components/<component>/` | One folder per reusable UI component with its JS, HTML templates and CSS.      |
 | `public/pages/<page>/`           | One folder per page with its JS, HTML templates and CSS.                       |
 | `public/vendor/`                 | Vendored third-party code (hls.js). Not linted or type-checked.                |
-| `scripts/`                       | Modern Node/TypeScript tooling with its own `package.json`.                    |
+| `scripts/`                       | Modern Node/TypeScript tooling, with its own `tsconfig.json`.                  |
 | `scripts/scrape.ts`              | KVF metadata scraper that writes `public/assets/shows.json`.                   |
 | `scripts/delete_duplicates.ts`   | Removes duplicate episodes (by `sortKey`) from the scraped JSON.               |
 | `scripts/download-show.ts`       | Interactive downloader for saving a show locally through `yt-dlp`.             |
@@ -106,7 +106,7 @@ UI text is in Faroese. Keep new UI strings in Faroese.
 ### Setup
 
 - Node 22.18 or newer (the package scripts use `node --run`, and the tests and the `scripts/` tools are TypeScript run directly by Node, which strips the types).
-- Run `npm install` in the repo root (lint, type-check and test tools) and in `scripts/` (scraper dependencies).
+- Run `npm install` in the repo root. There is one `package.json`, holding every dev tool: lint, type check, tests and the scraper's dependencies. Nothing in it is deployed.
 - Run `npx playwright install chromium` once, for the component and e2e tests.
 - `yt-dlp` on `PATH` is only needed for `download-show`.
 
@@ -114,30 +114,19 @@ UI text is in Faroese. Keep new UI strings in Faroese.
 
 Run package scripts with `node --run <script>`, not `npm run`.
 
-Root `package.json`:
-
-| Script              | Command                                      | Description                                                                             |
-| ------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------- |
-| `serve`             | `sirv public --dev --single --port 4387`     | Serves `public/` locally on port 4387. `--dev` picks up new files and disables caching. |
-| `check`             | `tsc --noEmit && tsc --noEmit -p tests`      | Type-checks the runtime JavaScript in `public/` through JSDoc, and the tests.           |
-| `test`              | `node --run test:unit && playwright test`    | Runs all three test tiers.                                                              |
-| `test:unit`         | `node --test "tests/unit/**/*.test.ts"`      | Runs the unit tests with Node's test runner.                                            |
-| `test:component`    | `playwright test --project=component`        | Runs the component tests in headless Chromium.                                          |
-| `test:e2e`          | `playwright test --project=e2e`              | Runs the e2e tests in headless Chromium.                                                |
-| `lint`              | `prettier --check . && eslint .`             | Checks formatting and lints. ESLint parses runtime JS as ES5.                           |
-| `format`            | `prettier --write .`                         | Formats the repo. Use it on purpose, because it rewrites many files.                    |
-| `scrape`            | `npm --prefix scripts run scrape`            | Scrapes KVF and refreshes `public/assets/shows.json`.                                   |
-| `delete-duplicates` | `npm --prefix scripts run delete-duplicates` | Runs only the duplicate cleanup step.                                                   |
-| `download-show`     | `npm --prefix scripts run download-show`     | Runs the interactive local show downloader.                                             |
-
-`scripts/package.json`:
-
-| Script              | Command                                         | Description                                                            |
-| ------------------- | ----------------------------------------------- | ---------------------------------------------------------------------- |
-| `scrape`            | `node ./scrape.ts && npm run delete-duplicates` | Scrapes show and episode metadata, then removes duplicate episodes.    |
-| `delete-duplicates` | `node ./delete_duplicates.ts`                   | Removes duplicate episodes in `public/assets/shows.json` by `sortKey`. |
-| `download-show`     | `node ./download-show.ts`                       | Interactively downloads a selected show through `yt-dlp`.              |
-| `check`             | `tsc --noEmit -p tsconfig.json`                 | Type-checks the Node/TypeScript tooling.                               |
+| Script              | Command                                                            | Description                                                                                                        |
+| ------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| `serve`             | `sirv public --dev --single --port 4387`                           | Serves `public/` locally on port 4387. `--dev` picks up new files and disables caching.                            |
+| `check`             | `tsc --noEmit && tsc --noEmit -p tests && tsc --noEmit -p scripts` | Type-checks the runtime JavaScript in `public/` through JSDoc, the tests and `scripts/`.                           |
+| `test`              | `node --run test:unit && playwright test`                          | Runs all three test tiers.                                                                                         |
+| `test:unit`         | `node --test "tests/unit/**/*.test.ts"`                            | Runs the unit tests with Node's test runner.                                                                       |
+| `test:component`    | `playwright test --project=component`                              | Runs the component tests in headless Chromium.                                                                     |
+| `test:e2e`          | `playwright test --project=e2e`                                    | Runs the e2e tests in headless Chromium.                                                                           |
+| `lint`              | `prettier --check . && eslint .`                                   | Checks formatting and lints. ESLint parses runtime JS as ES5.                                                      |
+| `format`            | `prettier --write .`                                               | Formats the repo. Use it on purpose, because it rewrites many files.                                               |
+| `scrape`            | `node scripts/scrape.ts && node --run delete-duplicates`           | Scrapes show and episode metadata from KVF, then removes duplicate episodes and writes `public/assets/shows.json`. |
+| `delete-duplicates` | `node scripts/delete_duplicates.ts`                                | Removes duplicate episodes in `public/assets/shows.json` by `sortKey`.                                             |
+| `download-show`     | `node scripts/download-show.ts`                                    | Interactively downloads a selected show through `yt-dlp` into `downloads/`.                                        |
 
 The tools run with plain `node`, which only strips types. Use only TypeScript syntax that can be erased (no enums, namespaces or parameter properties), write relative imports with their `.ts` extension, and import JSON with `with { type: 'json' }`. `erasableSyntaxOnly` in `scripts/tsconfig.json` enforces the first rule.
 
@@ -176,7 +165,7 @@ Before handing off a runtime change:
 4. Run the site and go through every affected page in a browser (see below). Watch the console for errors.
 5. If possible, check the change on the TV itself (see below).
 
-For changes to `scripts/`, run `npm --prefix scripts run check`.
+`node --run check` also type-checks `scripts/`.
 
 ### Testing In A Browser
 

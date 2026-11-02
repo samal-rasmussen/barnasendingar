@@ -13,8 +13,7 @@ export default [
 			'public/vendor/**',
 			'public/assets/shows.json',
 			'scripts/**/*.ts',
-			'package-lock.json',
-			'scripts/package-lock.json'
+			'package-lock.json'
 		]
 	},
 	js.configs.recommended,

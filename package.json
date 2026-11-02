@@ -4,23 +4,28 @@
 	"type": "module",
 	"scripts": {
 		"serve": "sirv public --dev --single --port 4387",
-		"check": "tsc --noEmit && tsc --noEmit -p tests",
+		"check": "tsc --noEmit && tsc --noEmit -p tests && tsc --noEmit -p scripts",
 		"test": "node --run test:unit && playwright test",
 		"test:unit": "node --test \"tests/unit/**/*.test.ts\"",
 		"test:component": "playwright test --project=component",
 		"test:e2e": "playwright test --project=e2e",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write .",
-		"scrape": "npm --prefix scripts run scrape",
-		"delete-duplicates": "npm --prefix scripts run delete-duplicates",
-		"download-show": "npm --prefix scripts run download-show"
+		"scrape": "node scripts/scrape.ts && node --run delete-duplicates",
+		"delete-duplicates": "node scripts/delete_duplicates.ts",
+		"download-show": "node scripts/download-show.ts"
 	},
 	"devDependencies": {
 		"@eslint/js": "10.0.1",
 		"@playwright/test": "1.64.1",
+		"@types/cli-progress": "3.11.6",
+		"@types/jsdom": "28.0.3",
 		"@types/node": "25.3.3",
+		"cli-progress": "3.12.0",
 		"eslint": "10.0.2",
 		"globals": "17.3.0",
+		"jsdom": "29.0.1",
+		"p-queue": "9.1.0",
 		"prettier": "3.8.1",
 		"sirv-cli": "3.0.1",
 		"typescript": "7.0.2"
