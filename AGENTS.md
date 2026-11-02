@@ -102,6 +102,7 @@ UI text is in Faroese. Keep new UI strings in Faroese.
 | `scripts/delete_duplicates.ts`   | Removes duplicate episodes (by `sortKey`) from the scraped JSON.                   |
 | `scripts/download-show.ts`       | Interactive downloader for saving a show locally through `yt-dlp`.                 |
 | `scripts/keepawake.ts`           | Cross-platform wake-lock helper used by `download-show.ts`.                        |
+| `scripts/status.ts`              | Terminal status line with a progress bar and a scrolling log, used by `scrape.ts`. |
 | `scripts/shared-types.d.ts`      | Shared `Show` and `Episode` types, used by both the scripts and runtime JSDoc.     |
 | `docs/`                          | Project documentation. See [Documentation](#documentation).                        |
 | `tests/`, `playwright.config.ts` | Unit, component and e2e tests. Dev-only, not deployed. See [Tests](#tests).        |
