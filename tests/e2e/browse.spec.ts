@@ -8,8 +8,7 @@ test('browse from the front page to an episode and back with the remote', async 
 		'Einki video'
 	]);
 
-	// The remote moves focus like Tab and selects with Enter/OK.
-	await page.keyboard.press('Tab');
+	// The first tile has focus, and the remote selects with Enter/OK.
 	await expect(page.getByRole('button', { name: 'Alfa og Beta' })).toBeFocused();
 	await page.keyboard.press('Enter');
 

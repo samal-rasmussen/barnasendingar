@@ -12,8 +12,9 @@
 	 * @property {string} name
 	 * @property {string} path Pattern such as '/items/:id'. `:name` segments become params.
 	 * @property {(root: HTMLElement, params: Params) => ((() => void)|void)} render
-	 *   Renders the page into the root element. May return a cleanup function,
-	 *   which is called before the next page renders.
+	 *   Renders the page into the root element, which the router has emptied.
+	 *   May return a cleanup function, which is called before the next page
+	 *   renders.
 	 *
 	 * @typedef {Object} Route
 	 * @property {string} name
@@ -24,7 +25,8 @@
 	 * @property {HTMLElement} root
 	 * @property {RouteDefinition[]} routes
 	 * @property {(root: HTMLElement, path: string) => ((() => void)|void)} notFound
-	 *   Renders any address that matches no route. Gets the unmatched path.
+	 *   Renders any address that matches no route, into the emptied root.
+	 *   Gets the unmatched path.
 	 *
 	 * @typedef {Object} GoOptions
 	 * @property {boolean=} replace Replace the current history entry instead of adding one.
@@ -188,6 +190,9 @@
 				cleanup = null;
 			}
 			track(location);
+			while (options.root.firstChild) {
+				options.root.removeChild(options.root.firstChild);
+			}
 
 			if (location.name === null) {
 				result = options.notFound(options.root, path);

@@ -1,5 +1,5 @@
 // @ts-check
-(function (window, document) {
+(function (window) {
 	'use strict';
 
 	// The global namespace is built up across many files and has no type.
@@ -16,13 +16,13 @@
 	page.render = function (root) {
 		var view = BS.templates.clone('not-found-page');
 
-		document.title = 'Ikki funnið - Barnasendingar';
-		BS.util.clearElement(root);
+		BS.dom.setTitle('Ikki funnið');
 
 		view.refs.home.onclick = function () {
 			BS.router.go('home');
 		};
 
 		root.appendChild(view.fragment);
+		view.refs.home.focus();
 	};
-})(window, document);
+})(window);

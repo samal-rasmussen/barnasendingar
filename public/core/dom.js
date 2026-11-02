@@ -1,5 +1,5 @@
 // @ts-check
-(function (window) {
+(function (window, document) {
 	'use strict';
 
 	// The global namespace is built up across many files and has no type.
@@ -19,4 +19,18 @@
 		}
 		parent.replaceChild(element, placeholder);
 	};
-})(window);
+
+	/**
+	 * Sets the page title to the given parts, most specific first, followed
+	 * by the site name: setTitle('Partur 2', 'Alfa og Beta') gives
+	 * 'Partur 2 - Alfa og Beta - Barnasendingar'. ES5 has no rest
+	 * parameters, so it reads the parts from `arguments`.
+	 *
+	 * @type {(...parts: string[]) => void}
+	 */
+	BS.dom.setTitle = function () {
+		var all = Array.prototype.slice.call(arguments);
+		all.push('Barnasendingar');
+		document.title = all.join(' - ');
+	};
+})(window, document);

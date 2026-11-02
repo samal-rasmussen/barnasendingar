@@ -1,5 +1,5 @@
 // @ts-check
-(function (window, document) {
+(function (window) {
 	'use strict';
 
 	// The global namespace is built up across many files and has no type.
@@ -59,14 +59,16 @@
 			destroyHls();
 			currentEpisode = nextEpisode;
 			currentIndex = BS.data.getEpisodeIndex(show, nextEpisode);
-			document.title = nextEpisode.title + ' - ' + show.title + ' - Barnasendingar';
+			BS.pages.show.rememberEpisode(show, nextEpisode);
+			BS.dom.setTitle(nextEpisode.title, show.title);
 			context.textContent = nextEpisode.title;
 			video.poster = nextEpisode.img;
 			quality.setLevels([]);
 			hls = page.attachVideo(video, quality, /** @type {string} */ (nextEpisode.mediaId));
 		}
 
-		BS.util.clearElement(root);
+		BS.pages.show.rememberEpisode(show, episode);
+		BS.dom.setTitle(episode.title, show.title);
 
 		view.refs.header.appendChild(quality.element);
 		view.refs.showTitle.textContent = show.title;
@@ -82,8 +84,8 @@
 		root.appendChild(view.fragment);
 
 		if (!episode.mediaId) {
-			document.title = episode.title + ' - ' + show.title + ' - Barnasendingar';
 			page.renderPlayerMessage(playerWrap, 'Hesin parturin hevur einki video.');
+			view.refs.back.focus();
 			return function () {
 				video.pause();
 				quality.destroy();
@@ -109,6 +111,14 @@
 		};
 
 		loadEpisode(episode);
+		// So OK/Enter controls playback when the player isn't fullscreen. If
+		// this browser can't play the video, the player shows a message
+		// instead, and the back button gets focus.
+		if (playerWrap.contains(video)) {
+			video.focus();
+		} else {
+			view.refs.back.focus();
+		}
 
 		return function () {
 			video.onended = null;
@@ -204,4 +214,4 @@
 			hls.recoverMediaError();
 		}
 	};
-})(window, document);
+})(window);

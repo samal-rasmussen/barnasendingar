@@ -1,5 +1,5 @@
 // @ts-check
-(function (window, document) {
+(function (window) {
 	'use strict';
 
 	// The global namespace is built up across many files and has no type.
@@ -14,6 +14,20 @@
 	var page = {};
 	BS.pages.home = page;
 
+	// The show that was open last, so coming back focuses its tile. The show
+	// page sets it, which also covers opening a show by its address.
+	/** @type {?string} */
+	var lastShowTitle = null;
+
+	/**
+	 * Remembers the show as the one open last.
+	 *
+	 * @param {Show} show
+	 */
+	page.rememberShow = function (show) {
+		lastShowTitle = show.title;
+	};
+
 	/**
 	 * @param {HTMLElement} root
 	 */
@@ -21,16 +35,25 @@
 		var view = BS.templates.clone('home-page');
 		/** @type {Show[]} */
 		var shows = BS.state.shows || [];
+		var tiles = shows.map(page.createShowTile);
+		var focusIndex = 0;
+		var i;
 
-		document.title = 'Barnasendingar';
-		BS.util.clearElement(root);
+		BS.dom.setTitle();
 
-		BS.dom.replace(
-			view.refs.grid,
-			BS.components.grid({ items: shows.map(page.createShowTile) }).element
-		);
+		BS.dom.replace(view.refs.grid, BS.components.grid({ items: tiles }).element);
 
 		root.appendChild(view.fragment);
+
+		for (i = 0; i < shows.length; i += 1) {
+			if (shows[i].title === lastShowTitle) {
+				focusIndex = i;
+				break;
+			}
+		}
+		if (tiles[focusIndex]) {
+			tiles[focusIndex].focus();
+		}
 	};
 
 	/**
@@ -45,4 +68,4 @@
 			}
 		});
 	};
-})(window, document);
+})(window);

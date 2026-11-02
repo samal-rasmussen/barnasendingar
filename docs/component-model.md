@@ -2,7 +2,7 @@
 
 How UI is split into components and pages in this project, how their files are loaded, and how they fit together. Read this before adding or changing a component or page.
 
-> **Status: target model.** [`component-cleanup-plan.md`](component-cleanup-plan.md) introduces this model chunk by chunk. Loading (`BS.load`, and styles in a `<style>` in each folder's `.html`), the CSS-only `icon` and `button` components, and the `tile` and `grid` factory components with `BS.dom.replace` have landed. Until the other chunks have, the code they touch still works the old way: pages clear `root` and don't move focus themselves, and the quality select and player still have their old structure. When a chunk changes the model, update this document in the same chunk. Remove this note when the plan is done.
+> **Status: target model.** [`component-cleanup-plan.md`](component-cleanup-plan.md) introduces this model chunk by chunk. Loading (`BS.load`, and styles in a `<style>` in each folder's `.html`), the CSS-only `icon` and `button` components, the `tile` and `grid` factory components with `BS.dom.replace`, and the page lifecycle and focus rules have landed. Until the other chunks have, the code they touch still works the old way: the quality select and player still have their old structure. When a chunk changes the model, update this document in the same chunk. Remove this note when the plan is done.
 
 ## Principles
 
@@ -177,6 +177,7 @@ BS.pages.show = {
 			});
 		});
 
+		BS.dom.setTitle(show.title);
 		view.refs.back.onclick = function () {
 			BS.router.back('home');
 		};
@@ -188,10 +189,11 @@ BS.pages.show = {
 };
 ```
 
+- **Empty root and title:** the router empties `root` before it calls `render`, so pages don't clear it themselves. Pages set the title with `BS.dom.setTitle(...parts)`, most specific part first; it adds `- Barnasendingar` at the end.
 - **Placing a factory component:** put a placeholder element with a `data-ref` in the page's template where it goes, and swap it with `BS.dom.replace(placeholder, component.element)`. The page's layout stays readable in its HTML, without wrapper elements.
 - **Lists** of components (tiles) are created in JS from the data and handed to the component that lays them out (`grid`).
 - **Cleanup:** `render` may return a function, which the router calls when leaving the page. Use it to call `destroy()` on components that have one and to remove listeners on `document` or `window`.
-- **Focus:** end `render` by focusing the page's main element, so the remote always has a starting point. Coming back to a page focuses the tile you came from.
+- **Focus:** end `render` by focusing the page's main element, so the remote always has a starting point. Coming back to a page focuses the tile you came from. The page module remembers that item, not the router, which stays generic: the page one level down tells it what is open (`BS.pages.home.rememberShow(show)`, `BS.pages.show.rememberEpisode(show, episode)`), so it is also right after autoplay moves on and after opening a page by its address.
 - **Data:** pages get their data from the route (`render(root, show, episode)`) and from `BS.data` and `BS.watched`. Components get it from the page.
 
 ## Styles

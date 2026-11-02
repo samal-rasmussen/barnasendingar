@@ -1,6 +1,6 @@
 # Component Cleanup Plan
 
-> **Status: in progress.** Chunks 0, 0.5, 1, 2 and 3 are done. Update the status of each chunk as it lands.
+> **Status: in progress.** Chunks 0, 0.5, 1, 2, 3 and 4 are done. Update the status of each chunk as it lands.
 >
 > An earlier version of this plan had a "safety net" chunk 1 that added `tests/unit/index-html.test.ts`. That test was committed, but this version of the plan makes it unnecessary, and the new chunk 1 deletes it.
 
@@ -243,6 +243,8 @@ The model these decisions add up to is described in [`component-model.md`](compo
 ---
 
 ## Chunk 4: Page Lifecycle And Focus
+
+> **Status: done.** The remembered show and episode are set by the page one level down, not by the tile that opens it: the show page calls `BS.pages.home.rememberShow(show)` when it renders, and the episode page calls `BS.pages.show.rememberEpisode(show, episode)` for each episode it plays. That covers autoplay with one mechanism, and also opening a page by its address. An episode without video, or one this browser can't play, focuses the back button instead of the video.
 
 **Why now:** after selecting a tile, focus currently lands on nothing, so the child has to start over from the top of the page. This is the biggest remaining remote UX problem, and it needs the tile and button changes from chunks 2 and 3.
 

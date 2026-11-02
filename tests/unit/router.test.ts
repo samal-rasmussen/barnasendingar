@@ -61,18 +61,37 @@ function fakeBrowser(initialHash = '') {
 	};
 }
 
-/** A router over generic routes. Every render is logged as "name params". */
+/** A fake root element, enough for the router to empty it. */
+function fakeRoot() {
+	const children: string[] = [];
+	return {
+		children,
+		get firstChild() {
+			return children[0] ?? null;
+		},
+		removeChild(child: string) {
+			children.splice(children.indexOf(child), 1);
+		}
+	};
+}
+
+/**
+ * A router over generic routes. Every render is logged as "name params",
+ * and adds a child to the root.
+ */
 function setup(initialHash = '') {
 	const browser = fakeBrowser(initialHash);
 	const window = loadRuntime(['core/router.js'], browser);
 	const log: string[] = [];
+	const root = fakeRoot();
 	const page = (name: string) => (_root: unknown, params: object) => {
 		log.push(`${name} ${JSON.stringify(plain(params))}`);
+		root.children.push(name);
 		return () => log.push(`leave ${name}`);
 	};
 
 	const router = window.BS.createRouter({
-		root: {},
+		root,
 		routes: [
 			{ name: 'home', path: '/', render: page('home') },
 			{ name: 'item', path: '/items/:id', render: page('item') },
@@ -82,7 +101,7 @@ function setup(initialHash = '') {
 			log.push(`not found ${path}`);
 		}
 	});
-	return { router, browser, log };
+	return { router, browser, log, root };
 }
 
 test('renders the matching route with decoded params', () => {
@@ -127,6 +146,14 @@ test('go adds a history entry and cleans up the page it leaves', () => {
 
 	assert.deepEqual(browser.entries(), ['#/', '#/items/1']);
 	assert.deepEqual(log, ['home {}', 'leave home', 'item {"id":"1"}']);
+});
+
+test('empties the root before each render', () => {
+	const { router, root } = setup('#/');
+	router.start();
+	router.go('item', { id: '1' });
+	router.refresh();
+	assert.deepEqual(root.children, ['item']);
 });
 
 test('go with replace swaps the current entry', () => {
