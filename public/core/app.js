@@ -2,30 +2,32 @@
 (function (window, document) {
 	'use strict';
 
-	/**
-	 * @typedef {import('../../scripts/shared-types').Show} Show
-	 */
-
 	// The global namespace is built up across many files and has no type.
-	var current = /** @type {any} */ (window).BS || {};
-	current.state = current.state || {};
-	current.util = current.util || {};
-	current.dom = current.dom || {};
-	current.data = current.data || {};
-	current.watched = current.watched || {};
-	current.templates = current.templates || {};
-	current.components = current.components || {};
-	current.pages = current.pages || {};
+	// boot/boot.js has already created it.
+	var BS = /** @type {any} */ (window).BS || {};
+	/** @type {any} */ (window).BS = BS;
 
-	/** @type {any} */ (window).BS = current;
+	// Filled by the component and page scripts, one entry per folder.
+	BS.components = {};
+	BS.pages = {};
 
-	current.start = function () {
+	/**
+	 * @param {string} message
+	 * @param {unknown} error
+	 */
+	BS.logError = function (message, error) {
+		if (window.console && window.console.error) {
+			window.console.error(message, error);
+		}
+	};
+
+	BS.start = function () {
 		var app = document.getElementById('app');
 		if (!app) {
 			return;
 		}
 
-		current.loadApp(app);
+		BS.loadApp(app);
 	};
 
 	/**
@@ -35,7 +37,7 @@
 	 *
 	 * @param {HTMLElement} app
 	 */
-	current.loadApp = function (app) {
+	BS.loadApp = function (app) {
 		var remaining = 2;
 		var failed = false;
 
@@ -48,41 +50,28 @@
 			}
 			if (error) {
 				failed = true;
-				current.boot.showError(function () {
-					current.loadApp(app);
+				BS.boot.showError(function () {
+					BS.loadApp(app);
 				});
 				return;
 			}
 			remaining -= 1;
 			if (remaining === 0) {
-				current.boot.hide();
-				current.router = current.createRouter({
+				BS.boot.hide();
+				BS.router = BS.createRouter({
 					root: app,
-					routes: current.routes,
+					routes: BS.routes,
 					/** @param {HTMLElement} root */
 					notFound: function (root) {
-						return current.pages.notFound.render(root);
+						return BS.pages.notFound.render(root);
 					}
 				});
-				current.router.start();
+				BS.router.start();
 			}
 		}
 
-		current.boot.showLoading();
-
-		current.data.loadShows(
-			/**
-			 * @param {?Error} error
-			 * @param {Show[]=} shows
-			 */
-			function (error, shows) {
-				if (!error) {
-					current.state.shows = shows;
-					current.data.buildIndexes(shows);
-				}
-				done(error);
-			}
-		);
-		current.templates.load(done);
+		BS.boot.showLoading();
+		BS.data.load(done);
+		BS.templates.load(done);
 	};
 })(window, document);

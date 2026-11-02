@@ -2,8 +2,6 @@
 
 How UI is split into components and pages in this project, how their files are loaded, and how they fit together. Read this before adding or changing a component or page.
 
-> **Status: target model.** [`component-cleanup-plan.md`](component-cleanup-plan.md) introduces this model chunk by chunk. Loading (`BS.load`, and styles in a `<style>` in each folder's `.html`), the CSS-only `icon` and `button` components, the `tile` and `grid` factory components with `BS.dom.replace`, the page lifecycle and focus rules, the CSS-only `select` component used by the quality select, the `player` factory component and the boot screens have landed. Still to come is the comment with colours and breakpoints at the top of `base.css` (chunk 8). When a chunk changes the model, update this document in the same chunk. Remove this note when the plan is done.
-
 ## Principles
 
 - **Plain HTML, CSS and JavaScript.** No framework, no build step, no component registry, no dependency lists. The runtime rules in `AGENTS.md` and [`chrome38-features.md`](chrome38-features.md) apply to everything here.
@@ -21,7 +19,9 @@ public/
                              in order: boot, vendor, core, components, pages
   boot/boot.js               BS.boot: shows and hides the boot screens, using only the DOM
   core/base.css              global styles only (the one stylesheet file)
-  core/*.js                  shared runtime: loading, templates, router, data, ...
+  core/*.js                  shared runtime, one namespace per file: app (BS.start,
+                             BS.logError), http, dom, data, watched, templates
+                             (BS.load), router and routes
   components/<name>/
     <name>.js                BS.load('<name>.html'), plus the factory if it has behaviour
     <name>.html              <style>, and <template>s or an icon sprite
@@ -155,7 +155,7 @@ A factory is a function on `BS.components` that takes an options object and retu
 
 Rules:
 
-- **Data in, callbacks out.** Options carry data and callbacks such as `onActivate` or `onChange`. A component never reads `BS.state`, calls the router or knows which page it is on. The page decides what happens.
+- **Data in, callbacks out.** Options carry data and callbacks such as `onActivate` or `onChange`. A component never reads `BS.data`, calls the router or knows which page it is on. The page decides what happens.
 - **Methods for change, not re-creation.** If something changes after creation (watched state, quality levels, a message), add a method like `setWatched` instead of rebuilding the component.
 - **`destroy()` only when needed.** Listeners on the component's own elements go away with the elements. Add `destroy()` only when the component holds something outside itself: an hls.js instance, a timer, a listener on `document` or `window`.
 - **Build on native elements**, so focus and Enter/OK work without key handling.
@@ -206,7 +206,7 @@ BS.pages.show = {
 - Every class is prefixed with its component's name: `.tile`, `.tile-title`, `.button`, `.button-icon`. Page classes are prefixed with the page name.
 - Every selector in a folder's `<style>` starts from one of its own classes, so its styles stay inside its own elements. After that, it may name another component's classes to style that component in that place: `.show-toolbar .tile-title` changes only the tiles in the show page's toolbar. A bare `.tile-title` in `show.html` is not allowed. `tests/unit/css-prefix.test.ts` enforces this.
 - Reaching into a component this way ties the page to the component's class names. When the look is something the component should offer anyway, give it a modifier class (`.button-icon`) or an option instead.
-- `core/base.css` holds only global styles: the page, typography, `main`, `h1` and the shared focus ring.
+- `core/base.css` holds only global styles: the page, typography, `main` and `h1`.
 - No CSS custom properties (the TV lacks them). Repeated values, like colours and breakpoints, are listed in a comment at the top of `base.css`.
 - `tests/unit/chrome38.test.ts` scans `<style>` elements as well as `.css` files for unsupported CSS.
 

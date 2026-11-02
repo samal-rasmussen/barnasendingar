@@ -12,7 +12,7 @@ function fakeStorage(initial: Record<string, string> = {}) {
 }
 
 function setup(storage: object) {
-	return loadRuntime(['core/util.js', 'core/watched.js'], { localStorage: storage }).BS.watched;
+	return loadRuntime(['core/watched.js'], { localStorage: storage }).BS.watched;
 }
 
 const alfa = { title: 'Alfa' };

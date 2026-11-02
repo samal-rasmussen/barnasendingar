@@ -1,3 +1,27 @@
+/*
+ * Global styles only: the page, typography, main and h1. Components and
+ * pages style themselves in their own .html files, and the boot screens in
+ * index.html.
+ *
+ * The TV has no CSS custom properties, so shared values are written out
+ * wherever they are used. Keep them in step.
+ *
+ * Colours
+ * - #242424                    page background
+ * - rgba(255, 255, 255, 0.87)  text
+ * - #1a1a1a with #ffffff       buttons and selects (select border #777777)
+ * - #8ea0ff                    hover border on buttons and tiles
+ * - #000000, #181818           episode page and its header
+ * - rgba(255, 255, 255, 0.72)  secondary text on the episode page
+ * - rgba(0, 0, 0, 0.5)         the "Sæð" marker's background
+ *
+ * Breakpoints (max-width)
+ * - 785px  one tile per row, smaller episode header and quality select.
+ *          The grid's min-width steps above it are in grid.html.
+ * - 520px  smaller h1 and tile titles; main no longer fills the screen
+ * - 420px  smaller tile titles
+ */
+
 html {
 	height: 100%;
 }
@@ -23,16 +47,6 @@ main {
 	box-sizing: border-box;
 	width: 100%;
 	min-height: 100vh;
-}
-
-a {
-	font-weight: 500;
-	color: #8ea0ff;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #aab6ff;
 }
 
 h1 {

@@ -1,6 +1,6 @@
 # Component Cleanup Plan
 
-> **Status: in progress.** Chunks 0, 0.5, 1, 2, 3, 4, 5, 6 and 7 are done. Update the status of each chunk as it lands.
+> **Status: implemented.** Every chunk has landed. The plan is kept for background on why the components, pages and core modules look the way they do. For the current state of the project, see [`AGENTS.md`](../AGENTS.md) and [`component-model.md`](component-model.md). The TV checks noted under chunks 6 and 7 are still to be done.
 >
 > An earlier version of this plan had a "safety net" chunk 1 that added `tests/unit/index-html.test.ts`. That test was committed, but this version of the plan makes it unnecessary, and the new chunk 1 deletes it.
 
@@ -356,6 +356,8 @@ The model these decisions add up to is described in [`component-model.md`](compo
 ---
 
 ## Chunk 8: Core Cleanup
+
+> **Status: done.** `core/util.js` is gone. `logError` became `BS.logError` in `core/app.js`, because the player, `watched.js` and `http.js` all use it. `el` was unused and is deleted; `clearElement` became `BS.dom.clear`. `core/templates.js` keeps its name, because every core file is now named after the namespace it creates (`http.js` creates `BS.http`, `templates.js` creates `BS.templates`, and so on); `BS.templates.add` is the private `addHtml`. `app.js` creates `window.BS` (if `boot.js` hasn't), `BS.components` and `BS.pages`, which many files fill. `getShow` ignores inherited names such as `constructor`. `base.css` had no shared focus ring left after chunk 7, so it keeps only the page, typography, `main` and `h1`. The load unit test records the HTML that `addHtml` parses through a fake `document`, and a new `http.test.ts` covers `getJson` and the timeout.
 
 **Why last:** by now the earlier chunks have removed most of `util.js`, so this chunk only tidies what is left, without moving code twice.
 

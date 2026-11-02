@@ -34,7 +34,7 @@
 	page.render = function (root) {
 		var view = BS.templates.clone('home-page');
 		/** @type {Show[]} */
-		var shows = BS.state.shows || [];
+		var shows = BS.data.getShows();
 		var tiles = shows.map(page.createShowTile);
 		var focusIndex = 0;
 		var i;

@@ -9,7 +9,7 @@
 	/**
 	 * The loading and load-error screens, whose markup and styles are in
 	 * index.html. They must work when nothing else has loaded, so this file
-	 * uses only the DOM: no templates, components, BS.util or router.
+	 * uses only the DOM: no core modules, templates, components or router.
 	 */
 	BS.boot = {};
 

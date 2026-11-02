@@ -10,45 +10,50 @@
 	 * @typedef {import('../../scripts/shared-types').Episode} Episode
 	 */
 
+	/** @type {Show[]} */
+	var shows = [];
+	/** @type {Object<string, Show>} */
+	var showByTitle = {};
+
+	BS.data = {};
+
 	BS.data.loadShowsTimeoutMs = 20000;
 
 	/**
-	 * @param {(error: ?Error, shows?: Show[]) => void} callback
+	 * Loads the show catalogue. Until it has loaded, there are no shows. The
+	 * callback is called exactly once, with an error if loading fails.
+	 *
+	 * @param {(error: ?Error) => void} callback
 	 */
-	BS.data.loadShows = function (callback) {
-		BS.util.getJson('/assets/shows.json', callback, BS.data.loadShowsTimeoutMs);
+	BS.data.load = function (callback) {
+		BS.http.getJson(
+			'/assets/shows.json',
+			/**
+			 * @param {?Error} error
+			 * @param {unknown=} result
+			 */
+			function (error, result) {
+				var i;
+				if (error) {
+					callback(error);
+					return;
+				}
+				shows = /** @type {Show[]} */ (result);
+				showByTitle = {};
+				for (i = 0; i < shows.length; i += 1) {
+					showByTitle[shows[i].title] = shows[i];
+				}
+				callback(null);
+			},
+			BS.data.loadShowsTimeoutMs
+		);
 	};
 
 	/**
-	 * @param {Show[]} shows
+	 * @returns {Show[]} every show, in catalogue order
 	 */
-	BS.data.buildIndexes = function (shows) {
-		/** @type {Object<string, Show>} */
-		var showByTitle = {};
-		/** @type {Object<string, Object<string, Episode>>} */
-		var episodeByShowTitleAndTitle = {};
-		var i;
-		var j;
-		var show;
-		var episode;
-		/** @type {Object<string, Episode>} */
-		var episodeByTitle;
-
-		for (i = 0; i < shows.length; i += 1) {
-			show = shows[i];
-			showByTitle[show.title] = show;
-			episodeByTitle = {};
-			episodeByShowTitleAndTitle[show.title] = episodeByTitle;
-			for (j = 0; j < show.episodes.length; j += 1) {
-				episode = show.episodes[j];
-				if (episodeByTitle[episode.title] == null) {
-					episodeByTitle[episode.title] = episode;
-				}
-			}
-		}
-
-		BS.state.showByTitle = showByTitle;
-		BS.state.episodeByShowTitleAndTitle = episodeByShowTitleAndTitle;
+	BS.data.getShows = function () {
+		return shows;
 	};
 
 	/**
@@ -56,10 +61,14 @@
 	 * @returns {Show|undefined}
 	 */
 	BS.data.getShow = function (title) {
-		return BS.state.showByTitle ? BS.state.showByTitle[title] : undefined;
+		return Object.prototype.hasOwnProperty.call(showByTitle, title)
+			? showByTitle[title]
+			: undefined;
 	};
 
 	/**
+	 * The first episode in the show with the given title.
+	 *
 	 * @param {Show} show
 	 * @param {string} title
 	 * @returns {Episode|undefined}

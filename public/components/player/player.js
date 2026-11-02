@@ -242,7 +242,7 @@
 			try {
 				request.call(element);
 			} catch (error) {
-				BS.util.logError('Could not request fullscreen.', error);
+				BS.logError('Could not request fullscreen.', error);
 			}
 		}
 	}
@@ -254,7 +254,7 @@
 		try {
 			media.play();
 		} catch (error) {
-			BS.util.logError('Could not start media playback.', error);
+			BS.logError('Could not start media playback.', error);
 		}
 	}
 })(window, document);

@@ -40,7 +40,7 @@
 			setLevels: function (levels) {
 				var i;
 
-				BS.util.clearElement(select);
+				BS.dom.clear(select);
 				select.appendChild(createOption('-1', 'Auto'));
 				for (i = 0; i < levels.length; i += 1) {
 					select.appendChild(createOption(String(i), levelLabel(levels[i], i)));

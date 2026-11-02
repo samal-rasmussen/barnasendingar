@@ -5,20 +5,26 @@ import { loadRuntime } from './runtime.ts';
 type Callback = (error: Error | null, text?: string) => void;
 
 /**
- * Loads core plus a component and a page script, with getText and
- * templates.add replaced by recorders, so no DOM or network is needed.
+ * Loads core plus a component and a page script, with getText replaced by
+ * a recorder and a fake document that records the HTML it is asked to
+ * parse, so no DOM or network is needed.
  */
 function setup() {
-	const BS = loadRuntime([
-		'core/util.js',
-		'core/templates.js',
-		'components/tile/tile.js',
-		'pages/home/home.js'
-	]).BS;
-	const requests: { url: string; callback: Callback }[] = [];
 	const added: string[] = [];
-	BS.util.getText = (url: string, callback: Callback) => requests.push({ url, callback });
-	BS.templates.add = (html: string) => added.push(html);
+	const document = {
+		createElement: () => ({
+			set innerHTML(html: string) {
+				added.push(html);
+			},
+			children: []
+		})
+	};
+	const BS = loadRuntime(
+		['core/http.js', 'core/templates.js', 'components/tile/tile.js', 'pages/home/home.js'],
+		{ document }
+	).BS;
+	const requests: { url: string; callback: Callback }[] = [];
+	BS.http.getText = (url: string, callback: Callback) => requests.push({ url, callback });
 	return { BS, requests, added };
 }
 

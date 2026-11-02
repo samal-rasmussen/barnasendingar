@@ -14,6 +14,8 @@
 	/** @type {Object<string, HTMLTemplateElement>} */
 	var templatesById = {};
 
+	BS.templates = {};
+
 	BS.templates.loadTimeoutMs = 20000;
 
 	/**
@@ -38,7 +40,7 @@
 	/**
 	 * Loads every registered file that is not loaded yet. Once all of them
 	 * have loaded, adds their contents to the page in the order they were
-	 * registered (see BS.templates.add). The callback is called exactly once,
+	 * registered (see addHtml). The callback is called exactly once,
 	 * with an error if any file fails to load.
 	 *
 	 * @param {(error: ?Error) => void} callback
@@ -55,7 +57,7 @@
 			var j;
 			for (j = 0; j < urls.length; j += 1) {
 				if (!addedUrls[urls[j]]) {
-					BS.templates.add(textsByUrl[urls[j]]);
+					addHtml(textsByUrl[urls[j]]);
 					addedUrls[urls[j]] = true;
 				}
 			}
@@ -79,7 +81,7 @@
 		 * @param {string} url
 		 */
 		function loadOne(url) {
-			BS.util.getText(
+			BS.http.getText(
 				url,
 				/**
 				 * @param {?Error} error
@@ -118,7 +120,7 @@
 	 *
 	 * @param {string} html
 	 */
-	BS.templates.add = function (html) {
+	function addHtml(html) {
 		var container = document.createElement('div');
 		/** @type {Element[]} */
 		var elements = [];
@@ -145,7 +147,7 @@
 				document.body.appendChild(element);
 			}
 		}
-	};
+	}
 
 	/**
 	 * Makes a fresh copy of a template.

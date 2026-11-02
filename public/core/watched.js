@@ -6,6 +6,8 @@
 	var BS = /** @type {any} */ (window).BS;
 	var storageKey = 'watched';
 
+	BS.watched = {};
+
 	/**
 	 * @typedef {import('../../scripts/shared-types').Show} Show
 	 * @typedef {import('../../scripts/shared-types').Episode} Episode
@@ -16,7 +18,7 @@
 	/**
 	 * @returns {WatchedState}
 	 */
-	BS.watched.getAll = function () {
+	function getAll() {
 		var watchedString;
 		var watched;
 		try {
@@ -30,34 +32,33 @@
 			}
 			return watched;
 		} catch (error) {
-			BS.util.logError('Could not read watched state.', error);
+			BS.logError('Could not read watched state.', error);
 			return {};
 		}
-	};
+	}
 
 	/**
 	 * @param {WatchedState} watched
 	 */
-	BS.watched.saveAll = function (watched) {
+	function saveAll(watched) {
 		try {
 			window.localStorage.setItem(storageKey, JSON.stringify(watched));
 		} catch (error) {
-			BS.util.logError('Could not save watched state.', error);
-			return;
+			BS.logError('Could not save watched state.', error);
 		}
-	};
+	}
 
 	/**
 	 * @param {Show} show
 	 * @param {Episode} episode
 	 */
 	BS.watched.setWatched = function (show, episode) {
-		var watched = BS.watched.getAll();
+		var watched = getAll();
 		if (watched[show.title] == null) {
 			watched[show.title] = {};
 		}
 		watched[show.title][episode.sortKey] = true;
-		BS.watched.saveAll(watched);
+		saveAll(watched);
 	};
 
 	/**
@@ -66,18 +67,16 @@
 	 * @returns {boolean}
 	 */
 	BS.watched.isWatched = function (show, episode) {
-		var watched = BS.watched.getAll();
+		var watched = getAll();
 		return watched[show.title] != null && watched[show.title][episode.sortKey] === true;
 	};
 
 	/**
 	 * @param {Show} show
-	 * @returns {WatchedState}
 	 */
 	BS.watched.clearWatched = function (show) {
-		var watched = BS.watched.getAll();
+		var watched = getAll();
 		delete watched[show.title];
-		BS.watched.saveAll(watched);
-		return watched;
+		saveAll(watched);
 	};
 })(window);

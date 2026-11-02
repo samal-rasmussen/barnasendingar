@@ -5,6 +5,8 @@
 	// The global namespace is built up across many files and has no type.
 	var BS = /** @type {any} */ (window).BS;
 
+	BS.dom = {};
+
 	/**
 	 * Puts element where placeholder is, and removes placeholder. Pages use it
 	 * to put a component in place of a placeholder in their template.
@@ -18,6 +20,17 @@
 			throw new Error('BS.dom.replace: the placeholder has no parent.');
 		}
 		parent.replaceChild(element, placeholder);
+	};
+
+	/**
+	 * Removes every child of element.
+	 *
+	 * @param {Element} element
+	 */
+	BS.dom.clear = function (element) {
+		while (element.firstChild) {
+			element.removeChild(element.firstChild);
+		}
 	};
 
 	/**

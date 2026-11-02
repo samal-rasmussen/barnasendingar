@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { loadRuntime } from './runtime.ts';
+import { loadRuntime, plain } from './runtime.ts';
 
 const episode = (title: string, sortKey: string) => ({ title, sortKey, mediaId: sortKey });
 const shows = [
@@ -11,16 +11,39 @@ const shows = [
 	{ title: 'Beta', episodes: [episode('Partur 1', '1')] }
 ];
 
+/** Loads data.js and its catalogue, with getJson answering from `shows`. */
 function setup() {
-	const BS = loadRuntime(['core/util.js', 'core/data.js']).BS;
-	BS.data.buildIndexes(shows);
+	const BS = loadRuntime(['core/http.js', 'core/data.js']).BS;
+	BS.http.getJson = (url: string, callback: (error: Error | null, result?: unknown) => void) =>
+		callback(null, url === '/assets/shows.json' ? shows : undefined);
+	BS.data.load(() => {});
 	return BS.data;
 }
+
+test('has no shows until the catalogue loads, then all of them in order', () => {
+	const BS = loadRuntime(['core/http.js', 'core/data.js']).BS;
+	assert.deepEqual(plain(BS.data.getShows()), []);
+	assert.equal(BS.data.getShow('Alfa'), undefined);
+
+	assert.equal(setup().getShows(), shows);
+});
+
+test('passes on a failed load', () => {
+	const BS = loadRuntime(['core/http.js', 'core/data.js']).BS;
+	const failure = new Error('failed');
+	const results: (Error | null)[] = [];
+	BS.http.getJson = (_url: string, callback: (error: Error) => void) => callback(failure);
+
+	BS.data.load((error: Error | null) => results.push(error));
+
+	assert.deepEqual(results, [failure]);
+});
 
 test('finds shows by title', () => {
 	const data = setup();
 	assert.equal(data.getShow('Beta'), shows[1]);
 	assert.equal(data.getShow('Gamma'), undefined);
+	assert.equal(data.getShow('constructor'), undefined);
 });
 
 test('finds episodes by title, preferring the first of duplicate titles', () => {
