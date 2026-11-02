@@ -61,7 +61,8 @@ The model these decisions add up to is described in [`component-model.md`](compo
 ## Rules For Every Chunk
 
 - Follow `AGENTS.md` and [`chrome38-features.md`](chrome38-features.md): ES5 only, no Web Components, no unsupported CSS.
-- Component CSS classes are prefixed with the component name (`.tile`, `.tile-title`, `.button`, `.button-icon`). Pages never style a component's insides. If a page needs a different look, the component gets an option or a modifier class for it.
+- Component CSS classes are prefixed with the component name (`.tile`, `.tile-title`, `.button`, `.button-icon`), and page classes with the page name (`.episode-header`). Every selector in a folder's `<style>` starts from one of its own classes. After that it may name another component's classes to style it in that place (`.show-toolbar .tile-title`), but prefer an option or a modifier class on the component when the look is something the component should offer anyway.
+- `tests/unit/css-prefix.test.ts` enforces this for every selector in a component's or page's `<style>`. Its `knownExceptions` lists the selector starts that break the rule today, each with the chunk that removes it. A chunk that removes or renames one deletes its entry, and nothing adds new entries.
 - Before starting, snapshot `public/` as described in `AGENTS.md` and compare screenshots afterwards at 1920, 1100, 700 and 400 px. Anything that isn't pixel-identical must be an intended improvement, and should be shown to the user.
 - Prefer finding elements in e2e tests by role and accessible name (`getByRole('button', { name: 'Aftur' })`) over CSS classes.
 - Delete what a chunk makes unused, in the same chunk.
@@ -184,7 +185,7 @@ The model these decisions add up to is described in [`component-model.md`](compo
 **Pages**
 
 - Show page: the back button becomes an icon button with `back`/`Aftur`, and "Nulstilla Sæð" a `.button`.
-- Episode page: back becomes an icon button with `back`/`Aftur`, and fullscreen an icon button with `fullscreen`/`Fullur skíggi`. Remove the inline SVG and the `.fullscreen-*` rules.
+- Episode page: back becomes an icon button with `back`/`Aftur`, and fullscreen an icon button with `fullscreen`/`Fullur skíggi`. Remove the inline SVG and the `.fullscreen-*` rules, and their entries in `knownExceptions` in `css-prefix.test.ts`.
 - Not-found page: "Aftur til forsíðuna" becomes a `.button`.
 - Remove the global `button` rules from `base.css`. Every button now has the `.button` class, except the load-error screen's, which gets its own style in chunk 7 and keeps working until then.
 
@@ -224,6 +225,7 @@ The model these decisions add up to is described in [`component-model.md`](compo
 - Home and show pages build their tiles with `grid(...)` and put it in place of a placeholder. The show page passes its back and "Nulstilla Sæð" buttons from its template as the toolbar. `show.html` should end up with no `<style>`.
 - "Nulstilla Sæð" calls `tile.setWatched(false)` on each tile instead of `router.refresh()`, so the page isn't rebuilt and focus stays on the button.
 - Remove the unused `.episode-grid .header` rule.
+- Every selector in `tile.html` and `show.html` starts from a `.tile*` or `.show*` class: the tile's `.grid*`, `.header` and `.watched` become `.tile*`, the grid's classes are `.grid*` in `grid.html`, and the show page's `.actions` and `.episode-grid` are gone (the toolbar replaces `.actions`). Delete their entries in `knownExceptions`.
 
 **Tests**
 
@@ -275,7 +277,7 @@ The model these decisions add up to is described in [`component-model.md`](compo
 
 **Quality select** (`components/quality-select/`)
 
-- Keeps its markup in `quality-select.html`, using the `select` classes, and drops its own styles.
+- Keeps its markup in `quality-select.html`, using the `select` classes, and drops its own styles. The wrapper's `.quality-control` becomes `.quality-select`, and any layout it still needs (such as `margin-left: auto`) stays in `quality-select.html` under that name. Delete its entry in `knownExceptions`.
 - Only the level labels ("720p", "800 kbps", "Góðska 3") and the rule that "Auto" is `-1` remain in its JS. Its public API (`setLevels`, `onChange(level)`, `destroy`) stays the same.
 
 **Tests**
@@ -290,7 +292,7 @@ The model these decisions add up to is described in [`component-model.md`](compo
 
 **New component** (`components/player/`)
 
-- `player.html` has the wrapper, the `<video>` and a message element, and a `<style>` that takes over the `.player-*` rules from `episode.html`.
+- `player.html` has the wrapper, the `<video>` and a message element, and a `<style>` that takes over the `.player-*` rules from `episode.html`. Delete their entries in `knownExceptions`, which leaves it empty.
 - `BS.components.player({ onEnded, onLevels })` returns:
   - `element`
   - `load({ src, poster })` loads a new source into the same `<video>` element, which keeps fullscreen between episodes

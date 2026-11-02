@@ -7,7 +7,7 @@ How UI is split into components and pages in this project, how their files are l
 ## Principles
 
 - **Plain HTML, CSS and JavaScript.** No framework, no build step, no component registry, no dependency lists. The runtime rules in `AGENTS.md` and [`chrome38-features.md`](chrome38-features.md) apply to everything here.
-- **One folder per component or page.** It owns its markup, styles and behaviour, and nothing outside it styles or reaches into it.
+- **One folder per component or page.** It owns its markup, styles and behaviour, and nothing outside it reaches into its code. Other folders may only style it from inside their own elements (see [Styles](#styles)).
 - **Structure lives in HTML.** Templates hold the markup and static text. JS fills in data, wires up handlers and shows or hides parts.
 - **Native elements first.** Buttons are `<button>`, selects are `<select>`. That keeps the TV remote, focus and Enter/OK working without extra code, and the native API (`onclick`, `disabled`, `focus()`, `value`) is the component's API.
 - **Adding or removing a folder is one line in `index.html`.**
@@ -195,7 +195,8 @@ BS.pages.show = {
 ## Styles
 
 - Every class is prefixed with its component's name: `.tile`, `.tile-title`, `.button`, `.button-icon`. Page classes are prefixed with the page name.
-- Pages never style a component's insides. If a page needs a different look, the component gets a modifier class (`.button-icon`) or an option.
+- Every selector in a folder's `<style>` starts from one of its own classes, so its styles stay inside its own elements. After that, it may name another component's classes to style that component in that place: `.show-toolbar .tile-title` changes only the tiles in the show page's toolbar. A bare `.tile-title` in `show.html` is not allowed. `tests/unit/css-prefix.test.ts` enforces this.
+- Reaching into a component this way ties the page to the component's class names. When the look is something the component should offer anyway, give it a modifier class (`.button-icon`) or an option instead.
 - `core/base.css` holds only global styles: the page, typography, `main`, `h1` and the shared focus ring.
 - No CSS custom properties (the TV lacks them). Repeated values, like colours and breakpoints, are listed in a comment at the top of `base.css`.
 - `tests/unit/chrome38.test.ts` scans `<style>` elements as well as `.css` files for unsupported CSS.
