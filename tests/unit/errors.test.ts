@@ -107,6 +107,20 @@ test('reports uncaught errors as unhandled, with the same id', () => {
 	assert.equal(sent[2].body.properties.$exception_list[0].mechanism.handled, false);
 });
 
+test('keeps uncaught errors without details as breadcrumbs only', () => {
+	const { window, BS, sent } = setup('barnasendingar.vercel.app');
+
+	window.onerror('Script error.', '', 0, 0, undefined);
+	window.onerror('ResizeObserver loop limit exceeded', 'https://x/', 0, 0, undefined);
+	BS.logError('Real.', null);
+
+	assert.equal(sent.length, 1);
+	assert.deepEqual(
+		sent[0].body.properties.breadcrumbs.map((crumb: string) => crumb.slice(9)),
+		['Ignored: Script error.', 'Ignored: ResizeObserver loop limit exceeded']
+	);
+});
+
 test('sends breadcrumbs, earlier errors and context with each report', () => {
 	const { BS, sent } = setup('barnasendingar.vercel.app');
 

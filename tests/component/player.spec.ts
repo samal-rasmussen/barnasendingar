@@ -62,6 +62,21 @@ test('reports no levels when loading, then the stream levels', async ({ page }) 
 	expect(playlistRequests).toEqual(['https://video.test/a/master.m3u8']);
 });
 
+test('keeps the buffer small enough for Samsung TVs', async ({ page }) => {
+	await page.evaluate(() => {
+		const loadSource = (window as any).Hls.prototype.loadSource;
+		(window as any).Hls.prototype.loadSource = function (src: string) {
+			window.testHlsConfig = this.config;
+			return loadSource.call(this, src);
+		};
+	});
+	await load(page, 'https://video.test/a/master.m3u8');
+
+	const config = await page.evaluate(() => window.testHlsConfig);
+	expect(config.maxMaxBufferLength).toBeLessThanOrEqual(30);
+	expect(config.maxBufferSize).toBeLessThanOrEqual(20 * 1000 * 1000);
+});
+
 test('loads a new source into the same video element', async ({ page }) => {
 	await load(page, 'https://video.test/a/master.m3u8');
 	await expect.poll(() => levels(page)).toHaveLength(2);

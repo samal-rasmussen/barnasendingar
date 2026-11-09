@@ -144,7 +144,12 @@
 	 * @param {Error=} error
 	 */
 	window.onerror = function (message, source, line, column, error) {
-		var where = source ? ' at ' + source + ':' + line + ':' + column : '';
+		var where;
+		if (!error && isNoise(String(message))) {
+			BS.errors.note('Ignored: ' + String(message));
+			return false;
+		}
+		where = source ? ' at ' + source + ':' + line + ':' + column : '';
 		// The browser's message repeats the error's own, so it is only used
 		// when there is no error object (such as for some script errors).
 		BS.errors.report(
@@ -154,6 +159,20 @@
 		);
 		return false;
 	};
+
+	/**
+	 * Uncaught errors that say nothing useful and come often, so they are
+	 * kept as breadcrumbs, not reported: "Script error." (an error in a
+	 * script from another origin, which the browser hides; the LG TV's own
+	 * scripts throw these) and the browser's harmless ResizeObserver
+	 * warning.
+	 *
+	 * @param {string} message
+	 * @returns {boolean}
+	 */
+	function isNoise(message) {
+		return /^(Uncaught )?Script error\.?$/.test(message) || /ResizeObserver loop/.test(message);
+	}
 
 	/**
 	 * A short description of a thrown value, or '' for none.

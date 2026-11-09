@@ -26,7 +26,9 @@ const jsRules: Rule[] = [
 		'DOM method newer than Chrome 38'
 	],
 	[
-		/\b(IntersectionObserver|ResizeObserver|requestIdleCallback|AbortController|PointerEvent|PaymentRequest|WebAssembly|WebGL2RenderingContext|PushManager|SyncManager)\b/,
+		// Not right after a quote or slash: there the name is text in a
+		// string or regex, such as one matching a browser's error message.
+		/(?<!['"/])\b(IntersectionObserver|ResizeObserver|requestIdleCallback|AbortController|PointerEvent|PaymentRequest|WebAssembly|WebGL2RenderingContext|PushManager|SyncManager)\b/,
 		'API newer than Chrome 38'
 	],
 	[

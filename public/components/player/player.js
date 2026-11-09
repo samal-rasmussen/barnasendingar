@@ -384,7 +384,15 @@
 	 * @returns {any} the hls.js instance
 	 */
 	function attachHls(Hls, video, src, onReady, onLevelSwitched) {
-		var hls = new Hls({ enableWorker: false });
+		var hls = new Hls({
+			enableWorker: false,
+			// hls.js would otherwise buffer up to 60 MB ahead, about 80
+			// seconds of 1080p. Samsung's Tizen TVs run out of buffer space
+			// before that (bufferFullError), and then fail to decode.
+			maxBufferLength: 30,
+			maxMaxBufferLength: 30,
+			maxBufferSize: 20 * 1000 * 1000
+		});
 
 		hls.loadSource(src);
 		hls.attachMedia(video);
